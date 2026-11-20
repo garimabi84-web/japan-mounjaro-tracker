@@ -1,0 +1,148 @@
+{
+  "ran_at": null,
+  "source_status": [],
+  "hits_this_run": null,
+  "new_candidates": [],
+  "archive": [
+    {
+      "key": "21c554d5202bf75d7d4a",
+      "hit": {
+        "url": "https://search.yahoo.co.jp/realtime/search?p=CKK%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF%20%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD",
+        "title": "CKK 온라인 클리닉",
+        "snippet": "공개 X 검색에서 CKK의 기간 한정 할인 홍보 발견. 현재 정상가는 공식 12펜 가격표로 재확인.",
+        "clinic_names": [
+          "CKK 온라인 클리닉"
+        ],
+        "channel": "sns",
+        "source": "public SNS indexed research / clinic verification",
+        "query": "マンジャロ クリニック 価格",
+        "first_seen": "2026-11-20T22:40:00+09:00",
+        "last_seen": "2026-11-20T22:40:00+09:00",
+        "event": {
+          "kind": "event_post",
+          "snippet": "행사 10/29~10/31 종료",
+          "price_verified": false
+        }
+      }
+    },
+    {
+      "key": "7e79460e831051f1bc8b",
+      "hit": {
+        "url": "https://x.com/pique_clinic_",
+        "title": "PIQUÉ CLINIC",
+        "snippet": "공식 X 계정의 초기 가격 할인 홍보 확인. 11/30까지 기간 한정 12펜 예약 플랫폼 가격 검증.",
+        "clinic_names": [
+          "PIQUÉ CLINIC"
+        ],
+        "channel": "sns",
+        "source": "public SNS indexed research / clinic verification",
+        "query": "マンジャロ クリニック 価格",
+        "first_seen": "2026-11-20T22:40:00+09:00",
+        "last_seen": "2026-11-20T22:40:00+09:00",
+        "event": {
+          "kind": "event_post",
+          "snippet": "행사 11/30 종료",
+          "price_verified": false
+        }
+      }
+    },
+    {
+      "key": "bfc5004ac7d019d275a6",
+      "hit": {
+        "url": "https://x.com/ORIGAMI_CLINIC",
+        "title": "ORIGAMI CLINIC",
+        "snippet": "공식 X 가격 홍보에서 신규 발견. 공식 웹의 12펜과 4펜 가격으로 정리.",
+        "clinic_names": [
+          "ORIGAMI CLINIC"
+        ],
+        "channel": "sns",
+        "source": "public SNS indexed research / clinic verification",
+        "query": "マンジャロ クリニック 価格",
+        "first_seen": "2026-11-20T22:40:00+09:00",
+        "last_seen": "2026-11-20T22:40:00+09:00",
+        "event": null
+      }
+    },
+    {
+      "key": "9d5dffcb77c7aa7dd537",
+      "hit": {
+        "url": "https://x.com/SDH_medicaldiet",
+        "title": "SDH 클리닉",
+        "snippet": "X 공개 검색에서 3개월 처방 조건 리포스트 할인 발견. 11/15 종료한 이벤트는 별도 이력 보관.",
+        "clinic_names": [
+          "SDH 클리닉"
+        ],
+        "channel": "sns",
+        "source": "public SNS indexed research / clinic verification",
+        "query": "マンジャロ クリニック 価格",
+        "first_seen": "2026-11-20T22:40:00+09:00",
+        "last_seen": "2026-11-20T22:40:00+09:00",
+        "event": {
+          "kind": "event_post",
+          "snippet": "행사 11/15 종료",
+          "price_verified": false
+        }
+      }
+    },
+    {
+      "key": "a7430067b914e0e18f5d",
+      "hit": {
+        "url": "https://x.com/kakuyasu_clinic",
+        "title": "카쿠야스 클리닉",
+        "snippet": "X 공식 계정 단품 최저가 홍보로 신규 발견. 12펜 금액 근거가 없어서 가격 보류.",
+        "clinic_names": [
+          "카쿠야스 클리닉"
+        ],
+        "channel": "sns",
+        "source": "public SNS indexed research / clinic verification",
+        "query": "マンジャロ クリニック 価格",
+        "first_seen": "2026-11-20T22:40:00+09:00",
+        "last_seen": "2026-11-20T22:40:00+09:00",
+        "event": {
+          "kind": "event_post",
+          "snippet": "단품 특가·12펜 적용 불명",
+          "price_verified": false
+        }
+      }
+    },
+    {
+      "key": "7f2bbfc2e6abea97d92b",
+      "hit": {
+        "url": "https://x.com/MT_DIET_CLINIC",
+        "title": "MT 온라인 클리닉",
+        "snippet": "X 홍보 게시물에서 6개월 대량 구매 할인 발견. 해당 단가를 3개월 구매 가격으로 변환하지 않음.",
+        "clinic_names": [
+          "MT 온라인 클리닉"
+        ],
+        "channel": "sns",
+        "source": "public SNS indexed research / clinic verification",
+        "query": "マンジャロ クリニック 価格",
+        "first_seen": "2026-11-20T22:40:00+09:00",
+        "last_seen": "2026-11-20T22:40:00+09:00",
+        "event": {
+          "kind": "event_post",
+          "snippet": "6개월 조건",
+          "price_verified": false
+        }
+      }
+    },
+    {
+      "key": "c276b17564c30c076a81",
+      "hit": {
+        "url": "https://yamamotoclinic.or.jp/beauty/m-diet/",
+        "title": "야마모토 클리닉",
+        "snippet": "여행자 방문 후기 및 공식 요나고 병원 가격표 교차 확인. 4펜 단가×3 산정.",
+        "clinic_names": [
+          "야마모토 클리닉"
+        ],
+        "channel": "web",
+        "source": "public SNS indexed research / clinic verification",
+        "query": "マンジャロ クリニック 価格",
+        "first_seen": "2026-11-20T22:40:00+09:00",
+        "last_seen": "2026-11-20T22:40:00+09:00",
+        "event": null
+      }
+    }
+  ],
+  "note": "Initial manually verified public search leads (not an automated collection run). Activate GitHub Actions for recurring scans."
+}
