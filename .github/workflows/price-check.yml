@@ -53,14 +53,45 @@ jobs:
       - name: Rebuild offline HTML and comparison CSV
         run: python build.py
       - name: Commit new clinics, source evidence and changed-page flags
+        shell: bash
         run: |
+          set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add catalog.json catalog.csv discoveries.json watch_state.json monitor.js index.html
-          if ! git diff --staged --quiet; then
-            git commit -m 'Daily public SNS clinic discovery and price-source monitoring'
-            # Other changes may land while network discovery is running.
+
+          # Read the newest main BEFORE saving. A long SNS crawl can overlap
+          # with a user editing a clinic or adding another workflow file.
+          # Never replay stale catalog.json over newer manually verified data.
+          refresh_from_main() {
             git fetch origin main
-            git rebase origin/main
-            git push origin HEAD:main
+            git reset --hard origin/main
+            python discover.py
+            python enrich_official.py
+            python watch_sources.py
+            python build.py
+          }
+
+          git fetch origin main
+          if [ "$(git rev-parse HEAD)" != "$(git rev-parse origin/main)" ]; then
+            echo "Main changed during discovery; rebuilding on latest committed data"
+            refresh_from_main
           fi
+
+          for attempt in 1 2 3; do
+            git add catalog.json catalog.csv discoveries.json watch_state.json monitor.js index.html
+            if git diff --staged --quiet; then
+              echo "No updated data to commit"
+              exit 0
+            fi
+            git commit -m 'Daily public SNS clinic discovery and price-source monitoring'
+            if git push origin HEAD:main; then
+              echo "Updated tracker data saved"
+              exit 0
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              echo "GitHub changed too frequently; leaving newer remote data untouched"
+              exit 1
+            fi
+            echo "Push was rejected due to concurrent update; rerunning on current main"
+            refresh_from_main
+          done
