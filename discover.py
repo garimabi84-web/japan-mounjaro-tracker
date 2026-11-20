@@ -321,6 +321,12 @@ def discover(session, limit=90, full=False):
 def merge_into_catalog(cat, rawhits, archive):
     ids = {x["id"] for x in cat["clinics"]}
     seen = {norm_name(x["name"]) for x in cat["clinics"]}
+    seen_directory_slugs = set()
+    for existing in cat["clinics"]:
+        existing_path = urllib.parse.urlsplit(existing.get("url", "")).path
+        existing_match = re.search(r"/(?:ja/|en/)?clinic/([^/]+)", existing_path)
+        if existing_match:
+            seen_directory_slugs.add(existing_match.group(1))
     known_aliases = {norm_name(name): ident for name, ident in ALIASES.items()}
     fresh = []
     stamp = now()
@@ -330,7 +336,10 @@ def merge_into_catalog(cat, rawhits, archive):
         directory_slug=match.group(1) if match else None
         known_id=KNOWN_DIRECTORY_SLUGS.get(directory_slug) if directory_slug else None
         # Directory listing for a clinic already in the official data is NOT new.
-        skip_known_dir=bool(known_id and known_id in ids)
+        skip_known_dir = bool(known_id and known_id in ids)
+        if directory_slug and (skip_known_dir or directory_slug in seen_directory_slugs):
+            # Same provider already catalogued (or on another directory page).
+            continue
         for name in hit["clinic_names"]:
             if skip_known_dir:
                 continue
@@ -357,6 +366,8 @@ def merge_into_catalog(cat, rawhits, archive):
             cat["clinics"].append(row)
             ids.add(ident)
             seen.add(norm)
+            if directory_slug:
+                seen_directory_slugs.add(directory_slug)
             fresh.append({"id": ident, "name": name, "source_url": hit["url"],
                           "source": hit["source"], "channel": hit["channel"]})
         key = hashlib.sha1(hit["url"].encode()).hexdigest()[:20]
@@ -380,6 +391,12 @@ def self_test():
     found, _ = merge_into_catalog(cat, [positive], {})
     assert len(found) == 1 and cat["clinics"][0]["status"] == "candidate"
     assert all(v is None for v in cat["clinics"][0]["prices"].values())
+    directory_hit = {"url": "https://sushijaro.app/ja/clinic/new-clinic",
+        "clinic_names": ["テスト医療クリニック"], "channel":"web",
+        "source":"public_directory_lead"}
+    cat2={"clinics":[]}
+    leads, _ = merge_into_catalog(cat2, [directory_hit, directory_hit], {})
+    assert len(leads)==1 and len(cat2["clinics"])==1, leads
     print("discovery self-test passed: real name, false-positive rejection, safe candidates")
 
 def run():
