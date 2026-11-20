@@ -1,6 +1,11 @@
 name: Find new clinics from public SNS/web and monitor price sources
 on:
   workflow_dispatch:
+    inputs:
+      full_scan:
+        description: 'All Korean/SNS/regional discovery queries (slower)'
+        type: boolean
+        default: false
   push:
     branches: [main]
     paths:
@@ -29,8 +34,15 @@ jobs:
           python -m py_compile discover.py enrich_official.py build.py
           python discover.py --self-test
           python enrich_official.py --self-test
-      - name: Discover from public indexed social posts and Japanese web
-        run: python discover.py
+      - name: Discover from Korean traveler SNS ads and public web
+        env:
+          FULL_SCAN: ${{ inputs.full_scan }}
+        run: |
+          if [ "$FULL_SCAN" = "true" ]; then
+            python discover.py --full-scan
+          else
+            python discover.py
+          fi
       - name: Verify official prices for new SNS-discovered clinics
         run: python enrich_official.py
       - name: Monitor the expanded official-source list
