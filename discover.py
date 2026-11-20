@@ -300,6 +300,9 @@ def run():
     cat = json.loads(CATALOG.read_text(encoding="utf-8"))
     prior = json.loads(OUTPUT.read_text(encoding="utf-8")) if OUTPUT.exists() else {}
     archive = {x["key"]: x["hit"] for x in prior.get("archive", []) if "key" in x}
+    # Reclassify legacy titles before keeping them; older parser captured sentences.
+    archive = {k: v for k, v in archive.items() if entry(v.get("url", ""), v.get("title", ""),
+               v.get("snippet", ""), v.get("source", "legacy"), v.get("query", ""))}
     session = requests.Session()
     session.headers.update({"User-Agent": UA, "Accept-Language": "ja,ko;q=0.9,en;q=0.7"})
     hits, sources = discover(session, full=args.full_scan)
