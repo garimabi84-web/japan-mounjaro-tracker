@@ -15,7 +15,7 @@ html=html.replace('<script src="monitor.js"></script>','<script>'+monitor+'</scr
 DS=cat['doses']
 cols=['병원 ID','병원명','지역','도시','외국인단기체류처방','비대면진료','일본전국배송','상태','발견경로',
       *[f'{x}mg 12펜 기본가(엔)' for x in DS], *[f'{x}mg 12펜 행사 최저가(엔)' for x in DS],
-      '행사명','행사시작','행사종료','행사조건','가격산정','진찰 배송비','비고','가격공식출처','확인일']
+      '행사명','행사시작','행사종료','행사조건','가격산정','진찰 배송비','예약 방법','예약 링크 종류','예약 페이지','예약 유의사항','예약 확인일','비고','가격공식출처','확인일']
 with (ROOT/'catalog.csv').open('w',encoding='utf-8-sig',newline='') as fh:
  w=csv.writer(fh);w.writerow(cols)
  for r in cat['clinics']:
@@ -25,5 +25,5 @@ with (ROOT/'catalog.csv').open('w',encoding='utf-8-sig',newline='') as fh:
               *[r.get('prices',{}).get(x) for x in DS], *event_vals,
               ' / '.join(e['name'] for e in events), ' / '.join(e.get('start','') for e in events),
               ' / '.join(e.get('end','') for e in events), ' / '.join(e.get('conditions','') for e in events),
-              r.get('basis',''),r.get('fees',''),r.get('notes',''),r.get('url',''),r.get('updated','')])
+              r.get('basis',''),r.get('fees',''),r.get('booking_method',''),r.get('booking_type',''),r.get('booking_url',''),r.get('booking_notes',''),r.get('booking_checked',''),r.get('notes',''),r.get('url',''),r.get('updated','')])
 print('Built HTML+CSV:',len(cat['clinics']),'items',sum(bool(r.get('events')) for r in cat['clinics']),'with events',len(finds.get('archive',[])),'discovery hits')
