@@ -19,6 +19,9 @@ on:
     - cron: '17 0 * * *'
 permissions:
   contents: write
+concurrency:
+  group: price-check-${{ github.ref }}
+  cancel-in-progress: false
 jobs:
   discover-and-check:
     runs-on: ubuntu-latest
@@ -56,5 +59,8 @@ jobs:
           git add catalog.json catalog.csv discoveries.json watch_state.json monitor.js index.html
           if ! git diff --staged --quiet; then
             git commit -m 'Daily public SNS clinic discovery and price-source monitoring'
-            git push
+            # Other changes may land while network discovery is running.
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
           fi
