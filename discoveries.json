@@ -1,5 +1,5 @@
 {
-  "ran_at": "2026-11-21T01:29:21+09:00",
+  "ran_at": "2026-11-21T01:32:22+09:00",
   "source_status": [
     {
       "source": "bing_html",
@@ -9,11 +9,11 @@
       "fallback": true
     },
     {
-      "source": "bing_html",
+      "source": "bing_rss",
       "query": "訪日韓国人 マンジャロ 処方 価格 LINE",
       "ok": true,
-      "items": 0,
-      "fallback": true
+      "items": 10,
+      "fallback": false
     },
     {
       "source": "bing_html",
@@ -30,32 +30,32 @@
       "fallback": true
     },
     {
-      "source": "bing_html",
+      "source": "bing_rss",
       "query": "マンジャロ 韓国語 予約 クリニック",
       "ok": true,
-      "items": 0,
-      "fallback": true
+      "items": 10,
+      "fallback": false
     },
     {
       "source": "bing_html",
       "query": "마운자로 일본 병원 예약 할인 3개월",
       "ok": true,
-      "items": 0,
-      "fallback": true
-    },
-    {
-      "source": "bing_html",
-      "query": "일본 마운자로 한국인 처방 클리닉 호텔 배송",
-      "ok": true,
-      "items": 0,
+      "items": 10,
       "fallback": true
     },
     {
       "source": "bing_rss",
+      "query": "일본 마운자로 한국인 처방 클리닉 호텔 배송",
+      "ok": true,
+      "items": 1,
+      "fallback": false
+    },
+    {
+      "source": "bing_html",
       "query": "일본 마운자로 병원 SNS 이벤트 10mg",
       "ok": true,
-      "items": 10,
-      "fallback": false
+      "items": 1,
+      "fallback": true
     },
     {
       "source": "bing_html",
@@ -79,24 +79,24 @@
       "fallback": true
     },
     {
-      "source": "bing_rss",
+      "source": "bing_html",
       "query": "site:instagram.com マンジャロ クリニック 韓国人",
+      "ok": true,
+      "items": 10,
+      "fallback": true
+    },
+    {
+      "source": "bing_rss",
+      "query": "site:instagram.com マンジャロ 3ヶ月 予約",
       "ok": true,
       "items": 1,
       "fallback": false
     },
     {
       "source": "bing_html",
-      "query": "site:instagram.com マンジャロ 3ヶ月 予約",
-      "ok": true,
-      "items": 0,
-      "fallback": true
-    },
-    {
-      "source": "bing_html",
       "query": "site:instagram.com 마운자로 일본 클리닉 예약",
       "ok": true,
-      "items": 0,
+      "items": 10,
       "fallback": true
     },
     {
@@ -117,7 +117,7 @@
       "source": "bing_html",
       "query": "マンジャロ 韓国人 旅行者 クリニック 東京 予約",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "fallback": true
     },
     {
@@ -1189,8 +1189,8 @@
         "source": "public_directory_lead",
         "query": "foreign-traveler clinic directory",
         "event": null,
-        "first_seen": "2026-11-21T01:29:21+09:00",
-        "last_seen": "2026-11-21T01:29:21+09:00"
+        "first_seen": "2026-11-21T01:32:22+09:00",
+        "last_seen": "2026-11-21T01:32:22+09:00"
       }
     }
   ],
