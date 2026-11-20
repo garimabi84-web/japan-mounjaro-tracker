@@ -1,5 +1,5 @@
 {
-  "ran_at": "2026-11-21T01:03:08+09:00",
+  "ran_at": "2026-11-21T01:06:06+09:00",
   "source_status": [
     {
       "source": "bing_rss",
@@ -16,46 +16,46 @@
       "fallback": true
     },
     {
-      "source": "bing_html",
+      "source": "bing_rss",
       "query": "マウンジャロ 韓国人 旅行者 ホテル 配送 クリニック",
       "ok": true,
-      "items": 0,
-      "fallback": true
+      "items": 10,
+      "fallback": false
     },
     {
-      "source": "bing_html",
+      "source": "bing_rss",
       "query": "マンジャロ 12本 3ヶ月 外国人 処方",
       "ok": true,
-      "items": 0,
-      "fallback": true
+      "items": 10,
+      "fallback": false
     },
     {
-      "source": "bing_html",
+      "source": "bing_rss",
       "query": "マンジャロ 韓国語 予約 クリニック",
       "ok": true,
-      "items": 0,
-      "fallback": true
+      "items": 10,
+      "fallback": false
     },
     {
-      "source": "bing_html",
+      "source": "bing_rss",
       "query": "마운자로 일본 병원 예약 할인 3개월",
       "ok": true,
-      "items": 0,
-      "fallback": true
+      "items": 7,
+      "fallback": false
     },
     {
-      "source": "bing_html",
+      "source": "bing_rss",
       "query": "일본 마운자로 한국인 처방 클리닉 호텔 배송",
       "ok": true,
-      "items": 0,
-      "fallback": true
+      "items": 10,
+      "fallback": false
     },
     {
-      "source": "bing_html",
+      "source": "bing_rss",
       "query": "일본 마운자로 병원 SNS 이벤트 10mg",
       "ok": true,
-      "items": 0,
-      "fallback": true
+      "items": 10,
+      "fallback": false
     },
     {
       "source": "bing_rss",
@@ -65,11 +65,11 @@
       "fallback": false
     },
     {
-      "source": "bing_html",
+      "source": "bing_rss",
       "query": "マンジャロ 観光客 価格改定 クリニック",
       "ok": true,
-      "items": 0,
-      "fallback": true
+      "items": 10,
+      "fallback": false
     },
     {
       "source": "bing_html",
@@ -86,38 +86,38 @@
       "fallback": true
     },
     {
-      "source": "bing_html",
+      "source": "bing_rss",
       "query": "site:instagram.com マンジャロ 3ヶ月 予約",
       "ok": true,
-      "items": 10,
-      "fallback": true
+      "items": 1,
+      "fallback": false
     },
     {
       "source": "bing_rss",
       "query": "site:instagram.com 마운자로 일본 클리닉 예약",
+      "ok": true,
+      "items": 7,
+      "fallback": false
+    },
+    {
+      "source": "bing_rss",
+      "query": "マンジャロ 韓国人 旅行者 クリニック 福岡 予約",
+      "ok": true,
+      "items": 10,
+      "fallback": false
+    },
+    {
+      "source": "bing_rss",
+      "query": "マンジャロ 韓国人 旅行者 クリニック 大阪 予約",
       "ok": true,
       "items": 10,
       "fallback": false
     },
     {
       "source": "bing_html",
-      "query": "マンジャロ 韓国人 旅行者 クリニック 福岡 予約",
-      "ok": true,
-      "items": 0,
-      "fallback": true
-    },
-    {
-      "source": "bing_html",
-      "query": "マンジャロ 韓国人 旅行者 クリニック 大阪 予約",
-      "ok": true,
-      "items": 0,
-      "fallback": true
-    },
-    {
-      "source": "bing_html",
       "query": "マンジャロ 韓国人 旅行者 クリニック 東京 予約",
       "ok": true,
-      "items": 0,
+      "items": 10,
       "fallback": true
     },
     {
@@ -172,15 +172,14 @@
     {
       "source": "google_news",
       "query": "マンジャロ 訪日外国人 クリニック 新規 価格",
-      "ok": true,
-      "items": 8,
-      "fallback": false
+      "ok": false,
+      "reason": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%E3%83%9E%E3%83%B3"
     },
     {
       "source": "google_news",
       "query": "マンジャロ クリニック 韓国語 ホテル 配送",
       "ok": true,
-      "items": 5,
+      "items": 4,
       "fallback": false
     },
     {
@@ -203,204 +202,7 @@
     }
   ],
   "hits_this_run": 47,
-  "new_candidates": [
-    {
-      "id": "found-420d3530584a",
-      "name": "DMMオンラインクリニック",
-      "source_url": "https://sushijaro.app/ja/clinic/dmm?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-847b7b9c28dd",
-      "name": "東京オンラインクリニック",
-      "source_url": "https://sushijaro.app/ja/clinic/tokyo-online-clinic?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-edd0b299ce89",
-      "name": "メガミクリニック",
-      "source_url": "https://sushijaro.app/ja/clinic/megacli?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-38f86e23ae1f",
-      "name": "ゆうしん内科クリニック",
-      "source_url": "https://sushijaro.app/ja/clinic/ys-med?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-3fe4880344f0",
-      "name": "クララビューティクリニック札幌院 / クララ美容皮膚科 福岡天神院",
-      "source_url": "https://sushijaro.app/ja/clinic/clarabeautyclinic?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-e5533c5a735c",
-      "name": "新宿しまだ内科クリニック",
-      "source_url": "https://sushijaro.app/ja/clinic/naika?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-f9eb3b3015b9",
-      "name": "西新宿今野クリニック",
-      "source_url": "https://sushijaro.app/ja/clinic/honenaika?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-bfb328961e74",
-      "name": "きれいクリニック",
-      "source_url": "https://sushijaro.app/ja/clinic/kirei-clinic?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-8b5256408c71",
-      "name": "PGC CLINIC SHINJUKU",
-      "source_url": "https://sushijaro.app/ja/clinic/pgc-clinic?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-5781d99392be",
-      "name": "アーモンドクリニック",
-      "source_url": "https://sushijaro.app/ja/clinic/almond?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-6531d23aa906",
-      "name": "なないろクリニック",
-      "source_url": "https://sushijaro.app/ja/clinic/nana?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-4bd542ea1740",
-      "name": "AB美容クリニック新宿院",
-      "source_url": "https://sushijaro.app/ja/clinic/abclinic?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-59a67d2639ee",
-      "name": "新橋消化器内科・泌尿器科クリニック",
-      "source_url": "https://sushijaro.app/ja/clinic/shokaki-hinyouki?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-a2d1013e752b",
-      "name": "アークリシュ美容皮フ科クリニック",
-      "source_url": "https://sushijaro.app/ja/clinic/arcrish?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-7ef8488a9704",
-      "name": "広島ウェルネスクリニック",
-      "source_url": "https://sushijaro.app/ja/clinic/hiroshima-wellness?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-2175513daad9",
-      "name": "医療法人社団 医進会 大阪小田クリニック",
-      "source_url": "https://sushijaro.app/ja/clinic/ishinkai-ooc?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-501392428fc9",
-      "name": "鹿児島三井中央クリニック",
-      "source_url": "https://sushijaro.app/ja/clinic/chuoh-clinic-kagoshima?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-90b350a4450d",
-      "name": "スキンラボクリニック五反田",
-      "source_url": "https://sushijaro.app/ja/clinic/skinlabclinic?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-6631ae4c817b",
-      "name": "BIANCA CLINIC 銀座院",
-      "source_url": "https://sushijaro.app/ja/clinic/biancaclinic?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-82ce0385b144",
-      "name": "N2クリニック ホテル椿山荘東京院",
-      "source_url": "https://sushijaro.app/ja/clinic/n2clinic-chinzanso?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-cbe644bf774d",
-      "name": "福岡TAクリニック",
-      "source_url": "https://sushijaro.app/ja/clinic/taclinic-fukuoka?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-281d1a4a9038",
-      "name": "MIRAI STC CLINIC",
-      "source_url": "https://sushijaro.app/ja/clinic/miraistcclinic?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-ce61892e3888",
-      "name": "ミセルクリニック福岡院",
-      "source_url": "https://sushijaro.app/ja/clinic/fukuoka-fujino?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-f113ed9b4aa7",
-      "name": "トータルスキンクリニック福岡天神院",
-      "source_url": "https://sushijaro.app/ja/clinic/saishin-sp-fukuoka?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-8378ad146438",
-      "name": "ルラ美容クリニック",
-      "source_url": "https://sushijaro.app/ja/clinic/lula-beauty?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-975354002f49",
-      "name": "福岡博多駅前通中央クリニック",
-      "source_url": "https://sushijaro.app/ja/clinic/fukuoka-chuoh-biyo?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-cb0be25e6bac",
-      "name": "グラシアクリニック福岡",
-      "source_url": "https://sushijaro.app/ja/clinic/gracia-clinic?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-b96b5cc94e4c",
-      "name": "シェリークリニック",
-      "source_url": "https://sushijaro.app/ja/clinic/sherieclinic?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    }
-  ],
+  "new_candidates": [],
   "archive": [
     {
       "key": "aa5890a7b9fcbdfd349f",
@@ -1386,127 +1188,8 @@
         "source": "public_directory_lead",
         "query": "foreign-traveler clinic directory",
         "event": null,
-        "first_seen": "2026-11-21T01:03:08+09:00",
-        "last_seen": "2026-11-21T01:03:08+09:00"
-      }
-    },
-    {
-      "key": "0fea497074988f22f1f9",
-      "hit": {
-        "url": "https://sushijaro.app/ja/clinic/pococli?dose=2.5",
-        "title": "ぽこクリ",
-        "snippet": "Mounjaro clinic listing (name lead only)",
-        "clinic_names": [
-          "ぽこクリ"
-        ],
-        "channel": "web",
-        "source": "public_directory_lead",
-        "query": "foreign-traveler clinic directory",
-        "event": null,
-        "first_seen": "2026-11-21T01:03:08+09:00",
-        "last_seen": "2026-11-21T01:03:08+09:00"
-      }
-    },
-    {
-      "key": "9ce7b00a3928f174a1d9",
-      "hit": {
-        "url": "https://sushijaro.app/ja/clinic/okachi-clinic?dose=2.5",
-        "title": "おかちクリニック",
-        "snippet": "Mounjaro clinic listing (name lead only)",
-        "clinic_names": [
-          "おかちクリニック"
-        ],
-        "channel": "web",
-        "source": "public_directory_lead",
-        "query": "foreign-traveler clinic directory",
-        "event": null,
-        "first_seen": "2026-11-21T01:03:08+09:00",
-        "last_seen": "2026-11-21T01:03:08+09:00"
-      }
-    },
-    {
-      "key": "d5ff7c51c1f4a484ee47",
-      "hit": {
-        "url": "https://sushijaro.app/ja/clinic/mil-clinic?dose=2.5",
-        "title": "MIL CLINIC OSAKA",
-        "snippet": "Mounjaro clinic listing (name lead only)",
-        "clinic_names": [
-          "MIL CLINIC OSAKA"
-        ],
-        "channel": "web",
-        "source": "public_directory_lead",
-        "query": "foreign-traveler clinic directory",
-        "event": null,
-        "first_seen": "2026-11-21T01:03:08+09:00",
-        "last_seen": "2026-11-21T01:03:08+09:00"
-      }
-    },
-    {
-      "key": "56cdc814da14cbd866c2",
-      "hit": {
-        "url": "https://sushijaro.app/ja/clinic/bw-med?dose=2.5",
-        "title": "JAPAN WEB CLINIC",
-        "snippet": "Mounjaro clinic listing (name lead only)",
-        "clinic_names": [
-          "JAPAN WEB CLINIC"
-        ],
-        "channel": "web",
-        "source": "public_directory_lead",
-        "query": "foreign-traveler clinic directory",
-        "event": null,
-        "first_seen": "2026-11-21T01:03:08+09:00",
-        "last_seen": "2026-11-21T01:03:08+09:00"
-      }
-    },
-    {
-      "key": "673579c8caa637772a18",
-      "hit": {
-        "url": "https://sushijaro.app/ja/clinic/pgc-clinic?dose=2.5",
-        "title": "PGC CLINIC SHINJUKU",
-        "snippet": "Mounjaro clinic listing (name lead only)",
-        "clinic_names": [
-          "PGC CLINIC SHINJUKU"
-        ],
-        "channel": "web",
-        "source": "public_directory_lead",
-        "query": "foreign-traveler clinic directory",
-        "event": null,
-        "first_seen": "2026-11-21T01:03:08+09:00",
-        "last_seen": "2026-11-21T01:03:08+09:00"
-      }
-    },
-    {
-      "key": "b61b758760eaf71ae7ee",
-      "hit": {
-        "url": "https://sushijaro.app/ja/clinic/biancaclinic?dose=2.5",
-        "title": "BIANCA CLINIC 銀座院",
-        "snippet": "Mounjaro clinic listing (name lead only)",
-        "clinic_names": [
-          "BIANCA CLINIC 銀座院"
-        ],
-        "channel": "web",
-        "source": "public_directory_lead",
-        "query": "foreign-traveler clinic directory",
-        "event": null,
-        "first_seen": "2026-11-21T01:03:08+09:00",
-        "last_seen": "2026-11-21T01:03:08+09:00"
-      }
-    },
-    {
-      "key": "102d919f6dde21ebcad2",
-      "hit": {
-        "url": "https://sushijaro.app/ja/clinic/miraistcclinic?dose=2.5",
-        "title": "MIRAI STC CLINIC",
-        "snippet": "Mounjaro clinic listing (name lead only)",
-        "clinic_names": [
-          "MIRAI STC CLINIC"
-        ],
-        "channel": "web",
-        "source": "public_directory_lead",
-        "query": "foreign-traveler clinic directory",
-        "event": null,
-        "first_seen": "2026-11-21T01:03:08+09:00",
-        "last_seen": "2026-11-21T01:03:08+09:00"
+        "first_seen": "2026-11-21T01:06:06+09:00",
+        "last_seen": "2026-11-21T01:06:06+09:00"
       }
     }
   ],
