@@ -1,6 +1,15 @@
 name: Find new clinics from public SNS/web and monitor price sources
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'discover.py'
+      - 'enrich_official.py'
+      - 'catalog.json'
+      - 'index.template.html'
+      - 'build.py'
+      - '.github/workflows/price-check.yml'
   schedule:
     - cron: '17 0 * * *'
 permissions:
@@ -15,6 +24,11 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r requirements.txt
+      - name: Validate discovery and official-price parsers
+        run: |
+          python -m py_compile discover.py enrich_official.py build.py
+          python discover.py --self-test
+          python enrich_official.py --self-test
       - name: Discover from public indexed social posts and Japanese web
         run: python discover.py
       - name: Verify official prices for new SNS-discovered clinics
