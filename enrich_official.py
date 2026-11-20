@@ -92,6 +92,13 @@ def official_link(session,name):
         except Exception:pass
     return None
 
+def official_host(url):
+    try:
+        host=(urllib.parse.urlsplit(url).hostname or '').lower()
+        return host.removeprefix('www.')
+    except (TypeError,ValueError):
+        return ''
+
 def run():
     ap=argparse.ArgumentParser();ap.add_argument('--self-test',action='store_true');arg=ap.parse_args()
     if arg.self_test:
@@ -101,9 +108,22 @@ def run():
         product='<h1>マンジャロ 10.0mg</h1> ¥46,000 (税込) 1ヶ月分（4本）のお値段となります。'
         prices,_=extract_prices(product)
         assert prices.get('10')==138000,prices
-        print('self-test OK: official table and exact 4-pen product unit')
+        assert official_host('https://www.miraimedical.com/price')=='miraimedical.com'
+        assert official_host('https://mirai-medical.clinic/ko/mounjaro/')=='mirai-medical.clinic'
+        assert official_host('https://miraimedical.com/')!=official_host('https://mirai-medical.clinic/')
+        print('self-test OK: official price extraction and distinct same-name clinic domains')
         return
     cat=json.loads(CATALOG.read_text(encoding='utf-8'))
+    # A distinct branch/domain may use an identical Japanese display name.
+    # Never attribute an existing clinic's official price to a newly found
+    # namesake without explicit identity verification.
+    claimed_domains={}
+    for known in cat['clinics']:
+        if known.get('status')!='active':
+            continue
+        host=official_host('https://'+known['official_domain']) if known.get('official_domain') else official_host(known.get('url',''))
+        if host:
+            claimed_domains.setdefault(host,set()).add(known['id'])
     session=requests.Session();session.headers.update({'User-Agent':UA,'Accept-Language':'ja,ko;q=0.8'})
     # Fair rotating verification queue: previously the same first twelve
     # unverified names were retried forever while later discoveries starved.
@@ -115,7 +135,15 @@ def run():
         done+=1
         item['official_checked_at']=now()
         item['official_attempts']=item.get('official_attempts',0)+1
+        if item.get('identity_conflict'):
+            item['notes']='다른 지역에 동일 명칭 병원이 존재. 주소·공식 도메인 검증 전 가격 자동 등록 보류.'
+            continue
         official=official_link(session,item['name'])
+        if official:
+            host=official_host(official)
+            if host and host in claimed_domains and item['id'] not in claimed_domains[host]:
+                item['notes']='다른 등록 병원 공식 도메인에 속하는 가격표. 기관 동일성 확인 전 자동 등록 보류: '+official
+                continue
         if not official:continue
         try:
             resp=session.get(official,timeout=(6,15));resp.raise_for_status()
