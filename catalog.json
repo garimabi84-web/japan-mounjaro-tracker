@@ -1068,7 +1068,74 @@
       "region": "규슈",
       "city": "후쿠오카 하카타 나카스카와바타",
       "booking_method": "한국어 안내 페이지 → 디지스마 WEB 예약 → 방문 진료; 예약 오류 시 공식 LINE 문의",
-      "booking_notes": "초진 상담료 1,650엔 별도, 진단서 3,300엔. 온라인 예약 해외 번호 입력 시 제한 가능."
+      "booking_notes": "초진 상담료 1,650엔 별도, 진단서 3,300엔. 온라인 예약 해외 번호 입력 시 제한 가능.",
+      "official_domain": "miraimedical.com",
+      "identity_key": "jp:fukuoka:812-0027:miraimedical.com",
+      "identity_notes": "도쿄 세타가야의 mirai-medical.clinic과 이름이 같지만 서로 다른 의료기관. 공식 도메인과 주소를 기준으로 별개 등록."
+    },
+    {
+      "id": "mirai-medical-tokyo",
+      "name": "미라이 메디컬 클리닉 · 도쿄 온라인",
+      "region": "간토",
+      "city": "도쿄 세타가야구 다이시도 · 전국 온라인",
+      "mode": "온라인",
+      "foreign": "yes",
+      "online": "yes",
+      "ship": "yes",
+      "prices": {
+        "5": 51000,
+        "10": 87000,
+        "15": null,
+        "2.5": 27000,
+        "7.5": 69000,
+        "12.5": null
+      },
+      "price_variants": [
+        {
+          "name": "한국어 관광객 전용 12펜/3개월",
+          "prices": {
+            "5": 51000,
+            "10": 87000,
+            "2.5": 27000,
+            "7.5": 69000
+          },
+          "source_url": "https://mirai-medical.clinic/ko/mounjaro/",
+          "secondary_source": "https://md.mirai-medical.clinic/ko/sushijaro/",
+          "checked": "2026-11-21",
+          "kind": "traveler_price"
+        },
+        {
+          "name": "일본어 일반 단발 구매 12펜/3개월",
+          "prices": {
+            "5": 78000,
+            "10": 141000,
+            "2.5": 39000,
+            "7.5": 117000
+          },
+          "source_url": "https://ec.mirai-medical.clinic/lp?u=mounjaro_shot_ver3",
+          "checked": "2026-11-21",
+          "kind": "standard"
+        }
+      ],
+      "basis": "한국인 여행객 전용 한국어 안내: 12펜(3개월) 총액. 일반 일본어 구매 페이지와 가격 체계가 다름(10mg 141,000엔).",
+      "url": "https://mirai-medical.clinic/ko/mounjaro/",
+      "official_domain": "mirai-medical.clinic",
+      "identity_key": "jp:tokyo:154-0004:mirai-medical.clinic",
+      "identity_notes": "동일한 미라이 메디컬 클리닉 명칭을 사용하는 후쿠오카의 miraimedical.com과 별개 의료기관. 공식 법인/주소·도메인과 독립 가격표로 확인.",
+      "notes": "한국어 진료, 한국 체류 중 사전 온라인 진료, 일본 내 호텔·체류지 냉장 배송을 한국어 공식 페이지에서 안내. 일반 일본어 쇼핑몰 상품은 자택/영업소 배송 제한이 있어 이용 경로별 조건을 구분해야 함. 일반 구매 페이지에는 BMI 23 미만 10mg 처방 불가·고용량 사용력 확인 등 별도 기준 표시. 실제 12펜 처방은 의사 판단.",
+      "fees": "한국어 여행자 안내: 진찰료·기본 냉장배송비 무료. 예약 보증금 3,000엔은 처방 시 약값에 충당된다고 공식 한국어 안내에 기재. 미처방 시 환불 불가 가능. 증명서 옵션 별도.",
+      "status": "active",
+      "address": "東京都世田谷区太子堂2丁目12-2 T-one世田谷ビル5F, Japan",
+      "channel": "한국인 여행객 한국어 공식 안내 · 일본어 공식 가격표 교차 검증",
+      "updated": "2026-11-21",
+      "events": [],
+      "discovery": "korean_official",
+      "price_verified": true,
+      "booking_type": "guide",
+      "booking_url": "https://mirai-medical.clinic/ko/mounjaro/",
+      "booking_method": "한국어 관광객 안내에서 진료 예약 → 문진 작성 → 예약 보증금 3,000엔 결제 → 온라인 영상 진료 → 처방 시 약값 결제 → 일본 호텔에서 냉장 수령",
+      "booking_notes": "한국인 방문자용 한국어 안내로 연결. 호텔 프런트 냉장 수령 가능 여부 확인 필요. 일본어 일반 상품 신청 페이지와 가격·배송 조건이 다르므로 혼동 금지.",
+      "booking_checked": "2026-11-21"
     },
     {
       "mode": "방문",
