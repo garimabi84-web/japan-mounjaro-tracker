@@ -391,6 +391,7 @@ def run():
                "archive": [{"key": k, "hit": v} for k, v in list(archive.items())[-600:]],
                "note": "Public indexed social/web sources only; 3-month prices require official evidence."}
     OUTPUT.write_text(json.dumps(outcome, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print("New clinic name leads:", " | ".join(x["name"] for x in fresh[:50]))
     print("Discover v2:", len(hits), "named hits;", len(fresh), "new candidates;",
           sum(s["ok"] for s in sources), "of", len(sources), "queries succeeded")
 
