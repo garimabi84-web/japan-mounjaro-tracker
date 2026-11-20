@@ -5,11 +5,11 @@ Only parses explicit 12-pen/3-month tables or 4-pen/1-month unit prices.
 Never guesses foreigner eligibility, online access, shipping, or promo validity.
 No SNS advertisement price is promoted without official price-page evidence.
 """
-import argparse, datetime as dt, json, re, urllib.parse
+import argparse, datetime as dt, json, re, urllib.parse, unicodedata
 from pathlib import Path
 from bs4 import BeautifulSoup
 import requests
-from discover import ROOT,CATALOG,UA,fetch_rss,now,DOSES
+from discover import ROOT,CATALOG,UA,fetch_rss,fetch_bing_html,now,DOSES
 
 EXCLUDE=['sushijaro','mounjarojp','kireireport','yahoo','instagram','facebook','x.com','twitter','note.com','reddit','beauty.hotpepper','kuchikomi','a-clinic-column','seikeitimes','jihi-shohou','google.com','news.google','blogspot']
 PATT_DOSE=re.compile(r'(?<![\d.])(?:マンジャロ|mounjaro)?\s*(2[.]5|5(?:[.]0)?|7[.]5|10(?:[.]0)?|12[.]5|15(?:[.]0)?)\s*mg',re.I)
@@ -79,7 +79,10 @@ def extract_prices(source):
 def official_link(session,name):
     for q in (f'"{name}" マンジャロ 料金',f'{name} マンジャロ 3ヶ月 価格'):
         try:
-            for title,url,desc in fetch_rss(session,q,'bing'):
+            candidates=list(fetch_rss(session,q,'bing'))
+            if not candidates:
+                candidates=list(fetch_bing_html(session,q))
+            for title,url,desc in candidates:
                 parsed=urllib.parse.urlparse(url)
                 if parsed.scheme!='https':continue
                 host=parsed.hostname or ''
@@ -102,17 +105,29 @@ def run():
         return
     cat=json.loads(CATALOG.read_text(encoding='utf-8'))
     session=requests.Session();session.headers.update({'User-Agent':UA,'Accept-Language':'ja,ko;q=0.8'})
+    # Fair rotating verification queue: previously the same first twelve
+    # unverified names were retried forever while later discoveries starved.
+    # The oldest attempt is examined first on each run.
+    queue=[x for x in cat['clinics'] if x.get('status')=='candidate' and x.get('discovery')=='auto']
+    queue.sort(key=lambda x:(x.get('official_checked_at',''),x.get('first_seen','')))
     done=0
-    for item in cat['clinics']:
-        if item.get('status')!='candidate' or item.get('discovery')!='auto':continue
-        if done>=12:break
+    for item in queue[:12]:
         done+=1
+        item['official_checked_at']=now()
+        item['official_attempts']=item.get('official_attempts',0)+1
         official=official_link(session,item['name'])
         if not official:continue
         try:
             resp=session.get(official,timeout=(6,15));resp.raise_for_status()
             soup=BeautifulSoup(resp.content,'html.parser');text=soup.get_text(' ',strip=True)
             if not re.search('マンジャロ|mounjaro',text,re.I):continue
+            # A price table is useful only if it actually belongs to the named
+            # institution. Do not attribute comparison articles to a clinic.
+            normalized=lambda x:re.sub(r'[^a-z0-9ぁ-んァ-ヴ一-龥]','',unicodedata.normalize('NFKC',x).lower())
+            key=normalized(item['name'])
+            if len(key)>=6 and key not in normalized(text[:3000]):
+                item['notes']='공식 사이트 후보 발견, 병원명 교차 검증 실패: '+official
+                continue
             prices,basis=extract_prices(resp.content)
             if not prices:continue
             # Temporary campaign/coupon pages require a verifiable end date and
