@@ -20,12 +20,12 @@
       "online": "no",
       "ship": "conditional",
       "prices": {
-        "2.5": 38400,
         "5": 54000,
-        "7.5": 72000,
         "10": 90000,
-        "12.5": 108000,
-        "15": 126000
+        "15": 126000,
+        "2.5": 38400,
+        "7.5": 72000,
+        "12.5": 108000
       },
       "basis": "2펜 상자×6",
       "url": "https://baba-totalcareclinic.com/private-practice/",
@@ -37,7 +37,12 @@
       "updated": "2026-11-20",
       "events": [],
       "discovery": "prior_web",
-      "price_verified": true
+      "price_verified": true,
+      "booking_method": "해외 거주자 전용 SELECTTYPE에서 날짜 선택 후 문진 및 예약",
+      "booking_url": "https://select-type.com/rsv/?id=kMqp7M4u8eM&c_id=423757&w_flg=1",
+      "booking_type": "booking",
+      "booking_notes": "일반 일본 거주자용 Wakumy 예약 대신 해외 거주자 전용 예약을 이용해야 합니다.",
+      "booking_checked": "2026-11-21"
     },
     {
       "id": "silk-visit",
@@ -49,12 +54,12 @@
       "online": "no",
       "ship": "no",
       "prices": {
-        "2.5": 22500,
         "5": 40500,
-        "7.5": 64500,
         "10": 81000,
-        "12.5": 99000,
-        "15": 123000
+        "15": 123000,
+        "2.5": 22500,
+        "7.5": 64500,
+        "12.5": 99000
       },
       "basis": "2~5개월 처방시 4펜 단가×3",
       "url": "https://tokyosilkclinic.com/menu/909/",
@@ -66,7 +71,12 @@
       "updated": "2026-11-20",
       "events": [],
       "discovery": "prior_web",
-      "price_verified": true
+      "price_verified": true,
+      "booking_method": "신주쿠점 WEB예약에서 '내원 처방(マンジャロ)' 선택",
+      "booking_url": "https://connect.kireipass.jp/clinics/tokyosilkclinic/menus",
+      "booking_type": "booking",
+      "booking_notes": "직접 예약 확인된 메뉴는 2.5·5·7.5mg입니다. 10mg 이상과 간다점 예약은 별도 문의가 필요합니다.",
+      "booking_checked": "2026-11-21"
     },
     {
       "id": "silk-online",
@@ -78,12 +88,12 @@
       "online": "yes",
       "ship": "yes",
       "prices": {
-        "2.5": 26940,
         "5": 44940,
-        "7.5": 68940,
         "10": 85500,
-        "12.5": 102000,
-        "15": 129000
+        "15": 129000,
+        "2.5": 26940,
+        "7.5": 68940,
+        "12.5": 102000
       },
       "basis": "2~5개월 처방시 4펜 단가×3",
       "url": "https://tokyosilkclinic.com/menu/909/",
@@ -95,7 +105,12 @@
       "updated": "2026-11-20",
       "events": [],
       "discovery": "prior_web",
-      "price_verified": true
+      "price_verified": true,
+      "booking_method": "공식 온라인 진료 안내를 읽고 온라인 예약 경로 선택",
+      "booking_url": "https://tokyosilkclinic.com/menu/1123/",
+      "booking_type": "guide",
+      "booking_notes": "온라인 진료 안내 페이지입니다. 직접 예약 폼은 별도 선택해야 합니다.",
+      "booking_checked": "2026-11-21"
     },
     {
       "id": "monline",
@@ -107,12 +122,12 @@
       "online": "yes",
       "ship": "yes",
       "prices": {
-        "2.5": 26250,
         "5": 48510,
-        "7.5": 66960,
         "10": 88770,
-        "12.5": 110610,
-        "15": 132420
+        "15": 132420,
+        "2.5": 26250,
+        "7.5": 66960,
+        "12.5": 110610
       },
       "basis": "공식 12펜 묶음",
       "url": "https://www.m-onlineclinic.com/pricing",
@@ -124,7 +139,12 @@
       "updated": "2026-11-20",
       "events": [],
       "discovery": "prior_web",
-      "price_verified": true
+      "price_verified": true,
+      "booking_method": "공식 LINE을 친구 추가하고 진료 시간 선택 → 문진 → 진료",
+      "booking_url": "https://www.m-onlineclinic.com/flow",
+      "booking_type": "guide",
+      "booking_notes": "링크는 LINE 예약 절차 안내입니다. 실제 접수는 페이지의 공식 LINE 버튼에서 진행합니다.",
+      "booking_checked": "2026-11-21"
     },
     {
       "id": "now",
@@ -136,12 +156,12 @@
       "online": "yes",
       "ship": "unknown",
       "prices": {
-        "2.5": 27500,
         "5": 48500,
-        "7.5": 75800,
         "10": 90000,
-        "12.5": 100500,
-        "15": 127500
+        "15": 127500,
+        "2.5": 27500,
+        "7.5": 75800,
+        "12.5": 100500
       },
       "basis": "공식 12펜 묶음",
       "url": "https://now-clinic.com/price/",
@@ -153,7 +173,12 @@
       "updated": "2026-11-20",
       "events": [],
       "discovery": "prior_web",
-      "price_verified": true
+      "price_verified": true,
+      "booking_method": "공식 LINE 등록 → 일정 선택 → 온라인 진료 → 결제",
+      "booking_url": "https://lin.ee/ySvsrYd",
+      "booking_type": "booking",
+      "booking_notes": "LINE에서 예약합니다. 관광객 처방 가능 여부는 확인되지 않았습니다.",
+      "booking_checked": "2026-11-21"
     },
     {
       "id": "marugoto",
@@ -165,12 +190,12 @@
       "online": "yes",
       "ship": "unknown",
       "prices": {
-        "2.5": 28000,
         "5": 51500,
-        "7.5": 70500,
         "10": 92500,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": 28000,
+        "7.5": 70500,
+        "12.5": null
       },
       "basis": "공식 12펜 묶음",
       "url": "https://marugotoclinic.jp/beauty.html",
@@ -182,7 +207,12 @@
       "updated": "2026-11-20",
       "events": [],
       "discovery": "prior_web",
-      "price_verified": true
+      "price_verified": true,
+      "booking_method": "공식 LINE에서 예약·문진·진료·결제 진행",
+      "booking_url": "https://liff.line.me/2007679383-rEyEG0LX/line-friend-redirect?organic=lp",
+      "booking_type": "booking",
+      "booking_notes": "LINE 연결 후 예약 메뉴를 이용합니다.",
+      "booking_checked": "2026-11-21"
     },
     {
       "id": "aurelia",
@@ -194,12 +224,12 @@
       "online": "yes",
       "ship": "unknown",
       "prices": {
-        "2.5": 31800,
         "5": 51800,
-        "7.5": 79800,
         "10": 97800,
-        "12.5": 124800,
-        "15": 146800
+        "15": 146800,
+        "2.5": 31800,
+        "7.5": 79800,
+        "12.5": 124800
       },
       "basis": "공식 12펜 묶음",
       "url": "https://aurelia-online.jp/price.html",
@@ -211,7 +241,12 @@
       "updated": "2026-11-20",
       "events": [],
       "discovery": "prior_web",
-      "price_verified": true
+      "price_verified": true,
+      "booking_method": "Web 예약 후 진료 전 디지스마 앱 등록; 해외 번호 문제는 LINE 문의",
+      "booking_url": "https://patient.digikar-smart.jp/institutions/f8781f82-3f71-4e84-9bc6-5d167d8925eb/reserve",
+      "booking_type": "booking",
+      "booking_notes": "디지스마 웹예약입니다. 일본 전화번호 없이 진행하기 어렵다면 공식 LINE 상담을 이용합니다.",
+      "booking_checked": "2026-11-21"
     },
     {
       "id": "light-visit",
@@ -223,12 +258,12 @@
       "online": "no",
       "ship": "no",
       "prices": {
-        "2.5": 23900,
         "5": 46700,
-        "7.5": 69500,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": 23900,
+        "7.5": 69500,
+        "12.5": null
       },
       "basis": "공식 12펜 묶음 총액",
       "url": "https://light-clinic.com/beautyhealthy/medical-diet/mounjaro/",
@@ -240,7 +275,12 @@
       "updated": "2026-11-20",
       "events": [],
       "discovery": "prior_web",
-      "price_verified": true
+      "price_verified": true,
+      "booking_method": "웹예약·사전 문진 후 방문 진료",
+      "booking_url": "https://light-clinic.com/beautyhealthy/medical-diet/mounjaro/",
+      "booking_type": "guide",
+      "booking_notes": "공식 마운자로 안내 페이지의 웹예약 버튼을 통해 접수합니다.",
+      "booking_checked": "2026-11-21"
     },
     {
       "id": "light-online",
@@ -252,12 +292,12 @@
       "online": "yes",
       "ship": "yes",
       "prices": {
-        "2.5": 25000,
         "5": 47800,
-        "7.5": 70600,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": 25000,
+        "7.5": 70600,
+        "12.5": null
       },
       "basis": "공식 12펜 묶음 총액",
       "url": "https://light-clinic.com/beautyhealthy/medical-diet/mounjaro/",
@@ -269,7 +309,12 @@
       "updated": "2026-11-20",
       "events": [],
       "discovery": "prior_web",
-      "price_verified": true
+      "price_verified": true,
+      "booking_method": "웹예약·사전 문진 후 온라인 진료",
+      "booking_url": "https://light-clinic.com/beautyhealthy/medical-diet/mounjaro/",
+      "booking_type": "guide",
+      "booking_notes": "공식 마운자로 안내 페이지의 웹예약 버튼을 통해 접수합니다.",
+      "booking_checked": "2026-11-21"
     },
     {
       "id": "nagoya-joy",
@@ -281,12 +326,12 @@
       "online": "yes",
       "ship": "unknown",
       "prices": {
-        "2.5": 35600,
         "5": 66000,
-        "7.5": 93600,
         "10": 118400,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": 35600,
+        "7.5": 93600,
+        "12.5": null
       },
       "basis": "공식 12펜 · 재진 한정",
       "url": "https://nagoya-joy-clinic.com/news/mounjaro-price-revision-0801/",
@@ -298,7 +343,12 @@
       "updated": "2026-11-20",
       "events": [],
       "discovery": "prior_web",
-      "price_verified": true
+      "price_verified": true,
+      "booking_method": "일본 입국 후 공식 LINE으로 온라인 진료 신청 → 일본 내 수령",
+      "booking_url": "https://nagoya-joy-clinic.com/news/mounjaro-korea-travelers/",
+      "booking_type": "guide",
+      "booking_notes": "한국 방문객 전용 안내입니다. 실제 예약은 공식 LINE에서 진행합니다.",
+      "booking_checked": "2026-11-21"
     },
     {
       "id": "bts-matsuyama",
@@ -310,12 +360,12 @@
       "online": "no",
       "ship": "unknown",
       "prices": {
-        "2.5": 36000,
         "5": 60000,
-        "7.5": 84000,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": 36000,
+        "7.5": 84000,
+        "12.5": null
       },
       "basis": "4펜 약값×3 · 최대12펜",
       "url": "https://www.saishin-sp.com/notice/mounjaro-matsuyama-travelers/",
@@ -327,7 +377,12 @@
       "updated": "2026-11-20",
       "events": [],
       "discovery": "prior_web",
-      "price_verified": true
+      "price_verified": true,
+      "booking_method": "공식 LINE에서 여행객 마운자로 처방 예약·문의",
+      "booking_url": "https://www.saishin-sp.com/ko/notice/mounjaro-matsuyama-travelers-2/",
+      "booking_type": "guide",
+      "booking_notes": "한국어 여행객 안내 페이지의 공식 LINE을 이용합니다.",
+      "booking_checked": "2026-11-21"
     },
     {
       "id": "mil",
@@ -339,12 +394,12 @@
       "online": "yes",
       "ship": "yes",
       "prices": {
-        "2.5": 43000,
         "5": 64000,
-        "7.5": 88000,
         "10": 118000,
-        "12.5": 157000,
-        "15": 196000
+        "15": 196000,
+        "2.5": 43000,
+        "7.5": 88000,
+        "12.5": 157000
       },
       "basis": "관광객 전용 12펜 묶음",
       "url": "https://milc.info/mnj/inbmnj/inbmnj-ja.html",
@@ -356,7 +411,12 @@
       "updated": "2026-11-20",
       "events": [],
       "discovery": "prior_web",
-      "price_verified": true
+      "price_verified": true,
+      "booking_method": "해외 방문객 전용 예약 메뉴 선택 → 문진 → 방문 또는 호텔 배송",
+      "booking_url": "https://milc.info/pages/reservation.html",
+      "booking_type": "booking",
+      "booking_notes": "대량 묶음은 사전 예약·보증금이 필요할 수 있으므로 수량을 문의해야 합니다.",
+      "booking_checked": "2026-11-21"
     },
     {
       "id": "fontana",
@@ -368,12 +428,12 @@
       "online": "yes",
       "ship": "conditional",
       "prices": {
-        "2.5": 46200,
         "5": 72000,
-        "7.5": 116100,
         "10": 139500,
-        "12.5": 171000,
-        "15": 193500
+        "15": 193500,
+        "2.5": 46200,
+        "7.5": 116100,
+        "12.5": 171000
       },
       "basis": "공식 12펜 묶음",
       "url": "https://fontana-clinic.jp/kr/",
@@ -385,7 +445,12 @@
       "updated": "2026-11-20",
       "events": [],
       "discovery": "prior_web",
-      "price_verified": true
+      "price_verified": true,
+      "booking_method": "WEB예약에서 마운자로 진료 선택 또는 LINE·한국어 상담",
+      "booking_url": "https://reservation.medical-force.com/c/93b002d38f2f477280d052a1808de90a",
+      "booking_type": "booking",
+      "booking_notes": "한국어 상담 및 수령 방식은 별도 확인 가능합니다. 공식 한국어 페이지도 참고하세요.",
+      "booking_checked": "2026-11-21"
     },
     {
       "id": "mbcf",
@@ -397,12 +462,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": 39000,
         "5": 66000,
-        "7.5": 96000,
         "10": 120000,
-        "12.5": 150000,
-        "15": 195000
+        "15": 195000,
+        "2.5": 39000,
+        "7.5": 96000,
+        "12.5": 150000
       },
       "basis": "4펜 가격×3 · 묶음할인 미확인",
       "url": "https://www.mbcf.jp/pricemenu/",
@@ -414,7 +479,12 @@
       "updated": "2026-11-20",
       "events": [],
       "discovery": "prior_web",
-      "price_verified": true
+      "price_verified": true,
+      "booking_method": "공식 LINE 또는 WEB 예약 후 진료",
+      "booking_url": "https://www.mbcf.jp/flow/",
+      "booking_type": "guide",
+      "booking_notes": "공식 사이트의 예약 절차 안내에서 LINE 또는 웹예약으로 이동합니다.",
+      "booking_checked": "2026-11-21"
     },
     {
       "id": "modena",
@@ -426,12 +496,12 @@
       "online": "no",
       "ship": "no",
       "prices": {
-        "2.5": 37500,
         "5": 68400,
-        "7.5": 96900,
         "10": 121500,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": 37500,
+        "7.5": 96900,
+        "12.5": null
       },
       "basis": "4펜 가격×3 · 묶음할인 미확인",
       "url": "https://modena-clinic.com/price/",
@@ -443,7 +513,12 @@
       "updated": "2026-11-20",
       "events": [],
       "discovery": "prior_web",
-      "price_verified": true
+      "price_verified": true,
+      "booking_method": "웹예약 일시 중지 중이므로 공식 LINE으로 예약 문의",
+      "booking_url": "https://modena-clinic.com/line/",
+      "booking_type": "contact",
+      "booking_notes": "공식 사이트에 웹예약 잠정 중단으로 표시되어 있습니다.",
+      "booking_checked": "2026-11-21"
     },
     {
       "id": "kichijoji",
@@ -455,12 +530,12 @@
       "online": "yes",
       "ship": "no",
       "prices": {
-        "2.5": 49500,
         "5": 66000,
-        "7.5": 82500,
         "10": 99000,
-        "12.5": 118800,
-        "15": 138600
+        "15": 138600,
+        "2.5": 49500,
+        "7.5": 82500,
+        "12.5": 118800
       },
       "basis": "4펜 가격×3 · 묶음할인 미확인",
       "url": "https://kichijojiclinic.com/medical/medicaldiet_glp-1/",
@@ -472,7 +547,12 @@
       "updated": "2026-11-20",
       "events": [],
       "discovery": "prior_web",
-      "price_verified": true
+      "price_verified": true,
+      "booking_method": "방문 시 WEB 예약, 온라인/전화 진료는 별도 절차",
+      "booking_url": "https://kichijojiclinic.com/reserve/",
+      "booking_type": "booking",
+      "booking_notes": "웹예약은 방문 진료 전용입니다. 온라인은 병원 내 전화·온라인 진료 페이지를 이용하세요.",
+      "booking_checked": "2026-11-21"
     },
     {
       "id": "sio",
@@ -484,12 +564,12 @@
       "online": "yes",
       "ship": "yes",
       "prices": {
-        "2.5": 28380,
         "5": 73260,
-        "7.5": 81840,
         "10": 104940,
-        "12.5": 128040,
-        "15": 151140
+        "15": 151140,
+        "2.5": 28380,
+        "7.5": 81840,
+        "12.5": 128040
       },
       "basis": "4펜 가격×3 · 묶음할인 미확인",
       "url": "https://sio.clinic/medicalinformation/mounjaro/",
@@ -501,7 +581,12 @@
       "updated": "2026-11-20",
       "events": [],
       "discovery": "prior_web",
-      "price_verified": true
+      "price_verified": true,
+      "booking_method": "공식 마운자로 안내에서 온라인/내원 진료 예약 버튼 선택",
+      "booking_url": "https://sio.clinic/medicalinformation/mounjaro/",
+      "booking_type": "guide",
+      "booking_notes": "해당 링크는 마운자로 안내 페이지입니다. 온라인 또는 내원 예약을 구분하세요.",
+      "booking_checked": "2026-11-21"
     },
     {
       "id": "shinjuku-eki",
@@ -513,12 +598,12 @@
       "online": "yes",
       "ship": "yes",
       "prices": {
-        "2.5": 42000,
         "5": 72000,
-        "7.5": 90000,
         "10": 108000,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": 42000,
+        "7.5": 90000,
+        "12.5": null
       },
       "basis": "1펜 단가×12 · 12펜 가능 여부 미확인",
       "url": "https://www.shinjyuku-ekimae-clinic.info/naika/mounjaro.html",
@@ -530,7 +615,12 @@
       "updated": "2026-11-20",
       "events": [],
       "discovery": "prior_web",
-      "price_verified": true
+      "price_verified": true,
+      "booking_method": "예약 불필요: 진료시간에 방문, 온라인도 공식 안내에 따라 연락",
+      "booking_url": "https://www.shinjyuku-ekimae-clinic.info/naika/mounjaro.html",
+      "booking_type": "guide",
+      "booking_notes": "공식 사이트상 방문/온라인 모두 예약제를 운영하지 않습니다.",
+      "booking_checked": "2026-11-21"
     },
     {
       "id": "ehealth",
@@ -542,12 +632,12 @@
       "online": "no",
       "ship": "no",
       "prices": {
-        "2.5": 39000,
         "5": 69000,
-        "7.5": 102000,
         "10": 138000,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": 39000,
+        "7.5": 102000,
+        "12.5": null
       },
       "basis": "2.5·5는 12펜 공식 / 고용량은 4펜×3 예상",
       "url": "https://ehealthclinic.jp/news/2026/08/13/50503/",
@@ -559,7 +649,12 @@
       "updated": "2026-11-20",
       "events": [],
       "discovery": "prior_web",
-      "price_verified": true
+      "price_verified": true,
+      "booking_method": "비만 외래 '내원 예약'을 선택해 진료일 지정",
+      "booking_url": "https://ehealthclinic.jp/medical/%E8%82%A5%E6%BA%80/",
+      "booking_type": "guide",
+      "booking_notes": "마운자로는 내원 진료가 필요하다고 안내합니다.",
+      "booking_checked": "2026-11-21"
     },
     {
       "id": "uchida",
@@ -571,12 +666,12 @@
       "online": "no",
       "ship": "no",
       "prices": {
-        "2.5": 38400,
         "5": 54000,
-        "7.5": 72000,
         "10": 90000,
-        "12.5": 108000,
-        "15": 144000
+        "15": 144000,
+        "2.5": 38400,
+        "7.5": 72000,
+        "12.5": 108000
       },
       "basis": "1펜 단가×12 · 최대12펜",
       "url": "https://www.uchida-naishikyo.com/news/2813/",
@@ -588,7 +683,12 @@
       "updated": "2026-11-20",
       "events": [],
       "discovery": "prior_web",
-      "price_verified": true
+      "price_verified": true,
+      "booking_method": "다이어트 외래를 사전 예약하고 방문; 관광객은 처방 불가 안내",
+      "booking_url": "https://www.uchida-naishikyo.com/news/2813/",
+      "booking_type": "guide",
+      "booking_notes": "예약 전 공식 공지에서 처방 대상과 조건을 확인하세요.",
+      "booking_checked": "2026-11-21"
     },
     {
       "id": "koyomi",
@@ -600,12 +700,12 @@
       "online": "yes",
       "ship": "unknown",
       "prices": {
-        "2.5": 21000,
         "5": 48000,
-        "7.5": 73500,
         "10": 121500,
-        "12.5": 151500,
-        "15": 175500
+        "15": 175500,
+        "2.5": 21000,
+        "7.5": 73500,
+        "12.5": 151500
       },
       "basis": "게시된 12펜 가격 · 현재 처방 중단",
       "url": "https://koyomi-clinic.com/",
@@ -617,7 +717,12 @@
       "updated": "2026-11-20",
       "events": [],
       "discovery": "prior_web",
-      "price_verified": true
+      "price_verified": true,
+      "booking_method": "현재 마운자로 처방 중단으로 예약 불가",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "예약 재개 여부는 병원 공지에서 다시 확인해야 합니다.",
+      "booking_checked": "2026-11-21"
     },
     {
       "id": "ckk",
@@ -629,12 +734,12 @@
       "online": "yes",
       "ship": "yes",
       "prices": {
-        "2.5": 31500,
         "5": 48000,
-        "7.5": 64500,
         "10": 82500,
-        "12.5": 99000,
-        "15": null
+        "15": null,
+        "2.5": 31500,
+        "7.5": 64500,
+        "12.5": 99000
       },
       "basis": "공식 12펜 묶음",
       "url": "https://ckk-onlineclinic.tokyo/?page_id=16",
@@ -657,28 +762,33 @@
           "url": "https://search.yahoo.co.jp/realtime/search?p=CKK%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF",
           "source": "X 공개 검색"
         }
-      ]
+      ],
+      "booking_method": "LINE 친구 추가 → 문진표 작성 → 온라인 진료 예약",
+      "booking_url": "https://ckk-onlineclinic.tokyo/?page_id=28",
+      "booking_type": "booking",
+      "booking_notes": "공식 예약·문의 페이지입니다. 배송 희망일 약 7일 전 진료 권장.",
+      "booking_checked": "2026-11-21"
     },
     {
       "id": "yamamoto",
       "name": "야마모토 클리닉 (요나고)",
       "region": "주고쿠",
       "city": "돗토리현 요나고",
-      "mode": "방문·온라인",
+      "mode": "방문",
       "foreign": "conditional",
-      "online": "yes",
+      "online": "no",
       "ship": "unknown",
       "prices": {
-        "2.5": 24000,
         "5": 42000,
-        "7.5": 72000,
         "10": 96000,
-        "12.5": 114000,
-        "15": 129000
+        "15": 129000,
+        "2.5": 24000,
+        "7.5": 72000,
+        "12.5": 114000
       },
       "basis": "공식 4펜 가격×3(12펜 일괄 여부 미확인)",
       "url": "https://yamamotoclinic.or.jp/beauty/m-diet/",
-      "notes": "한국인 방문 후기에서 여행자 처방 사례 확인되나 공식 단기체류 조건은 미확인. 10mg 이상 주문발주·재고 문의 필요.",
+      "notes": "한국인 방문 후기에서 여행자 처방 사례 확인되나 공식 단기체류 조건은 미확인. 10mg 이상 주문발주·재고 문의 필요. / 2026-11-21 공식 예약 시스템에 온라인 마운자로 처방 중단 공지, 대면 진료만 진행",
       "fees": "진료비·배송비 및 12펜 처방 여부 확인 필요",
       "status": "active",
       "address": "鳥取県米子市車尾南1-8-32",
@@ -686,7 +796,12 @@
       "updated": "2026-11-20",
       "discovery": "sns",
       "price_verified": true,
-      "events": []
+      "events": [],
+      "booking_method": "마운자로 온라인 처방 중단: 요나고 대면 진료를 사전 문의",
+      "booking_url": "https://yamamotoclinic.or.jp/contact/",
+      "booking_type": "contact",
+      "booking_notes": "공식 온라인 예약 페이지에는 마운자로 온라인 처방 중단이라고 안내되어 있습니다. 현재는 대면 진료만 가능합니다.",
+      "booking_checked": "2026-11-21"
     },
     {
       "id": "origami",
@@ -698,12 +813,12 @@
       "online": "yes",
       "ship": "unknown",
       "prices": {
-        "2.5": 35970,
         "5": 69000,
-        "7.5": 102000,
         "10": 138000,
-        "12.5": 174000,
-        "15": 210000
+        "15": 210000,
+        "2.5": 35970,
+        "7.5": 102000,
+        "12.5": 174000
       },
       "basis": "2.5·5·7.5mg 공식 12펜, 고용량 4펜×3",
       "url": "https://origami-clinic.com/",
@@ -715,7 +830,12 @@
       "updated": "2026-11-20",
       "discovery": "sns",
       "price_verified": true,
-      "events": []
+      "events": [],
+      "booking_method": "치료 플랜 선택 → 가결제 → 문진 → 전화 온라인 진료",
+      "booking_url": "https://origami-clinic.com/collections",
+      "booking_type": "guide",
+      "booking_notes": "상품 선택이 예약 신청의 시작이며 의사 진료 결과에 따라 처방됩니다.",
+      "booking_checked": "2026-11-21"
     },
     {
       "id": "pique",
@@ -727,12 +847,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "공식 파트너 예약 플랫폼 한정 12펜 이벤트",
       "url": "https://kireireport.com/clinics/90085",
@@ -750,15 +870,20 @@
           "start": "2026-11-01",
           "end": "2026-11-30",
           "prices": {
-            "2.5": 21500,
-            "5": 43000
+            "5": 43000,
+            "2.5": 21500
           },
           "basis": "12펜 직접 게시",
           "conditions": "예약 플랫폼 한정, 기간 내 예약; 관광객/추가 비용 확인",
           "url": "https://kireireport.com/clinics/90085",
           "source": "플랫폼 한정 가격"
         }
-      ]
+      ],
+      "booking_method": "키레이레포에서 해당 시술 메뉴 선택 후 예약",
+      "booking_url": "https://kireireport.com/clinics/90085",
+      "booking_type": "booking",
+      "booking_notes": "행사 가격은 예약 플랫폼 조건과 종료일을 반드시 확인해야 합니다.",
+      "booking_checked": "2026-11-21"
     },
     {
       "id": "sdh",
@@ -770,12 +895,12 @@
       "online": "yes",
       "ship": "conditional",
       "prices": {
-        "2.5": 29400,
         "5": 52500,
-        "7.5": 78000,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": 29400,
+        "7.5": 78000,
+        "12.5": null
       },
       "basis": "공식 12펜 묶음",
       "url": "https://www.sdh-clinic.com/treatment/medical-diet/",
@@ -793,8 +918,8 @@
           "start": "2026-11-01",
           "end": "2026-11-15",
           "prices": {
-            "2.5": 20700,
             "5": 40500,
+            "2.5": 20700,
             "7.5": 72000
           },
           "basis": "1개월 특가×3; 실제 3개월 처방만 해당",
@@ -802,7 +927,12 @@
           "url": "https://search.yahoo.co.jp/realtime/search?p=%40SDH_medicaldiet%20%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD",
           "source": "X 게시물 공개 검색"
         }
-      ]
+      ],
+      "booking_method": "진료과·날짜 선택 → 웹 문진 → 영상 진료",
+      "booking_url": "https://app.sdh-clinic.com/reservation/new",
+      "booking_type": "booking",
+      "booking_notes": "공식 SDH 진료 예약 서비스입니다.",
+      "booking_checked": "2026-11-21"
     },
     {
       "id": "kakuyasu",
@@ -814,12 +944,12 @@
       "online": "yes",
       "ship": "yes",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS 1펜 최저가 홍보: 본수·구매조건 불명 → 12펜 가격 보류",
       "url": "https://kakuyasu.clinic/",
@@ -831,7 +961,12 @@
       "updated": "2026-11-20",
       "discovery": "sns",
       "price_verified": true,
-      "events": []
+      "events": [],
+      "booking_method": "공식 예약 절차 확인 필요",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "예약 전용 URL은 공식 출처에서 확인되지 않았습니다.",
+      "booking_checked": "2026-11-21"
     },
     {
       "id": "mt-diet",
@@ -843,12 +978,12 @@
       "online": "yes",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS 6개월 묶음 단가 홍보만, 12펜 가격 미검증",
       "url": "https://x.com/MT_DIET_CLINIC",
@@ -860,7 +995,12 @@
       "updated": "2026-11-20",
       "discovery": "sns",
       "price_verified": true,
-      "events": []
+      "events": [],
+      "booking_method": "회원가입 → 치료 상품 선택 → 문진 → 전화 진료",
+      "booking_url": "https://mt-diet-clinic.com/shop/customers/sign_up",
+      "booking_type": "booking",
+      "booking_notes": "계정 등록 후 진료 절차를 진행합니다.",
+      "booking_checked": "2026-11-21"
     },
     {
       "id": "found-7bfe8c48dc25",
@@ -872,12 +1012,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://x.com/dr_misaki_diet?utm_source=yjrealtime&utm_medium=search",
@@ -890,7 +1030,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-b732389cf612",
@@ -902,12 +1047,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://x.com/yuki_mototika?utm_source=yjrealtime&utm_medium=search",
@@ -920,7 +1065,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-262841be3175",
@@ -932,12 +1082,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://x.com/minsan_cosme?utm_source=yjrealtime&utm_medium=search",
@@ -950,7 +1100,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-30b89aba510f",
@@ -962,12 +1117,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://x.com/Monlineclinic?utm_source=yjrealtime&utm_medium=search",
@@ -980,7 +1135,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-9e8e4ce312cb",
@@ -992,12 +1152,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://x.com/Monlineclinic?utm_source=yjrealtime&utm_medium=search",
@@ -1010,7 +1170,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-7eda43c17865",
@@ -1022,12 +1187,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://x.com/cosmekpop?utm_source=yjrealtime&utm_medium=search",
@@ -1040,7 +1205,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-0d3f905ab852",
@@ -1052,12 +1222,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://x.com/punipunipunpee?utm_source=yjrealtime&utm_medium=search",
@@ -1070,7 +1240,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-8e987a13322d",
@@ -1082,12 +1257,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://x.com/_onemui_zzz?utm_source=yjrealtime&utm_medium=search",
@@ -1100,7 +1275,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-e60968018240",
@@ -1112,12 +1292,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://x.com/arche_noe?utm_source=yjrealtime&utm_medium=search",
@@ -1130,7 +1310,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-a35031477a40",
@@ -1142,12 +1327,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://x.com/arche_noe?utm_source=yjrealtime&utm_medium=search",
@@ -1160,7 +1345,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-8a1a1c7412ce",
@@ -1172,12 +1362,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://x.com/arche_noe?utm_source=yjrealtime&utm_medium=search",
@@ -1190,7 +1380,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-3a89384bbbf2",
@@ -1202,12 +1397,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://x.com/mnj_222?utm_source=yjrealtime&utm_medium=search",
@@ -1220,7 +1415,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-420d3530584a",
@@ -1232,12 +1432,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://x.com/funk19710121?utm_source=yjrealtime&utm_medium=search",
@@ -1250,7 +1450,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-d3771c0cd2cd",
@@ -1262,12 +1467,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://x.com/r6xprw?utm_source=yjrealtime&utm_medium=search",
@@ -1280,7 +1485,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-9b1da3a8fd9a",
@@ -1292,12 +1502,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://x.com/ckkonlineclinic?utm_source=yjrealtime&utm_medium=search",
@@ -1310,7 +1520,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-f3f2856c6931",
@@ -1322,12 +1537,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://x.com/Li_die04?utm_source=yjrealtime&utm_medium=search",
@@ -1340,7 +1555,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-44259c0e6db9",
@@ -1352,12 +1572,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://x.com/ubomiya?utm_source=yjrealtime&utm_medium=search",
@@ -1370,7 +1590,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-697657aee900",
@@ -1382,12 +1607,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://x.com/ubomiya?utm_source=yjrealtime&utm_medium=search",
@@ -1400,7 +1625,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-c124a1ba1044",
@@ -1412,12 +1642,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://x.com/ubomiya?utm_source=yjrealtime&utm_medium=search",
@@ -1430,7 +1660,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-af666450fe99",
@@ -1442,12 +1677,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://x.com/zscoem?utm_source=yjrealtime&utm_medium=search",
@@ -1460,7 +1695,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-91ff4959ad10",
@@ -1472,12 +1712,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://x.com/nnn_diet1?utm_source=yjrealtime&utm_medium=search",
@@ -1490,7 +1730,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-787036e73a97",
@@ -1502,12 +1747,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://x.com/_nonn_oO?utm_source=yjrealtime&utm_medium=search",
@@ -1520,7 +1765,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-3ea2b9b06c6b",
@@ -1532,12 +1782,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://x.com/LG_Shinjuku?utm_source=yjrealtime&utm_medium=search",
@@ -1550,7 +1800,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-f71b3c422736",
@@ -1562,12 +1817,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://x.com/deepplane?utm_source=yjrealtime&utm_medium=search",
@@ -1580,7 +1835,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-7a4bdb826442",
@@ -1592,12 +1852,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://x.com/mankuri_k?utm_source=yjrealtime&utm_medium=search",
@@ -1610,7 +1870,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-4a4da827a84f",
@@ -1622,12 +1887,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://x.com/kakuyasu_clinic?utm_source=yjrealtime&utm_medium=search",
@@ -1640,7 +1905,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-524d26688d0b",
@@ -1652,12 +1922,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://x.com/mounjaro_index?utm_source=yjrealtime&utm_medium=search",
@@ -1670,7 +1940,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-21d66be6d140",
@@ -1682,12 +1957,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://x.com/nyamaire?utm_source=yjrealtime&utm_medium=search",
@@ -1700,7 +1975,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-dc942ef03464",
@@ -1712,12 +1992,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://x.com/pom2purin_aqua?utm_source=yjrealtime&utm_medium=search",
@@ -1730,7 +2010,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-3e733efa5bc2",
@@ -1742,12 +2027,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://x.com/12Wv221q4biQstk?utm_source=yjrealtime&utm_medium=search",
@@ -1760,7 +2045,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-997ae3196c72",
@@ -1772,12 +2062,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxPaUhuOGY5R2RLelZSSm5BT19nbjBDQWRkOGY1cXpQOWl5TWZGQXhIdFZETTJ5Qnp4Rk1Udi1feXNWNE1Wc1RJenpFd2dOaUNMU01taFlVQU5OYzBmMlNWU3h5eEJicmhDNE1lTXVMSmJsOUZXTVYtWFI0QWQ2U3hSYzdQVEJzbXdPRERJUEpMdWFack1SQ0ltRWtYSWdua1NsU0V1amNPNGNHS1dIcjgtTFlDWW01dlRmTTVvTFBGR21ScHBJT3FHMFZfT2dERjZCSVhNS3hYVFRXX016Vk03MjE0eXRYZkNtTmMwcU5QamlDTkMtdTdtYWV1X2tqWHhIMWFsY0JlWkNWdVNYQzZtcEtmbzBZWGZwRmhTQWRDTlNlc183LVJ6Tlg2U0JsSHQ0XzFjeVNkN1FzTTdmV1RnQk92UWlUY0o2amhv?oc=5",
@@ -1790,7 +2080,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-e6baf5a20c43",
@@ -1802,12 +2097,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE51MjZWQnY3QWk5NnZJTUp0dTY3UjBnZHlMMElfdUo2TGRhVmxUZWFFTWllVlJhLTE0dlZFbHM5ZVZvek9WYzRTOWNLUXJoYktRSFBQX3Z4M0tiQ1l3MWF3RDJ0ekFoLXVBOGc?oc=5",
@@ -1820,7 +2115,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-54798cf6ec05",
@@ -1832,12 +2132,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Yc3VlQjJkWmx3bV9wYXRxekdSMnN2SWtEODZhMUQ4eTdzWmVmT3hqbDI2N25RbkRvV2tkT1lINTFkYzJKcjFDNWN6eU1lMGQwb0lYelFjTkxqNHZ0MHQ3NXpkUUZPdHVLRFFJOUJMYmlRZlo30gGIAUFVX3lxTE12V3JFNWtJTkJpZ2tSNFg1eTk5aUpEbnBhel9JZFFnNTljTFF4WFJPOHNjcTZvbDRueUdKLUZHZ20tNlhNdi1DOEpVdUk2eTBKUHg1QU1sZVdKeXh6UXEwN2ctVXdyU1Z4TWJqdVljTFJsTlZRQ1NoZzNQVHVkX3pUTmc0Ynp2dnI?oc=5",
@@ -1850,7 +2150,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-665e4c77a91d",
@@ -1862,12 +2167,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxNRzN3dUU3eTFudjM5RHJVRzFjcGJ1c1o0bkZiTWN3aWpReUU3RGhwT3pxVmktcFlXQUNZQmRXT0JLLW5LMmxPd2hNbUNfTnhwWDdvZVpQMGY0Y3JxUlJVLUJkemg4SHpaa2RLT3daQk84VzJ1a29tX2FGemJJV0JaeUl5WmhFYk9PU1pCdXpuTmY2blMtMDFsSDR4cHhSM1dhQlZqM0VSbGVQVy1TQU8zMVpvY2ctM3RXWlhaWlA5ZGVuLU1rcUFxb2g5UXU0Ql9IMzY3c3FvVUhhVmdlcjE0SGlFM3piUjVVQ2tJQUdxeVl4aXhISzlMZDRuV3l4NkJiNDRreHRpZHhURDZLY3JnejRsU3JodlhMV2d3LVZHZkJVU18zZGZNVUpJSzVVTVJnQW1uaUM1ckpOMU5EOG0yQ1RGQ1BjWi0wY2Fr?oc=5",
@@ -1880,7 +2185,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-a0c86a41e9cd",
@@ -1892,12 +2202,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQNGhmVzRpOFd2NXF6YS1qY2gySl9xVmc5V0VCT3FsNWZBYVJ4UU4zM1JwOWE1b0JSdWZ0RWJBeXJ1dHdINDUyVnFMMVVRNHFVS3JTTGpGZnk0ZnZycTd5RHVuRzVxbTQzSjAwWGFDWDhqQjhvb0w5dU8za3VkcDZXUmZNaGZqUG9pTG1SWC1VT040WFUteTJocU5LdzR0YWdFak5ER0lST3ZnUzFzdU82Vlp3UlRMbExyeVlvWkhqTUpWRUROYmY5czNXbHUyWFhFbkcwM21ubi1YTEQzdUZLMUpnZ2Vub0YwaFIxRkRyWTI5ZDdBckpwQTVaaWZLSUs4dWtSbS01N2p6RHZoWnljYVhpSm9fdE1qbHRYQ3dwcUVxTThEXzA5RUo0S1lnVWhNc3dYM2gzbHVvalhQeWx3aG5NOXYtaVNQZ3Bz?oc=5",
@@ -1910,7 +2220,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     },
     {
       "id": "found-4184df054512",
@@ -1922,12 +2237,12 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
         "5": null,
-        "7.5": null,
         "10": null,
-        "12.5": null,
-        "15": null
+        "15": null,
+        "2.5": null,
+        "7.5": null,
+        "12.5": null
       },
       "basis": "SNS/웹에서 신규 발굴, 가격 공식 검증 전",
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4wUm1YNm9zck1UOHRDbnZ4M2RpaTlOZFRYY1VlaUhDNUVaRUNwVjd0c2Znekh1NVNvTlZkLVFwU2xrR1NFcHhIYUNsYw?oc=5",
@@ -1940,7 +2255,12 @@
       "discovery": "auto",
       "price_verified": false,
       "events": [],
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
+      "booking_checked": ""
     }
   ],
   "schema": 3,
