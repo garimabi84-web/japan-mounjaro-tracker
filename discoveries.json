@@ -1,8 +1,274 @@
 {
-  "ran_at": null,
-  "source_status": [],
-  "hits_this_run": null,
-  "new_candidates": [],
+  "ran_at": "2026-11-21T00:07:28+09:00",
+  "source_status": [
+    {
+      "source": "bing",
+      "query": "マンジャロ クリニック 価格 キャンペーン 10mg",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "bing",
+      "query": "マンジャロ 3ヶ月 12本 クリニック 限定",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "bing",
+      "query": "マンジャロ 外国人 旅行者 処方 クリニック",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "source": "bing",
+      "query": "韓国人 マンジャロ クリニック 価格 九州 鳥取",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "bing",
+      "query": "site:x.com マンジャロ クリニック 価格",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "bing",
+      "query": "site:x.com マンジャロ 期間限定 キャンペーン",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "source": "bing",
+      "query": "site:instagram.com マンジャロ クリニック 料金",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "bing",
+      "query": "site:facebook.com マンジャロ クリニック 値段",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "bing",
+      "query": "site:instagram.com 마운자로 일본 클리닉",
+      "ok": true,
+      "items": 7
+    },
+    {
+      "source": "yahoo_x",
+      "query": "マンジャロ クリニック 価格",
+      "ok": true,
+      "items": 29
+    },
+    {
+      "source": "yahoo_x",
+      "query": "マンジャロ 期間限定 クリニック",
+      "ok": true,
+      "items": 3
+    },
+    {
+      "source": "yahoo_x",
+      "query": "マンジャロ 10mg",
+      "ok": true,
+      "items": 35
+    },
+    {
+      "source": "google_news",
+      "query": "マンジャロ クリニック 料金 12本",
+      "ok": true,
+      "items": 9
+    },
+    {
+      "source": "google_news",
+      "query": "マンジャロ 価格改定 クリニック",
+      "ok": true,
+      "items": 3
+    }
+  ],
+  "hits_this_run": 36,
+  "new_candidates": [
+    {
+      "name": "ベール クリニック",
+      "id": "found-7bfe8c48dc25",
+      "source_url": "https://x.com/dr_misaki_diet?utm_source=yjrealtime&utm_medium=search"
+    },
+    {
+      "name": "東京のある クリニック",
+      "id": "found-b732389cf612",
+      "source_url": "https://x.com/yuki_mototika?utm_source=yjrealtime&utm_medium=search"
+    },
+    {
+      "name": "OKになったから日本の クリニック",
+      "id": "found-262841be3175",
+      "source_url": "https://x.com/minsan_cosme?utm_source=yjrealtime&utm_medium=search"
+    },
+    {
+      "name": "ホームページに クリニック",
+      "id": "found-30b89aba510f",
+      "source_url": "https://x.com/Monlineclinic?utm_source=yjrealtime&utm_medium=search"
+    },
+    {
+      "name": "Mオンラインクリニック",
+      "id": "found-9e8e4ce312cb",
+      "source_url": "https://x.com/Monlineclinic?utm_source=yjrealtime&utm_medium=search"
+    },
+    {
+      "name": "こよみ クリニック",
+      "id": "found-7eda43c17865",
+      "source_url": "https://x.com/cosmekpop?utm_source=yjrealtime&utm_medium=search"
+    },
+    {
+      "name": "日本は クリニック",
+      "id": "found-0d3f905ab852",
+      "source_url": "https://x.com/punipunipunpee?utm_source=yjrealtime&utm_medium=search"
+    },
+    {
+      "name": "X public post こちらの クリニック",
+      "id": "found-8e987a13322d",
+      "source_url": "https://x.com/_onemui_zzz?utm_source=yjrealtime&utm_medium=search"
+    },
+    {
+      "name": "オンライン診療可能 クリニック",
+      "id": "found-e60968018240",
+      "source_url": "https://x.com/arche_noe?utm_source=yjrealtime&utm_medium=search"
+    },
+    {
+      "name": "11 どんどん新しい クリニック",
+      "id": "found-a35031477a40",
+      "source_url": "https://x.com/arche_noe?utm_source=yjrealtime&utm_medium=search"
+    },
+    {
+      "name": "もそんな大きく差はないしある程度実績ある クリニック",
+      "id": "found-8a1a1c7412ce",
+      "source_url": "https://x.com/arche_noe?utm_source=yjrealtime&utm_medium=search"
+    },
+    {
+      "name": "とにかくこのバグ 価格 を広めたいという クリニック",
+      "id": "found-3a89384bbbf2",
+      "source_url": "https://x.com/mnj_222?utm_source=yjrealtime&utm_medium=search"
+    },
+    {
+      "name": "DMMオンライン クリニック",
+      "id": "found-420d3530584a",
+      "source_url": "https://x.com/funk19710121?utm_source=yjrealtime&utm_medium=search"
+    },
+    {
+      "name": "SDH クリニック",
+      "id": "found-d3771c0cd2cd",
+      "source_url": "https://x.com/r6xprw?utm_source=yjrealtime&utm_medium=search"
+    },
+    {
+      "name": "CKKオンライン クリニック",
+      "id": "found-9b1da3a8fd9a",
+      "source_url": "https://x.com/ckkonlineclinic?utm_source=yjrealtime&utm_medium=search"
+    },
+    {
+      "name": "最高すぎる クリニック",
+      "id": "found-f3f2856c6931",
+      "source_url": "https://x.com/Li_die04?utm_source=yjrealtime&utm_medium=search"
+    },
+    {
+      "name": "UB クリニック",
+      "id": "found-44259c0e6db9",
+      "source_url": "https://x.com/ubomiya?utm_source=yjrealtime&utm_medium=search"
+    },
+    {
+      "name": "g5WhZu1cIw 美容皮膚科",
+      "id": "found-697657aee900",
+      "source_url": "https://x.com/ubomiya?utm_source=yjrealtime&utm_medium=search"
+    },
+    {
+      "name": "UBCLINIC",
+      "id": "found-c124a1ba1044",
+      "source_url": "https://x.com/ubomiya?utm_source=yjrealtime&utm_medium=search"
+    },
+    {
+      "name": "X public post ここの クリニック",
+      "id": "found-af666450fe99",
+      "source_url": "https://x.com/zscoem?utm_source=yjrealtime&utm_medium=search"
+    },
+    {
+      "name": "が臨時休診から再開されないので地元の クリニック",
+      "id": "found-91ff4959ad10",
+      "source_url": "https://x.com/nnn_diet1?utm_source=yjrealtime&utm_medium=search"
+    },
+    {
+      "name": "今回教えてもらった クリニック",
+      "id": "found-787036e73a97",
+      "source_url": "https://x.com/_nonn_oO?utm_source=yjrealtime&utm_medium=search"
+    },
+    {
+      "name": "Gentlmen美容クリニック",
+      "id": "found-3ea2b9b06c6b",
+      "source_url": "https://x.com/LG_Shinjuku?utm_source=yjrealtime&utm_medium=search"
+    },
+    {
+      "name": "2.5と5mgはボリュームゾーンなので多くの クリニック",
+      "id": "found-f71b3c422736",
+      "source_url": "https://x.com/deepplane?utm_source=yjrealtime&utm_medium=search"
+    },
+    {
+      "name": "最安級オンラインクリニック",
+      "id": "found-7a4bdb826442",
+      "source_url": "https://x.com/mankuri_k?utm_source=yjrealtime&utm_medium=search"
+    },
+    {
+      "name": "数字が大きいほど偉いわけではあ カクヤスクリニック",
+      "id": "found-4a4da827a84f",
+      "source_url": "https://x.com/kakuyasu_clinic?utm_source=yjrealtime&utm_medium=search"
+    },
+    {
+      "name": "833 5mg CLINIC",
+      "id": "found-524d26688d0b",
+      "source_url": "https://x.com/mounjaro_index?utm_source=yjrealtime&utm_medium=search"
+    },
+    {
+      "name": "12.5mg は病院",
+      "id": "found-21d66be6d140",
+      "source_url": "https://x.com/nyamaire?utm_source=yjrealtime&utm_medium=search"
+    },
+    {
+      "name": "17日までに常時200切れなかったら 病院",
+      "id": "found-dc942ef03464",
+      "source_url": "https://x.com/pom2purin_aqua?utm_source=yjrealtime&utm_medium=search"
+    },
+    {
+      "name": "X public post 東京シルククリニック",
+      "id": "found-3e733efa5bc2",
+      "source_url": "https://x.com/12Wv221q4biQstk?utm_source=yjrealtime&utm_medium=search"
+    },
+    {
+      "name": "臨床データから安全性を正しく理解する ひろつ内科クリニック",
+      "id": "found-997ae3196c72",
+      "source_url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxPaUhuOGY5R2RLelZSSm5BT19nbjBDQWRkOGY1cXpQOWl5TWZGQXhIdFZETTJ5Qnp4Rk1Udi1feXNWNE1Wc1RJenpFd2dOaUNMU01taFlVQU5OYzBmMlNWU3h5eEJicmhDNE1lTXVMSmJsOUZXTVYtWFI0QWQ2U3hSYzdQVEJzbXdPRERJUEpMdWFack1SQ0ltRWtYSWdua1NsU0V1amNPNGNHS1dIcjgtTFlDWW01dlRmTTVvTFBGR21ScHBJT3FHMFZfT2dERjZCSVhNS3hYVFRXX016Vk03MjE0eXRYZkNtTmMwcU5QamlDTkMtdTdtYWV1X2tqWHhIMWFsY0JlWkNWdVNYQzZtcEtmbzBZWGZwRmhTQWRDTlNlc183LVJ6Tlg2U0JsSHQ0XzFjeVNkN1FzTTdmV1RnQk92UWlUY0o2amhv?oc=5"
+    },
+    {
+      "name": "新宿駅前クリニック",
+      "id": "found-e6baf5a20c43",
+      "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE51MjZWQnY3QWk5NnZJTUp0dTY3UjBnZHlMMElfdUo2TGRhVmxUZWFFTWllVlJhLTE0dlZFbHM5ZVZvek9WYzRTOWNLUXJoYktRSFBQX3Z4M0tiQ1l3MWF3RDJ0ekFoLXVBOGc?oc=5"
+    },
+    {
+      "name": "ゆいぴす突然のイベント辞退 クリニック",
+      "id": "found-54798cf6ec05",
+      "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Yc3VlQjJkWmx3bV9wYXRxekdSMnN2SWtEODZhMUQ4eTdzWmVmT3hqbDI2N25RbkRvV2tkT1lINTFkYzJKcjFDNWN6eU1lMGQwb0lYelFjTkxqNHZ0MHQ3NXpkUUZPdHVLRFFJOUJMYmlRZlo30gGIAUFVX3lxTE12V3JFNWtJTkJpZ2tSNFg1eTk5aUpEbnBhel9JZFFnNTljTFF4WFJPOHNjcTZvbDRueUdKLUZHZ20tNlhNdi1DOEpVdUk2eTBKUHg1QU1sZVdKeXh6UXEwN2ctVXdyU1Z4TWJqdVljTFJsTlZRQ1NoZzNQVHVkX3pUTmc0Ynp2dnI?oc=5"
+    },
+    {
+      "name": "安全な使い方を医師が解説 - ひろつ内科クリニック",
+      "id": "found-665e4c77a91d",
+      "source_url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxNRzN3dUU3eTFudjM5RHJVRzFjcGJ1c1o0bkZiTWN3aWpReUU3RGhwT3pxVmktcFlXQUNZQmRXT0JLLW5LMmxPd2hNbUNfTnhwWDdvZVpQMGY0Y3JxUlJVLUJkemg4SHpaa2RLT3daQk84VzJ1a29tX2FGemJJV0JaeUl5WmhFYk9PU1pCdXpuTmY2blMtMDFsSDR4cHhSM1dhQlZqM0VSbGVQVy1TQU8zMVpvY2ctM3RXWlhaWlA5ZGVuLU1rcUFxb2g5UXU0Ql9IMzY3c3FvVUhhVmdlcjE0SGlFM3piUjVVQ2tJQUdxeVl4aXhISzlMZDRuV3l4NkJiNDRreHRpZHhURDZLY3JnejRsU3JodlhMV2d3LVZHZkJVU18zZGZNVUpJSzVVTVJnQW1uaUM1ckpOMU5EOG0yQ1RGQ1BjWi0wY2Fr?oc=5"
+    },
+    {
+      "name": "現時点のエビデンス - ひろつ内科クリニック",
+      "id": "found-a0c86a41e9cd",
+      "source_url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQNGhmVzRpOFd2NXF6YS1qY2gySl9xVmc5V0VCT3FsNWZBYVJ4UU4zM1JwOWE1b0JSdWZ0RWJBeXJ1dHdINDUyVnFMMVVRNHFVS3JTTGpGZnk0ZnZycTd5RHVuRzVxbTQzSjAwWGFDWDhqQjhvb0w5dU8za3VkcDZXUmZNaGZqUG9pTG1SWC1VT040WFUteTJocU5LdzR0YWdFak5ER0lST3ZnUzFzdU82Vlp3UlRMbExyeVlvWkhqTUpWRUROYmY5czNXbHUyWFhFbkcwM21ubi1YTEQzdUZLMUpnZ2Vub0YwaFIxRkRyWTI5ZDdBckpwQTVaaWZLSUs4dWtSbS01N2p6RHZoWnljYVhpSm9fdE1qbHRYQ3dwcUVxTThEXzA5RUo0S1lnVWhNc3dYM2gzbHVvalhQeWx3aG5NOXYtaVNQZ3Bz?oc=5"
+    },
+    {
+      "name": "安全なクリニック",
+      "id": "found-4184df054512",
+      "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4wUm1YNm9zck1UOHRDbnZ4M2RpaTlOZFRYY1VlaUhDNUVaRUNwVjd0c2Znekh1NVNvTlZkLVFwU2xrR1NFcHhIYUNsYw?oc=5"
+    }
+  ],
   "archive": [
     {
       "key": "21c554d5202bf75d7d4a",
@@ -142,7 +408,687 @@
         "last_seen": "2026-11-20T22:40:00+09:00",
         "event": null
       }
+    },
+    {
+      "key": "ceabf2e5ef90a2d5a0f9",
+      "hit": {
+        "url": "https://x.com/dr_misaki_diet?utm_source=yjrealtime&utm_medium=search",
+        "title": "X public post",
+        "snippet": "X public post 【 マンジャロ価格 情報💉】 ベール クリニック の最新料金を再確認しました🌷 💉 2.5mg（4本）：9,970円 💉 5mg（4本）：15,970円 💉 7.5mg（4本）：23,970円 いずれも1か月処方の税込 価格 です。 前回調査から 価格 変更はなく、比較DBの確認情報を更新しました☺️ 🔗 jihi-shohou.com みさき先生｜20kg痩せた女医 @ dr_misaki_diet 11月18日(水) 11:52",
+        "clinic_names": [
+          "ベール クリニック"
+        ],
+        "channel": "sns",
+        "source": "yahoo_x",
+        "query": "マンジャロ クリニック 価格",
+        "event": null,
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "68cb8bdf6893c9b085c8",
+      "hit": {
+        "url": "https://x.com/yuki_mototika?utm_source=yjrealtime&utm_medium=search",
+        "title": "X public post",
+        "snippet": "X public post >東京のある クリニック で マンジャロ 5ミリグラムを3カ月分処方してもらう費用は4万1940円（約35万1000ウォン）で、韓国より約80万ウォン安い。韓国の 価格 は日本の約3倍を超える計算だ。 ◇「スシジャロ」マップ登場…保健福祉部「健康保険適用が優先」 これらのサイトは単なる 価格 比較だけでなく→ T2ファージの憂鬱 @ yuki_mototika 1 11月17日(火) 12:48",
+        "clinic_names": [
+          "東京のある クリニック"
+        ],
+        "channel": "sns",
+        "source": "yahoo_x",
+        "query": "マンジャロ クリニック 価格",
+        "event": null,
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "52932873f7ace99ad36d",
+      "hit": {
+        "url": "https://x.com/minsan_cosme?utm_source=yjrealtime&utm_medium=search",
+        "title": "X public post",
+        "snippet": "X public post 最近の韓国TLは日本購入 マンジャロ でざわついてる。韓国(ぼったくり感凄い高額)と日本 価格 の差が凄いけど海外から韓国搬入✈️OKになったから日本の クリニック たちの営業が凄い勢い。釜山から船で行ける対馬市まで配送してくれるシステムまで出来てちょっとやり方工夫に驚いたー Minさん @ minsan_cosme 11月14日(土) 21:31",
+        "clinic_names": [
+          "OKになったから日本の クリニック"
+        ],
+        "channel": "sns",
+        "source": "yahoo_x",
+        "query": "マンジャロ クリニック 価格",
+        "event": null,
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "aa5890a7b9fcbdfd349f",
+      "hit": {
+        "url": "https://x.com/Monlineclinic?utm_source=yjrealtime&utm_medium=search",
+        "title": "X public post",
+        "snippet": "X public post 【最低限ちゃんとした マンジャロクリニック かどうか見分ける方法🔍】  やばいかも😅 ・ホームページに クリニック の所在地、電話番号、管理医師の名前がない ・購入時の 価格 の記載がわかりづらい(送料が小さく書いてる、キャンセル料めちゃくちゃ高い) Mオンラインクリニック【公式】 @ Monlineclinic 11月9日(月) 21:38",
+        "clinic_names": [
+          "ホームページに クリニック",
+          "Mオンラインクリニック"
+        ],
+        "channel": "sns",
+        "source": "yahoo_x",
+        "query": "マンジャロ クリニック 価格",
+        "event": null,
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "0e4fff624d1df9a3e19a",
+      "hit": {
+        "url": "https://x.com/cosmekpop?utm_source=yjrealtime&utm_medium=search",
+        "title": "X public post",
+        "snippet": "X public post # PR マンジャロ 経験者として気になる 価格 …！💉  えっ、2.5mgが7,000円台で受けられるのびっくり😳♡  こよみ クリニック は、  💊 2.5mg：7,000円 💊 5.0mg：16,000円 💊 7.5mg：24,500円  しかも診察料込み（送料別・定期便 価格 ）✨  当日診察OKで、診察後1〜2日以内に発送可能なのも嬉しいポイント！ x.com/koyomi_clinic/… こよみクリニック @Koyomi_Clinic 2026年10月16日 【🌿マンジャロ最安値7,000円〜🌿】  8/21（金）よりオープン！！  ━━━━━━━━━━━━  マンジャロ価格（1ヶ月あたりの価格）  ・2.5mg　7,000円〜  ・5.0mg　16,000円〜  ・7.5mg　24,500円〜  ━━━━━━━━━━━━    ※診察料 0円  ※送料2,000円（冷蔵便のみ） 🌙 @ cosmekpop 11月9日(月) 19:21",
+        "clinic_names": [
+          "こよみ クリニック",
+          "こよみクリニック"
+        ],
+        "channel": "sns",
+        "source": "yahoo_x",
+        "query": "マンジャロ クリニック 価格",
+        "event": null,
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "0bd1f167ce7658b7093a",
+      "hit": {
+        "url": "https://x.com/punipunipunpee?utm_source=yjrealtime&utm_medium=search",
+        "title": "X public post",
+        "snippet": "X public post そもそも マンジャロ の偽物作るのに手間もコストも掛かるから、それを日本に輸入して販売しても利益なさそう。アメリカ韓国とかはまだ高いから偽物流通するの分かるけど、日本は クリニック 間で 価格 競争してるから安いし。 ふに @ punipunipunpee 11月9日(月) 17:32",
+        "clinic_names": [
+          "日本は クリニック"
+        ],
+        "channel": "sns",
+        "source": "yahoo_x",
+        "query": "マンジャロ クリニック 価格",
+        "event": null,
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "47d1e9b1cd0045dfc3a7",
+      "hit": {
+        "url": "https://x.com/_onemui_zzz?utm_source=yjrealtime&utm_medium=search",
+        "title": "X public post",
+        "snippet": "X public post こちらの クリニック 、オンライン完結で安く マンジャロ を買えるみたいです‼️  ・ マンジャロ 2.5mg 6,500円（税込） ・ マンジャロ 5.0mg 16,500円（税込） ・ マンジャロ 7.5mg 29,500円（税込）  ※定期便 価格 、送料は別途です  当日診療可能で1〜2日以内の発送が可能🙌🏻  ⚠️詳しくは引用元をチェック # PR x.com/dr_beau_lab/st… Dr. Beauty Lab @dr_beau_lab 11月9日(月) 13:04 【🚨マンジャロ価格改定！最安値6,500円〜🚨】 8/14（金）よりマンジャロの価格を大幅に改定しました！  ━━━━━━━━━━━━ マンジャロ価格（1ヶ月あたりの価格） ・2.5mg　6,500円〜 ・5.0mg　16,500円〜 ・7.5mg　29,500円〜 ━━━━━━━━━━━━  ※診察料 0円 💤 @ _onemui_zzz 11月9日(月) 16:53",
+        "clinic_names": [
+          "X public post こちらの クリニック"
+        ],
+        "channel": "sns",
+        "source": "yahoo_x",
+        "query": "マンジャロ クリニック 価格",
+        "event": null,
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "1a90accaf26c4b842b98",
+      "hit": {
+        "url": "https://x.com/arche_noe?utm_source=yjrealtime&utm_medium=search",
+        "title": "X public post",
+        "snippet": "X public post マンジャロ価格 メモ✍︎ オンライン診療可能 クリニック のみ 2026/11  どんどん新しい クリニック 見かけるし 価格 もそんな大きく差はないしある程度実績ある クリニック が安心かなあ pic.x.com/eXMDlhXVyX ᴺᴼᴺ @ arche_noe 192 1,946 11月7日(土) 23:34",
+        "clinic_names": [
+          "オンライン診療可能 クリニック",
+          "11 どんどん新しい クリニック",
+          "もそんな大きく差はないしある程度実績ある クリニック"
+        ],
+        "channel": "sns",
+        "source": "yahoo_x",
+        "query": "マンジャロ クリニック 価格",
+        "event": null,
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "99745fd710b74e4fd4d8",
+      "hit": {
+        "url": "https://x.com/mnj_222?utm_source=yjrealtime&utm_medium=search",
+        "title": "X public post",
+        "snippet": "X public post からの発送は1~2日で可能という マンジャロ 切らしちゃった‼️という方やすぐ手に入れたい方も安心のスピード対応😌  私も今手持ちの💉無くなったら乗り換えようか検討中…💭  とにかくこのバグ 価格 を広めたいという クリニック さんからのご紹介でした🙂‍↕️  検討してみてね( ^ω^ )👍 # PR 卍ャロネキ @ mnj_222 11月3日(火) 13:47",
+        "clinic_names": [
+          "とにかくこのバグ 価格 を広めたいという クリニック"
+        ],
+        "channel": "sns",
+        "source": "yahoo_x",
+        "query": "マンジャロ クリニック 価格",
+        "event": null,
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "e3f65425d9b476bba13e",
+      "hit": {
+        "url": "https://x.com/funk19710121?utm_source=yjrealtime&utm_medium=search",
+        "title": "X public post",
+        "snippet": "X public post 去年、オゼンピックってのを1ヶ月試したけど、確かに食欲抑制されるし満腹感持続されるんだよな。 DMMオンライン クリニック で マンジャロ がかなり安く 価格 改定されたので、買って試してみるのだ。 熊本のひでぼー🙂🎵 @ funk19710121 11月2日(月) 18:45",
+        "clinic_names": [
+          "DMMオンライン クリニック"
+        ],
+        "channel": "sns",
+        "source": "yahoo_x",
+        "query": "マンジャロ クリニック 価格",
+        "event": null,
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "5312abaffe5a0bdf042b",
+      "hit": {
+        "url": "https://x.com/r6xprw?utm_source=yjrealtime&utm_medium=search",
+        "title": "X public post",
+        "snippet": "X public post 再診の人は6ヶ月分まで出せるよーと先生に言われたけど、冷蔵庫事情により諦めるのであった…🫪 SDH クリニック さんはほぼ毎日キャンペーンみたいな 価格 なので、 マンジャロ 安く欲しい人は是非❤️‍🔥 減量ちゃん💉 @ r6xprw 10月31日(土) 15:44",
+        "clinic_names": [
+          "SDH クリニック"
+        ],
+        "channel": "sns",
+        "source": "yahoo_x",
+        "query": "マンジャロ クリニック 価格",
+        "event": {
+          "kind": "event_post",
+          "dates_mentioned": [],
+          "snippet": "X public post 再診の人は6ヶ月分まで出せるよーと先生に言われたけど、冷蔵庫事情により諦めるのであった…🫪 SDH クリニック さんはほぼ毎日キャンペーンみたいな 価格 なので、 マンジャロ 安く欲しい人は是非❤️‍🔥 減量ちゃん💉 @ r6xprw 10月31日(土) 15:44",
+          "price_verified": false,
+          "note": "SNS 홍보에서 행사 감지. 12펜 적용·할인 기간 및 진료 조건 공식 확인 전"
+        },
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "7a760c4ab5402b921912",
+      "hit": {
+        "url": "https://x.com/ckkonlineclinic?utm_source=yjrealtime&utm_medium=search",
+        "title": "X public post",
+        "snippet": "X public post 🎃 CKKオンライン クリニック 限界級のハロウィン大特価キャンペーン👻  ⏰10/29.30.31の３日間限定🔥  💉 マンジャロ 全容量2,000円OFF！  特に高容量が衝撃 価格 🧡7.5mg → 1本4,875円 🧡10mg  → 1本6,375円 (まとめ買いでも送料一律)  🎁 公式LINEに 「ハッピーハロウィン🎃」 CKKオンラインクリニック💊マンジャロ業界最安級 @ ckkonlineclinic 9 67 10月29日(木) 18:00",
+        "clinic_names": [
+          "CKKオンライン クリニック",
+          "CKKオンラインクリニック"
+        ],
+        "channel": "sns",
+        "source": "yahoo_x",
+        "query": "マンジャロ クリニック 価格",
+        "event": {
+          "kind": "event_post",
+          "dates_mentioned": [
+            "10/29"
+          ],
+          "snippet": "X public post 🎃 CKKオンライン クリニック 限界級のハロウィン大特価キャンペーン👻  ⏰10/29.30.31の３日間限定🔥  💉 マンジャロ 全容量2,000円OFF！  特に高容量が衝撃 価格 🧡7.5mg → 1本4,875円 🧡10mg  → 1本6,375円 (まとめ買いでも送料一律)  🎁 公式LINEに 「ハッピーハロウィン🎃」 CKKオンラインクリニック💊マンジャロ業界最安級 @ ckkonlineclinic 9 67 10月29日(木) 18:00",
+          "price_verified": false,
+          "note": "SNS 홍보에서 행사 감지. 12펜 적용·할인 기간 및 진료 조건 공식 확인 전"
+        },
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "e89653aa61beac334202",
+      "hit": {
+        "url": "https://x.com/MA_Kncharo?utm_source=yjrealtime&utm_medium=search",
+        "title": "X public post",
+        "snippet": "X public post えっ、 マンジャロ この 価格 って安くない😳？💉  こよみ クリニック の6ヶ月定期便、1ヶ月あたりの料金がこちら👇  💉2.5mg：6,000円 💉5.0mg：16,500円 💉7.5mg：29,500円  ※税込・診察料込み、送料別  オンラインで希望の治療を選んで申し込めるのも便利🥹✨ x.com/koyomi_clinic/… こよみクリニック @Koyomi_Clinic 2026年8月21日 【🌿マンジャロ最安値6,000円〜🌿】 8/21（金）よりオープン！！  ━━━━━━━━━━━━ マンジャロ価格（1ヶ月あたりの価格） ・2.5mg　6,000円〜 ・5.0mg　16,500円〜 ・7.5mg　29,500円〜 ━━━━━━━━━━━━  ※診察料 0円 ※送料2,000円（冷蔵便のみ） 復活のけんちャろ( ᐢᢦᐢ ) @ MA_Kncharo 10月29日(木) 15:34",
+        "clinic_names": [
+          "こよみ クリニック",
+          "こよみクリニック"
+        ],
+        "channel": "sns",
+        "source": "yahoo_x",
+        "query": "マンジャロ クリニック 価格",
+        "event": null,
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "35c10e6ef45564ed10f6",
+      "hit": {
+        "url": "https://x.com/Li_die04?utm_source=yjrealtime&utm_medium=search",
+        "title": "X public post",
+        "snippet": "X public post ずっと探してた！ 安く マンジャロ 買える所見つけた👀✨ 当日診察できて、1-2日で発送してくれる💨 安い‼️早い‼️LINEでのやり取り不要‼️ 最高すぎる クリニック 🏥💕  キャンペーン 価格 ⬇️ 2.5mg：10,900円 5.0mg：20,900円 7.5mg：30,900円 # pr x.com/koyomi_clinic/… こよみクリニック @Koyomi_Clinic 2026年10月16日 【🌿マンジャロ最安値7,000円〜🌿】  8/21（金）よりオープン！！  ━━━━━━━━━━━━  マンジャロ価格（1ヶ月あたりの価格）  ・2.5mg　7,000円〜  ・5.0mg　16,000円〜  ・7.5mg　24,500円〜  ━━━━━━━━━━━━    ※診察料 0円  ※送料2,000円（冷蔵便のみ） 焼 鮭 @ Li_die04 2 2 10月26日(月) 11:09",
+        "clinic_names": [
+          "最高すぎる クリニック",
+          "こよみクリニック"
+        ],
+        "channel": "sns",
+        "source": "yahoo_x",
+        "query": "マンジャロ クリニック 価格",
+        "event": {
+          "kind": "event_post",
+          "dates_mentioned": [
+            "1-2",
+            "8/21"
+          ],
+          "snippet": "X public post ずっと探してた！ 安く マンジャロ 買える所見つけた👀✨ 当日診察できて、1-2日で発送してくれる💨 安い‼️早い‼️LINEでのやり取り不要‼️ 最高すぎる クリニック 🏥💕  キャンペーン 価格 ⬇️ 2.5mg：10,900円 5.0mg：20,900円 7.5mg：30,900円 # pr x.com/koyomi_clinic/… こよみクリニック @Koyomi_Clinic 2026年10月16日 【🌿マンジャロ最安値7,000円〜🌿】  8/21（金）よりオープン！！  ━━━━━━━━━━━━  マンジャロ価格（1ヶ月あたりの価格）  ・2.5mg　7,000円〜  ・5.0mg　16,000円〜  ・7.5mg　24,500円〜  ━━━━━━━━━━━━    ※診察料 0円  ※送料2,000円（冷",
+          "price_verified": false,
+          "note": "SNS 홍보에서 행사 감지. 12펜 적용·할인 기간 및 진료 조건 공식 확인 전"
+        },
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "d9318655f742e4c36c77",
+      "hit": {
+        "url": "https://x.com/ubomiya?utm_source=yjrealtime&utm_medium=search",
+        "title": "X public post",
+        "snippet": "X public post 💙UB クリニック 大宮💙  11月キャンペーン＆ マンジャロ価格 改正のお知らせ📢  【埼玉最安値糸リフト🔥】  ✅ヴィ－ナスリフト・VOVリフト(局所麻酔込)が4万円から可能☆  4本￥40,000　2本追加毎に+￥10,000    秋冬は「そろそろシミ取りしたい！」という方も多いのではないでしょうか？👀🍂 pic.x.com/g5WhZu1cIw 美容皮膚科 UBCLINIC大宮(UBクリニック大宮) @ ubomiya 6 10月25日(日) 15:00",
+        "clinic_names": [
+          "UB クリニック",
+          "g5WhZu1cIw 美容皮膚科",
+          "UBCLINIC",
+          "UBクリニック"
+        ],
+        "channel": "sns",
+        "source": "yahoo_x",
+        "query": "マンジャロ クリニック 価格",
+        "event": {
+          "kind": "event_post",
+          "dates_mentioned": [],
+          "snippet": "X public post 💙UB クリニック 大宮💙  11月キャンペーン＆ マンジャロ価格 改正のお知らせ📢  【埼玉最安値糸リフト🔥】  ✅ヴィ－ナスリフト・VOVリフト(局所麻酔込)が4万円から可能☆  4本￥40,000　2本追加毎に+￥10,000    秋冬は「そろそろシミ取りしたい！」という方も多いのではないでしょうか？👀🍂 pic.x.com/g5WhZu1cIw 美容皮膚科 UBCLINIC大宮(UBクリニック大宮) @ ubomiya 6 10月25日(日) 15:00",
+          "price_verified": false,
+          "note": "SNS 홍보에서 행사 감지. 12펜 적용·할인 기간 및 진료 조건 공식 확인 전"
+        },
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "b9b04aff77c51573697b",
+      "hit": {
+        "url": "https://x.com/zscoem?utm_source=yjrealtime&utm_medium=search",
+        "title": "X public post",
+        "snippet": "X public post ここの クリニック 、なんとオンライン完結で マンジャロ 買えるそうです😻🫵🏻今ならこの 価格 で良心的すぎる🪄  ※ マンジャロ は合う合わない、賛否両論あるから自分自身でしっかり検討してからやってねദ്ദി𓂂ᴖ⩊ᴖ)✧ # PR x.com/origami_clinic… ORIGAMI CLINIC（公式） @ORIGAMI_CLINIC 2026年8月3日 ▼治療価格表(税抜)   ・マンジャロ2.5mg  10,900円   ・マンジャロ5.0mg  20,909円  ・マンジャロ7.5mg  30,909円      診察は当日または翌日診察が可能です。  予約待ちなどはなく、全て診察後1-2日以内の発送になります。   ※診察料込・送料別  ----  ▼ 진료 가격표（세금 별도） ・마운자로 朔 @ zscoem 10月25日(日) 1:49",
+        "clinic_names": [
+          "X public post ここの クリニック",
+          "ORIGAMI CLINIC"
+        ],
+        "channel": "sns",
+        "source": "yahoo_x",
+        "query": "マンジャロ クリニック 価格",
+        "event": null,
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "eb4bf8188abe12f41c9a",
+      "hit": {
+        "url": "https://x.com/nnn_diet1?utm_source=yjrealtime&utm_medium=search",
+        "title": "X public post",
+        "snippet": "X public post 初めて マンジャロ 処方してもらった クリニック が臨時休診から再開されないので地元の クリニック に変更。近いし、感じ良くて良かった。初回 価格 で2.5mg4本で8600円。次からもここでいいや〜〜 豚肉 @ nnn_diet1 10月24日(土) 19:54",
+        "clinic_names": [
+          "が臨時休診から再開されないので地元の クリニック"
+        ],
+        "channel": "sns",
+        "source": "yahoo_x",
+        "query": "マンジャロ クリニック 価格",
+        "event": null,
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "dbc6fbf5438c03c7180e",
+      "hit": {
+        "url": "https://x.com/Yu20211203?utm_source=yjrealtime&utm_medium=search",
+        "title": "X public post",
+        "snippet": "X public post 🌿✨✧･ﾟ: ✧･ﾟ: ｡・:・ﾟ✧ *:・ﾟ✧｡ マンジャロ 気になって調べてみたら… こよみ クリニック の定期便が手頃な 価格 で出てたので共有します🌸 ・2.5mg：7,000円（税込） ・5.0mg：16,000円（税込） ・7.5mg：24,500円（税込） ※診察料込み・送料別（クール便2,000円／常温便500円） x.com/Koyomi_Clinic/… こよみクリニック @Koyomi_Clinic 2026年10月16日 【🌿マンジャロ最安値7,000円〜🌿】  8/21（金）よりオープン！！  ━━━━━━━━━━━━  マンジャロ価格（1ヶ月あたりの価格）  ・2.5mg　7,000円〜  ・5.0mg　16,000円〜  ・7.5mg　24,500円〜  ━━━━━━━━━━━━    ※診察料 0円  ※送料2,000円（冷蔵便のみ） ユキ🌸5ｙ🐘🌸身障2級・療育手帳〇B中度知的 @ Yu20211203 10月23日(金) 20:01",
+        "clinic_names": [
+          "こよみ クリニック",
+          "こよみクリニック"
+        ],
+        "channel": "sns",
+        "source": "yahoo_x",
+        "query": "マンジャロ クリニック 価格",
+        "event": null,
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "83f43d9e5a7fa025cc8e",
+      "hit": {
+        "url": "https://x.com/_nonn_oO?utm_source=yjrealtime&utm_medium=search",
+        "title": "X public post",
+        "snippet": "X public post 本番まであと少しのプレ花、焦ってメディカルダイエットを調べてたら、今回教えてもらった クリニック が気になった..！ マンジャロ って高いイメージだったけど、キャンペーン 価格 があるみたい🫣しかも当日診察OKで、診察後1〜2日程で発送してくれるそう📦✨  気になる人は詳細をチェックしてみて👌🏻 # PR x.com/dr_beau_lab/st… Dr. Beauty Lab @dr_beau_lab 2026年8月14日 【🚨マンジャロ価格改定！最安値6,500円〜🚨】 8/14（金）よりマンジャロの価格を大幅に改定しました！  ━━━━━━━━━━━━ マンジャロ価格（1ヶ月あたりの価格） ・2.5mg　6,500円〜 ・5.0mg　16,500円〜 ・7.5mg　29,500円〜 ━━━━━━━━━━━━  ※診察料 0円 𝑟𝑖𝑛𝑜𝑛 @ _nonn_oO 10月22日(木) 21:43",
+        "clinic_names": [
+          "今回教えてもらった クリニック"
+        ],
+        "channel": "sns",
+        "source": "yahoo_x",
+        "query": "マンジャロ クリニック 価格",
+        "event": {
+          "kind": "event_post",
+          "dates_mentioned": [
+            "8/14"
+          ],
+          "snippet": "X public post 本番まであと少しのプレ花、焦ってメディカルダイエットを調べてたら、今回教えてもらった クリニック が気になった..！ マンジャロ って高いイメージだったけど、キャンペーン 価格 があるみたい🫣しかも当日診察OKで、診察後1〜2日程で発送してくれるそう📦✨  気になる人は詳細をチェックしてみて👌🏻 # PR x.com/dr_beau_lab/st… Dr. Beauty Lab @dr_beau_lab 2026年8月14日 【🚨マンジャロ価格改定！最安値6,500円〜🚨】 8/14（金）よりマンジャロの価格を大幅に改定しました！  ━━━━━━━━━━━━ マンジャロ価格（1ヶ月あたりの価格） ・2.5mg　6,500円〜 ・5.0mg　16,500円〜 ・7.5mg　29,500円〜 ━━━━━━━━━━━━  ※診察",
+          "price_verified": false,
+          "note": "SNS 홍보에서 행사 감지. 12펜 적용·할인 기간 및 진료 조건 공식 확인 전"
+        },
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "2acdf99f5d6811b2d3e4",
+      "hit": {
+        "url": "https://x.com/necodaisuki___?utm_source=yjrealtime&utm_medium=search",
+        "title": "X public post",
+        "snippet": "X public post 【 マンジャロ のオンライン診療💉】 マンジャロ を検討している方におすすめの クリニック 🩷  🏥 こよみ クリニック 💉 マンジャロ の定期便 価格 （税込） ・2.5mg：7,000円 ・5.0mg：16,000円 ・7.5mg：24,500円 ‼️ついに7000円台‼️ ※別途、診察料・送料がかかります。 x.com/koyomi_clinic/… こよみクリニック @Koyomi_Clinic 2026年10月16日 【🌿マンジャロ最安値7,000円〜🌿】  8/21（金）よりオープン！！  ━━━━━━━━━━━━  マンジャロ価格（1ヶ月あたりの価格）  ・2.5mg　7,000円〜  ・5.0mg　16,000円〜  ・7.5mg　24,500円〜  ━━━━━━━━━━━━    ※診察料 0円  ※送料2,000円（冷蔵便のみ） ねこ @ necodaisuki___ 10月22日(木) 15:25",
+        "clinic_names": [
+          "こよみ クリニック",
+          "こよみクリニック"
+        ],
+        "channel": "sns",
+        "source": "yahoo_x",
+        "query": "マンジャロ クリニック 価格",
+        "event": null,
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "ca334cdf3c39fe5da7d7",
+      "hit": {
+        "url": "https://x.com/asoviva_icoiba?utm_source=yjrealtime&utm_medium=search",
+        "title": "X public post",
+        "snippet": "X public post マンジャロ のお世話になりながら、食事管理や運動も続けています😊 ただ、 マンジャロ って毎月の費用が結構かかるんですよね💦 そんな中、こよみ クリニック さんを知りました！ マンジャロ がお手頃 価格 で提供されているみたいです😳 ダイエットはまだまだ続きます💪 # PR x.com/Koyomi_Clinic/… こよみクリニック @Koyomi_Clinic 2026年10月16日 【🌿マンジャロ最安値7,000円〜🌿】  8/21（金）よりオープン！！  ━━━━━━━━━━━━  マンジャロ価格（1ヶ月あたりの価格）  ・2.5mg　7,000円〜  ・5.0mg　16,000円〜  ・7.5mg　24,500円〜  ━━━━━━━━━━━━    ※診察料 0円  ※送料2,000円（冷蔵便のみ） 中村　豪 @ asoviva_icoiba 1 3 10月22日(木) 12:18",
+        "clinic_names": [
+          "こよみ クリニック",
+          "こよみクリニック"
+        ],
+        "channel": "sns",
+        "source": "yahoo_x",
+        "query": "マンジャロ クリニック 価格",
+        "event": null,
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "546a0c32928e91df0725",
+      "hit": {
+        "url": "https://x.com/LG_Shinjuku?utm_source=yjrealtime&utm_medium=search",
+        "title": "X public post",
+        "snippet": "X public post 【美容 クリニック の薬、ここまで安くしていいの？💊】  お薬の 価格 、さらに値下げしました。 しかも、取り扱い種類も大幅に増やしました。 🔥 イソトレチノイン20mg 30日分 6,900円 🔥 アダパレン 1,980円 🔥 ベピオゲル 2,980円 🔥 ED治療薬 1錠350円〜 🔥 マンジャロ 2.5m　2本 5500円 🔥 低用量ピル pic.x.com/bLfCDQUiBv 新宿Ladies＆Gentlmen美容クリニック @ LG_Shinjuku 7 2026年10月17日",
+        "clinic_names": [
+          "Gentlmen美容クリニック"
+        ],
+        "channel": "sns",
+        "source": "yahoo_x",
+        "query": "マンジャロ クリニック 価格",
+        "event": null,
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "764ca28039c589bea58e",
+      "hit": {
+        "url": "https://x.com/deepplane?utm_source=yjrealtime&utm_medium=search",
+        "title": "X public post",
+        "snippet": "X public post ★これから マンジャロ を始めるコスパ重視派に伝えたいこと★  ▶︎2.5mgで粘れるだけ粘れ、2.5と5mgはボリュームゾーンなので多くの クリニック で激安で入手可能、7.5に上げると購入先も減り、 価格 競争が鈍い ▶︎2.5で減量スピードが鈍ったら、5mgに上げるまえにメトホルミンの併用を検討 （続きます） セサミ@切開フェイスリフトDT中（マンジャロ12.2〜で23.5キロ減） @ deepplane 3 161 2,024 2026年4月2日",
+        "clinic_names": [
+          "2.5と5mgはボリュームゾーンなので多くの クリニック"
+        ],
+        "channel": "sns",
+        "source": "yahoo_x",
+        "query": "マンジャロ クリニック 価格",
+        "event": null,
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "900da584f2ff4dc9d61b",
+      "hit": {
+        "url": "https://x.com/mankuri_k?utm_source=yjrealtime&utm_medium=search",
+        "title": "X public post",
+        "snippet": "X public post マンジャロ 最安級 クリニック 「マンクリ」の医師Kです！  11/16(月)までの 期間限定 で 選べるプレゼントキャンペーンを実施しています🎁✨  お得に マンジャロ を始めたい方は、 ぜひこの機会にチェックしてください⬇️ x.com/mankuri_online… マンクリ｜マンジャロ最安級オンラインクリニック @mankuri_online_ 11月10日(火) 18:43 🌰🌰🌰🌰🌰🌰🌰🌰🌰🌰🌰🌰 11/16(月)までの期間限定！ 選べる秋のプレゼントキャンペーン🎁 🌰🌰🌰🌰🌰🌰🌰🌰🌰🌰🌰🌰  「クリ🌰」になったマンクリちゃんから お得なキャンペーンのお知らせクリ！  2つの特典から自分で選べる 秋のプレゼントキャンペーンを実施中✨  お得なこの機会をお見逃しなく👀 マンクリの医師K💊マンジャロ最安級オンラインクリニック「マンクリ」運営 @ mankuri_k 11月16日(月) 12:59",
+        "clinic_names": [
+          "最安級オンラインクリニック"
+        ],
+        "channel": "sns",
+        "source": "yahoo_x",
+        "query": "マンジャロ 期間限定 クリニック",
+        "event": {
+          "kind": "event_post",
+          "dates_mentioned": [
+            "11/16",
+            "11/16"
+          ],
+          "snippet": "X public post マンジャロ 最安級 クリニック 「マンクリ」の医師Kです！  11/16(月)までの 期間限定 で 選べるプレゼントキャンペーンを実施しています🎁✨  お得に マンジャロ を始めたい方は、 ぜひこの機会にチェックしてください⬇️ x.com/mankuri_online… マンクリ｜マンジャロ最安級オンラインクリニック @mankuri_online_ 11月10日(火) 18:43 🌰🌰🌰🌰🌰🌰🌰🌰🌰🌰🌰🌰 11/16(月)までの期間限定！ 選べる秋のプレゼントキャンペーン🎁 🌰🌰🌰🌰🌰🌰🌰🌰🌰🌰🌰🌰  「クリ🌰」になったマンクリちゃんから お得なキャンペーンのお知らせクリ！  2つの特典から自分で選べる 秋のプレゼントキャンペーンを実施中✨  お得なこの機会をお見逃しなく👀 マンクリの医師K💊マンジャロ最安級オンライン",
+          "price_verified": false,
+          "note": "SNS 홍보에서 행사 감지. 12펜 적용·할인 기간 및 진료 조건 공식 확인 전"
+        },
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "bcd9e70f0ffbc66def1f",
+      "hit": {
+        "url": "https://x.com/mankuri_online_?utm_source=yjrealtime&utm_medium=search",
+        "title": "@mankuri_online_",
+        "snippet": "@mankuri_online_ マンクリ｜マンジャロ最安級オンラインクリニック @mankuri_online_ 11月10日(火) 18:43",
+        "clinic_names": [
+          "最安級オンラインクリニック"
+        ],
+        "channel": "sns",
+        "source": "yahoo_x",
+        "query": "マンジャロ 期間限定 クリニック",
+        "event": null,
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "83dadbdd7c65615a5ea1",
+      "hit": {
+        "url": "https://x.com/kakuyasu_clinic?utm_source=yjrealtime&utm_medium=search",
+        "title": "X public post",
+        "snippet": "X public post 一生のお願いです。メモって下さい。 マンジャロ の用量、それぞれの意味。  ・2.5mgは「体を慣らす練習期間」 ・5mgは「ここからが本番」 ・7.5mgは「停滞したときの次の一手」 ・ 10mg 以上は「医師とじっくり決める領域」  数字が大きいほど偉いわけではあ カクヤスクリニック【公式】 @ kakuyasu_clinic 1 4 48 昨日 15:31",
+        "clinic_names": [
+          "数字が大きいほど偉いわけではあ カクヤスクリニック"
+        ],
+        "channel": "sns",
+        "source": "yahoo_x",
+        "query": "マンジャロ 10mg",
+        "event": null,
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "f0e135aaf9ec181190f7",
+      "hit": {
+        "url": "https://x.com/mounjaro_index?utm_source=yjrealtime&utm_medium=search",
+        "title": "X public post",
+        "snippet": "X public post 【 マンジャロ 】用量別価格 · 11/19  2.5mg こよみ 約¥7,833  5mg CLINIC UP大森 約¥13,980  7.5mg ライト高田馬場 約¥23,167 10mg 東京シルク 約¥29,500  12.5mg now! 約¥33,500  15mg now! 約¥42,500  4週間・4本換算。まとめ買いあり。 全順位・場所・予約情報はこちら ↓ mounjarojp.com/ja/ マンジャロインデックス @ mounjaro_index 11月19日(木) 20:00",
+        "clinic_names": [
+          "833 5mg CLINIC"
+        ],
+        "channel": "sns",
+        "source": "yahoo_x",
+        "query": "マンジャロ 10mg",
+        "event": null,
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "9d4a8606846817a390f1",
+      "hit": {
+        "url": "https://x.com/nyamaire?utm_source=yjrealtime&utm_medium=search",
+        "title": "X public post",
+        "snippet": "X public post 返信先: @ hormonenohito マンジャロ10mg ユーザーよ(´ー｀)12.5mg は病院が扱っていない 宮川物産 @ nyamaire 11月18日(水) 18:44",
+        "clinic_names": [
+          "12.5mg は病院"
+        ],
+        "channel": "sns",
+        "source": "yahoo_x",
+        "query": "マンジャロ 10mg",
+        "event": null,
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "3643605ea51153b9be0d",
+      "hit": {
+        "url": "https://x.com/pom2purin_aqua?utm_source=yjrealtime&utm_medium=search",
+        "title": "X public post",
+        "snippet": "X public post 11/15 マンジャロ10mg 2回目  血糖値昨日あたりから180切るように でもまだ怪しい😒 17日までに常時200切れなかったら 病院へ電話 pic.x.com/H9uvH5cT3V りゅうあ🦦 @ pom2purin_aqua 11月15日(日) 22:50",
+        "clinic_names": [
+          "17日までに常時200切れなかったら 病院"
+        ],
+        "channel": "sns",
+        "source": "yahoo_x",
+        "query": "マンジャロ 10mg",
+        "event": null,
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "ab5b65a04a6497e12d98",
+      "hit": {
+        "url": "https://x.com/12Wv221q4biQstk?utm_source=yjrealtime&utm_medium=search",
+        "title": "X public post",
+        "snippet": "X public post 東京シルククリニック購入レポ💉 マンジャロ10mg 、ダパグリフロジン5mg×30錠で31,700円（診察・送料込）  リリー公式のロット検索も一致。  ただ緩衝材なしで、段ボール内で薬箱が動く状態だった💦  破格だけど、ガラスと注射器だから緩衝材なしはうーん‥ pic.x.com/jVWs7GSiAj natsu @ 12Wv221q4biQstk 11月15日(日) 15:06",
+        "clinic_names": [
+          "X public post 東京シルククリニック"
+        ],
+        "channel": "sns",
+        "source": "yahoo_x",
+        "query": "マンジャロ 10mg",
+        "event": null,
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "d75fa3ed29c240e2e10a",
+      "hit": {
+        "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxPaUhuOGY5R2RLelZSSm5BT19nbjBDQWRkOGY1cXpQOWl5TWZGQXhIdFZETTJ5Qnp4Rk1Udi1feXNWNE1Wc1RJenpFd2dOaUNMU01taFlVQU5OYzBmMlNWU3h5eEJicmhDNE1lTXVMSmJsOUZXTVYtWFI0QWQ2U3hSYzdQVEJzbXdPRERJUEpMdWFack1SQ0ltRWtYSWdua1NsU0V1amNPNGNHS1dIcjgtTFlDWW01dlRmTTVvTFBGR21ScHBJT3FHMFZfT2dERjZCSVhNS3hYVFRXX016Vk03MjE0eXRYZkNtTmMwcU5QamlDTkMtdTdtYWV1X2tqWHhIMWFsY0JlWkNWdVNYQzZtcEtmbzBZWGZwRmhTQWRDTlNlc183LVJ6Tlg2U0JsSHQ0XzFjeVNkN1FzTTdmV1RnQk92UWlUY0o2amhv?oc=5",
+        "title": "マンジャロの副作用：臨床データから安全性を正しく理解する - ひろつ内科クリニック",
+        "snippet": "マンジャロの副作用：臨床データから安全性を正しく理解する - ひろつ内科クリニック マンジャロの副作用：臨床データから安全性を正しく理解する ひろつ内科クリニック",
+        "clinic_names": [
+          "臨床データから安全性を正しく理解する ひろつ内科クリニック"
+        ],
+        "channel": "web",
+        "source": "google_news",
+        "query": "マンジャロ クリニック 料金 12本",
+        "event": null,
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "400f8e53bcd85b419605",
+      "hit": {
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE51MjZWQnY3QWk5NnZJTUp0dTY3UjBnZHlMMElfdUo2TGRhVmxUZWFFTWllVlJhLTE0dlZFbHM5ZVZvek9WYzRTOWNLUXJoYktRSFBQX3Z4M0tiQ1l3MWF3RDJ0ekFoLXVBOGc?oc=5",
+        "title": "【月16,000円～／追加費用ゼロ】新宿駅前クリニックがマンジャロのオンライン診療を開始 - PR TIMES",
+        "snippet": "【月16,000円～／追加費用ゼロ】新宿駅前クリニックがマンジャロのオンライン診療を開始 - PR TIMES 【月16,000円～／追加費用ゼロ】新宿駅前クリニックがマンジャロのオンライン診療を開始 PR TIMES",
+        "clinic_names": [
+          "新宿駅前クリニック"
+        ],
+        "channel": "web",
+        "source": "google_news",
+        "query": "マンジャロ クリニック 料金 12本",
+        "event": null,
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "d5f23f80a967de6ff555",
+      "hit": {
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Yc3VlQjJkWmx3bV9wYXRxekdSMnN2SWtEODZhMUQ4eTdzWmVmT3hqbDI2N25RbkRvV2tkT1lINTFkYzJKcjFDNWN6eU1lMGQwb0lYelFjTkxqNHZ0MHQ3NXpkUUZPdHVLRFFJOUJMYmlRZlo30gGIAUFVX3lxTE12V3JFNWtJTkJpZ2tSNFg1eTk5aUpEbnBhel9JZFFnNTljTFF4WFJPOHNjcTZvbDRueUdKLUZHZ20tNlhNdi1DOEpVdUk2eTBKUHg1QU1sZVdKeXh6UXEwN2ctVXdyU1Z4TWJqdVljTFJsTlZRQ1NoZzNQVHVkX3pUTmc0Ynp2dnI?oc=5",
+        "title": "マンジャロ炎上、ゆいぴす突然のイベント辞退　クリニックのHP画像差し替えと警察摘発が重なった一週間 - イザ！",
+        "snippet": "マンジャロ炎上、ゆいぴす突然のイベント辞退　クリニックのHP画像差し替えと警察摘発が重なった一週間 - イザ！ マンジャロ炎上、ゆいぴす突然のイベント辞退　クリニックのHP画像差し替えと警察摘発が重なった一週間 イザ！",
+        "clinic_names": [
+          "ゆいぴす突然のイベント辞退 クリニック"
+        ],
+        "channel": "web",
+        "source": "google_news",
+        "query": "マンジャロ クリニック 料金 12本",
+        "event": {
+          "kind": "event_post",
+          "dates_mentioned": [],
+          "snippet": "マンジャロ炎上、ゆいぴす突然のイベント辞退　クリニックのHP画像差し替えと警察摘発が重なった一週間 - イザ！ マンジャロ炎上、ゆいぴす突然のイベント辞退　クリニックのHP画像差し替えと警察摘発が重なった一週間 イザ！",
+          "price_verified": false,
+          "note": "SNS 홍보에서 행사 감지. 12펜 적용·할인 기간 및 진료 조건 공식 확인 전"
+        },
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "501bd1a2bf54f4d6935f",
+      "hit": {
+        "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxNRzN3dUU3eTFudjM5RHJVRzFjcGJ1c1o0bkZiTWN3aWpReUU3RGhwT3pxVmktcFlXQUNZQmRXT0JLLW5LMmxPd2hNbUNfTnhwWDdvZVpQMGY0Y3JxUlJVLUJkemg4SHpaa2RLT3daQk84VzJ1a29tX2FGemJJV0JaeUl5WmhFYk9PU1pCdXpuTmY2blMtMDFsSDR4cHhSM1dhQlZqM0VSbGVQVy1TQU8zMVpvY2ctM3RXWlhaWlA5ZGVuLU1rcUFxb2g5UXU0Ql9IMzY3c3FvVUhhVmdlcjE0SGlFM3piUjVVQ2tJQUdxeVl4aXhISzlMZDRuV3l4NkJiNDRreHRpZHhURDZLY3JnejRsU3JodlhMV2d3LVZHZkJVU18zZGZNVUpJSzVVTVJnQW1uaUM1ckpOMU5EOG0yQ1RGQ1BjWi0wY2Fr?oc=5",
+        "title": "マンジャロで死亡することはある？安全な使い方を医師が解説 - ひろつ内科クリニック",
+        "snippet": "マンジャロで死亡することはある？安全な使い方を医師が解説 - ひろつ内科クリニック マンジャロで死亡することはある？安全な使い方を医師が解説 ひろつ内科クリニック",
+        "clinic_names": [
+          "安全な使い方を医師が解説 - ひろつ内科クリニック",
+          "安全な使い方を医師が解説 ひろつ内科クリニック"
+        ],
+        "channel": "web",
+        "source": "google_news",
+        "query": "マンジャロ クリニック 料金 12本",
+        "event": null,
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "5fce880bb26cf5383f25",
+      "hit": {
+        "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQNGhmVzRpOFd2NXF6YS1qY2gySl9xVmc5V0VCT3FsNWZBYVJ4UU4zM1JwOWE1b0JSdWZ0RWJBeXJ1dHdINDUyVnFMMVVRNHFVS3JTTGpGZnk0ZnZycTd5RHVuRzVxbTQzSjAwWGFDWDhqQjhvb0w5dU8za3VkcDZXUmZNaGZqUG9pTG1SWC1VT040WFUteTJocU5LdzR0YWdFak5ER0lST3ZnUzFzdU82Vlp3UlRMbExyeVlvWkhqTUpWRUROYmY5czNXbHUyWFhFbkcwM21ubi1YTEQzdUZLMUpnZ2Vub0YwaFIxRkRyWTI5ZDdBckpwQTVaaWZLSUs4dWtSbS01N2p6RHZoWnljYVhpSm9fdE1qbHRYQ3dwcUVxTThEXzA5RUo0S1lnVWhNc3dYM2gzbHVvalhQeWx3aG5NOXYtaVNQZ3Bz?oc=5",
+        "title": "マンジャロと奇形児のリスク、現時点のエビデンス - ひろつ内科クリニック",
+        "snippet": "マンジャロと奇形児のリスク、現時点のエビデンス - ひろつ内科クリニック マンジャロと奇形児のリスク、現時点のエビデンス ひろつ内科クリニック",
+        "clinic_names": [
+          "現時点のエビデンス - ひろつ内科クリニック",
+          "現時点のエビデンス ひろつ内科クリニック"
+        ],
+        "channel": "web",
+        "source": "google_news",
+        "query": "マンジャロ クリニック 料金 12本",
+        "event": null,
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
+    },
+    {
+      "key": "12b7fea2a1ea4c6ceb89",
+      "hit": {
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4wUm1YNm9zck1UOHRDbnZ4M2RpaTlOZFRYY1VlaUhDNUVaRUNwVjd0c2Znekh1NVNvTlZkLVFwU2xrR1NFcHhIYUNsYw?oc=5",
+        "title": "「痩せすぎ女性に“マンジャロ”」「AGA治療で梅毒を見逃し…」医師が警告・急増する“通販感覚”のオンライン診療に潜むワナ《安全なクリニックの見分け方は…》 - 文春オンライン",
+        "snippet": "「痩せすぎ女性に“マンジャロ”」「AGA治療で梅毒を見逃し…」医師が警告・急増する“通販感覚”のオンライン診療に潜むワナ《安全なクリニックの見分け方は…》 - 文春オンライン 「痩せすぎ女性に“マンジャロ”」「AGA治療で梅毒を見逃し…」医師が警告・急増する“通販感覚”のオンライン診療に潜むワナ《安全なクリニックの見分け方は…》 文春オンライン",
+        "clinic_names": [
+          "安全なクリニック"
+        ],
+        "channel": "web",
+        "source": "google_news",
+        "query": "マンジャロ クリニック 料金 12本",
+        "event": null,
+        "first_seen": "2026-11-21T00:07:28+09:00",
+        "last_seen": "2026-11-21T00:07:28+09:00"
+      }
     }
   ],
-  "note": "Initial manually verified public search leads (not an automated collection run). Activate GitHub Actions for recurring scans."
+  "note": "Publicly indexed only; may be blocked/partial. Unverified prices never auto-enter ranking."
 }
