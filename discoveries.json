@@ -1,5 +1,5 @@
 {
-  "ran_at": "2026-11-21T01:27:32+09:00",
+  "ran_at": "2026-11-21T01:29:21+09:00",
   "source_status": [
     {
       "source": "bing_html",
@@ -30,11 +30,11 @@
       "fallback": true
     },
     {
-      "source": "bing_rss",
+      "source": "bing_html",
       "query": "マンジャロ 韓国語 予約 クリニック",
       "ok": true,
-      "items": 10,
-      "fallback": false
+      "items": 0,
+      "fallback": true
     },
     {
       "source": "bing_html",
@@ -44,11 +44,11 @@
       "fallback": true
     },
     {
-      "source": "bing_rss",
+      "source": "bing_html",
       "query": "일본 마운자로 한국인 처방 클리닉 호텔 배송",
       "ok": true,
-      "items": 10,
-      "fallback": false
+      "items": 0,
+      "fallback": true
     },
     {
       "source": "bing_rss",
@@ -65,11 +65,11 @@
       "fallback": true
     },
     {
-      "source": "bing_rss",
+      "source": "bing_html",
       "query": "マンジャロ 観光客 価格改定 クリニック",
       "ok": true,
-      "items": 10,
-      "fallback": false
+      "items": 0,
+      "fallback": true
     },
     {
       "source": "bing_html",
@@ -82,15 +82,15 @@
       "source": "bing_rss",
       "query": "site:instagram.com マンジャロ クリニック 韓国人",
       "ok": true,
-      "items": 10,
+      "items": 1,
       "fallback": false
     },
     {
-      "source": "bing_rss",
+      "source": "bing_html",
       "query": "site:instagram.com マンジャロ 3ヶ月 予約",
       "ok": true,
-      "items": 10,
-      "fallback": false
+      "items": 0,
+      "fallback": true
     },
     {
       "source": "bing_html",
@@ -117,14 +117,14 @@
       "source": "bing_html",
       "query": "マンジャロ 韓国人 旅行者 クリニック 東京 予約",
       "ok": true,
-      "items": 0,
+      "items": 10,
       "fallback": true
     },
     {
       "source": "bing_html",
       "query": "マンジャロ 韓国人 旅行者 クリニック 対馬 予約",
       "ok": true,
-      "items": 0,
+      "items": 10,
       "fallback": true
     },
     {
@@ -203,15 +203,7 @@
     }
   ],
   "hits_this_run": 47,
-  "new_candidates": [
-    {
-      "id": "found-cd0e510e49f2",
-      "name": "ミライメディカルクリニック",
-      "source_url": "https://sushijaro.app/ja/clinic/mirai-medical?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    }
-  ],
+  "new_candidates": [],
   "archive": [
     {
       "key": "aa5890a7b9fcbdfd349f",
@@ -1197,8 +1189,8 @@
         "source": "public_directory_lead",
         "query": "foreign-traveler clinic directory",
         "event": null,
-        "first_seen": "2026-11-21T01:27:32+09:00",
-        "last_seen": "2026-11-21T01:27:32+09:00"
+        "first_seen": "2026-11-21T01:29:21+09:00",
+        "last_seen": "2026-11-21T01:29:21+09:00"
       }
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "ran_at": "2026-11-21T01:27:37+09:00",
+  "ran_at": "2026-11-21T01:29:27+09:00",
   "hashes": {
     "https://baba-totalcareclinic.com/private-practice": "a3b141b4cbfca1ad3b54e74deadf22cb8a07c87f600b944481c176fb5cd22646",
     "https://tokyosilkclinic.com/menu/909": "c0190473d9a440191263d00607834cf85f2f48c7314ecb749794c6f61a36f785",
@@ -31,7 +31,8 @@
     "https://ubclinic-online.netlify.app/ko": "8647cdfcd5702d3380992e4c3463e0b8e258b7c4b128748da21051de153e4dfd",
     "https://tenjin.lapis-clinic.com/news/3665": "e80b0ed4ad5e4fc9c585eedf68aff1593ee310015eafb1a52866f04420e39ef7",
     "https://okachi-clinic.jp/price": "97dcb2169d4f8ea3a0205735f8a5d0cb2eb5c968051451dcc47b9c591fa756a2",
-    "https://japannetclinic.com/": "155a07d772d8f0e52328f16de8ad8c6be317d6ccd6e0ceeed6b1ed72505173e1"
+    "https://japannetclinic.com/": "155a07d772d8f0e52328f16de8ad8c6be317d6ccd6e0ceeed6b1ed72505173e1",
+    "https://mirai-medical.clinic/ko/mounjaro": "212e8d698be05f0913366df1440280ca80d16fa58a1d6c1c4f723e1f43ca1324"
   },
   "pending": {}
 }
