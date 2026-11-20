@@ -1,0 +1,34 @@
+name: Find new clinics from public SNS/web and monitor price sources
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 0 * * *'
+permissions:
+  contents: write
+jobs:
+  discover-and-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Discover from public indexed social posts and Japanese web
+        run: python discover.py
+      - name: Verify official prices for new SNS-discovered clinics
+        run: python enrich_official.py
+      - name: Monitor the expanded official-source list
+        run: python watch_sources.py
+      - name: Rebuild offline HTML and comparison CSV
+        run: python build.py
+      - name: Commit new clinics, source evidence and changed-page flags
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add catalog.json catalog.csv discoveries.json watch_state.json monitor.js index.html
+          if ! git diff --staged --quiet; then
+            git commit -m 'Daily public SNS clinic discovery and price-source monitoring'
+            git push
+          fi
