@@ -1,102 +1,102 @@
 {
-  "ran_at": "2026-11-21T00:56:17+09:00",
+  "ran_at": "2026-11-21T00:57:24+09:00",
   "source_status": [
     {
-      "source": "bing_rss",
+      "source": "bing_html",
       "query": "韓国人 観光客 マンジャロ クリニック 予約",
       "ok": true,
-      "items": 1,
-      "fallback": false
+      "items": 0,
+      "fallback": true
     },
     {
-      "source": "bing_rss",
+      "source": "bing_html",
       "query": "訪日韓国人 マンジャロ 処方 価格 LINE",
       "ok": true,
-      "items": 10,
-      "fallback": false
+      "items": 0,
+      "fallback": true
     },
     {
-      "source": "bing_rss",
+      "source": "bing_html",
       "query": "マウンジャロ 韓国人 旅行者 ホテル 配送 クリニック",
       "ok": true,
-      "items": 10,
-      "fallback": false
+      "items": 0,
+      "fallback": true
     },
     {
       "source": "bing_html",
       "query": "マンジャロ 12本 3ヶ月 外国人 処方",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "fallback": true
     },
     {
-      "source": "bing_rss",
+      "source": "bing_html",
       "query": "マンジャロ 韓国語 予約 クリニック",
       "ok": true,
-      "items": 1,
-      "fallback": false
+      "items": 0,
+      "fallback": true
     },
     {
-      "source": "bing_rss",
+      "source": "bing_html",
       "query": "마운자로 일본 병원 예약 할인 3개월",
       "ok": true,
-      "items": 7,
-      "fallback": false
+      "items": 0,
+      "fallback": true
     },
     {
-      "source": "bing_rss",
+      "source": "bing_html",
       "query": "일본 마운자로 한국인 처방 클리닉 호텔 배송",
       "ok": true,
-      "items": 10,
-      "fallback": false
+      "items": 0,
+      "fallback": true
     },
     {
-      "source": "bing_rss",
+      "source": "bing_html",
       "query": "일본 마운자로 병원 SNS 이벤트 10mg",
       "ok": true,
-      "items": 10,
-      "fallback": false
+      "items": 0,
+      "fallback": true
     },
     {
-      "source": "bing_rss",
+      "source": "bing_html",
       "query": "マンジャロ 10mg 12本 クリニック キャンペーン",
       "ok": true,
-      "items": 10,
-      "fallback": false
+      "items": 0,
+      "fallback": true
     },
     {
-      "source": "bing_rss",
+      "source": "bing_html",
       "query": "マンジャロ 観光客 価格改定 クリニック",
       "ok": true,
-      "items": 10,
-      "fallback": false
+      "items": 0,
+      "fallback": true
     },
     {
-      "source": "bing_rss",
+      "source": "bing_html",
       "query": "site:x.com マンジャロ 外国人 観光客 処方",
       "ok": true,
-      "items": 10,
-      "fallback": false
+      "items": 0,
+      "fallback": true
     },
     {
       "source": "bing_html",
       "query": "site:instagram.com マンジャロ クリニック 韓国人",
-      "ok": true,
-      "items": 10,
-      "fallback": true
-    },
-    {
-      "source": "bing_html",
-      "query": "site:instagram.com マンジャロ 3ヶ月 予約",
       "ok": true,
       "items": 0,
       "fallback": true
     },
     {
       "source": "bing_rss",
+      "query": "site:instagram.com マンジャロ 3ヶ月 予約",
+      "ok": true,
+      "items": 1,
+      "fallback": false
+    },
+    {
+      "source": "bing_rss",
       "query": "site:instagram.com 마운자로 일본 클리닉 예약",
       "ok": true,
-      "items": 7,
+      "items": 1,
       "fallback": false
     },
     {
@@ -107,24 +107,24 @@
       "fallback": true
     },
     {
-      "source": "bing_rss",
+      "source": "bing_html",
       "query": "マンジャロ 韓国人 旅行者 クリニック 大阪 予約",
       "ok": true,
-      "items": 10,
-      "fallback": false
+      "items": 0,
+      "fallback": true
     },
     {
-      "source": "bing_rss",
+      "source": "bing_html",
       "query": "マンジャロ 韓国人 旅行者 クリニック 東京 予約",
       "ok": true,
-      "items": 10,
-      "fallback": false
+      "items": 0,
+      "fallback": true
     },
     {
       "source": "bing_html",
       "query": "マンジャロ 韓国人 旅行者 クリニック 対馬 予約",
       "ok": true,
-      "items": 0,
+      "items": 10,
       "fallback": true
     },
     {
