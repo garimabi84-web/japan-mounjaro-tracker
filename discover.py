@@ -52,6 +52,18 @@ ALIASES = {
     "スルリムクリニック": "sururim-tenjin",
     "カクヤスクリニック": "kakuyasu",
 }
+# A directory may display translated names. Identify known clinics by the
+# directory's stable path, never by an unverified headline number.
+KNOWN_DIRECTORY_SLUGS = {
+ "ubclinic-online":"ub-online","koyomi-clinic":"koyomi","aurelia-online":"aurelia",
+ "mirai-medical":"mirai-medical","miraimedical":"mirai-medical",
+ "slim-clinic":"sururim-tenjin","slim-clinic-fukuoka":"sururim-tenjin",
+ "modena-clinic":"modena","okachi-clinic":"okachi","ehealthclinic":"ehealth",
+ "mil-clinic":"mil","bw-med":"japan-web-clinic",
+ "baba-totalcareclinic":"baba","japannetclinic":"japan-net-clinic",
+ "fontana-clinic":"fontana","lapis-clinic":"lapis-tenjin",
+ "mbcf":"mbcf","pgc-clinic":"", "nana":"", "ys-med":"",
+}
 # Focus on inbound/Korean promotional material, not all Japanese primary-care facilities.
 CORE = [
     "韓国人 観光客 マンジャロ クリニック 予約",
@@ -223,6 +235,8 @@ def directory_entries(source, base_url, limit=35):
             label = parent.get_text(" ", strip=True)[:110] if parent else ""
         label = re.split(r"[（(（]|(?:¥|￥|円|엔|詳細|총액|가격|入れる)", label)[0].strip()
         label = re.sub(r"\s+", " ", label).strip("- |")
+        label = re.sub(r"^\d{1,3}\s+", "", label)
+        label = re.sub(r"\s*(?:チャットボット|予約ページ|公式サイト)$", "", label).strip()
         if not 4 <= len(label) <= 48:
             continue
         # Directory location is precise: /clinic/slug. A readable clinic
@@ -311,7 +325,15 @@ def merge_into_catalog(cat, rawhits, archive):
     fresh = []
     stamp = now()
     for hit in rawhits:
+        path=urllib.parse.urlsplit(hit.get("url","")).path
+        match=re.search(r"/(?:ja/|en/)?clinic/([^/]+)",path)
+        directory_slug=match.group(1) if match else None
+        known_id=KNOWN_DIRECTORY_SLUGS.get(directory_slug) if directory_slug else None
+        # Directory listing for a clinic already in the official data is NOT new.
+        skip_known_dir=bool(known_id and known_id in ids)
         for name in hit["clinic_names"]:
+            if skip_known_dir:
+                continue
             norm = norm_name(name)
             if norm in seen or known_aliases.get(norm) in ids:
                 continue
@@ -351,7 +373,7 @@ def self_test():
     for t in ["東京のあるクリニック マンジャロ", "今回教えてもらったクリニック マンジャロ",
               "安全なクリニック マンジャロ", "マンジャロ料金比較オンラインクリニック"]:
         assert not entry("https://x.com/example/status/4", t, "", "test", "test"), t
-    html_fixture = '<a href="/ja/clinic/ubclinic-online">UBクリニック</a><a href="/ja/clinic/x">安全なクリニック</a>'
+    html_fixture = '<a href="/ja/clinic/ubclinic-online">1 UBクリニック チャットボット</a><a href="/ja/clinic/x">安全なクリニック</a>'
     fixture = directory_entries(html_fixture, "https://sushijaro.app/")
     assert len(fixture) == 1 and fixture[0]["clinic_names"] == ["UBクリニック"], fixture
     cat = {"clinics": []}
