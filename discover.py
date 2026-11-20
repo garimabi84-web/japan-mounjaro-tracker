@@ -47,7 +47,7 @@ ALIASES = {
     "sdhクリニック": "sdh", "こよみクリニック": "koyomi",
     "新宿駅前クリニック": "shinjuku-eki", "東京シルククリニック": "silk-visit",
     "ubクリニック": "ub-online", "ubclinic": "ub-online",
-    "ミライメディカルクリニック": "mirai-medical",
+    # This name refers to distinct Fukuoka and Tokyo facilities; no name-only alias.
     "ラピスクリニック": "lapis-tenjin",
     "スルリムクリニック": "sururim-tenjin",
     "カクヤスクリニック": "kakuyasu",
@@ -56,7 +56,7 @@ ALIASES = {
 # directory's stable path, never by an unverified headline number.
 KNOWN_DIRECTORY_SLUGS = {
  "ubclinic-online":"ub-online","koyomi-clinic":"koyomi","aurelia-online":"aurelia",
- "mirai-medical":"mirai-medical","miraimedical":"mirai-medical",
+ "mirai-medical":"mirai-medical-tokyo","miraimedical":"mirai-medical",
  "slim-clinic":"sururim-tenjin","slim-clinic-fukuoka":"sururim-tenjin",
  "modena-clinic":"modena","okachi-clinic":"okachi","ehealthclinic":"ehealth",
  "mil-clinic":"mil","bw-med":"japan-web-clinic",
@@ -344,11 +344,18 @@ def merge_into_catalog(cat, rawhits, archive):
             if skip_known_dir:
                 continue
             norm = norm_name(name)
-            if norm in seen or known_aliases.get(norm) in ids:
+            # An exact name is not a unique identifier. Two independent
+            # providers can share the same branded name (Tokyo and Fukuoka
+            # Mirai are one confirmed case). For directory hits, a different
+            # stable clinic slug may represent a different provider and is
+            # retained as a *candidate* until official URL/address validation.
+            # SNS hits without a stable entity URL remain conservative.
+            name_collision = norm in seen
+            if not directory_slug and (name_collision or known_aliases.get(norm) in ids):
                 continue
             if len(norm) < 5 or any(p in name for p in BAD_PARTS):
                 continue
-            ident = "found-" + hashlib.sha1(norm.encode()).hexdigest()[:12]
+            ident = "found-" + hashlib.sha1((directory_slug or norm).encode()).hexdigest()[:12]
             if ident in ids:
                 continue
             row = {"id": ident, "name": name, "region": "미확인", "city": "미확인",
@@ -359,7 +366,9 @@ def merge_into_catalog(cat, rawhits, archive):
                    "fees": "미확인", "status": "candidate", "address": "",
                    "channel": "자동 공개 SNS 탐색" if hit["channel"] == "sns" else "자동 웹 탐색",
                    "updated": stamp[:10], "discovery": "auto", "price_verified": False,
-                   "candidate_quality": "name_unverified", "events": [],
+                   "candidate_quality": "same_name_needs_identity_verification" if name_collision else "name_unverified",
+                   "identity_conflict": bool(name_collision), "directory_slug": directory_slug or "",
+                   "events": [],
                    "booking_method": "예약 방법 미확인", "booking_url": "",
                    "booking_type": "none", "booking_notes": "공식 예약 경로 확인 전",
                    "booking_checked": "", "first_seen": stamp[:10]}
@@ -397,6 +406,22 @@ def self_test():
     cat2={"clinics":[]}
     leads, _ = merge_into_catalog(cat2, [directory_hit, directory_hit], {})
     assert len(leads)==1 and len(cat2["clinics"])==1, leads
+    # Regression test: an established Fukuoka Mirai must NOT hide Tokyo Mirai,
+    # even if the Japanese display names are exactly identical.
+    tokyo={"url":"https://sushijaro.app/ja/clinic/mirai-medical",
+           "clinic_names":["ミライメディカルクリニック"],
+           "channel":"web","source":"public_directory_lead"}
+    fukuoka={"id":"mirai-medical","name":"ミライメディカルクリニック",
+             "url":"https://miraimedical.com/","status":"active"}
+    cat3={"clinics":[fukuoka]}
+    tokyo_candidates,_=merge_into_catalog(cat3,[tokyo],{})
+    assert len(tokyo_candidates)==1 and tokyo_candidates[0]["name"]=="ミライメディカルクリニック",tokyo_candidates
+    assert cat3["clinics"][-1]["identity_conflict"] is True
+    # When both are verified separately, the known Tokyo directory record
+    # must be suppressed as already registered.
+    cat3["clinics"].append({"id":"mirai-medical-tokyo","name":"미라이 메디컬(도쿄)","status":"active"})
+    dup,_=merge_into_catalog(cat3,[tokyo],{})
+    assert not dup,dup
     print("discovery self-test passed: real name, false-positive rejection, safe candidates")
 
 def run():
