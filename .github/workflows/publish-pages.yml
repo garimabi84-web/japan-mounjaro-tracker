@@ -1,0 +1,52 @@
+name: Publish Mounjaro Tracker website
+
+# workflow_run is required: the price-check workflow commits with GITHUB_TOKEN,
+# and those commits do not trigger ordinary push workflows.
+on:
+  workflow_run:
+    workflows:
+      - "Find new clinics from public SNS/web and monitor price sources"
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/publish-pages.yml"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout latest tracker files
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Prepare website
+        run: |
+          mkdir -p _site
+          cp index.html _site/index.html
+          cp catalog.csv _site/catalog.csv
+          touch _site/.nojekyll
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
