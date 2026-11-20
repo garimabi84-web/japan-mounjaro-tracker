@@ -13,6 +13,7 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/publish-pages.yml"
+      - "index.html"
 
 permissions:
   contents: read
@@ -35,6 +36,21 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main
+      - name: Verify tracker HTML and JavaScript
+        run: |
+          python -m py_compile build.py
+          python - <<'PY'
+          from pathlib import Path
+          s = Path('index.html').read_text(encoding='utf-8')
+          assert '외국인 처방 미확인' in s
+          assert '예약 방법·링크' in s
+          assert 'select-type.com/rsv/?id=kMqp7M4u8eM' in s
+          inline = s.rsplit('<script>', 1)[-1].split('</script>', 1)[0]
+          assert 'function bookingLink(x)' in inline
+          Path('/tmp/mounjaro-frontend.js').write_text(inline, encoding='utf-8')
+          print('HTML content checks passed')
+          PY
+          node --check /tmp/mounjaro-frontend.js
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Prepare website
