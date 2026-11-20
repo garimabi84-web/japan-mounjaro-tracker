@@ -202,6 +202,67 @@ def planned_queries(full=False):
     region = REGIONS if full else [REGIONS[(day * 4 + i) % len(REGIONS)] for i in range(4)]
     return CORE + social + [f"マンジャロ 韓国人 旅行者 クリニック {x} 予約" for x in region]
 
+def directory_entries(source, base_url, limit=35):
+    """Find names/links only in publicly accessible directories.
+
+    These are discovery leads, not price confirmations or endorsements.
+    Do not copy directory prices, eligibility labels, reviews or ratings.
+    """
+    soup = BeautifulSoup(source, "html.parser")
+    found, seen = [], set()
+    for a in soup.select("a[href]"):
+        url = urllib.parse.urljoin(base_url, a.get("href", ""))
+        path = urllib.parse.urlsplit(url).path
+        if not re.search(r"/(?:ja/|en/)?clinic/[^/#?]+", path, re.I):
+            continue
+        if url in seen:
+            continue
+        label = a.get_text(" ", strip=True)
+        if len(label) < 4:
+            parent = a.parent
+            label = parent.get_text(" ", strip=True)[:110] if parent else ""
+        label = re.split(r"[（(（]|(?:¥|￥|円|엔|詳細|총액|가격|入れる)", label)[0].strip()
+        label = re.sub(r"\s+", " ", label).strip("- |")
+        if not 4 <= len(label) <= 48:
+            continue
+        # Directory location is precise: /clinic/slug. A readable clinic
+        # brand is still required; never infer a name from the slug alone.
+        if not re.search(r"(?:クリニック|CLINIC|Clinic|クリ$|美容外科|医院|병원|클리닉)", label):
+            continue
+        if any(part in label for part in BAD_PARTS):
+            continue
+        if re.search(r"(?:ランキング|比較|料金|値段|代わり|おすすめ)", label):
+            continue
+        seen.add(url)
+        found.append({"url": url, "title": label[:120], "snippet": "Mounjaro clinic listing (name lead only)",
+                      "clinic_names": [label], "channel": "web", "source": "public_directory_lead",
+                      "query": "foreign-traveler clinic directory", "event": None})
+        if len(found) >= limit:
+            break
+    return found
+
+def fetch_directory_leads(session):
+    roots = (
+        "https://sushijaro.app/ja/city/online",
+        "https://sushijaro.app/ja/?f=korean",
+        "https://sushijaro.app/ja/city/fukuoka",
+    )
+    results, states, seen = [], [], set()
+    for root in roots:
+        try:
+            response = session.get(root, timeout=(6, 15))
+            response.raise_for_status()
+            items = directory_entries(response.text, root)
+            states.append({"source": "public_directory_lead", "query": root, "ok": True, "items": len(items)})
+            for item in items:
+                if item["url"] not in seen:
+                    results.append(item)
+                    seen.add(item["url"])
+        except Exception as exc:
+            states.append({"source": "public_directory_lead", "query": root, "ok": False,
+                           "reason": str(exc)[:110]})
+    return results[:60], states
+
 def discover(session, limit=90, full=False):
     hits, status, seen = [], [], set()
     def ingest(provider, query, entries, fallback=False):
@@ -233,6 +294,14 @@ def discover(session, limit=90, full=False):
             ingest("google_news", query, fetch_rss(session, query, "google_news"))
         except Exception as exc:
             status.append({"source": "google_news", "query": query, "ok": False, "reason": str(exc)[:100]})
+    # Public price directories are supplemental NAME-ONLY leads, not a
+    # replacement for SNS discovery and never a source for price rankings.
+    directory_hits, directory_status = fetch_directory_leads(session)
+    status.extend(directory_status)
+    for item in directory_hits:
+        if item["url"] not in seen:
+            hits.append(item)
+            seen.add(item["url"])
     return hits[:limit], status
 
 def merge_into_catalog(cat, rawhits, archive):
@@ -282,6 +351,9 @@ def self_test():
     for t in ["東京のあるクリニック マンジャロ", "今回教えてもらったクリニック マンジャロ",
               "安全なクリニック マンジャロ", "マンジャロ料金比較オンラインクリニック"]:
         assert not entry("https://x.com/example/status/4", t, "", "test", "test"), t
+    html_fixture = '<a href="/ja/clinic/ubclinic-online">UBクリニック</a><a href="/ja/clinic/x">安全なクリニック</a>'
+    fixture = directory_entries(html_fixture, "https://sushijaro.app/")
+    assert len(fixture) == 1 and fixture[0]["clinic_names"] == ["UBクリニック"], fixture
     cat = {"clinics": []}
     found, _ = merge_into_catalog(cat, [positive], {})
     assert len(found) == 1 and cat["clinics"][0]["status"] == "candidate"
