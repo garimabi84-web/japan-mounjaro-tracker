@@ -1342,8 +1342,8 @@
       "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
       "booking_checked": "",
       "candidate_quality": "unverified_name",
-      "official_checked_at": "2026-11-21T00:57:24+09:00",
-      "official_attempts": 2
+      "official_checked_at": "2026-11-21T01:27:36+09:00",
+      "official_attempts": 3
     },
     {
       "id": "found-3ea2b9b06c6b",
@@ -1380,8 +1380,8 @@
       "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
       "booking_checked": "",
       "candidate_quality": "unverified_name",
-      "official_checked_at": "2026-11-21T00:57:25+09:00",
-      "official_attempts": 2
+      "official_checked_at": "2026-11-21T01:27:36+09:00",
+      "official_attempts": 3
     },
     {
       "id": "found-3bef339dcadb",
@@ -1418,8 +1418,8 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T01:01:04+09:00",
-      "official_attempts": 1
+      "official_checked_at": "2026-11-21T01:27:37+09:00",
+      "official_attempts": 2
     },
     {
       "id": "found-11019d3f47e9",
@@ -2215,7 +2215,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T01:27:33+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-979cc9440bda",
@@ -2251,7 +2253,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T01:27:33+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-c775c286f63a",
@@ -2287,7 +2291,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T01:27:33+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-1b4a616c9b7f",
@@ -2323,7 +2329,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T01:27:34+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-a7d50d21c19b",
@@ -2359,7 +2367,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T01:27:35+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-e35d7fa95b98",
@@ -2395,7 +2405,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T01:27:35+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-0a72e01eb628",
@@ -2431,7 +2443,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T01:27:35+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-267a4bb22e94",
@@ -2467,7 +2481,49 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T01:27:35+09:00",
+      "official_attempts": 1
+    },
+    {
+      "id": "found-cd0e510e49f2",
+      "name": "ミライメディカルクリニック",
+      "region": "미확인",
+      "city": "미확인",
+      "mode": "미확인",
+      "foreign": "unknown",
+      "online": "unknown",
+      "ship": "unknown",
+      "prices": {
+        "2.5": null,
+        "5": null,
+        "7.5": null,
+        "10": null,
+        "12.5": null,
+        "15": null
+      },
+      "basis": "SNS·공개 웹의 명칭 후보 (공식 검증 전)",
+      "url": "https://sushijaro.app/ja/clinic/mirai-medical?dose=2.5",
+      "notes": "공개 검색에서 발견된 이름으로 실제 의료기관 여부부터 확인해야 합니다.",
+      "fees": "미확인",
+      "status": "candidate",
+      "address": "",
+      "channel": "자동 웹 탐색",
+      "updated": "2026-11-21",
+      "discovery": "auto",
+      "price_verified": false,
+      "candidate_quality": "name_unverified",
+      "identity_conflict": false,
+      "directory_slug": "mirai-medical",
+      "events": [],
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공식 예약 경로 확인 전",
+      "booking_checked": "",
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T01:27:36+09:00",
+      "official_attempts": 1
     }
   ],
   "schema": 3,

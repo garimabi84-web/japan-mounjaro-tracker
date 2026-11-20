@@ -1,12 +1,12 @@
 {
-  "ran_at": "2026-11-21T01:06:06+09:00",
+  "ran_at": "2026-11-21T01:27:32+09:00",
   "source_status": [
     {
-      "source": "bing_rss",
+      "source": "bing_html",
       "query": "韓国人 観光客 マンジャロ クリニック 予約",
       "ok": true,
-      "items": 10,
-      "fallback": false
+      "items": 0,
+      "fallback": true
     },
     {
       "source": "bing_html",
@@ -16,18 +16,18 @@
       "fallback": true
     },
     {
-      "source": "bing_rss",
+      "source": "bing_html",
       "query": "マウンジャロ 韓国人 旅行者 ホテル 配送 クリニック",
       "ok": true,
-      "items": 10,
-      "fallback": false
+      "items": 0,
+      "fallback": true
     },
     {
-      "source": "bing_rss",
+      "source": "bing_html",
       "query": "マンジャロ 12本 3ヶ月 外国人 処方",
       "ok": true,
-      "items": 10,
-      "fallback": false
+      "items": 0,
+      "fallback": true
     },
     {
       "source": "bing_rss",
@@ -37,11 +37,11 @@
       "fallback": false
     },
     {
-      "source": "bing_rss",
+      "source": "bing_html",
       "query": "마운자로 일본 병원 예약 할인 3개월",
       "ok": true,
-      "items": 7,
-      "fallback": false
+      "items": 0,
+      "fallback": true
     },
     {
       "source": "bing_rss",
@@ -58,11 +58,11 @@
       "fallback": false
     },
     {
-      "source": "bing_rss",
+      "source": "bing_html",
       "query": "マンジャロ 10mg 12本 クリニック キャンペーン",
       "ok": true,
-      "items": 10,
-      "fallback": false
+      "items": 0,
+      "fallback": true
     },
     {
       "source": "bing_rss",
@@ -79,45 +79,45 @@
       "fallback": true
     },
     {
-      "source": "bing_html",
+      "source": "bing_rss",
       "query": "site:instagram.com マンジャロ クリニック 韓国人",
       "ok": true,
-      "items": 0,
-      "fallback": true
+      "items": 10,
+      "fallback": false
     },
     {
       "source": "bing_rss",
       "query": "site:instagram.com マンジャロ 3ヶ月 予約",
       "ok": true,
-      "items": 1,
-      "fallback": false
-    },
-    {
-      "source": "bing_rss",
-      "query": "site:instagram.com 마운자로 일본 클리닉 예약",
-      "ok": true,
-      "items": 7,
-      "fallback": false
-    },
-    {
-      "source": "bing_rss",
-      "query": "マンジャロ 韓国人 旅行者 クリニック 福岡 予約",
-      "ok": true,
-      "items": 10,
-      "fallback": false
-    },
-    {
-      "source": "bing_rss",
-      "query": "マンジャロ 韓国人 旅行者 クリニック 大阪 予約",
-      "ok": true,
       "items": 10,
       "fallback": false
     },
     {
       "source": "bing_html",
+      "query": "site:instagram.com 마운자로 일본 클리닉 예약",
+      "ok": true,
+      "items": 0,
+      "fallback": true
+    },
+    {
+      "source": "bing_html",
+      "query": "マンジャロ 韓国人 旅行者 クリニック 福岡 予約",
+      "ok": true,
+      "items": 0,
+      "fallback": true
+    },
+    {
+      "source": "bing_html",
+      "query": "マンジャロ 韓国人 旅行者 クリニック 大阪 予約",
+      "ok": true,
+      "items": 0,
+      "fallback": true
+    },
+    {
+      "source": "bing_html",
       "query": "マンジャロ 韓国人 旅行者 クリニック 東京 予約",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "fallback": true
     },
     {
@@ -166,20 +166,21 @@
       "source": "google_news",
       "query": "マンジャロ 韓国人 クリニック 値段 予約",
       "ok": true,
-      "items": 6,
+      "items": 7,
       "fallback": false
     },
     {
       "source": "google_news",
       "query": "マンジャロ 訪日外国人 クリニック 新規 価格",
-      "ok": false,
-      "reason": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%E3%83%9E%E3%83%B3"
+      "ok": true,
+      "items": 8,
+      "fallback": false
     },
     {
       "source": "google_news",
       "query": "マンジャロ クリニック 韓国語 ホテル 配送",
       "ok": true,
-      "items": 4,
+      "items": 5,
       "fallback": false
     },
     {
@@ -202,7 +203,15 @@
     }
   ],
   "hits_this_run": 47,
-  "new_candidates": [],
+  "new_candidates": [
+    {
+      "id": "found-cd0e510e49f2",
+      "name": "ミライメディカルクリニック",
+      "source_url": "https://sushijaro.app/ja/clinic/mirai-medical?dose=2.5",
+      "source": "public_directory_lead",
+      "channel": "web"
+    }
+  ],
   "archive": [
     {
       "key": "aa5890a7b9fcbdfd349f",
@@ -577,7 +586,7 @@
         "query": "foreign-traveler clinic directory",
         "event": null,
         "first_seen": "2026-11-21T01:01:02+09:00",
-        "last_seen": "2026-11-21T01:03:08+09:00"
+        "last_seen": "2026-11-21T01:27:32+09:00"
       }
     },
     {
@@ -1188,8 +1197,8 @@
         "source": "public_directory_lead",
         "query": "foreign-traveler clinic directory",
         "event": null,
-        "first_seen": "2026-11-21T01:06:06+09:00",
-        "last_seen": "2026-11-21T01:06:06+09:00"
+        "first_seen": "2026-11-21T01:27:32+09:00",
+        "last_seen": "2026-11-21T01:27:32+09:00"
       }
     }
   ],
