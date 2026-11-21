@@ -1,0 +1,150 @@
+#!/usr/bin/env python3
+"""Extract conservative 12-pen comparable amounts from a clinic's OWN HTML.
+
+Supports explicit per-pen, four-week and twelve-week pricing from tables or
+inline text.  Does not take any amount from third-party comparators.
+"""
+import re
+import unicodedata
+from bs4 import BeautifulSoup
+
+DOSES={'2.5','5','7.5','10','12.5','15'}
+DOSE_RE=re.compile(r'(?<![\d.])(2\.5|5(?:\.0)?|7\.5|10(?:\.0)?|12\.5|15(?:\.0)?)\s*mg\b',re.I)
+MONEY=re.compile(r'(?:[¥]\s*)?(\d{1,3}(?:,\d{3})+|\d{4,6})\s*(?:円|¥)')
+DRUG=re.compile(r'マンジャロ|mounjaro|チルゼパチド',re.I)
+OTHER_DRUG=re.compile(r'リベルサス|オゼンピック|ウゴービ|ゼップバウンド|サクセンダ|サノレックス')
+PROMO=re.compile(r'キャンペーン|クーポン|初回限定|期間限定')
+PACKS=[
+ (12,re.compile(r'(?:12\s*(?:本|キット|ペン)|(?:3\s*(?:ヶ月|か月|ヵ月|カ月))分?|12\s*週間?|12\s*週分)')),
+ (8,re.compile(r'(?:8\s*(?:本|キット|ペン)|8\s*週間?|8\s*週分)')),
+ (4,re.compile(r'(?:4\s*(?:本|キット|ペン)|4\s*週間?|4\s*週分|(?:1\s*(?:ヶ月|か月|ヵ月|カ月))分?)')),
+ (2,re.compile(r'(?:2\s*(?:本|キット|ペン)|2\s*週間?|2\s*週分)')),
+ (1,re.compile(r'(?:1\s*(?:本|キット|ペン)|1\s*本あたり|1\s*本当たり|1\s*本単価|1\s*本価格)')),
+]
+def normalize(text):
+    return unicodedata.normalize('NFKC',str(text or '')).replace('，',',').replace('\xa0',' ')
+
+def amount(text):
+    m=MONEY.search(normalize(text))
+    if not m:return None
+    val=int(m[1].replace(',',''))
+    return val if 1800<=val<=350000 else None
+
+def pack_factor(text):
+    s=normalize(text)
+    for pens,pattern in PACKS:
+        if pattern.search(s):return 12/pens
+    return None
+
+def extraction_per_segment(text, shared_pack=None):
+    """Extract price only when dosage, price and package are clearly linked."""
+    text=normalize(text)
+    doses=list(DOSE_RE.finditer(text))
+    result={}
+    for i,m in enumerate(doses):
+        d=str(float(m[1])).removesuffix('.0')
+        if d not in DOSES:continue
+        tail=text[m.end():(doses[i+1].start() if i+1<len(doses) else len(text))]
+        tail=tail[:145]
+        if OTHER_DRUG.search(tail[:65]):continue
+        prices=list(MONEY.finditer(tail))
+        if not prices:continue
+        # A dose with multiple amounts (old/current; per pen/per month)
+        # must identify a package locally; never guess which price is current.
+        possible=[]
+        for pm in prices[:4]:
+            value=int(pm[1].replace(',',''))
+            if not 1800<=value<=350000:continue
+            context=tail[max(0,pm.start()-32):pm.end()+5]
+            factor=pack_factor(context)
+            if factor is None:factor=pack_factor(tail[:pm.end()+5])
+            if factor is None:factor=shared_pack
+            if factor is None:continue
+            possible.append((round(value*factor),factor))
+        if not possible:continue
+        # Prefer the earliest explicit unit-price within an inline dose segment.
+        # For ambiguous unrelated amounts, avoid claiming a particular amount.
+        unique={x[0] for x in possible}
+        if len(unique)>1:continue
+        val=possible[0][0]
+        if val<=350000*3:result[d]=val
+    return result
+
+def extract_official(source):
+    soup=BeautifulSoup(source,'html.parser')
+    for tag in soup(['script','style','nav','footer','noscript','svg']):
+        tag.decompose()
+    plain=normalize(soup.get_text(' ',strip=True))
+    if not DRUG.search(plain):return {},''
+    found={}; sources={}
+    for table in soup.select('table'):
+        cells=[[normalize(c.get_text(' ',strip=True)) for c in tr.find_all(['th','td'],recursive=False)]
+               for tr in table.select('tr')]
+        cells=[x for x in cells if x]
+        if not cells:continue
+        body=normalize(table.get_text(' ',strip=True))
+        # Identify the drug from the table or its nearby introduction, not
+        # simply anywhere on the webpage.
+        offset=plain.find(body[:65])
+        previous=plain[max(0,offset-600):offset] if offset>=0 else ''
+        related=DRUG.search(body) or (DRUG.search(previous) and not OTHER_DRUG.search(previous[-120:]))
+        if not related:continue
+        pack=pack_factor(previous[-175:]) or pack_factor(' '.join(cells[0]))
+        headers=cells[0]
+        for row in cells[1:]:
+            joined=' '.join(row)
+            if OTHER_DRUG.search(row[0]):continue
+            # One table cell can contain the whole price list for Mounjaro.
+            if DRUG.search(row[0]) and len(row)>1:
+                for col in row[1:]:
+                    found.update({d:v for d,v in extraction_per_segment(col,pack).items() if d not in found})
+                    for d in extraction_per_segment(col,pack):sources.setdefault(d,'공식 병원 가격표 · 용량별')
+            # Standard dose rows can omit drug name if table is drug-specific.
+            m=DOSE_RE.search(row[0])
+            if not m or len(row)<2:continue
+            d=str(float(m[1])).removesuffix('.0')
+            if d not in DOSES:continue
+            if DRUG.search(row[0]) or DRUG.search(previous[-500:]) or DRUG.search(' '.join(headers)):
+                price_cells=row[1:]
+                # Explicit old/new table: select the current column, not old price.
+                header_line=' '.join(headers)
+                if len(price_cells)>1 and re.search('改定前|旧価格|変更前',header_line):
+                    price_cells=[price_cells[-1]]
+                elif len(price_cells)>1 and not re.search('12本|3ヶ月|1ヶ月|4本',header_line):
+                    # Multiple unlabelled prices cannot be safely ranked.
+                    continue
+                price=amount(price_cells[-1])
+                factor=pack_factor(row[0]) or pack_factor(price_cells[-1]) or pack
+                if price is not None and factor and d not in found:
+                    found[d]=round(price*factor);sources[d]='공식 병원 가격표 · 용량별'
+    # Inline prices from an explicit Mounjaro paragraph or an adjacent dosage
+    # paragraph immediately following a Mounjaro one.
+    recent_drug=False
+    for node in soup.select('p,li,dd'):
+        if node.find_parent(['table','nav','footer']):continue
+        content=normalize(node.get_text(' ',strip=True))
+        if len(content)>400:recent_drug=False;continue
+        if DRUG.search(content):recent_drug=True
+        elif OTHER_DRUG.search(content):recent_drug=False;continue
+        elif not DOSE_RE.search(content):continue
+        if not recent_drug:continue
+        block=extraction_per_segment(content)
+        for d,v in block.items():
+            if d not in found:found[d]=v;sources[d]='공식 홈페이지 · 용량별 명시 가격'
+    return found,' · '.join(sorted(set(sources.values())))+' (12펜 기준 단위 환산; 일괄 처방 가능 여부 별도)'
+
+def self_test():
+    html='<h2>メディカルダイエット</h2><table><tr><th>商品</th><th>料金</th></tr><tr><td>リベルサス</td><td>7mg（30日分）15,000円</td></tr><tr><td>マンジャロ</td><td>2.5mg（4週分）15,000円 5mg（4週分）30,000円 7.5mg（4週分）45,000円 10mg（4週分）60,000円</td></tr></table>'
+    x,_=extract_official(html)
+    assert x=={'2.5':45000,'5':90000,'7.5':135000,'10':180000},x
+    inline='<h2>マンジャロ</h2><p>②GLP-1皮下注射（マンジャロ）2.5㎎ 1本3,500円（税込）</p><p>5.0mg 1本7,000円（税込）</p>'
+    x,_=extract_official(inline)
+    assert x=={'2.5':42000,'5':84000},x
+    table='<h2>マンジャロ料金</h2><p>表示価格はすべて税込・4本／4週間分です</p><table><tr><th>用量</th><th>改定前</th><th>9月1日以降</th></tr><tr><td>10 mg</td><td>35,000円</td><td>33,000円</td></tr></table>'
+    x,_=extract_official(table)
+    assert x.get('10')==99000,x
+    wrong='<h2>美容料金</h2><p>オゼンピック 5mg 1本10,000円</p><p>マンジャロに関する注意喚起</p>'
+    x,_=extract_official(wrong)
+    assert x=={},x
+    print('Official 12-pen parser tests passed for multi-dose cells, inline per-pen and amended tables')
+if __name__=='__main__':self_test()
