@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 
 DOSES={'2.5','5','7.5','10','12.5','15'}
 DOSE_RE=re.compile(r'(?<![\d.])(2\.5|5(?:\.0)?|7\.5|10(?:\.0)?|12\.5|15(?:\.0)?)\s*mg\b',re.I)
-MONEY=re.compile(r'(?:[¥]\s*)?(\d{1,3}(?:,\d{3})+|\d{4,6})\s*(?:円|¥)')
+MONEY=re.compile(r'(?:¥\s*(\d{1,3}(?:,\d{3})+|\d{4,6})|(\d{1,3}(?:,\d{3})+|\d{4,6})\s*(?:円|¥))')
 DRUG=re.compile(r'マンジャロ|mounjaro|チルゼパチド',re.I)
 OTHER_DRUG=re.compile(r'リベルサス|オゼンピック|ウゴービ|ゼップバウンド|サクセンダ|サノレックス')
 PROMO=re.compile(r'キャンペーン|クーポン|初回限定|期間限定')
@@ -27,7 +27,7 @@ def normalize(text):
 def amount(text):
     m=MONEY.search(normalize(text))
     if not m:return None
-    val=int(m[1].replace(',',''))
+    val=int((m[1] or m[2]).replace(',',''))
     return val if 1800<=val<=350000 else None
 
 def pack_factor(text):
@@ -53,7 +53,7 @@ def extraction_per_segment(text, shared_pack=None):
         # must identify a package locally; never guess which price is current.
         possible=[]
         for pm in prices[:4]:
-            value=int(pm[1].replace(',',''))
+            value=int((pm[1] or pm[2]).replace(',',''))
             if not 1800<=value<=350000:continue
             context=tail[max(0,pm.start()-32):pm.end()+5]
             factor=pack_factor(context)
@@ -65,8 +65,14 @@ def extraction_per_segment(text, shared_pack=None):
         # Prefer the earliest explicit unit-price within an inline dose segment.
         # For ambiguous unrelated amounts, avoid claiming a particular amount.
         unique={x[0] for x in possible}
-        if len(unique)>1:continue
-        val=possible[0][0]
+        if len(unique)>1:
+            # A single per-pen figure followed by an aggregate period price
+            # (sometimes printed with broken comma grouping) has explicit
+            # priority. Do not pick between two competing same-unit prices.
+            if possible[0][1]==12 and all(x[1]!=12 for x in possible[1:]):
+                val=possible[0][0]
+            else:continue
+        else:val=possible[0][0]
         if val<=350000*3:result[d]=val
     return result
 
@@ -137,7 +143,7 @@ def self_test():
     html='<h2>メディカルダイエット</h2><table><tr><th>商品</th><th>料金</th></tr><tr><td>リベルサス</td><td>7mg（30日分）15,000円</td></tr><tr><td>マンジャロ</td><td>2.5mg（4週分）15,000円 5mg（4週分）30,000円 7.5mg（4週分）45,000円 10mg（4週分）60,000円</td></tr></table>'
     x,_=extract_official(html)
     assert x=={'2.5':45000,'5':90000,'7.5':135000,'10':180000},x
-    inline='<h2>マンジャロ</h2><p>②GLP-1皮下注射（マンジャロ）2.5㎎ 1本3,500円（税込）</p><p>5.0mg 1本7,000円（税込）</p>'
+    inline='<h2>マンジャロ</h2><p>②GLP-1皮下注射（マンジャロ）2.5㎎ 1本3,500円（税込）1か月1,4000円</p><p>5.0mg 1本7,000円（税込）</p>'
     x,_=extract_official(inline)
     assert x=={'2.5':42000,'5':84000},x
     table='<h2>マンジャロ料金</h2><p>表示価格はすべて税込・4本／4週間分です</p><table><tr><th>用量</th><th>改定前</th><th>9月1日以降</th></tr><tr><td>10 mg</td><td>35,000円</td><td>33,000円</td></tr></table>'
