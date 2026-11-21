@@ -1342,8 +1342,8 @@
       "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
       "booking_checked": "",
       "candidate_quality": "unverified_name",
-      "official_checked_at": "2026-11-21T10:18:06+09:00",
-      "official_attempts": 4
+      "official_checked_at": "2026-11-21T10:43:08+09:00",
+      "official_attempts": 5
     },
     {
       "id": "found-3ea2b9b06c6b",
@@ -1380,8 +1380,8 @@
       "booking_notes": "공개 SNS에서 새로 발굴한 후보로, 공식 예약 경로가 확인되지 않았습니다.",
       "booking_checked": "",
       "candidate_quality": "unverified_name",
-      "official_checked_at": "2026-11-21T10:18:07+09:00",
-      "official_attempts": 4
+      "official_checked_at": "2026-11-21T10:43:09+09:00",
+      "official_attempts": 5
     },
     {
       "id": "found-3bef339dcadb",
@@ -1418,8 +1418,8 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T10:18:07+09:00",
-      "official_attempts": 3
+      "official_checked_at": "2026-11-21T10:43:10+09:00",
+      "official_attempts": 4
     },
     {
       "id": "found-11019d3f47e9",
@@ -1456,8 +1456,8 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T10:18:08+09:00",
-      "official_attempts": 3
+      "official_checked_at": "2026-11-21T10:43:11+09:00",
+      "official_attempts": 4
     },
     {
       "id": "found-9d1b3bd555ec",
@@ -1494,8 +1494,8 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T10:18:08+09:00",
-      "official_attempts": 3
+      "official_checked_at": "2026-11-21T10:43:11+09:00",
+      "official_attempts": 4
     },
     {
       "id": "found-3a0ea31ea06b",
@@ -1532,8 +1532,8 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T10:18:08+09:00",
-      "official_attempts": 3
+      "official_checked_at": "2026-11-21T10:43:11+09:00",
+      "official_attempts": 4
     },
     {
       "id": "found-b79c9b1d18b3",
@@ -1570,8 +1570,8 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T10:18:08+09:00",
-      "official_attempts": 3
+      "official_checked_at": "2026-11-21T10:43:12+09:00",
+      "official_attempts": 4
     },
     {
       "id": "found-09a585d92269",
@@ -1608,8 +1608,8 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T10:35:54+09:00",
-      "official_attempts": 3
+      "official_checked_at": "2026-11-21T10:43:12+09:00",
+      "official_attempts": 4
     },
     {
       "id": "found-1cabfd1f895a",
@@ -1646,8 +1646,8 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T10:35:54+09:00",
-      "official_attempts": 3
+      "official_checked_at": "2026-11-21T10:43:13+09:00",
+      "official_attempts": 4
     },
     {
       "id": "found-c43d53c2bc66",
@@ -2482,8 +2482,8 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T10:18:06+09:00",
-      "official_attempts": 2
+      "official_checked_at": "2026-11-21T10:43:09+09:00",
+      "official_attempts": 3
     },
     {
       "id": "found-cd0e510e49f2",
@@ -2522,8 +2522,8 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T10:18:07+09:00",
-      "official_attempts": 2
+      "official_checked_at": "2026-11-21T10:43:10+09:00",
+      "official_attempts": 3
     },
     {
       "id": "found-0b32a6912ec2",
@@ -2562,8 +2562,8 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T10:35:53+09:00",
-      "official_attempts": 1
+      "official_checked_at": "2026-11-21T10:43:12+09:00",
+      "official_attempts": 2
     }
   ],
   "schema": 3,
