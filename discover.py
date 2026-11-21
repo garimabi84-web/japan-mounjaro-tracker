@@ -397,6 +397,12 @@ def discover(session, limit=150, full=False):
                 (official_hits if official else public_hits).append(item)
                 seen.add(url)
                 qualified += 1
+        # Keep compact public index diagnostics in Action logs to distinguish
+        # a true zero-result query from changes in search-result markup.
+        if provider == "official_site_search" and items and not qualified and query == OFFICIAL_CORE[0]:
+            for sample in items[:3]:
+                print("OFFICIAL SEARCH SAMPLE:", repr(sample[0][:135]),
+                      repr(sample[1][:145]), repr(sample[2][:110]))
         status.append({"source": provider, "query": query, "ok": True,
                        "items": len(items), "qualified": qualified, "fallback": fallback})
 
