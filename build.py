@@ -6,9 +6,10 @@ ROOT=Path(__file__).resolve().parent
 cat=json.loads((ROOT/'catalog.json').read_text(encoding='utf-8'))
 finds=json.loads((ROOT/'discoveries.json').read_text(encoding='utf-8')) if (ROOT/'discoveries.json').exists() else {}
 changes=json.loads((ROOT/'scan_changes.json').read_text(encoding='utf-8')) if (ROOT/'scan_changes.json').exists() else {}
+national=json.loads((ROOT/'national_discovery.json').read_text(encoding='utf-8')) if (ROOT/'national_discovery.json').exists() else {}
 read=lambda x:(ROOT/x).read_text(encoding='utf-8')
 def jsjson(d):return json.dumps(d,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c').replace('>','\\u003e').replace('&','\\u0026')
-html=read('index.template.html').replace('__CATALOG_JSON__',jsjson(cat)).replace('__DISCOVERIES_JSON__',jsjson(finds)).replace('__CHANGES_JSON__',jsjson(changes))
+html=read('index.template.html').replace('__CATALOG_JSON__',jsjson(cat)).replace('__DISCOVERIES_JSON__',jsjson(finds)).replace('__CHANGES_JSON__',jsjson(changes)).replace('__NATIONAL_JSON__',jsjson(national))
 # Avoid file:// import errors from standalone HTML, inline monitor snapshot (no web request)
 monitor=read('monitor.js') if (ROOT/'monitor.js').exists() else ''
 html=html.replace('<script src="monitor.js"></script>','<script>'+monitor+'</script>')
