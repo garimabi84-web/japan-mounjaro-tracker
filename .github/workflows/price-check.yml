@@ -62,6 +62,18 @@ jobs:
         run: python scan_changes.py --after
       - name: Rebuild offline HTML and comparison CSV
         run: python build.py
+      - name: Validate built JavaScript syntax and embedded change history
+        shell: bash
+        run: |
+          python - <<'PY'
+          from bs4 import BeautifulSoup
+          s=BeautifulSoup(open('index.html',encoding='utf-8').read(),'html.parser')
+          scripts=[x.get_text() for x in s.select('script') if x.get('type')!='application/json' and not x.get('src')]
+          assert any('renderScanChanges' in x for x in scripts), 'missing scan change viewer'
+          assert '__CHANGES_JSON__' not in str(s), 'unbuilt change data marker'
+          open('/tmp/mounjaro_tracker_check.js','w',encoding='utf-8').write('\n'.join(scripts))
+          PY
+          node --check /tmp/mounjaro_tracker_check.js
       - name: Commit three-channel discoveries, evidence and changed-page flags
         shell: bash
         run: |
