@@ -1,5 +1,5 @@
 {
-  "ran_at": "2026-11-21T11:09:14+09:00",
+  "ran_at": "2026-11-21T11:11:03+09:00",
   "source_status": [
     {
       "source": "bing_html",
@@ -18,18 +18,18 @@
       "fallback": true
     },
     {
-      "source": "bing_rss",
+      "source": "bing_html",
       "query": "マウンジャロ 韓国人 旅行者 ホテル 配送 クリニック",
       "ok": true,
-      "items": 1,
+      "items": 0,
       "qualified": 0,
-      "fallback": false
+      "fallback": true
     },
     {
       "source": "bing_html",
       "query": "マンジャロ 12本 3ヶ月 外国人 処方",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
@@ -85,17 +85,17 @@
       "source": "bing_html",
       "query": "site:facebook.com マンジャロ 韓国人 クリニック",
       "ok": true,
-      "items": 0,
+      "items": 10,
       "qualified": 0,
       "fallback": true
     },
     {
-      "source": "bing_rss",
+      "source": "bing_html",
       "query": "site:facebook.com 마운자로 일본 병원 할인",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
-      "fallback": false
+      "fallback": true
     },
     {
       "source": "bing_html",
@@ -117,7 +117,7 @@
       "source": "bing_html",
       "query": "マンジャロ 韓国人 旅行者 クリニック 名古屋 予約",
       "ok": true,
-      "items": 0,
+      "items": 10,
       "qualified": 0,
       "fallback": true
     },
@@ -133,7 +133,7 @@
       "source": "bing_html",
       "query": "マンジャロ 韓国人 旅行者 クリニック 広島 予約",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
@@ -157,7 +157,7 @@
       "source": "official_site_search",
       "query": "マンジャロ 12本 3ヶ月 料金 クリニック",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
@@ -165,15 +165,15 @@
       "source": "official_site_search",
       "query": "マンジャロ 自由診療 料金表 クリニック",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
-      "fallback": false
+      "fallback": true
     },
     {
       "source": "official_site_search",
       "query": "マンジャロ 2.5mg 5mg 7.5mg 10mg 料金表",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
@@ -1317,8 +1317,8 @@
         "source": "public_directory_lead",
         "query": "foreign-traveler clinic directory",
         "event": null,
-        "first_seen": "2026-11-21T11:09:14+09:00",
-        "last_seen": "2026-11-21T11:09:14+09:00"
+        "first_seen": "2026-11-21T11:11:03+09:00",
+        "last_seen": "2026-11-21T11:11:03+09:00"
       }
     }
   ],
