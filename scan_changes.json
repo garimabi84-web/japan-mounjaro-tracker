@@ -1,255 +1,4352 @@
 {
   "schema": 1,
   "latest": {
-    "at": "2026-11-21T12:34:46+09:00",
-    "total": 39,
+    "at": "2026-11-21T12:50:26+09:00",
+    "total": 658,
     "counts": {
-      "new": 39,
-      "verified": 0,
-      "price": 0,
+      "new": 650,
+      "verified": 1,
+      "price": 1,
       "promotion": 0,
-      "info": 0,
+      "info": 6,
       "status": 0,
       "source": 0
     },
+    "clinic_ids": [
+      "national-0f4f73a49a24a6",
+      "national-9e3d4db9e55a4e",
+      "national-18d67104d832b6",
+      "national-6212bf75c10571",
+      "national-81357c03d24479",
+      "national-af1c31d0f63e16",
+      "national-f52be95c3e93f3",
+      "national-03e6bd2f76b687",
+      "national-6891ee7fe87b21",
+      "national-a2596758ce18f8",
+      "national-e9f0e7196e23d6",
+      "national-3234d7a6f529d3",
+      "national-d942ffde7bb1a4",
+      "national-fe98b2aaba2676",
+      "national-4594f1f1cd7ae6",
+      "national-12ebfff8fbabd4",
+      "national-14ee369ef77bdd",
+      "national-f7e0d8f024a046",
+      "national-3186bc131d9f68",
+      "national-f5318871f060bd",
+      "national-41d451dfa000ec",
+      "national-9863c942b1aa3b",
+      "national-d13bec99161ca9",
+      "national-248e417f8ed52f",
+      "national-9cadd35ea25e6b",
+      "national-5f6a325493540c",
+      "national-1b939ced57c788",
+      "national-1344d01c55a756",
+      "national-a36b421e9618bd",
+      "national-5a6053d592d47b",
+      "national-c171cb28c36862",
+      "national-bedf6483bd6f0a",
+      "national-c1e11f0dd92e84",
+      "national-688790a7357adb",
+      "national-355e643a6e9f0c",
+      "national-598e749386ec06",
+      "national-85c210d52d78cb",
+      "national-0a5636309260a7",
+      "national-1af5b11c2bd0c0",
+      "national-1ec47b3ad764a1",
+      "national-4e3f5cdb5fb763",
+      "national-9259fda0d299a4",
+      "national-715d8c74b78e95",
+      "national-d67968cdb67f93",
+      "national-c36e6f808224de",
+      "national-09bf487ac4b276",
+      "national-40e0887e6b233f",
+      "national-0686079e47d512",
+      "national-56540fee718f71",
+      "national-19a2d1f13e253c",
+      "national-f55ff8bfd0c5bb",
+      "national-843e9206051ffb",
+      "national-b32855a97b5d58",
+      "national-188a9e2e50127c",
+      "national-bb6508527203ad",
+      "national-fe52c3b6ff1d38",
+      "national-3604243406b5b1",
+      "national-0c6be8a48b90a9",
+      "national-802b7e457b42e5",
+      "national-7ba06126b7ec87",
+      "national-2e525bf97fffa6",
+      "national-3be1f829333041",
+      "national-494c49fbcb9c15",
+      "national-0451f754eb69ea",
+      "national-d59f70b9dc6e74",
+      "national-d84423e4ba2c32",
+      "national-bacee8f9e71086",
+      "national-9da79f3728fae0",
+      "national-9ae2624cbcfa5a",
+      "national-d530ac8cd00dfa",
+      "national-9658aba6d72fdf",
+      "national-f4646c644ca2b4",
+      "national-d468d37b1df2c0",
+      "national-5ed48d9db51ec5",
+      "national-18227d195d6d05",
+      "national-7a671971027e8d",
+      "national-fea7085745f9ba",
+      "national-8d85dae458bbac",
+      "national-942d65bf1d8163",
+      "national-b4eb29ac751dfb",
+      "national-0e3065a5ab7283",
+      "national-781987388184cc",
+      "national-fad218355176e4",
+      "national-3c894d6357ec42",
+      "national-1a05485e884ae8",
+      "national-0c209507adde9a",
+      "national-56fa9167c163e3",
+      "national-31b84f9054e7a1",
+      "national-6680e0749485ca",
+      "national-595ffa2e20b9fd",
+      "national-31edeca2562c3d",
+      "national-764e0c6528382d",
+      "national-95023026452e58",
+      "national-1e5eca309c6f80",
+      "national-5a5763ac4d03eb",
+      "national-1663d22810f71f",
+      "national-25b715304e939d",
+      "national-d138e8c03b3dc7",
+      "national-f823033522c263",
+      "national-4c4c66153571e2",
+      "national-eba267ea5d0399",
+      "national-43a4e771df72e7",
+      "national-fb0bf85722160c",
+      "national-3a809bbbaac330",
+      "national-f1879dd3fd92a5",
+      "national-a1b89d81a7ae63",
+      "national-37c33f10d1eab3",
+      "national-a4e08ffbc0a39d",
+      "national-537a8c8c5104bc",
+      "national-20ca855b091fef",
+      "national-26ff4966d2d073",
+      "national-4720d5f64ce789",
+      "national-2ba8390da7e285",
+      "national-508eb0dd96f1de",
+      "national-da2586fbb3ce55",
+      "national-18ef01b2fe845d",
+      "national-e163fbc9a8bddc",
+      "national-4427c5b8f52ccf",
+      "national-c67ddb9b416ec2",
+      "national-f7240dc83444fe",
+      "national-aca939f0dae83c",
+      "national-7f5dac8940221d",
+      "national-88989eefd391a1",
+      "national-d367a218843276",
+      "national-7dede9a9189941",
+      "national-9afd648951a59e",
+      "national-3b83ecfaa42472",
+      "national-f0cb16fb246c99",
+      "national-38c23c335c0738",
+      "national-1a416c23dfe3f4",
+      "national-e705c0713c76fa",
+      "national-9db635c40337dd",
+      "national-0294cf5784a9e2",
+      "national-fc253e5e066a65",
+      "national-4eff18b82a791b",
+      "national-c42ded090a3d64",
+      "national-4fbf80fa4cec3f",
+      "national-f4f4cb1135c64c",
+      "national-d2215832f48dab",
+      "national-925269d127e98c",
+      "national-70dc9b312f70cc",
+      "national-3be97eaf0a2bf1",
+      "national-f40541d6074b44",
+      "national-18227c904c207b",
+      "national-45baf0b6fdf982",
+      "national-b31579e12fcba5",
+      "national-dda426455b6dc0",
+      "national-ca7e644ba7876a",
+      "national-5008a686a46a1f",
+      "national-5b543923271ceb",
+      "national-d4005864cfc882",
+      "national-bd9d5ed9a65819",
+      "national-7dda00b07f3036",
+      "national-5dd5ba7ad658ec",
+      "national-c0c0493ffbcb1b",
+      "national-6dbb503973fc14",
+      "national-3488c9a149d2ec",
+      "national-665f95bfb19edf",
+      "national-c947012666d730",
+      "national-0b63747fb23d96",
+      "national-ebb84a618afc84",
+      "national-d712be5d9a63e8",
+      "national-4ed557ea3ae0c0",
+      "national-74f33a4b0baa56",
+      "national-745a1afeb54553",
+      "national-ef6b85708ad70a",
+      "national-322219e5020482",
+      "national-33a2d8e58a3ea6",
+      "national-fce992ff18fa4b",
+      "national-258766da2e4729",
+      "national-94a0f0dab7297f",
+      "national-7e7968150b394d",
+      "national-22f8d511cb0698",
+      "national-3c37c78f3335fd",
+      "national-b4462df2868a81",
+      "national-292415c9729274",
+      "national-b63802867b3f00",
+      "national-338c80da7a3582",
+      "national-1565c8579c9bca",
+      "national-a75c0a3e3b828b",
+      "national-03ca5a39e3b0ba",
+      "national-165797b5953ab8",
+      "national-f382b0cc9c2a01",
+      "national-a6b228632586e4",
+      "national-576d4809cec457",
+      "national-75f843055878f3",
+      "national-36809e9ee9093d",
+      "national-b41742d863efc1",
+      "national-f85e9879a36d73",
+      "national-8b4b6a28efdf53",
+      "national-72a8d903ea6ea3",
+      "national-5b09cca1076a3c",
+      "national-a34c3a1e05e597",
+      "national-9f3b1931e031ca",
+      "national-60442dd967fb96",
+      "national-cf9db2a62cf953",
+      "national-db38d6e57571ac",
+      "national-5312cbe27fd893",
+      "national-1b84cf5afcfdee",
+      "national-8085770c5ce3e6",
+      "national-0da55ec390e008",
+      "national-0d2f0ed437d70d",
+      "national-a7bb18563b44e8",
+      "national-661490dbbd70ff",
+      "national-fb76307916305d",
+      "national-a612b9d400c9ff",
+      "national-5b4afcec8325fd",
+      "national-486e50db1ef5a2",
+      "national-3e28d944bad688",
+      "national-17357e526d7f2b",
+      "national-bd912d528c2aa5",
+      "national-8c39c18c8f0b2f",
+      "national-c96591fd412e53",
+      "national-953b4ce20c7302",
+      "national-a5434ff9cd1a7b",
+      "national-91cd9c1e2c9b25",
+      "national-937b1764306e9b",
+      "national-458124276cf882",
+      "national-158bb22ccb6dcf",
+      "national-a9ff40f0752060",
+      "national-e50f9af7a96b78",
+      "national-e97f27c7f91c07",
+      "national-03df9058f92b4f",
+      "national-bd92cbfd0bbfb8",
+      "national-71749d4b9abf35",
+      "national-165e1e4aebf6b3",
+      "national-c6dd4026cb3273",
+      "national-32a647174039c3",
+      "national-d3307562bf3579",
+      "national-72a69c2fc70501",
+      "national-d91d7e33c64fc9",
+      "national-aa41b2c4ab8182",
+      "national-f8c6fc43d293c8",
+      "national-f33049dcfc973a",
+      "national-df3b22dd2bb660",
+      "national-c154334a912bb5",
+      "national-7906a0d1686b26",
+      "national-07ab70d7dac8d3",
+      "national-aa9ec2d9feb2a7",
+      "national-b98fc6c0b6541f",
+      "national-c92261dd6cbd23",
+      "national-b5518807dc0959",
+      "national-e917b56eecb543",
+      "national-5b6886cde5e75c",
+      "national-dcc9be862dd9a2",
+      "national-8ccc035868a02e",
+      "national-461028b44c57e0",
+      "national-a3f5cd4a442f00",
+      "national-6308e156c17995",
+      "national-298282f7c5a87e",
+      "national-6dd204c47bbdc1",
+      "national-db3898da7df897",
+      "national-75ff0abcc241e1",
+      "national-970b589b70c86b",
+      "national-e1880aa1476348",
+      "national-925b6e81771c6e",
+      "national-df4e37e1a3aa26",
+      "national-5cded1452b0e46",
+      "national-650c49512eb547",
+      "national-3a321ad1749ebf",
+      "national-ced6964b1fb218",
+      "national-5009d2fd159d00",
+      "national-d2f0897b05051e",
+      "national-24be9e323f2ed6",
+      "national-f5d3a96fdaaf17",
+      "national-3b454e7b60d5ab",
+      "national-6da051e9d12299",
+      "national-c1775268d904da",
+      "national-d2afab53ab9d0a",
+      "national-e205e9df212806",
+      "national-375b24c3dbd912",
+      "national-f93f828b6a3daf",
+      "national-934087e0ef733a",
+      "national-7fbdccf7b4c8b2",
+      "national-8ff2bcf54e112d",
+      "national-34f9997f9e3559",
+      "national-dfe66da90aef8c",
+      "national-dd69a2369ecfc8",
+      "national-403707be8e9051",
+      "national-cb18f7bac3dd18",
+      "national-94d23e393a63bc",
+      "national-fa402396919f88",
+      "national-2b0ef4b83367e5",
+      "national-0f814c7c3ab8eb",
+      "national-a3d7e4d6ce80be",
+      "national-27d45f86831bc6",
+      "national-9f6b38e5536c5c",
+      "national-92d18bf74bf3f2",
+      "national-1f7741957bbc1a",
+      "national-d2efe2c110c4f9",
+      "national-f4d57a35782302",
+      "national-64a3c11c814df4",
+      "national-fe456d86d1dce2",
+      "national-4fe1fdf184c6eb",
+      "national-55e59503a4b9c4",
+      "national-0e2a7a156453a7",
+      "national-51abe21bc8c646",
+      "national-62a388c62cd4c3",
+      "national-f6075bbc5e2a9c",
+      "national-0f76c32adf787d",
+      "national-d894a098b6e0d2",
+      "national-12a5312a53a555",
+      "national-9d9f3bce0fc8e7",
+      "national-59edfdc2ceeb96",
+      "national-eb92bc22fda75e",
+      "national-e07eac48802c3a",
+      "national-ac803e162ffac0",
+      "national-26de92d504b8ea",
+      "national-051d1d3748a435",
+      "national-09e17b031d1461",
+      "national-80965c905788c4",
+      "national-0e124539104502",
+      "national-b7ffcdcbb1594b",
+      "national-b13aeb3a71d76a",
+      "national-4e496943b8fe85",
+      "national-b9ee04429625b2",
+      "national-e3842946ba786c",
+      "national-1ddc3965195671",
+      "national-247ea8d42a6f91",
+      "national-b677d31f0941ba",
+      "national-5a51eca39dd125",
+      "national-df51200a64e5bc",
+      "national-808bf4579a8da0",
+      "national-cfae6844346eb8",
+      "national-b8ee41b14362c1",
+      "national-d4126303d22d04",
+      "national-8b053b0bed7fad",
+      "national-400ead74e0d1f1",
+      "national-6a0bd492fe57ea",
+      "national-bbeeb2b7b355b2",
+      "national-f4fb2b906c75ef",
+      "national-e3d1cfc46274a7",
+      "national-455e363fe9eae7",
+      "national-bfcaee9f13c810",
+      "national-ace4f1e6e6e334",
+      "national-ef684cece10ba3",
+      "national-d57d8ae18a058d",
+      "national-8b5de89a9da54e",
+      "national-656e99b5b6a1c4",
+      "national-7ba04bcac7fb00",
+      "national-f897919159789b",
+      "national-153af6e7b4b24d",
+      "national-139bfdff150ac3",
+      "national-f68bd185a28bb7",
+      "national-d20213a81a3004",
+      "national-be07ca94b3702c",
+      "national-8aa1d9fc9ae476",
+      "national-c85163c265e890",
+      "national-f35b616276017d",
+      "national-d665509ef6ba4a",
+      "national-08ac00f781c125",
+      "national-26965c7e8c382c",
+      "national-cc01d994ce8b9f",
+      "national-3c3c2eefe77439",
+      "national-bccee3548dd614",
+      "national-17da96920087d9",
+      "national-e8c9cbb89fd243",
+      "national-fee077dc1dbc8a",
+      "national-b3b6b1a679ff22",
+      "national-28590a87346e48",
+      "national-14266d2c7f629a",
+      "national-0be8060f02bfd7",
+      "national-ede291bdc451f9",
+      "national-e2e8dc32069bc7",
+      "national-60a2fa94e7ec3f",
+      "national-95b2e4a7ebdd3a",
+      "national-04af149fcffc37",
+      "national-ad970e110bc633",
+      "national-89dcb68aae2a10",
+      "national-4c1a799e06bef5",
+      "national-5181ac3abb768b",
+      "national-47a25a3de8dc88",
+      "national-38d3b8b0d12ab5",
+      "national-9d33a499d82ba9",
+      "national-1c2c919042ce17",
+      "national-e955157f346239",
+      "national-b4788f8e9543a6",
+      "national-22b59222685084",
+      "national-d83a012535e9d4",
+      "national-5cb0776fdb5c21",
+      "national-1c09d397ce705f",
+      "national-e9b96d96f37b55",
+      "national-046f967871efd6",
+      "national-24e9c2844ff3da",
+      "national-14d89a77299a56",
+      "national-8c73f9f803caee",
+      "national-65f02840ebb5b9",
+      "national-7e1dea79e89612",
+      "national-e7a0ae3e360e7d",
+      "national-00290e7da3cd99",
+      "national-74496af43d6b1b",
+      "national-8045714cb12a6b",
+      "national-e7114085c49782",
+      "national-d3a94eef4908b4",
+      "national-5b757d3904924c",
+      "national-6ad8c07180ea05",
+      "national-3d80712aa67c6e",
+      "national-4c4d01b55b9250",
+      "national-b9b3b74c51f362",
+      "national-79bfa3585cb27e",
+      "national-b4880ae2396c2d",
+      "national-d1a629b7ff2653",
+      "national-3ea82882877d86",
+      "national-c6b2d557fc2560",
+      "national-42159345433b0a",
+      "national-21e57cab8ea1c8",
+      "national-8276fc80b4151e",
+      "national-861eefdc202e1f",
+      "national-44fa48175c90fd",
+      "national-f2765f320b8c49",
+      "national-9c64ef7bccb275",
+      "national-9c9cc51beac113",
+      "national-a34a00fcbcc976",
+      "national-46cba98973ca0b",
+      "national-7d4126c5ef8ca9",
+      "national-f04946b0e2c6dd",
+      "national-72a6bcf057dfa1",
+      "national-a9fef5049a3cdb",
+      "national-a4a1d352c28eba",
+      "national-8664f6d4e31cc7",
+      "national-f33fa856cda466",
+      "national-68ba07dc2cef01",
+      "national-dbb7cdb87a37b6",
+      "national-92602f60a6df00",
+      "national-514e46feb1fe70",
+      "national-30b1817be2634d",
+      "national-8c97232a262d39",
+      "national-d6d254b350b2f2",
+      "national-c9bd6c4a05e0db",
+      "national-8724b58a96c0ea",
+      "national-d2429955e7329b",
+      "national-9987e08e2722d7",
+      "national-c91ea67ec7e61b",
+      "national-bb966ec002460e",
+      "national-6757265967c929",
+      "national-9610402af16835",
+      "national-737b92ef96784f",
+      "national-a44a974e3df021",
+      "national-bf5d703eefa05b",
+      "national-e5a34f8a1c480b",
+      "national-772769b467be44",
+      "national-35fbd6a7efdb17",
+      "national-867d167d6cbc98",
+      "national-331c73f6a177ba",
+      "national-a067b071aa3504",
+      "national-54e185fcd99fec",
+      "national-80d080dc04f187",
+      "national-fcb1904d7e8299",
+      "national-e234941dbe1eed",
+      "national-b3f713d63ead1d",
+      "national-1dd5e63c5a2304",
+      "national-093274717f0437",
+      "national-6e7bb19eb643bf",
+      "national-26d597bcc47de6",
+      "national-9b9ab0e9526234",
+      "national-7a94f90480bd5b",
+      "national-dac573b83d9065",
+      "national-767c44d58e5acd",
+      "national-8f744e0ac87a1a",
+      "national-4c9f2329181d31",
+      "national-52b46db3484179",
+      "national-1624deab9532bc",
+      "national-385ed87a79c207",
+      "national-6f178f23752dd8",
+      "national-a81b826631809a",
+      "national-06f9d245b91859",
+      "national-fd494795067f0c",
+      "national-e2370a4a55b038",
+      "national-c9d067756afda2",
+      "national-bc71690c656dfe",
+      "national-7ac8c26b4c6c43",
+      "national-adf02da7fb8052",
+      "national-35b84b8cd8282f",
+      "national-f586e862c46402",
+      "national-16886f35649457",
+      "national-1b50dd07aa991d",
+      "national-499b5faec753c8",
+      "national-c40fa3f114b672",
+      "national-4047a830e65d79",
+      "national-07103de40720c3",
+      "national-6697ca886e2e7d",
+      "national-67eb578002bb91",
+      "national-536631f517417e",
+      "national-204c12b52c6dab",
+      "national-e3c1d2cc4be2bc",
+      "national-8939510f67cc6c",
+      "national-6cf9ef9a7df8bb",
+      "national-d8e63c3a1e23e0",
+      "national-5233413a93bb4c",
+      "national-6c3b586db912ab",
+      "national-e2daaf6236a7c0",
+      "national-bd7c2e5e63d5ec",
+      "national-3dca2ac7d210d3",
+      "national-75cd6439e577fb",
+      "national-93e9aa944692e4",
+      "national-759879e8e12683",
+      "national-62f253b1bd01d8",
+      "national-d985bbafbf4ded",
+      "national-ac94a9ee49f951",
+      "national-199d50dae578d1",
+      "national-cee9b15a5069c9",
+      "national-19418662f92925",
+      "national-1ef1205003ede5",
+      "national-27492619b42906",
+      "national-bc39c46aff3977",
+      "national-e57fb163c9070e",
+      "national-ef790698fb3f55",
+      "national-5b8075afef8c6e",
+      "national-c80ee7a18e7ad7",
+      "national-1b3e87d8de682d",
+      "national-a70813c1231d68",
+      "national-ca63cd326d8452",
+      "national-4b7a5067985c39",
+      "national-e2abeb3a606c3e",
+      "national-fd79c80585f4da",
+      "national-ef7929e4e6bbc3",
+      "national-72532864223b07",
+      "national-28e343798c59fc",
+      "national-c2cdfa47ac4a27",
+      "national-11751032059401",
+      "national-2b9e5f304c97f2",
+      "national-2ff56ffaacaec2",
+      "national-4b4ba668c3fa56",
+      "national-1fb4b7de6edff2",
+      "national-db6f97197eb3ab",
+      "national-d7374ece197502",
+      "national-10d5fe404c914a",
+      "national-53ae1cd9c13b0b",
+      "national-24a076dd6c503e",
+      "national-dc2bdc03a31823",
+      "national-df92c86f425272",
+      "national-21abb2cdaf6f9e",
+      "national-6bf8fca00c8e12",
+      "national-29375f0d3701da",
+      "national-33e8c7ae384fd4",
+      "national-61b12ebb9a8c3e",
+      "national-bc272f45d7a772",
+      "national-3de46e110ee288",
+      "national-677e3f0eec760a",
+      "national-bf722c2552c3f7",
+      "national-530f9234d60426",
+      "national-51a039c54efbaf",
+      "national-ad53d3d752cb43",
+      "national-eaf2a4554ac609",
+      "national-85c44f749e5461",
+      "national-f9457365fbd97a",
+      "national-91a811ce91f3e6",
+      "national-04e9c19c2d26cd",
+      "national-1317ecaeffc763",
+      "national-5af428be3dd060",
+      "national-4158f9ddf3a6c0",
+      "national-8f2ca97139f7ff",
+      "national-7e2c722ce60229",
+      "national-979dd517479ed4",
+      "national-8edc708fd7ee72",
+      "national-93f4357229e4e8",
+      "national-37a1877d55d297",
+      "national-db7da05398feb3",
+      "national-aeb26bc220b0e3",
+      "national-1ed4c993d8ab8d",
+      "national-1175c57a93cf68",
+      "national-2407711a4200fd",
+      "national-aafbfdecdeaff5",
+      "national-6ee8737bb18088",
+      "national-11aef30667fd69",
+      "national-8f4a2ab3e347b4",
+      "national-bb8d31b9a6e87a",
+      "national-63b7c41459a0ed",
+      "national-b01b9647df2735",
+      "national-16f3ddca8e8c5b",
+      "national-741968cf2a1954",
+      "national-f2fff82f71f9ce",
+      "national-de5c27b84c769f",
+      "national-93a1b575e9f763",
+      "national-5eeee13eb65f7c",
+      "national-b3a765f585a47d",
+      "national-f218824a2b5126",
+      "national-afa5126cdbfcb0",
+      "national-bcd31ac31389ec",
+      "national-be9148f7cf9ab6",
+      "national-c323acce2153c0",
+      "national-15e094e410a234",
+      "national-0ec145d257b65d",
+      "national-664293c60c5009",
+      "national-80ab0fa975cdea",
+      "national-eb9ce7a53b11a3",
+      "national-b373490706cb0e",
+      "national-1806604187636a",
+      "national-0f7772af4a5b35",
+      "national-1243550257222b",
+      "national-3695cfce90e819",
+      "national-5ab66342245b14",
+      "national-b546be51569e1f",
+      "national-eb32ab4f9e247a",
+      "national-45a5fd52320757",
+      "national-6dbe813a6d3af7",
+      "national-018aa34568e506",
+      "national-ee547c9c9cd290",
+      "national-bfa2fb93d1f54e",
+      "national-2d6276ef2e6816",
+      "national-9d9fe68c835822",
+      "national-d94afd474b57b1",
+      "national-399a81a1f26704",
+      "national-6ee0632427cd61",
+      "national-d729295eb55669",
+      "national-aa745e923a7b57",
+      "national-900eb119e1151e",
+      "national-a979d21b72d837",
+      "national-201a773e1c9deb",
+      "national-7407eb511c0407",
+      "national-3b4f3febae2b7a",
+      "national-63918307bb2b25",
+      "national-989d3571a20a68",
+      "national-02985720461514",
+      "national-7549242b149197",
+      "national-cbb1ddecb91945",
+      "national-8e956baf4afbd8",
+      "national-4602eb5f512618",
+      "national-5d828055fc19b1",
+      "national-4751305d4f961c",
+      "national-93dca8e56e14b9",
+      "national-62f1de0dd5a3f3",
+      "national-ce4f2bc458fca2",
+      "national-67ad450a3f50f4",
+      "national-0c7cedc472e0f1",
+      "national-4dae9cef8fe879",
+      "national-8aa1b57c77199a",
+      "national-d1960b8668ddbb",
+      "national-52db9d76401598",
+      "national-e0f7d76cfd5f8b",
+      "national-a63fccdd48a52a",
+      "national-7d1a7e320bceb0",
+      "national-711db70c861f1a",
+      "national-5c5d6d31dee9d8",
+      "national-30178c9bd3210c",
+      "national-39340892254531",
+      "national-63c49f9f462bd8",
+      "national-a0083c830199db",
+      "national-0094ecd7f7e701",
+      "national-2ec984dfc1d4e5",
+      "national-657a5f1491c52b",
+      "national-f7e48a03088d32",
+      "national-7c31c536855dc6",
+      "national-3cd45db3046a4d",
+      "national-40a614ba958792",
+      "national-8933381447c331",
+      "national-432470a0541fa5",
+      "national-7f78afedeb0c1c",
+      "national-8a4dc7e9a1ec30",
+      "national-224efd2016aec2",
+      "national-25d30b2f3fadf3",
+      "national-de7ffec3dd32ec",
+      "national-04267dadb4a4c2"
+    ],
     "items": [
       {
+        "type": "info",
+        "clinic_id": "national-0f4f73a49a24a6",
+        "clinic": "ひろつ内科クリニック",
+        "label": "병원 추가 정보 변경"
+      },
+      {
+        "type": "verified",
+        "clinic_id": "national-9e3d4db9e55a4e",
+        "clinic": "ゆきスキンクリニック東池袋",
+        "label": "처방 상태 변경: candidate → active"
+      },
+      {
+        "type": "price",
+        "clinic_id": "national-9e3d4db9e55a4e",
+        "clinic": "ゆきスキンクリニック東池袋",
+        "dose": "5",
+        "before": null,
+        "after": 98400,
+        "label": "5mg 공식 가격 변경"
+      },
+      {
+        "type": "info",
+        "clinic_id": "national-9e3d4db9e55a4e",
+        "clinic": "ゆきスキンクリニック東池袋",
+        "label": "공식/등록 원문 주소 변경"
+      },
+      {
+        "type": "info",
+        "clinic_id": "national-9e3d4db9e55a4e",
+        "clinic": "ゆきスキンクリニック東池袋",
+        "label": "가격 검증 상태 변경"
+      },
+      {
+        "type": "info",
+        "clinic_id": "national-9e3d4db9e55a4e",
+        "clinic": "ゆきスキンクリニック東池袋",
+        "label": "가격 산정 근거 변경"
+      },
+      {
+        "type": "info",
+        "clinic_id": "national-9e3d4db9e55a4e",
+        "clinic": "ゆきスキンクリニック東池袋",
+        "label": "병원 추가 정보 변경"
+      },
+      {
+        "type": "info",
+        "clinic_id": "national-18d67104d832b6",
+        "clinic": "エースクリニック大阪梅田　ＨＥＰナビオ院",
+        "label": "병원 추가 정보 변경"
+      },
+      {
         "type": "new",
-        "clinic_id": "national-8acfd3cd2fd17b",
-        "clinic": "うじな家庭医療クリニック",
+        "clinic_id": "national-6212bf75c10571",
+        "clinic": "あだかえたけだクリニック",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-b49ece1cb96df0",
-        "clinic": "ここみクリニック",
+        "clinic_id": "national-81357c03d24479",
+        "clinic": "あつた皮ふ科・美容皮膚科クリニック",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-2893a0b518e5c5",
-        "clinic": "しらかわ内科クリニック",
+        "clinic_id": "national-af1c31d0f63e16",
+        "clinic": "いけがき皮膚科",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-8b80df3727726d",
-        "clinic": "ながえ内科クリニック",
+        "clinic_id": "national-f52be95c3e93f3",
+        "clinic": "いしかわ内科クリニック",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-def4b56d25cad8",
-        "clinic": "みふねやまクリニック",
+        "clinic_id": "national-03e6bd2f76b687",
+        "clinic": "いしかわ心臓クリニック",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-59e6e1d29e416b",
-        "clinic": "やまもと内科クリニック",
+        "clinic_id": "national-6891ee7fe87b21",
+        "clinic": "いつもジェネラルクリニック",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-8b3ec2cb71858f",
-        "clinic": "アステリアクリニック札幌院",
+        "clinic_id": "national-a2596758ce18f8",
+        "clinic": "いで内科・呼吸器内科クリニック",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-af5d1e0f519b5b",
-        "clinic": "ジュノビューティークリニック広島院",
+        "clinic_id": "national-e9f0e7196e23d6",
+        "clinic": "いわせ医院",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-9d1c38ec2bf09d",
-        "clinic": "ドーズ美容外科長崎院",
+        "clinic_id": "national-3234d7a6f529d3",
+        "clinic": "うかい医院",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-53a5a672df73f0",
-        "clinic": "ナチュレ美容クリニック広島",
+        "clinic_id": "national-d942ffde7bb1a4",
+        "clinic": "うらべ内科クリニック",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-456f1e52068eb3",
-        "clinic": "医療法人　さかい胃腸　内視鏡内科クリニック",
+        "clinic_id": "national-fe98b2aaba2676",
+        "clinic": "おおたかの森ＳＫＩＮ・ＣＨＩＬＤクリニック",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-a54b0050ee8b9f",
-        "clinic": "医療法人　しのろファミリークリニック",
+        "clinic_id": "national-4594f1f1cd7ae6",
+        "clinic": "おかもと内科・糖尿病クリニック",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-bd385a86b0197e",
-        "clinic": "医療法人一之会　ドーズ美容外科佐賀院",
+        "clinic_id": "national-12ebfff8fbabd4",
+        "clinic": "おち内科・ペインクリニック",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-64a841a4c7d379",
-        "clinic": "医療法人社団　札幌光星ストレスケアクリニック",
+        "clinic_id": "national-14ee369ef77bdd",
+        "clinic": "おのクリニック",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-b3ca6ec894dbf7",
-        "clinic": "医療法人社団　瀬尾医院",
+        "clinic_id": "national-f7e0d8f024a046",
+        "clinic": "かんクリニック　リウマチ・整形外科",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-24bf1ce6a8dd10",
-        "clinic": "医療法人社団イースト会札幌イースト駅前クリニック",
+        "clinic_id": "national-3186bc131d9f68",
+        "clinic": "がじゅまるクリニックつくば",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-361a8ef27d9ee7",
-        "clinic": "医療法人社団天祐会　円山公園皮膚科形成外科",
+        "clinic_id": "national-f5318871f060bd",
+        "clinic": "きむら内科外科クリニック",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-3df13fd555da55",
-        "clinic": "医療法人社団守谷内科医院",
+        "clinic_id": "national-41d451dfa000ec",
+        "clinic": "ぎなん皮ふ科クリニック",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-c0a32467c62209",
-        "clinic": "医療法人緑風会　ヴァージンクリニック広島院",
+        "clinic_id": "national-9863c942b1aa3b",
+        "clinic": "くすのきクリニック",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-76f46f740434f1",
-        "clinic": "広島ウェルネスクリニック",
+        "clinic_id": "national-d13bec99161ca9",
+        "clinic": "くわな駅前美容クリニック",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-8eb120d58d8900",
-        "clinic": "新さっぽろウィメンズ　ヘルス＆ビューティークリニック",
+        "clinic_id": "national-248e417f8ed52f",
+        "clinic": "こいけ内科糖尿病内科クリニック",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-5f22927fd64d20",
-        "clinic": "森外科医院",
+        "clinic_id": "national-9cadd35ea25e6b",
+        "clinic": "さくら通り整形外科クリニック",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-254bd530dd2730",
-        "clinic": "河村内科",
+        "clinic_id": "national-5f6a325493540c",
+        "clinic": "さつき内科クリニック",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-733ef40700aff8",
-        "clinic": "秋山ウィメンズ・ＡＲＴクリニック",
+        "clinic_id": "national-1b939ced57c788",
+        "clinic": "さなげクリニック",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-a3f26aa5ae6ba9",
-        "clinic": "Mauve Beauty Clinic",
+        "clinic_id": "national-1344d01c55a756",
+        "clinic": "さのクリニック　アレルギー科・呼吸器科・内科",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-16b4a96d56713f",
-        "clinic": "SSC ビューティー クリニック",
+        "clinic_id": "national-a36b421e9618bd",
+        "clinic": "さや内科・糖尿病クリニック",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-4a5fbd4c3ca4e1",
-        "clinic": "さっぽろ 美容 クリニック",
+        "clinic_id": "national-5a6053d592d47b",
+        "clinic": "しもやま内科",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-53303da513b170",
-        "clinic": "たくま ファミリー クリニック",
+        "clinic_id": "national-c171cb28c36862",
+        "clinic": "しょう内科クリニック",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-2dbf045de4beef",
-        "clinic": "ゆう しん 内科 クリニック",
+        "clinic_id": "national-bedf6483bd6f0a",
+        "clinic": "すずき内科・胃腸内科クリニック",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-76f972f7854a12",
-        "clinic": "アークリシュ美容 皮フ科 クリニック",
+        "clinic_id": "national-c1e11f0dd92e84",
+        "clinic": "すずひろクリニック",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-ce4e15dcba2d5b",
-        "clinic": "クララ ビューティ クリニック 札幌院",
+        "clinic_id": "national-688790a7357adb",
+        "clinic": "たきもと内科クリニック",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-b7bf18c59fd4b3",
-        "clinic": "ネビュラ クリニック 広島院",
+        "clinic_id": "national-355e643a6e9f0c",
+        "clinic": "たなか内科",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-f2b264523a9cde",
-        "clinic": "レボ クリニック プラス 札幌すすきの院",
+        "clinic_id": "national-598e749386ec06",
+        "clinic": "たなか循環器内科クリニック",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-433fed5a7694e1",
-        "clinic": "令樹 クリニック",
+        "clinic_id": "national-85c210d52d78cb",
+        "clinic": "つくばウロケアクリニック",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-d10bd7413b58d1",
-        "clinic": "大通公園メンズ クリニック",
+        "clinic_id": "national-0a5636309260a7",
+        "clinic": "つくば・土浦鶴町皮膚科クリニック",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-a51f3961e02c4b",
-        "clinic": "札幌 美容外科ネビュラ クリニック",
+        "clinic_id": "national-1af5b11c2bd0c0",
+        "clinic": "つねだクリニック",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-98760a47e1c99f",
-        "clinic": "男たちの 美容外科 広島院",
+        "clinic_id": "national-1ec47b3ad764a1",
+        "clinic": "つばさ　クリニック",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-3763939bb7f45d",
-        "clinic": "綺翠 -kisui Clinic",
+        "clinic_id": "national-4e3f5cdb5fb763",
+        "clinic": "つや子プライマリーケアクリニック",
         "label": "신규 병원 후보"
       },
       {
         "type": "new",
-        "clinic_id": "national-ae0c517fae8d22",
-        "clinic": "西さっぽろ 内科・ 糖尿病 内科 クリニック",
+        "clinic_id": "national-9259fda0d299a4",
+        "clinic": "でぐちクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-715d8c74b78e95",
+        "clinic": "とくなが内科胃腸科外科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-d67968cdb67f93",
+        "clinic": "とだ小林医院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-c36e6f808224de",
+        "clinic": "とりで腎・泌尿器科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-09bf487ac4b276",
+        "clinic": "なかつか内科医院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-40e0887e6b233f",
+        "clinic": "なかむらファミリークリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-0686079e47d512",
+        "clinic": "ながおクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-56540fee718f71",
+        "clinic": "なごやＥＶＴクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-19a2d1f13e253c",
+        "clinic": "なとり皮膚科くまのどう内科下肢静脈瘤クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-f55ff8bfd0c5bb",
+        "clinic": "にしな内科",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-843e9206051ffb",
+        "clinic": "にしむら内科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-b32855a97b5d58",
+        "clinic": "はなみずき内科・内視鏡クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-188a9e2e50127c",
+        "clinic": "はまもとクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-bb6508527203ad",
+        "clinic": "はやさか内科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-fe52c3b6ff1d38",
+        "clinic": "はる内科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-3604243406b5b1",
+        "clinic": "ひぐち内科・消化器",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-0c6be8a48b90a9",
+        "clinic": "ふかや内科リウマチクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-802b7e457b42e5",
+        "clinic": "ふるさと内科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-7ba06126b7ec87",
+        "clinic": "まくはりコーラス内科",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-2e525bf97fffa6",
+        "clinic": "みらいクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-3be1f829333041",
+        "clinic": "むさし内科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-494c49fbcb9c15",
+        "clinic": "やすはらクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-0451f754eb69ea",
+        "clinic": "やそだ整形外科リウマチクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-d59f70b9dc6e74",
+        "clinic": "やなせ医院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-d84423e4ba2c32",
+        "clinic": "やまもプラザファミリークリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-bacee8f9e71086",
+        "clinic": "ゆずな内科在宅クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-9da79f3728fae0",
+        "clinic": "よしだクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-9ae2624cbcfa5a",
+        "clinic": "よしの内科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-d530ac8cd00dfa",
+        "clinic": "わかばクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-9658aba6d72fdf",
+        "clinic": "わしづかクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-f4646c644ca2b4",
+        "clinic": "わだばやし皮膚科",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-d468d37b1df2c0",
+        "clinic": "アクティブエイジ　クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-5ed48d9db51ec5",
+        "clinic": "ウィメンズヘルスクリニック　刈谷銀座",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-18227d195d6d05",
+        "clinic": "エクセルメディカルクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-7a671971027e8d",
+        "clinic": "エムズ総合内科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-fea7085745f9ba",
+        "clinic": "カメイクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-8d85dae458bbac",
+        "clinic": "シャルムクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-942d65bf1d8163",
+        "clinic": "シュシュレディースクリニック　戸田公園",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-b4eb29ac751dfb",
+        "clinic": "ジュノビューティークリニック大宮院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-0e3065a5ab7283",
+        "clinic": "ジュノビューティークリニック川崎院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-781987388184cc",
+        "clinic": "ジュノビューティークリニック福島院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-fad218355176e4",
+        "clinic": "セントローズクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-3c894d6357ec42",
+        "clinic": "ソフィア横浜クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-1a05485e884ae8",
+        "clinic": "ノアクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-0c209507adde9a",
+        "clinic": "フジイ内科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-56fa9167c163e3",
+        "clinic": "プライムクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-31b84f9054e7a1",
+        "clinic": "モアクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-6680e0749485ca",
+        "clinic": "ルアナ辻堂ビューティークリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-595ffa2e20b9fd",
+        "clinic": "ルラ美容クリニック　大宮院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-31edeca2562c3d",
+        "clinic": "ローズマリークリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-764e0c6528382d",
+        "clinic": "三保町内科・循環器クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-95023026452e58",
+        "clinic": "三重美容クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-1e5eca309c6f80",
+        "clinic": "上尾メンタルクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-5a5763ac4d03eb",
+        "clinic": "上岡田医院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-1663d22810f71f",
+        "clinic": "丹野内科・循環器・糖尿病内科",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-25b715304e939d",
+        "clinic": "五十嵐内科",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-d138e8c03b3dc7",
+        "clinic": "五藤医院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-f823033522c263",
+        "clinic": "井幡整形外科",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-4c4c66153571e2",
+        "clinic": "仙台駅前　スノークリニック　美容皮膚科",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-eba267ea5d0399",
+        "clinic": "倉持整形外科・皮膚科　美容皮膚科",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-43a4e771df72e7",
+        "clinic": "倉敷ウエストサイドクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-fb0bf85722160c",
+        "clinic": "元八事ファミリー内科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-3a809bbbaac330",
+        "clinic": "光が丘クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-f1879dd3fd92a5",
+        "clinic": "八戸タウン形成外科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-a1b89d81a7ae63",
+        "clinic": "八百萬ファミリークリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-37c33f10d1eab3",
+        "clinic": "六本木メディカルクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-a4e08ffbc0a39d",
+        "clinic": "内科・糖尿病・甲状腺の早稲田メディカルクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-537a8c8c5104bc",
+        "clinic": "内科・糖尿病内科　天王寺めぐみクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-20ca855b091fef",
+        "clinic": "内科総合クリニック人形町",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-26ff4966d2d073",
+        "clinic": "前川クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-4720d5f64ce789",
+        "clinic": "北田内科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-2ba8390da7e285",
+        "clinic": "医療法人　うらた皮膚科",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-508eb0dd96f1de",
+        "clinic": "医療法人　くすの木会　かたやまクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-da2586fbb3ce55",
+        "clinic": "医療法人　さいとう消化器内科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-18ef01b2fe845d",
+        "clinic": "医療法人　ふくだ皮フ科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-e163fbc9a8bddc",
+        "clinic": "医療法人　原内科循環器科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-4427c5b8f52ccf",
+        "clinic": "医療法人　吉川医院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-c67ddb9b416ec2",
+        "clinic": "医療法人　夢生会　ＹＭメトロクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-f7240dc83444fe",
+        "clinic": "医療法人　大美会　大美会クリニック心斎橋本院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-aca939f0dae83c",
+        "clinic": "医療法人　市川クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-7f5dac8940221d",
+        "clinic": "医療法人　幸伸会　すぎはら眼科・循環器科内科",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-88989eefd391a1",
+        "clinic": "医療法人　御所南はなこクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-d367a218843276",
+        "clinic": "医療法人　惠愛会　クリニック畑森",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-7dede9a9189941",
+        "clinic": "医療法人　愛久会　きたかみ駅前内科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-9afd648951a59e",
+        "clinic": "医療法人　新美会　新垣形成外科",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-3b83ecfaa42472",
+        "clinic": "医療法人　楠医院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-f0cb16fb246c99",
+        "clinic": "医療法人　理秀会　なかむら内科・糖尿病クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-38c23c335c0738",
+        "clinic": "医療法人　瑠璃会　なんば心斎橋駅　ＡＹクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-1a416c23dfe3f4",
+        "clinic": "医療法人　白岩内科医院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-e705c0713c76fa",
+        "clinic": "医療法人　秀晄会　コムロ美容外科",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-9db635c40337dd",
+        "clinic": "医療法人　紬幸会　夕陽ヶ丘ながいクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-0294cf5784a9e2",
+        "clinic": "医療法人　細川外科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-fc253e5e066a65",
+        "clinic": "医療法人　継桜会　ＭＩＬ　ＣＬＩＮＩＣ　ＯＳＡＫＡ",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-4eff18b82a791b",
+        "clinic": "医療法人　聖心会　中村クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-c42ded090a3d64",
+        "clinic": "医療法人　英愛会　ｙ’ｓ　ｃｌｉｎｉｃ",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-4fbf80fa4cec3f",
+        "clinic": "医療法人　西大寺駅前Ａ皮膚科",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-f4f4cb1135c64c",
+        "clinic": "医療法人　西山産婦人科医院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-d2215832f48dab",
+        "clinic": "医療法人　豊生会　むらた日帰り外科手術クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-925269d127e98c",
+        "clinic": "医療法人　青元会　あおき整形リハビリクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-70dc9b312f70cc",
+        "clinic": "医療法人えびす会　えびすクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-3be97eaf0a2bf1",
+        "clinic": "医療法人かじもと内科　糖尿病・内分泌内科",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-f40541d6074b44",
+        "clinic": "医療法人きびたき会　仙台タウン形成外科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-18227c904c207b",
+        "clinic": "医療法人きびたき会　表参道タウン形成外科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-45baf0b6fdf982",
+        "clinic": "医療法人とくいクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-b31579e12fcba5",
+        "clinic": "医療法人ともつ内科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-dda426455b6dc0",
+        "clinic": "医療法人わかば会　宮戸クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-ca7e644ba7876a",
+        "clinic": "医療法人インテグレス　新橋消化器内科・泌尿器科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-5008a686a46a1f",
+        "clinic": "医療法人インテグレス　池袋消化器内科・泌尿器科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-5b543923271ceb",
+        "clinic": "医療法人エムディー　みゆきクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-d4005864cfc882",
+        "clinic": "医療法人コスモス会　コスモスクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-bd9d5ed9a65819",
+        "clinic": "医療法人メディカルフロンティア　東京脊椎クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-7dda00b07f3036",
+        "clinic": "医療法人一門会　蕨中央医院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-5dd5ba7ad658ec",
+        "clinic": "医療法人仁由会　日本ウェルネス再生クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-c0c0493ffbcb1b",
+        "clinic": "医療法人優和会　角田医院分院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-6dbb503973fc14",
+        "clinic": "医療法人優和会　関根医院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-3488c9a149d2ec",
+        "clinic": "医療法人元気会　わかさクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-665f95bfb19edf",
+        "clinic": "医療法人千わたの花　井上クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-c947012666d730",
+        "clinic": "医療法人千わたの花　本町井上クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-0b63747fb23d96",
+        "clinic": "医療法人博美会渡辺医院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-ebb84a618afc84",
+        "clinic": "医療法人友広会　千里中央メディカルクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-d712be5d9a63e8",
+        "clinic": "医療法人友広会　大阪本町メディカルクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-4ed557ea3ae0c0",
+        "clinic": "医療法人友心会福元クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-74f33a4b0baa56",
+        "clinic": "医療法人司美会　Ｈ　Ｂｅａｕｔｙ　Ｃｌｉｎｉｃ",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-745a1afeb54553",
+        "clinic": "医療法人吉修会　ＳＨＩＮＳＡＩＢＡＳＨＩ　Ａｉ　ＣＬＩＮＩＣ",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-ef6b85708ad70a",
+        "clinic": "医療法人和三会　ティアラクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-322219e5020482",
+        "clinic": "医療法人堀江クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-33a2d8e58a3ea6",
+        "clinic": "医療法人大樹会　宮田医院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-fce992ff18fa4b",
+        "clinic": "医療法人大田屋会　大田屋クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-258766da2e4729",
+        "clinic": "医療法人大美会　大美会クリニック天王寺院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-94a0f0dab7297f",
+        "clinic": "医療法人寿信会野口内科",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-7e7968150b394d",
+        "clinic": "医療法人山川内科",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-22f8d511cb0698",
+        "clinic": "医療法人川口内科　川口メディカルクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-3c37c78f3335fd",
+        "clinic": "医療法人幸輝会みんな幸せクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-b4462df2868a81",
+        "clinic": "医療法人康榮会岩田クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-292415c9729274",
+        "clinic": "医療法人恒尋会　はやま内科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-b63802867b3f00",
+        "clinic": "医療法人恵喜会　森クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-338c80da7a3582",
+        "clinic": "医療法人想千　そうせん整形外科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-1565c8579c9bca",
+        "clinic": "医療法人成和会　粟井内科診療所",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-a75c0a3e3b828b",
+        "clinic": "医療法人敬愛会　ザナチュラルビューティクリニック麻布十番",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-03ca5a39e3b0ba",
+        "clinic": "医療法人晋英会　かねむらクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-165797b5953ab8",
+        "clinic": "医療法人森本整形外科",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-f382b0cc9c2a01",
+        "clinic": "医療法人森高脳神経外科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-a6b228632586e4",
+        "clinic": "医療法人永健会　仁愛医院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-576d4809cec457",
+        "clinic": "医療法人永心会　ながい内科循環器内科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-75f843055878f3",
+        "clinic": "医療法人永松医院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-36809e9ee9093d",
+        "clinic": "医療法人涼葵会　Ｗ　ＣＬＩＮＩＣ　梅田院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-b41742d863efc1",
+        "clinic": "医療法人甘木第一クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-f85e9879a36d73",
+        "clinic": "医療法人真善会ＫＡＭＩＯクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-8b4b6a28efdf53",
+        "clinic": "医療法人社団　しおざき内科",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-72a8d903ea6ea3",
+        "clinic": "医療法人社団　グロース会　エビスノブクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-5b09cca1076a3c",
+        "clinic": "医療法人社団　伸緑会　森の宮皮フ科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-a34c3a1e05e597",
+        "clinic": "医療法人社団　佐藤整形外科",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-9f3b1931e031ca",
+        "clinic": "医療法人社団　医食動健　つかさ内科",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-60442dd967fb96",
+        "clinic": "医療法人社団　協和医会　松戸駅前クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-cf9db2a62cf953",
+        "clinic": "医療法人社団　協和医会協和医院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-db38d6e57571ac",
+        "clinic": "医療法人社団　悠正会　ゆう徳丸内科皮膚科",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-5312cbe27fd893",
+        "clinic": "医療法人社団　桜風会　東岩瀬クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-1b84cf5afcfdee",
+        "clinic": "医療法人社団　糖尿病内科たかべクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-8085770c5ce3e6",
+        "clinic": "医療法人社団　荒木医院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-0da55ec390e008",
+        "clinic": "医療法人社団あおい会　ヴィオラスキンクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-0d2f0ed437d70d",
+        "clinic": "医療法人社団かなめ会　田口クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-a7bb18563b44e8",
+        "clinic": "医療法人社団こいし会　関町ゆいクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-661490dbbd70ff",
+        "clinic": "医療法人社団せいこう会　エヌ・エスクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-fb76307916305d",
+        "clinic": "医療法人社団つばさ　両国東口クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-a612b9d400c9ff",
+        "clinic": "医療法人社団インターナショナルヘルスケアクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-5b4afcec8325fd",
+        "clinic": "医療法人社団イースト会　イースト駅前クリニック新橋院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-486e50db1ef5a2",
+        "clinic": "医療法人社団イースト会　名古屋イースト駅前クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-3e28d944bad688",
+        "clinic": "医療法人社団イースト会　名古屋栄イースト駅前クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-17357e526d7f2b",
+        "clinic": "医療法人社団イースト会　大宮イースト駅前クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-bd912d528c2aa5",
+        "clinic": "医療法人社団イースト会　新宿東口イースト駅前クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-8c39c18c8f0b2f",
+        "clinic": "医療法人社団イースト会　池袋イースト駅前クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-c96591fd412e53",
+        "clinic": "医療法人社団イースト会　渋谷イースト駅前クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-953b4ce20c7302",
+        "clinic": "医療法人社団イースト会　立川イースト駅前クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-a5434ff9cd1a7b",
+        "clinic": "医療法人社団イースト会　静岡イースト駅前クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-91cd9c1e2c9b25",
+        "clinic": "医療法人社団イースト会小倉イースト駅前クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-937b1764306e9b",
+        "clinic": "医療法人社団イートス会　洗足整形形成外科",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-458124276cf882",
+        "clinic": "医療法人社団ウェルエイジング　Ｄクリニック福岡",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-158bb22ccb6dcf",
+        "clinic": "医療法人社団シンシアエージェンシー　亀戸シンシアクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-a9ff40f0752060",
+        "clinic": "医療法人社団シンシアエージェンシー　秋葉原内科シンシアクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-e50f9af7a96b78",
+        "clinic": "医療法人社団シーズ・メディカル　渋谷シーズメディカルクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-e97f27c7f91c07",
+        "clinic": "医療法人社団ナチュラルハーモニー　ナチュラルハーモニークリニック表参道",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-03df9058f92b4f",
+        "clinic": "医療法人社団ヒロメディカル　小野クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-bd92cbfd0bbfb8",
+        "clinic": "医療法人社団フロンティアーツ　井草内科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-71749d4b9abf35",
+        "clinic": "医療法人社団プラスワン緑野クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-165e1e4aebf6b3",
+        "clinic": "医療法人社団久信会　品川駅前皮膚科",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-c6dd4026cb3273",
+        "clinic": "医療法人社団二葉会　シティクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-32a647174039c3",
+        "clinic": "医療法人社団五陽会　愛生会クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-d3307562bf3579",
+        "clinic": "医療法人社団亮敬会　板垣医院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-72a69c2fc70501",
+        "clinic": "医療法人社団仁愛会　仁愛内科",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-d91d7e33c64fc9",
+        "clinic": "医療法人社団伸詠会　藤・ナチュレ美容クリニック銀座院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-aa41b2c4ab8182",
+        "clinic": "医療法人社団佳有会　品川イーストクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-f8c6fc43d293c8",
+        "clinic": "医療法人社団修恵会　新小平クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-f33049dcfc973a",
+        "clinic": "医療法人社団健幸福会　龍ヶ崎大徳ヘルシークリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-df3b22dd2bb660",
+        "clinic": "医療法人社団健成会河田医院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-c154334a912bb5",
+        "clinic": "医療法人社団光美会　ルーチェクリニック銀座院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-7906a0d1686b26",
+        "clinic": "医療法人社団公懌会　小金井メディカルクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-07ab70d7dac8d3",
+        "clinic": "医療法人社団共生会　西荻鍋岡クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-aa9ec2d9feb2a7",
+        "clinic": "医療法人社団凜旺の幹シンシアガーデンクリニック高崎院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-b98fc6c0b6541f",
+        "clinic": "医療法人社団加地医院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-c92261dd6cbd23",
+        "clinic": "医療法人社団勝優会　たまちホームクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-b5518807dc0959",
+        "clinic": "医療法人社団北辰会　西荻司ビルクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-e917b56eecb543",
+        "clinic": "医療法人社団南州会　三浦メディカルクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-5b6886cde5e75c",
+        "clinic": "医療法人社団博清会　西葛西駅前糖尿病クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-dcc9be862dd9a2",
+        "clinic": "医療法人社団向出医院　むかいでファミリークリニック",
         "label": "신규 병원 후보"
       }
     ]
   },
   "runs": [
+    {
+      "at": "2026-11-21T12:50:26+09:00",
+      "total": 658,
+      "counts": {
+        "new": 650,
+        "verified": 1,
+        "price": 1,
+        "promotion": 0,
+        "info": 6,
+        "status": 0,
+        "source": 0
+      },
+      "clinic_ids": [
+        "national-0f4f73a49a24a6",
+        "national-9e3d4db9e55a4e",
+        "national-18d67104d832b6",
+        "national-6212bf75c10571",
+        "national-81357c03d24479",
+        "national-af1c31d0f63e16",
+        "national-f52be95c3e93f3",
+        "national-03e6bd2f76b687",
+        "national-6891ee7fe87b21",
+        "national-a2596758ce18f8",
+        "national-e9f0e7196e23d6",
+        "national-3234d7a6f529d3",
+        "national-d942ffde7bb1a4",
+        "national-fe98b2aaba2676",
+        "national-4594f1f1cd7ae6",
+        "national-12ebfff8fbabd4",
+        "national-14ee369ef77bdd",
+        "national-f7e0d8f024a046",
+        "national-3186bc131d9f68",
+        "national-f5318871f060bd",
+        "national-41d451dfa000ec",
+        "national-9863c942b1aa3b",
+        "national-d13bec99161ca9",
+        "national-248e417f8ed52f",
+        "national-9cadd35ea25e6b",
+        "national-5f6a325493540c",
+        "national-1b939ced57c788",
+        "national-1344d01c55a756",
+        "national-a36b421e9618bd",
+        "national-5a6053d592d47b",
+        "national-c171cb28c36862",
+        "national-bedf6483bd6f0a",
+        "national-c1e11f0dd92e84",
+        "national-688790a7357adb",
+        "national-355e643a6e9f0c",
+        "national-598e749386ec06",
+        "national-85c210d52d78cb",
+        "national-0a5636309260a7",
+        "national-1af5b11c2bd0c0",
+        "national-1ec47b3ad764a1",
+        "national-4e3f5cdb5fb763",
+        "national-9259fda0d299a4",
+        "national-715d8c74b78e95",
+        "national-d67968cdb67f93",
+        "national-c36e6f808224de",
+        "national-09bf487ac4b276",
+        "national-40e0887e6b233f",
+        "national-0686079e47d512",
+        "national-56540fee718f71",
+        "national-19a2d1f13e253c",
+        "national-f55ff8bfd0c5bb",
+        "national-843e9206051ffb",
+        "national-b32855a97b5d58",
+        "national-188a9e2e50127c",
+        "national-bb6508527203ad",
+        "national-fe52c3b6ff1d38",
+        "national-3604243406b5b1",
+        "national-0c6be8a48b90a9",
+        "national-802b7e457b42e5",
+        "national-7ba06126b7ec87",
+        "national-2e525bf97fffa6",
+        "national-3be1f829333041",
+        "national-494c49fbcb9c15",
+        "national-0451f754eb69ea",
+        "national-d59f70b9dc6e74",
+        "national-d84423e4ba2c32",
+        "national-bacee8f9e71086",
+        "national-9da79f3728fae0",
+        "national-9ae2624cbcfa5a",
+        "national-d530ac8cd00dfa",
+        "national-9658aba6d72fdf",
+        "national-f4646c644ca2b4",
+        "national-d468d37b1df2c0",
+        "national-5ed48d9db51ec5",
+        "national-18227d195d6d05",
+        "national-7a671971027e8d",
+        "national-fea7085745f9ba",
+        "national-8d85dae458bbac",
+        "national-942d65bf1d8163",
+        "national-b4eb29ac751dfb",
+        "national-0e3065a5ab7283",
+        "national-781987388184cc",
+        "national-fad218355176e4",
+        "national-3c894d6357ec42",
+        "national-1a05485e884ae8",
+        "national-0c209507adde9a",
+        "national-56fa9167c163e3",
+        "national-31b84f9054e7a1",
+        "national-6680e0749485ca",
+        "national-595ffa2e20b9fd",
+        "national-31edeca2562c3d",
+        "national-764e0c6528382d",
+        "national-95023026452e58",
+        "national-1e5eca309c6f80",
+        "national-5a5763ac4d03eb",
+        "national-1663d22810f71f",
+        "national-25b715304e939d",
+        "national-d138e8c03b3dc7",
+        "national-f823033522c263",
+        "national-4c4c66153571e2",
+        "national-eba267ea5d0399",
+        "national-43a4e771df72e7",
+        "national-fb0bf85722160c",
+        "national-3a809bbbaac330",
+        "national-f1879dd3fd92a5",
+        "national-a1b89d81a7ae63",
+        "national-37c33f10d1eab3",
+        "national-a4e08ffbc0a39d",
+        "national-537a8c8c5104bc",
+        "national-20ca855b091fef",
+        "national-26ff4966d2d073",
+        "national-4720d5f64ce789",
+        "national-2ba8390da7e285",
+        "national-508eb0dd96f1de",
+        "national-da2586fbb3ce55",
+        "national-18ef01b2fe845d",
+        "national-e163fbc9a8bddc",
+        "national-4427c5b8f52ccf",
+        "national-c67ddb9b416ec2",
+        "national-f7240dc83444fe",
+        "national-aca939f0dae83c",
+        "national-7f5dac8940221d",
+        "national-88989eefd391a1",
+        "national-d367a218843276",
+        "national-7dede9a9189941",
+        "national-9afd648951a59e",
+        "national-3b83ecfaa42472",
+        "national-f0cb16fb246c99",
+        "national-38c23c335c0738",
+        "national-1a416c23dfe3f4",
+        "national-e705c0713c76fa",
+        "national-9db635c40337dd",
+        "national-0294cf5784a9e2",
+        "national-fc253e5e066a65",
+        "national-4eff18b82a791b",
+        "national-c42ded090a3d64",
+        "national-4fbf80fa4cec3f",
+        "national-f4f4cb1135c64c",
+        "national-d2215832f48dab",
+        "national-925269d127e98c",
+        "national-70dc9b312f70cc",
+        "national-3be97eaf0a2bf1",
+        "national-f40541d6074b44",
+        "national-18227c904c207b",
+        "national-45baf0b6fdf982",
+        "national-b31579e12fcba5",
+        "national-dda426455b6dc0",
+        "national-ca7e644ba7876a",
+        "national-5008a686a46a1f",
+        "national-5b543923271ceb",
+        "national-d4005864cfc882",
+        "national-bd9d5ed9a65819",
+        "national-7dda00b07f3036",
+        "national-5dd5ba7ad658ec",
+        "national-c0c0493ffbcb1b",
+        "national-6dbb503973fc14",
+        "national-3488c9a149d2ec",
+        "national-665f95bfb19edf",
+        "national-c947012666d730",
+        "national-0b63747fb23d96",
+        "national-ebb84a618afc84",
+        "national-d712be5d9a63e8",
+        "national-4ed557ea3ae0c0",
+        "national-74f33a4b0baa56",
+        "national-745a1afeb54553",
+        "national-ef6b85708ad70a",
+        "national-322219e5020482",
+        "national-33a2d8e58a3ea6",
+        "national-fce992ff18fa4b",
+        "national-258766da2e4729",
+        "national-94a0f0dab7297f",
+        "national-7e7968150b394d",
+        "national-22f8d511cb0698",
+        "national-3c37c78f3335fd",
+        "national-b4462df2868a81",
+        "national-292415c9729274",
+        "national-b63802867b3f00",
+        "national-338c80da7a3582",
+        "national-1565c8579c9bca",
+        "national-a75c0a3e3b828b",
+        "national-03ca5a39e3b0ba",
+        "national-165797b5953ab8",
+        "national-f382b0cc9c2a01",
+        "national-a6b228632586e4",
+        "national-576d4809cec457",
+        "national-75f843055878f3",
+        "national-36809e9ee9093d",
+        "national-b41742d863efc1",
+        "national-f85e9879a36d73",
+        "national-8b4b6a28efdf53",
+        "national-72a8d903ea6ea3",
+        "national-5b09cca1076a3c",
+        "national-a34c3a1e05e597",
+        "national-9f3b1931e031ca",
+        "national-60442dd967fb96",
+        "national-cf9db2a62cf953",
+        "national-db38d6e57571ac",
+        "national-5312cbe27fd893",
+        "national-1b84cf5afcfdee",
+        "national-8085770c5ce3e6",
+        "national-0da55ec390e008",
+        "national-0d2f0ed437d70d",
+        "national-a7bb18563b44e8",
+        "national-661490dbbd70ff",
+        "national-fb76307916305d",
+        "national-a612b9d400c9ff",
+        "national-5b4afcec8325fd",
+        "national-486e50db1ef5a2",
+        "national-3e28d944bad688",
+        "national-17357e526d7f2b",
+        "national-bd912d528c2aa5",
+        "national-8c39c18c8f0b2f",
+        "national-c96591fd412e53",
+        "national-953b4ce20c7302",
+        "national-a5434ff9cd1a7b",
+        "national-91cd9c1e2c9b25",
+        "national-937b1764306e9b",
+        "national-458124276cf882",
+        "national-158bb22ccb6dcf",
+        "national-a9ff40f0752060",
+        "national-e50f9af7a96b78",
+        "national-e97f27c7f91c07",
+        "national-03df9058f92b4f",
+        "national-bd92cbfd0bbfb8",
+        "national-71749d4b9abf35",
+        "national-165e1e4aebf6b3",
+        "national-c6dd4026cb3273",
+        "national-32a647174039c3",
+        "national-d3307562bf3579",
+        "national-72a69c2fc70501",
+        "national-d91d7e33c64fc9",
+        "national-aa41b2c4ab8182",
+        "national-f8c6fc43d293c8",
+        "national-f33049dcfc973a",
+        "national-df3b22dd2bb660",
+        "national-c154334a912bb5",
+        "national-7906a0d1686b26",
+        "national-07ab70d7dac8d3",
+        "national-aa9ec2d9feb2a7",
+        "national-b98fc6c0b6541f",
+        "national-c92261dd6cbd23",
+        "national-b5518807dc0959",
+        "national-e917b56eecb543",
+        "national-5b6886cde5e75c",
+        "national-dcc9be862dd9a2",
+        "national-8ccc035868a02e",
+        "national-461028b44c57e0",
+        "national-a3f5cd4a442f00",
+        "national-6308e156c17995",
+        "national-298282f7c5a87e",
+        "national-6dd204c47bbdc1",
+        "national-db3898da7df897",
+        "national-75ff0abcc241e1",
+        "national-970b589b70c86b",
+        "national-e1880aa1476348",
+        "national-925b6e81771c6e",
+        "national-df4e37e1a3aa26",
+        "national-5cded1452b0e46",
+        "national-650c49512eb547",
+        "national-3a321ad1749ebf",
+        "national-ced6964b1fb218",
+        "national-5009d2fd159d00",
+        "national-d2f0897b05051e",
+        "national-24be9e323f2ed6",
+        "national-f5d3a96fdaaf17",
+        "national-3b454e7b60d5ab",
+        "national-6da051e9d12299",
+        "national-c1775268d904da",
+        "national-d2afab53ab9d0a",
+        "national-e205e9df212806",
+        "national-375b24c3dbd912",
+        "national-f93f828b6a3daf",
+        "national-934087e0ef733a",
+        "national-7fbdccf7b4c8b2",
+        "national-8ff2bcf54e112d",
+        "national-34f9997f9e3559",
+        "national-dfe66da90aef8c",
+        "national-dd69a2369ecfc8",
+        "national-403707be8e9051",
+        "national-cb18f7bac3dd18",
+        "national-94d23e393a63bc",
+        "national-fa402396919f88",
+        "national-2b0ef4b83367e5",
+        "national-0f814c7c3ab8eb",
+        "national-a3d7e4d6ce80be",
+        "national-27d45f86831bc6",
+        "national-9f6b38e5536c5c",
+        "national-92d18bf74bf3f2",
+        "national-1f7741957bbc1a",
+        "national-d2efe2c110c4f9",
+        "national-f4d57a35782302",
+        "national-64a3c11c814df4",
+        "national-fe456d86d1dce2",
+        "national-4fe1fdf184c6eb",
+        "national-55e59503a4b9c4",
+        "national-0e2a7a156453a7",
+        "national-51abe21bc8c646",
+        "national-62a388c62cd4c3",
+        "national-f6075bbc5e2a9c",
+        "national-0f76c32adf787d",
+        "national-d894a098b6e0d2",
+        "national-12a5312a53a555",
+        "national-9d9f3bce0fc8e7",
+        "national-59edfdc2ceeb96",
+        "national-eb92bc22fda75e",
+        "national-e07eac48802c3a",
+        "national-ac803e162ffac0",
+        "national-26de92d504b8ea",
+        "national-051d1d3748a435",
+        "national-09e17b031d1461",
+        "national-80965c905788c4",
+        "national-0e124539104502",
+        "national-b7ffcdcbb1594b",
+        "national-b13aeb3a71d76a",
+        "national-4e496943b8fe85",
+        "national-b9ee04429625b2",
+        "national-e3842946ba786c",
+        "national-1ddc3965195671",
+        "national-247ea8d42a6f91",
+        "national-b677d31f0941ba",
+        "national-5a51eca39dd125",
+        "national-df51200a64e5bc",
+        "national-808bf4579a8da0",
+        "national-cfae6844346eb8",
+        "national-b8ee41b14362c1",
+        "national-d4126303d22d04",
+        "national-8b053b0bed7fad",
+        "national-400ead74e0d1f1",
+        "national-6a0bd492fe57ea",
+        "national-bbeeb2b7b355b2",
+        "national-f4fb2b906c75ef",
+        "national-e3d1cfc46274a7",
+        "national-455e363fe9eae7",
+        "national-bfcaee9f13c810",
+        "national-ace4f1e6e6e334",
+        "national-ef684cece10ba3",
+        "national-d57d8ae18a058d",
+        "national-8b5de89a9da54e",
+        "national-656e99b5b6a1c4",
+        "national-7ba04bcac7fb00",
+        "national-f897919159789b",
+        "national-153af6e7b4b24d",
+        "national-139bfdff150ac3",
+        "national-f68bd185a28bb7",
+        "national-d20213a81a3004",
+        "national-be07ca94b3702c",
+        "national-8aa1d9fc9ae476",
+        "national-c85163c265e890",
+        "national-f35b616276017d",
+        "national-d665509ef6ba4a",
+        "national-08ac00f781c125",
+        "national-26965c7e8c382c",
+        "national-cc01d994ce8b9f",
+        "national-3c3c2eefe77439",
+        "national-bccee3548dd614",
+        "national-17da96920087d9",
+        "national-e8c9cbb89fd243",
+        "national-fee077dc1dbc8a",
+        "national-b3b6b1a679ff22",
+        "national-28590a87346e48",
+        "national-14266d2c7f629a",
+        "national-0be8060f02bfd7",
+        "national-ede291bdc451f9",
+        "national-e2e8dc32069bc7",
+        "national-60a2fa94e7ec3f",
+        "national-95b2e4a7ebdd3a",
+        "national-04af149fcffc37",
+        "national-ad970e110bc633",
+        "national-89dcb68aae2a10",
+        "national-4c1a799e06bef5",
+        "national-5181ac3abb768b",
+        "national-47a25a3de8dc88",
+        "national-38d3b8b0d12ab5",
+        "national-9d33a499d82ba9",
+        "national-1c2c919042ce17",
+        "national-e955157f346239",
+        "national-b4788f8e9543a6",
+        "national-22b59222685084",
+        "national-d83a012535e9d4",
+        "national-5cb0776fdb5c21",
+        "national-1c09d397ce705f",
+        "national-e9b96d96f37b55",
+        "national-046f967871efd6",
+        "national-24e9c2844ff3da",
+        "national-14d89a77299a56",
+        "national-8c73f9f803caee",
+        "national-65f02840ebb5b9",
+        "national-7e1dea79e89612",
+        "national-e7a0ae3e360e7d",
+        "national-00290e7da3cd99",
+        "national-74496af43d6b1b",
+        "national-8045714cb12a6b",
+        "national-e7114085c49782",
+        "national-d3a94eef4908b4",
+        "national-5b757d3904924c",
+        "national-6ad8c07180ea05",
+        "national-3d80712aa67c6e",
+        "national-4c4d01b55b9250",
+        "national-b9b3b74c51f362",
+        "national-79bfa3585cb27e",
+        "national-b4880ae2396c2d",
+        "national-d1a629b7ff2653",
+        "national-3ea82882877d86",
+        "national-c6b2d557fc2560",
+        "national-42159345433b0a",
+        "national-21e57cab8ea1c8",
+        "national-8276fc80b4151e",
+        "national-861eefdc202e1f",
+        "national-44fa48175c90fd",
+        "national-f2765f320b8c49",
+        "national-9c64ef7bccb275",
+        "national-9c9cc51beac113",
+        "national-a34a00fcbcc976",
+        "national-46cba98973ca0b",
+        "national-7d4126c5ef8ca9",
+        "national-f04946b0e2c6dd",
+        "national-72a6bcf057dfa1",
+        "national-a9fef5049a3cdb",
+        "national-a4a1d352c28eba",
+        "national-8664f6d4e31cc7",
+        "national-f33fa856cda466",
+        "national-68ba07dc2cef01",
+        "national-dbb7cdb87a37b6",
+        "national-92602f60a6df00",
+        "national-514e46feb1fe70",
+        "national-30b1817be2634d",
+        "national-8c97232a262d39",
+        "national-d6d254b350b2f2",
+        "national-c9bd6c4a05e0db",
+        "national-8724b58a96c0ea",
+        "national-d2429955e7329b",
+        "national-9987e08e2722d7",
+        "national-c91ea67ec7e61b",
+        "national-bb966ec002460e",
+        "national-6757265967c929",
+        "national-9610402af16835",
+        "national-737b92ef96784f",
+        "national-a44a974e3df021",
+        "national-bf5d703eefa05b",
+        "national-e5a34f8a1c480b",
+        "national-772769b467be44",
+        "national-35fbd6a7efdb17",
+        "national-867d167d6cbc98",
+        "national-331c73f6a177ba",
+        "national-a067b071aa3504",
+        "national-54e185fcd99fec",
+        "national-80d080dc04f187",
+        "national-fcb1904d7e8299",
+        "national-e234941dbe1eed",
+        "national-b3f713d63ead1d",
+        "national-1dd5e63c5a2304",
+        "national-093274717f0437",
+        "national-6e7bb19eb643bf",
+        "national-26d597bcc47de6",
+        "national-9b9ab0e9526234",
+        "national-7a94f90480bd5b",
+        "national-dac573b83d9065",
+        "national-767c44d58e5acd",
+        "national-8f744e0ac87a1a",
+        "national-4c9f2329181d31",
+        "national-52b46db3484179",
+        "national-1624deab9532bc",
+        "national-385ed87a79c207",
+        "national-6f178f23752dd8",
+        "national-a81b826631809a",
+        "national-06f9d245b91859",
+        "national-fd494795067f0c",
+        "national-e2370a4a55b038",
+        "national-c9d067756afda2",
+        "national-bc71690c656dfe",
+        "national-7ac8c26b4c6c43",
+        "national-adf02da7fb8052",
+        "national-35b84b8cd8282f",
+        "national-f586e862c46402",
+        "national-16886f35649457",
+        "national-1b50dd07aa991d",
+        "national-499b5faec753c8",
+        "national-c40fa3f114b672",
+        "national-4047a830e65d79",
+        "national-07103de40720c3",
+        "national-6697ca886e2e7d",
+        "national-67eb578002bb91",
+        "national-536631f517417e",
+        "national-204c12b52c6dab",
+        "national-e3c1d2cc4be2bc",
+        "national-8939510f67cc6c",
+        "national-6cf9ef9a7df8bb",
+        "national-d8e63c3a1e23e0",
+        "national-5233413a93bb4c",
+        "national-6c3b586db912ab",
+        "national-e2daaf6236a7c0",
+        "national-bd7c2e5e63d5ec",
+        "national-3dca2ac7d210d3",
+        "national-75cd6439e577fb",
+        "national-93e9aa944692e4",
+        "national-759879e8e12683",
+        "national-62f253b1bd01d8",
+        "national-d985bbafbf4ded",
+        "national-ac94a9ee49f951",
+        "national-199d50dae578d1",
+        "national-cee9b15a5069c9",
+        "national-19418662f92925",
+        "national-1ef1205003ede5",
+        "national-27492619b42906",
+        "national-bc39c46aff3977",
+        "national-e57fb163c9070e",
+        "national-ef790698fb3f55",
+        "national-5b8075afef8c6e",
+        "national-c80ee7a18e7ad7",
+        "national-1b3e87d8de682d",
+        "national-a70813c1231d68",
+        "national-ca63cd326d8452",
+        "national-4b7a5067985c39",
+        "national-e2abeb3a606c3e",
+        "national-fd79c80585f4da",
+        "national-ef7929e4e6bbc3",
+        "national-72532864223b07",
+        "national-28e343798c59fc",
+        "national-c2cdfa47ac4a27",
+        "national-11751032059401",
+        "national-2b9e5f304c97f2",
+        "national-2ff56ffaacaec2",
+        "national-4b4ba668c3fa56",
+        "national-1fb4b7de6edff2",
+        "national-db6f97197eb3ab",
+        "national-d7374ece197502",
+        "national-10d5fe404c914a",
+        "national-53ae1cd9c13b0b",
+        "national-24a076dd6c503e",
+        "national-dc2bdc03a31823",
+        "national-df92c86f425272",
+        "national-21abb2cdaf6f9e",
+        "national-6bf8fca00c8e12",
+        "national-29375f0d3701da",
+        "national-33e8c7ae384fd4",
+        "national-61b12ebb9a8c3e",
+        "national-bc272f45d7a772",
+        "national-3de46e110ee288",
+        "national-677e3f0eec760a",
+        "national-bf722c2552c3f7",
+        "national-530f9234d60426",
+        "national-51a039c54efbaf",
+        "national-ad53d3d752cb43",
+        "national-eaf2a4554ac609",
+        "national-85c44f749e5461",
+        "national-f9457365fbd97a",
+        "national-91a811ce91f3e6",
+        "national-04e9c19c2d26cd",
+        "national-1317ecaeffc763",
+        "national-5af428be3dd060",
+        "national-4158f9ddf3a6c0",
+        "national-8f2ca97139f7ff",
+        "national-7e2c722ce60229",
+        "national-979dd517479ed4",
+        "national-8edc708fd7ee72",
+        "national-93f4357229e4e8",
+        "national-37a1877d55d297",
+        "national-db7da05398feb3",
+        "national-aeb26bc220b0e3",
+        "national-1ed4c993d8ab8d",
+        "national-1175c57a93cf68",
+        "national-2407711a4200fd",
+        "national-aafbfdecdeaff5",
+        "national-6ee8737bb18088",
+        "national-11aef30667fd69",
+        "national-8f4a2ab3e347b4",
+        "national-bb8d31b9a6e87a",
+        "national-63b7c41459a0ed",
+        "national-b01b9647df2735",
+        "national-16f3ddca8e8c5b",
+        "national-741968cf2a1954",
+        "national-f2fff82f71f9ce",
+        "national-de5c27b84c769f",
+        "national-93a1b575e9f763",
+        "national-5eeee13eb65f7c",
+        "national-b3a765f585a47d",
+        "national-f218824a2b5126",
+        "national-afa5126cdbfcb0",
+        "national-bcd31ac31389ec",
+        "national-be9148f7cf9ab6",
+        "national-c323acce2153c0",
+        "national-15e094e410a234",
+        "national-0ec145d257b65d",
+        "national-664293c60c5009",
+        "national-80ab0fa975cdea",
+        "national-eb9ce7a53b11a3",
+        "national-b373490706cb0e",
+        "national-1806604187636a",
+        "national-0f7772af4a5b35",
+        "national-1243550257222b",
+        "national-3695cfce90e819",
+        "national-5ab66342245b14",
+        "national-b546be51569e1f",
+        "national-eb32ab4f9e247a",
+        "national-45a5fd52320757",
+        "national-6dbe813a6d3af7",
+        "national-018aa34568e506",
+        "national-ee547c9c9cd290",
+        "national-bfa2fb93d1f54e",
+        "national-2d6276ef2e6816",
+        "national-9d9fe68c835822",
+        "national-d94afd474b57b1",
+        "national-399a81a1f26704",
+        "national-6ee0632427cd61",
+        "national-d729295eb55669",
+        "national-aa745e923a7b57",
+        "national-900eb119e1151e",
+        "national-a979d21b72d837",
+        "national-201a773e1c9deb",
+        "national-7407eb511c0407",
+        "national-3b4f3febae2b7a",
+        "national-63918307bb2b25",
+        "national-989d3571a20a68",
+        "national-02985720461514",
+        "national-7549242b149197",
+        "national-cbb1ddecb91945",
+        "national-8e956baf4afbd8",
+        "national-4602eb5f512618",
+        "national-5d828055fc19b1",
+        "national-4751305d4f961c",
+        "national-93dca8e56e14b9",
+        "national-62f1de0dd5a3f3",
+        "national-ce4f2bc458fca2",
+        "national-67ad450a3f50f4",
+        "national-0c7cedc472e0f1",
+        "national-4dae9cef8fe879",
+        "national-8aa1b57c77199a",
+        "national-d1960b8668ddbb",
+        "national-52db9d76401598",
+        "national-e0f7d76cfd5f8b",
+        "national-a63fccdd48a52a",
+        "national-7d1a7e320bceb0",
+        "national-711db70c861f1a",
+        "national-5c5d6d31dee9d8",
+        "national-30178c9bd3210c",
+        "national-39340892254531",
+        "national-63c49f9f462bd8",
+        "national-a0083c830199db",
+        "national-0094ecd7f7e701",
+        "national-2ec984dfc1d4e5",
+        "national-657a5f1491c52b",
+        "national-f7e48a03088d32",
+        "national-7c31c536855dc6",
+        "national-3cd45db3046a4d",
+        "national-40a614ba958792",
+        "national-8933381447c331",
+        "national-432470a0541fa5",
+        "national-7f78afedeb0c1c",
+        "national-8a4dc7e9a1ec30",
+        "national-224efd2016aec2",
+        "national-25d30b2f3fadf3",
+        "national-de7ffec3dd32ec",
+        "national-04267dadb4a4c2"
+      ],
+      "items": [
+        {
+          "type": "info",
+          "clinic_id": "national-0f4f73a49a24a6",
+          "clinic": "ひろつ内科クリニック",
+          "label": "병원 추가 정보 변경"
+        },
+        {
+          "type": "verified",
+          "clinic_id": "national-9e3d4db9e55a4e",
+          "clinic": "ゆきスキンクリニック東池袋",
+          "label": "처방 상태 변경: candidate → active"
+        },
+        {
+          "type": "price",
+          "clinic_id": "national-9e3d4db9e55a4e",
+          "clinic": "ゆきスキンクリニック東池袋",
+          "dose": "5",
+          "before": null,
+          "after": 98400,
+          "label": "5mg 공식 가격 변경"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-9e3d4db9e55a4e",
+          "clinic": "ゆきスキンクリニック東池袋",
+          "label": "공식/등록 원문 주소 변경"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-9e3d4db9e55a4e",
+          "clinic": "ゆきスキンクリニック東池袋",
+          "label": "가격 검증 상태 변경"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-9e3d4db9e55a4e",
+          "clinic": "ゆきスキンクリニック東池袋",
+          "label": "가격 산정 근거 변경"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-9e3d4db9e55a4e",
+          "clinic": "ゆきスキンクリニック東池袋",
+          "label": "병원 추가 정보 변경"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-18d67104d832b6",
+          "clinic": "エースクリニック大阪梅田　ＨＥＰナビオ院",
+          "label": "병원 추가 정보 변경"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-6212bf75c10571",
+          "clinic": "あだかえたけだクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-81357c03d24479",
+          "clinic": "あつた皮ふ科・美容皮膚科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-af1c31d0f63e16",
+          "clinic": "いけがき皮膚科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-f52be95c3e93f3",
+          "clinic": "いしかわ内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-03e6bd2f76b687",
+          "clinic": "いしかわ心臓クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-6891ee7fe87b21",
+          "clinic": "いつもジェネラルクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-a2596758ce18f8",
+          "clinic": "いで内科・呼吸器内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-e9f0e7196e23d6",
+          "clinic": "いわせ医院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-3234d7a6f529d3",
+          "clinic": "うかい医院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-d942ffde7bb1a4",
+          "clinic": "うらべ内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-fe98b2aaba2676",
+          "clinic": "おおたかの森ＳＫＩＮ・ＣＨＩＬＤクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-4594f1f1cd7ae6",
+          "clinic": "おかもと内科・糖尿病クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-12ebfff8fbabd4",
+          "clinic": "おち内科・ペインクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-14ee369ef77bdd",
+          "clinic": "おのクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-f7e0d8f024a046",
+          "clinic": "かんクリニック　リウマチ・整形外科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-3186bc131d9f68",
+          "clinic": "がじゅまるクリニックつくば",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-f5318871f060bd",
+          "clinic": "きむら内科外科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-41d451dfa000ec",
+          "clinic": "ぎなん皮ふ科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-9863c942b1aa3b",
+          "clinic": "くすのきクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-d13bec99161ca9",
+          "clinic": "くわな駅前美容クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-248e417f8ed52f",
+          "clinic": "こいけ内科糖尿病内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-9cadd35ea25e6b",
+          "clinic": "さくら通り整形外科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-5f6a325493540c",
+          "clinic": "さつき内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-1b939ced57c788",
+          "clinic": "さなげクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-1344d01c55a756",
+          "clinic": "さのクリニック　アレルギー科・呼吸器科・内科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-a36b421e9618bd",
+          "clinic": "さや内科・糖尿病クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-5a6053d592d47b",
+          "clinic": "しもやま内科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-c171cb28c36862",
+          "clinic": "しょう内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-bedf6483bd6f0a",
+          "clinic": "すずき内科・胃腸内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-c1e11f0dd92e84",
+          "clinic": "すずひろクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-688790a7357adb",
+          "clinic": "たきもと内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-355e643a6e9f0c",
+          "clinic": "たなか内科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-598e749386ec06",
+          "clinic": "たなか循環器内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-85c210d52d78cb",
+          "clinic": "つくばウロケアクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-0a5636309260a7",
+          "clinic": "つくば・土浦鶴町皮膚科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-1af5b11c2bd0c0",
+          "clinic": "つねだクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-1ec47b3ad764a1",
+          "clinic": "つばさ　クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-4e3f5cdb5fb763",
+          "clinic": "つや子プライマリーケアクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-9259fda0d299a4",
+          "clinic": "でぐちクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-715d8c74b78e95",
+          "clinic": "とくなが内科胃腸科外科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-d67968cdb67f93",
+          "clinic": "とだ小林医院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-c36e6f808224de",
+          "clinic": "とりで腎・泌尿器科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-09bf487ac4b276",
+          "clinic": "なかつか内科医院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-40e0887e6b233f",
+          "clinic": "なかむらファミリークリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-0686079e47d512",
+          "clinic": "ながおクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-56540fee718f71",
+          "clinic": "なごやＥＶＴクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-19a2d1f13e253c",
+          "clinic": "なとり皮膚科くまのどう内科下肢静脈瘤クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-f55ff8bfd0c5bb",
+          "clinic": "にしな内科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-843e9206051ffb",
+          "clinic": "にしむら内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-b32855a97b5d58",
+          "clinic": "はなみずき内科・内視鏡クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-188a9e2e50127c",
+          "clinic": "はまもとクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-bb6508527203ad",
+          "clinic": "はやさか内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-fe52c3b6ff1d38",
+          "clinic": "はる内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-3604243406b5b1",
+          "clinic": "ひぐち内科・消化器",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-0c6be8a48b90a9",
+          "clinic": "ふかや内科リウマチクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-802b7e457b42e5",
+          "clinic": "ふるさと内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-7ba06126b7ec87",
+          "clinic": "まくはりコーラス内科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-2e525bf97fffa6",
+          "clinic": "みらいクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-3be1f829333041",
+          "clinic": "むさし内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-494c49fbcb9c15",
+          "clinic": "やすはらクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-0451f754eb69ea",
+          "clinic": "やそだ整形外科リウマチクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-d59f70b9dc6e74",
+          "clinic": "やなせ医院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-d84423e4ba2c32",
+          "clinic": "やまもプラザファミリークリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-bacee8f9e71086",
+          "clinic": "ゆずな内科在宅クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-9da79f3728fae0",
+          "clinic": "よしだクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-9ae2624cbcfa5a",
+          "clinic": "よしの内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-d530ac8cd00dfa",
+          "clinic": "わかばクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-9658aba6d72fdf",
+          "clinic": "わしづかクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-f4646c644ca2b4",
+          "clinic": "わだばやし皮膚科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-d468d37b1df2c0",
+          "clinic": "アクティブエイジ　クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-5ed48d9db51ec5",
+          "clinic": "ウィメンズヘルスクリニック　刈谷銀座",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-18227d195d6d05",
+          "clinic": "エクセルメディカルクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-7a671971027e8d",
+          "clinic": "エムズ総合内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-fea7085745f9ba",
+          "clinic": "カメイクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-8d85dae458bbac",
+          "clinic": "シャルムクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-942d65bf1d8163",
+          "clinic": "シュシュレディースクリニック　戸田公園",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-b4eb29ac751dfb",
+          "clinic": "ジュノビューティークリニック大宮院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-0e3065a5ab7283",
+          "clinic": "ジュノビューティークリニック川崎院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-781987388184cc",
+          "clinic": "ジュノビューティークリニック福島院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-fad218355176e4",
+          "clinic": "セントローズクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-3c894d6357ec42",
+          "clinic": "ソフィア横浜クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-1a05485e884ae8",
+          "clinic": "ノアクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-0c209507adde9a",
+          "clinic": "フジイ内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-56fa9167c163e3",
+          "clinic": "プライムクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-31b84f9054e7a1",
+          "clinic": "モアクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-6680e0749485ca",
+          "clinic": "ルアナ辻堂ビューティークリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-595ffa2e20b9fd",
+          "clinic": "ルラ美容クリニック　大宮院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-31edeca2562c3d",
+          "clinic": "ローズマリークリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-764e0c6528382d",
+          "clinic": "三保町内科・循環器クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-95023026452e58",
+          "clinic": "三重美容クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-1e5eca309c6f80",
+          "clinic": "上尾メンタルクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-5a5763ac4d03eb",
+          "clinic": "上岡田医院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-1663d22810f71f",
+          "clinic": "丹野内科・循環器・糖尿病内科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-25b715304e939d",
+          "clinic": "五十嵐内科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-d138e8c03b3dc7",
+          "clinic": "五藤医院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-f823033522c263",
+          "clinic": "井幡整形外科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-4c4c66153571e2",
+          "clinic": "仙台駅前　スノークリニック　美容皮膚科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-eba267ea5d0399",
+          "clinic": "倉持整形外科・皮膚科　美容皮膚科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-43a4e771df72e7",
+          "clinic": "倉敷ウエストサイドクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-fb0bf85722160c",
+          "clinic": "元八事ファミリー内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-3a809bbbaac330",
+          "clinic": "光が丘クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-f1879dd3fd92a5",
+          "clinic": "八戸タウン形成外科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-a1b89d81a7ae63",
+          "clinic": "八百萬ファミリークリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-37c33f10d1eab3",
+          "clinic": "六本木メディカルクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-a4e08ffbc0a39d",
+          "clinic": "内科・糖尿病・甲状腺の早稲田メディカルクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-537a8c8c5104bc",
+          "clinic": "内科・糖尿病内科　天王寺めぐみクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-20ca855b091fef",
+          "clinic": "内科総合クリニック人形町",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-26ff4966d2d073",
+          "clinic": "前川クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-4720d5f64ce789",
+          "clinic": "北田内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-2ba8390da7e285",
+          "clinic": "医療法人　うらた皮膚科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-508eb0dd96f1de",
+          "clinic": "医療法人　くすの木会　かたやまクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-da2586fbb3ce55",
+          "clinic": "医療法人　さいとう消化器内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-18ef01b2fe845d",
+          "clinic": "医療法人　ふくだ皮フ科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-e163fbc9a8bddc",
+          "clinic": "医療法人　原内科循環器科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-4427c5b8f52ccf",
+          "clinic": "医療法人　吉川医院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-c67ddb9b416ec2",
+          "clinic": "医療法人　夢生会　ＹＭメトロクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-f7240dc83444fe",
+          "clinic": "医療法人　大美会　大美会クリニック心斎橋本院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-aca939f0dae83c",
+          "clinic": "医療法人　市川クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-7f5dac8940221d",
+          "clinic": "医療法人　幸伸会　すぎはら眼科・循環器科内科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-88989eefd391a1",
+          "clinic": "医療法人　御所南はなこクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-d367a218843276",
+          "clinic": "医療法人　惠愛会　クリニック畑森",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-7dede9a9189941",
+          "clinic": "医療法人　愛久会　きたかみ駅前内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-9afd648951a59e",
+          "clinic": "医療法人　新美会　新垣形成外科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-3b83ecfaa42472",
+          "clinic": "医療法人　楠医院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-f0cb16fb246c99",
+          "clinic": "医療法人　理秀会　なかむら内科・糖尿病クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-38c23c335c0738",
+          "clinic": "医療法人　瑠璃会　なんば心斎橋駅　ＡＹクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-1a416c23dfe3f4",
+          "clinic": "医療法人　白岩内科医院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-e705c0713c76fa",
+          "clinic": "医療法人　秀晄会　コムロ美容外科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-9db635c40337dd",
+          "clinic": "医療法人　紬幸会　夕陽ヶ丘ながいクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-0294cf5784a9e2",
+          "clinic": "医療法人　細川外科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-fc253e5e066a65",
+          "clinic": "医療法人　継桜会　ＭＩＬ　ＣＬＩＮＩＣ　ＯＳＡＫＡ",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-4eff18b82a791b",
+          "clinic": "医療法人　聖心会　中村クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-c42ded090a3d64",
+          "clinic": "医療法人　英愛会　ｙ’ｓ　ｃｌｉｎｉｃ",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-4fbf80fa4cec3f",
+          "clinic": "医療法人　西大寺駅前Ａ皮膚科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-f4f4cb1135c64c",
+          "clinic": "医療法人　西山産婦人科医院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-d2215832f48dab",
+          "clinic": "医療法人　豊生会　むらた日帰り外科手術クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-925269d127e98c",
+          "clinic": "医療法人　青元会　あおき整形リハビリクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-70dc9b312f70cc",
+          "clinic": "医療法人えびす会　えびすクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-3be97eaf0a2bf1",
+          "clinic": "医療法人かじもと内科　糖尿病・内分泌内科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-f40541d6074b44",
+          "clinic": "医療法人きびたき会　仙台タウン形成外科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-18227c904c207b",
+          "clinic": "医療法人きびたき会　表参道タウン形成外科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-45baf0b6fdf982",
+          "clinic": "医療法人とくいクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-b31579e12fcba5",
+          "clinic": "医療法人ともつ内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-dda426455b6dc0",
+          "clinic": "医療法人わかば会　宮戸クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-ca7e644ba7876a",
+          "clinic": "医療法人インテグレス　新橋消化器内科・泌尿器科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-5008a686a46a1f",
+          "clinic": "医療法人インテグレス　池袋消化器内科・泌尿器科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-5b543923271ceb",
+          "clinic": "医療法人エムディー　みゆきクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-d4005864cfc882",
+          "clinic": "医療法人コスモス会　コスモスクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-bd9d5ed9a65819",
+          "clinic": "医療法人メディカルフロンティア　東京脊椎クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-7dda00b07f3036",
+          "clinic": "医療法人一門会　蕨中央医院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-5dd5ba7ad658ec",
+          "clinic": "医療法人仁由会　日本ウェルネス再生クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-c0c0493ffbcb1b",
+          "clinic": "医療法人優和会　角田医院分院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-6dbb503973fc14",
+          "clinic": "医療法人優和会　関根医院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-3488c9a149d2ec",
+          "clinic": "医療法人元気会　わかさクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-665f95bfb19edf",
+          "clinic": "医療法人千わたの花　井上クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-c947012666d730",
+          "clinic": "医療法人千わたの花　本町井上クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-0b63747fb23d96",
+          "clinic": "医療法人博美会渡辺医院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-ebb84a618afc84",
+          "clinic": "医療法人友広会　千里中央メディカルクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-d712be5d9a63e8",
+          "clinic": "医療法人友広会　大阪本町メディカルクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-4ed557ea3ae0c0",
+          "clinic": "医療法人友心会福元クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-74f33a4b0baa56",
+          "clinic": "医療法人司美会　Ｈ　Ｂｅａｕｔｙ　Ｃｌｉｎｉｃ",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-745a1afeb54553",
+          "clinic": "医療法人吉修会　ＳＨＩＮＳＡＩＢＡＳＨＩ　Ａｉ　ＣＬＩＮＩＣ",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-ef6b85708ad70a",
+          "clinic": "医療法人和三会　ティアラクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-322219e5020482",
+          "clinic": "医療法人堀江クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-33a2d8e58a3ea6",
+          "clinic": "医療法人大樹会　宮田医院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-fce992ff18fa4b",
+          "clinic": "医療法人大田屋会　大田屋クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-258766da2e4729",
+          "clinic": "医療法人大美会　大美会クリニック天王寺院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-94a0f0dab7297f",
+          "clinic": "医療法人寿信会野口内科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-7e7968150b394d",
+          "clinic": "医療法人山川内科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-22f8d511cb0698",
+          "clinic": "医療法人川口内科　川口メディカルクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-3c37c78f3335fd",
+          "clinic": "医療法人幸輝会みんな幸せクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-b4462df2868a81",
+          "clinic": "医療法人康榮会岩田クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-292415c9729274",
+          "clinic": "医療法人恒尋会　はやま内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-b63802867b3f00",
+          "clinic": "医療法人恵喜会　森クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-338c80da7a3582",
+          "clinic": "医療法人想千　そうせん整形外科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-1565c8579c9bca",
+          "clinic": "医療法人成和会　粟井内科診療所",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-a75c0a3e3b828b",
+          "clinic": "医療法人敬愛会　ザナチュラルビューティクリニック麻布十番",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-03ca5a39e3b0ba",
+          "clinic": "医療法人晋英会　かねむらクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-165797b5953ab8",
+          "clinic": "医療法人森本整形外科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-f382b0cc9c2a01",
+          "clinic": "医療法人森高脳神経外科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-a6b228632586e4",
+          "clinic": "医療法人永健会　仁愛医院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-576d4809cec457",
+          "clinic": "医療法人永心会　ながい内科循環器内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-75f843055878f3",
+          "clinic": "医療法人永松医院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-36809e9ee9093d",
+          "clinic": "医療法人涼葵会　Ｗ　ＣＬＩＮＩＣ　梅田院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-b41742d863efc1",
+          "clinic": "医療法人甘木第一クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-f85e9879a36d73",
+          "clinic": "医療法人真善会ＫＡＭＩＯクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-8b4b6a28efdf53",
+          "clinic": "医療法人社団　しおざき内科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-72a8d903ea6ea3",
+          "clinic": "医療法人社団　グロース会　エビスノブクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-5b09cca1076a3c",
+          "clinic": "医療法人社団　伸緑会　森の宮皮フ科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-a34c3a1e05e597",
+          "clinic": "医療法人社団　佐藤整形外科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-9f3b1931e031ca",
+          "clinic": "医療法人社団　医食動健　つかさ内科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-60442dd967fb96",
+          "clinic": "医療法人社団　協和医会　松戸駅前クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-cf9db2a62cf953",
+          "clinic": "医療法人社団　協和医会協和医院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-db38d6e57571ac",
+          "clinic": "医療法人社団　悠正会　ゆう徳丸内科皮膚科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-5312cbe27fd893",
+          "clinic": "医療法人社団　桜風会　東岩瀬クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-1b84cf5afcfdee",
+          "clinic": "医療法人社団　糖尿病内科たかべクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-8085770c5ce3e6",
+          "clinic": "医療法人社団　荒木医院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-0da55ec390e008",
+          "clinic": "医療法人社団あおい会　ヴィオラスキンクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-0d2f0ed437d70d",
+          "clinic": "医療法人社団かなめ会　田口クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-a7bb18563b44e8",
+          "clinic": "医療法人社団こいし会　関町ゆいクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-661490dbbd70ff",
+          "clinic": "医療法人社団せいこう会　エヌ・エスクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-fb76307916305d",
+          "clinic": "医療法人社団つばさ　両国東口クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-a612b9d400c9ff",
+          "clinic": "医療法人社団インターナショナルヘルスケアクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-5b4afcec8325fd",
+          "clinic": "医療法人社団イースト会　イースト駅前クリニック新橋院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-486e50db1ef5a2",
+          "clinic": "医療法人社団イースト会　名古屋イースト駅前クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-3e28d944bad688",
+          "clinic": "医療法人社団イースト会　名古屋栄イースト駅前クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-17357e526d7f2b",
+          "clinic": "医療法人社団イースト会　大宮イースト駅前クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-bd912d528c2aa5",
+          "clinic": "医療法人社団イースト会　新宿東口イースト駅前クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-8c39c18c8f0b2f",
+          "clinic": "医療法人社団イースト会　池袋イースト駅前クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-c96591fd412e53",
+          "clinic": "医療法人社団イースト会　渋谷イースト駅前クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-953b4ce20c7302",
+          "clinic": "医療法人社団イースト会　立川イースト駅前クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-a5434ff9cd1a7b",
+          "clinic": "医療法人社団イースト会　静岡イースト駅前クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-91cd9c1e2c9b25",
+          "clinic": "医療法人社団イースト会小倉イースト駅前クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-937b1764306e9b",
+          "clinic": "医療法人社団イートス会　洗足整形形成外科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-458124276cf882",
+          "clinic": "医療法人社団ウェルエイジング　Ｄクリニック福岡",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-158bb22ccb6dcf",
+          "clinic": "医療法人社団シンシアエージェンシー　亀戸シンシアクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-a9ff40f0752060",
+          "clinic": "医療法人社団シンシアエージェンシー　秋葉原内科シンシアクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-e50f9af7a96b78",
+          "clinic": "医療法人社団シーズ・メディカル　渋谷シーズメディカルクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-e97f27c7f91c07",
+          "clinic": "医療法人社団ナチュラルハーモニー　ナチュラルハーモニークリニック表参道",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-03df9058f92b4f",
+          "clinic": "医療法人社団ヒロメディカル　小野クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-bd92cbfd0bbfb8",
+          "clinic": "医療法人社団フロンティアーツ　井草内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-71749d4b9abf35",
+          "clinic": "医療法人社団プラスワン緑野クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-165e1e4aebf6b3",
+          "clinic": "医療法人社団久信会　品川駅前皮膚科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-c6dd4026cb3273",
+          "clinic": "医療法人社団二葉会　シティクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-32a647174039c3",
+          "clinic": "医療法人社団五陽会　愛生会クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-d3307562bf3579",
+          "clinic": "医療法人社団亮敬会　板垣医院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-72a69c2fc70501",
+          "clinic": "医療法人社団仁愛会　仁愛内科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-d91d7e33c64fc9",
+          "clinic": "医療法人社団伸詠会　藤・ナチュレ美容クリニック銀座院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-aa41b2c4ab8182",
+          "clinic": "医療法人社団佳有会　品川イーストクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-f8c6fc43d293c8",
+          "clinic": "医療法人社団修恵会　新小平クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-f33049dcfc973a",
+          "clinic": "医療法人社団健幸福会　龍ヶ崎大徳ヘルシークリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-df3b22dd2bb660",
+          "clinic": "医療法人社団健成会河田医院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-c154334a912bb5",
+          "clinic": "医療法人社団光美会　ルーチェクリニック銀座院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-7906a0d1686b26",
+          "clinic": "医療法人社団公懌会　小金井メディカルクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-07ab70d7dac8d3",
+          "clinic": "医療法人社団共生会　西荻鍋岡クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-aa9ec2d9feb2a7",
+          "clinic": "医療法人社団凜旺の幹シンシアガーデンクリニック高崎院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-b98fc6c0b6541f",
+          "clinic": "医療法人社団加地医院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-c92261dd6cbd23",
+          "clinic": "医療法人社団勝優会　たまちホームクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-b5518807dc0959",
+          "clinic": "医療法人社団北辰会　西荻司ビルクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-e917b56eecb543",
+          "clinic": "医療法人社団南州会　三浦メディカルクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-5b6886cde5e75c",
+          "clinic": "医療法人社団博清会　西葛西駅前糖尿病クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-dcc9be862dd9a2",
+          "clinic": "医療法人社団向出医院　むかいでファミリークリニック",
+          "label": "신규 병원 후보"
+        }
+      ]
+    },
     {
       "at": "2026-11-21T12:34:46+09:00",
       "total": 39,
