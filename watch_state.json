@@ -1,5 +1,5 @@
 {
-  "ran_at": "2026-11-21T11:11:07+09:00",
+  "ran_at": "2026-11-21T11:14:04+09:00",
   "hashes": {
     "https://baba-totalcareclinic.com/private-practice": "a3b141b4cbfca1ad3b54e74deadf22cb8a07c87f600b944481c176fb5cd22646",
     "https://tokyosilkclinic.com/menu/909": "c0190473d9a440191263d00607834cf85f2f48c7314ecb749794c6f61a36f785",
@@ -19,7 +19,7 @@
     "https://www.shinjyuku-ekimae-clinic.info/naika/mounjaro.html": "c9cd8591f102a229f765ae7e9ed713f18df988b93c55399b9854be19402f5c09",
     "https://ehealthclinic.jp/news/2026/08/13/50503": "6694c3cd30912a9b91f3aa588450e9ef8910f946bfbc599d302d2beb727134d6",
     "https://www.uchida-naishikyo.com/news/2813": "7dac4d21d1f92a6c7178efe9525e41f5dd9af7d535be6aa3be897d58abea9945",
-    "https://koyomi-clinic.com/": "1358c480ee219c301d2d897ab8a86392add0f7414c4abd5e9a561a0c581a9004",
+    "https://koyomi-clinic.com/": "07e4e63de8c15748f1e305a647eaba497a1bc32bb42ca38a42c289b66ddfeb4e",
     "https://ckk-onlineclinic.tokyo/": "6fc5cdd1c5e286d0e643d0b7e4bf3cd574a9ad0691190faea80ece5a8998396e",
     "https://yamamotoclinic.or.jp/beauty/m-diet": "f4a14d61cc9f6b9525075d71ef090ef184988c158356975d1b04d2308bd0e6e4",
     "https://origami-clinic.com/": "eabed59b952fd51b79c350b4466b16bc184375be3757da6f9dbbefa9a82e8e20",
@@ -33,7 +33,9 @@
     "https://okachi-clinic.jp/price": "97dcb2169d4f8ea3a0205735f8a5d0cb2eb5c968051451dcc47b9c591fa756a2",
     "https://japannetclinic.com/": "155a07d772d8f0e52328f16de8ad8c6be317d6ccd6e0ceeed6b1ed72505173e1",
     "https://mirai-medical.clinic/ko/mounjaro": "212e8d698be05f0913366df1440280ca80d16fa58a1d6c1c4f723e1f43ca1324",
-    "https://x.com/MT_DIET_CLINIC": "76ed6c2a9d8794e45936bb334136067a826ef2e1ef99606464ac1f5338ec2634"
+    "https://x.com/MT_DIET_CLINIC": "76ed6c2a9d8794e45936bb334136067a826ef2e1ef99606464ac1f5338ec2634",
+    "https://shibuya-hifuka.jp/sidemenu/glp1_price.html": "8ee74fc46dcd174f483504640fb3a0acc81d981cd207704112c48cc9521d65b8",
+    "https://velvaere-clinic.com/menu/%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD%EF%BC%88%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%A8%BA%E7%99%82%E5%AF%BE%E5%BF%9C%EF%BC%89": "b3c7c025ce959c2348ea14399b333f857733a7c894123c33825b0e0145071094"
   },
   "pending": {
     "https://origami-clinic.com/": {

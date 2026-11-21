@@ -1,5 +1,5 @@
 {
-  "ran_at": "2026-11-21T11:11:03+09:00",
+  "ran_at": "2026-11-21T11:14:01+09:00",
   "source_status": [
     {
       "source": "bing_html",
@@ -10,12 +10,12 @@
       "fallback": true
     },
     {
-      "source": "bing_html",
+      "source": "bing_rss",
       "query": "訪日韓国人 マンジャロ 処方 価格 LINE",
       "ok": true,
-      "items": 0,
+      "items": 1,
       "qualified": 0,
-      "fallback": true
+      "fallback": false
     },
     {
       "source": "bing_html",
@@ -26,12 +26,12 @@
       "fallback": true
     },
     {
-      "source": "bing_html",
+      "source": "bing_rss",
       "query": "マンジャロ 12本 3ヶ月 外国人 処方",
       "ok": true,
-      "items": 0,
+      "items": 10,
       "qualified": 0,
-      "fallback": true
+      "fallback": false
     },
     {
       "source": "bing_html",
@@ -42,12 +42,12 @@
       "fallback": true
     },
     {
-      "source": "bing_html",
+      "source": "bing_rss",
       "query": "마운자로 일본 병원 예약 할인 3개월",
       "ok": true,
-      "items": 0,
+      "items": 10,
       "qualified": 0,
-      "fallback": true
+      "fallback": false
     },
     {
       "source": "bing_html",
@@ -85,7 +85,7 @@
       "source": "bing_html",
       "query": "site:facebook.com マンジャロ 韓国人 クリニック",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
@@ -106,8 +106,16 @@
       "fallback": true
     },
     {
-      "source": "bing_html",
+      "source": "bing_rss",
       "query": "site:x.com マンジャロ 韓国人 クリニック",
+      "ok": true,
+      "items": 10,
+      "qualified": 0,
+      "fallback": false
+    },
+    {
+      "source": "bing_html",
+      "query": "マンジャロ 韓国人 旅行者 クリニック 名古屋 予約",
       "ok": true,
       "items": 0,
       "qualified": 0,
@@ -115,17 +123,9 @@
     },
     {
       "source": "bing_html",
-      "query": "マンジャロ 韓国人 旅行者 クリニック 名古屋 予約",
-      "ok": true,
-      "items": 10,
-      "qualified": 0,
-      "fallback": true
-    },
-    {
-      "source": "bing_html",
       "query": "マンジャロ 韓国人 旅行者 クリニック 鳥取 予約",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
@@ -205,7 +205,7 @@
       "source": "official_site_search",
       "query": "マンジャロ 料金表 高松 クリニック",
       "ok": true,
-      "items": 0,
+      "items": 10,
       "qualified": 0,
       "fallback": true
     },
@@ -223,6 +223,30 @@
       "ok": true,
       "items": 0,
       "qualified": 0,
+      "fallback": true
+    },
+    {
+      "source": "official_site_search_yahoo",
+      "query": "マンジャロ 10mg 料金 4本 クリニック",
+      "ok": true,
+      "items": 10,
+      "qualified": 10,
+      "fallback": true
+    },
+    {
+      "source": "official_site_search_yahoo",
+      "query": "マンジャロ 自由診療 料金表 クリニック",
+      "ok": true,
+      "items": 11,
+      "qualified": 6,
+      "fallback": true
+    },
+    {
+      "source": "official_site_search_yahoo",
+      "query": "マンジャロ 外国人 処方 料金 クリニック",
+      "ok": true,
+      "items": 11,
+      "qualified": 3,
       "fallback": true
     },
     {
@@ -291,6 +315,18 @@
     },
     {
       "source": "public_directory_lead",
+      "query": "https://sushijaro.app/ja/",
+      "ok": true,
+      "items": 80
+    },
+    {
+      "source": "public_directory_lead",
+      "query": "https://sushijaro.app/ja/answers/clinics-by-city",
+      "ok": true,
+      "items": 66
+    },
+    {
+      "source": "public_directory_lead",
       "query": "https://sushijaro.app/ja/city/online",
       "ok": true,
       "items": 9
@@ -315,6 +351,18 @@
     },
     {
       "source": "public_directory_lead",
+      "query": "https://mounjaro-map.jobby-time.com/ja/",
+      "ok": true,
+      "items": 30
+    },
+    {
+      "source": "public_directory_lead",
+      "query": "https://mounjaro-map.jobby-time.com/ja/online/",
+      "ok": true,
+      "items": 19
+    },
+    {
+      "source": "public_directory_lead",
       "query": "https://mounjaro-map.jobby-time.com/ja/city/tokyo/",
       "ok": true,
       "items": 17
@@ -326,13 +374,525 @@
       "items": 5
     }
   ],
-  "hits_this_run": 20,
+  "hits_this_run": 99,
   "channel_counts": {
-    "official": 0,
+    "official": 19,
     "sns": 0,
-    "web": 20
+    "web": 80
   },
-  "new_candidates": [],
+  "new_candidates": [
+    {
+      "id": "found-c71be7da552c",
+      "name": "町田皮膚科・美容皮膚科",
+      "source_url": "https://care.weblio.jp/mounjaro-10mg/",
+      "source": "official_site_search",
+      "channel": "official"
+    },
+    {
+      "id": "found-a51c6ed90e20",
+      "name": "町田皮膚科・美容皮膚科",
+      "source_url": "https://mame-clinic.net/articles/?p=112949",
+      "source": "official_site_search",
+      "channel": "official"
+    },
+    {
+      "id": "found-16345a0a3c33",
+      "name": "渋谷駅前おおしま皮膚科",
+      "source_url": "https://shibuya-hifuka.jp/sidemenu/glp1_price.html",
+      "source": "official_site_search",
+      "channel": "official"
+    },
+    {
+      "id": "found-c5eceb841d53",
+      "name": "町田皮膚科・美容皮膚科",
+      "source_url": "https://shibuya-hifuka.jp/sidemenu/glp1_price.html",
+      "source": "official_site_search",
+      "channel": "official"
+    },
+    {
+      "id": "found-f1d6df7134ce",
+      "name": "町田皮膚科・美容皮膚科",
+      "source_url": "https://on-clinic.jp/beauty/news/%E3%80%90%E3%83%A1%E3%83%87%E3%82%A3%E3%82%AB%E3%83%AB%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88%E3%80%91%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD%E3%81%AE%E5%8F%96%E3%82%8A%E6%89%B1%E3%81%84/",
+      "source": "official_site_search",
+      "channel": "official"
+    },
+    {
+      "id": "found-4bed71c06314",
+      "name": "町田皮膚科・美容皮膚科",
+      "source_url": "https://kireipass.jp/tickets/krt66572",
+      "source": "official_site_search",
+      "channel": "official"
+    },
+    {
+      "id": "found-6ebde952041a",
+      "name": "町田皮膚科・美容皮膚科",
+      "source_url": "https://minnashiawase-clinic.com/post-2418/",
+      "source": "official_site_search",
+      "channel": "official"
+    },
+    {
+      "id": "found-ee873841d984",
+      "name": "ヴェルヴァーレ本陣クリニック",
+      "source_url": "https://velvaere-clinic.com/menu/%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD%EF%BC%88%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%A8%BA%E7%99%82%E5%AF%BE%E5%BF%9C%EF%BC%89/",
+      "source": "official_site_search",
+      "channel": "official"
+    },
+    {
+      "id": "found-ed1b9c53fb33",
+      "name": "町田皮膚科・美容皮膚科",
+      "source_url": "https://velvaere-clinic.com/menu/%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD%EF%BC%88%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%A8%BA%E7%99%82%E5%AF%BE%E5%BF%9C%EF%BC%89/",
+      "source": "official_site_search",
+      "channel": "official"
+    },
+    {
+      "id": "found-4e5e14739791",
+      "name": "町田皮膚科・美容皮膚科",
+      "source_url": "https://www.tsuwabuki-clinic.com/obesity/",
+      "source": "official_site_search",
+      "channel": "official"
+    },
+    {
+      "id": "found-d0a6676d8cae",
+      "name": "町田皮膚科・美容皮膚科",
+      "source_url": "https://tamayose-cl.jp/blog/%E3%80%90%E7%B3%96%E5%B0%BF%E7%97%85%E5%B0%82%E9%96%80%E5%8C%BB%E3%81%8C%E8%A7%A3%E8%AA%AC%E3%80%91%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD%E3%81%AF%E4%BF%9D%E9%99%BA%E3%81%A7%E3%81%84%E3%81%8F",
+      "source": "official_site_search",
+      "channel": "official"
+    },
+    {
+      "id": "found-80631bc38bdd",
+      "name": "町田皮膚科・美容皮膚科",
+      "source_url": "https://support.yahoo-net.jp/PccSearch/s/article/H000011627",
+      "source": "official_site_search",
+      "channel": "official"
+    },
+    {
+      "id": "found-cc8ced8aa450",
+      "name": "五郎台ファミリークリニック",
+      "source_url": "https://www.goroudaifc.com/mounjaro",
+      "source": "official_site_search",
+      "channel": "official"
+    },
+    {
+      "id": "found-0353fe3f6c13",
+      "name": "大美会クリニック",
+      "source_url": "https://osaka-bc.com/menu/mounjaro/",
+      "source": "official_site_search",
+      "channel": "official"
+    },
+    {
+      "id": "found-fee10ecde9f8",
+      "name": "心斎橋・梅田・天王寺・京都烏丸・神戸・岡山の医療脱毛・美容皮膚科",
+      "source_url": "https://osaka-bc.com/menu/mounjaro/",
+      "source": "official_site_search",
+      "channel": "official"
+    },
+    {
+      "id": "found-a983a9ef1cac",
+      "name": "藤が丘メンタルクリニック",
+      "source_url": "https://fujigaoka-mcl.com/menu/self_pay/",
+      "source": "official_site_search",
+      "channel": "official"
+    },
+    {
+      "id": "found-ca80b7c40790",
+      "name": "天神通りクリニック",
+      "source_url": "https://www.tenjindori-cl.com/medical3/",
+      "source": "official_site_search",
+      "channel": "official"
+    },
+    {
+      "id": "found-b9d5d36677c7",
+      "name": "犀星の杜クリニック",
+      "source_url": "https://saiseinomori-cl.com/diet/mounjaro/",
+      "source": "official_site_search",
+      "channel": "official"
+    },
+    {
+      "id": "found-550d18f9230c",
+      "name": "六本木駅すぐの再生医療を主体としたクリニック",
+      "source_url": "https://saiseinomori-cl.com/diet/mounjaro/",
+      "source": "official_site_search",
+      "channel": "official"
+    },
+    {
+      "id": "found-3d7887e35db2",
+      "name": "マルベルクリニック",
+      "source_url": "https://mulbell.online/medical-diet/mounjaro/",
+      "source": "official_site_search",
+      "channel": "official"
+    },
+    {
+      "id": "found-036da607858e",
+      "name": "皆様の悩みや美容ニーズに寄り添う自由診療クリニック",
+      "source_url": "https://mulbell.online/medical-diet/mounjaro/",
+      "source": "official_site_search",
+      "channel": "official"
+    },
+    {
+      "id": "found-f8fa5847205b",
+      "name": "MARUクリニック",
+      "source_url": "https://sushijaro.app/ja/clinic/nagoya-maruclinic?dose=2.5",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-ebe6caaa1c71",
+      "name": "M&B美容皮フ科クリニック",
+      "source_url": "https://sushijaro.app/ja/clinic/mb-clinic?dose=2.5",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-479ceade00d9",
+      "name": "医療法人美彩会 グランクリニック",
+      "source_url": "https://sushijaro.app/ja/clinic/grand-clinic?dose=2.5",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-def29342da34",
+      "name": "88内科クリニック",
+      "source_url": "https://sushijaro.app/ja/clinic/88cl?dose=2.5",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-c985dfced3fa",
+      "name": "若松河田クリニック",
+      "source_url": "https://sushijaro.app/ja/clinic/wakamatsukawada-clinic?dose=2.5",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-d761b24e06eb",
+      "name": "医療法人MSW トータルスキンクリニック 小倉院",
+      "source_url": "https://sushijaro.app/ja/clinic/saishin-sp-kokura?dose=2.5",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-8c653478ebd5",
+      "name": "イースト駅前クリニック 静岡院",
+      "source_url": "https://sushijaro.app/ja/clinic/eastcl-shizuoka?dose=2.5",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-b619ce669fca",
+      "name": "富長大谷内科クリニック",
+      "source_url": "https://sushijaro.app/ja/clinic/tomy1014?dose=2.5",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-97c213b6c55c",
+      "name": "APスキンクリニック銀座",
+      "source_url": "https://sushijaro.app/ja/clinic/apskinclinic?dose=2.5",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-efb70ddc1a74",
+      "name": "大美会クリニック",
+      "source_url": "https://sushijaro.app/ja/clinic/osaka-bc?dose=2.5",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-d88cffd4cd19",
+      "name": "新宿駅前クリニック",
+      "source_url": "https://sushijaro.app/ja/clinic/shinjyuku-ekimae-clinic?dose=2.5",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-1fda7c1ddfad",
+      "name": "医療法人志紀会 希咲クリニック",
+      "source_url": "https://sushijaro.app/ja/clinic/kisaki-clinic?dose=2.5",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-91c84a1b6db9",
+      "name": "The Fast Clinic",
+      "source_url": "https://sushijaro.app/ja/clinic/thefastclinic?dose=2.5",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-7ba3f8eb7a62",
+      "name": "沖縄スキンケアクリニック",
+      "source_url": "https://sushijaro.app/ja/clinic/okinawa-skincare?dose=2.5",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-706d1f1ecbcd",
+      "name": "にしたんARTクリニック 美容内科・美容皮膚科",
+      "source_url": "https://sushijaro.app/ja/clinic/nishitan-art?dose=2.5",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-914f2a25a695",
+      "name": "大通公園メンズクリニック",
+      "source_url": "https://sushijaro.app/ja/clinic/odoripark-mensclinic?dose=2.5",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-975a6ebcc6d4",
+      "name": "大阪なんば内科・消化器内視鏡クリニック",
+      "source_url": "https://sushijaro.app/ja/clinic/namba-endoscopy?dose=2.5",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-c29596326d4a",
+      "name": "エースクリニック大阪梅田HEPナビオ院",
+      "source_url": "https://sushijaro.app/ja/clinic/ace-clinic-osaka?dose=2.5",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-54040f82e3b6",
+      "name": "Cedar Medical Clinic Tokyo",
+      "source_url": "https://sushijaro.app/ja/clinic/cedarmedicaltokyo?dose=2.5",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-7afb7188cac6",
+      "name": "パークイーストクリニック清澄白河",
+      "source_url": "https://sushijaro.app/ja/clinic/parkeastmed?dose=2.5",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-136546bfb84d",
+      "name": "池袋東口まめクリニック",
+      "source_url": "https://sushijaro.app/ja/clinic/beans-mc?dose=2.5",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-62ce24286605",
+      "name": "エースクリニック 名古屋院",
+      "source_url": "https://sushijaro.app/ja/clinic/ace-clinic-nagoya?dose=2.5",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-4f0b51d3881c",
+      "name": "イースト駅前クリニック 松山院",
+      "source_url": "https://sushijaro.app/ja/clinic/eastcl-matsuyama?dose=2.5",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-ee31fc6569b3",
+      "name": "スマートクリニック銀座",
+      "source_url": "https://sushijaro.app/ja/clinic/smart-ginza?dose=2.5",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-b5bffbd09bfa",
+      "name": "諸國眞太郎クリニック",
+      "source_url": "https://sushijaro.app/ja/clinic/varix?dose=2.5",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-e4a45d8ff719",
+      "name": "テラッセ納屋橋ファミリークリニック",
+      "source_url": "https://sushijaro.app/ja/clinic/tnf-clinic?dose=2.5",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-e7a33535efee",
+      "name": "MALUクリニック墨田曳舟",
+      "source_url": "https://sushijaro.app/ja/clinic/maluclinic?dose=2.5",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-800c4028d811",
+      "name": "さっぽろ美容クリニック",
+      "source_url": "https://sushijaro.app/ja/clinic/satsubi?dose=2.5",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-8a2f3fba8e41",
+      "name": "梶山内科クリニック",
+      "source_url": "https://sushijaro.app/ja/clinic/kajiyama-clinic?dose=2.5",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-3c5b0c9fbc32",
+      "name": "BON BON CLINIC",
+      "source_url": "https://sushijaro.app/ja/clinic/bonbonclinic",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-e402acc2b919",
+      "name": "Mona青山クリニック",
+      "source_url": "https://sushijaro.app/ja/clinic/mona-life",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-082391348a9d",
+      "name": "PERSONAL BEAUTY CLINIC",
+      "source_url": "https://sushijaro.app/ja/clinic/pbc-tokyo",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-caad2686bd60",
+      "name": "ONE CLINIC 梅田",
+      "source_url": "https://sushijaro.app/ja/clinic/one-clinic-umeda",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-04553c1de0b8",
+      "name": "エールクリニック",
+      "source_url": "https://sushijaro.app/ja/clinic/aileclinic-osaka",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-b9c7a4a44c9e",
+      "name": "あいざわ循環器内科・内視鏡・肛門クリニック",
+      "source_url": "https://sushijaro.app/ja/clinic/aizawacl",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-fc311ca1f512",
+      "name": "かわさきクリニック",
+      "source_url": "https://sushijaro.app/ja/clinic/clinic-kawasaki",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-4d7e144e6e1c",
+      "name": "たなか循環器内科クリニック",
+      "source_url": "https://sushijaro.app/ja/clinic/tanaka-heart",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-28338564ad86",
+      "name": "ふじハートクリニック",
+      "source_url": "https://sushijaro.app/ja/clinic/fuji-heart",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-9efc753889fa",
+      "name": "やまもプラザファミリークリニック",
+      "source_url": "https://sushijaro.app/ja/clinic/yp-fc",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-c91587b69f7b",
+      "name": "吉美生活習慣病内科クリニック",
+      "source_url": "https://sushijaro.app/ja/clinic/kibinaika",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-e453cb88dc3d",
+      "name": "Re:Birth Clinic 名古屋",
+      "source_url": "https://sushijaro.app/ja/clinic/rebirth-clinic",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-a7cf09996bd9",
+      "name": "医療法人 清流会 五藤医院",
+      "source_url": "https://sushijaro.app/ja/clinic/gotoiin138",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-b7bda2ce6057",
+      "name": "アステリアクリニック",
+      "source_url": "https://sushijaro.app/ja/clinic/asteria-clinic",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-1230a1d9523f",
+      "name": "イースト駅前クリニック札幌院",
+      "source_url": "https://sushijaro.app/ja/clinic/eastcl",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-0d17a0f29b5c",
+      "name": "綺翠 -kisui Clinic",
+      "source_url": "https://sushijaro.app/ja/clinic/kisui-clinic",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-3fa4a1529328",
+      "name": "イースト駅前クリニック 高松院",
+      "source_url": "https://sushijaro.app/ja/clinic/eastcl-takamatsu",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-b9ec46fdafb7",
+      "name": "スカイメディカルクリニック",
+      "source_url": "https://sushijaro.app/ja/clinic/sky-medical",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-f9699c9d146d",
+      "name": "たにもと内科・循環器クリニック",
+      "source_url": "https://sushijaro.app/ja/clinic/tanimoto-clinic",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-5b648316fb0f",
+      "name": "武岡皮膚科クリニック 高松院",
+      "source_url": "https://sushijaro.app/ja/clinic/takeoka-clinic",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-ca34e40eb2ee",
+      "name": "BLAZE CLINIC",
+      "source_url": "https://sushijaro.app/ja/clinic/blaze-clinic",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-7ddf8672e449",
+      "name": "真誠会セントラルクリニック",
+      "source_url": "https://sushijaro.app/ja/clinic/shinseikaicentralclinic",
+      "source": "public_directory_lead",
+      "channel": "web"
+    },
+    {
+      "id": "found-c2ec6ef64abf",
+      "name": "メガミクリニック",
+      "source_url": "https://mounjaro-map.jobby-time.com/ja/clinic/megami-clinic/",
+      "source": "public_directory_lead",
+      "channel": "web"
+    }
+  ],
   "archive": [
     {
       "key": "aa5890a7b9fcbdfd349f",
@@ -1305,6 +1865,504 @@
       }
     },
     {
+      "key": "c8f8a0d591c7298cd283",
+      "hit": {
+        "url": "https://care.weblio.jp/mounjaro-10mg/",
+        "title": "マンジャロ10mg の値段 最安値と保険適用の価格 - Weblioケア",
+        "snippet": "マンジャロ10mg の値段 最安値と保険適用の価格 - Weblioケア マンジャロ10mg の値段 最安値と保険適用の価格 - Weblioケア 2026/11/11 - オンライン診療の 10mg の 4本 ; 12, 町田皮膚科・美容皮膚科 クリニック , 64,200円 ; 13, 大美会 クリニック , 66,000円 ; 14, elife, 74,980円 ; 15, FemON ... https://care.weblio.jp > メディカルダイエット マンジャロ 最安値は？オンライン診療で安い クリニック を徹底比較！ 2025/8/19 - マンジャロ10mg の1ヶ月（ 4本 ）あたりの費用は、オンライン クリニック の相場で約72,000円～92,000円が目安となります。この用量は、ある程度治療が進行し、 ... https://ma",
+        "clinic_names": [
+          "町田皮膚科・美容皮膚科"
+        ],
+        "channel": "official",
+        "source": "official_site_search",
+        "query": "マンジャロ 10mg 料金 4本 クリニック",
+        "event": null,
+        "official_url_hint": "https://care.weblio.jp/mounjaro-10mg/",
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "ddeaf151d98f246fcc1d",
+      "hit": {
+        "url": "https://mame-clinic.net/articles/?p=112949",
+        "title": "マンジャロ 最安値は？オンライン診療で安い クリニック を徹底比較！",
+        "snippet": "マンジャロ 最安値は？オンライン診療で安い クリニック を徹底比較！ マンジャロ10mg の値段 最安値と保険適用の価格 - Weblioケア 2026/11/11 - オンライン診療の 10mg の 4本 ; 12, 町田皮膚科・美容皮膚科 クリニック , 64,200円 ; 13, 大美会 クリニック , 66,000円 ; 14, elife, 74,980円 ; 15, FemON ... https://care.weblio.jp > メディカルダイエット マンジャロ 最安値は？オンライン診療で安い クリニック を徹底比較！ 2025/8/19 - マンジャロ10mg の1ヶ月（ 4本 ）あたりの費用は、オンライン クリニック の相場で約72,000円～92,000円が目安となります。この用量は、ある程度治療が進行し、 ... https://ma",
+        "clinic_names": [
+          "町田皮膚科・美容皮膚科"
+        ],
+        "channel": "official",
+        "source": "official_site_search",
+        "query": "マンジャロ 10mg 料金 4本 クリニック",
+        "event": null,
+        "official_url_hint": "https://mame-clinic.net/articles/?p=112949",
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "7c6b09991d93493f76a7",
+      "hit": {
+        "url": "https://shibuya-hifuka.jp/sidemenu/glp1_price.html",
+        "title": "GLP-1・ マンジャロ料金 表 - 渋谷駅前おおしま皮膚科",
+        "snippet": "GLP-1・ マンジャロ料金 表 - 渋谷駅前おおしま皮膚科 マンジャロ10mg の値段 最安値と保険適用の価格 - Weblioケア 2026/11/11 - オンライン診療の 10mg の 4本 ; 12, 町田皮膚科・美容皮膚科 クリニック , 64,200円 ; 13, 大美会 クリニック , 66,000円 ; 14, elife, 74,980円 ; 15, FemON ... https://care.weblio.jp > メディカルダイエット マンジャロ 最安値は？オンライン診療で安い クリニック を徹底比較！ 2025/8/19 - マンジャロ10mg の1ヶ月（ 4本 ）あたりの費用は、オンライン クリニック の相場で約72,000円～92,000円が目安となります。この用量は、ある程度治療が進行し、 ... https://ma",
+        "clinic_names": [
+          "渋谷駅前おおしま皮膚科",
+          "町田皮膚科・美容皮膚科"
+        ],
+        "channel": "official",
+        "source": "official_site_search",
+        "query": "マンジャロ 10mg 料金 4本 クリニック",
+        "event": null,
+        "official_url_hint": "https://shibuya-hifuka.jp/sidemenu/glp1_price.html",
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "5442b740ee2e9d2962c3",
+      "hit": {
+        "url": "https://on-clinic.jp/beauty/news/%E3%80%90%E3%83%A1%E3%83%87%E3%82%A3%E3%82%AB%E3%83%AB%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88%E3%80%91%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD%E3%81%AE%E5%8F%96%E3%82%8A%E6%89%B1%E3%81%84/",
+        "title": "【メディカルダイエット】 マンジャロ の取扱開始のお知らせ（1ヶ月 ...",
+        "snippet": "【メディカルダイエット】 マンジャロ の取扱開始のお知らせ（1ヶ月 ... マンジャロ10mg の値段 最安値と保険適用の価格 - Weblioケア 2026/11/11 - オンライン診療の 10mg の 4本 ; 12, 町田皮膚科・美容皮膚科 クリニック , 64,200円 ; 13, 大美会 クリニック , 66,000円 ; 14, elife, 74,980円 ; 15, FemON ... https://care.weblio.jp > メディカルダイエット マンジャロ 最安値は？オンライン診療で安い クリニック を徹底比較！ 2025/8/19 - マンジャロ10mg の1ヶ月（ 4本 ）あたりの費用は、オンライン クリニック の相場で約72,000円～92,000円が目安となります。この用量は、ある程度治療が進行し、 ... https://ma",
+        "clinic_names": [
+          "町田皮膚科・美容皮膚科"
+        ],
+        "channel": "official",
+        "source": "official_site_search",
+        "query": "マンジャロ 10mg 料金 4本 クリニック",
+        "event": null,
+        "official_url_hint": "https://on-clinic.jp/beauty/news/%E3%80%90%E3%83%A1%E3%83%87%E3%82%A3%E3%82%AB%E3%83%AB%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88%E3%80%91%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD%E3%81%AE%E5%8F%96%E3%82%8A%E6%89%B1%E3%81%84/",
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "540af7dc008f84de863a",
+      "hit": {
+        "url": "https://kireipass.jp/tickets/krt66572",
+        "title": "【オンライン診療】GIP/GLP-1ダイエット注射（ マンジャロ ） 10mg ...",
+        "snippet": "【オンライン診療】GIP/GLP-1ダイエット注射（ マンジャロ ） 10mg ... マンジャロ10mg の値段 最安値と保険適用の価格 - Weblioケア 2026/11/11 - オンライン診療の 10mg の 4本 ; 12, 町田皮膚科・美容皮膚科 クリニック , 64,200円 ; 13, 大美会 クリニック , 66,000円 ; 14, elife, 74,980円 ; 15, FemON ... https://care.weblio.jp > メディカルダイエット マンジャロ 最安値は？オンライン診療で安い クリニック を徹底比較！ 2025/8/19 - マンジャロ10mg の1ヶ月（ 4本 ）あたりの費用は、オンライン クリニック の相場で約72,000円～92,000円が目安となります。この用量は、ある程度治療が進行し、 ... https://ma",
+        "clinic_names": [
+          "町田皮膚科・美容皮膚科"
+        ],
+        "channel": "official",
+        "source": "official_site_search",
+        "query": "マンジャロ 10mg 料金 4本 クリニック",
+        "event": null,
+        "official_url_hint": "https://kireipass.jp/tickets/krt66572",
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "8fb43546abe3dfaf40b6",
+      "hit": {
+        "url": "https://minnashiawase-clinic.com/post-2418/",
+        "title": "ダイエット外来₍自費 マンジャロ 処方₎について - 大阪市西区 西大橋 ...",
+        "snippet": "ダイエット外来₍自費 マンジャロ 処方₎について - 大阪市西区 西大橋 ... マンジャロ10mg の値段 最安値と保険適用の価格 - Weblioケア 2026/11/11 - オンライン診療の 10mg の 4本 ; 12, 町田皮膚科・美容皮膚科 クリニック , 64,200円 ; 13, 大美会 クリニック , 66,000円 ; 14, elife, 74,980円 ; 15, FemON ... https://care.weblio.jp > メディカルダイエット マンジャロ 最安値は？オンライン診療で安い クリニック を徹底比較！ 2025/8/19 - マンジャロ10mg の1ヶ月（ 4本 ）あたりの費用は、オンライン クリニック の相場で約72,000円～92,000円が目安となります。この用量は、ある程度治療が進行し、 ... https://ma",
+        "clinic_names": [
+          "町田皮膚科・美容皮膚科"
+        ],
+        "channel": "official",
+        "source": "official_site_search",
+        "query": "マンジャロ 10mg 料金 4本 クリニック",
+        "event": null,
+        "official_url_hint": "https://minnashiawase-clinic.com/post-2418/",
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "a6c2417df7354a0cee34",
+      "hit": {
+        "url": "https://velvaere-clinic.com/menu/%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD%EF%BC%88%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%A8%BA%E7%99%82%E5%AF%BE%E5%BF%9C%EF%BC%89/",
+        "title": "マンジャロ のオンライン診療 - ヴェルヴァーレ本陣クリニック",
+        "snippet": "マンジャロ のオンライン診療 - ヴェルヴァーレ本陣クリニック マンジャロ10mg の値段 最安値と保険適用の価格 - Weblioケア 2026/11/11 - オンライン診療の 10mg の 4本 ; 12, 町田皮膚科・美容皮膚科 クリニック , 64,200円 ; 13, 大美会 クリニック , 66,000円 ; 14, elife, 74,980円 ; 15, FemON ... https://care.weblio.jp > メディカルダイエット マンジャロ 最安値は？オンライン診療で安い クリニック を徹底比較！ 2025/8/19 - マンジャロ10mg の1ヶ月（ 4本 ）あたりの費用は、オンライン クリニック の相場で約72,000円～92,000円が目安となります。この用量は、ある程度治療が進行し、 ... https://ma",
+        "clinic_names": [
+          "ヴェルヴァーレ本陣クリニック",
+          "町田皮膚科・美容皮膚科"
+        ],
+        "channel": "official",
+        "source": "official_site_search",
+        "query": "マンジャロ 10mg 料金 4本 クリニック",
+        "event": null,
+        "official_url_hint": "https://velvaere-clinic.com/menu/%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD%EF%BC%88%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%A8%BA%E7%99%82%E5%AF%BE%E5%BF%9C%EF%BC%89/",
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "52639dce9def47a34c08",
+      "hit": {
+        "url": "https://www.tsuwabuki-clinic.com/obesity/",
+        "title": "大阪で マンジャロ が安い（1本3,000円）・ダイエット肥満外来なら ...",
+        "snippet": "大阪で マンジャロ が安い（1本3,000円）・ダイエット肥満外来なら ... マンジャロ10mg の値段 最安値と保険適用の価格 - Weblioケア 2026/11/11 - オンライン診療の 10mg の 4本 ; 12, 町田皮膚科・美容皮膚科 クリニック , 64,200円 ; 13, 大美会 クリニック , 66,000円 ; 14, elife, 74,980円 ; 15, FemON ... https://care.weblio.jp > メディカルダイエット マンジャロ 最安値は？オンライン診療で安い クリニック を徹底比較！ 2025/8/19 - マンジャロ10mg の1ヶ月（ 4本 ）あたりの費用は、オンライン クリニック の相場で約72,000円～92,000円が目安となります。この用量は、ある程度治療が進行し、 ... https://ma",
+        "clinic_names": [
+          "町田皮膚科・美容皮膚科"
+        ],
+        "channel": "official",
+        "source": "official_site_search",
+        "query": "マンジャロ 10mg 料金 4本 クリニック",
+        "event": null,
+        "official_url_hint": "https://www.tsuwabuki-clinic.com/obesity/",
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "0467910ee20235f17cfa",
+      "hit": {
+        "url": "https://tamayose-cl.jp/blog/%E3%80%90%E7%B3%96%E5%B0%BF%E7%97%85%E5%B0%82%E9%96%80%E5%8C%BB%E3%81%8C%E8%A7%A3%E8%AA%AC%E3%80%91%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD%E3%81%AF%E4%BF%9D%E9%99%BA%E3%81%A7%E3%81%84%E3%81%8F",
+        "title": "マンジャロ は保険でいくら？2026年8月値下げ後の費用",
+        "snippet": "マンジャロ は保険でいくら？2026年8月値下げ後の費用 マンジャロ10mg の値段 最安値と保険適用の価格 - Weblioケア 2026/11/11 - オンライン診療の 10mg の 4本 ; 12, 町田皮膚科・美容皮膚科 クリニック , 64,200円 ; 13, 大美会 クリニック , 66,000円 ; 14, elife, 74,980円 ; 15, FemON ... https://care.weblio.jp > メディカルダイエット マンジャロ 最安値は？オンライン診療で安い クリニック を徹底比較！ 2025/8/19 - マンジャロ10mg の1ヶ月（ 4本 ）あたりの費用は、オンライン クリニック の相場で約72,000円～92,000円が目安となります。この用量は、ある程度治療が進行し、 ... https://ma",
+        "clinic_names": [
+          "町田皮膚科・美容皮膚科"
+        ],
+        "channel": "official",
+        "source": "official_site_search",
+        "query": "マンジャロ 10mg 料金 4本 クリニック",
+        "event": null,
+        "official_url_hint": "https://tamayose-cl.jp/blog/%E3%80%90%E7%B3%96%E5%B0%BF%E7%97%85%E5%B0%82%E9%96%80%E5%8C%BB%E3%81%8C%E8%A7%A3%E8%AA%AC%E3%80%91%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD%E3%81%AF%E4%BF%9D%E9%99%BA%E3%81%A7%E3%81%84%E3%81%8F",
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "981d44d9d7f120132330",
+      "hit": {
+        "url": "https://support.yahoo-net.jp/PccSearch/s/article/H000011627",
+        "title": "この簡易版検索結果ページについて",
+        "snippet": "この簡易版検索結果ページについて マンジャロ 10mg 料金 4本 クリニック で検索した結果 1〜10件目 / 約8,230件 - 0.31秒 ウェブ マンジャロ10mg の値段 最安値と保険適用の価格 - Weblioケア 2026/11/11 - オンライン診療の 10mg の 4本 ; 12, 町田皮膚科・美容皮膚科 クリニック , 64,200円 ; 13, 大美会 クリニック , 66,000円 ; 14, elife, 74,980円 ; 15, FemON ... https://care.weblio.jp > メディカルダイエット マンジャロ 最安値は？オンライン診療で安い クリニック を徹底比較！ 2025/8/19 - マンジャロ10mg の1ヶ月（ 4本 ）あたりの費用は、オンライン クリニック の",
+        "clinic_names": [
+          "町田皮膚科・美容皮膚科"
+        ],
+        "channel": "official",
+        "source": "official_site_search",
+        "query": "マンジャロ 10mg 料金 4本 クリニック",
+        "event": null,
+        "official_url_hint": "https://support.yahoo-net.jp/PccSearch/s/article/H000011627",
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "91044ca8cbc9481f8282",
+      "hit": {
+        "url": "https://shibuya-hifuka.jp/chiryou/detail/glp1.html",
+        "title": "GLP-1オンライン 診療 で処方可 - 渋谷駅前おおしま皮膚科",
+        "snippet": "GLP-1オンライン 診療 で処方可 - 渋谷駅前おおしま皮膚科 肥満外来の 料金表 ｜GLP-1・ マンジャロ （ 自由診療 ） | 0th CLINIC 月額の目安 · リベルサス 3mg · マンジャロ 2.5mg. 週1回、月4本の場合. 再診料, 3,300円. マンジャロ 2.5mg × 4本, 32,000円. https://0thclinic.com > medical > obesity > cost 自費 診療 の 料金 （お薬代・送料・予約料） - 池川内科・神経内科 自費 診療 の費用一覧。 マンジャロ は2.5mg 12500円／5mg 24500円／7.5mg 37500円、ウゴービは0.25mg 24000円（2ヶ月分＝月額換算12000円）。いずれも税込。 https://ikegawa-clinic.com > pric",
+        "clinic_names": [
+          "渋谷駅前おおしま皮膚科"
+        ],
+        "channel": "official",
+        "source": "official_site_search",
+        "query": "マンジャロ 自由診療 料金表 クリニック",
+        "event": null,
+        "official_url_hint": "https://shibuya-hifuka.jp/chiryou/detail/glp1.html",
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "d03506435740324b2512",
+      "hit": {
+        "url": "https://www.goroudaifc.com/mounjaro",
+        "title": "マンジャロ自由診療 について - 五郎台ファミリークリニック",
+        "snippet": "マンジャロ自由診療 について - 五郎台ファミリークリニック 肥満外来の 料金表 ｜GLP-1・ マンジャロ （ 自由診療 ） | 0th CLINIC 月額の目安 · リベルサス 3mg · マンジャロ 2.5mg. 週1回、月4本の場合. 再診料, 3,300円. マンジャロ 2.5mg × 4本, 32,000円. https://0thclinic.com > medical > obesity > cost 自費 診療 の 料金 （お薬代・送料・予約料） - 池川内科・神経内科 自費 診療 の費用一覧。 マンジャロ は2.5mg 12500円／5mg 24500円／7.5mg 37500円、ウゴービは0.25mg 24000円（2ヶ月分＝月額換算12000円）。いずれも税込。 https://ikegawa-clinic.com > pric",
+        "clinic_names": [
+          "五郎台ファミリークリニック"
+        ],
+        "channel": "official",
+        "source": "official_site_search",
+        "query": "マンジャロ 自由診療 料金表 クリニック",
+        "event": null,
+        "official_url_hint": "https://www.goroudaifc.com/mounjaro",
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "ef6328de93cadc0249ab",
+      "hit": {
+        "url": "https://osaka-bc.com/menu/mounjaro/",
+        "title": "マンジャロ | 大美会クリニック | 大阪・心斎橋・梅田・天王寺・京都烏丸・神戸・岡山の医療脱毛・美容皮膚科 大美会クリニック【公式】",
+        "snippet": "Official-site page branding: 大美会クリニック",
+        "clinic_names": [
+          "大美会クリニック",
+          "心斎橋・梅田・天王寺・京都烏丸・神戸・岡山の医療脱毛・美容皮膚科"
+        ],
+        "channel": "official",
+        "source": "official_site_search",
+        "official_url_hint": "https://osaka-bc.com/menu/mounjaro/",
+        "query": "マンジャロ 自由診療 料金表 クリニック",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "66400b83b51ed65a31ce",
+      "hit": {
+        "url": "https://fujigaoka-mcl.com/menu/self_pay/",
+        "title": "マンジャロ｜メディカルダイエット｜名東区｜藤が丘メンタルクリニック｜オンライン診療",
+        "snippet": "Official-site page branding: 藤が丘メンタルクリニック",
+        "clinic_names": [
+          "藤が丘メンタルクリニック"
+        ],
+        "channel": "official",
+        "source": "official_site_search",
+        "official_url_hint": "https://fujigaoka-mcl.com/menu/self_pay/",
+        "query": "マンジャロ 自由診療 料金表 クリニック",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "9e14d26862c296b50f0e",
+      "hit": {
+        "url": "https://www.tenjindori-cl.com/medical3/",
+        "title": "オンライン診療 | 天神通りクリニック",
+        "snippet": "Official-site page branding: ",
+        "clinic_names": [
+          "天神通りクリニック"
+        ],
+        "channel": "official",
+        "source": "official_site_search",
+        "official_url_hint": "https://www.tenjindori-cl.com/medical3/",
+        "query": "マンジャロ 自由診療 料金表 クリニック",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "28503f1b0b5ad310c478",
+      "hit": {
+        "url": "https://saiseinomori-cl.com/diet/mounjaro/",
+        "title": "マンジャロがオンラインで安い値段なのは？おすすめクリニック4選！2.5mgと5.0mgの価格相場の比較も紹介",
+        "snippet": "Official-site page branding: 【公式】犀星の杜クリニック六本木 | 六本木駅すぐの再生医療を主体としたクリニック",
+        "clinic_names": [
+          "犀星の杜クリニック",
+          "六本木駅すぐの再生医療を主体としたクリニック"
+        ],
+        "channel": "official",
+        "source": "official_site_search",
+        "official_url_hint": "https://saiseinomori-cl.com/diet/mounjaro/",
+        "query": "マンジャロ 外国人 処方 料金 クリニック",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "4d6642922e24bd487c98",
+      "hit": {
+        "url": "https://mulbell.online/medical-diet/mounjaro/",
+        "title": "マンジャロ2.5mg【2,750円〜】オンライン診療｜全用量まとめ買い価格・値段｜【公式】マルベルクリニック東京",
+        "snippet": "Official-site page branding: 【公式】マルベルクリニック東京 - 【公式】マルベルクリニック東京は、オンライン診療でGLP-1（マンジャロ・リベルサス）によるダイエット治療をはじめ、ED・AGA・美容内服まで幅広く対応。通院不要・診察料と配送料込みのお値段で、皆様の悩み",
+        "clinic_names": [
+          "マルベルクリニック",
+          "皆様の悩みや美容ニーズに寄り添う自由診療クリニック"
+        ],
+        "channel": "official",
+        "source": "official_site_search",
+        "official_url_hint": "https://mulbell.online/medical-diet/mounjaro/",
+        "query": "マンジャロ 外国人 処方 料金 クリニック",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "d61603a1a617991dcfed",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/nagoya-maruclinic?dose=2.5",
+        "title": "MARUクリニック",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "MARUクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "1705c68e305257743900",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/mb-clinic?dose=2.5",
+        "title": "M&B美容皮フ科クリニック",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "M&B美容皮フ科クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "151606826b929663de5b",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/grand-clinic?dose=2.5",
+        "title": "医療法人美彩会 グランクリニック",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "医療法人美彩会 グランクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "e491b49a55418a5975d2",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/88cl?dose=2.5",
+        "title": "88内科クリニック",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "88内科クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "3b89ca440fef7dfd9d6a",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/wakamatsukawada-clinic?dose=2.5",
+        "title": "若松河田クリニック",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "若松河田クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "20e4ab68f0d3fa0acc53",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/saishin-sp-kokura?dose=2.5",
+        "title": "医療法人MSW トータルスキンクリニック 小倉院",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "医療法人MSW トータルスキンクリニック 小倉院"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "927b0eed86b9843cdba5",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/eastcl-shizuoka?dose=2.5",
+        "title": "イースト駅前クリニック 静岡院",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "イースト駅前クリニック 静岡院"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "3b44cc4f23db5b49dba7",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/tomy1014?dose=2.5",
+        "title": "富長大谷内科クリニック",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "富長大谷内科クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "f5a31624a505e90bfbf3",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/apskinclinic?dose=2.5",
+        "title": "APスキンクリニック銀座",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "APスキンクリニック銀座"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "655534eb382b1571c463",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/osaka-bc?dose=2.5",
+        "title": "大美会クリニック",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "大美会クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "48345fdebe51f2578979",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/shinjyuku-ekimae-clinic?dose=2.5",
+        "title": "新宿駅前クリニック",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "新宿駅前クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
       "key": "19e3d57e2a32316a93fa",
       "hit": {
         "url": "https://sushijaro.app/ja/clinic/mankuri?dose=2.5",
@@ -1317,8 +2375,739 @@
         "source": "public_directory_lead",
         "query": "foreign-traveler clinic directory",
         "event": null,
-        "first_seen": "2026-11-21T11:11:03+09:00",
-        "last_seen": "2026-11-21T11:11:03+09:00"
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "25d293d6c8c7a4667c77",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/kajiclinic?dose=2.5",
+        "title": "加地医院",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "加地医院"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "7c5904f966b4c3b6d8f7",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/kisaki-clinic?dose=2.5",
+        "title": "医療法人志紀会 希咲クリニック",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "医療法人志紀会 希咲クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "0259f14c5edf69718108",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/thefastclinic?dose=2.5",
+        "title": "The Fast Clinic",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "The Fast Clinic"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "7e2d04be014364d4f7e2",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/okinawa-skincare?dose=2.5",
+        "title": "沖縄スキンケアクリニック",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "沖縄スキンケアクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "b42fffe864aede6b67bf",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/nishitan-art?dose=2.5",
+        "title": "にしたんARTクリニック 美容内科・美容皮膚科",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "にしたんARTクリニック 美容内科・美容皮膚科"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "b3456a3be0c40e31b207",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/odoripark-mensclinic?dose=2.5",
+        "title": "大通公園メンズクリニック",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "大通公園メンズクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "2512d774ff0556e39b79",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/namba-endoscopy?dose=2.5",
+        "title": "大阪なんば内科・消化器内視鏡クリニック",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "大阪なんば内科・消化器内視鏡クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "0104e68647201fb7ff56",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/ace-clinic-osaka?dose=2.5",
+        "title": "エースクリニック大阪梅田HEPナビオ院",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "エースクリニック大阪梅田HEPナビオ院"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "276bc1ad34597bd4bd9c",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/cedarmedicaltokyo?dose=2.5",
+        "title": "Cedar Medical Clinic Tokyo",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "Cedar Medical Clinic Tokyo"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "662b3a0a31dd34ebf070",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/parkeastmed?dose=2.5",
+        "title": "パークイーストクリニック清澄白河",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "パークイーストクリニック清澄白河"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "9c4045bbb7b623801b18",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/beans-mc?dose=2.5",
+        "title": "池袋東口まめクリニック",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "池袋東口まめクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "e1a45e5912d32bd4cfb5",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/ace-clinic-nagoya?dose=2.5",
+        "title": "エースクリニック 名古屋院",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "エースクリニック 名古屋院"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "1b4dc9768ca538f2079c",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/eastcl-matsuyama?dose=2.5",
+        "title": "イースト駅前クリニック 松山院",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "イースト駅前クリニック 松山院"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "cf08f37f5284d82f35e2",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/smart-ginza?dose=2.5",
+        "title": "スマートクリニック銀座",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "スマートクリニック銀座"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "a782aac9cb2cca718f66",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/varix?dose=2.5",
+        "title": "諸國眞太郎クリニック",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "諸國眞太郎クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "b8a5f70c0dc375b1be66",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/tnf-clinic?dose=2.5",
+        "title": "テラッセ納屋橋ファミリークリニック",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "テラッセ納屋橋ファミリークリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "8715e731938ed0c2184b",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/maluclinic?dose=2.5",
+        "title": "MALUクリニック墨田曳舟",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "MALUクリニック墨田曳舟"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "1ca67551ee229d1ce9b3",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/satsubi?dose=2.5",
+        "title": "さっぽろ美容クリニック",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "さっぽろ美容クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "ba1702e1eec1db7ba890",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/kajiyama-clinic?dose=2.5",
+        "title": "梶山内科クリニック",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "梶山内科クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "6bc82b7d955e9d3bb1ee",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/bonbonclinic",
+        "title": "BON BON CLINIC",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "BON BON CLINIC"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "ac88ea411093a43a32d3",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/mona-life",
+        "title": "Mona青山クリニック",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "Mona青山クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "e1a1a86f942bce1d96f8",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/pbc-tokyo",
+        "title": "PERSONAL BEAUTY CLINIC",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "PERSONAL BEAUTY CLINIC"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "d4d1ad4af3114bae7639",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/one-clinic-umeda",
+        "title": "ONE CLINIC 梅田",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "ONE CLINIC 梅田"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "6c5a21e044aab6ed9ee6",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/aileclinic-osaka",
+        "title": "エールクリニック",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "エールクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "d4d7687ae4adbd1f6334",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/aizawacl",
+        "title": "あいざわ循環器内科・内視鏡・肛門クリニック",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "あいざわ循環器内科・内視鏡・肛門クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "89059c0e67c8970fd4fd",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/clinic-kawasaki",
+        "title": "かわさきクリニック",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "かわさきクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "f9989251b743737d2bcb",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/tanaka-heart",
+        "title": "たなか循環器内科クリニック",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "たなか循環器内科クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "24ad3636b70089d37e19",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/fuji-heart",
+        "title": "ふじハートクリニック",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "ふじハートクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "53baa6556f350458abec",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/yp-fc",
+        "title": "やまもプラザファミリークリニック",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "やまもプラザファミリークリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "47a64d1aa886782c1766",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/nagamatsu-clinic",
+        "title": "永松医院",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "永松医院"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "34cee37aca5e1b87035e",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/kibinaika",
+        "title": "吉美生活習慣病内科クリニック",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "吉美生活習慣病内科クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "1c30157eec11e262134f",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/rebirth-clinic",
+        "title": "Re:Birth Clinic 名古屋",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "Re:Birth Clinic 名古屋"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "45a096cefe010db0d337",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/gotoiin138",
+        "title": "医療法人 清流会 五藤医院",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "医療法人 清流会 五藤医院"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "f330f1e826e3c2f4fcea",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/asteria-clinic",
+        "title": "アステリアクリニック",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "アステリアクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "c6def200a7d6540c33fb",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/eastcl",
+        "title": "イースト駅前クリニック札幌院",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "イースト駅前クリニック札幌院"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "bd54dc31da7b0ca67823",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/kisui-clinic",
+        "title": "綺翠 -kisui Clinic",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "綺翠 -kisui Clinic"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "7e8d38043872c988ae7d",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/eastcl-takamatsu",
+        "title": "イースト駅前クリニック 高松院",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "イースト駅前クリニック 高松院"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "982eabe6116831bb530a",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/sky-medical",
+        "title": "スカイメディカルクリニック",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "スカイメディカルクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "a16079068226d1e7681d",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/tanimoto-clinic",
+        "title": "たにもと内科・循環器クリニック",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "たにもと内科・循環器クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "45f506b13487d497e1af",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/takeoka-clinic",
+        "title": "武岡皮膚科クリニック 高松院",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "武岡皮膚科クリニック 高松院"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "65989d0bbae61a29d858",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/blaze-clinic",
+        "title": "BLAZE CLINIC",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "BLAZE CLINIC"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "1a716b4e71996aee7b67",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/shinseikaicentralclinic",
+        "title": "真誠会セントラルクリニック",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "真誠会セントラルクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
+      }
+    },
+    {
+      "key": "c2c9e4be383a90af6d6f",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/megami-clinic/",
+        "title": "メガミクリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "メガミクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/",
+        "event": null,
+        "first_seen": "2026-11-21T11:14:01+09:00",
+        "last_seen": "2026-11-21T11:14:01+09:00"
       }
     }
   ],
