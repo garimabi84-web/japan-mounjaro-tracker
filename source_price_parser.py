@@ -11,8 +11,9 @@ from bs4 import BeautifulSoup
 DOSES={'2.5','5','7.5','10','12.5','15'}
 DOSE_RE=re.compile(r'(?<![\d.])(2\.5|5(?:\.0)?|7\.5|10(?:\.0)?|12\.5|15(?:\.0)?)\s*mg\b',re.I)
 MONEY=re.compile(r'(?:¥\s*(\d{1,3}(?:,\d{3})+|\d{4,6})|(\d{1,3}(?:,\d{3})+|\d{4,6})\s*(?:円|¥))')
-DRUG=re.compile(r'マンジャロ|mounjaro|チルゼパチド',re.I)
-OTHER_DRUG=re.compile(r'リベルサス|オゼンピック|ウゴービ|ゼップバウンド|サクセンダ|サノレックス')
+# Exact Mounjaro brand is required: tirzepatide / Zepbound are NOT aliases.
+DRUG=re.compile(r'マンジャロ|mounjaro',re.I)
+OTHER_DRUG=re.compile(r'リベルサス|オゼンピック|ウゴービ|ゼップバウンド|サクセンダ|サノレックス|エンパグリフロジン|フォシーガ|ジャディアンス|リラグルチド|セマグルチド')
 PROMO=re.compile(r'キャンペーン|クーポン|初回限定|期間限定')
 PACKS=[
  (12,re.compile(r'(?:12\s*(?:本|キット|ペン)|(?:3\s*(?:ヶ月|か月|ヵ月|カ月))分?|12\s*週間?|12\s*週分)')),
@@ -93,24 +94,40 @@ def extract_official(source):
         # simply anywhere on the webpage.
         offset=plain.find(body[:65])
         previous=plain[max(0,offset-600):offset] if offset>=0 else ''
-        related=DRUG.search(body) or (DRUG.search(previous) and not OTHER_DRUG.search(previous[-120:]))
-        if not related:continue
+        # A Mounjaro mention in a *different medicine's explanation* cannot
+        # authorize price extraction from this table. Only a nearby Mounjaro
+        # heading or an explicitly branded row identifies the drug.
+        heading=table.find_previous(['h1','h2','h3','h4','h5','h6','strong','b'])
+        heading_text=normalize(heading.get_text(' ',strip=True)) if heading else ''
+        header_text=' '.join(cells[0])
+        branded_rows=any(DRUG.search(c[0]) and not OTHER_DRUG.search(c[0])
+                         for c in cells if c)
+        branded_heading=bool(DRUG.search(heading_text) and not OTHER_DRUG.search(heading_text))
+        branded_header=bool(DRUG.search(header_text) and not OTHER_DRUG.search(header_text))
+        if not (branded_rows or branded_heading or branded_header):continue
+        if OTHER_DRUG.search(heading_text) and not branded_rows:continue
         pack=pack_factor(previous[-175:]) or pack_factor(' '.join(cells[0]))
         headers=cells[0]
+        in_mounjaro=branded_heading or branded_header
         for row in cells[1:]:
             joined=' '.join(row)
-            if OTHER_DRUG.search(row[0]):continue
+            if OTHER_DRUG.search(row[0]):
+                in_mounjaro=False
+                continue
+            if DRUG.search(row[0]):in_mounjaro=True
             # One table cell can contain the whole price list for Mounjaro.
-            if DRUG.search(row[0]) and len(row)>1:
+            if in_mounjaro and DRUG.search(row[0]) and len(row)>1:
                 for col in row[1:]:
-                    found.update({d:v for d,v in extraction_per_segment(col,pack).items() if d not in found})
-                    for d in extraction_per_segment(col,pack):sources.setdefault(d,'공식 병원 가격표 · 용량별')
+                    parsed=extraction_per_segment(col,pack)
+                    for d,v in parsed.items():
+                        if d not in found:
+                            found[d]=v;sources[d]='공식 병원 가격표 · 용량별'
             # Standard dose rows can omit drug name if table is drug-specific.
             m=DOSE_RE.search(row[0])
             if not m or len(row)<2:continue
             d=str(float(m[1])).removesuffix('.0')
             if d not in DOSES:continue
-            if DRUG.search(row[0]) or DRUG.search(previous[-500:]) or DRUG.search(' '.join(headers)):
+            if in_mounjaro and not OTHER_DRUG.search(joined):
                 price_cells=row[1:]
                 # Explicit old/new table: select the current column, not old price.
                 header_line=' '.join(headers)
@@ -130,8 +147,18 @@ def extract_official(source):
         if node.find_parent(['table','nav','footer']):continue
         content=normalize(node.get_text(' ',strip=True))
         if len(content)>400:recent_drug=False;gap=0;continue
-        if DRUG.search(content):recent_drug=True;gap=0
-        elif OTHER_DRUG.search(content):recent_drug=False;gap=0;continue
+        # A Zepbound description saying "same ingredient as Mounjaro"
+        # is not a Mounjaro price heading; reject it before drug detection.
+        if OTHER_DRUG.search(content):
+            recent_drug=False;gap=0;continue
+        if node.name.startswith('h'):
+            recent_drug=bool(DRUG.search(content));gap=0
+        elif DRUG.search(content):
+            # A branded price or a short standalone product label is valid;
+            # generic comparative text discussing Mounjaro is not.
+            recent_drug=bool(DOSE_RE.search(content) and MONEY.search(content)
+                             or re.fullmatch(r'(?:マンジャロ|mounjaro)(?:\s*(?:料金|価格|注射|診療))*',content,re.I))
+            gap=0
         elif not DOSE_RE.search(content):
             gap+=1
             if gap>3:recent_drug=False
@@ -155,6 +182,24 @@ def self_test():
     heading='<h2>マンジャロ価格</h2><p>10mg (4週分) 60,000円</p>'
     x,_=extract_official(heading)
     assert x.get('10')==180000,x
+    sanage='''<h2>メディカルダイエット</h2>
+      <h3>お薬の種類</h3><p>チルゼパチド（ゼップバウンド）</p>
+      <p>糖尿病治療薬「マンジャロ」と同成分です。</p>
+      <h3>費用について</h3><h4>料金表</h4>
+      <table><tr><th>チルゼパチド（1ヶ月分）</th></tr>
+       <tr><td>2.5mg</td><td>24,000円</td></tr>
+       <tr><td>5mg</td><td>32,500円</td></tr>
+       <tr><td>7.5mg</td><td>39,000円</td></tr></table>
+       <table><tr><th>エンパグリフロジン</th></tr>
+       <tr><td>10mg(1ヶ月分)</td><td>11,000円</td></tr></table>'''
+    x,_=extract_official(sanage)
+    assert x=={}, 'Zepbound and empagliflozin leaked into Mounjaro: '+repr(x)
+    adjacent='''<h2>マンジャロ料金</h2><table><tr><th>用量</th><th>4週間分</th></tr>
+      <tr><td>5mg</td><td>32,000円</td></tr></table>
+      <h2>エンパグリフロジン</h2><table><tr><th>用量</th><th>1ヶ月分</th></tr>
+      <tr><td>10mg</td><td>11,000円</td></tr></table>'''
+    x,_=extract_official(adjacent)
+    assert x=={'5':96000}, x
     wrong='<h2>美容料金</h2><p>オゼンピック 5mg 1本10,000円</p><p>マンジャロに関する注意喚起</p>'
     x,_=extract_official(wrong)
     assert x=={},x
