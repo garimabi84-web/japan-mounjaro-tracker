@@ -9,7 +9,7 @@ import argparse, datetime as dt, json, re, urllib.parse, unicodedata
 from pathlib import Path
 from bs4 import BeautifulSoup
 import requests
-from discover import ROOT,CATALOG,UA,fetch_rss,fetch_bing_html,now,DOSES
+from discover import ROOT,CATALOG,UA,fetch_rss,fetch_bing_html,now,DOSES,potential_official_site
 
 EXCLUDE=['sushijaro','mounjarojp','kireireport','yahoo','instagram','facebook','x.com','twitter','note.com','reddit','beauty.hotpepper','kuchikomi','a-clinic-column','seikeitimes','jihi-shohou','google.com','news.google','blogspot']
 PATT_DOSE=re.compile(r'(?<![\d.])(?:マンジャロ|mounjaro)?\s*(2[.]5|5(?:[.]0)?|7[.]5|10(?:[.]0)?|12[.]5|15(?:[.]0)?)\s*mg',re.I)
@@ -76,17 +76,19 @@ def extract_prices(source):
             if val:prices[key]=val*3
     return prices, 'official 12-pen posted or explicit 4-pen price × 3'
 
-def official_link(session,name):
+def official_link(session,name,hint=None):
+    # When the official-site search found a probable clinic page, try that
+    # exact URL before another name lookup, but never treat its pricing as
+    # verified until we actually fetch and validate the page below.
+    if hint and potential_official_site(hint):
+        return hint
     for q in (f'"{name}" マンジャロ 料金',f'{name} マンジャロ 3ヶ月 価格'):
         try:
             candidates=list(fetch_rss(session,q,'bing'))
             if not candidates:
                 candidates=list(fetch_bing_html(session,q))
             for title,url,desc in candidates:
-                parsed=urllib.parse.urlparse(url)
-                if parsed.scheme!='https':continue
-                host=parsed.hostname or ''
-                if any(bad in host for bad in EXCLUDE):continue
+                if not potential_official_site(url):continue
                 if not re.search(r'マンジャロ|mounjaro',title+' '+desc,re.I):continue
                 return url
         except Exception:pass
@@ -111,7 +113,9 @@ def run():
         assert official_host('https://www.miraimedical.com/price')=='miraimedical.com'
         assert official_host('https://mirai-medical.clinic/ko/mounjaro/')=='mirai-medical.clinic'
         assert official_host('https://miraimedical.com/')!=official_host('https://mirai-medical.clinic/')
-        print('self-test OK: official price extraction and distinct same-name clinic domains')
+        assert official_link(None,"サンプルクリニック","https://sample-clinic.jp/mounjaro/")=="https://sample-clinic.jp/mounjaro/"
+        assert not potential_official_site("https://sushijaro.app/ja/clinic/example")
+        print('self-test OK: official prices, source hints and distinct same-name domains')
         return
     cat=json.loads(CATALOG.read_text(encoding='utf-8'))
     # A distinct branch/domain may use an identical Japanese display name.
@@ -138,7 +142,7 @@ def run():
         if item.get('identity_conflict'):
             item['notes']='다른 지역에 동일 명칭 병원이 존재. 주소·공식 도메인 검증 전 가격 자동 등록 보류.'
             continue
-        official=official_link(session,item['name'])
+        official=official_link(session,item['name'],item.get('official_url_hint'))
         if official:
             host=official_host(official)
             if host and host in claimed_domains and item['id'] not in claimed_domains[host]:
@@ -164,9 +168,11 @@ def run():
                 item['notes']='공식 가격 페이지 후보 발견, 기간 한정/쿠폰 조건 때문에 자동 비교가 보류: '+official
                 continue
             item['prices'].update(prices)
-            item['basis']=basis+'; 신규 SNS 발견 후 공식 페이지로 교차 확인'
+            item['basis']=basis+'; 공개 검색 후보를 공식 페이지로 교차 확인'
             item['url']=official;item['status']='active';item['price_verified']=True
-            item['channel']='공개 SNS 검색 신규 발견 → 공식 가격 자동 확인'
+            item['official_domain']=host
+            item['channel']=('공식 홈페이지 검색 → 공식 가격 검증' if item.get('official_url_hint')
+                             else 'SNS·비교 사이트 발견 → 공식 가격 검증')
             item['updated']=now()[:10]
             item['notes']='가격은 공식 페이지에서 단위를 명시한 금액만 채움. 외국인/배송/온라인 진료는 검증 전이며 자동으로 가능 표시하지 않음.'
             print('Price confirmed:',item['name'],len(prices),'doses',official)
