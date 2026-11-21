@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       full_scan:
-        description: 'All Korean/SNS/regional discovery queries (slower)'
+        description: 'Full official clinic, SNS, and regional discovery queries (slower)'
         type: boolean
         default: true # Manual runs use all search regions; scheduled runs still use rotating queries
   push:
@@ -26,7 +26,7 @@ concurrency:
 jobs:
   discover-and-check:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -38,7 +38,7 @@ jobs:
           python -m py_compile discover.py enrich_official.py build.py
           python discover.py --self-test
           python enrich_official.py --self-test
-      - name: Discover from Korean traveler SNS ads and public web
+      - name: Discover official clinic sites, public SNS posts and price-directory name leads
         env:
           FULL_SCAN: ${{ inputs.full_scan }}
         run: |
@@ -47,13 +47,13 @@ jobs:
           else
             python discover.py
           fi
-      - name: Verify official prices for new SNS-discovered clinics
+      - name: Verify clinic identity and prices against official source pages
         run: python enrich_official.py
       - name: Monitor the expanded official-source list
         run: python watch_sources.py
       - name: Rebuild offline HTML and comparison CSV
         run: python build.py
-      - name: Commit new clinics, source evidence and changed-page flags
+      - name: Commit three-channel discoveries, evidence and changed-page flags
         shell: bash
         run: |
           set -euo pipefail
