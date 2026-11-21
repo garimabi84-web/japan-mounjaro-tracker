@@ -10,6 +10,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 import requests
 from discover import ROOT,CATALOG,UA,fetch_rss,fetch_bing_html,now,DOSES,potential_official_site
+from source_price_parser import extract_official, self_test as official_price_self_test
 
 EXCLUDE=['sushijaro','mounjarojp','kireireport','yahoo','instagram','facebook','x.com','twitter','note.com','reddit','beauty.hotpepper','kuchikomi','a-clinic-column','seikeitimes','jihi-shohou','google.com','news.google','blogspot']
 PATT_DOSE=re.compile(r'(?<![\d.])(?:マンジャロ|mounjaro)?\s*(2[.]5|5(?:[.]0)?|7[.]5|10(?:[.]0)?|12[.]5|15(?:[.]0)?)\s*mg',re.I)
@@ -110,6 +111,7 @@ def official_host(url):
 def run():
     ap=argparse.ArgumentParser();ap.add_argument('--self-test',action='store_true');arg=ap.parse_args()
     if arg.self_test:
+        official_price_self_test()
         html='''<html><body><h1>CKK ONLINE CLINIC マンジャロ 料金</h1><table><tr><th>用量</th><th>1ヶ月分（4本）</th><th>2ヶ月分（8本）</th><th>3ヶ月分（12本）</th></tr><tr><td>10mg</td><td>27,500円</td><td>55,000円</td><td>82,500円</td></tr><tr><td>5mg</td><td>16,000円</td><td>32,000円</td><td>48,000円</td></tr></table></body></html>'''
         prices,_=extract_prices(html)
         assert prices['10']==82500 and prices['5']==48000,prices
@@ -147,7 +149,7 @@ def run():
     # official clinic website, without starving older name-only candidates.
     linked = [x for x in queue if x.get('official_url_hint')]
     name_only = [x for x in queue if not x.get('official_url_hint')]
-    batch = linked[:(26 if os.environ.get('FULL_SCAN')=='true' else 12)] + name_only[:(9 if os.environ.get('FULL_SCAN')=='true' else 6)]
+    batch = linked[:(48 if os.environ.get('FULL_SCAN')=='true' else 32)] + name_only[:(8 if os.environ.get('FULL_SCAN')=='true' else 4)]
     done=0
     for item in batch:
         done+=1
@@ -166,7 +168,11 @@ def run():
         try:
             resp=session.get(official,timeout=(5,11));resp.raise_for_status()
             soup=BeautifulSoup(resp.content,'html.parser');text=soup.get_text(' ',strip=True)
-            prices,basis=extract_prices(resp.content)
+            prices,basis=extract_official(resp.content)
+            older,old_basis=extract_prices(resp.content)
+            for d,val in older.items():
+                prices.setdefault(d,val)
+            if not basis and older:basis=old_basis
             # A clinic homepage may link to a dedicated Mounjaro price page.
             if not prices:
                 links=[]
@@ -174,13 +180,19 @@ def run():
                     href=urllib.parse.urljoin(official,a.get('href',''))
                     label=a.get_text(' ',strip=True)+' '+a.get('href','')
                     if official_host(href)!=official_host(official):continue
-                    if href==official or not re.search(r'マンジャロ|mounjaro|チルゼパチド|medical[-_/]?diet|glp[-_/]?1',label,re.I):continue
+                    if href==official or not re.search(r'マンジャロ|mounjaro|チルゼパチド|medical[-_/]?diet|glp[-_/]?1|ダイエット|自由診療|料金|価格|美容',label,re.I):continue
                     if href not in links:links.append(href)
-                for href in links[:1]:
+                links.sort(key=lambda u:(0 if re.search(r'マンジャロ|mounjaro',u,re.I)
+                                         else 1 if re.search(r'料金|price|ダイエット|diet',u,re.I)
+                                         else 2, len(u)))
+                for href in links[:3]:
                     try:
                         follow=session.get(href,timeout=(5,9));follow.raise_for_status()
-                        found,basis=extract_prices(follow.content)
-                        if found:
+                        found,basis=extract_official(follow.content)
+                        legacy,legacy_basis=extract_prices(follow.content)
+                        for d,val in legacy.items():found.setdefault(d,val)
+                        if not basis and legacy:basis=legacy_basis
+                        if found and official_host(follow.url)==official_host(official):
                             prices=found;official=follow.url
                             soup=BeautifulSoup(follow.content,'html.parser');text=soup.get_text(' ',strip=True)
                             break
@@ -202,7 +214,7 @@ def run():
             item['prices'].update(prices)
             item['basis']=basis+'; 공개 검색 후보를 공식 페이지로 교차 확인'
             item['url']=official;item['status']='active';item['price_verified']=True
-            item['official_domain']=host
+            item['official_domain']=official_host(official)
             item['channel']=('공식 홈페이지 검색 → 공식 가격 검증' if item.get('official_url_hint')
                              else 'SNS·비교 사이트 발견 → 공식 가격 검증')
             item['updated']=now()[:10]
