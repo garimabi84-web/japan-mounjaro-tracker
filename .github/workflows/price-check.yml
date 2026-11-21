@@ -41,6 +41,43 @@ jobs:
           python enrich_official.py --self-test
           python collect_promotions.py --self-test
           python scan_changes.py --self-test
+      - name: Inspect national open CSV and comparator clinic-list HTML
+        run: |
+          python - <<'PY'
+          import requests,zipfile,io,csv,re
+          from bs4 import BeautifulSoup
+          from collections import Counter
+          ses=requests.Session()
+          ses.headers['User-Agent']='MounjaroPriceResearch/2.1 (public research; GitHub project)'
+          URL='https://www.mhlw.go.jp/content/11121000/02-1_clinic_facility_info_20260601.csv.zip'
+          try:
+              r=ses.get(URL,timeout=(12,55));print('MHLW',r.status_code,len(r.content),r.headers.get('Content-Type'))
+              if r.ok:
+                  z=zipfile.ZipFile(io.BytesIO(r.content));print('ZIP_FILES',[(x.filename,x.file_size) for x in z.infolist()][:8])
+                  for name in z.namelist()[:2]:
+                      with z.open(name) as f:
+                          txt=io.TextIOWrapper(f,encoding='utf-8-sig',errors='replace',newline='')
+                          rd=csv.DictReader(txt)
+                          print('CSV_HEADERS',rd.fieldnames[:180])
+                          for a in range(2):
+                              x=next(rd,None)
+                              if x:print('CSV_EXAMPLE', {k:str(v)[:90] for k,v in x.items() if re.search('名称|都道府県|住所|所在地|ホームページ|URL|ＵＲＬ',k)})
+          except Exception as e:print('MHLW_FAIL',repr(e)[:400])
+          for u in ('https://sayaka-biyou-clinic.com/mounjaro/',
+                    'https://sayaka-biyou-clinic.com/mounjaro/fukuoka/',
+                    'https://sayaka-biyou-clinic.com/mounjaro/clinic/c4022400015580/',
+                    'https://md.mirai-medical.clinic/',
+                    'https://md.mirai-medical.clinic/prefectures40/'):
+              try:
+                  r=ses.get(u,timeout=(8,18));sp=BeautifulSoup(r.text,'html.parser')
+                  from urllib.parse import urljoin,urlsplit
+                  links=[(a.get_text(' ',strip=True)[:65],urljoin(u,a.get('href',''))) for a in sp.select('a[href]')]
+                  print('DIRECTORY',u,r.status_code,len(r.content),'total_links',len(links),'title',(sp.title.get_text(' ',strip=True)[:80] if sp.title else '-'))
+                  print('CLINIC_LINKS',[(t,h) for t,h in links if re.search(r'/clinic/|/prefectures',h)][:12])
+                  print('OFFICIAL_LINKS',[(t,h) for t,h in links if '公式' in t or '料金の記載' in t][:14])
+                  print('SECTION_HEADS',[x.get_text(' ',strip=True)[:75] for x in sp.select('h2,h3,h4')][:20])
+              except Exception as e:print('DIRECTORY_FAIL',u,repr(e)[:240])
+          PY
       - name: Snapshot before scan for diff tracking
         run: python scan_changes.py --before
       - name: Discover official clinic sites, public SNS posts and price-directory name leads
