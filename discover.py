@@ -242,7 +242,10 @@ def official_page_lead(url, page_html, query):
     title=soup.title.get_text(" ",strip=True) if soup.title else ""
     top_header=soup.select_one("header")
     header=top_header.get_text(" ",strip=True)[:350] if top_header else ""
-    brand=list(dict.fromkeys(candidate_names(site_name)+candidate_names(title)+candidate_names(header)))
+    # Only the clinic's *own* branding metadata/header can establish an
+    # institution name. An article title can mention a different clinic and
+    # must not be treated as the site owner.
+    brand=list(dict.fromkeys(candidate_names(site_name)+candidate_names(header)))[:1]
     if not brand:
         return None
     return {"url": url, "title": title[:160], "snippet": "Official-site page branding: "+site_name[:120],
@@ -462,8 +465,10 @@ def discover(session, limit=210, full=False):
         for title, url, description in items:
             if not url or url in seen:
                 continue
-            item = official_entry(url, title, description, query) if official else entry(
-                url, title, description, provider, query)
+            # Search snippets frequently name other clinics in comparison
+            # articles. NEVER promote a title to an official clinic identity.
+            # An actual fetched site must self-identify through branding.
+            item = None if official else entry(url, title, description, provider, query)
             if official and not item and probe_budget>0 and url not in probed_urls and potential_official_site(url):
                 probe_budget-=1
                 probed_urls.add(url)
@@ -572,7 +577,7 @@ def merge_into_catalog(cat, rawhits, archive):
             continue
         path=urllib.parse.urlsplit(hit.get("url","")).path
         match=re.search(r"/(?:ja/|en/)?clinic/([^/]+)",path)
-        directory_slug=match.group(1) if match else None
+        directory_slug=match.group(1) if match and hostname(hit.get("url",""))=="sushijaro.app" else None
         known_id=KNOWN_DIRECTORY_SLUGS.get(directory_slug) if directory_slug else None
         # Directory listing for a clinic already in the official data is NOT new.
         skip_known_dir = bool(known_id and known_id in ids)
@@ -591,7 +596,9 @@ def merge_into_catalog(cat, rawhits, archive):
             # SNS hits without a stable entity URL remain conservative.
             name_collision = norm in seen
             if official:
-                if (official_domain, norm) in seen_official_pairs:
+                # Do not clone an existing institution merely because an
+                # indexed article on another domain cites the same name.
+                if name_collision or known_aliases.get(norm) in ids or (official_domain, norm) in seen_official_pairs:
                     continue
             elif not directory_slug and (name_collision or known_aliases.get(norm) in ids):
                 continue
@@ -686,8 +693,9 @@ def self_test():
     same_brand=official_entry("https://separate-clinic.jp/fee",
         "既存クリニック マンジャロ", "マンジャロ料金", "test")
     newofficial,_=merge_into_catalog(cat_official,[same_brand,same_brand],{})
-    assert len(newofficial)==1 and cat_official["clinics"][-1]["identity_conflict"],newofficial
-    assert cat_official["clinics"][-1]["official_url_hint"]=="https://separate-clinic.jp/fee"
+    assert not newofficial and len(cat_official["clinics"])==1,newofficial
+    # A same-name result on another domain is untrusted until independently
+    # proven a separate institution; conservative catalog dedup must hold.
     # When both are verified separately, the known Tokyo directory record
     # must be suppressed as already registered.
     cat3["clinics"].append({"id":"mirai-medical-tokyo","name":"미라이 메디컬(도쿄)","status":"active"})
