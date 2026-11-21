@@ -106,6 +106,7 @@ NON_OFFICIAL_DOMAINS = (
     "note.jp", "sushijaro.jp", "jihi-shohou.com", "seikeitimes.com",
     "manjaro-info.jp", "mounjaro-map.jobby-time.com",
     "kusurigo.vercel.app", "best.e-health.care", "iryodiet-navi.com",
+    "bing.com", "bing.cn", "msn.com", "duckduckgo.com", "search.yahoo.co.jp",
 )
 OFFICIAL_CORE = [
     "マンジャロ 10mg 料金 4本 クリニック",
@@ -577,6 +578,8 @@ def self_test():
         "マウンジャロの価格 - 新星クリニック", "マンジャロ 10mg 4本 30,000円", "official test")
     assert official_hit and official_hit["channel"]=="official",official_hit
     assert not official_entry("https://sushijaro.app/ja/clinic/new",
+        "新星クリニック マンジャロ", "マンジャロ価格", "official test")
+    assert not official_entry("https://www.bing.com/ck/a?redirect=1",
         "新星クリニック マンジャロ", "マンジャロ価格", "official test")
     cat_official={"clinics":[{"id":"known","name":"既存クリニック",
         "status":"active","url":"https://known-clinic.jp/mounjaro/"}]}
