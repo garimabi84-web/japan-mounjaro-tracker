@@ -219,8 +219,15 @@ def entry(url, title, desc, origin, query):
     social = any(domain == h or domain.endswith("." + h) for h in SOCIAL_HOSTS)
     # Keep a public SNS price post as evidence even if the search snippet
     # cannot establish a clinic name. Do not create a clinic from this alone.
-    if not found and not (social and re.search(r"円|¥|￥|엔|가격|料金|価格|할인|キャンペーン", txt)):
-        return None
+    if not found:
+        # Avoid storing generic price-comparison articles or unrelated posts:
+        # an unnamed SNS evidence hit must explicitly mention a dosage,
+        # four/twelve pens, and a numeric yen price in the same snippet.
+        has_dose = bool(re.search(r"(?<!\d)(?:2[.]5|5|7[.]5|10|12[.]5|15)\s*mg", txt, re.I))
+        has_pack = bool(re.search(r"(?:4|12)\s*(?:本|펜|개|キット)|(?:1|3)\s*(?:ヶ月|か月|개월)", txt))
+        has_yen = bool(re.search(r"(?:[¥￥]\s*[\d,]{4,8}|[\d,]{4,8}\s*(?:円|엔))", txt))
+        if not (social and has_dose and has_pack and has_yen):
+            return None
     return {"url": url, "title": (title or "")[:160], "snippet": txt[:450],
             "clinic_names": found, "channel": "sns" if social else "web",
             "source": origin, "query": query, "event": event_hints(txt)}
