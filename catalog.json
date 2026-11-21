@@ -4778,8 +4778,8 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T12:01:22+09:00",
-      "official_attempts": 3
+      "official_checked_at": "2026-11-21T12:18:42+09:00",
+      "official_attempts": 4
     },
     {
       "id": "found-f2850edf430e",
@@ -4819,8 +4819,8 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T12:01:23+09:00",
-      "official_attempts": 3
+      "official_checked_at": "2026-11-21T12:18:43+09:00",
+      "official_attempts": 4
     },
     {
       "id": "found-4f329b0344a4",
@@ -4860,8 +4860,8 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T12:01:24+09:00",
-      "official_attempts": 3
+      "official_checked_at": "2026-11-21T12:18:44+09:00",
+      "official_attempts": 4
     },
     {
       "id": "found-4b057da3a3c6",
@@ -4943,8 +4943,8 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T12:01:25+09:00",
-      "official_attempts": 3
+      "official_checked_at": "2026-11-21T12:18:44+09:00",
+      "official_attempts": 4
     },
     {
       "id": "found-37d5bd9b63b3",
@@ -5352,7 +5352,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T12:18:55+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-4db135941080",
@@ -5391,7 +5393,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T12:18:57+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-3b3ba7c441a2",
@@ -5430,7 +5434,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T12:18:59+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-142272527f91",
@@ -5469,7 +5475,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T12:18:59+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-b55df59a4125",
@@ -5508,7 +5516,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T12:19:01+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-9433c5742e37",
@@ -5547,7 +5557,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T12:19:01+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-db715ac0b6d7",
@@ -5586,7 +5598,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T12:19:02+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-904ffb384acc",
@@ -5625,7 +5639,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T12:19:02+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-16e89856ef65",
@@ -5664,7 +5680,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T12:19:03+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-1848130b656d",
@@ -5703,7 +5721,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T12:19:03+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-08abb6c921cf",
@@ -5742,7 +5762,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T12:19:03+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-20ac67542b8b",
@@ -5781,7 +5803,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T12:19:04+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-b4a28c3a81be",
@@ -6523,8 +6547,8 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T12:01:27+09:00",
-      "official_attempts": 3
+      "official_checked_at": "2026-11-21T12:18:54+09:00",
+      "official_attempts": 4
     },
     {
       "id": "found-3d7887e35db2",

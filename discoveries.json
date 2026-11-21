@@ -1,29 +1,13 @@
 {
-  "ran_at": "2026-11-21T12:01:22+09:00",
+  "ran_at": "2026-11-21T12:18:42+09:00",
   "source_status": [
-    {
-      "source": "bing_rss",
-      "query": "韓国人 観光客 マンジャロ クリニック 予約",
-      "ok": true,
-      "items": 10,
-      "qualified": 0,
-      "fallback": false
-    },
     {
       "source": "bing_html",
       "query": "韓国人 観光客 マンジャロ クリニック 予約",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
       "fallback": true
-    },
-    {
-      "source": "bing_rss",
-      "query": "訪日韓国人 マンジャロ 処方 価格 LINE",
-      "ok": true,
-      "items": 10,
-      "qualified": 0,
-      "fallback": false
     },
     {
       "source": "bing_html",
@@ -32,6 +16,14 @@
       "items": 0,
       "qualified": 0,
       "fallback": true
+    },
+    {
+      "source": "bing_rss",
+      "query": "マウンジャロ 韓国人 旅行者 ホテル 配送 クリニック",
+      "ok": true,
+      "items": 1,
+      "qualified": 0,
+      "fallback": false
     },
     {
       "source": "bing_html",
@@ -85,7 +77,7 @@
       "source": "bing_html",
       "query": "マンジャロ 10mg 12本 クリニック キャンペーン",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
@@ -173,7 +165,7 @@
       "source": "official_site_search",
       "query": "マンジャロ 10mg 料金 4本 クリニック",
       "ok": true,
-      "items": 0,
+      "items": 10,
       "qualified": 0,
       "fallback": true
     },
@@ -205,7 +197,7 @@
       "source": "official_site_search",
       "query": "マンジャロ 外国人 処方 料金 クリニック",
       "ok": true,
-      "items": 0,
+      "items": 10,
       "qualified": 0,
       "fallback": true
     },
@@ -253,8 +245,8 @@
       "source": "official_site_search_yahoo",
       "query": "マンジャロ 10mg 料金 4本 クリニック",
       "ok": true,
-      "items": 11,
-      "qualified": 2,
+      "items": 10,
+      "qualified": 1,
       "fallback": true
     },
     {
@@ -270,7 +262,7 @@
       "query": "マンジャロ 外国人 処方 料金 クリニック",
       "ok": true,
       "items": 11,
-      "qualified": 2,
+      "qualified": 1,
       "fallback": true
     },
     {
@@ -332,8 +324,10 @@
     {
       "source": "google_news",
       "query": "マンジャロ クリニック 韓国語 ホテル 配送",
-      "ok": false,
-      "reason": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%E3%83%9E%E3%83%B3"
+      "ok": true,
+      "items": 5,
+      "qualified": 0,
+      "fallback": false
     },
     {
       "source": "public_directory_lead",
@@ -396,9 +390,9 @@
       "items": 5
     }
   ],
-  "hits_this_run": 85,
+  "hits_this_run": 83,
   "channel_counts": {
-    "official": 4,
+    "official": 2,
     "sns": 1,
     "web": 80
   },
@@ -2103,7 +2097,7 @@
         "query": "マンジャロ 10mg 料金 4本 クリニック",
         "event": null,
         "first_seen": "2026-11-21T11:17:45+09:00",
-        "last_seen": "2026-11-21T12:01:22+09:00"
+        "last_seen": "2026-11-21T12:18:42+09:00"
       }
     },
     {
@@ -2301,41 +2295,7 @@
           "note": "행사 언급만 감지. 적용 기간과 12펜 가격은 공식 검증 전"
         },
         "first_seen": "2026-11-21T12:01:22+09:00",
-        "last_seen": "2026-11-21T12:01:22+09:00"
-      }
-    },
-    {
-      "key": "19e3d57e2a32316a93fa",
-      "hit": {
-        "url": "https://sushijaro.app/ja/clinic/mankuri?dose=2.5",
-        "title": "マンクリ",
-        "snippet": "Mounjaro clinic listing (name lead only)",
-        "clinic_names": [
-          "マンクリ"
-        ],
-        "channel": "web",
-        "source": "public_directory_lead",
-        "query": "foreign-traveler clinic directory",
-        "event": null,
-        "first_seen": "2026-11-21T12:01:22+09:00",
-        "last_seen": "2026-11-21T12:01:22+09:00"
-      }
-    },
-    {
-      "key": "25d293d6c8c7a4667c77",
-      "hit": {
-        "url": "https://sushijaro.app/ja/clinic/kajiclinic?dose=2.5",
-        "title": "加地医院",
-        "snippet": "Mounjaro clinic listing (name lead only)",
-        "clinic_names": [
-          "加地医院"
-        ],
-        "channel": "web",
-        "source": "public_directory_lead",
-        "query": "foreign-traveler clinic directory",
-        "event": null,
-        "first_seen": "2026-11-21T12:01:22+09:00",
-        "last_seen": "2026-11-21T12:01:22+09:00"
+        "last_seen": "2026-11-21T12:18:42+09:00"
       }
     },
     {
@@ -2351,8 +2311,8 @@
         "source": "public_directory_lead",
         "query": "foreign-traveler clinic directory",
         "event": null,
-        "first_seen": "2026-11-21T12:01:22+09:00",
-        "last_seen": "2026-11-21T12:01:22+09:00"
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
       }
     },
     {
@@ -2369,8 +2329,835 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-21T12:01:22+09:00",
-        "last_seen": "2026-11-21T12:01:22+09:00"
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "3f879e8f31c479897006",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/tokyo-silk-clinic/",
+        "title": "東京シルククリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "東京シルククリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "b883fa2cee1a4d517a41",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/matsuura-clinic-kanazawa/",
+        "title": "まつうらクリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "まつうらクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "f4e3b2834fcea63aa597",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/hiroshima-circulation-clinic-nishi/",
+        "title": "広島循環器クリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "広島循環器クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "c412a19fdb01f0335c05",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/chiaro-clinic-aurelia/",
+        "title": "Chiaroクリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "Chiaroクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "99fe5e78728a271f0c68",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/nagoya-joy-clinic/",
+        "title": "名古屋ジョイクリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "名古屋ジョイクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "961743c6208f274a6006",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/total-skin-clinic-fukuoka-tenjin/",
+        "title": "トータルスキンクリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "トータルスキンクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "494e74be1a4f23e7246a",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/ushita-higashi-naika-hiroshima/",
+        "title": "うした東内科クリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "うした東内科クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "21404d0d02e321142e41",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/modena-clinic-tenjin/",
+        "title": "モデナクリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "モデナクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "de8852e62a510c95e44f",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/ap-skin-clinic-ginza/",
+        "title": "APスキンクリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "APスキンクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "15f32e16bda2c264c2ac",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/mbd-clinic-ikebukuro/",
+        "title": "MBDクリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "MBDクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "ac6e253cc1a25da2399d",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/shinjuku-east-primary-care/",
+        "title": "新宿東口プライマリケアクリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "新宿東口プライマリケアクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "47ea9e8a97fb5e96e7f5",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/east-ekimae-clinic-akihabara/",
+        "title": "イースト駅前クリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "イースト駅前クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "df661fc7d58f25437e7c",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/keihin-clinic-yokohama/",
+        "title": "京浜クリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "京浜クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "a2ba8370d253531fa5ee",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/namba-endoscopy-clinic/",
+        "title": "大阪なんば内科・消化器内視鏡クリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "大阪なんば内科・消化器内視鏡クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "01e8b8228403f0f95587",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/shirakawa-naika-iki/",
+        "title": "しらかわ内科クリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "しらかわ内科クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "84e3cb5b375b323d23ba",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/musashi-naika-kumamoto/",
+        "title": "むさし内科クリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "むさし内科クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "1e5eac25d051393b8b25",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/shinjuku-naika-jibika/",
+        "title": "新宿内科耳鼻科クリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "新宿内科耳鼻科クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "1d1d1bbad474ab80ceab",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/shinjuku-southern-clinic/",
+        "title": "新宿サザンクリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "新宿サザンクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "94aee135775b3e4fd526",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/tifa-clinic-yokohama/",
+        "title": "美容皮膚科ティファクリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "美容皮膚科ティファクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "d6528a932150c7525fea",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/saito-clinic-nihonbashi/",
+        "title": "さいとう内科・循環器クリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "さいとう内科・循環器クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "e6bd063276f140985131",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/aladdin-beauty-clinic-fukuoka/",
+        "title": "アラジン美容クリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "アラジン美容クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "5b46674e1f6250f94713",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/midori-eye-clinic-kumamoto/",
+        "title": "みどりアイクリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "みどりアイクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "25905ea5116970efcbe2",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/base-clinic-akasaka/",
+        "title": "Baseクリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "Baseクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "aff98675c0813c511c27",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/arcrish-clinic-hiroshima/",
+        "title": "アークリシュ美容皮フ科クリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "アークリシュ美容皮フ科クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "b9d9a3f50ab9f9779b8e",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/hiroshima-wellness-clinic/",
+        "title": "広島ウェルネスクリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "広島ウェルネスクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "e147cb591b4461302460",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/naare-clinic-tennoji/",
+        "title": "なーれクリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "なーれクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "aa575752b5a4adf7f981",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/east-ekimae-yamanashi/",
+        "title": "大田屋クリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "大田屋クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "dc7299b88752434c7936",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/east-ekimae-kouchi/",
+        "title": "あけぼのクリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "あけぼのクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "0799f8e878af3a989315",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/matsuzaki-naika-shimbashi/",
+        "title": "松崎内科クリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "松崎内科クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "36c5c2b29b1625d7f7cf",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/nihonbashi-clinic-ningyocho/",
+        "title": "日本橋クリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "日本橋クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/online/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "5807fba20c7200d1603a",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/mirai-setagaya/",
+        "title": "ミライメディカルクリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "ミライメディカルクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/online/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "a65938fe49ebd92939e2",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/ikebukuro-online-clinic/",
+        "title": "池袋オンラインクリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "池袋オンラインクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/online/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "1f820c1030a3ca512785",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/shigeto-clinic-kyoto/",
+        "title": "医療法人シゲトウクリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "医療法人シゲトウクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/online/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "3a929cf415a14cf45b26",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/maru-clinic-nagoya/",
+        "title": "MARUクリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "MARUクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/online/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "82904360348437ea2bc5",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/kanazawa-heart-kitagawa-naika/",
+        "title": "金沢ハートクリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "金沢ハートクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/online/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "6dee9d3279df14c6df62",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/east-ekimae-fujiyoshida/",
+        "title": "大田屋いまい泌尿器クリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "大田屋いまい泌尿器クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/online/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "bc063d9508397b6caecd",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/akihabara-sincere-clinic/",
+        "title": "秋葉原内科シンシアクリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "秋葉原内科シンシアクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/city/tokyo/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "35db881182e68bc8b98f",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/korea-m-ginza/",
+        "title": "韓国みにょんクリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "韓国みにょんクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/city/tokyo/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "93fc8edd5cc28b97211c",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/kawaguchi-clinic-asakusa/",
+        "title": "かわぐち内科・内視鏡クリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "かわぐち内科・内視鏡クリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/city/tokyo/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "12ea8eab266da888fb6c",
+      "hit": {
+        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/tokyo-ginza-medical-clinic/",
+        "title": "東京銀座メディカルクリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "東京銀座メディカルクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://mounjaro-map.jobby-time.com/ja/city/tokyo/",
+        "event": null,
+        "official_url_hint": "",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "91044ca8cbc9481f8282",
+      "hit": {
+        "url": "https://shibuya-hifuka.jp/chiryou/detail/glp1.html",
+        "title": "渋谷駅前おおしま皮膚科",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "渋谷駅前おおしま皮膚科"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://kusurigo.vercel.app/mounjaro-ja.html",
+        "event": null,
+        "official_url_hint": "https://shibuya-hifuka.jp/chiryou/detail/glp1.html",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "8e3e22ff17084d930b12",
+      "hit": {
+        "url": "https://ubikebukuro.com/price",
+        "title": "UBCLINIC",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "UBCLINIC"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://kusurigo.vercel.app/mounjaro-ja.html",
+        "event": null,
+        "official_url_hint": "https://ubikebukuro.com/price",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "e886da74d25ace5cb11f",
+      "hit": {
+        "url": "https://aurelia-online.jp/",
+        "title": "Chiaroクリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "Chiaroクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://kusurigo.vercel.app/mounjaro-ja.html",
+        "event": null,
+        "official_url_hint": "https://aurelia-online.jp/",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "fbff28d836b24a9948fa",
+      "hit": {
+        "url": "https://kichijojiclinic.com/price/",
+        "title": "吉祥寺まいにちクリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "吉祥寺まいにちクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://kusurigo.vercel.app/mounjaro-ja.html",
+        "event": null,
+        "official_url_hint": "https://kichijojiclinic.com/price/",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "67037efa3ea90d10b153",
+      "hit": {
+        "url": "https://www.glp1online.jp/index.html",
+        "title": "GLP-1オンラインクリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "GLP-1オンラインクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://kusurigo.vercel.app/mounjaro-ja.html",
+        "event": null,
+        "official_url_hint": "https://www.glp1online.jp/index.html",
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
+      }
+    },
+    {
+      "key": "fb887ea7bea3c2af50fc",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/goto-iin?dose=2.5",
+        "title": "後藤医院",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "後藤医院"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-21T12:18:42+09:00",
+        "last_seen": "2026-11-21T12:18:42+09:00"
       }
     }
   ],

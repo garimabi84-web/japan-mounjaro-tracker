@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "latest": {
-    "at": "2026-11-21T12:01:22+09:00",
-    "total": 0,
+    "at": "2026-11-21T12:18:42+09:00",
+    "total": 1,
     "counts": {
       "new": 0,
       "verified": 0,
@@ -10,11 +10,41 @@
       "promotion": 0,
       "info": 0,
       "status": 0,
-      "source": 0
+      "source": 1
     },
-    "items": []
+    "items": [
+      {
+        "type": "source",
+        "clinic_id": "modena",
+        "clinic": "모데나 클리닉 텐진",
+        "source_url": "https://modena-clinic.com/price",
+        "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+      }
+    ]
   },
   "runs": [
+    {
+      "at": "2026-11-21T12:18:42+09:00",
+      "total": 1,
+      "counts": {
+        "new": 0,
+        "verified": 0,
+        "price": 0,
+        "promotion": 0,
+        "info": 0,
+        "status": 0,
+        "source": 1
+      },
+      "items": [
+        {
+          "type": "source",
+          "clinic_id": "modena",
+          "clinic": "모데나 클리닉 텐진",
+          "source_url": "https://modena-clinic.com/price",
+          "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+        }
+      ]
+    },
     {
       "at": "2026-11-21T12:01:22+09:00",
       "total": 0,

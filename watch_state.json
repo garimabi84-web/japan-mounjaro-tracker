@@ -1,5 +1,5 @@
 {
-  "ran_at": "2026-11-21T12:01:33+09:00",
+  "ran_at": "2026-11-21T12:19:05+09:00",
   "hashes": {
     "https://baba-totalcareclinic.com/private-practice": "a3b141b4cbfca1ad3b54e74deadf22cb8a07c87f600b944481c176fb5cd22646",
     "https://tokyosilkclinic.com/menu/909": "c0190473d9a440191263d00607834cf85f2f48c7314ecb749794c6f61a36f785",
@@ -13,7 +13,7 @@
     "https://milc.info/mnj/inbmnj/inbmnj-ja.html": "4ba4b89f737032293703418bc979d765c6545b7b3b2b25222090769c25b94c4e",
     "https://fontana-clinic.jp/kr": "ac9eefec3d1182d1912c8fb4519b50afdaa7683b35899d0d214501d659573816",
     "https://www.mbcf.jp/pricemenu": "c8925a627cbc81a295d519ac243dea615cb202b8f5229ee09416ea0002d63de9",
-    "https://modena-clinic.com/price": "aaf2a5bfe0e4926071879d5a0dc1559c4f333fb999885c0b0c42668c748eb35f",
+    "https://modena-clinic.com/price": "ee7250e540477fc139cfc1e5b883659d581d072076fd5a3aa3d4ccdadf797b67",
     "https://kichijojiclinic.com/medical/medicaldiet_glp-1": "e57e73ce32cd601730381f28cf1c64fd8ec01a4b95bf948c47a1978ece52def2",
     "https://sio.clinic/medicalinformation/mounjaro": "0dd5030815fa644f748f07fb54224106d7b68011c5601776ea3d75a6816cfe0b",
     "https://www.shinjyuku-ekimae-clinic.info/naika/mounjaro.html": "c9cd8591f102a229f765ae7e9ed713f18df988b93c55399b9854be19402f5c09",
@@ -47,6 +47,10 @@
     "https://koyomi-clinic.com/": {
       "since": "2026-11-21T11:09:19+09:00",
       "name": "코요미 클리닉"
+    },
+    "https://modena-clinic.com/price": {
+      "since": "2026-11-21T12:19:05+09:00",
+      "name": "모데나 클리닉 텐진"
     }
   }
 }
