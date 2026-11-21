@@ -152,18 +152,24 @@ def get_registry(session,force=False,source_url=MHLW):
     REGISTRY.write_bytes(gzip.compress(json.dumps(data,ensure_ascii=False,separators=(',',':')).encode(),compresslevel=8))
     return data,'downloaded'
 
+_ROBOTS_CACHE={}
 def allowed(session,origin):
     # Check comparison-site robots directives; a 403 or explicit disallow is
     # interpreted as no permission to crawl. Avoid needless repeat checks.
     try:
         p=urllib.parse.urlsplit(origin)
-        r=session.get(p.scheme+'://'+p.netloc+'/robots.txt',timeout=(5,10))
-        if r.status_code in (401,403,429):return False
-        if r.status_code==404:return True
-        if not r.ok:return False
-        rp=RobotFileParser()
-        rp.parse(r.text.splitlines())
-        return rp.can_fetch(UA,origin)
+        key=p.scheme+'://'+p.netloc
+        if key not in _ROBOTS_CACHE:
+            r=session.get(key+'/robots.txt',timeout=(5,10))
+            if r.status_code in (401,403,429):_ROBOTS_CACHE[key]=False
+            elif r.status_code==404:_ROBOTS_CACHE[key]=True
+            elif not r.ok:_ROBOTS_CACHE[key]=False
+            else:
+                rp=RobotFileParser()
+                rp.parse(r.text.splitlines())
+                _ROBOTS_CACHE[key]=rp
+        rule=_ROBOTS_CACHE[key]
+        return rule if isinstance(rule,bool) else rule.can_fetch(UA,origin)
     except requests.RequestException:
         return False
 
@@ -342,7 +348,7 @@ def main():
             response=session.get(root,timeout=(8,20));response.raise_for_status()
             soup=BeautifulSoup(response.content,'html.parser')
             pages=page_roots(soup,root,kind)
-            per_run=8 if args.full_scan else 4
+            per_run=len(pages) if args.full_scan else 18
             chosen,at=pick_pages(pages,int(state.get(kind+'_cursor',0)),per_run)
             state[kind+'_cursor']=at
             # Some official sites link directly from the index home page too.
@@ -370,7 +376,7 @@ def main():
         gov_leads,gov_tests=inspect_gov(session,registry,state,35 if args.full_scan else 15)
     else:matches=match_registry(leads,[]);gov_leads=[];gov_tests=0
     cat=load(CATALOG)
-    added=add_leads(cat,matches+gov_leads,200 if args.full_scan else 80)
+    added=add_leads(cat,matches+gov_leads,1200 if args.full_scan else 300)
     if added:save(CATALOG,cat)
     report['count'].update({'directory_links':len(leads),'matched_registry':sum(x.get('gov_matched',False) for x in matches),
        'registry_sites_checked':gov_tests,'gov_drug_site_leads':len(gov_leads),
