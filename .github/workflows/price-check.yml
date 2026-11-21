@@ -13,6 +13,8 @@ on:
       - 'national_sources.py'
       - 'watch_sources.py'
       - 'enrich_official.py'
+      - 'source_price_parser.py'
+      - 'bulk_verify.py'
       - 'collect_promotions.py'
       - 'scan_changes.py'
       - 'index.template.html'
@@ -38,10 +40,11 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Validate discovery and official-price parsers
         run: |
-          python -m py_compile discover.py national_sources.py enrich_official.py collect_promotions.py scan_changes.py build.py
+          python -m py_compile discover.py national_sources.py enrich_official.py source_price_parser.py bulk_verify.py collect_promotions.py scan_changes.py build.py
           python discover.py --self-test
           python national_sources.py --self-test
           python enrich_official.py --self-test
+          python bulk_verify.py --self-test
           python collect_promotions.py --self-test
           python scan_changes.py --self-test
       - name: Snapshot before scan for diff tracking
@@ -65,6 +68,15 @@ jobs:
             python discover.py --full-scan
           else
             python discover.py
+          fi
+      - name: Parallel price verification on candidate clinic official websites
+        env:
+          FULL_SCAN: ${{ github.event_name == 'push' || inputs.full_scan }}
+        run: |
+          if [ "$FULL_SCAN" = "true" ]; then
+            python bulk_verify.py --limit 130
+          else
+            python bulk_verify.py --limit 80
           fi
       - name: Verify clinic identity and prices against official source pages
         env:
@@ -110,6 +122,7 @@ jobs:
             python scan_changes.py --before
             python national_sources.py
             python discover.py
+            python bulk_verify.py --limit 45
             python enrich_official.py
             python collect_promotions.py
             python watch_sources.py
