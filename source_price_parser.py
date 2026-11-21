@@ -196,6 +196,11 @@ def self_test():
     <tr><td>10mg</td><td>4本</td><td>66,000円（税込）</td></tr></table>'''
     saga_prices,_=extract_official(saga)
     assert saga_prices=={'2.5':59400,'5':120000,'7.5':165000,'10':198000},saga_prices
+    # If unrelated nearby marketing mentions a three-month regimen, it must
+    # not override the table's explicit four-pen quantity cells.
+    misleading='<p>マンジャロは3ヶ月間継続的に評価します</p>'+saga
+    saga_again,_=extract_official(misleading)
+    assert saga_again==saga_prices,('previous 3-month prose overrode 4 pens',saga_again)
     assert saga_prices['10']!=66000, 'one-month price must NEVER appear as 12-pen price'
     heading='<h2>マンジャロ価格</h2><p>10mg (4週分) 60,000円</p>'
     x,_=extract_official(heading)
