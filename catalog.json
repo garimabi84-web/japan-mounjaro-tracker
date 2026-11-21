@@ -3670,7 +3670,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:49:37+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-e4a45d8ff719",
@@ -3709,7 +3711,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:49:38+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-e7a33535efee",
@@ -3748,7 +3752,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:49:39+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-800c4028d811",
@@ -3787,7 +3793,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:49:39+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-8a2f3fba8e41",
@@ -3826,7 +3834,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:49:40+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-3c5b0c9fbc32",
@@ -3865,7 +3875,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:49:40+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-e402acc2b919",
@@ -3904,7 +3916,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:49:41+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-082391348a9d",
@@ -3943,7 +3957,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:49:41+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-caad2686bd60",
@@ -3982,7 +3998,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:49:42+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-04553c1de0b8",
@@ -4021,7 +4039,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:49:42+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-b9c7a4a44c9e",
@@ -4060,7 +4080,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:49:42+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-fc311ca1f512",
@@ -4099,7 +4121,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:49:43+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-4d7e144e6e1c",
@@ -4706,7 +4730,7 @@
       "basis": "공식 출처·SNS·비교 사이트에서 발견된 후보 (검증 전)",
       "url": "https://mame-clinic.net/articles/?p=112949",
       "official_url_hint": "https://mame-clinic.net/articles/?p=112949",
-      "notes": "공개 공식 사이트 검색에서 발견된 페이지. 실제 의료기관·기관명·가격 확인 전.",
+      "notes": "공식 가격 페이지 후보 발견, 기간 한정/쿠폰 조건 때문에 자동 비교가 보류: https://mame-clinic.net/articles/?p=112949",
       "fees": "미확인",
       "status": "candidate",
       "address": "",
@@ -4723,7 +4747,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:49:27+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-f2850edf430e",
@@ -4762,7 +4788,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:49:28+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-4f329b0344a4",
@@ -4801,7 +4829,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:49:29+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-4b057da3a3c6",
@@ -4813,24 +4843,24 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
-        "5": null,
-        "7.5": null,
+        "2.5": 60000,
+        "5": 105000,
+        "7.5": 150000,
         "10": null,
         "12.5": null,
         "15": null
       },
-      "basis": "공식 출처·SNS·비교 사이트에서 발견된 후보 (검증 전)",
+      "basis": "official 12-pen posted or explicit 4-pen price × 3; 공개 검색 후보를 공식 페이지로 교차 확인",
       "url": "https://s-brainheart.com/%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD",
       "official_url_hint": "https://s-brainheart.com/%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD",
-      "notes": "공개 공식 사이트 검색에서 발견된 페이지. 실제 의료기관·기관명·가격 확인 전.",
+      "notes": "가격은 공식 페이지에서 단위를 명시한 금액만 채움. 외국인/배송/온라인 진료는 검증 전이며 자동으로 가능 표시하지 않음.",
       "fees": "미확인",
-      "status": "candidate",
+      "status": "active",
       "address": "",
-      "channel": "공식 홈페이지 검색 후보",
+      "channel": "공식 홈페이지 검색 → 공식 가격 검증",
       "updated": "2026-11-21",
       "discovery": "auto",
-      "price_verified": false,
+      "price_verified": true,
       "candidate_quality": "name_unverified",
       "identity_conflict": false,
       "directory_slug": "",
@@ -4840,7 +4870,10 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:49:29+09:00",
+      "official_attempts": 1,
+      "official_domain": "s-brainheart.com"
     },
     {
       "id": "found-5603b6ae84fe",
@@ -4879,7 +4912,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:49:30+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-37d5bd9b63b3",
@@ -6401,6 +6436,47 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21"
+    },
+    {
+      "id": "found-fdfc579a9859",
+      "name": "みんな幸せクリニック",
+      "region": "미확인",
+      "city": "미확인",
+      "mode": "미확인",
+      "foreign": "unknown",
+      "online": "unknown",
+      "ship": "unknown",
+      "prices": {
+        "2.5": null,
+        "5": null,
+        "7.5": null,
+        "10": null,
+        "12.5": null,
+        "15": null
+      },
+      "basis": "공식 출처·SNS·비교 사이트에서 발견된 후보 (검증 전)",
+      "url": "https://minnashiawase-clinic.com/post-2418/",
+      "official_url_hint": "https://minnashiawase-clinic.com/post-2418/",
+      "notes": "공개 공식 사이트 검색에서 발견된 페이지. 실제 의료기관·기관명·가격 확인 전.",
+      "fees": "미확인",
+      "status": "candidate",
+      "address": "",
+      "channel": "공식 홈페이지 검색 후보",
+      "updated": "2026-11-21",
+      "discovery": "auto",
+      "price_verified": false,
+      "candidate_quality": "name_unverified",
+      "identity_conflict": false,
+      "directory_slug": "",
+      "events": [],
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공식 예약 경로 확인 전",
+      "booking_checked": "",
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:49:36+09:00",
+      "official_attempts": 1
     }
   ],
   "schema": 3,
