@@ -1,0 +1,35 @@
+{
+  "ran_at": "2026-11-21T12:28:46+09:00",
+  "sources": [
+    {
+      "source": "MHLW clinic open data",
+      "ok": true,
+      "mode": "downloaded",
+      "records": 47908,
+      "url": "https://www.mhlw.go.jp/content/11121000/02-1_clinic_facility_info_20260601.csv.zip"
+    },
+    {
+      "source": "sayaka",
+      "ok": true,
+      "pages": 5,
+      "official_link_leads": 385,
+      "total_pages": 51
+    },
+    {
+      "source": "mirai",
+      "ok": true,
+      "pages": 5,
+      "official_link_leads": 118,
+      "total_pages": 44
+    }
+  ],
+  "count": {
+    "mhlw_website_records": 47908,
+    "directory_links": 503,
+    "matched_registry": 450,
+    "registry_sites_checked": 15,
+    "gov_drug_site_leads": 0,
+    "new_candidates": 80,
+    "new_gov_matched": 80
+  }
+}

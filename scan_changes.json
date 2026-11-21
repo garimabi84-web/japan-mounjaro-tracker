@@ -1,28 +1,996 @@
 {
   "schema": 1,
   "latest": {
-    "at": "2026-11-21T12:18:42+09:00",
-    "total": 1,
+    "at": "2026-11-21T12:30:01+09:00",
+    "total": 80,
     "counts": {
-      "new": 0,
+      "new": 80,
       "verified": 0,
       "price": 0,
       "promotion": 0,
       "info": 0,
       "status": 0,
-      "source": 1
+      "source": 0
     },
     "items": [
       {
-        "type": "source",
-        "clinic_id": "modena",
-        "clinic": "모데나 클리닉 텐진",
-        "source_url": "https://modena-clinic.com/price",
-        "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+        "type": "new",
+        "clinic_id": "national-8dda4943053060",
+        "clinic": "あきしま駅前泌尿器科内科",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-c40ba3589b3b5a",
+        "clinic": "あきら内科",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-738af7e6310601",
+        "clinic": "あたまと体のヘルスケアクリニック神田",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-c27ba29bb97ccc",
+        "clinic": "あべしゅん内科・内視鏡ＩＢＤクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-96f52c435fb9ca",
+        "clinic": "ありずみ消化器内科",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-dde3217bb68a80",
+        "clinic": "いあい整形外科",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-5be17fc1f1261b",
+        "clinic": "いつもジェネラルクリニック秋津院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-0fdf46817b8a2c",
+        "clinic": "いびきのクリニック　新宿院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-0b3bc2ef80dc4b",
+        "clinic": "いびきのクリニック　梅田院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-e490363854177e",
+        "clinic": "うえすぎクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-6ee9cb9b662bf6",
+        "clinic": "うすだ内科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-bfa8fb13206db8",
+        "clinic": "うらおか内科・内視鏡クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-d23f85707cad67",
+        "clinic": "かけはしファミリークリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-592e13c2bd1a23",
+        "clinic": "かなやファミリークリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-66c9802544aee2",
+        "clinic": "さかもとクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-1ad7aa39101ce5",
+        "clinic": "しずく内科クリニック東池袋",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-4aed9175bcc498",
+        "clinic": "せたがや仙川クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-2c4d83e1cca924",
+        "clinic": "たかえ内科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-cb7d47bb79ac39",
+        "clinic": "たけしたクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-5f36be0ddb73c3",
+        "clinic": "ちとせ船橋駅前内科　糖尿病・生活習慣病クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-950191605a6549",
+        "clinic": "つつじヶ丘駅前内科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-7c69dd861d00fb",
+        "clinic": "てらだ内科皮フ科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-45b97e707c96ed",
+        "clinic": "なかがわ内科",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-251b8074bd1613",
+        "clinic": "なないろクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-275d4cb7f4edbd",
+        "clinic": "のぞみクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-1ea71ba8ef264a",
+        "clinic": "はたもり消化器・内視鏡クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-6bbd2dfa8aa9ab",
+        "clinic": "はなふさ皮膚科　なんば院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-b6dc130f2ddb51",
+        "clinic": "はら内科・脳神経クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-973d3dd060cbb3",
+        "clinic": "ひでまるファミリークリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-0f4f73a49a24a6",
+        "clinic": "ひろつ内科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-4464cf4da4974f",
+        "clinic": "ふくろうの森クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-a0cf601f465bec",
+        "clinic": "みずほクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-271e389016c4f5",
+        "clinic": "みなみクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-1488adf2fa7658",
+        "clinic": "みやびスキンクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-9f2a5ca8319494",
+        "clinic": "やさしい美容皮膚科・皮フ科東京浅草院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-0c252fa3303419",
+        "clinic": "やまおか内科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-d77cd8570f1e61",
+        "clinic": "ゆかわ内科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-ff7335ff085c4d",
+        "clinic": "ゆきおかクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-9e3d4db9e55a4e",
+        "clinic": "ゆきスキンクリニック東池袋",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-bb036c2b332ddd",
+        "clinic": "よこいクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-3187f5f21b3314",
+        "clinic": "よしだ内科",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-2009f34fbb9077",
+        "clinic": "アイリスター麻布クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-458ac68dd87aa5",
+        "clinic": "アピアランスビューティクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-9957655c000ff7",
+        "clinic": "イデア美容皮膚科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-620af27d652944",
+        "clinic": "ウィルビークリニック新宿",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-5329d806638c27",
+        "clinic": "ウェルネストクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-18d67104d832b6",
+        "clinic": "エースクリニック大阪梅田　ＨＥＰナビオ院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-5d2098993a65d1",
+        "clinic": "クリアクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-898973c258b3fe",
+        "clinic": "ジュノビューティークリニック天神院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-5e2f4e1d7a3873",
+        "clinic": "スマルナクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-3ba16144280470",
+        "clinic": "デジタルクリニック　渋谷院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-62c29dfd7c0754",
+        "clinic": "ナガイクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-f061c9d66f55b9",
+        "clinic": "ヌービススキンクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-a95a142cf17490",
+        "clinic": "パーソナルケアクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-785881b6fbce17",
+        "clinic": "ビー・ファイン　クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-0e6f83daeedec4",
+        "clinic": "ファイヤークリニック銀座院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-5a0014ff50fb32",
+        "clinic": "フェミューズクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-096abc24df2cd7",
+        "clinic": "フェリス総合内科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-4ac85aa8b67e32",
+        "clinic": "フローラクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-1ac1c3faaad58c",
+        "clinic": "ヘルスマネージメントクリニック西新宿",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-761c3c2311f7ca",
+        "clinic": "マルーンビューティースキンクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-da1b3b89a85663",
+        "clinic": "ルラ美容クリニック高田馬場院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-36c2f40a94c1b5",
+        "clinic": "レイラクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-2e1b68e37e8971",
+        "clinic": "レディースクリニックなみなみ",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-4072f67f751b97",
+        "clinic": "ロジック　ビューティークリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-a170ac45246bc1",
+        "clinic": "ワンクリニック恵比寿",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-fb79a808235932",
+        "clinic": "一般社団法人　森美会　Ｍ　Ｂｅａｕｔｙ　Ｃｌｉｎｉｃ",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-df3895aade0df9",
+        "clinic": "一般社団法人再生医療皮膚科研究会　Ｔｏｋｙｏ　Ｂｅａｕｔｙ　Ｍａｓｔｅｒ　Ｃｌｉｎｉｃ．",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-26a8c96d1b3a49",
+        "clinic": "一般社団法人青麗会　青山メディカルクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-36bda79ee58ac6",
+        "clinic": "一般社団法人ＣＤＭｅｄｉｃａｌ　曳舟泌尿器・皮ふ科クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-3e214d29ed83ed",
+        "clinic": "一般社団法人ＣＤＭｅｄｉｃａｌ　西すがも滝野川内科・内視鏡クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-d828bda79bad78",
+        "clinic": "一般社団法人ＭＡＲＣＨ　マーチクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-bdc2a47d397df3",
+        "clinic": "上野皮膚科ゆうスキンクリニック上野院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-e32e451f3cd1ad",
+        "clinic": "下北沢Ｄｏクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-a1017d946a32e0",
+        "clinic": "久我山ハートクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-7cbdccfa47a859",
+        "clinic": "久我山駅前メディカルクリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-4497bc95848c77",
+        "clinic": "五反田イースト駅前クリニック",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-2d53276aa390c9",
+        "clinic": "井上内科医院",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-ac7c9e267a63ff",
+        "clinic": "倉知内科",
+        "label": "신규 병원 후보"
+      },
+      {
+        "type": "new",
+        "clinic_id": "national-ddbd74677748e0",
+        "clinic": "元林産婦人科内科",
+        "label": "신규 병원 후보"
       }
     ]
   },
   "runs": [
+    {
+      "at": "2026-11-21T12:30:01+09:00",
+      "total": 80,
+      "counts": {
+        "new": 80,
+        "verified": 0,
+        "price": 0,
+        "promotion": 0,
+        "info": 0,
+        "status": 0,
+        "source": 0
+      },
+      "items": [
+        {
+          "type": "new",
+          "clinic_id": "national-8dda4943053060",
+          "clinic": "あきしま駅前泌尿器科内科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-c40ba3589b3b5a",
+          "clinic": "あきら内科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-738af7e6310601",
+          "clinic": "あたまと体のヘルスケアクリニック神田",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-c27ba29bb97ccc",
+          "clinic": "あべしゅん内科・内視鏡ＩＢＤクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-96f52c435fb9ca",
+          "clinic": "ありずみ消化器内科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-dde3217bb68a80",
+          "clinic": "いあい整形外科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-5be17fc1f1261b",
+          "clinic": "いつもジェネラルクリニック秋津院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-0fdf46817b8a2c",
+          "clinic": "いびきのクリニック　新宿院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-0b3bc2ef80dc4b",
+          "clinic": "いびきのクリニック　梅田院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-e490363854177e",
+          "clinic": "うえすぎクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-6ee9cb9b662bf6",
+          "clinic": "うすだ内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-bfa8fb13206db8",
+          "clinic": "うらおか内科・内視鏡クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-d23f85707cad67",
+          "clinic": "かけはしファミリークリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-592e13c2bd1a23",
+          "clinic": "かなやファミリークリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-66c9802544aee2",
+          "clinic": "さかもとクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-1ad7aa39101ce5",
+          "clinic": "しずく内科クリニック東池袋",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-4aed9175bcc498",
+          "clinic": "せたがや仙川クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-2c4d83e1cca924",
+          "clinic": "たかえ内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-cb7d47bb79ac39",
+          "clinic": "たけしたクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-5f36be0ddb73c3",
+          "clinic": "ちとせ船橋駅前内科　糖尿病・生活習慣病クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-950191605a6549",
+          "clinic": "つつじヶ丘駅前内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-7c69dd861d00fb",
+          "clinic": "てらだ内科皮フ科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-45b97e707c96ed",
+          "clinic": "なかがわ内科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-251b8074bd1613",
+          "clinic": "なないろクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-275d4cb7f4edbd",
+          "clinic": "のぞみクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-1ea71ba8ef264a",
+          "clinic": "はたもり消化器・内視鏡クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-6bbd2dfa8aa9ab",
+          "clinic": "はなふさ皮膚科　なんば院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-b6dc130f2ddb51",
+          "clinic": "はら内科・脳神経クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-973d3dd060cbb3",
+          "clinic": "ひでまるファミリークリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-0f4f73a49a24a6",
+          "clinic": "ひろつ内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-4464cf4da4974f",
+          "clinic": "ふくろうの森クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-a0cf601f465bec",
+          "clinic": "みずほクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-271e389016c4f5",
+          "clinic": "みなみクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-1488adf2fa7658",
+          "clinic": "みやびスキンクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-9f2a5ca8319494",
+          "clinic": "やさしい美容皮膚科・皮フ科東京浅草院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-0c252fa3303419",
+          "clinic": "やまおか内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-d77cd8570f1e61",
+          "clinic": "ゆかわ内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-ff7335ff085c4d",
+          "clinic": "ゆきおかクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-9e3d4db9e55a4e",
+          "clinic": "ゆきスキンクリニック東池袋",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-bb036c2b332ddd",
+          "clinic": "よこいクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-3187f5f21b3314",
+          "clinic": "よしだ内科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-2009f34fbb9077",
+          "clinic": "アイリスター麻布クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-458ac68dd87aa5",
+          "clinic": "アピアランスビューティクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-9957655c000ff7",
+          "clinic": "イデア美容皮膚科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-620af27d652944",
+          "clinic": "ウィルビークリニック新宿",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-5329d806638c27",
+          "clinic": "ウェルネストクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-18d67104d832b6",
+          "clinic": "エースクリニック大阪梅田　ＨＥＰナビオ院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-5d2098993a65d1",
+          "clinic": "クリアクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-898973c258b3fe",
+          "clinic": "ジュノビューティークリニック天神院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-5e2f4e1d7a3873",
+          "clinic": "スマルナクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-3ba16144280470",
+          "clinic": "デジタルクリニック　渋谷院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-62c29dfd7c0754",
+          "clinic": "ナガイクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-f061c9d66f55b9",
+          "clinic": "ヌービススキンクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-a95a142cf17490",
+          "clinic": "パーソナルケアクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-785881b6fbce17",
+          "clinic": "ビー・ファイン　クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-0e6f83daeedec4",
+          "clinic": "ファイヤークリニック銀座院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-5a0014ff50fb32",
+          "clinic": "フェミューズクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-096abc24df2cd7",
+          "clinic": "フェリス総合内科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-4ac85aa8b67e32",
+          "clinic": "フローラクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-1ac1c3faaad58c",
+          "clinic": "ヘルスマネージメントクリニック西新宿",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-761c3c2311f7ca",
+          "clinic": "マルーンビューティースキンクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-da1b3b89a85663",
+          "clinic": "ルラ美容クリニック高田馬場院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-36c2f40a94c1b5",
+          "clinic": "レイラクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-2e1b68e37e8971",
+          "clinic": "レディースクリニックなみなみ",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-4072f67f751b97",
+          "clinic": "ロジック　ビューティークリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-a170ac45246bc1",
+          "clinic": "ワンクリニック恵比寿",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-fb79a808235932",
+          "clinic": "一般社団法人　森美会　Ｍ　Ｂｅａｕｔｙ　Ｃｌｉｎｉｃ",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-df3895aade0df9",
+          "clinic": "一般社団法人再生医療皮膚科研究会　Ｔｏｋｙｏ　Ｂｅａｕｔｙ　Ｍａｓｔｅｒ　Ｃｌｉｎｉｃ．",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-26a8c96d1b3a49",
+          "clinic": "一般社団法人青麗会　青山メディカルクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-36bda79ee58ac6",
+          "clinic": "一般社団法人ＣＤＭｅｄｉｃａｌ　曳舟泌尿器・皮ふ科クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-3e214d29ed83ed",
+          "clinic": "一般社団法人ＣＤＭｅｄｉｃａｌ　西すがも滝野川内科・内視鏡クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-d828bda79bad78",
+          "clinic": "一般社団法人ＭＡＲＣＨ　マーチクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-bdc2a47d397df3",
+          "clinic": "上野皮膚科ゆうスキンクリニック上野院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-e32e451f3cd1ad",
+          "clinic": "下北沢Ｄｏクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-a1017d946a32e0",
+          "clinic": "久我山ハートクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-7cbdccfa47a859",
+          "clinic": "久我山駅前メディカルクリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-4497bc95848c77",
+          "clinic": "五反田イースト駅前クリニック",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-2d53276aa390c9",
+          "clinic": "井上内科医院",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-ac7c9e267a63ff",
+          "clinic": "倉知内科",
+          "label": "신규 병원 후보"
+        },
+        {
+          "type": "new",
+          "clinic_id": "national-ddbd74677748e0",
+          "clinic": "元林産婦人科内科",
+          "label": "신규 병원 후보"
+        }
+      ]
+    },
     {
       "at": "2026-11-21T12:18:42+09:00",
       "total": 1,
