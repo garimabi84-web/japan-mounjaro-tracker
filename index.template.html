@@ -113,7 +113,7 @@ function promotionalInline(x,d){
  const limited=prices.slice(0,2).map(p=>{
   const origin=p.pens===4?' · 4펜 '+fmt(p.raw)+' ×3 환산':' · 12펜';
   const expiry=p.expired?' · 종료':'';const link=sourceUrl(p.url);
-  return '<div class="promo-note"><span class="tag promo">'+escape(p.label)+'</span><span class="promo-price">'+fmt(p.amount)+'</span><small>'+escape(promotionDate(p)+origin+expiry)+'</small>'+(link?'<a href="'+escape(link)+'" target="_blank" rel="noopener noreferrer">출처 ↗</a>':'')+'</div>';
+  return '<div class="promo-note"><span class="tag promo">'+escape(p.label)+'</span><span class="promo-price">'+fmt(p.amount)+'</span><small>'+escape(promotionDate(p)+(p.period?' · '+p.period:'')+origin+expiry)+'</small>'+(link?'<a href="'+escape(link)+'" target="_blank" rel="noopener noreferrer">출처 ↗</a>':'')+'</div>';
  }).join('');
  return limited+(prices.length>2?'<span class="smalltext">홍보물 '+(prices.length-2)+'건 더 있음 · 상세 보기</span>':'');
 }
