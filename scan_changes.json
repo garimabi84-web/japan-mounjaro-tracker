@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "latest": {
+    "at": "2026-11-21T12:01:22+09:00",
+    "total": 0,
+    "counts": {
+      "new": 0,
+      "verified": 0,
+      "price": 0,
+      "promotion": 0,
+      "info": 0,
+      "status": 0,
+      "source": 0
+    },
+    "items": []
+  },
+  "runs": [
+    {
+      "at": "2026-11-21T12:01:22+09:00",
+      "total": 0,
+      "counts": {
+        "new": 0,
+        "verified": 0,
+        "price": 0,
+        "promotion": 0,
+        "info": 0,
+        "status": 0,
+        "source": 0
+      },
+      "items": []
+    }
+  ]
+}
