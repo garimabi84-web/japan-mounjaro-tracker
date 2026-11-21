@@ -41,7 +41,7 @@ def x_status_date(url):
         host=urlsplit(url).hostname or ''
         if not any(host==x or host.endswith('.'+x) for x in ('x.com','twitter.com')):
             return ''
-        match=re.search(r'/status/(\\d{14,22})(?:[/?#]|$)',url)
+        match=re.search(r'/status/(\d{14,22})(?:[/?#]|$)',url)
         if not match:return ''
         status_id=int(match[1])
         timestamp=((status_id >> 22)+1288834974657)/1000
