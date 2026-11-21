@@ -8,10 +8,10 @@ import argparse, concurrent.futures, json, re, unicodedata, urllib.parse
 import requests
 from bs4 import BeautifulSoup
 from discover import CATALOG, UA, now
-from enrich_official import extract_prices, official_host
+from enrich_official import official_host
 from source_price_parser import extract_official
 
-DRUG=re.compile('マンジャロ|mounjaro|チルゼパチド',re.I)
+DRUG=re.compile('マンジャロ|mounjaro',re.I)
 FOLLOW=re.compile('マンジャロ|mounjaro|medical[-_/ ]?diet|glp[-_/]?1|ダイエット|自由診療|料金|価格|美容',re.I)
 TEMPORARY=re.compile('期間限定|初回限定|キャンペーン価格|クーポン適用')
 
@@ -19,10 +19,9 @@ def normalized(s):
     return re.sub(r'[^a-z0-9ぁ-んァ-ヴ一-龥]','',unicodedata.normalize('NFKC',str(s)).lower())
 
 def parse_price(html):
-    prices,basis=extract_official(html)
-    older,old_basis=extract_prices(html)
-    for dose,val in older.items():prices.setdefault(dose,val)
-    return prices,basis or old_basis
+    # Strict brand/scoped-parser only. The former permissive fall-back could
+    # steal 10mg prices from empagliflozin or 7.5mg Zepbound rows.
+    return extract_official(html)
 
 def validate_page(item,original,response):
     root=official_host(original)
@@ -101,6 +100,8 @@ def self_test():
     assert len(choose(sample,10))==2
     prices,_=parse_price('<h2>マンジャロ</h2><p>10mg（4週分）60,000円</p>')
     assert prices.get('10')==180000,prices
+    zep='<h3>ゼップバウンド</h3><p>糖尿病治療薬「マンジャロ」と同成分。</p><p>10mg（1ヶ月分）33,000円</p>'
+    assert parse_price(zep)[0]=={},parse_price(zep)
     print('Parallel official-price verification self-test passed')
 
 def run():
