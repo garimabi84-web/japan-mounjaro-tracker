@@ -113,6 +113,13 @@ def run():
             continue
         names=h.get('clinic_names',[])
         matches={c['id']:c for n in names for c in by_name.get(norm(n),[])}
+        # Public search captions sometimes contain an existing brand without a
+        # clean name token (e.g., Korean transliteration). Require a UNIQUE
+        # complete existing clinic name in the same ad, never a fuzzy match.
+        if not matches:
+            searchable=norm(' '.join((h.get('title',''),h.get('snippet',''))))
+            matches={c['id']:c for key,clinics in by_name.items()
+                     if len(key)>=7 and key in searchable for c in clinics}
         # Matching just a generic phrase, or a shared brand, is not enough.
         if len(matches)!=1:
             continue
