@@ -147,7 +147,7 @@ def run():
     # official clinic website, without starving older name-only candidates.
     linked = [x for x in queue if x.get('official_url_hint')]
     name_only = [x for x in queue if not x.get('official_url_hint')]
-    batch = linked[:(45 if os.environ.get('FULL_SCAN')=='true' else 24)] + name_only[:12]
+    batch = linked[:(26 if os.environ.get('FULL_SCAN')=='true' else 12)] + name_only[:(9 if os.environ.get('FULL_SCAN')=='true' else 6)]
     done=0
     for item in batch:
         done+=1
@@ -164,7 +164,7 @@ def run():
                 continue
         if not official:continue
         try:
-            resp=session.get(official,timeout=(6,15));resp.raise_for_status()
+            resp=session.get(official,timeout=(5,11));resp.raise_for_status()
             soup=BeautifulSoup(resp.content,'html.parser');text=soup.get_text(' ',strip=True)
             prices,basis=extract_prices(resp.content)
             # A clinic homepage may link to a dedicated Mounjaro price page.
@@ -176,9 +176,9 @@ def run():
                     if official_host(href)!=official_host(official):continue
                     if href==official or not re.search(r'マンジャロ|mounjaro|チルゼパチド|medical[-_/]?diet|glp[-_/]?1',label,re.I):continue
                     if href not in links:links.append(href)
-                for href in links[:2]:
+                for href in links[:1]:
                     try:
-                        follow=session.get(href,timeout=(6,13));follow.raise_for_status()
+                        follow=session.get(href,timeout=(5,9));follow.raise_for_status()
                         found,basis=extract_prices(follow.content)
                         if found:
                             prices=found;official=follow.url
