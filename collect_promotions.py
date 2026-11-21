@@ -35,6 +35,23 @@ def valid_sns(url):
     except ValueError:
         return False
 
+def x_status_date(url):
+    """Twitter/X Snowflake status IDs encode the UTC post creation time."""
+    try:
+        host=urlsplit(url).hostname or ''
+        if not any(host==x or host.endswith('.'+x) for x in ('x.com','twitter.com')):
+            return ''
+        match=re.search(r'/status/(\\d{14,22})(?:[/?#]|$)',url)
+        if not match:return ''
+        status_id=int(match[1])
+        timestamp=((status_id >> 22)+1288834974657)/1000
+        value=dt.datetime.fromtimestamp(timestamp,dt.timezone.utc)
+        if dt.date(2011,1,1)<=value.date()<=dt.datetime.now(dt.timezone.utc).date()+dt.timedelta(days=1):
+            return value.date().isoformat()
+    except (OverflowError,ValueError,TypeError):
+        pass
+    return ''
+
 def posted_date(hit):
     # The publisher's date must be explicitly labelled by the source adapter.
     # Dates in an event caption are often sale END dates, not post dates.
@@ -46,7 +63,7 @@ def posted_date(hit):
                 value=f'{m[1]}-{int(m[2]):02d}-{int(m[3]):02d}'
                 try:dt.date.fromisoformat(value);return value
                 except ValueError:pass
-    return ''
+    return x_status_date(str(hit.get('url','')))
 
 def detect_offers(text):
     txt=unicodedata.normalize('NFKC',text or '')
@@ -97,6 +114,8 @@ def run():
         assert not detect_offers('10mg 4本 12本 30,000円') # ambiguous packaging
         assert posted_date({'posted_date':'2026-11-21T12:00:00+09:00'})=='2026-11-21'
         assert posted_date({'snippet':'2026/11/30まで'})==''
+        synthetic=(1700000000000-1288834974657)<<22
+        assert x_status_date('https://x.com/test/status/'+str(synthetic))=='2023-11-14'
         print('advertised-price extraction self-test passed')
         return
     cat=json.loads(CAT.read_text(encoding='utf-8'))
@@ -130,6 +149,7 @@ def run():
         promotions.append({
             'url':url, 'source':'공개 SNS 홍보물', 'posted_date':posted_date(h),
             'first_seen':h.get('first_seen') or disc.get('ran_at','')[:10],
+            'date_basis':'explicit' if h.get('published_at') or h.get('posted_date') else ('x_status_id' if x_status_date(url) else 'unknown'),
             'offers':offers, 'snippet':str(h.get('snippet',''))[:350],
             'verified':False,
             'note':'공식 가격표와 별개의 공개 홍보물 단서. 현재 유효성·조건·일괄 처방 미확인'
