@@ -113,14 +113,38 @@ def parse_registry_zip(blob):
     entries.sort(key=lambda r:(r['id'],host(r['url']),r['name']))
     return entries
 
-def get_registry(session,force=False):
+def newest_government_source(session,state):
+    """Check for future semiannual releases without guessing ZIP filenames."""
+    today=dt.date.today()
+    last=str(state.get('mhlw_source_checked',''))
+    if last:
+        try:
+            if (today-dt.date.fromisoformat(last)).days<30:return state.get('mhlw_source_url',MHLW)
+        except ValueError:pass
+    try:
+        r=session.get(MHLW_PAGE,timeout=(7,18));r.raise_for_status()
+        soup=BeautifulSoup(r.content,'html.parser')
+        candidates=[]
+        for a in soup.select('a[href]'):
+            url=urllib.parse.urljoin(MHLW_PAGE,a['href'])
+            match=re.search(r'02-1_clinic_facility_info_(20[0-9]{6})[.]csv[.]zip',url)
+            if match and urllib.parse.urlsplit(url).hostname=='www.mhlw.go.jp':
+                candidates.append((match[1],url))
+        if candidates:
+            state['mhlw_source_url']=max(candidates)[1]
+            state['mhlw_source_checked']=today.isoformat()
+    except requests.RequestException as exc:
+        print('MHLW source-index refresh failed:',str(exc)[:100])
+    return state.get('mhlw_source_url',MHLW)
+
+def get_registry(session,force=False,source_url=MHLW):
     if REGISTRY.exists() and not force:
         try:
             blob=gzip.decompress(REGISTRY.read_bytes())
             data=json.loads(blob)
             if isinstance(data,list) and data:return data,'cached'
         except Exception:pass
-    rsp=session.get(MHLW,timeout=(12,70))
+    rsp=session.get(source_url,timeout=(12,70))
     rsp.raise_for_status()
     if len(rsp.content)>35_000_000:raise ValueError('MHLW ZIP unexpectedly large')
     data=parse_registry_zip(rsp.content)
@@ -300,9 +324,11 @@ def main():
     session=requests.Session();session.headers.update({'User-Agent':UA,'Accept-Language':'ja,ko;q=0.8,en;q=0.6'})
     state=load(STATE);report={'ran_at':now(),'sources':[],'count':{}}
     try:
-        registry,mode=get_registry(session)
+        source_url=newest_government_source(session,state)
+        registry,mode=get_registry(session,force=bool(REGISTRY.exists() and state.get('mhlw_cached_url') and source_url!=state.get('mhlw_cached_url')),source_url=source_url)
+        state['mhlw_cached_url']=source_url
         report['count']['mhlw_website_records']=len(registry)
-        report['sources'].append({'source':'MHLW 2026 clinic open data','ok':True,'mode':mode,'records':len(registry)})
+        report['sources'].append({'source':'MHLW clinic open data','ok':True,'mode':mode,'records':len(registry),'url':source_url})
         print('MHLW registry:',len(registry),'website entries;',mode)
     except Exception as e:
         registry=[]
