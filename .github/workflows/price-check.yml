@@ -14,6 +14,7 @@ on:
       - 'watch_sources.py'
       - 'enrich_official.py'
       - 'source_price_parser.py'
+      - 'price_audit.py'
       - 'bulk_verify.py'
       - 'collect_promotions.py'
       - 'scan_changes.py'
@@ -40,11 +41,12 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Validate discovery and official-price parsers
         run: |
-          python -m py_compile discover.py national_sources.py enrich_official.py source_price_parser.py bulk_verify.py collect_promotions.py scan_changes.py build.py
+          python -m py_compile discover.py national_sources.py enrich_official.py source_price_parser.py bulk_verify.py price_audit.py collect_promotions.py scan_changes.py build.py
           python discover.py --self-test
           python national_sources.py --self-test
           python enrich_official.py --self-test
           python bulk_verify.py --self-test
+          python price_audit.py --self-test
           python collect_promotions.py --self-test
           python scan_changes.py --self-test
       - name: Snapshot before scan for diff tracking
@@ -82,6 +84,8 @@ jobs:
         env:
           FULL_SCAN: ${{ github.event_name == 'push' || inputs.full_scan }}
         run: python enrich_official.py
+      - name: Reaudit already verified official prices and revoke cross-medication matches
+        run: python price_audit.py --limit 240
       - name: Collect dated promotional prices separately from official prices
         run: python collect_promotions.py
       - name: Monitor the expanded official-source list
@@ -124,6 +128,7 @@ jobs:
             python discover.py
             python bulk_verify.py --limit 45
             python enrich_official.py
+            python price_audit.py --limit 240
             python collect_promotions.py
             python watch_sources.py
             python scan_changes.py --after
@@ -137,7 +142,7 @@ jobs:
           fi
 
           for attempt in 1 2 3; do
-            git add catalog.json catalog.csv discoveries.json watch_state.json monitor.js index.html scan_changes.json national_registry.json.gz national_source_state.json national_discovery.json
+            git add catalog.json catalog.csv discoveries.json watch_state.json monitor.js index.html scan_changes.json national_registry.json.gz national_source_state.json national_discovery.json price_audit.json
             if git diff --staged --quiet; then
               echo "No updated data to commit"
               exit 0
