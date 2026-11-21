@@ -395,10 +395,14 @@ def fetch_directory_leads(session):
     # Independently published comparisons are a SECONDARY way to find names;
     # their prices and purported eligibility are not imported.
     roots = (
+        ("https://sushijaro.app/ja/", "sushijaro"),
+        ("https://sushijaro.app/ja/answers/clinics-by-city", "sushijaro"),
         ("https://sushijaro.app/ja/city/online", "sushijaro"),
         ("https://sushijaro.app/ja/?f=korean", "sushijaro"),
         ("https://sushijaro.app/ja/city/fukuoka", "sushijaro"),
         ("https://manjaro-info.jp/clinic-search/", "comparison"),
+        ("https://mounjaro-map.jobby-time.com/ja/", "comparison"),
+        ("https://mounjaro-map.jobby-time.com/ja/online/", "comparison"),
         ("https://mounjaro-map.jobby-time.com/ja/city/tokyo/", "comparison"),
         ("https://kusurigo.vercel.app/mounjaro-ja.html", "comparison"),
     )
@@ -407,7 +411,7 @@ def fetch_directory_leads(session):
         try:
             response = session.get(root, timeout=(6, 15))
             response.raise_for_status()
-            items = (directory_entries(response.text, root) if kind == "sushijaro"
+            items = (directory_entries(response.text, root, limit=80) if kind == "sushijaro"
                      else comparison_link_entries(response.text, root))
             states.append({"source": "public_directory_lead", "query": root,
                            "ok": True, "items": len(items)})
@@ -419,9 +423,9 @@ def fetch_directory_leads(session):
         except Exception as exc:
             states.append({"source": "public_directory_lead", "query": root, "ok": False,
                            "reason": str(exc)[:110]})
-    return results[:100], states
+    return results[:200], states
 
-def discover(session, limit=150, full=False):
+def discover(session, limit=210, full=False):
     official_hits, public_hits, status, seen = [], [], [], set()
     probe_budget=12
     probed_urls=set()
@@ -493,7 +497,7 @@ def discover(session, limit=150, full=False):
     # all available result slots and hiding official clinics or directories.
     return (official_hits[:min(70, limit)] +
             public_hits[:min(60, max(0, limit - 70))] +
-            directory_hits[:min(20, max(0, limit - 130))]), status
+            directory_hits[:min(80, max(0, limit - 130))]), status
 
 def merge_into_catalog(cat, rawhits, archive):
     ids = {x["id"] for x in cat["clinics"]}
