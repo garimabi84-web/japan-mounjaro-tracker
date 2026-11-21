@@ -293,6 +293,31 @@ def fetch_bing_html(session, query):
         desc = item.select_one(".b_caption p")
         yield a.get_text(" ", strip=True), a.get("href", ""), desc.get_text(" ", strip=True) if desc else ""
 
+def fetch_yahoo_web(session, query):
+    """Independent public Japanese web-search fallback for clinic site leads.
+
+    Yahoo HTML structure may change; failures are logged and do not stop the
+    original Bing or directory collectors. No user account/API is required.
+    """
+    url = "https://search.yahoo.co.jp/search?" + urllib.parse.urlencode({"p": query, "ei": "UTF-8"})
+    response=session.get(url,timeout=(5,13))
+    response.raise_for_status()
+    soup=BeautifulSoup(response.text,"html.parser")
+    seen=set()
+    for a in soup.select("a[href]"):
+        target=urllib.parse.urljoin(url,a.get("href",""))
+        if not potential_official_site(target) or target in seen:
+            continue
+        title=a.get_text(" ",strip=True)[:200]
+        context=a.parent.parent if a.parent and a.parent.parent else a.parent
+        desc=context.get_text(" ",strip=True)[:350] if context else title
+        if not TERM.search(title+" "+desc):
+            continue
+        seen.add(target)
+        yield title,target,desc
+        if len(seen)>=20:
+            return
+
 def fetch_yahoo(session, query):
     url = "https://search.yahoo.co.jp/realtime/search?" + urllib.parse.urlencode({"p": query, "ei": "UTF-8"})
     resp = session.get(url, timeout=(6, 16))
@@ -478,6 +503,14 @@ def discover(session, limit=210, full=False):
         except Exception as exc:
             status.append({"source": "official_site_search", "query": query, "ok": False,
                            "reason": str(exc)[:100]})
+    # Independent public Japanese index to reduce single-engine blind spots.
+    for query in (OFFICIAL_CORE[0], OFFICIAL_CORE[2], OFFICIAL_CORE[4]):
+        try:
+            ingest("official_site_search_yahoo", query, fetch_yahoo_web(session, query),
+                   fallback=True, official=True)
+        except Exception as exc:
+            status.append({"source": "official_site_search_yahoo", "query": query,
+                           "ok": False, "reason": str(exc)[:100]})
     for query in YAHOO:
         try:
             ingest("yahoo_x", query, fetch_yahoo(session, query))
