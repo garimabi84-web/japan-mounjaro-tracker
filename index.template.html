@@ -104,6 +104,7 @@ const tokenInput=$('scantoken');
 const rememberScan=$('scankeep');
 const tokenSessionKey='jmtracker_scan_token_session_v1';
 try{const saved=sessionStorage.getItem(tokenSessionKey);if(saved){tokenInput.value=saved;rememberScan.checked=true}}catch(e){}
+rememberScan.addEventListener('change',()=>{if(!rememberScan.checked){try{sessionStorage.removeItem(tokenSessionKey)}catch(e){}}});
 $('manualscan').onclick=()=>{scanDialog.showModal();$('scanfeedback').textContent='';tokenInput.focus()};
 $('scanclose').onclick=()=>scanDialog.close();
 scanDialog.addEventListener('click',ev=>{if(ev.target===scanDialog)scanDialog.close()});
@@ -122,10 +123,16 @@ $('scanstart').onclick=async()=>{
    body:JSON.stringify({ref:'main',inputs:{full_scan:'true'}}),
    cache:'no-store'
   });
-  if(resp.status===204){
+  if(resp.status===204||resp.status===200){
    try{if(rememberScan.checked)sessionStorage.setItem(tokenSessionKey,token);else sessionStorage.removeItem(tokenSessionKey)}catch(e){}
    if(!rememberScan.checked)tokenInput.value='';
-   status.textContent='재검색 시작 요청이 접수됐습니다. 실제 검색은 GitHub 서버에서 진행되며 완료되면 사이트가 재배포됩니다. 작업 완료 후 ‘최신 결과 불러오기’를 눌러 확인하세요.';
+   const runInfo=resp.status===200?await resp.json().catch(()=>({})):{};
+   status.textContent='재검색 실행 요청이 접수됐습니다. 실제 검색과 사이트 배포가 끝나면 ‘최신 결과 불러오기’를 눌러 확인하세요.';
+   if(typeof runInfo.html_url==='string'&&/^https:\/\/github\.com\/garimabi84-web\/japan-mounjaro-tracker\/actions\/runs\/\d+$/.test(runInfo.html_url)){
+    const link=document.createElement('a');
+    link.href=runInfo.html_url;link.target='_blank';link.rel='noopener noreferrer';link.textContent=' 실행 상태 확인 ↗';
+    status.appendChild(link);
+   }
   }else{
    const err=await resp.json().catch(()=>({}));
    const tip=resp.status===401?'토큰이 유효하지 않거나 만료됐습니다.':resp.status===403?'토큰에 Actions: Read and write 권한이 있는지 확인하세요.':resp.status===404?'저장소 선택이나 workflow 권한을 확인하세요.':resp.status===422?'워크플로 설정 또는 기본 브랜치를 확인하세요.':'GitHub 오류가 발생했습니다.';
