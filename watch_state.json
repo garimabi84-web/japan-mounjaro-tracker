@@ -1,5 +1,5 @@
 {
-  "ran_at": "2026-11-21T13:38:26+09:00",
+  "ran_at": "2026-11-21T13:55:25+09:00",
   "hashes": {
     "https://baba-totalcareclinic.com/private-practice": "a3b141b4cbfca1ad3b54e74deadf22cb8a07c87f600b944481c176fb5cd22646",
     "https://tokyosilkclinic.com/menu/909": "c0190473d9a440191263d00607834cf85f2f48c7314ecb749794c6f61a36f785",
@@ -33,7 +33,7 @@
     "https://okachi-clinic.jp/price": "97dcb2169d4f8ea3a0205735f8a5d0cb2eb5c968051451dcc47b9c591fa756a2",
     "https://japannetclinic.com/": "155a07d772d8f0e52328f16de8ad8c6be317d6ccd6e0ceeed6b1ed72505173e1",
     "https://mirai-medical.clinic/ko/mounjaro": "212e8d698be05f0913366df1440280ca80d16fa58a1d6c1c4f723e1f43ca1324",
-    "https://x.com/MT_DIET_CLINIC": "76ed6c2a9d8794e45936bb334136067a826ef2e1ef99606464ac1f5338ec2634",
+    "https://x.com/MT_DIET_CLINIC": "38281b29257f0482967f5e6c0af6a7023dafd5e011dd75bc660e6097add582cc",
     "https://shibuya-hifuka.jp/sidemenu/glp1_price.html": "8ee74fc46dcd174f483504640fb3a0acc81d981cd207704112c48cc9521d65b8",
     "https://velvaere-clinic.com/menu/%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD%EF%BC%88%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%A8%BA%E7%99%82%E5%AF%BE%E5%BF%9C%EF%BC%89": "b3c7c025ce959c2348ea14399b333f857733a7c894123c33825b0e0145071094",
     "https://s-brainheart.com/%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD": "bbfad132c9a01c266cb03e3e3bff79460beb7494c5a5dfc691773b22a2071d51",
@@ -89,7 +89,16 @@
     "https://www.morimoto-clinic.jp/private.html": "b34cc4bad7aad4c0f679c845dc0f067917632c070c4ce4910985df919e6371d3",
     "https://wclinic-osaka.jp/medicine/mounjaro": "f04912e04bffeefd61aba1c65898f9341328893c6c4b6f1c2d1c31b36cdc36fe",
     "https://amagi-daiichi-clinic.com/diet": "53f6aca881c24f75b9ccb82ba7495cc88bd857700ef9a5e39e6f02aa98cc73b9",
-    "https://www.shiozaki-naika.jp/glp1diet": "69d15e3c5713669d977a7d57a8dba6cb86bef0a8872a05de591ecb479b59dd24"
+    "https://www.shiozaki-naika.jp/glp1diet": "69d15e3c5713669d977a7d57a8dba6cb86bef0a8872a05de591ecb479b59dd24",
+    "https://taguchi-clinic.jp/medical-diet.html": "9bd0d30ded2c5249262757e3d3866a9579cc2bf306760c68dd8b10233f670de4",
+    "https://www.senzoku-seikei.com/price-list": "115ff1141c7e4ec77793824930bd82496eca825e659b6b37acf77fbf3357aca1",
+    "https://akihabara-sincere.com/im/antiobesity": "c7e419cf042650faa718fde49ff3e38140a98c6497d7e180e602e4fd58076d53",
+    "https://midorino.com/details/medical-diet": "0c8861da34303b3faf3efb78e10146133c39e1d1487610a754970885e709e920",
+    "https://aiseikai-clinic.com/blog": "c02a045d37beca4b04d99c37024d6423eb494511b4aaa9b36e1fb47bcea9d729",
+    "https://e-clinic.gr.jp/medical_diet": "3e0637ec2fd88e4d147b42f1c7164531d6ae3acc693d33c94a287703d9094ee5",
+    "https://www.shoyuukai.jp/tamachi/course/glp1_diet": "53497621b2f3552c65b5afaa645cd717850f135a54c972800d430a36047de295",
+    "https://akala-clinic.jp/mounjaro": "a964a8cc8d62a27b4face38d2e0f415eab790e67df53868631ebb7abd1d024dd",
+    "https://kamikuri.jp/menu/medical05": "fd6681550b9dfd84e146aa0d7056ec726b16babd473a7902c0834b41f17c518c"
   },
   "pending": {
     "https://origami-clinic.com/": {
@@ -103,6 +112,10 @@
     "https://modena-clinic.com/price": {
       "since": "2026-11-21T12:19:05+09:00",
       "name": "모데나 클리닉 텐진"
+    },
+    "https://x.com/MT_DIET_CLINIC": {
+      "since": "2026-11-21T13:55:25+09:00",
+      "name": "MT 온라인 클리닉"
     }
   }
 }
