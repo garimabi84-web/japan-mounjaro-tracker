@@ -2686,7 +2686,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:17:45+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-ebe6caaa1c71",
@@ -2725,7 +2727,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:17:45+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-479ceade00d9",
@@ -2764,7 +2768,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:17:45+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-def29342da34",
@@ -2803,7 +2809,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:17:46+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-c985dfced3fa",
@@ -2842,7 +2850,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:17:46+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-d761b24e06eb",
@@ -2881,7 +2891,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:17:47+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-8c653478ebd5",
@@ -2920,7 +2932,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:17:47+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-b619ce669fca",
@@ -2959,7 +2973,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:17:48+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-97c213b6c55c",
@@ -2998,7 +3014,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:17:48+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-efb70ddc1a74",
@@ -3020,7 +3038,7 @@
       "basis": "공식 출처·SNS·비교 사이트에서 발견된 후보 (검증 전)",
       "url": "https://sushijaro.app/ja/clinic/osaka-bc?dose=2.5",
       "official_url_hint": "",
-      "notes": "공개 검색에서 발견된 이름으로 실제 의료기관 여부부터 확인해야 합니다.",
+      "notes": "다른 지역에 동일 명칭 병원이 존재. 주소·공식 도메인 검증 전 가격 자동 등록 보류.",
       "fees": "미확인",
       "status": "candidate",
       "address": "",
@@ -3037,7 +3055,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:17:48+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-d88cffd4cd19",
@@ -3076,7 +3096,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:17:48+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-1fda7c1ddfad",
@@ -3115,7 +3137,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:17:49+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-91c84a1b6db9",
@@ -4630,6 +4654,201 @@
       "candidate_quality": "name_unverified",
       "identity_conflict": false,
       "directory_slug": "shinseikaicentralclinic",
+      "events": [],
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공식 예약 경로 확인 전",
+      "booking_checked": "",
+      "first_seen": "2026-11-21"
+    },
+    {
+      "id": "found-d660cd2d3807",
+      "name": "まめクリニック",
+      "region": "미확인",
+      "city": "미확인",
+      "mode": "미확인",
+      "foreign": "unknown",
+      "online": "unknown",
+      "ship": "unknown",
+      "prices": {
+        "2.5": null,
+        "5": null,
+        "7.5": null,
+        "10": null,
+        "12.5": null,
+        "15": null
+      },
+      "basis": "공식 출처·SNS·비교 사이트에서 발견된 후보 (검증 전)",
+      "url": "https://mame-clinic.net/articles/?p=112949",
+      "official_url_hint": "https://mame-clinic.net/articles/?p=112949",
+      "notes": "공개 공식 사이트 검색에서 발견된 페이지. 실제 의료기관·기관명·가격 확인 전.",
+      "fees": "미확인",
+      "status": "candidate",
+      "address": "",
+      "channel": "공식 홈페이지 검색 후보",
+      "updated": "2026-11-21",
+      "discovery": "auto",
+      "price_verified": false,
+      "candidate_quality": "name_unverified",
+      "identity_conflict": false,
+      "directory_slug": "",
+      "events": [],
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공식 예약 경로 확인 전",
+      "booking_checked": "",
+      "first_seen": "2026-11-21"
+    },
+    {
+      "id": "found-f2850edf430e",
+      "name": "玉寄クリニック",
+      "region": "미확인",
+      "city": "미확인",
+      "mode": "미확인",
+      "foreign": "unknown",
+      "online": "unknown",
+      "ship": "unknown",
+      "prices": {
+        "2.5": null,
+        "5": null,
+        "7.5": null,
+        "10": null,
+        "12.5": null,
+        "15": null
+      },
+      "basis": "공식 출처·SNS·비교 사이트에서 발견된 후보 (검증 전)",
+      "url": "https://tamayose-cl.jp/blog/%E3%80%90%E7%B3%96%E5%B0%BF%E7%97%85%E5%B0%82%E9%96%80%E5%8C%BB%E3%81%8C%E8%A7%A3%E8%AA%AC%E3%80%91%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD%E3%81%AF%E4%BF%9D%E9%99%BA%E3%81%A7%E3%81%84%E3%81%8F",
+      "official_url_hint": "https://tamayose-cl.jp/blog/%E3%80%90%E7%B3%96%E5%B0%BF%E7%97%85%E5%B0%82%E9%96%80%E5%8C%BB%E3%81%8C%E8%A7%A3%E8%AA%AC%E3%80%91%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD%E3%81%AF%E4%BF%9D%E9%99%BA%E3%81%A7%E3%81%84%E3%81%8F",
+      "notes": "공개 공식 사이트 검색에서 발견된 페이지. 실제 의료기관·기관명·가격 확인 전.",
+      "fees": "미확인",
+      "status": "candidate",
+      "address": "",
+      "channel": "공식 홈페이지 검색 후보",
+      "updated": "2026-11-21",
+      "discovery": "auto",
+      "price_verified": false,
+      "candidate_quality": "name_unverified",
+      "identity_conflict": false,
+      "directory_slug": "",
+      "events": [],
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공식 예약 경로 확인 전",
+      "booking_checked": "",
+      "first_seen": "2026-11-21"
+    },
+    {
+      "id": "found-4f329b0344a4",
+      "name": "北千住セブンデイズクリニック",
+      "region": "미확인",
+      "city": "미확인",
+      "mode": "미확인",
+      "foreign": "unknown",
+      "online": "unknown",
+      "ship": "unknown",
+      "prices": {
+        "2.5": null,
+        "5": null,
+        "7.5": null,
+        "10": null,
+        "12.5": null,
+        "15": null
+      },
+      "basis": "공식 출처·SNS·비교 사이트에서 발견된 후보 (검증 전)",
+      "url": "https://7daysclinic.jp/posts/%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD%E6%B3%A8%E5%B0%84%EF%BC%88%E3%83%A1%E3%83%87%E3%82%A3%E3%82%AB%E3%83%AB%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88%EF%BC%89%E3%82%92%E9%96%8B%E5%A7%8B/",
+      "official_url_hint": "https://7daysclinic.jp/posts/%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD%E6%B3%A8%E5%B0%84%EF%BC%88%E3%83%A1%E3%83%87%E3%82%A3%E3%82%AB%E3%83%AB%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88%EF%BC%89%E3%82%92%E9%96%8B%E5%A7%8B/",
+      "notes": "공개 공식 사이트 검색에서 발견된 페이지. 실제 의료기관·기관명·가격 확인 전.",
+      "fees": "미확인",
+      "status": "candidate",
+      "address": "",
+      "channel": "공식 홈페이지 검색 후보",
+      "updated": "2026-11-21",
+      "discovery": "auto",
+      "price_verified": false,
+      "candidate_quality": "name_unverified",
+      "identity_conflict": false,
+      "directory_slug": "",
+      "events": [],
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공식 예약 경로 확인 전",
+      "booking_checked": "",
+      "first_seen": "2026-11-21"
+    },
+    {
+      "id": "found-4b057da3a3c6",
+      "name": "すみだブレインハートクリニック",
+      "region": "미확인",
+      "city": "미확인",
+      "mode": "미확인",
+      "foreign": "unknown",
+      "online": "unknown",
+      "ship": "unknown",
+      "prices": {
+        "2.5": null,
+        "5": null,
+        "7.5": null,
+        "10": null,
+        "12.5": null,
+        "15": null
+      },
+      "basis": "공식 출처·SNS·비교 사이트에서 발견된 후보 (검증 전)",
+      "url": "https://s-brainheart.com/%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD",
+      "official_url_hint": "https://s-brainheart.com/%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD",
+      "notes": "공개 공식 사이트 검색에서 발견된 페이지. 실제 의료기관·기관명·가격 확인 전.",
+      "fees": "미확인",
+      "status": "candidate",
+      "address": "",
+      "channel": "공식 홈페이지 검색 후보",
+      "updated": "2026-11-21",
+      "discovery": "auto",
+      "price_verified": false,
+      "candidate_quality": "name_unverified",
+      "identity_conflict": false,
+      "directory_slug": "",
+      "events": [],
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공식 예약 경로 확인 전",
+      "booking_checked": "",
+      "first_seen": "2026-11-21"
+    },
+    {
+      "id": "found-5603b6ae84fe",
+      "name": "西台仁愛歯科クリニック",
+      "region": "미확인",
+      "city": "미확인",
+      "mode": "미확인",
+      "foreign": "unknown",
+      "online": "unknown",
+      "ship": "unknown",
+      "prices": {
+        "2.5": null,
+        "5": null,
+        "7.5": null,
+        "10": null,
+        "12.5": null,
+        "15": null
+      },
+      "basis": "공식 출처·SNS·비교 사이트에서 발견된 후보 (검증 전)",
+      "url": "https://jinai.net/recommended-mounjaro/",
+      "official_url_hint": "https://jinai.net/recommended-mounjaro/",
+      "notes": "공개 공식 사이트 검색에서 발견된 페이지. 실제 의료기관·기관명·가격 확인 전.",
+      "fees": "미확인",
+      "status": "candidate",
+      "address": "",
+      "channel": "공식 홈페이지 검색 후보",
+      "updated": "2026-11-21",
+      "discovery": "auto",
+      "price_verified": false,
+      "candidate_quality": "name_unverified",
+      "identity_conflict": false,
+      "directory_slug": "",
       "events": [],
       "booking_method": "예약 방법 미확인",
       "booking_url": "",
