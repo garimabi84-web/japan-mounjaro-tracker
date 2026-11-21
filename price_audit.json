@@ -1,26 +1,9 @@
 {
-  "at": "2026-11-21T13:55:25+09:00",
-  "checked": 56,
+  "at": "2026-11-21T14:07:14+09:00",
+  "checked": 71,
   "result": {
     "unavailable": 1,
-    "passed": 53,
-    "anomaly": 1,
-    "corrected": 1
+    "passed": 70
   },
-  "review": [
-    {
-      "name": "医療法人社団梢愛会　やまうちクリニック",
-      "id": "national-3b454e7b60d5ab",
-      "status": "anomaly",
-      "url": "https://yamauchiclinic.com/mounjaro/",
-      "message": "7.5mg 33600 < 5mg 89700 (possible unit/product mismatch)"
-    },
-    {
-      "name": "ふるさと内科クリニック",
-      "id": "national-802b7e457b42e5",
-      "status": "corrected",
-      "url": "https://furusato-naika.com/menu/diet.html",
-      "message": "가격 재확인 후 갱신"
-    }
-  ]
+  "review": []
 }

@@ -1,5 +1,5 @@
 {
-  "ran_at": "2026-11-21T13:55:25+09:00",
+  "ran_at": "2026-11-21T14:07:14+09:00",
   "hashes": {
     "https://baba-totalcareclinic.com/private-practice": "a3b141b4cbfca1ad3b54e74deadf22cb8a07c87f600b944481c176fb5cd22646",
     "https://tokyosilkclinic.com/menu/909": "c0190473d9a440191263d00607834cf85f2f48c7314ecb749794c6f61a36f785",
@@ -98,7 +98,23 @@
     "https://e-clinic.gr.jp/medical_diet": "3e0637ec2fd88e4d147b42f1c7164531d6ae3acc693d33c94a287703d9094ee5",
     "https://www.shoyuukai.jp/tamachi/course/glp1_diet": "53497621b2f3552c65b5afaa645cd717850f135a54c972800d430a36047de295",
     "https://akala-clinic.jp/mounjaro": "a964a8cc8d62a27b4face38d2e0f415eab790e67df53868631ebb7abd1d024dd",
-    "https://kamikuri.jp/menu/medical05": "fd6681550b9dfd84e146aa0d7056ec726b16babd473a7902c0834b41f17c518c"
+    "https://kamikuri.jp/menu/medical05": "fd6681550b9dfd84e146aa0d7056ec726b16babd473a7902c0834b41f17c518c",
+    "https://www.akabaneheart-clinic.com/obesity": "f420421151c7ff3ecf122498654146603317b19706f52876b7ab74c36b5fde7d",
+    "https://aoshin.net/diet": "780946d46e5236c1c8d1e79f70ea045ab8a8226dd124a160b52e2ad028f1021a",
+    "https://www.koishikawaiin.com/": "dbf9d56a171f50f88fa9fc51c05a537fd7e9136e2e72a2fe7aa3a555e4284861",
+    "https://www.veriteclinic.or.jp/progress/body/glp1-diet": "6b799c7f2350d5702f17f17d3fa051e87b13509ae9a395a92ae7c7e06def1191",
+    "https://mizutani-hifuka-ks.com/price": "3d6374730397e7b99708e5e5e59392dbdc6d25f7f9536f96663ed4617402c489",
+    "https://kkclinic-ichihara.com/medicaldiet.html": "7c5ddabc4086e3d4b1a47e520874618fd90ee4799f36fa8575ff9b2445692c1e",
+    "https://kkclinic-nishifuna.com/medicaldiet.html": "e4aec799ec09b5be3d81fff91e6414d9454e9cd97ceafad5b427c80f44a65020",
+    "https://yanasegawa-fc.com/price": "dd1b89a8940143e7b783c7eebb79644e74a7c1354e4dd9c76557ae0ef819ff7e",
+    "https://www.wendel-clinic.com/mounjaro": "0679c508fb8d1344b8eec8eca22759c4a40c19b0b79d29cc33fc3dcac2200026",
+    "https://www.medicalkiss.com/mounjaro.php": "618b2adf067c3aec28e108557cfd72081ccf9e8616a8778a2088696e2470b837",
+    "https://www.goroudaifc.com/mounjaro": "d3cacd322e057a558fc1c2f0323f2d7639ce4b70a59653c613d1e78ed7bd6c65",
+    "https://www.mukougaoka-clinic.com/column/medicaldiet.html": "8b7c29b66d4b5d6beec133f595092e32af60061c736d05fef21e3e094ea7fd2f",
+    "https://www.tsuwabuki-clinic.com/obesity": "10fe22e3e5b59b7d836af541afb8a13f893a5b58e0a42c5a1b49988499c38615",
+    "https://shinagawasc.com/menu/diet": "6271febbb6659f80313e9ab982bcce36a3b83b6772c5d3f3586fe64590289404",
+    "https://obanaika.com/shinryo/mounjaro_medical_diet": "f561831250d3fdfd4bbc83c6a073b7fa677eef8687daba1dfce80f2e685595ef",
+    "https://himejiekimae-clinic.com/diet.html": "9e51f34c3fd8d6c7e64fae17b6024e64632fa6dadf69670bb64f83632040cf44"
   },
   "pending": {
     "https://origami-clinic.com/": {
