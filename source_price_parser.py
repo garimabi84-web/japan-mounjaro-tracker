@@ -105,6 +105,9 @@ def extract_official(source):
         branded_heading=bool(DRUG.search(heading_text) and not OTHER_DRUG.search(heading_text))
         branded_header=bool(DRUG.search(header_text) and not OTHER_DRUG.search(header_text))
         if not (branded_rows or branded_heading or branded_header):continue
+        # An adjacent table can still inherit the preceding Mounjaro heading.
+        # A table explicitly headed by another medicine must override it.
+        if OTHER_DRUG.search(header_text) and not branded_rows:continue
         if OTHER_DRUG.search(heading_text) and not branded_rows:continue
         pack=pack_factor(previous[-175:]) or pack_factor(' '.join(cells[0]))
         headers=cells[0]
@@ -200,6 +203,13 @@ def self_test():
       <tr><td>10mg</td><td>11,000円</td></tr></table>'''
     x,_=extract_official(adjacent)
     assert x=={'5':96000}, x
+    shared_heading='''<h2>マンジャロ料金</h2>
+       <table><tr><th>用量</th><th>1ヶ月分</th></tr>
+       <tr><td>5mg</td><td>32,000円</td></tr></table>
+       <table><tr><th>エンパグリフロジン</th><th>1ヶ月分</th></tr>
+       <tr><td>10mg</td><td>11,000円</td></tr></table>'''
+    x,_=extract_official(shared_heading)
+    assert x=={'5':96000},x
     wrong='<h2>美容料金</h2><p>オゼンピック 5mg 1本10,000円</p><p>マンジャロに関する注意喚起</p>'
     x,_=extract_official(wrong)
     assert x=={},x
