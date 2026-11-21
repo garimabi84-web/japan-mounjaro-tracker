@@ -11,6 +11,7 @@ on:
     paths:
       - 'discover.py'
       - 'national_sources.py'
+      - 'watch_sources.py'
       - 'enrich_official.py'
       - 'collect_promotions.py'
       - 'scan_changes.py'
