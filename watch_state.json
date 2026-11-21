@@ -1,5 +1,5 @@
 {
-  "ran_at": "2026-11-21T12:51:00+09:00",
+  "ran_at": "2026-11-21T13:04:29+09:00",
   "hashes": {
     "https://baba-totalcareclinic.com/private-practice": "a3b141b4cbfca1ad3b54e74deadf22cb8a07c87f600b944481c176fb5cd22646",
     "https://tokyosilkclinic.com/menu/909": "c0190473d9a440191263d00607834cf85f2f48c7314ecb749794c6f61a36f785",
@@ -38,7 +38,19 @@
     "https://velvaere-clinic.com/menu/%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD%EF%BC%88%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%A8%BA%E7%99%82%E5%AF%BE%E5%BF%9C%EF%BC%89": "b3c7c025ce959c2348ea14399b333f857733a7c894123c33825b0e0145071094",
     "https://s-brainheart.com/%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD": "bbfad132c9a01c266cb03e3e3bff79460beb7494c5a5dfc691773b22a2071d51",
     "https://mulbell.online/medical-diet/mounjaro": "e1f88ed1f7c73ee72260c219cf10a003c5e9f444175501b501722e7379e7f751",
-    "https://yuki-skin.clinic/menu/treatment/medical-diet": "eb88aa498b4964f7dd8360c97a71d21c8fe2a4da6863b6dd90a573c37e2c0392"
+    "https://yuki-skin.clinic/menu/treatment/medical-diet": "eb88aa498b4964f7dd8360c97a71d21c8fe2a4da6863b6dd90a573c37e2c0392",
+    "https://digital-clinic.life/online/diet": "c43b74b1fe0e92c12540cdade449ea92d91cbe63906ebd2c0423f24ad4f41596",
+    "https://personalcareclinic.jp/diet": "c85f2fb9c43a91a99929c0992247eb0f83382ef1cea5d58351f1c7a6f1298fba",
+    "https://befine-clinic.jp/medical_diet": "0862fef1d16ac718f859b150f0779d416ff6dc125a2c48bda9274c9f057103dc",
+    "https://femuse-clinic.jp/price": "704ea0d3c48219f4d592a3a28ca6b3afe631206185efac8f233fe7b1120e59c8",
+    "https://www.felizmedicalclinic.com/general-8": "dc2217e26f3a0fc0ccc4de5d20a4c43b5b355a9cf379711fcd2f3e0264a4ce22",
+    "https://reira-clinic.com/price": "2d452731c393a50b89603a8ce972879bb9e6bb94db1eb7ba39fedcfc63092352",
+    "https://oneclinic.jp/glp-1/mounjaro": "46bf0c2e29f90f37d5d0f503f3eece095bf592532b5543406094dd669a34c334",
+    "https://www.takinogawaclinic.life/glp-1": "a3e86edba634c0191a61c4cc719e94bbaee533861cf080d66deb0dcc62fac06b",
+    "https://march-clinic.com/price-list": "865d231d0bb02a7b592a95bef49aee80cef23d3df7036b3ab10909a88ce96083",
+    "https://shimokita-do.jp/cosmetic_dermatology": "0cc8ba979255f12f17e177d0f23572367b0aa4abddf8ab301906263649da6e67",
+    "https://kugayama-medical.clinic/private.html": "bdce54cc72690ddc318e68e1cf2a317724ff394428ad46d574c89127cc9f5519",
+    "https://www.eastcl.com/medical-diet": "fbc784b6aecf491b33612ef4c5e1d24a518babfd7a99974c86627621d9fea0f3"
   },
   "pending": {
     "https://origami-clinic.com/": {
