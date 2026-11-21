@@ -526,11 +526,16 @@ def discover(session, limit=210, full=False):
     directory_hits, directory_status = fetch_directory_leads(session)
     status.extend(directory_status)
     directory_hits = [x for x in directory_hits if x["url"] not in seen]
-    # Three independent channel quotas stop an ad-heavy query from consuming
-    # all available result slots and hiding official clinics or directories.
-    return (official_hits[:min(70, limit)] +
-            public_hits[:min(60, max(0, limit - 70))] +
-            directory_hits[:min(80, max(0, limit - 130))]), status
+    # Rotate the directory window: a static first-page slice would keep
+    # rediscovering the same 80 names and never reach later clinics.
+    if directory_hits and not full:
+        offset=(dt.date.today().toordinal()*31) % len(directory_hits)
+        directory_hits=directory_hits[offset:]+directory_hits[:offset]
+    # Deep scans inspect up to 160 directory name leads; regular scans rotate
+    # through 80 to preserve time and keep official/SNS quotas independent.
+    directory_budget=160 if full else 80
+    return (official_hits[:70] + public_hits[:60] +
+            directory_hits[:directory_budget]), status
 
 def merge_into_catalog(cat, rawhits, archive):
     ids = {x["id"] for x in cat["clinics"]}
