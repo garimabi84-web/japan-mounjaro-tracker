@@ -168,11 +168,9 @@ def run():
         try:
             resp=session.get(official,timeout=(5,11));resp.raise_for_status()
             soup=BeautifulSoup(resp.content,'html.parser');text=soup.get_text(' ',strip=True)
+            # Strict medicine-scoped parsing only: do not use the permissive
+            # legacy extractor, which can mix Mounjaro with other medicines.
             prices,basis=extract_official(resp.content)
-            older,old_basis=extract_prices(resp.content)
-            for d,val in older.items():
-                prices.setdefault(d,val)
-            if not basis and older:basis=old_basis
             # A clinic homepage may link to a dedicated Mounjaro price page.
             if not prices:
                 links=[]
@@ -189,9 +187,6 @@ def run():
                     try:
                         follow=session.get(href,timeout=(5,9));follow.raise_for_status()
                         found,basis=extract_official(follow.content)
-                        legacy,legacy_basis=extract_prices(follow.content)
-                        for d,val in legacy.items():found.setdefault(d,val)
-                        if not basis and legacy:basis=legacy_basis
                         if found and official_host(follow.url)==official_host(official):
                             prices=found;official=follow.url
                             soup=BeautifulSoup(follow.content,'html.parser');text=soup.get_text(' ',strip=True)
