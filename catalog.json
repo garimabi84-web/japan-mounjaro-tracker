@@ -1608,8 +1608,8 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T01:29:23+09:00",
-      "official_attempts": 2
+      "official_checked_at": "2026-11-21T10:35:54+09:00",
+      "official_attempts": 3
     },
     {
       "id": "found-1cabfd1f895a",
@@ -1646,8 +1646,8 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T01:29:24+09:00",
-      "official_attempts": 2
+      "official_checked_at": "2026-11-21T10:35:54+09:00",
+      "official_attempts": 3
     },
     {
       "id": "found-c43d53c2bc66",
@@ -1684,8 +1684,8 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T01:29:24+09:00",
-      "official_attempts": 2
+      "official_checked_at": "2026-11-21T10:35:54+09:00",
+      "official_attempts": 3
     },
     {
       "id": "found-e015d9cfcfa0",
@@ -1722,8 +1722,8 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T01:29:25+09:00",
-      "official_attempts": 2
+      "official_checked_at": "2026-11-21T10:35:55+09:00",
+      "official_attempts": 3
     },
     {
       "id": "found-2a03b6c34abd",
@@ -1760,8 +1760,8 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T01:29:25+09:00",
-      "official_attempts": 2
+      "official_checked_at": "2026-11-21T10:35:55+09:00",
+      "official_attempts": 3
     },
     {
       "id": "found-ecf05677670c",
@@ -1798,8 +1798,8 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T01:29:26+09:00",
-      "official_attempts": 2
+      "official_checked_at": "2026-11-21T10:35:55+09:00",
+      "official_attempts": 3
     },
     {
       "id": "found-bdb6122be901",
@@ -1836,8 +1836,8 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T01:29:26+09:00",
-      "official_attempts": 2
+      "official_checked_at": "2026-11-21T10:35:56+09:00",
+      "official_attempts": 3
     },
     {
       "id": "found-6ab406f6fe0e",
@@ -1874,8 +1874,8 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T01:29:27+09:00",
-      "official_attempts": 2
+      "official_checked_at": "2026-11-21T10:35:56+09:00",
+      "official_attempts": 3
     },
     {
       "id": "found-db7875e9b7df",
@@ -1912,8 +1912,8 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T01:32:22+09:00",
-      "official_attempts": 2
+      "official_checked_at": "2026-11-21T10:35:56+09:00",
+      "official_attempts": 3
     },
     {
       "id": "found-616d3cdd620f",
@@ -1950,8 +1950,8 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T01:32:22+09:00",
-      "official_attempts": 2
+      "official_checked_at": "2026-11-21T10:35:57+09:00",
+      "official_attempts": 3
     },
     {
       "id": "found-95b66ed12786",
@@ -1988,8 +1988,8 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T01:32:23+09:00",
-      "official_attempts": 2
+      "official_checked_at": "2026-11-21T10:35:57+09:00",
+      "official_attempts": 3
     },
     {
       "id": "found-fc81ad7b0a6e",
@@ -2524,6 +2524,46 @@
       "first_seen": "2026-11-21",
       "official_checked_at": "2026-11-21T10:18:07+09:00",
       "official_attempts": 2
+    },
+    {
+      "id": "found-0b32a6912ec2",
+      "name": "ひろつ内科クリニック",
+      "region": "미확인",
+      "city": "미확인",
+      "mode": "미확인",
+      "foreign": "unknown",
+      "online": "unknown",
+      "ship": "unknown",
+      "prices": {
+        "2.5": null,
+        "5": null,
+        "7.5": null,
+        "10": null,
+        "12.5": null,
+        "15": null
+      },
+      "basis": "SNS·공개 웹의 명칭 후보 (공식 검증 전)",
+      "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxNRzN3dUU3eTFudjM5RHJVRzFjcGJ1c1o0bkZiTWN3aWpReUU3RGhwT3pxVmktcFlXQUNZQmRXT0JLLW5LMmxPd2hNbUNfTnhwWDdvZVpQMGY0Y3JxUlJVLUJkemg4SHpaa2RLT3daQk84VzJ1a29tX2FGemJJV0JaeUl5WmhFYk9PU1pCdXpuTmY2blMtMDFsSDR4cHhSM1dhQlZqM0VSbGVQVy1TQU8zMVpvY2ctM3RXWlhaWlA5ZGVuLU1rcUFxb2g5UXU0Ql9IMzY3c3FvVUhhVmdlcjE0SGlFM3piUjVVQ2tJQUdxeVl4aXhISzlMZDRuV3l4NkJiNDRreHRpZHhURDZLY3JnejRsU3JodlhMV2d3LVZHZkJVU18zZGZNVUpJSzVVTVJnQW1uaUM1ckpOMU5EOG0yQ1RGQ1BjWi0wY2Fr?oc=5",
+      "notes": "공개 검색에서 발견된 이름으로 실제 의료기관 여부부터 확인해야 합니다.",
+      "fees": "미확인",
+      "status": "candidate",
+      "address": "",
+      "channel": "자동 웹 탐색",
+      "updated": "2026-11-21",
+      "discovery": "auto",
+      "price_verified": false,
+      "candidate_quality": "name_unverified",
+      "identity_conflict": false,
+      "directory_slug": "",
+      "events": [],
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공식 예약 경로 확인 전",
+      "booking_checked": "",
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T10:35:53+09:00",
+      "official_attempts": 1
     }
   ],
   "schema": 3,

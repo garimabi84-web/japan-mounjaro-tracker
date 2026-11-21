@@ -1,12 +1,12 @@
 {
-  "ran_at": "2026-11-21T10:18:04+09:00",
+  "ran_at": "2026-11-21T10:35:53+09:00",
   "source_status": [
     {
-      "source": "bing_rss",
+      "source": "bing_html",
       "query": "韓国人 観光客 マンジャロ クリニック 予約",
       "ok": true,
-      "items": 10,
-      "fallback": false
+      "items": 1,
+      "fallback": true
     },
     {
       "source": "bing_html",
@@ -19,36 +19,36 @@
       "source": "bing_html",
       "query": "マウンジャロ 韓国人 旅行者 ホテル 配送 クリニック",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "fallback": true
     },
     {
       "source": "bing_html",
       "query": "マンジャロ 12本 3ヶ月 外国人 処方",
       "ok": true,
-      "items": 0,
+      "items": 10,
       "fallback": true
-    },
-    {
-      "source": "bing_rss",
-      "query": "マンジャロ 韓国語 予約 クリニック",
-      "ok": true,
-      "items": 10,
-      "fallback": false
-    },
-    {
-      "source": "bing_rss",
-      "query": "마운자로 일본 병원 예약 할인 3개월",
-      "ok": true,
-      "items": 10,
-      "fallback": false
     },
     {
       "source": "bing_html",
-      "query": "일본 마운자로 한국인 처방 클리닉 호텔 배송",
+      "query": "マンジャロ 韓国語 予約 クリニック",
       "ok": true,
       "items": 0,
       "fallback": true
+    },
+    {
+      "source": "bing_html",
+      "query": "마운자로 일본 병원 예약 할인 3개월",
+      "ok": true,
+      "items": 0,
+      "fallback": true
+    },
+    {
+      "source": "bing_rss",
+      "query": "일본 마운자로 한국인 처방 클리닉 호텔 배송",
+      "ok": true,
+      "items": 10,
+      "fallback": false
     },
     {
       "source": "bing_rss",
@@ -58,11 +58,11 @@
       "fallback": false
     },
     {
-      "source": "bing_rss",
+      "source": "bing_html",
       "query": "マンジャロ 10mg 12本 クリニック キャンペーン",
       "ok": true,
-      "items": 10,
-      "fallback": false
+      "items": 0,
+      "fallback": true
     },
     {
       "source": "bing_html",
@@ -75,7 +75,7 @@
       "source": "bing_html",
       "query": "site:facebook.com マンジャロ 韓国人 クリニック",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "fallback": true
     },
     {
@@ -93,11 +93,11 @@
       "fallback": true
     },
     {
-      "source": "bing_rss",
+      "source": "bing_html",
       "query": "site:x.com マンジャロ 韓国人 クリニック",
       "ok": true,
       "items": 10,
-      "fallback": false
+      "fallback": true
     },
     {
       "source": "bing_html",
@@ -121,11 +121,11 @@
       "fallback": true
     },
     {
-      "source": "bing_rss",
+      "source": "bing_html",
       "query": "マンジャロ 韓国人 旅行者 クリニック 札幌 予約",
       "ok": true,
-      "items": 10,
-      "fallback": false
+      "items": 0,
+      "fallback": true
     },
     {
       "source": "yahoo_x",
@@ -166,7 +166,7 @@
       "source": "google_news",
       "query": "マンジャロ 韓国人 クリニック 値段 予約",
       "ok": true,
-      "items": 7,
+      "items": 11,
       "fallback": false
     },
     {
@@ -202,8 +202,16 @@
       "items": 16
     }
   ],
-  "hits_this_run": 47,
-  "new_candidates": [],
+  "hits_this_run": 48,
+  "new_candidates": [
+    {
+      "id": "found-0b32a6912ec2",
+      "name": "ひろつ内科クリニック",
+      "source_url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxNRzN3dUU3eTFudjM5RHJVRzFjcGJ1c1o0bkZiTWN3aWpReUU3RGhwT3pxVmktcFlXQUNZQmRXT0JLLW5LMmxPd2hNbUNfTnhwWDdvZVpQMGY0Y3JxUlJVLUJkemg4SHpaa2RLT3daQk84VzJ1a29tX2FGemJJV0JaeUl5WmhFYk9PU1pCdXpuTmY2blMtMDFsSDR4cHhSM1dhQlZqM0VSbGVQVy1TQU8zMVpvY2ctM3RXWlhaWlA5ZGVuLU1rcUFxb2g5UXU0Ql9IMzY3c3FvVUhhVmdlcjE0SGlFM3piUjVVQ2tJQUdxeVl4aXhISzlMZDRuV3l4NkJiNDRreHRpZHhURDZLY3JnejRsU3JodlhMV2d3LVZHZkJVU18zZGZNVUpJSzVVTVJnQW1uaUM1ckpOMU5EOG0yQ1RGQ1BjWi0wY2Fr?oc=5",
+      "source": "google_news",
+      "channel": "web"
+    }
+  ],
   "archive": [
     {
       "key": "aa5890a7b9fcbdfd349f",
@@ -484,15 +492,14 @@
         "title": "マンジャロで死亡することはある？安全な使い方を医師が解説 - ひろつ内科クリニック",
         "snippet": "マンジャロで死亡することはある？安全な使い方を医師が解説 - ひろつ内科クリニック マンジャロで死亡することはある？安全な使い方を医師が解説 ひろつ内科クリニック",
         "clinic_names": [
-          "安全な使い方を医師が解説 - ひろつ内科クリニック",
-          "安全な使い方を医師が解説 ひろつ内科クリニック"
+          "ひろつ内科クリニック"
         ],
         "channel": "web",
         "source": "google_news",
-        "query": "マンジャロ クリニック 料金 12本",
+        "query": "マンジャロ 韓国人 クリニック 値段 予約",
         "event": null,
         "first_seen": "2026-11-21T00:07:28+09:00",
-        "last_seen": "2026-11-21T00:07:28+09:00"
+        "last_seen": "2026-11-21T10:35:53+09:00"
       }
     },
     {
@@ -1189,8 +1196,8 @@
         "source": "public_directory_lead",
         "query": "foreign-traveler clinic directory",
         "event": null,
-        "first_seen": "2026-11-21T10:18:04+09:00",
-        "last_seen": "2026-11-21T10:18:04+09:00"
+        "first_seen": "2026-11-21T10:35:53+09:00",
+        "last_seen": "2026-11-21T10:35:53+09:00"
       }
     }
   ],
