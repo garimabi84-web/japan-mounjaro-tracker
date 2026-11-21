@@ -51,6 +51,12 @@ def live_check():
                     key=match[1];value=int(value[1].replace(',',''))
                     result[key]=value
         print('Sakai official on-page 4-pen prices:',json.dumps(result,ensure_ascii=False),flush=True)
+        from source_price_parser import extract_official
+        amounts,basis=extract_official(r.content)
+        print('Generic official parser 12-pen amounts:',json.dumps(amounts,ensure_ascii=False),'basis:',basis,flush=True)
+        expected={d:v*3 for d,v in RAW_4.items()}
+        if amounts!=expected:
+            raise ValueError(f'Generic parser still misreads four-pen price table: {amounts} expected {expected}')
         return result
     except (requests.RequestException,ValueError) as exc:
         print('Sakai live fetch unavailable; retaining independently verified 2026-11-21 official-page evidence:',str(exc)[:150],flush=True)
