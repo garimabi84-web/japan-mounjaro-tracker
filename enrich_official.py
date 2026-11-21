@@ -5,7 +5,7 @@ Only parses explicit 12-pen/3-month tables or 4-pen/1-month unit prices.
 Never guesses foreigner eligibility, online access, shipping, or promo validity.
 No SNS advertisement price is promoted without official price-page evidence.
 """
-import argparse, datetime as dt, json, re, urllib.parse, unicodedata
+import argparse, datetime as dt, json, re, urllib.parse, unicodedata, os
 from pathlib import Path
 from bs4 import BeautifulSoup
 import requests
@@ -38,13 +38,16 @@ def extract_prices(source):
         rows=[[c.get_text(' ',strip=True) for c in tr.find_all(['th','td'])] for tr in table.select('tr')]
         rows=[r for r in rows if len(r)>=2]
         head=' '.join(' '.join(r) for r in rows[:2])
-        three_col=[];one_col=[]
+        three_col=[];one_col=[];single_col=[]
         if any(x in head for x in ['3ヶ月','3か月','12本','12キット']):
             for index,col in enumerate(rows[0]):
                 if re.search('3ヶ月|3か月|12本|12キット',col):three_col.append(index)
         if any(x in head for x in ['1ヶ月','1か月','4本','4キット']):
             for index,col in enumerate(rows[0]):
                 if re.search('1ヶ月|1か月|4本|4キット',col):one_col.append(index)
+        if any(x in head for x in ['1本','1キット','1本あたり','1本当たり']):
+            for index,col in enumerate(rows[0]):
+                if re.search(r'1本|1キット',col):single_col.append(index)
         for row in rows:
             key=dose_key(row[0])
             if not key:continue
@@ -55,6 +58,9 @@ def extract_prices(source):
             if val is not None:prices[key]=val;continue
             for index in one_col:
                 if index<len(row) and numeric_price(row[index]):val=numeric_price(row[index])*3
+            if val is not None:prices[key]=val;continue
+            for index in single_col:
+                if index<len(row) and numeric_price(row[index]):val=numeric_price(row[index])*12
             if val is not None:prices[key]=val;continue
             # Explicit single row inline 12-pen or 4-pen descriptions
             inline=' '.join(row)
@@ -74,7 +80,7 @@ def extract_prices(source):
             local=text[text.find(h1.get_text(' ',strip=True)):][:220]
             val=numeric_price(local)
             if val:prices[key]=val*3
-    return prices, 'official 12-pen posted or explicit 4-pen price × 3'
+    return prices, '공식 12펜 금액 또는 공식 4펜×3 / 1펜×12 환산(단위별 구매 가능성 별도 확인)'
 
 def official_link(session,name,hint=None):
     # When the official-site search found a probable clinic page, try that
@@ -110,6 +116,9 @@ def run():
         product='<h1>マンジャロ 10.0mg</h1> ¥46,000 (税込) 1ヶ月分（4本）のお値段となります。'
         prices,_=extract_prices(product)
         assert prices.get('10')==138000,prices
+        perpen='<h1>マンジャロ 料金</h1><table><tr><th>用量</th><th>1本あたり</th></tr><tr><td>10mg</td><td>9,000円</td></tr></table>'
+        prices,_=extract_prices(perpen)
+        assert prices.get('10')==108000,prices
         assert official_host('https://www.miraimedical.com/price')=='miraimedical.com'
         assert official_host('https://mirai-medical.clinic/ko/mounjaro/')=='mirai-medical.clinic'
         assert official_host('https://miraimedical.com/')!=official_host('https://mirai-medical.clinic/')
@@ -132,13 +141,13 @@ def run():
     # Fair rotating verification queue: previously the same first twelve
     # unverified names were retried forever while later discoveries starved.
     # The oldest attempt is examined first on each run.
-    queue=[x for x in cat['clinics'] if x.get('status')=='candidate' and x.get('discovery')=='auto']
+    queue=[x for x in cat['clinics'] if x.get('status')=='candidate' and x.get('discovery') in ('auto','national')]
     queue.sort(key=lambda x:(x.get('official_checked_at',''),x.get('first_seen','')))
     # Reserve slots for comparison-site links that point straight to a possible
     # official clinic website, without starving older name-only candidates.
     linked = [x for x in queue if x.get('official_url_hint')]
     name_only = [x for x in queue if not x.get('official_url_hint')]
-    batch = linked[:6] + name_only[:12]
+    batch = linked[:(45 if os.environ.get('FULL_SCAN')=='true' else 24)] + name_only[:12]
     done=0
     for item in batch:
         done+=1
@@ -157,15 +166,33 @@ def run():
         try:
             resp=session.get(official,timeout=(6,15));resp.raise_for_status()
             soup=BeautifulSoup(resp.content,'html.parser');text=soup.get_text(' ',strip=True)
+            prices,basis=extract_prices(resp.content)
+            # A clinic homepage may link to a dedicated Mounjaro price page.
+            if not prices:
+                links=[]
+                for a in soup.select('a[href]'):
+                    href=urllib.parse.urljoin(official,a.get('href',''))
+                    label=a.get_text(' ',strip=True)+' '+a.get('href','')
+                    if official_host(href)!=official_host(official):continue
+                    if href==official or not re.search(r'マンジャロ|mounjaro|チルゼパチド|medical[-_/]?diet|glp[-_/]?1',label,re.I):continue
+                    if href not in links:links.append(href)
+                for href in links[:2]:
+                    try:
+                        follow=session.get(href,timeout=(6,13));follow.raise_for_status()
+                        found,basis=extract_prices(follow.content)
+                        if found:
+                            prices=found;official=follow.url
+                            soup=BeautifulSoup(follow.content,'html.parser');text=soup.get_text(' ',strip=True)
+                            break
+                    except requests.RequestException:pass
             if not re.search('マンジャロ|mounjaro',text,re.I):continue
             # A price table is useful only if it actually belongs to the named
             # institution. Do not attribute comparison articles to a clinic.
             normalized=lambda x:re.sub(r'[^a-z0-9ぁ-んァ-ヴ一-龥]','',unicodedata.normalize('NFKC',x).lower())
             key=normalized(item['name'])
-            if len(key)>=6 and key not in normalized(text[:3000]):
+            if not item.get('mhlw_identity_matched') and len(key)>=6 and key not in normalized(text[:3000]):
                 item['notes']='공식 사이트 후보 발견, 병원명 교차 검증 실패: '+official
                 continue
-            prices,basis=extract_prices(resp.content)
             if not prices:continue
             # Temporary campaign/coupon pages require a verifiable end date and
             # separate event treatment, so do not auto-promote their prices.
