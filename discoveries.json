@@ -1,5 +1,5 @@
 {
-  "ran_at": "2026-11-21T13:03:11+09:00",
+  "ran_at": "2026-11-21T13:12:54+09:00",
   "source_status": [
     {
       "source": "bing_rss",
@@ -13,7 +13,7 @@
       "source": "bing_html",
       "query": "韓国人 観光客 マンジャロ クリニック 予約",
       "ok": true,
-      "items": 0,
+      "items": 10,
       "qualified": 0,
       "fallback": true
     },
@@ -74,6 +74,14 @@
       "fallback": true
     },
     {
+      "source": "bing_rss",
+      "query": "マンジャロ 10mg 12本 クリニック キャンペーン",
+      "ok": true,
+      "items": 10,
+      "qualified": 0,
+      "fallback": false
+    },
+    {
       "source": "bing_html",
       "query": "マンジャロ 10mg 12本 クリニック キャンペーン",
       "ok": true,
@@ -114,14 +122,6 @@
       "fallback": true
     },
     {
-      "source": "bing_rss",
-      "query": "site:x.com マンジャロ 韓国人 クリニック",
-      "ok": true,
-      "items": 10,
-      "qualified": 0,
-      "fallback": false
-    },
-    {
       "source": "bing_html",
       "query": "site:x.com マンジャロ 韓国人 クリニック",
       "ok": true,
@@ -138,14 +138,6 @@
       "fallback": true
     },
     {
-      "source": "bing_rss",
-      "query": "マンジャロ 韓国人 旅行者 クリニック 鳥取 予約",
-      "ok": true,
-      "items": 10,
-      "qualified": 0,
-      "fallback": false
-    },
-    {
       "source": "bing_html",
       "query": "マンジャロ 韓国人 旅行者 クリニック 鳥取 予約",
       "ok": true,
@@ -157,7 +149,7 @@
       "source": "bing_html",
       "query": "マンジャロ 韓国人 旅行者 クリニック 広島 予約",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
@@ -181,7 +173,7 @@
       "source": "official_site_search",
       "query": "マンジャロ 12本 3ヶ月 料金 クリニック",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
@@ -213,14 +205,6 @@
       "source": "official_site_search",
       "query": "マンジャロ 韓国語 予約 料金 医院",
       "ok": true,
-      "items": 10,
-      "qualified": 0,
-      "fallback": false
-    },
-    {
-      "source": "official_site_search",
-      "query": "マンジャロ 韓国語 予約 料金 医院",
-      "ok": true,
       "items": 0,
       "qualified": 0,
       "fallback": true
@@ -245,7 +229,7 @@
       "source": "official_site_search",
       "query": "マンジャロ 10mg 価格 福岡 医院",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
@@ -278,7 +262,7 @@
       "query": "マンジャロ 外国人 処方 料金 クリニック",
       "ok": true,
       "items": 11,
-      "qualified": 0,
+      "qualified": 1,
       "fallback": true
     },
     {
@@ -406,9 +390,9 @@
       "items": 5
     }
   ],
-  "hits_this_run": 83,
+  "hits_this_run": 84,
   "channel_counts": {
-    "official": 2,
+    "official": 3,
     "sns": 1,
     "web": 80
   },
@@ -2113,7 +2097,7 @@
         "query": "マンジャロ 10mg 料金 4本 クリニック",
         "event": null,
         "first_seen": "2026-11-21T11:17:45+09:00",
-        "last_seen": "2026-11-21T13:03:11+09:00"
+        "last_seen": "2026-11-21T13:12:54+09:00"
       }
     },
     {
@@ -2311,7 +2295,7 @@
           "note": "행사 언급만 감지. 적용 기간과 12펜 가격은 공식 검증 전"
         },
         "first_seen": "2026-11-21T12:01:22+09:00",
-        "last_seen": "2026-11-21T13:03:11+09:00"
+        "last_seen": "2026-11-21T13:12:54+09:00"
       }
     },
     {
@@ -2327,8 +2311,8 @@
         "source": "public_directory_lead",
         "query": "foreign-traveler clinic directory",
         "event": null,
-        "first_seen": "2026-11-21T13:03:11+09:00",
-        "last_seen": "2026-11-21T13:03:11+09:00"
+        "first_seen": "2026-11-21T13:12:54+09:00",
+        "last_seen": "2026-11-21T13:12:54+09:00"
       }
     },
     {
@@ -2344,8 +2328,8 @@
         "source": "public_directory_lead",
         "query": "foreign-traveler clinic directory",
         "event": null,
-        "first_seen": "2026-11-21T13:03:11+09:00",
-        "last_seen": "2026-11-21T13:03:11+09:00"
+        "first_seen": "2026-11-21T13:12:54+09:00",
+        "last_seen": "2026-11-21T13:12:54+09:00"
       }
     },
     {
@@ -2361,8 +2345,8 @@
         "source": "public_directory_lead",
         "query": "foreign-traveler clinic directory",
         "event": null,
-        "first_seen": "2026-11-21T13:03:11+09:00",
-        "last_seen": "2026-11-21T13:03:11+09:00"
+        "first_seen": "2026-11-21T13:12:54+09:00",
+        "last_seen": "2026-11-21T13:12:54+09:00"
       }
     },
     {
@@ -2379,8 +2363,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-21T13:03:11+09:00",
-        "last_seen": "2026-11-21T13:03:11+09:00"
+        "first_seen": "2026-11-21T13:12:54+09:00",
+        "last_seen": "2026-11-21T13:12:54+09:00"
       }
     }
   ],
