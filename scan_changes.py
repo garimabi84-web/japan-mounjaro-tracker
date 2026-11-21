@@ -119,7 +119,11 @@ def changes(before, after):
 def update_history(history, at, items):
     counts={kind:sum(c['type']==kind for c in items)
             for kind in ('new','verified','price','promotion','info','status','source')}
-    entry={'at':at,'total':len(items),'counts':counts,'items':items[:250]}
+    # Store every affected clinic ID, even when the detailed change log is
+    # trimmed. The row highlight must never silently miss item 251+.
+    clinic_ids=list(dict.fromkeys(x['clinic_id'] for x in items if x.get('clinic_id')))
+    entry={'at':at,'total':len(items),'counts':counts,
+           'clinic_ids':clinic_ids,'items':items[:250]}
     runs=[entry]+[r for r in history.get('runs',[]) if r.get('at')!=at]
     return {'schema':1,'latest':entry,'runs':runs[:30]}
 
@@ -132,6 +136,13 @@ def self_test():
     assert {'verified','price','promotion'} <= types, types
     h=update_history({},'2026-11-21T12:00:00+09:00',changes(a,b))
     assert h['latest']['total'] == 3 and len(h['runs']) == 1
+    assert h['latest']['clinic_ids'] == ['a'],h['latest']['clinic_ids']
+    many=[{'type':'new','clinic_id':f'id-{n}','clinic':f'병원 {n}'} for n in range(275)]
+    overflow=update_history({},'2026-11-21T13:00:00+09:00',many)
+    assert len(overflow['latest']['items'])==250
+    assert len(overflow['latest']['clinic_ids'])==275
+    cleared=update_history(overflow,'2026-11-21T13:10:00+09:00',[])
+    assert cleared['latest']['clinic_ids']==[] and cleared['latest']['total']==0
     print('scan change self-test passed')
 
 def main():
