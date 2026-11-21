@@ -223,6 +223,45 @@ def entry(url, title, desc, origin, query):
             "clinic_names": found, "channel": "sns" if social else "web",
             "source": origin, "query": query, "event": event_hints(txt)}
 
+def official_page_lead(url, page_html, query):
+    """Derive a clinic name from a fetched page's own branding metadata.
+
+    Search headlines are often "Mounjaro | Prices" without the clinic name.
+    This remains a NAME-only candidate, not verified medicine pricing.
+    """
+    if not potential_official_site(url):
+        return None
+    soup=BeautifulSoup(page_html, "html.parser")
+    for node in soup(["script","style","footer","nav"]):
+        node.decompose()
+    text=soup.get_text(" ",strip=True)
+    if not TERM.search(text):
+        return None
+    site=soup.select_one('meta[property="og:site_name"]')
+    site_name=site.get("content","") if site else ""
+    title=soup.title.get_text(" ",strip=True) if soup.title else ""
+    top_header=soup.select_one("header")
+    header=top_header.get_text(" ",strip=True)[:350] if top_header else ""
+    brand=list(dict.fromkeys(candidate_names(site_name)+candidate_names(title)+candidate_names(header)))
+    if not brand:
+        return None
+    return {"url": url, "title": title[:160], "snippet": "Official-site page branding: "+site_name[:120],
+            "clinic_names": brand[:2], "channel": "official",
+            "source": "official_site_search", "official_url_hint": url,
+            "query": query, "event": None}
+
+def probe_official_site(session, url, query):
+    if not potential_official_site(url):
+        return None
+    try:
+        response=session.get(url, timeout=(4, 9), headers={"Accept": "text/html"})
+        response.raise_for_status()
+        if "html" not in response.headers.get("Content-Type","").lower() and not response.text.lstrip().startswith("<"):
+            return None
+        return official_page_lead(response.url, response.text[:950000], query)
+    except (requests.RequestException, ValueError, UnicodeError):
+        return None
+
 def fetch_rss(session, query, provider):
     if provider == "bing":
         url = "https://www.bing.com/search?" + urllib.parse.urlencode({"q": query, "format": "rss", "count": 25})
@@ -384,15 +423,22 @@ def fetch_directory_leads(session):
 
 def discover(session, limit=150, full=False):
     official_hits, public_hits, status, seen = [], [], [], set()
+    probe_budget=12
+    probed_urls=set()
 
     def ingest(provider, query, entries, fallback=False, official=False):
         items = list(entries)
         qualified = 0
+        nonlocal probe_budget
         for title, url, description in items:
             if not url or url in seen:
                 continue
             item = official_entry(url, title, description, query) if official else entry(
                 url, title, description, provider, query)
+            if official and not item and probe_budget>0 and url not in probed_urls and potential_official_site(url):
+                probe_budget-=1
+                probed_urls.add(url)
+                item=probe_official_site(session,url,query)
             if item:
                 (official_hits if official else public_hits).append(item)
                 seen.add(url)
@@ -406,6 +452,15 @@ def discover(session, limit=150, full=False):
         status.append({"source": provider, "query": query, "ok": True,
                        "items": len(items), "qualified": qualified, "fallback": fallback})
 
+    for query in planned_queries(full):
+        try:
+            entries = list(fetch_rss(session, query, "bing"))
+            if entries:
+                ingest("bing_rss", query, entries)
+            else:
+                ingest("bing_html", query, fetch_bing_html(session, query), fallback=True)
+        except Exception as exc:
+            status.append({"source": "bing", "query": query, "ok": False, "reason": str(exc)[:100]})
     # Keep official clinic sites independent of SNS results. RSS search can
     # change/fail; use public HTML search as a fallback only when RSS is empty.
     for query in official_queries(full):
@@ -419,15 +474,6 @@ def discover(session, limit=150, full=False):
         except Exception as exc:
             status.append({"source": "official_site_search", "query": query, "ok": False,
                            "reason": str(exc)[:100]})
-    for query in planned_queries(full):
-        try:
-            entries = list(fetch_rss(session, query, "bing"))
-            if entries:
-                ingest("bing_rss", query, entries)
-            else:
-                ingest("bing_html", query, fetch_bing_html(session, query), fallback=True)
-        except Exception as exc:
-            status.append({"source": "bing", "query": query, "ok": False, "reason": str(exc)[:100]})
     for query in YAHOO:
         try:
             ingest("yahoo_x", query, fetch_yahoo(session, query))
@@ -587,6 +633,9 @@ def self_test():
         "新星クリニック マンジャロ", "マンジャロ価格", "official test")
     assert not official_entry("https://www.bing.com/ck/a?redirect=1",
         "新星クリニック マンジャロ", "マンジャロ価格", "official test")
+    site_fixture='<html><head><title>マンジャロ価格</title><meta property="og:site_name" content="天神スタークリニック"></head><body>マンジャロ 10mg 価格表</body></html>'
+    from_site=official_page_lead("https://tenjin-star.jp/mounjaro/",site_fixture,"test")
+    assert from_site and from_site["clinic_names"]==["天神スタークリニック"],from_site
     cat_official={"clinics":[{"id":"known","name":"既存クリニック",
         "status":"active","url":"https://known-clinic.jp/mounjaro/"}]}
     duplicate=official_entry("https://known-clinic.jp/new-price",
