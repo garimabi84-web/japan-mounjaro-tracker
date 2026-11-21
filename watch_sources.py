@@ -71,7 +71,7 @@ def run() -> None:
         names = [x['name'] for x in cat['clinics'] if normalize(x.get('url', '')) == key]
         entry = {'name': names[0], 'url': url, 'status': None}
         try:
-            rsp = session.get(url, timeout=(8, 18), allow_redirects=True)
+            rsp = session.get(url, timeout=(5, 11), allow_redirects=True)
             rsp.raise_for_status()
             text = relevant_text(rsp.text)
             if len(text) < 50:
