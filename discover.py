@@ -621,7 +621,11 @@ def run():
     cat["updated"] = now()[:10]
     cat["auto_candidate_quality_version"] = 2
     CATALOG.write_text(json.dumps(cat, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    channels = {"official": sum(h["channel"]=="official" for h in hits),
+                "sns": sum(h["channel"]=="sns" for h in hits),
+                "web": sum(h["channel"]=="web" for h in hits)}
     outcome = {"ran_at": now(), "source_status": sources, "hits_this_run": len(hits),
+               "channel_counts": channels,
                "new_candidates": fresh,
                "archive": [{"key": k, "hit": v} for k, v in list(archive.items())[-600:]],
                "note": "Three leads: official site index, public SNS/web, comparison directories (name-only). 12-week price and visitor eligibility require official evidence."}
