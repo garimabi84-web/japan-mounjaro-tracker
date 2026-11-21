@@ -125,14 +125,17 @@ def extract_official(source):
                     found[d]=round(price*factor);sources[d]='공식 병원 가격표 · 용량별'
     # Inline prices from an explicit Mounjaro paragraph or an adjacent dosage
     # paragraph immediately following a Mounjaro one.
-    recent_drug=False
-    for node in soup.select('p,li,dd'):
+    recent_drug=False;gap=0
+    for node in soup.select('h1,h2,h3,h4,p,li,dd'):
         if node.find_parent(['table','nav','footer']):continue
         content=normalize(node.get_text(' ',strip=True))
-        if len(content)>400:recent_drug=False;continue
-        if DRUG.search(content):recent_drug=True
-        elif OTHER_DRUG.search(content):recent_drug=False;continue
-        elif not DOSE_RE.search(content):continue
+        if len(content)>400:recent_drug=False;gap=0;continue
+        if DRUG.search(content):recent_drug=True;gap=0
+        elif OTHER_DRUG.search(content):recent_drug=False;gap=0;continue
+        elif not DOSE_RE.search(content):
+            gap+=1
+            if gap>3:recent_drug=False
+            continue
         if not recent_drug:continue
         block=extraction_per_segment(content)
         for d,v in block.items():
@@ -149,6 +152,9 @@ def self_test():
     table='<h2>マンジャロ料金</h2><p>表示価格はすべて税込・4本／4週間分です</p><table><tr><th>用量</th><th>改定前</th><th>9月1日以降</th></tr><tr><td>10 mg</td><td>35,000円</td><td>33,000円</td></tr></table>'
     x,_=extract_official(table)
     assert x.get('10')==99000,x
+    heading='<h2>マンジャロ価格</h2><p>10mg (4週分) 60,000円</p>'
+    x,_=extract_official(heading)
+    assert x.get('10')==180000,x
     wrong='<h2>美容料金</h2><p>オゼンピック 5mg 1本10,000円</p><p>マンジャロに関する注意喚起</p>'
     x,_=extract_official(wrong)
     assert x=={},x
