@@ -13,6 +13,12 @@
 - **가격 검증 후보 순환:** 이전에는 항상 첫 12개만 검사했지만 이제 최근에 시도하지 않은 후보부터 확인합니다.
 - **한계:** SNS 플랫폼의 로그인 제한이나 검색엔진 색인 누락을 우회하지 않습니다. '검색 요청 성공'은 '신규 병원 발견 성공'과 다릅니다. 마운자로 12주 가격은 실제 일괄 처방을 보장하지 않습니다.
 
+## 재검색 버튼 사용법 (2026-11-21)
+
+웹사이트 ‘공개 SNS·웹 신규 발굴 내역’의 **수동 재검색** 버튼은 GitHub Actions의 안전한 실행 화면을 엽니다. GitHub에 저장소 쓰기 권한이 있는 계정으로 로그인한 뒤 **Run workflow → Run workflow**를 선택하면 실제 SNS·웹 검색을 실행합니다. 수동 실행의 `full_scan`은 기본 ON으로 설정되어 전체 지역·SNS 검색어를 순회하며, 매일 정오 자동 실행은 부담을 줄이기 위해 지역별 검색어를 순환합니다. 완료 후 사이트의 **최신 결과 불러오기** 버튼을 누르면 캐시를 피해서 최근 배포 화면을 요청합니다. GitHub Actions 또는 Pages 배포가 끝나기 전이면 이전 데이터가 표시될 수 있습니다.
+
+정적 GitHub Pages는 인증 권한이 없어서 사이트의 버튼 한 번만으로 비공개 GitHub Actions 작업을 시작할 수 없습니다. 접근 토큰은 사이트에 포함하거나 공개 저장소에 저장하지 않습니다. 사이트에 표시하는 실행 안내는 누구나 볼 수 있지만, 실제 작업을 실행할 권한은 저장소 소유자 등 쓰기 권한이 있는 계정에만 있습니다.
+
 ## 요구사항별 동작
 
 1. **병원 발굴부터:** `discover.py`가 매 회차 공개 SNS 색인 결과(X·Instagram·Facebook 대상으로 Bing RSS 검색), 공개 Yahoo! Japan X 실시간 검색 및 Google News 공개 RSS를 조회합니다. 게시물에서 병원명을 인식하면 `catalog.json`에 중복을 걸러 새로운 **candidate** 레코드를 만듭니다. 이름, 공개 검색/게시물 링크, 발견 경로와 기록을 남깁니다. 새 병원은 코드의 고정된 목록에 수동 등록할 필요가 없습니다.
@@ -28,7 +34,7 @@
 ## 매일 신규 병원 발굴을 자동 실행하려면
 
 1. ZIP 안의 파일과 `.github/workflows/price-check.yml`을 **GitHub 저장소 최상위**로 업로드하고 Actions를 활성화합니다. 저장소 설정의 Actions Workflow permissions에서 필요한 경우 `Read and write permissions`를 부여합니다.
-2. GitHub 저장소의 **Actions → Find new clinics from public SNS/web and monitor price sources → Run workflow**로 최초 1회 실행합니다. 이후 매일 **UTC 00:17 / 한국·일본 09:17 부근**에 자동 실행됩니다(실행 지연 가능).
+2. GitHub 저장소의 **Actions → Find new clinics from public SNS/web and monitor price sources → Run workflow**로 최초 1회 실행합니다. 이후 매일 **UTC 03:00 / 한국·일본 12:00(정오)**에 자동 실행됩니다(서버 부하에 따라 시작 시각이 지연될 수 있음).
 3. 성공 시 `catalog.json`, `discoveries.json`, `catalog.csv`, `index.html`, `monitor.js` 등이 커밋되어 변경됩니다. 업데이트된 HTML은 저장소에서 다시 내려받아 열거나 GitHub Pages 정적 사이트에 공개해 조회할 수 있습니다.
 4. 저장소가 비공개여도 GitHub Actions 권한 설정이 필요합니다. GitHub Pages 배포를 원한다면 Pages 설정과 공개 범위의 개인정보 유의가 필요합니다. 추적기는 별도의 이메일/푸시 자동 발송 기능을 포함하지 않습니다.
 
