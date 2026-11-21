@@ -104,6 +104,8 @@ NON_OFFICIAL_DOMAINS = (
     "youtube.com", "tiktok.com", "ameblo.jp", "hatena.ne.jp",
     "prtimes.jp", "atpress.ne.jp", "value-press.com", "livedoor.jp",
     "note.jp", "sushijaro.jp", "jihi-shohou.com", "seikeitimes.com",
+    "manjaro-info.jp", "mounjaro-map.jobby-time.com",
+    "kusurigo.vercel.app", "best.e-health.care", "iryodiet-navi.com",
 )
 OFFICIAL_CORE = [
     "マンジャロ 10mg 料金 4本 クリニック",
@@ -319,27 +321,65 @@ def directory_entries(source, base_url, limit=35):
             break
     return found
 
+def comparison_link_entries(source, base_url, limit=30):
+    """Extract institution NAME leads from a public comparison page.
+
+    Only linked clinic labels are retained. Never import the comparison site's
+    price, claim of official status, tourist policy or promotional discount.
+    """
+    soup = BeautifulSoup(source, "html.parser")
+    for tag in soup(["script", "style", "footer", "nav"]):
+        tag.decompose()
+    out, seen_names = [], set()
+    for a in soup.select("a[href]"):
+        names = candidate_names(a.get_text(" ", strip=True))
+        if not names:
+            continue
+        target = urllib.parse.urljoin(base_url, a.get("href", ""))
+        if not target.startswith("https://"):
+            continue
+        for name in names[:2]:
+            norm = norm_name(name)
+            if norm in seen_names:
+                continue
+            seen_names.add(norm)
+            out.append({"url": target, "title": name,
+                        "snippet": "Comparison directory clinic name lead only; no price copied.",
+                        "clinic_names": [name], "channel": "web",
+                        "source": "public_directory_lead", "query": base_url, "event": None})
+            if len(out) >= limit:
+                return out
+    return out
+
 def fetch_directory_leads(session):
+    # Independently published comparisons are a SECONDARY way to find names;
+    # their prices and purported eligibility are not imported.
     roots = (
-        "https://sushijaro.app/ja/city/online",
-        "https://sushijaro.app/ja/?f=korean",
-        "https://sushijaro.app/ja/city/fukuoka",
+        ("https://sushijaro.app/ja/city/online", "sushijaro"),
+        ("https://sushijaro.app/ja/?f=korean", "sushijaro"),
+        ("https://sushijaro.app/ja/city/fukuoka", "sushijaro"),
+        ("https://manjaro-info.jp/clinic-search/", "comparison"),
+        ("https://mounjaro-map.jobby-time.com/ja/city/tokyo/", "comparison"),
+        ("https://kusurigo.vercel.app/mounjaro-ja.html", "comparison"),
     )
     results, states, seen = [], [], set()
-    for root in roots:
+    for root, kind in roots:
         try:
             response = session.get(root, timeout=(6, 15))
             response.raise_for_status()
-            items = directory_entries(response.text, root)
-            states.append({"source": "public_directory_lead", "query": root, "ok": True, "items": len(items)})
+            items = (directory_entries(response.text, root) if kind == "sushijaro"
+                     else comparison_link_entries(response.text, root))
+            states.append({"source": "public_directory_lead", "query": root,
+                           "ok": True, "items": len(items)})
             for item in items:
-                if item["url"] not in seen:
+                key = (norm_name(item["clinic_names"][0]), hostname(item["url"]))
+                if key not in seen:
                     results.append(item)
-                    seen.add(item["url"])
+                    seen.add(key)
         except Exception as exc:
             states.append({"source": "public_directory_lead", "query": root, "ok": False,
                            "reason": str(exc)[:110]})
-    return results[:60], states
+    return results[:100], states
 
 def discover(session, limit=150, full=False):
     official_hits, public_hits, status, seen = [], [], [], set()
@@ -507,6 +547,9 @@ def self_test():
     html_fixture = '<a href="/ja/clinic/ubclinic-online">1 UBクリニック チャットボット</a><a href="/ja/clinic/x">安全なクリニック</a>'
     fixture = directory_entries(html_fixture, "https://sushijaro.app/")
     assert len(fixture) == 1 and fixture[0]["clinic_names"] == ["UBクリニック"], fixture
+    compare_fixture='<a href="https://sample-clinic.jp/mounjaro/">新星クリニック</a><a href="/info">マンジャロ料金比較クリニック</a>'
+    compare_items=comparison_link_entries(compare_fixture,"https://manjaro-info.jp/clinic-search/")
+    assert len(compare_items)==1 and compare_items[0]["clinic_names"]==["新星クリニック"],compare_items
     cat = {"clinics": []}
     found, _ = merge_into_catalog(cat, [positive], {})
     assert len(found) == 1 and cat["clinics"][0]["status"] == "candidate"
