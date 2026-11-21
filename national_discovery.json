@@ -1,5 +1,5 @@
 {
-  "ran_at": "2026-11-21T13:27:05+09:00",
+  "ran_at": "2026-11-21T13:36:07+09:00",
   "sources": [
     {
       "source": "MHLW clinic open data",
@@ -12,21 +12,21 @@
       "source": "sayaka",
       "ok": true,
       "pages": 19,
-      "official_link_leads": 490,
+      "official_link_leads": 157,
       "total_pages": 51
     },
     {
       "source": "mirai",
       "ok": true,
       "pages": 19,
-      "official_link_leads": 208,
+      "official_link_leads": 95,
       "total_pages": 44
     }
   ],
   "count": {
     "mhlw_website_records": 47908,
-    "directory_links": 698,
-    "matched_registry": 614,
+    "directory_links": 252,
+    "matched_registry": 220,
     "registry_sites_checked": 15,
     "gov_drug_site_leads": 0,
     "new_candidates": 0,
