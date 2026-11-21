@@ -78,7 +78,7 @@ def correct_one(c,outcome):
     c['official_price_audit_status']='passed'
     c['official_price_audited_at']=now()
     c['url']=outcome['url']
-    if c['prices']!=old:c['updated']=now()[:10]
+    if old!=prices:c['updated']=now()[:10]
     return 'corrected' if old!=prices else 'passed'
 
 def self_test():
