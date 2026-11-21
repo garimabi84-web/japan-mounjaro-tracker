@@ -405,6 +405,21 @@ def discover(session, limit=150, full=False):
 def merge_into_catalog(cat, rawhits, archive):
     ids = {x["id"] for x in cat["clinics"]}
     seen = {norm_name(x["name"]) for x in cat["clinics"]}
+    # Domain identity prevents re-adding known clinics on every daily
+    # official search, while a same-name clinic on a DIFFERENT official
+    # domain remains a separately reviewable candidate.
+    known_official_hosts = {
+        hostname(x.get("url", "")) for x in cat["clinics"]
+        if x.get("status") != "candidate" and x.get("url", "").startswith("https://")
+    }
+    known_official_hosts.update(
+        x.get("official_domain", "").lower().removeprefix("www.")
+        for x in cat["clinics"] if x.get("status") != "candidate" and x.get("official_domain")
+    )
+    seen_official_pairs = {
+        (hostname(x.get("official_url_hint", "")), norm_name(x["name"]))
+        for x in cat["clinics"] if x.get("official_url_hint")
+    }
     seen_directory_slugs = set()
     for existing in cat["clinics"]:
         existing_path = urllib.parse.urlsplit(existing.get("url", "")).path
@@ -415,6 +430,11 @@ def merge_into_catalog(cat, rawhits, archive):
     fresh = []
     stamp = now()
     for hit in rawhits:
+        official = hit.get("channel") == "official" and hit.get("source") == "official_site_search"
+        official_domain = hostname(hit.get("official_url_hint") or hit.get("url", "")) if official else ""
+        if official and (not official_domain or official_domain in known_official_hosts):
+            # This provider's clinic website has already been verified.
+            continue
         path=urllib.parse.urlsplit(hit.get("url","")).path
         match=re.search(r"/(?:ja/|en/)?clinic/([^/]+)",path)
         directory_slug=match.group(1) if match else None
@@ -435,20 +455,25 @@ def merge_into_catalog(cat, rawhits, archive):
             # retained as a *candidate* until official URL/address validation.
             # SNS hits without a stable entity URL remain conservative.
             name_collision = norm in seen
-            if not directory_slug and (name_collision or known_aliases.get(norm) in ids):
+            if official:
+                if (official_domain, norm) in seen_official_pairs:
+                    continue
+            elif not directory_slug and (name_collision or known_aliases.get(norm) in ids):
                 continue
             if len(norm) < 5 or any(p in name for p in BAD_PARTS):
                 continue
-            ident = "found-" + hashlib.sha1((directory_slug or norm).encode()).hexdigest()[:12]
+            identity_key = ("official:" + official_domain + ":" + norm) if official else (directory_slug or norm)
+            ident = "found-" + hashlib.sha1(identity_key.encode()).hexdigest()[:12]
             if ident in ids:
                 continue
             row = {"id": ident, "name": name, "region": "미확인", "city": "미확인",
                    "mode": "미확인", "foreign": "unknown", "online": "unknown", "ship": "unknown",
-                   "prices": {k: None for k in DOSES}, "basis": "SNS·공개 웹의 명칭 후보 (공식 검증 전)",
+                   "prices": {k: None for k in DOSES}, "basis": "공식 출처·SNS·비교 사이트에서 발견된 후보 (검증 전)",
                    "url": hit["url"],
-                   "notes": "공개 검색에서 발견된 이름으로 실제 의료기관 여부부터 확인해야 합니다.",
+                   "official_url_hint": hit["official_url_hint"] if official else "",
+                   "notes": "공개 공식 사이트 검색에서 발견된 페이지. 실제 의료기관·기관명·가격 확인 전." if official else "공개 검색에서 발견된 이름으로 실제 의료기관 여부부터 확인해야 합니다.",
                    "fees": "미확인", "status": "candidate", "address": "",
-                   "channel": "자동 공개 SNS 탐색" if hit["channel"] == "sns" else "자동 웹 탐색",
+                   "channel": "공식 홈페이지 검색 후보" if official else ("자동 공개 SNS 탐색" if hit["channel"] == "sns" else "비교 사이트·웹 검색 후보"),
                    "updated": stamp[:10], "discovery": "auto", "price_verified": False,
                    "candidate_quality": "same_name_needs_identity_verification" if name_collision else "name_unverified",
                    "identity_conflict": bool(name_collision), "directory_slug": directory_slug or "",
@@ -461,6 +486,8 @@ def merge_into_catalog(cat, rawhits, archive):
             seen.add(norm)
             if directory_slug:
                 seen_directory_slugs.add(directory_slug)
+            if official:
+                seen_official_pairs.add((official_domain, norm))
             fresh.append({"id": ident, "name": name, "source_url": hit["url"],
                           "source": hit["source"], "channel": hit["channel"]})
         key = hashlib.sha1(hit["url"].encode()).hexdigest()[:20]
@@ -501,6 +528,23 @@ def self_test():
     tokyo_candidates,_=merge_into_catalog(cat3,[tokyo],{})
     assert len(tokyo_candidates)==1 and tokyo_candidates[0]["name"]=="ミライメディカルクリニック",tokyo_candidates
     assert cat3["clinics"][-1]["identity_conflict"] is True
+    # An official URL is a distinct DISCOVERY path and not proof of price or
+    # identity. Known official domains should not be cloned as new clinics.
+    official_hit=official_entry("https://new-clinic.jp/mounjaro/price",
+        "マウンジャロの価格 - 新星クリニック", "マンジャロ 10mg 4本 30,000円", "official test")
+    assert official_hit and official_hit["channel"]=="official",official_hit
+    assert not official_entry("https://sushijaro.app/ja/clinic/new",
+        "新星クリニック マンジャロ", "マンジャロ価格", "official test")
+    cat_official={"clinics":[{"id":"known","name":"既存クリニック",
+        "status":"active","url":"https://known-clinic.jp/mounjaro/"}]}
+    duplicate=official_entry("https://known-clinic.jp/new-price",
+        "既存クリニック マンジャロ", "マンジャロ 価格", "test")
+    assert merge_into_catalog(cat_official,[duplicate],{})[0]==[]
+    same_brand=official_entry("https://separate-clinic.jp/fee",
+        "既存クリニック マンジャロ", "マンジャロ料金", "test")
+    newofficial,_=merge_into_catalog(cat_official,[same_brand,same_brand],{})
+    assert len(newofficial)==1 and cat_official["clinics"][-1]["identity_conflict"],newofficial
+    assert cat_official["clinics"][-1]["official_url_hint"]=="https://separate-clinic.jp/fee"
     # When both are verified separately, the known Tokyo directory record
     # must be suppressed as already registered.
     cat3["clinics"].append({"id":"mirai-medical-tokyo","name":"미라이 메디컬(도쿄)","status":"active"})
@@ -537,10 +581,12 @@ def run():
     outcome = {"ran_at": now(), "source_status": sources, "hits_this_run": len(hits),
                "new_candidates": fresh,
                "archive": [{"key": k, "hit": v} for k, v in list(archive.items())[-600:]],
-               "note": "Public indexed social/web sources only; 3-month prices require official evidence."}
+               "note": "Three leads: official site index, public SNS/web, comparison directories (name-only). 12-week price and visitor eligibility require official evidence."}
     OUTPUT.write_text(json.dumps(outcome, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print("New clinic name leads:", " | ".join(x["name"] for x in fresh[:50]))
-    print("Discover v2:", len(hits), "named hits;", len(fresh), "new candidates;",
+    print("Discover v3 official+SNS+directories:", len(hits), "named hits;",
+          len([x for x in hits if x.get("channel")=="official"]), "official page leads;",
+          len(fresh), "new candidates;",
           sum(s["ok"] for s in sources), "of", len(sources), "queries succeeded")
 
 if __name__ == "__main__":
