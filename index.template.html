@@ -86,7 +86,7 @@ $('addbtn').onclick=()=>edit(null);$('dlgclose').onclick=$('cancelbtn').onclick=
 const discoveries=JSON.parse(document.getElementById('discovery-seed').textContent);
 {let hits=(discoveries.archive||[]).map(x=>x.hit).filter(Boolean),fresh=discoveries.new_candidates||[];let ok=(discoveries.source_status||[]).filter(x=>x.ok).length,all=(discoveries.source_status||[]).length;
 const counts=discoveries.channel_counts||{},officialCount=counts.official||0,snsCount=counts.sns||0,webCount=counts.web||0;
-const sourceStatus=discoveries.source_status||[],officialChecks=sourceStatus.filter(x=>x.source==='official_site_search'),directoryChecks=sourceStatus.filter(x=>x.source==='public_directory_lead');
+const sourceStatus=discoveries.source_status||[],officialChecks=sourceStatus.filter(x=>x.source&&x.source.startsWith('official_site_search')),directoryChecks=sourceStatus.filter(x=>x.source==='public_directory_lead');
 const scannedDate=discoveries.ran_at?new Date(discoveries.ran_at):null;
 const scanStamp=scannedDate&&!Number.isNaN(scannedDate.getTime())?new Intl.DateTimeFormat('ko-KR',{timeZone:'Asia/Seoul',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false}).format(scannedDate):'기록 없음';
 $('headerscantime').textContent='최근 재검색 '+scanStamp+' KST';
