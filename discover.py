@@ -215,10 +215,12 @@ def entry(url, title, desc, origin, query):
     # Prefer the headline, then the short description, but never concatenate them
     # for entity extraction; concatenation is a major cause of false clinic names.
     found = list(dict.fromkeys(candidate_names(title) + candidate_names(desc)))
-    if not found:
-        return None
     domain = (urllib.parse.urlsplit(url).hostname or "").lower()
     social = any(domain == h or domain.endswith("." + h) for h in SOCIAL_HOSTS)
+    # Keep a public SNS price post as evidence even if the search snippet
+    # cannot establish a clinic name. Do not create a clinic from this alone.
+    if not found and not (social and re.search(r"円|¥|￥|엔|가격|料金|価格|할인|キャンペーン", txt)):
+        return None
     return {"url": url, "title": (title or "")[:160], "snippet": txt[:450],
             "clinic_names": found, "channel": "sns" if social else "web",
             "source": origin, "query": query, "event": event_hints(txt)}
@@ -484,7 +486,7 @@ def discover(session, limit=210, full=False):
             if item:
                 (official_hits if official else public_hits).append(item)
                 seen.add(url)
-                qualified += 1
+                qualified += 1 if item.get('clinic_names') else 0
         # Keep compact public index diagnostics in Action logs to distinguish
         # a true zero-result query from changes in search-result markup.
         if provider == "official_site_search" and items and not qualified and query == OFFICIAL_CORE[0]:
@@ -671,6 +673,8 @@ def self_test():
     cat = {"clinics": []}
     found, _ = merge_into_catalog(cat, [positive], {})
     assert len(found) == 1 and cat["clinics"][0]["status"] == "candidate"
+    unnamed = entry("https://x.com/example/status/price", "マンジャロ 10mg 12本 90,000円", "", "test", "test")
+    assert unnamed and unnamed["channel"] == "sns" and unnamed["clinic_names"] == []
     assert all(v is None for v in cat["clinics"][0]["prices"].values())
     directory_hit = {"url": "https://sushijaro.app/ja/clinic/new-clinic",
         "clinic_names": ["テスト医療クリニック"], "channel":"web",
