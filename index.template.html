@@ -6,8 +6,18 @@
 @media(max-width:600px){main{padding:12px 10px 35px}header{padding:26px 15px}.kpis{gap:8px}.kpi{padding:11px}.kpi strong{font-size:19px}.section{margin-bottom:10px}.sheader{padding:13px}.filters{padding:12px;gap:8px}.field input,.field select{padding:9px}.toggles{padding:0 12px 13px}.tbl{min-width:0}.tbl thead{display:none}.tbl tr.record{display:grid;grid-template-columns:1fr 120px;gap:5px 10px;padding:12px 13px;border-bottom:1px solid var(--line)}.tbl tr.record td{padding:0;border:0}.tbl tr.record td:nth-child(1){grid-column:1}.tbl tr.record td:nth-child(2){grid-column:1;grid-row:2;font-size:12px}.tbl tr.record td:nth-child(3){grid-column:1;grid-row:3}.tbl tr.record td:nth-child(4),.tbl tr.record td:nth-child(5){display:none}.tbl tr.record td:nth-child(6){grid-column:2;grid-row:1;text-align:right}.tbl tr.record td:nth-child(7){grid-column:2;grid-row:2;text-align:right}.tbl tr.record td:nth-child(8){grid-column:1/-1;grid-row:4;padding:8px 0 5px;border-top:1px dashed var(--line)}.tbl tr.record td:nth-child(9){grid-column:1;grid-row:5}.tbl tr.record td:nth-child(10){grid-column:2;grid-row:5;text-align:right}.row-actions{justify-content:flex-end}.basis{font-size:10px}.dose-grid{grid-template-columns:repeat(2,1fr)}.details{padding:12px}.bar>span:first-child{width:105px}.bar>span:last-child{width:83px}.dlgbody{padding:13px;gap:9px}.hgrid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:600px){.tbl.many{min-width:1600px}.tbl.many thead{display:table-header-group}.tbl.many tr.record{display:table-row;border-bottom:1px solid var(--line);padding:0}.tbl.many tr.record td{display:table-cell;padding:13px 11px;border-bottom:1px solid #eef2f6;text-align:left;font-size:12px}.tbl.many tr.record td .yen{font-size:12px}}
 .rescanbox{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;padding:15px;border:1px solid #cce8e1;border-radius:12px;background:#f1faf7;margin-bottom:10px}.rescanbox p{margin:5px 0 0}.rescanbox .buttons{display:flex;gap:8px;flex-wrap:wrap}.rescanbox .btn{white-space:nowrap}
+
+.scantime{font-size:15px;font-weight:800;color:#075f59;margin:4px 0}
+.scan-dialog{max-width:560px;width:calc(100% - 30px);border:1px solid var(--line);border-radius:14px;padding:0;box-shadow:0 22px 60px #142a4855}
+.scan-dialog::backdrop{background:#0f213688}
+.scan-dialog .dlgbody{padding:18px}
+.scan-dialog .dlgbody p{margin:0 0 12px}
+.scan-dialog .scan-token{display:block;width:100%;margin:6px 0 12px;padding:12px;border:1px solid #a9b6c8;border-radius:8px}
+.scan-dialog .scan-check{display:flex;gap:7px;align-items:center;font-size:13px;margin-bottom:10px}
+.scan-dialog .scan-check input{width:auto}
+.scan-feedback{min-height:20px;white-space:pre-wrap;margin-top:12px;color:var(--mid)}
 </style></head>
-<body><header><div class="brand"><span class="eyebrow">JAPAN · MOUNJARO · SNS DISCOVERY</span><span class="date">기초자료 2026.11.20 · 발굴형 v3</span></div><h1>일본 마운자로 12주 가격 추적기</h1><p>2.5–15mg 전체 용량 비교 · 외국인 처방 · 온라인 진료 · 일본 전국 냉장배송 · 공식 출처 추적 · SNS 신규 병원 발굴 · 이벤트가 포함</p></header>
+<body><header><div class="brand"><span class="eyebrow">JAPAN · MOUNJARO · SNS DISCOVERY</span><span class="date" id="headerscantime">최근 재검색 확인 중…</span></div><h1>일본 마운자로 12주 가격 추적기</h1><p>2.5–15mg 전체 용량 비교 · 외국인 처방 · 온라인 진료 · 일본 전국 냉장배송 · 공식 출처 추적 · SNS 신규 병원 발굴 · 이벤트가 포함</p></header>
 <main><div class="intro"><span class="pill">기준: 12펜 = 주 1회 × 12주</span><span class="pill">통화: 일본 엔(¥)</span><span class="pill">약값 중심 · 추가비용 별도 표기</span><span class="pill">공개 SNS 후보와 검증된 병원을 분리 · 미확인 ≠ 불가</span><span class="pill">이벤트 가격도 유효기간 중 최저가 순위 반영</span></div>
 <div class="kpis"><div class="kpi"><small>등록 비교 항목</small><strong id="metric-all">–</strong><em>건</em></div><div class="kpi"><small>관광객/외국인 명시 가능</small><strong id="metric-visitor">–</strong><em>건</em></div><div class="kpi"><small>온라인 진료 가능</small><strong id="metric-online">–</strong><em>건</em></div><div class="kpi"><small id="metric-cheapest-label">선택 용량 최저 약값</small><strong id="metric-cheapest">–</strong></div></div>
 <section class="section"><div class="sheader"><h2>검색 및 비교 조건</h2><button class="btn" id="resetfilters">필터 초기화</button></div><div class="filters">
@@ -19,10 +29,23 @@
 <section class="section"><div class="sheader"><div><h2>병원 비교표</h2><small>실제 병원 근거 우선 · SNS 발굴 후보 별도 표시 · 이벤트 및 예약 링크 포함</small></div><div class="toolrow"><button class="btn primary" id="addbtn">+ 병원 추가</button><button class="btn" id="csvbtn">CSV 저장</button><button class="btn" id="jsonbtn">JSON 저장</button><button class="btn" id="importbtn">JSON 가져오기</button><input id="importinput" type="file" accept=".json,application/json" hidden></div></div>
 <div id="summary" class="summary"></div><div class="scroll"><table class="tbl"><thead id="thead"></thead><tbody id="tbody"></tbody></table></div></section>
 <section class="section"><div class="sheader"><h2>현재 필터의 저가 순위</h2><small>공식 확인 가격·유효기간 내 이벤트 가격 모두 포함 · 12주 약값</small></div><div id="chart" class="bar-area"></div></section>
-<section class="section"><div class="sheader"><div><h2>공개 SNS·웹 신규 발굴 내역</h2><small>매일 정오 자동 검색 · 수동 심층 재검색 지원</small></div><span class="tag unknown" id="scanstate">자동 수집 설정 전</span></div><div class="sources"><div class="rescanbox"><div><strong>자동 재검색: 매일 12:00 (한국·일본 시간)</strong><p class="smalltext">GitHub Actions가 새 병원을 수집·검증하고 가격표를 다시 게시합니다. 실제 시작 시각은 지연될 수 있습니다.</p></div><div class="buttons"><a class="btn primary" id="manualscan" href="https://github.com/garimabi84-web/japan-mounjaro-tracker/actions/workflows/price-check.yml" target="_blank" rel="noopener noreferrer" title="GitHub 로그인 후 Run workflow를 눌러 검색 시작">수동 재검색 ↗</a><button type="button" class="btn" id="refreshlatest">최신 결과 불러오기</button></div></div><p class="smalltext">수동 재검색: 버튼 → GitHub 로그인 → <b>Run workflow</b> → <b>Run workflow</b> 클릭. 실행이 끝난 뒤 이 페이지의 ‘최신 결과 불러오기’를 누르세요. 공개 웹페이지에서는 인증정보 보호를 위해 작업을 직접 실행하지 않습니다.</p><p id="scansummary">SNS 공개 검색 결과에서 병원명을 인식해 등록합니다. GitHub Actions 설정 후 매일 수집하며, 새 결과는 이 정적 HTML을 다시 생성해야 표시됩니다.</p><div class="source-cards" id="discoverycards"></div><p class="smalltext">검색엔진이 색인한 공개 X·Instagram·Facebook 게시물 및 공개 Yahoo X 검색과 일본 웹/뉴스를 사용합니다. 플랫폼별 검색 차단·비공개 게시물은 접근할 수 없습니다. 신규 병원은 병원명과 가격을 검증하기 전까지 후보로 분리하며, 비교표에서는 기본적으로 숨깁니다. 후보 표시 옵션으로 확인할 수 있습니다.</p></div></section>
+<section class="section"><div class="sheader"><div><h2>공개 SNS·웹 신규 발굴 내역</h2><small>매일 정오 자동 검색 · 수동 심층 재검색 지원</small></div><span class="tag unknown" id="scanstate">자동 수집 설정 전</span></div><div class="sources"><div class="rescanbox"><div><strong>자동 재검색: 매일 12:00 (한국·일본 시간)</strong><p id="lastscantime" class="scantime" aria-live="polite">마지막 재검색: 확인 중…</p><p class="smalltext">GitHub Actions가 새 병원을 수집·검증하고 가격표를 다시 게시합니다. 실제 시작 시각은 지연될 수 있습니다.</p></div><div class="buttons"><button type="button" class="btn primary" id="manualscan" title="이 사이트에서 직접 GitHub 수집 작업 실행">수동 재검색</button><a class="btn" id="githubscan" href="https://github.com/garimabi84-web/japan-mounjaro-tracker/actions/workflows/price-check.yml" target="_blank" rel="noopener noreferrer">GitHub에서 실행 ↗</a><button type="button" class="btn" id="refreshlatest">최신 결과 불러오기</button></div></div><p class="smalltext">수동 재검색: 사이트에서 <b>수동 재검색</b>을 눌러 GitHub 전용 토큰으로 직접 실행하거나, <b>GitHub에서 실행</b>을 이용할 수 있습니다. 검색 완료 후 최신 결과 불러오기를 누르세요. 시작 요청과 검색 완료는 별개입니다.</p><p id="scansummary">SNS 공개 검색 결과에서 병원명을 인식해 등록합니다. GitHub Actions 설정 후 매일 수집하며, 새 결과는 이 정적 HTML을 다시 생성해야 표시됩니다.</p><div class="source-cards" id="discoverycards"></div><p class="smalltext">검색엔진이 색인한 공개 X·Instagram·Facebook 게시물 및 공개 Yahoo X 검색과 일본 웹/뉴스를 사용합니다. 플랫폼별 검색 차단·비공개 게시물은 접근할 수 없습니다. 신규 병원은 병원명과 가격을 검증하기 전까지 후보로 분리하며, 비교표에서는 기본적으로 숨깁니다. 후보 표시 옵션으로 확인할 수 있습니다.</p></div></section>
 <section class="section"><div class="sheader"><h2>공식 웹·SNS 추가 탐색</h2><small>플랫폼별 공개 게시글 검색 바로가기</small></div><div class="sources"><p>등록된 신규 발굴기는 공개 SNS 검색 결과에서 병원 후보를 자동 생성합니다. 별도 서버가 없는 이 HTML은 실시간 직접 크롤링하지 않으며, GitHub Actions 수집·재빌드 후 결과가 반영됩니다. 이벤트 가격은 공개 게시물만 믿고 확정하지 않고 공식/예약 플랫폼 근거로 확인한 경우에만 현재가에 반영합니다.</p><div class="buttons"><a id="searchx" class="btn" target="_blank" rel="noopener">X 게시글 검색 ↗</a><a id="searchig" class="btn" target="_blank" rel="noopener">Instagram 검색 ↗</a><a id="searchfb" class="btn" target="_blank" rel="noopener">Facebook 검색 ↗</a><a id="searchweb" class="btn" target="_blank" rel="noopener">일본 웹 검색 ↗</a></div><div class="source-cards"><div class="source-card"><b>가격 변경 감지 <span id="monstate" class="tag unknown">오프라인/미실행</span></b><small id="montext">GitHub Actions 감시를 설정하면 가격 출처 페이지의 본문 변경 여부를 매일 확인합니다. 가격 자체는 확인 없이 자동 덮어쓰지 않습니다.</small><div id="monlist"></div></div><div class="source-card"><b>개인 수정 내용 <span id="editcount" class="tag unknown">0건</span></b><small>병원 추가·가격 수정 사항은 현재 브라우저의 로컬 저장소에 보관됩니다. 기기 변경 전 JSON으로 내보내세요.</small><div class="toolrow" style="margin-top:9px"><button class="btn danger" id="clearbtn">개인 수정 초기화</button><button class="btn" id="historybtn">수정 기록 보기</button></div></div></div></div></section>
 <p class="footnote"><strong>계산 방식:</strong> 행사 가격은 유효기간 내에 확인된 12펜 가격이면 정규 가격과 함께 최저가로 비교합니다. 만료된 행사는 상세에 남고, 종료 행사 포함을 선택하면 과거 최저가도 별도 비교할 수 있습니다.  공식 12펜 가격이 있으면 이를 우선 적용했습니다. 4펜(4주)만 공개된 병원은 3배, 2펜 상자는 6배로 표시하되 병원별 가격산정방식에 밝힙니다. 단순 환산은 실제 12펜 일괄 처방 가능성을 의미하지 않습니다. 가격에 진료비·검사비·냉장배송비·증명서 비용이 포함되는지는 병원마다 다릅니다. 외국인 가능 여부는 일본 내 외국인 거주자와 해외 거주 관광객이 다르므로 상세 조건을 확인해야 합니다. 해외에서의 온라인 진료 허용 여부도 별개입니다.</p>
 <p class="footnote"><strong>투여·반입 유의:</strong> 가격 정보는 의사 처방과 재고를 보장하지 않습니다. 용량 증감·3개월 일괄 처방 가능 여부는 진료에서 결정됩니다. 일본 내 배송은 한국 배송을 뜻하지 않으며, 한국 반입 기준은 여행 전에 공식 규정을 재확인하세요.</p><div class="footer">Sources: X/Instagram/Facebook public indexing, Yahoo X search, clinic / booking price pages. Seed 2026-11-20. Local HTML snapshot; daily discovery runs only when GitHub Actions is enabled.</div></main>
+<dialog id="scandialog" aria-labelledby="scandialogtitle" class="scan-dialog">
+  <div class="dlghead"><h3 id="scandialogtitle">사이트에서 수동 재검색</h3><button type="button" class="btn" id="scanclose">닫기</button></div>
+  <div class="dlgbody">
+    <p>본인 GitHub 저장소에 재검색 작업을 요청합니다. 처음 사용할 때는 <b>이 저장소만 접근 가능한 Fine-grained token</b>이 필요합니다.</p>
+    <p class="smalltext"><a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener noreferrer">GitHub 토큰 만들기 ↗</a> → Repository access: <b>Only select repositories</b> → <b>japan-mounjaro-tracker</b> 선택 → Permissions: <b>Actions → Read and write</b>. 다른 권한은 최소로 설정하고 만료일을 지정하세요.</p>
+    <label for="scantoken">GitHub 접근 토큰</label>
+    <input id="scantoken" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="github_pat_..." class="scan-token"/>
+    <label class="scan-check"><input id="scankeep" type="checkbox"/> 이 브라우저 탭을 닫을 때까지만 토큰 기억</label>
+    <p class="smalltext">토큰은 GitHub API로만 전송하며 서버나 공개 저장소에 저장하지 않습니다. 기억을 선택하면 이 탭의 sessionStorage에만 보관됩니다. 공용 기기에서는 선택하지 마세요. 저장소 소스와 사이트가 공개되어 있으므로 비밀번호·개인정보를 코드에 입력하지 마세요.</p>
+    <div class="buttons"><button type="button" class="btn primary" id="scanstart">전체 SNS·웹 재검색 실행</button><a class="btn" href="https://github.com/garimabi84-web/japan-mounjaro-tracker/actions/workflows/price-check.yml" target="_blank" rel="noopener noreferrer">GitHub에서 대신 실행 ↗</a></div>
+    <p id="scanfeedback" class="scan-feedback" role="status" aria-live="polite"></p>
+  </div>
+</dialog>
 <dialog id="editor"><div class="dlghead"><h3 id="dlgtitle">병원 추가</h3><button id="dlgclose" class="btn">닫기</button></div><form id="editform"><div class="dlgbody">
 <div class="field"><label>병원명</label><input name="name" required></div><div class="field"><label>지역</label><select name="region"><option>규슈</option><option>간토</option><option>간사이</option><option>주부</option><option>시코쿠</option><option>주고쿠</option><option>온라인</option><option>미확인</option><option>홋카이도/도호쿠</option><option>주고쿠</option><option>오키나와</option><option>기타</option></select></div>
 <div class="field"><label>상세 지역</label><input name="city" placeholder="후쿠오카 텐진"></div><div class="field"><label>방식</label><select name="mode"><option>방문</option><option>온라인</option><option>방문·온라인</option></select></div>
@@ -62,11 +85,56 @@ function edit(id){currentEdit=id||null;let x=id?dataset().find(v=>v.id===id):nul
 $('addbtn').onclick=()=>edit(null);$('dlgclose').onclick=$('cancelbtn').onclick=()=>$('editor').close();$('editform').onsubmit=e=>{e.preventDefault();const form=new FormData(e.currentTarget);let old=currentEdit?dataset().find(x=>x.id===currentEdit):null;let obj={...(old||{}),id:currentEdit||'custom-'+Date.now().toString(36),updated:new Date().toISOString().slice(0,10)};for(const [key,value] of form.entries()){if(key.startsWith('p-')||key.startsWith('event-'))continue;obj[key]=String(value).trim()}obj.prices={};for(const d of DS){const s=String(form.get('p-'+d)||'').trim();obj.prices[d]=s===''?null:Number(s)}const edose=String(form.get('event-dose')||''),ep=Number(form.get('event-price')||0),estart=String(form.get('event-start')||''),eend=String(form.get('event-end')||'');if(edose&&ep>0&&eend){obj.events=[...(old?.events||[]),{name:'직접 추가한 SNS 이벤트',start:estart,end:eend,prices:{[edose]:ep},basis:'등록자 확인 12펜 금액',conditions:String(form.get('event-terms')||''),url:obj.url,source:'사용자 직접 등록'}]}if(!obj.url.startsWith('https://')){alert('https://로 시작하는 출처 URL을 입력하세요.');return}if(obj.booking_url&&!/^https:\/\/[^\s<>\"]+$/i.test(obj.booking_url)){alert('예약 URL은 https:// 주소여야 합니다.');return}overrides[obj.id]=obj;log.unshift({date:new Date().toLocaleString('ko-KR'),name:obj.name,action:old?'수정':'추가'});save();$('editor').close();opened=obj.id;render()};$('delrecord').onclick=()=>{if(!currentEdit||!confirm('이 항목을 삭제합니까?'))return;overrides[currentEdit]=null;log.unshift({date:new Date().toLocaleString('ko-KR'),name:currentEdit,action:'삭제'});save();$('editor').close();opened=null;render()};$('clearbtn').onclick=()=>{if(!confirm('현재 기기에 저장된 모든 병원 추가·수정 기록을 삭제합니까?'))return;overrides={};log=[];save();opened=null;render()};$('historybtn').onclick=()=>{$('historylist').innerHTML=log.length?log.slice(0,100).map(x=>`<p><b>${escape(x.name)}</b> · ${escape(x.action||'가져오기')}<br><span class="smalltext">${escape(x.date)}</span></p>`).join(''):'<p class="muted">수정 기록이 없습니다.</p>';$('history').showModal()};$('hclose').onclick=()=>$('history').close();
 const discoveries=JSON.parse(document.getElementById('discovery-seed').textContent);
 {let hits=(discoveries.archive||[]).map(x=>x.hit).filter(Boolean),fresh=discoveries.new_candidates||[];let ok=(discoveries.source_status||[]).filter(x=>x.ok).length,all=(discoveries.source_status||[]).length;
-$('scanstate').textContent=discoveries.ran_at?`수집 ${discoveries.ran_at.slice(0,10)}`:'공개 SNS 발굴 초기 샘플';
+const scannedDate=discoveries.ran_at?new Date(discoveries.ran_at):null;
+const scanStamp=scannedDate&&!Number.isNaN(scannedDate.getTime())?new Intl.DateTimeFormat('ko-KR',{timeZone:'Asia/Seoul',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false}).format(scannedDate):'기록 없음';
+$('headerscantime').textContent='최근 재검색 '+scanStamp+' KST';
+$('lastscantime').textContent='마지막 실제 검색: '+scanStamp+' (한국시간)';
+$('scanstate').textContent=discoveries.ran_at?'재검색 '+scanStamp:'검색 기록 없음';
 $('scansummary').textContent=discoveries.ran_at?`마지막 자동 실행: ${discoveries.ran_at} · 검색 응답 성공 ${ok}/${all} (검색 결과 0건도 성공에 포함) · 이번 회차 SNS/웹 후보 ${fresh.length}개 · 누적 근거 게시물 ${hits.length}개 · 신규 후보는 비교표에 자동 등록됩니다.`:`초기 공개 SNS 검색 근거 ${hits.length}건을 기록했습니다. GitHub Actions를 실행하면 검색 소스별 성공/실패와 신규 병원이 자동 반영됩니다.`;
 $('discoverycards').innerHTML=hits.slice(-20).reverse().map(x=>`<div class="source-card"><b>${escape((x.clinic_names||[]).join(' · ')||x.title)}</b><small>${escape(x.channel||'sns')} · ${escape((x.first_seen||'').slice(0,10))}${x.event?' · 이벤트/할인 단서':''}</small><div class="smalltext">${escape((x.snippet||'').slice(0,160))}</div><a href="${escape(x.url)}" target="_blank" rel="noopener">게시물 / 검색 근거 보기</a></div>`).join('')||'<div class="empty">수집된 공개 SNS 게시물이 없습니다. 자동 검색을 활성화하세요.</div>';
 }
 const mon=window.__PRICE_WATCH__;if(mon&&mon.ran_at){$('monstate').textContent=mon.ran_at.slice(0,10)+' 점검';$('monstate').className='tag yes';let changed=(mon.sources||[]).filter(x=>x.status==='changed'||x.status==='error');$('montext').textContent=`최근 점검: ${mon.ran_at} · 변경/오류 ${changed.length}개 출처 (가격 자체 자동반영 아님)`;$('monlist').innerHTML=changed.slice(0,12).map(x=>`<div style="margin-top:8px;font-size:12px"><a href="${escape(x.url)}" target="_blank" rel="noopener">${escape(x.name)}</a> · ${escape(x.status)} · 원문 재확인</div>`).join('')}
 const refreshButton=$('refreshlatest');if(refreshButton)refreshButton.onclick=()=>{const url=new URL(window.location.href);url.searchParams.set('refresh',String(Date.now()));window.location.assign(url.href)};
+
+// Browser-side authenticated manual dispatch, with no embedded credentials.
+// The token is only submitted to api.github.com. Never include it in URL,
+// telemetry, logs, HTML snapshots, or a GitHub Actions input.
+const scanDialog=$('scandialog');
+const tokenInput=$('scantoken');
+const rememberScan=$('scankeep');
+const tokenSessionKey='jmtracker_scan_token_session_v1';
+try{const saved=sessionStorage.getItem(tokenSessionKey);if(saved){tokenInput.value=saved;rememberScan.checked=true}}catch(e){}
+$('manualscan').onclick=()=>{scanDialog.showModal();$('scanfeedback').textContent='';tokenInput.focus()};
+$('scanclose').onclick=()=>scanDialog.close();
+scanDialog.addEventListener('click',ev=>{if(ev.target===scanDialog)scanDialog.close()});
+$('scanstart').onclick=async()=>{
+ const token=tokenInput.value.trim();
+ const status=$('scanfeedback'),button=$('scanstart');
+ if(token.length<20){status.textContent='GitHub에서 발급한 전용 접근 토큰을 입력하세요. 토큰을 만들지 않으려면 GitHub 실행 링크를 사용하면 됩니다.';return}
+ button.disabled=true;
+ status.textContent='GitHub에 재검색 실행 요청을 전송 중…';
+ try{
+  // CORS-enabled GitHub REST workflow_dispatch. Only the repo owner or
+  // collaborators with Actions:write permission can authorize this call.
+  const resp=await fetch('https://api.github.com/repos/garimabi84-web/japan-mounjaro-tracker/actions/workflows/price-check.yml/dispatches',{
+   method:'POST',
+   headers:{'Accept':'application/vnd.github+json','Authorization':'Bearer '+token,'Content-Type':'application/json','X-GitHub-Api-Version':'2022-11-28'},
+   body:JSON.stringify({ref:'main',inputs:{full_scan:'true'}}),
+   cache:'no-store'
+  });
+  if(resp.status===204){
+   try{if(rememberScan.checked)sessionStorage.setItem(tokenSessionKey,token);else sessionStorage.removeItem(tokenSessionKey)}catch(e){}
+   if(!rememberScan.checked)tokenInput.value='';
+   status.textContent='재검색 시작 요청이 접수됐습니다. 실제 검색은 GitHub 서버에서 진행되며 완료되면 사이트가 재배포됩니다. 작업 완료 후 ‘최신 결과 불러오기’를 눌러 확인하세요.';
+  }else{
+   const err=await resp.json().catch(()=>({}));
+   const tip=resp.status===401?'토큰이 유효하지 않거나 만료됐습니다.':resp.status===403?'토큰에 Actions: Read and write 권한이 있는지 확인하세요.':resp.status===404?'저장소 선택이나 workflow 권한을 확인하세요.':resp.status===422?'워크플로 설정 또는 기본 브랜치를 확인하세요.':'GitHub 오류가 발생했습니다.';
+   status.textContent='실행 요청 실패 (HTTP '+resp.status+'). '+tip+(err.message?' — '+String(err.message).slice(0,120):'');
+  }
+ }catch(e){
+  status.textContent='GitHub 연결 오류입니다. 브라우저의 네트워크/CORS 제한을 확인하거나 GitHub에서 직접 실행하세요.';
+ }finally{button.disabled=false}
+};
+
 render();})();
 </script></body></html>
