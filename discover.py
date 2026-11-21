@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """Discover publicly advertised Japanese Mounjaro clinics, emphasizing Korean travelers.
 
-Sources: search-indexed X/Instagram/Facebook, public Yahoo Japan real-time X,
-Japanese/Korean public web and news RSS. Neither private posts nor platform
-APIs are accessed. Discovered names remain unverified candidates until an
-official price source is confirmed. This script does not infer prescription
-eligibility from advertisements.
+Sources: three independent discovery channels: indexed clinic official
+websites, indexed public SNS, and clinic directories (name-only leads).
+Public Yahoo Japan X, Japanese/Korean web and news RSS are supplemental.
+Neither private posts nor platform APIs are accessed. Candidates remain
+unverified until their clinic identity and official price source are confirmed.
+Prescription eligibility is never inferred from advertisements.
 """
 from __future__ import annotations
 import argparse
@@ -92,6 +93,69 @@ REGIONS = [
     "福岡", "大阪", "東京", "対馬", "名古屋", "鳥取", "広島", "札幌",
     "京都", "神戸", "那覇", "長崎", "横浜", "金沢", "米子", "高松",
 ]
+# Explicit official-website discovery: source results are *leads* until a
+# clinic's own page is fetched and its identity/price are independently checked.
+# Unrelated comparison sites/news articles cannot become "official" leads.
+NON_OFFICIAL_DOMAINS = (
+    "sushijaro.app", "mounjarojp.com", "kireireport.com",
+    "beauty.hotpepper.jp", "yahoo.co.jp", "yahoo.com", "google.com",
+    "google.co.jp", "news.google.com", "instagram.com", "facebook.com",
+    "threads.net", "x.com", "twitter.com", "note.com", "reddit.com",
+    "youtube.com", "tiktok.com", "ameblo.jp", "hatena.ne.jp",
+    "prtimes.jp", "atpress.ne.jp", "value-press.com", "livedoor.jp",
+    "note.jp", "sushijaro.jp", "jihi-shohou.com", "seikeitimes.com",
+)
+OFFICIAL_CORE = [
+    "マンジャロ 10mg 料金 4本 クリニック",
+    "マンジャロ 12本 3ヶ月 料金 クリニック",
+    "マンジャロ 自由診療 料金表 クリニック",
+    "マンジャロ 2.5mg 5mg 7.5mg 10mg 料金表",
+    "マンジャロ 外国人 処方 料金 クリニック",
+    "マンジャロ 韓国語 予約 料金 医院",
+    "マンジャロ 10mg 価格 月額 医療ダイエット",
+]
+OFFICIAL_REGION_PATTERNS = [
+    "マンジャロ 料金表 {region} クリニック",
+    "マンジャロ 10mg 価格 {region} 医院",
+]
+
+def hostname(url):
+    try:
+        return (urllib.parse.urlsplit(url).hostname or "").lower().removeprefix("www.")
+    except ValueError:
+        return ""
+
+def potential_official_site(url):
+    try:
+        parsed = urllib.parse.urlsplit(url)
+        host = hostname(url)
+        if parsed.scheme != "https" or not host or "." not in host:
+            return False
+        return not any(host == h or host.endswith("." + h) for h in NON_OFFICIAL_DOMAINS)
+    except ValueError:
+        return False
+
+def official_queries(full=False):
+    # All core price searches daily; rotate prefectures on regular scans.
+    day = dt.date.today().toordinal()
+    regions = REGIONS if full else [REGIONS[(day * 3 + i) % len(REGIONS)] for i in range(3)]
+    return OFFICIAL_CORE + [
+        OFFICIAL_REGION_PATTERNS[i % len(OFFICIAL_REGION_PATTERNS)].format(region=region)
+        for i, region in enumerate(regions)
+    ]
+
+def official_entry(url, title, desc, query):
+    if not potential_official_site(url):
+        return None
+    result = entry(url, title, desc, "official_site_search", query)
+    if not result:
+        return None
+    # Search snippets can still be misleading. This URL is a HINT only;
+    # enrich_official.py fetches the actual page before any price is approved.
+    result["channel"] = "official"
+    result["official_url_hint"] = url
+    return result
+
 NEWS = [
     "マンジャロ 韓国人 クリニック 値段 予約",
     "マンジャロ 訪日外国人 クリニック 新規 価格",
@@ -277,25 +341,44 @@ def fetch_directory_leads(session):
                            "reason": str(exc)[:110]})
     return results[:60], states
 
-def discover(session, limit=90, full=False):
-    hits, status, seen = [], [], set()
-    def ingest(provider, query, entries, fallback=False):
+def discover(session, limit=150, full=False):
+    official_hits, public_hits, status, seen = [], [], [], set()
+
+    def ingest(provider, query, entries, fallback=False, official=False):
         items = list(entries)
-        status.append({"source": provider, "query": query, "ok": True, "items": len(items), "fallback": fallback})
+        qualified = 0
         for title, url, description in items:
             if not url or url in seen:
                 continue
-            item = entry(url, title, description, provider, query)
+            item = official_entry(url, title, description, query) if official else entry(
+                url, title, description, provider, query)
             if item:
-                hits.append(item)
+                (official_hits if official else public_hits).append(item)
                 seen.add(url)
+                qualified += 1
+        status.append({"source": provider, "query": query, "ok": True,
+                       "items": len(items), "qualified": qualified, "fallback": fallback})
+
+    # Keep official clinic sites independent of SNS results. RSS search can
+    # change/fail; use public HTML search as a fallback only when RSS is empty.
+    for query in official_queries(full):
+        try:
+            entries = list(fetch_rss(session, query, "bing"))
+            if entries:
+                ingest("official_site_search", query, entries, official=True)
+            else:
+                ingest("official_site_search", query, fetch_bing_html(session, query),
+                       fallback=True, official=True)
+        except Exception as exc:
+            status.append({"source": "official_site_search", "query": query, "ok": False,
+                           "reason": str(exc)[:100]})
     for query in planned_queries(full):
         try:
             entries = list(fetch_rss(session, query, "bing"))
             if entries:
                 ingest("bing_rss", query, entries)
             else:
-                ingest("bing_html", query, fetch_bing_html(session, query), True)
+                ingest("bing_html", query, fetch_bing_html(session, query), fallback=True)
         except Exception as exc:
             status.append({"source": "bing", "query": query, "ok": False, "reason": str(exc)[:100]})
     for query in YAHOO:
@@ -308,15 +391,16 @@ def discover(session, limit=90, full=False):
             ingest("google_news", query, fetch_rss(session, query, "google_news"))
         except Exception as exc:
             status.append({"source": "google_news", "query": query, "ok": False, "reason": str(exc)[:100]})
-    # Public price directories are supplemental NAME-ONLY leads, not a
-    # replacement for SNS discovery and never a source for price rankings.
+    # Directory listings provide NAMES ONLY, never authoritative prices or
+    # foreigner eligibility. Maintain an independent budget for this channel.
     directory_hits, directory_status = fetch_directory_leads(session)
     status.extend(directory_status)
-    for item in directory_hits:
-        if item["url"] not in seen:
-            hits.append(item)
-            seen.add(item["url"])
-    return hits[:limit], status
+    directory_hits = [x for x in directory_hits if x["url"] not in seen]
+    # Three independent channel quotas stop an ad-heavy query from consuming
+    # all available result slots and hiding official clinics or directories.
+    return (official_hits[:min(70, limit)] +
+            public_hits[:min(60, max(0, limit - 70))] +
+            directory_hits[:min(20, max(0, limit - 130))]), status
 
 def merge_into_catalog(cat, rawhits, archive):
     ids = {x["id"] for x in cat["clinics"]}
