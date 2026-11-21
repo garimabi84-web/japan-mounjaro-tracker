@@ -1,5 +1,5 @@
 {
-  "ran_at": "2026-11-21T13:14:05+09:00",
+  "ran_at": "2026-11-21T13:29:32+09:00",
   "hashes": {
     "https://baba-totalcareclinic.com/private-practice": "a3b141b4cbfca1ad3b54e74deadf22cb8a07c87f600b944481c176fb5cd22646",
     "https://tokyosilkclinic.com/menu/909": "c0190473d9a440191263d00607834cf85f2f48c7314ecb749794c6f61a36f785",
@@ -64,7 +64,15 @@
     "https://shonaika-clinic.jp/price": "c446f2b4fe987510348d83d27becc4bd0daa7d66fc4ae0c3d9c86f18c70f3b99",
     "https://takimoto-cl.com/menu/%E7%BE%8E%E5%AE%B9%E5%86%85%E7%A7%91": "1e9db0fabd50a5a63c4ad51f76312f39eedb56c2ce01e01ee1bf093c7287fa3c",
     "https://tsurumachi.jp/price-guide": "d1b534bae55a136e028dcbd763339f15bd45726b0a197b6057de7c7d712816c2",
-    "https://haab.clinic/menu/diet": "674ada894c8beac82cdd2e219feb8861e448d6ff20ad4cc73cece14fd617d3ec"
+    "https://haab.clinic/menu/diet": "674ada894c8beac82cdd2e219feb8861e448d6ff20ad4cc73cece14fd617d3ec",
+    "https://nagao-clinic.jp/online_diet_clinic.html": "c89a5e1428eaf3f77d107acf7a429d561566d32853c73c61e4d54b85c84cae99",
+    "https://natori-kumanodo-clinic.jp/treatment/self_care/mounjaro": "7b87c0f3f0b23f5ea630f6d5897a386a998920bf15cd06a2b3ce89003df9df91",
+    "https://nishimuranaika-cl.com/medical/jiyuu": "23cbae8424caa2ab8922a2b826a2503c31ca69f2ea55818f6b9b4eb74162b762",
+    "https://furusato-naika.com/menu/diet.html": "4ed9e198a4d079a0872a2daa93db5f4399e350b1b17567cc13d7d05fd4356633",
+    "https://whc-clinic.com/medical/medical07.html": "a91546b1b2c2e0b231212af75b5b9bf14cbab08f3ce1b6aa754c367991134963",
+    "https://chouchou-c.jp/price": "f7f6e2ee01d27765cf26ecc70f110f509871ba0c8cc2d7b73e1dcfd13fc18cbe",
+    "https://st-rose.to/charge": "25f6e806d123360704ec09795e6f659d512815eb1de55b919e600e31402bf3d8",
+    "https://www.keisei.ne.jp/soushin": "c490059c37f18a553ae7458f5030c79944f7561d606fd9585744e8afd8d8e8db"
   },
   "pending": {
     "https://origami-clinic.com/": {
