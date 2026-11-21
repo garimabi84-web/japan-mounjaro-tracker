@@ -80,7 +80,75 @@
 <script id="seed" type="application/json">__CATALOG_JSON__</script><script id="discovery-seed" type="application/json">__DISCOVERIES_JSON__</script><script id="changes-seed" type="application/json">__CHANGES_JSON__</script><script src="monitor.js"></script>
 <script>
 (()=>{'use strict';const DS=['2.5','5','7.5','10','12.5','15'],BASE=JSON.parse(document.getElementById('seed').textContent).clinics;const KEY='mounjaro_tracker_v3';let overrides={};let log=[];let opened=null;let currentEdit=null;try{const v=JSON.parse(localStorage.getItem(KEY)||'{}');overrides=v.overrides||{};log=v.log||[]}catch(e){}const $=id=>document.getElementById(id),fmt=v=>typeof v==='number'&&Number.isFinite(v)?'¥'+v.toLocaleString('ja-JP'):'–';const escape=s=>String(s??'').replace(/[&<>"']/g,x=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[x]));const tags={yes:['가능','yes'],no:['불가','no'],conditional:['조건부','conditional'],unknown:['미확인','unknown']};function badge(st,kind){const t=tags[st]||tags.unknown;const label=st==='unknown'?({foreign:'외국인 처방 미확인',online:'비대면 진료 미확인',ship:'전국 배송 미확인'}[kind]||t[0]):t[0];return `<span class="tag ${t[1]}">${label}</span>`}const eventState=e=>{let today=new Date().toLocaleDateString('sv-SE',{timeZone:'Asia/Tokyo'});return e.end&&e.end<today?'expired':e.start&&e.start>today?'upcoming':'active'};
-function priceInfo(x,d){let base=typeof x.prices?.[d]==='number'?x.prices[d]:null;let valid=(x.events||[]).filter(e=>typeof e.prices?.[d]==='number'&&(eventState(e)==='active'||$('archiveevents').checked)).sort((a,b)=>a.prices[d]-b.prices[d]);let e=valid[0];if(e&&(base===null||e.prices[d]<=base))return {amount:e.prices[d],event:e,expired:eventState(e)==='expired'};return {amount:base,event:null,expired:false}}
+
+const CHANGELOG=JSON.parse(document.getElementById('changes-seed').textContent||'{}');
+const LAST_CHANGE=CHANGELOG.latest||null;
+const CURRENT_IDS=new Set((LAST_CHANGE?.items||[]).map(x=>x.clinic_id).filter(Boolean));
+function sourceUrl(s){return typeof s==='string'&&/^https:\/\/[^\s<>"]+$/i.test(s)?s:''}
+function promotionalPrices(x,d){
+ const base=typeof x.prices?.[d]==='number'?x.prices[d]:null;
+ const out=[];
+ for(const p of (x.promotions||[])){
+  for(const v of (p.offers||[])){
+   if(String(v.dose)!==String(d))continue;
+   const amount=Number(v.equivalent_12);
+   if(!Number.isFinite(amount)||amount<=0||(base!==null&&amount===base))continue;
+   out.push({amount,raw:Number(v.price_yen),pens:Number(v.pens),label:'홍보물',posted:p.posted_date||'',seen:p.first_seen||'',url:p.url||p.source_url||'',notes:p.note||'',period:'',expired:false,unverified:true});
+  }
+ }
+ for(const e of (x.events||[])){
+  const amount=e.prices?.[d];
+  if(typeof amount!=='number'||(base!==null&&amount===base))continue;
+  const state=eventState(e);
+  out.push({amount,raw:amount,pens:12,label:'홍보물·이벤트',posted:e.posted_date||'',seen:e.first_seen||'',url:e.url||'',notes:[e.name||'',e.conditions||''].filter(Boolean).join(' · '),period:(e.start||e.end)?'행사 '+(e.start||'?')+' ~ '+(e.end||'종료 미정'):'',expired:state==='expired',unverified:e.price_verified!==true});
+ }
+ // Do not treat old or unverified material as a current checkout price.
+ out.sort((a,b)=>Number(a.expired)-Number(b.expired)||(b.posted||b.seen||'').localeCompare(a.posted||a.seen||'')||a.amount-b.amount);
+ return out;
+}
+function promotionDate(p){return p.posted?'게시 '+p.posted:'게시일 미확인'+(p.seen?' · 발견 '+String(p.seen).slice(0,10):'')}
+function promotionalInline(x,d){
+ const prices=promotionalPrices(x,d);
+ if(!prices.length)return '';
+ const limited=prices.slice(0,2).map(p=>{
+  const origin=p.pens===4?' · 4펜 '+fmt(p.raw)+' ×3 환산':' · 12펜';
+  const expiry=p.expired?' · 종료':'';const link=sourceUrl(p.url);
+  return '<div class="promo-note"><span class="tag promo">'+escape(p.label)+'</span><span class="promo-price">'+fmt(p.amount)+'</span><small>'+escape(promotionDate(p)+origin+expiry)+'</small>'+(link?'<a href="'+escape(link)+'" target="_blank" rel="noopener noreferrer">출처 ↗</a>':'')+'</div>';
+ }).join('');
+ return limited+(prices.length>2?'<span class="smalltext">홍보물 '+(prices.length-2)+'건 더 있음 · 상세 보기</span>':'');
+}
+function promotionalDetails(x){
+ const items=DS.flatMap(d=>promotionalPrices(x,d).map(p=>({d,p})));
+ if(!items.length)return '<p class="smalltext">공식가와 다른 홍보물 가격 기록 없음</p>';
+ return items.map(({d,p})=>{
+  const u=sourceUrl(p.url);
+  const amount=p.pens===4?'광고 원문 '+fmt(p.raw)+' / 4펜 · 12펜 환산 '+fmt(p.amount):'12펜 홍보 가격 '+fmt(p.amount);
+  return '<div class="promo-block"><b><span class="tag promo">'+escape(p.label)+'</span> '+escape(d)+'mg · '+amount+'</b><div class="smalltext">'+escape(promotionDate(p)+(p.period?' · '+p.period:'')+(p.expired?' · 종료된 행사':'') )+'</div><div class="smalltext">'+escape(p.notes||'홍보물의 재고·진료비·일괄 처방 조건 별도 확인')+'</div>'+(u?'<a href="'+escape(u)+'" target="_blank" rel="noopener noreferrer">홍보물 원문 보기 ↗</a>':'')+'</div>';
+ }).join('');
+}
+function hasPromotionalPrice(x){return DS.some(d=>promotionalPrices(x,d).length>0)}
+function changedBadge(x){return CURRENT_IDS.has(x.id)?'<span class="tag diff" style="margin-left:6px">재검색 변경</span>':''}
+function renderScanChanges(){
+ const k=$('changebadge'),summary=$('changesummary'),area=$('changelist'),past=$('changehistory');
+ if(!LAST_CHANGE){k.textContent='비교 기록 준비 중';summary.textContent='다음 자동 재검색부터 전후 비교 기록이 저장됩니다.';area.innerHTML='';past.innerHTML='';return}
+ const count=LAST_CHANGE.total||0,c=LAST_CHANGE.counts||{};
+ const stamp=String(LAST_CHANGE.at||'').replace('T',' ').slice(0,16);
+ k.textContent=count+'건 변경';k.className='tag '+(count?'diff':'yes');
+ summary.textContent='최근 재검색 '+stamp+' (한국시간) · 신규 '+(c.new||0)+'건, 공식가 '+(c.price||0)+'건, 홍보·이벤트 '+(c.promotion||0)+'건, 신원검증 '+(c.verified||0)+'건, 출처 내용변경 '+(c.source||0)+'건 · 출처 내용변경은 가격 변동 확정을 뜻하지 않습니다.';
+ const label={new:'신규',verified:'검증',price:'공식가',promotion:'홍보물',info:'정보',status:'상태',source:'출처 변경'};
+ function item(x){
+  const amounts=(x.type==='price'||x.type==='promotion')?' · '+fmt(x.before)+' → '+fmt(x.after):'';
+  const metadata=x.posted_date?' · 게시 '+x.posted_date:x.first_seen?' · 발견 '+String(x.first_seen).slice(0,10):'';
+  const link=sourceUrl(x.source_url);
+  return '<div class="change-item"><span class="change-kind">'+escape(label[x.type]||x.type)+'</span><b>'+escape(x.clinic||'미확인')+'</b><div>'+escape(x.label||'')+escape(amounts)+escape(metadata)+'</div>'+(link?'<a href="'+escape(link)+'" target="_blank" rel="noopener noreferrer">변경 근거 ↗</a>':'')+(x.clinic_id?'<button type="button" class="linkbtn" data-focus="'+escape(x.clinic_id)+'">병원 비교표 보기</button>':'')+'</div>';
+ }
+ const ordered=(LAST_CHANGE.items||[]).slice().sort((a,b)=>['price','promotion','verified','info','source','new','status'].indexOf(a.type)-['price','promotion','verified','info','source','new','status'].indexOf(b.type));
+ area.innerHTML=count?ordered.slice(0,40).map(item).join('')+(count>40?'<div class="smalltext">추가 '+(count-40)+'건 · 전체 항목은 기록 파일에 저장됨</div>':''):'<div class="smalltext">이번 검색에서 확인된 새 가격·홍보물·병원 정보 변경 없음</div>';
+ past.innerHTML=(CHANGELOG.runs||[]).slice(1,30).map(run=>'<details class="change-item"><summary>'+escape(String(run.at||'').replace('T',' ').slice(0,16))+' · '+(run.total||0)+'건 변경</summary><div class="change-list" style="margin-top:8px">'+(run.items||[]).slice(0,25).map(item).join('')+'</div></details>').join('')||'<div class="smalltext">이전 기록 없음</div>';
+}
+document.addEventListener('click',e=>{const focus=e.target.closest('[data-focus]');if(!focus)return;const x=dataset().find(x=>x.id===focus.dataset.focus);if(!x)return;$('q').value=x.name;$('showcandidates').checked=true;$('changedonly').checked=false;opened=x.id;render();document.querySelector('.tbl').scrollIntoView({behavior:'smooth',block:'start'})});
+
+function priceInfo(x,d){let base=typeof x.prices?.[d]==='number'?x.prices[d]:null;return {amount:base,event:null,expired:false}}
 function eventTag(info){return info.event?`<span class="tag ${info.expired?'inactive':'conditional'}">${info.expired?'종료 행사':'이벤트'}</span>`:''}
 function allEvents(x){return (x.events||[]).map(e=>`<div style="margin-bottom:9px;padding:9px;border-radius:8px;background:#fff6e6"><b>${eventState(e)==='active'?'이벤트 진행':'이벤트 '+(eventState(e)==='expired'?'종료':'예정')} · ${escape(e.name)}</b><div class="smalltext">${escape(e.start||'?')} ~ ${escape(e.end||'종료 미정')}</div><div>${DS.filter(d=>typeof e.prices?.[d]==='number').map(d=>`${d}mg: ${fmt(e.prices[d])}`).join(' · ')||'12펜 이벤트가 미확인'}</div><div class="smalltext">${escape(e.basis||'')} · ${escape(e.conditions||'')}</div><a href="${escape(e.url||x.url)}" target="_blank" rel="noopener">이벤트 출처 보기</a></div>`).join('')}
 function save(){try{localStorage.setItem(KEY,JSON.stringify({overrides,log}))}catch(e){alert('저장공간 오류: JSON 내보내기로 백업해주세요.')}}function dataset(){let map=new Map(BASE.map(x=>[x.id,{...x}]));for(const [id,rec] of Object.entries(overrides)){if(rec===null){map.delete(id);continue}map.set(id,{...(map.get(id)||{}),...rec})}return [...map.values()]}const ui=['q','dose','region','sort','active','visitor','remote','shipping','onlyprices','allmg','eventonly','changedonly','snsonly','showcandidates','archiveevents'];ui.forEach(i=>$(i).addEventListener('input',render));function filtered(){const list=dataset(),q=$('q').value.trim().toLowerCase(),d=$('dose').value,r=$('region').value,s=$('sort').value;let out=list.filter(x=> (!q||[x.name,x.region,x.city,x.notes,x.address,x.channel,x.discovery].join(' ').toLowerCase().includes(q))&&(!r||r===x.region)&&($('showcandidates').checked||x.status!=='candidate')&&(!$('active').checked||x.status!=='paused')&&(!$('visitor').checked||x.foreign==='yes')&&(!$('remote').checked||x.online==='yes')&&(!$('shipping').checked||x.ship==='yes')&&(!$('onlyprices').checked||typeof priceInfo(x,d).amount==='number')&&(!$('eventonly').checked||(x.events||[]).length>0)&&(!$('snsonly').checked||x.discovery==='sns'||x.discovery==='auto'));out.sort((a,b)=>{let x=priceInfo(a,d).amount,y=priceInfo(b,d).amount;if(s==='name')return a.name.localeCompare(b.name,'ko');if(s==='date')return (b.updated||'').localeCompare(a.updated||'');if(typeof x!=='number')x=Number.POSITIVE_INFINITY;if(typeof y!=='number')y=Number.POSITIVE_INFINITY;return s==='pricehi'?(y-x):(x-y)});return out}function bookingHref(x){return typeof x.booking_url==='string'&&/^https:\/\/[^\s<>"]+$/i.test(x.booking_url)?x.booking_url:''}
