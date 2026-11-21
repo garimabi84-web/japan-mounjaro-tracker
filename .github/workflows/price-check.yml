@@ -5,7 +5,7 @@ on:
       full_scan:
         description: 'All Korean/SNS/regional discovery queries (slower)'
         type: boolean
-        default: false
+        default: true # Manual runs use all search regions; scheduled runs still use rotating queries
   push:
     branches: [main]
     paths:
@@ -16,7 +16,8 @@ on:
       - 'build.py'
       - '.github/workflows/price-check.yml'
   schedule:
-    - cron: '17 0 * * *'
+    # 12:00 KST/JST daily = 03:00 UTC (GitHub may start later under load)
+    - cron: '0 3 * * *'
 permissions:
   contents: write
 concurrency:
