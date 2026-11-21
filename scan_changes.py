@@ -15,7 +15,22 @@ WATCH = ROOT / 'watch_state.json'
 BEFORE = ROOT / '.scan_before.json'
 OUTPUT = ROOT / 'scan_changes.json'
 DOSES = ('2.5', '5', '7.5', '10', '12.5', '15')
-META = ('foreign', 'online', 'ship', 'booking_url')
+# Track substantive clinic-data changes. Exclude scan timestamps/attempt counts,
+# which change on a routine recheck without changing the clinic information.
+META = ('foreign', 'online', 'ship', 'booking_url', 'region', 'city', 'address',
+        'mode', 'fees', 'booking_method', 'booking_type', 'booking_notes',
+        'url', 'official_url_hint', 'price_verified', 'basis', 'notes')
+META_LABELS = {
+    'foreign':'외국인 처방 정보 변경', 'online':'비대면 진료 정보 변경',
+    'ship':'일본 배송 정보 변경', 'booking_url':'예약 링크 변경',
+    'region':'지역 변경', 'city':'도시/도도부현 변경',
+    'address':'주소 변경', 'mode':'진료 방식 변경',
+    'fees':'진료·배송 비용 변경', 'booking_method':'예약 방법 변경',
+    'booking_type':'예약 유형 변경','booking_notes':'예약 조건 변경',
+    'url':'공식/등록 원문 주소 변경','official_url_hint':'공식 홈페이지 후보 변경',
+    'price_verified':'가격 검증 상태 변경','basis':'가격 산정 근거 변경',
+    'notes':'병원 추가 정보 변경'
+}
 
 def read(path, fallback=None):
     if not path.exists():
@@ -71,6 +86,9 @@ def changes(before, after):
             out.append({'type':'new','clinic_id':ident,'clinic':name,
                         'label':'신규 병원 후보' if row.get('status')=='candidate' else '신규 병원 등록'})
             continue
+        if row.get('name') != former.get('name'):
+            out.append({'type':'info','clinic_id':ident,'clinic':name,
+                        'label':'병원명 변경'})
         if row.get('status') != former.get('status'):
             out.append({'type':'verified' if row.get('status')=='active' else 'status',
                         'clinic_id':ident,'clinic':name,'label':f"처방 상태 변경: {former.get('status','?')} → {row.get('status','?')}"})
@@ -96,8 +114,7 @@ def changes(before, after):
         for key in META:
             if former.get(key) != row.get(key):
                 out.append({'type':'info','clinic_id':ident,'clinic':name,
-                            'label':{'foreign':'외국인 처방 정보 변경','online':'비대면 진료 정보 변경',
-                                     'ship':'일본 배송 정보 변경','booking_url':'예약 링크 변경'}[key]})
+                            'label':META_LABELS[key]})
     clinic_urls = {c.get('name',''): c for c in []}  # Explicit page checks are signals, not price claims.
     rev_urls = {}
     cat = read(CAT)
@@ -137,6 +154,13 @@ def self_test():
     h=update_history({},'2026-11-21T12:00:00+09:00',changes(a,b))
     assert h['latest']['total'] == 3 and len(h['runs']) == 1
     assert h['latest']['clinic_ids'] == ['a'],h['latest']['clinic_ids']
+    meta_before=snapshot({'clinics':[{'id':'x','name':'병원','region':'미확인',
+        'status':'active','prices':{},'notes':'초기 확인'}]},{}).get('clinics')
+    meta_after=snapshot({'clinics':[{'id':'x','name':'병원','region':'규슈',
+        'status':'active','prices':{},'notes':'추가 안내'}]},{}).get('clinics')
+    meta_changes=changes({'clinics':meta_before,'hashes':{}},
+                         {'clinics':meta_after,'hashes':{}})
+    assert len(meta_changes)==2 and all(x['type']=='info' for x in meta_changes),meta_changes
     many=[{'type':'new','clinic_id':f'id-{n}','clinic':f'병원 {n}'} for n in range(275)]
     overflow=update_history({},'2026-11-21T13:00:00+09:00',many)
     assert len(overflow['latest']['items'])==250
