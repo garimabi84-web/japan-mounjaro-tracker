@@ -10552,17 +10552,17 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": 19800,
-        "5": 40000,
-        "7.5": 55000,
-        "10": 66000,
+        "2.5": 59400,
+        "5": 120000,
+        "7.5": 165000,
+        "10": 198000,
         "12.5": null,
         "15": null
       },
-      "basis": "공식 병원 가격표 · 용량별 (12펜 기준 단위 환산; 일괄 처방 가능 여부 별도); 마운자로 브랜드/약품 구역 독립 재검증",
+      "basis": "병원 공식 홈페이지: 1개월(4펜) 가격 × 3 = 12주(12펜) 단순 환산. 12펜 일괄 처방·추가비용은 별도 확인.",
       "url": "https://www.kiyama-naishikyou.jp/diet/",
       "official_url_hint": "https://www.kiyama-naishikyou.jp/",
-      "notes": "공식 페이지의 용량·단위가 명확한 금액만 등록. 외국인 처방·배송·12펜 일괄 구매 여부 별도 확인.",
+      "notes": "공식 4펜 가격: 2.5mg ¥19,800 / 5mg ¥40,000 / 7.5mg ¥55,000 / 10mg ¥66,000. 현재 12펜 표기는 각 3배 환산액.",
       "fees": "미확인",
       "status": "active",
       "address": "佐賀県三養基郡基山町小倉１０５９番地２",
@@ -10586,7 +10586,14 @@
       "official_attempts": 1,
       "official_domain": "kiyama-naishikyou.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-21T13:38:25+09:00"
+      "official_price_audited_at": "2026-11-21T13:48:40+09:00",
+      "source_pack_pens": 4,
+      "source_pack_prices": {
+        "2.5": 19800,
+        "5": 40000,
+        "7.5": 55000,
+        "10": 66000
+      }
     },
     {
       "id": "national-a54b0050ee8b9f",
