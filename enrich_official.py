@@ -134,8 +134,13 @@ def run():
     # The oldest attempt is examined first on each run.
     queue=[x for x in cat['clinics'] if x.get('status')=='candidate' and x.get('discovery')=='auto']
     queue.sort(key=lambda x:(x.get('official_checked_at',''),x.get('first_seen','')))
+    # Reserve slots for comparison-site links that point straight to a possible
+    # official clinic website, without starving older name-only candidates.
+    linked = [x for x in queue if x.get('official_url_hint')]
+    name_only = [x for x in queue if not x.get('official_url_hint')]
+    batch = linked[:6] + name_only[:12]
     done=0
-    for item in queue[:12]:
+    for item in batch:
         done+=1
         item['official_checked_at']=now()
         item['official_attempts']=item.get('official_attempts',0)+1
