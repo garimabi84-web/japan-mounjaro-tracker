@@ -48,7 +48,9 @@ jobs:
         run: python scan_changes.py --before
       - name: Discover institutions from MHLW public registry and comparison-site official links
         env:
-          FULL_SCAN: ${{ inputs.full_scan }}
+          # A source-code push backfills every prefecture once; ordinary daily
+          # scans rotate 18 prefectures per comparison source.
+          FULL_SCAN: ${{ github.event_name == 'push' || inputs.full_scan }}
         run: |
           if [ "$FULL_SCAN" = "true" ]; then
             python national_sources.py --full-scan
@@ -66,7 +68,7 @@ jobs:
           fi
       - name: Verify clinic identity and prices against official source pages
         env:
-          FULL_SCAN: ${{ inputs.full_scan }}
+          FULL_SCAN: ${{ github.event_name == 'push' || inputs.full_scan }}
         run: python enrich_official.py
       - name: Collect dated promotional prices separately from official prices
         run: python collect_promotions.py
@@ -83,7 +85,11 @@ jobs:
           from bs4 import BeautifulSoup
           s=BeautifulSoup(open('index.html',encoding='utf-8').read(),'html.parser')
           scripts=[x.get_text() for x in s.select('script') if x.get('type')!='application/json' and not x.get('src')]
-          assert any('renderScanChanges' in x for x in scripts), 'missing scan change viewer'
+          assert any('const CURRENT_IDS' in x for x in scripts), 'missing per-scan changed clinic IDs'
+          css='\n'.join(tag.get_text() for tag in s.select('style'))
+          assert '.tbl tbody tr.record.changed' in css, 'missing yellow modified-row style'
+          assert 'background:#fff0ae' in css, 'missing yellow highlight'
+          assert not s.select('#scan-changes'), 'obsolete separate changes list returned'
           assert '__CHANGES_JSON__' not in str(s), 'unbuilt change data marker'
           open('/tmp/mounjaro_tracker_check.js','w',encoding='utf-8').write('\n'.join(scripts))
           PY
