@@ -140,7 +140,13 @@ def extract_official(source):
                     # Multiple unlabelled prices cannot be safely ranked.
                     continue
                 price=amount(price_cells[-1])
-                factor=pack_factor(row[0]) or pack_factor(price_cells[-1]) or pack
+                # Quantity column (e.g. 4本) is the strongest unit evidence;
+                # never store a four-pen box as a twelve-pen total.
+                row_pens=[pack_factor(cell) for cell in row[1:-1]]
+                row_pens=[x for x in row_pens if x is not None]
+                factor=(pack_factor(row[0]) or pack_factor(price_cells[-1])
+                        or (row_pens[0] if len(set(row_pens))==1 and row_pens else None)
+                        or pack)
                 if price is not None and factor and d not in found:
                     found[d]=round(price*factor);sources[d]='공식 병원 가격표 · 용량별'
     # Inline prices from an explicit Mounjaro paragraph or an adjacent dosage
@@ -182,6 +188,15 @@ def self_test():
     table='<h2>マンジャロ料金</h2><p>表示価格はすべて税込・4本／4週間分です</p><table><tr><th>用量</th><th>改定前</th><th>9月1日以降</th></tr><tr><td>10 mg</td><td>35,000円</td><td>33,000円</td></tr></table>'
     x,_=extract_official(table)
     assert x.get('10')==99000,x
+    saga='''<h4>マンジャロ（注射）</h4>
+    <table><tr><th>用量</th><th>本数（1ヶ月分）</th><th>価格（税込）</th></tr>
+    <tr><td>2.5mg</td><td>4本</td><td>19,800円（税込）</td></tr>
+    <tr><td>5mg</td><td>4本</td><td>40,000円（税込）</td></tr>
+    <tr><td>7.5mg</td><td>4本</td><td>55,000円（税込）</td></tr>
+    <tr><td>10mg</td><td>4本</td><td>66,000円（税込）</td></tr></table>'''
+    saga_prices,_=extract_official(saga)
+    assert saga_prices=={'2.5':59400,'5':120000,'7.5':165000,'10':198000},saga_prices
+    assert saga_prices['10']!=66000, 'one-month price must NEVER appear as 12-pen price'
     heading='<h2>マンジャロ価格</h2><p>10mg (4週分) 60,000円</p>'
     x,_=extract_official(heading)
     assert x.get('10')==180000,x
