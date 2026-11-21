@@ -458,13 +458,13 @@ def discover(session, limit=210, full=False):
     official_hits, public_hits, status, seen = [], [], [], set()
     # Spread official-site identity checks across search queries rather than
     # exhausting them on the first index page.
-    probe_budget=30
+    probe_budget=60 if full else 30
+    probe_by_query={}
     probed_urls=set()
 
     def ingest(provider, query, entries, fallback=False, official=False):
         items = list(entries)
         qualified = 0
-        probes_for_query = 0
         nonlocal probe_budget
         for title, url, description in items:
             if not url or url in seen:
@@ -473,10 +473,12 @@ def discover(session, limit=210, full=False):
             # articles. NEVER promote a title to an official clinic identity.
             # An actual fetched site must self-identify through branding.
             item = None if official else entry(url, title, description, provider, query)
-            if (official and not item and probe_budget > 0 and probes_for_query < 2
+            probe_key = (provider, query)
+            if (official and not item and probe_budget > 0
+                    and probe_by_query.get(probe_key, 0) < 2
                     and url not in probed_urls and potential_official_site(url)):
                 probe_budget -= 1
-                probes_for_query += 1
+                probe_by_query[probe_key] = probe_by_query.get(probe_key, 0) + 1
                 probed_urls.add(url)
                 item = probe_official_site(session, url, query)
             if item:
