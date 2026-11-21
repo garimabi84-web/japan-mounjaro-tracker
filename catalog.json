@@ -4162,7 +4162,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:52:21+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-28338564ad86",
@@ -4201,7 +4203,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:52:21+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-9efc753889fa",
@@ -4240,7 +4244,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:52:22+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-c91587b69f7b",
@@ -4279,7 +4285,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:52:22+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-e453cb88dc3d",
@@ -4318,7 +4326,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:52:23+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-a7cf09996bd9",
@@ -4357,7 +4367,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:52:23+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-b7bda2ce6057",
@@ -4396,7 +4408,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:52:24+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-1230a1d9523f",
@@ -4435,7 +4449,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:52:25+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-0d17a0f29b5c",
@@ -4474,7 +4490,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:52:25+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-3fa4a1529328",
@@ -4513,7 +4531,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:52:26+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-b9ec46fdafb7",
@@ -4552,7 +4572,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:52:26+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-f9699c9d146d",
@@ -4591,7 +4613,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:52:27+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-5b648316fb0f",
@@ -4748,8 +4772,8 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T11:49:27+09:00",
-      "official_attempts": 1
+      "official_checked_at": "2026-11-21T11:52:15+09:00",
+      "official_attempts": 2
     },
     {
       "id": "found-f2850edf430e",
@@ -4789,8 +4813,8 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T11:49:28+09:00",
-      "official_attempts": 1
+      "official_checked_at": "2026-11-21T11:52:16+09:00",
+      "official_attempts": 2
     },
     {
       "id": "found-4f329b0344a4",
@@ -4830,8 +4854,8 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T11:49:29+09:00",
-      "official_attempts": 1
+      "official_checked_at": "2026-11-21T11:52:17+09:00",
+      "official_attempts": 2
     },
     {
       "id": "found-4b057da3a3c6",
@@ -4913,8 +4937,8 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T11:49:30+09:00",
-      "official_attempts": 1
+      "official_checked_at": "2026-11-21T11:52:18+09:00",
+      "official_attempts": 2
     },
     {
       "id": "found-37d5bd9b63b3",
@@ -6475,8 +6499,50 @@
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
       "first_seen": "2026-11-21",
-      "official_checked_at": "2026-11-21T11:49:36+09:00",
-      "official_attempts": 1
+      "official_checked_at": "2026-11-21T11:52:19+09:00",
+      "official_attempts": 2
+    },
+    {
+      "id": "found-3d7887e35db2",
+      "name": "マルベルクリニック",
+      "region": "미확인",
+      "city": "미확인",
+      "mode": "미확인",
+      "foreign": "unknown",
+      "online": "unknown",
+      "ship": "unknown",
+      "prices": {
+        "2.5": 39000,
+        "5": 68400,
+        "7.5": 103200,
+        "10": 130800,
+        "12.5": 189600,
+        "15": 216000
+      },
+      "basis": "official 12-pen posted or explicit 4-pen price × 3; 공개 검색 후보를 공식 페이지로 교차 확인",
+      "url": "https://mulbell.online/medical-diet/mounjaro/",
+      "official_url_hint": "https://mulbell.online/medical-diet/mounjaro/",
+      "notes": "가격은 공식 페이지에서 단위를 명시한 금액만 채움. 외국인/배송/온라인 진료는 검증 전이며 자동으로 가능 표시하지 않음.",
+      "fees": "미확인",
+      "status": "active",
+      "address": "",
+      "channel": "공식 홈페이지 검색 → 공식 가격 검증",
+      "updated": "2026-11-21",
+      "discovery": "auto",
+      "price_verified": true,
+      "candidate_quality": "name_unverified",
+      "identity_conflict": false,
+      "directory_slug": "",
+      "events": [],
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공식 예약 경로 확인 전",
+      "booking_checked": "",
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-21T11:52:14+09:00",
+      "official_attempts": 1,
+      "official_domain": "mulbell.online"
     }
   ],
   "schema": 3,

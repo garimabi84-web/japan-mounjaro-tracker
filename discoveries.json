@@ -1,19 +1,11 @@
 {
-  "ran_at": "2026-11-21T11:49:26+09:00",
+  "ran_at": "2026-11-21T11:52:14+09:00",
   "source_status": [
-    {
-      "source": "bing_rss",
-      "query": "韓国人 観光客 マンジャロ クリニック 予約",
-      "ok": true,
-      "items": 10,
-      "qualified": 0,
-      "fallback": false
-    },
     {
       "source": "bing_html",
       "query": "韓国人 観光客 マンジャロ クリニック 予約",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
@@ -37,7 +29,7 @@
       "source": "bing_html",
       "query": "マンジャロ 12本 3ヶ月 外国人 処方",
       "ok": true,
-      "items": 1,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
@@ -85,17 +77,9 @@
       "source": "bing_html",
       "query": "マンジャロ 観光客 価格改定 クリニック",
       "ok": true,
-      "items": 0,
-      "qualified": 0,
-      "fallback": true
-    },
-    {
-      "source": "bing_rss",
-      "query": "site:facebook.com マンジャロ 韓国人 クリニック",
-      "ok": true,
       "items": 10,
       "qualified": 0,
-      "fallback": false
+      "fallback": true
     },
     {
       "source": "bing_html",
@@ -157,7 +141,7 @@
       "source": "bing_html",
       "query": "マンジャロ 韓国人 旅行者 クリニック 札幌 予約",
       "ok": true,
-      "items": 0,
+      "items": 10,
       "qualified": 0,
       "fallback": true
     },
@@ -165,7 +149,7 @@
       "source": "official_site_search",
       "query": "マンジャロ 10mg 料金 4本 クリニック",
       "ok": true,
-      "items": 0,
+      "items": 10,
       "qualified": 0,
       "fallback": true
     },
@@ -197,7 +181,7 @@
       "source": "official_site_search",
       "query": "マンジャロ 外国人 処方 料金 クリニック",
       "ok": true,
-      "items": 0,
+      "items": 10,
       "qualified": 0,
       "fallback": true
     },
@@ -205,7 +189,7 @@
       "source": "official_site_search",
       "query": "マンジャロ 韓国語 予約 料金 医院",
       "ok": true,
-      "items": 0,
+      "items": 10,
       "qualified": 0,
       "fallback": true
     },
@@ -221,7 +205,7 @@
       "source": "official_site_search",
       "query": "マンジャロ 料金表 高松 クリニック",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
@@ -245,8 +229,8 @@
       "source": "official_site_search_yahoo",
       "query": "マンジャロ 10mg 料金 4本 クリニック",
       "ok": true,
-      "items": 10,
-      "qualified": 1,
+      "items": 11,
+      "qualified": 2,
       "fallback": true
     },
     {
@@ -254,7 +238,7 @@
       "query": "マンジャロ 自由診療 料金表 クリニック",
       "ok": true,
       "items": 11,
-      "qualified": 1,
+      "qualified": 0,
       "fallback": true
     },
     {
@@ -398,9 +382,9 @@
   },
   "new_candidates": [
     {
-      "id": "found-fdfc579a9859",
-      "name": "みんな幸せクリニック",
-      "source_url": "https://minnashiawase-clinic.com/post-2418/",
+      "id": "found-3d7887e35db2",
+      "name": "マルベルクリニック",
+      "source_url": "https://mulbell.online/medical-diet/mounjaro/",
       "source": "official_site_search",
       "channel": "official"
     }
@@ -2105,7 +2089,7 @@
         "query": "マンジャロ 10mg 料金 4本 クリニック",
         "event": null,
         "first_seen": "2026-11-21T11:17:45+09:00",
-        "last_seen": "2026-11-21T11:17:45+09:00"
+        "last_seen": "2026-11-21T11:52:14+09:00"
       }
     },
     {
@@ -2250,6 +2234,24 @@
       }
     },
     {
+      "key": "4d6642922e24bd487c98",
+      "hit": {
+        "url": "https://mulbell.online/medical-diet/mounjaro/",
+        "title": "マンジャロ2.5mg【2,750円〜】オンライン診療｜全用量まとめ買い価格・値段｜【公式】マルベルクリニック東京",
+        "snippet": "Official-site page branding: 【公式】マルベルクリニック東京 - 【公式】マルベルクリニック東京は、オンライン診療でGLP-1（マンジャロ・リベルサス）によるダイエット治療をはじめ、ED・AGA・美容内服まで幅広く対応。通院不要・診察料と配送料込みのお値段で、皆様の悩み",
+        "clinic_names": [
+          "マルベルクリニック"
+        ],
+        "channel": "official",
+        "source": "official_site_search",
+        "official_url_hint": "https://mulbell.online/medical-diet/mounjaro/",
+        "query": "マンジャロ 外国人 処方 料金 クリニック",
+        "event": null,
+        "first_seen": "2026-11-21T11:52:14+09:00",
+        "last_seen": "2026-11-21T11:52:14+09:00"
+      }
+    },
+    {
       "key": "19e3d57e2a32316a93fa",
       "hit": {
         "url": "https://sushijaro.app/ja/clinic/mankuri?dose=2.5",
@@ -2262,8 +2264,8 @@
         "source": "public_directory_lead",
         "query": "foreign-traveler clinic directory",
         "event": null,
-        "first_seen": "2026-11-21T11:49:26+09:00",
-        "last_seen": "2026-11-21T11:49:26+09:00"
+        "first_seen": "2026-11-21T11:52:14+09:00",
+        "last_seen": "2026-11-21T11:52:14+09:00"
       }
     },
     {
@@ -2279,8 +2281,8 @@
         "source": "public_directory_lead",
         "query": "foreign-traveler clinic directory",
         "event": null,
-        "first_seen": "2026-11-21T11:49:26+09:00",
-        "last_seen": "2026-11-21T11:49:26+09:00"
+        "first_seen": "2026-11-21T11:52:14+09:00",
+        "last_seen": "2026-11-21T11:52:14+09:00"
       }
     },
     {
@@ -2296,8 +2298,8 @@
         "source": "public_directory_lead",
         "query": "foreign-traveler clinic directory",
         "event": null,
-        "first_seen": "2026-11-21T11:49:26+09:00",
-        "last_seen": "2026-11-21T11:49:26+09:00"
+        "first_seen": "2026-11-21T11:52:14+09:00",
+        "last_seen": "2026-11-21T11:52:14+09:00"
       }
     },
     {
@@ -2314,8 +2316,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-21T11:49:26+09:00",
-        "last_seen": "2026-11-21T11:49:26+09:00"
+        "first_seen": "2026-11-21T11:52:14+09:00",
+        "last_seen": "2026-11-21T11:52:14+09:00"
       }
     }
   ],
