@@ -414,7 +414,8 @@ def comparison_link_entries(source, base_url, limit=30):
             out.append({"url": target, "title": name,
                         "snippet": "Comparison directory clinic name lead only; no price copied.",
                         "clinic_names": [name], "channel": "web",
-                        "source": "public_directory_lead", "query": base_url, "event": None})
+                        "source": "public_directory_lead", "query": base_url, "event": None,
+                         "official_url_hint": target if potential_official_site(target) else ""})
             if len(out) >= limit:
                 return out
     return out
@@ -455,12 +456,15 @@ def fetch_directory_leads(session):
 
 def discover(session, limit=210, full=False):
     official_hits, public_hits, status, seen = [], [], [], set()
-    probe_budget=12
+    # Spread official-site identity checks across search queries rather than
+    # exhausting them on the first index page.
+    probe_budget=30
     probed_urls=set()
 
     def ingest(provider, query, entries, fallback=False, official=False):
         items = list(entries)
         qualified = 0
+        probes_for_query = 0
         nonlocal probe_budget
         for title, url, description in items:
             if not url or url in seen:
@@ -469,10 +473,12 @@ def discover(session, limit=210, full=False):
             # articles. NEVER promote a title to an official clinic identity.
             # An actual fetched site must self-identify through branding.
             item = None if official else entry(url, title, description, provider, query)
-            if official and not item and probe_budget>0 and url not in probed_urls and potential_official_site(url):
-                probe_budget-=1
+            if (official and not item and probe_budget > 0 and probes_for_query < 2
+                    and url not in probed_urls and potential_official_site(url)):
+                probe_budget -= 1
+                probes_for_query += 1
                 probed_urls.add(url)
-                item=probe_official_site(session,url,query)
+                item = probe_official_site(session, url, query)
             if item:
                 (official_hits if official else public_hits).append(item)
                 seen.add(url)
@@ -485,12 +491,15 @@ def discover(session, limit=210, full=False):
                       repr(sample[1][:145]), repr(sample[2][:110]))
         status.append({"source": provider, "query": query, "ok": True,
                        "items": len(items), "qualified": qualified, "fallback": fallback})
+        return qualified
 
     for query in planned_queries(full):
         try:
             entries = list(fetch_rss(session, query, "bing"))
             if entries:
-                ingest("bing_rss", query, entries)
+                qualified = ingest("bing_rss", query, entries)
+                if not qualified:
+                    ingest("bing_html", query, fetch_bing_html(session, query), fallback=True)
             else:
                 ingest("bing_html", query, fetch_bing_html(session, query), fallback=True)
         except Exception as exc:
@@ -501,7 +510,10 @@ def discover(session, limit=210, full=False):
         try:
             entries = list(fetch_rss(session, query, "bing"))
             if entries:
-                ingest("official_site_search", query, entries, official=True)
+                qualified = ingest("official_site_search", query, entries, official=True)
+                if not qualified:
+                    ingest("official_site_search", query, fetch_bing_html(session, query),
+                           fallback=True, official=True)
             else:
                 ingest("official_site_search", query, fetch_bing_html(session, query),
                        fallback=True, official=True)
@@ -612,7 +624,8 @@ def merge_into_catalog(cat, rawhits, archive):
                    "mode": "미확인", "foreign": "unknown", "online": "unknown", "ship": "unknown",
                    "prices": {k: None for k in DOSES}, "basis": "공식 출처·SNS·비교 사이트에서 발견된 후보 (검증 전)",
                    "url": hit["url"],
-                   "official_url_hint": hit["official_url_hint"] if official else "",
+                   "official_url_hint": (hit.get("official_url_hint", "") if
+                          (official or hit.get("source") == "public_directory_lead") else ""),
                    "notes": "공개 공식 사이트 검색에서 발견된 페이지. 실제 의료기관·기관명·가격 확인 전." if official else "공개 검색에서 발견된 이름으로 실제 의료기관 여부부터 확인해야 합니다.",
                    "fees": "미확인", "status": "candidate", "address": "",
                    "channel": "공식 홈페이지 검색 후보" if official else ("자동 공개 SNS 탐색" if hit["channel"] == "sns" else "비교 사이트·웹 검색 후보"),
@@ -652,6 +665,7 @@ def self_test():
     compare_fixture='<a href="https://sample-clinic.jp/mounjaro/">新星クリニック</a><a href="/info">マンジャロ料金比較クリニック</a>'
     compare_items=comparison_link_entries(compare_fixture,"https://manjaro-info.jp/clinic-search/")
     assert len(compare_items)==1 and compare_items[0]["clinic_names"]==["新星クリニック"],compare_items
+    assert compare_items[0]["official_url_hint"] == "https://sample-clinic.jp/mounjaro/"
     cat = {"clinics": []}
     found, _ = merge_into_catalog(cat, [positive], {})
     assert len(found) == 1 and cat["clinics"][0]["status"] == "candidate"
