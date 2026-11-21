@@ -1,5 +1,5 @@
 {
-  "ran_at": "2026-11-21T11:05:30+09:00",
+  "ran_at": "2026-11-21T11:07:03+09:00",
   "hashes": {
     "https://baba-totalcareclinic.com/private-practice": "a3b141b4cbfca1ad3b54e74deadf22cb8a07c87f600b944481c176fb5cd22646",
     "https://tokyosilkclinic.com/menu/909": "c0190473d9a440191263d00607834cf85f2f48c7314ecb749794c6f61a36f785",
@@ -22,7 +22,7 @@
     "https://koyomi-clinic.com/": "400e1c79c422ad4c42a59b1261eacad5c34715623a769468703107d4df221235",
     "https://ckk-onlineclinic.tokyo/": "6fc5cdd1c5e286d0e643d0b7e4bf3cd574a9ad0691190faea80ece5a8998396e",
     "https://yamamotoclinic.or.jp/beauty/m-diet": "f4a14d61cc9f6b9525075d71ef090ef184988c158356975d1b04d2308bd0e6e4",
-    "https://origami-clinic.com/": "eabed59b952fd51b79c350b4466b16bc184375be3757da6f9dbbefa9a82e8e20",
+    "https://origami-clinic.com/": "161d09d8c5136b0ddef84e31328b05b75f4ab75d93ec54a9cf2ff2c2cd62c11a",
     "https://www.sdh-clinic.com/treatment/medical-diet": "ad036a0eb2bbf069ed21aba48f3192282458a3494376aae88a28f844f0307260",
     "https://kakuyasu.clinic/": "ad0340e716ddc369186e94e3dab60990057235c166992addc9cb6f28155fc575",
     "https://care.bw-med.clinic/ko/blogs/news/mounjaro-price-in-japan": "6ff8966eaeebc9ed28302ea04c6f1060c9f49105a8cd3a4b43c7543e95a49dce",
@@ -35,5 +35,10 @@
     "https://mirai-medical.clinic/ko/mounjaro": "212e8d698be05f0913366df1440280ca80d16fa58a1d6c1c4f723e1f43ca1324",
     "https://x.com/MT_DIET_CLINIC": "76ed6c2a9d8794e45936bb334136067a826ef2e1ef99606464ac1f5338ec2634"
   },
-  "pending": {}
+  "pending": {
+    "https://origami-clinic.com/": {
+      "since": "2026-11-21T11:07:03+09:00",
+      "name": "ORIGAMI CLINIC"
+    }
+  }
 }

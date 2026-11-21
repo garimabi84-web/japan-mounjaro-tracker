@@ -1,27 +1,27 @@
 {
-  "ran_at": "2026-11-21T11:05:26+09:00",
+  "ran_at": "2026-11-21T11:06:59+09:00",
   "source_status": [
     {
       "source": "official_site_search",
       "query": "マンジャロ 10mg 料金 4本 クリニック",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
-      "fallback": false
+      "fallback": true
     },
     {
       "source": "official_site_search",
       "query": "マンジャロ 12本 3ヶ月 料金 クリニック",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
-      "fallback": false
+      "fallback": true
     },
     {
       "source": "official_site_search",
       "query": "マンジャロ 自由診療 料金表 クリニック",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
@@ -29,9 +29,9 @@
       "source": "official_site_search",
       "query": "マンジャロ 2.5mg 5mg 7.5mg 10mg 料金表",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
-      "fallback": false
+      "fallback": true
     },
     {
       "source": "official_site_search",
@@ -45,33 +45,33 @@
       "source": "official_site_search",
       "query": "マンジャロ 韓国語 予約 料金 医院",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
-      "fallback": false
+      "fallback": true
     },
     {
       "source": "official_site_search",
       "query": "マンジャロ 10mg 価格 月額 医療ダイエット",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
-      "fallback": false
+      "fallback": true
     },
     {
       "source": "official_site_search",
       "query": "マンジャロ 料金表 高松 クリニック",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
-      "fallback": false
+      "fallback": true
     },
     {
       "source": "official_site_search",
       "query": "マンジャロ 10mg 価格 福岡 医院",
       "ok": true,
-      "items": 1,
+      "items": 0,
       "qualified": 0,
-      "fallback": false
+      "fallback": true
     },
     {
       "source": "official_site_search",
@@ -85,7 +85,7 @@
       "source": "bing_html",
       "query": "韓国人 観光客 マンジャロ クリニック 予約",
       "ok": true,
-      "items": 0,
+      "items": 10,
       "qualified": 0,
       "fallback": true
     },
@@ -93,7 +93,7 @@
       "source": "bing_html",
       "query": "訪日韓国人 マンジャロ 処方 価格 LINE",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
@@ -101,13 +101,21 @@
       "source": "bing_html",
       "query": "マウンジャロ 韓国人 旅行者 ホテル 配送 クリニック",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
     {
-      "source": "bing_html",
+      "source": "bing_rss",
       "query": "マンジャロ 12本 3ヶ月 外国人 処方",
+      "ok": true,
+      "items": 10,
+      "qualified": 0,
+      "fallback": false
+    },
+    {
+      "source": "bing_html",
+      "query": "マンジャロ 韓国語 予約 クリニック",
       "ok": true,
       "items": 0,
       "qualified": 0,
@@ -115,35 +123,27 @@
     },
     {
       "source": "bing_rss",
-      "query": "マンジャロ 韓国語 予約 クリニック",
-      "ok": true,
-      "items": 10,
-      "qualified": 0,
-      "fallback": false
-    },
-    {
-      "source": "bing_rss",
       "query": "마운자로 일본 병원 예약 할인 3개월",
       "ok": true,
-      "items": 7,
+      "items": 10,
       "qualified": 0,
       "fallback": false
     },
     {
-      "source": "bing_rss",
+      "source": "bing_html",
       "query": "일본 마운자로 한국인 처방 클리닉 호텔 배송",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
-      "fallback": false
+      "fallback": true
     },
     {
-      "source": "bing_rss",
+      "source": "bing_html",
       "query": "일본 마운자로 병원 SNS 이벤트 10mg",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
-      "fallback": false
+      "fallback": true
     },
     {
       "source": "bing_html",
@@ -157,31 +157,31 @@
       "source": "bing_html",
       "query": "マンジャロ 観光客 価格改定 クリニック",
       "ok": true,
-      "items": 1,
+      "items": 0,
+      "qualified": 0,
+      "fallback": true
+    },
+    {
+      "source": "bing_html",
+      "query": "site:facebook.com マンジャロ 韓国人 クリニック",
+      "ok": true,
+      "items": 0,
+      "qualified": 0,
+      "fallback": true
+    },
+    {
+      "source": "bing_html",
+      "query": "site:facebook.com 마운자로 일본 병원 할인",
+      "ok": true,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
     {
       "source": "bing_rss",
-      "query": "site:facebook.com マンジャロ 韓国人 クリニック",
-      "ok": true,
-      "items": 10,
-      "qualified": 0,
-      "fallback": false
-    },
-    {
-      "source": "bing_rss",
-      "query": "site:facebook.com 마운자로 일본 병원 할인",
-      "ok": true,
-      "items": 7,
-      "qualified": 0,
-      "fallback": false
-    },
-    {
-      "source": "bing_rss",
       "query": "site:threads.net マンジャロ クリニック 価格",
       "ok": true,
-      "items": 1,
+      "items": 10,
       "qualified": 0,
       "fallback": false
     },
@@ -194,24 +194,8 @@
       "fallback": true
     },
     {
-      "source": "bing_rss",
-      "query": "マンジャロ 韓国人 旅行者 クリニック 名古屋 予約",
-      "ok": true,
-      "items": 10,
-      "qualified": 0,
-      "fallback": false
-    },
-    {
-      "source": "bing_rss",
-      "query": "マンジャロ 韓国人 旅行者 クリニック 鳥取 予約",
-      "ok": true,
-      "items": 10,
-      "qualified": 0,
-      "fallback": false
-    },
-    {
       "source": "bing_html",
-      "query": "マンジャロ 韓国人 旅行者 クリニック 広島 予約",
+      "query": "マンジャロ 韓国人 旅行者 クリニック 名古屋 予約",
       "ok": true,
       "items": 0,
       "qualified": 0,
@@ -219,9 +203,25 @@
     },
     {
       "source": "bing_html",
+      "query": "マンジャロ 韓国人 旅行者 クリニック 鳥取 予約",
+      "ok": true,
+      "items": 0,
+      "qualified": 0,
+      "fallback": true
+    },
+    {
+      "source": "bing_html",
+      "query": "マンジャロ 韓国人 旅行者 クリニック 広島 予約",
+      "ok": true,
+      "items": 1,
+      "qualified": 0,
+      "fallback": true
+    },
+    {
+      "source": "bing_html",
       "query": "マンジャロ 韓国人 旅行者 クリニック 札幌 予約",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
@@ -1317,8 +1317,8 @@
         "source": "public_directory_lead",
         "query": "foreign-traveler clinic directory",
         "event": null,
-        "first_seen": "2026-11-21T11:05:26+09:00",
-        "last_seen": "2026-11-21T11:05:26+09:00"
+        "first_seen": "2026-11-21T11:06:59+09:00",
+        "last_seen": "2026-11-21T11:06:59+09:00"
       }
     }
   ],
