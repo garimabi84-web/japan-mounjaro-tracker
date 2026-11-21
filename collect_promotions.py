@@ -45,7 +45,7 @@ def x_status_date(url):
         if not match:return ''
         status_id=int(match[1])
         timestamp=((status_id >> 22)+1288834974657)/1000
-        value=dt.datetime.fromtimestamp(timestamp,dt.timezone.utc)
+        value=dt.datetime.fromtimestamp(timestamp,dt.timezone.utc).astimezone(dt.timezone(dt.timedelta(hours=9)))
         if dt.date(2011,1,1)<=value.date()<=dt.datetime.now(dt.timezone.utc).date()+dt.timedelta(days=1):
             return value.date().isoformat()
     except (OverflowError,ValueError,TypeError):
@@ -115,7 +115,7 @@ def run():
         assert posted_date({'posted_date':'2026-11-21T12:00:00+09:00'})=='2026-11-21'
         assert posted_date({'snippet':'2026/11/30まで'})==''
         synthetic=(1700000000000-1288834974657)<<22
-        assert x_status_date('https://x.com/test/status/'+str(synthetic))=='2023-11-14'
+        assert x_status_date('https://x.com/test/status/'+str(synthetic))=='2023-11-15'
         print('advertised-price extraction self-test passed')
         return
     cat=json.loads(CAT.read_text(encoding='utf-8'))
