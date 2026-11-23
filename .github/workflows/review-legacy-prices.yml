@@ -1,0 +1,43 @@
+name: Review historical clinic prices against source websites
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/review-legacy-prices.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Independently check curated clinic amounts across all six doses
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+          python -m py_compile legacy_source_review.py
+          python legacy_source_review.py
+      - name: Save discrepancies and evidence without changing curated prices
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3; do
+            git add legacy_price_review.json
+            git commit -m 'Record independent official-source check for legacy clinic pricing' || exit 0
+            if git push origin HEAD:main; then
+              echo 'Historical price discrepancies report saved'
+              exit 0
+            fi
+            if [ "$attempt" -eq 3 ]; then exit 1; fi
+            git fetch origin main
+            git reset --hard origin/main
+            python legacy_source_review.py
+          done
