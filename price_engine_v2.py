@@ -65,7 +65,7 @@ def plan(text, *, header=False):
     text=norm(text)
     mths={int(m[1]) for m in MONTH.finditer(text)}
     if any(m>3 for m in mths):return None,'장기구독'
-    if mths=={3} and PER_MONTH.search(text):return (12,3),'3개월 계약 월액'
+    if mths=={3} and PER_MONTH.search(text):return 12,'3개월 계약 월액'
     return None,''
 
 def collect(candidates,dose,raw,unit,fragment,origin,context,source_url=''):
