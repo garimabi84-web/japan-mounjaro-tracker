@@ -123,7 +123,9 @@ def parse_official_v2(source,source_url=''):
         current=table_branded
         # A pen-unit statement in this table's heading/header may be applied
         # only to this same table, never to arbitrary adjacent paragraphs.
-        shared_unit=quantity(heading+' '+top) if not OTHER.search(top) else (None,'')
+        # A first offer row is not a header and cannot supply units to later rows.
+        shared_unit=(quantity(heading+' '+top) if headers and not OTHER.search(top)
+                     else quantity(heading) if heading and not first_is_offer else (None,''))
         for cells,_ in rows[start:]:
             full=' '.join(cells)
             if OTHER.search(full):
@@ -274,6 +276,9 @@ def self_test():
           <p>糖尿病治療薬「マンジャロ」と同成分。</p>
           <p>10mg（1ヶ月分）33,000円</p>""",{}),
 
+        ('no_header_unit_leak',"""<h2>マンジャロ</h2><table>
+          <tr><td>マンジャロ</td><td>5mg/1本</td><td>8,000円</td></tr>
+          <tr><td></td><td>7.5mg</td><td>12,000円</td></tr></table>""",{'5':96000}),
         ('unknownunit',"""<h2>マンジャロ</h2><table><tr><th>用量</th><th>価格</th></tr>
          <tr><td>10mg</td><td>30,000円</td></tr></table>""",{}),
         ('haab',"""<h2>マンジャロ料金</h2><table><tr><th>用量</th><th>1本価格</th></tr>

@@ -20,7 +20,7 @@ def trusted(c,d):
     p=c.get('prices',{}).get(d)
     if not isinstance(p,(int,float)) or p<=0:return False
     if c.get('discovery') not in AUTOMATED:return True
-    if reviewed(c):return True
+    # A legacy 'unit reviewed' flag is not proof for each individual dose.
     if c.get('price_integrity')!='strict_v2':return False
     if c.get('official_price_audit_status') in ('page_unavailable','dose_price_anomaly','removed_unconfirmed'):
         return False
@@ -36,9 +36,15 @@ def trusted(c,d):
     if ev.get('source_type')=='3개월 계약 월액':
         computed=round(raw*tax_factor)*3
     else:
-        computed=round(raw*tax_factor)*(12//n)
+        computed=round(round(raw*tax_factor)*12/n)
     if computed!=p:return False
     fragment=unicodedata.normalize('NFKC',quote)
+    if not re.search(r'(?<![\d.])'+re.escape(d)+r'(?:\.0)?\s*mg\b',fragment,re.I):
+        return False
+    source_amounts={int(value.replace(',','')) for match in re.findall(
+        r'(?:[¥￥]\s*([\d,]+)|([\d,]+)\s*(?:円|[¥￥]))',fragment)
+        for value in match if value}
+    if raw not in source_amounts:return False
     if re.search(r'約\s*[¥￥]?\s*[\d,]+\s*円|[¥￥]?[\d,]+\s*円\s*[〜～~]|\d+円\s*から',fragment):
         return False
     # Catch unit disagreement such as "5mg/4本 | ¥33,000" recorded as
@@ -56,7 +62,7 @@ def published_price(c,d):
 def public_catalog(cat):
     out=copy.deepcopy(cat)
     for c in out.get('clinics',[]):
-        if c.get('discovery') not in AUTOMATED or reviewed(c):continue
+        if c.get('discovery') not in AUTOMATED:continue
         previously=[d for d in DOSES if isinstance(c.get('prices',{}).get(d),(int,float))]
         c['prices']={d:published_price(c,d) for d in DOSES}
         if previously and not any(c['prices'].values()):
@@ -85,7 +91,17 @@ def self_test():
     starting['price_evidence']['5']['quote']='5mg(1ヶ月分) 約6,000円〜'
     assert not trusted(starting,'5'),'approximate starting price cannot be published'
     reviewed_record={**base,'price_unit_reviewed_at':'2026-11-23'}
-    assert published_price(reviewed_record,'5')==18000
+    assert published_price(reviewed_record,'5') is None, 'Review flag alone cannot bypass per-dose proof'
+    eight=copy.deepcopy(checked)
+    eight['price_evidence']['5'].update({'pens':8,'raw_yen':12000,'equivalent_12':18000,
+                                         'quote':'5mg 8本 12,000円'})
+    assert published_price(eight,'5')==18000, '8 pens must multiply by 1.5'
+    wrong_dose=copy.deepcopy(checked)
+    wrong_dose['price_evidence']['5']['quote']='10mg 4本 6,000円'
+    assert published_price(wrong_dose,'5') is None
+    wrong_yen=copy.deepcopy(checked)
+    wrong_yen['price_evidence']['5']['quote']='5mg 4本 8,000円'
+    assert published_price(wrong_yen,'5') is None
     public=public_catalog({'clinics':[base]})['clinics'][0]
     assert public['status']=='candidate' and public['prices']['5'] is None
     print('All-dose public price integrity self-tests passed')

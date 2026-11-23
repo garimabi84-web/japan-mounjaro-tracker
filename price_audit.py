@@ -29,12 +29,12 @@ def suspicious(prices):
 
 def automatic(c):
     previously_verified=(c.get('status')=='active' and c.get('price_verified') is True)
+    imported_priced=(c.get('discovery') in ('national','auto') and
+                    any(isinstance(v,(int,float)) and v>0 for v in c.get('prices',{}).values()))
     previously_rejected=(c.get('status')=='candidate' and c.get('official_price_audit_status')
                          in ('removed_unconfirmed','dose_price_anomaly'))
-    return ((previously_verified or previously_rejected)
-            # Independently checked pack-price cases are already source-reviewed.
-            and not c.get('price_unit_reviewed_at')
-            and not (c.get('source_pack_pens') and c.get('source_pack_prices'))
+    return ((previously_verified or previously_rejected or imported_priced)
+            # Even previously reviewed records require independent per-dose proof.
             and c.get('discovery') in ('national','auto')
             and (c.get('official_domain') or c.get('official_url_hint')))
 
@@ -114,7 +114,7 @@ def self_test():
     reviewed={'status':'active','price_verified':True,'discovery':'national',
               'official_domain':'femuse-clinic.jp',
               'price_unit_reviewed_at':'2026-11-23T18:00:00+09:00'}
-    assert not automatic(reviewed), 'unit-reviewed prices must not be overwritten by generic audit'
+    assert automatic(reviewed), 'legacy reviewed record must be independently rechecked'
     zep='<h3>ゼップバウンド</h3><p>マンジャロと同成分</p><p>10mg（1ヶ月分）33,000円</p>'
     assert extract_with_evidence(zep)[0]=={}
     strict_self_test()
