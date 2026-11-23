@@ -91,8 +91,10 @@ def table_evidence(table):
     # Never pick a price in a table with multiple subscription length columns,
     # even if the last column is cheap. A human can compare plans.
     headers=cells[0]
-    complex_plan=sum(bool(re.search(r"(?:1|2|3|6|8|12)\s*(?:ヶ|か|ヵ|カ)?月",h)) for h in headers[1:])
-    if complex_plan>1 or (OTHER_PLAN.search(first_header) and "3ヶ月" in first_header):
+    # Allow an explicitly labeled 1-month + 3-month table. If a longer
+    # 6/12-month subscription is present, do not infer its installment prices.
+    # That case remains for independently documented manual review.
+    if any(OTHER_PLAN.search(h) for h in headers[1:]):
         return []
     # multi-column rows: one dose, an explicit quantity (4本), and one price
     entries=[]
