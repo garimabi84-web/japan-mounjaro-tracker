@@ -6,6 +6,7 @@ on:
   workflow_run:
     workflows:
       - "Find new clinics from public SNS/web and monitor price sources"
+      - "Full all-dose official price integrity audit V2"
     types: [completed]
     branches: [main]
   workflow_dispatch:
@@ -36,6 +37,11 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main
+      - name: Rebuild latest site from verified catalog and current template
+        run: |
+          python price_integrity.py
+          python scan_changes.py --self-test
+          python build.py
       - name: Verify tracker HTML and JavaScript
         run: |
           python -m py_compile build.py
@@ -47,6 +53,9 @@ jobs:
           assert 'select-type.com/rsv/?id=kMqp7M4u8eM' in s
           inline = s.rsplit('<script>', 1)[-1].split('</script>', 1)[0]
           assert 'function bookingLink(x)' in inline
+          assert 'function changeDescription(item)' in inline
+          assert 'rowChangeNote(x.id)' in inline
+          assert 'detailsChangeNote(x.id)' in inline
           Path('/tmp/mounjaro-frontend.js').write_text(inline, encoding='utf-8')
           print('HTML content checks passed')
           PY
