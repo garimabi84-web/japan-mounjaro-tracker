@@ -1,0 +1,57 @@
+name: Fix 5mg clinic 12-pen pricing units
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'fix_5mg_price_units.py'
+      - '.github/workflows/fix-5mg-price-units.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Validate 5mg correction amounts from seven official clinic price tables
+        run: |
+          python -m py_compile fix_5mg_price_units.py
+          python fix_5mg_price_units.py --self-test
+          python price_audit.py --self-test
+      - name: Apply independently checked 12-pen prices and rebuild website
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+          python fix_5mg_price_units.py
+          python build.py
+      - name: Commit corrected clinic prices and published website
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3; do
+            git add catalog.json catalog.csv scan_changes.json index.html
+            if git diff --staged --quiet; then
+              echo "Already corrected"
+              exit 0
+            fi
+            git commit -m 'Correct seven Mounjaro 5mg 12-pen prices from official source plan units'
+            if git push origin HEAD:main; then
+              echo "Reviewed clinic prices published"
+              exit 0
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              echo "Concurrent updates prevented commit"
+              exit 1
+            fi
+            git fetch origin main
+            git reset --hard origin/main
+            python fix_5mg_price_units.py
+            python build.py
+          done
