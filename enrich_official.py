@@ -10,7 +10,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 import requests
 from discover import ROOT,CATALOG,UA,fetch_rss,fetch_bing_html,now,DOSES,potential_official_site
-from source_price_parser import extract_official, self_test as official_price_self_test
+from strict_price_parser import extract_with_evidence, self_test as official_price_self_test
 
 EXCLUDE=['sushijaro','mounjarojp','kireireport','yahoo','instagram','facebook','x.com','twitter','note.com','reddit','beauty.hotpepper','kuchikomi','a-clinic-column','seikeitimes','jihi-shohou','google.com','news.google','blogspot']
 PATT_DOSE=re.compile(r'(?<![\d.])(?:マンジャロ|mounjaro)?\s*(2[.]5|5(?:[.]0)?|7[.]5|10(?:[.]0)?|12[.]5|15(?:[.]0)?)\s*mg',re.I)
@@ -170,7 +170,8 @@ def run():
             soup=BeautifulSoup(resp.content,'html.parser');text=soup.get_text(' ',strip=True)
             # Strict medicine-scoped parsing only: do not use the permissive
             # legacy extractor, which can mix Mounjaro with other medicines.
-            prices,basis=extract_official(resp.content)
+            prices,evidence=extract_with_evidence(resp.content)
+            basis='검증 V2: 공식 용량·가격·판매 수량 확인'
             # A clinic homepage may link to a dedicated Mounjaro price page.
             if not prices:
                 links=[]
@@ -186,9 +187,9 @@ def run():
                 for href in links[:3]:
                     try:
                         follow=session.get(href,timeout=(5,9));follow.raise_for_status()
-                        found,basis=extract_official(follow.content)
+                        found,found_evidence=extract_with_evidence(follow.content)
                         if found and official_host(follow.url)==official_host(official):
-                            prices=found;official=follow.url
+                            prices=found;evidence=found_evidence;official=follow.url
                             soup=BeautifulSoup(follow.content,'html.parser');text=soup.get_text(' ',strip=True)
                             break
                     except requests.RequestException:pass
@@ -207,6 +208,10 @@ def run():
                 item['notes']='공식 가격 페이지 후보 발견, 기간 한정/쿠폰 조건 때문에 자동 비교가 보류: '+official
                 continue
             item['prices'].update(prices)
+            item['price_integrity']='strict_v2'
+            item['price_evidence']=evidence
+            item['official_price_audit_status']='passed'
+            item['official_price_audited_at']=now()
             item['basis']=basis+'; 공개 검색 후보를 공식 페이지로 교차 확인'
             item['url']=official;item['status']='active';item['price_verified']=True
             item['official_domain']=official_host(official)
