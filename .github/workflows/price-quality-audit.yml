@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/price-quality-audit.yml'
+      - 'strict_price_parser.py'
   workflow_dispatch:
 permissions:
   contents: write
