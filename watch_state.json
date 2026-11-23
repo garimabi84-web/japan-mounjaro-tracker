@@ -1,5 +1,5 @@
 {
-  "ran_at": "2026-11-23T19:16:41+09:00",
+  "ran_at": "2026-11-23T20:02:40+09:00",
   "hashes": {
     "https://baba-totalcareclinic.com/private-practice": "a3b141b4cbfca1ad3b54e74deadf22cb8a07c87f600b944481c176fb5cd22646",
     "https://tokyosilkclinic.com/menu/909": "c0190473d9a440191263d00607834cf85f2f48c7314ecb749794c6f61a36f785",
@@ -168,7 +168,26 @@
     "https://ueshima-clinic.net/%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD": "92fc960f78278860730be7822025c0e361576486536eda5ebb4d47c67b7369e1",
     "https://kawai-biyou.net/diet": "fa0b9da01709cdd80943b7d10f6f091b66b8ae5187f7cca613772017fccb81e8",
     "https://www.kobe-kids-family.com/diet": "7596596c2fca13fc8e60dc68a11a02f380cea5e961263c9e40295c20a4a37f90",
-    "https://shinjuku-biyou-chuoh.com/menu/diet/mounjaro": "393ff3ac8469fafe4319edf06caa14125b1c19b90accec622163f501de6e1a84"
+    "https://shinjuku-biyou-chuoh.com/menu/diet/mounjaro": "393ff3ac8469fafe4319edf06caa14125b1c19b90accec622163f501de6e1a84",
+    "https://mame-clinic.net/articles": "cd5dcf9a1adefc17eef7f85c6442ae553d29e6e08341a891ccfffe724e34e8f2",
+    "https://jinai.net/clinicfor-glp1": "35dfdb449bebd7c9a75f881ea32a1f7fb2b156ffbea4f379b9b92d3e00c6e05a",
+    "https://akishima-hinyouki.com/%E6%96%99%E9%87%91%E8%A1%A8": "52281dc48d1b563557a29c46147c9794d47d1bb71252dce62f36636f182db885",
+    "https://usuda-naika.com/medical/medical15.html": "84a552c349edb05633bb9ed5c59589d5a09d3c9d5a14de2a9d57f7b62ef33bff",
+    "https://uraoka-clinic.jp/diet": "fe4d83b55c59a4ff2d56f2e3b37846fabadb7c816c7e0f3761fe0d9f04c56e21",
+    "https://yokuyukai.jp/optical": "a3bb31c4385d601b75523d8cc3293bbf3186b67534c2d356b179c103e5a6566f",
+    "https://takae-clinic.com/beauty/glp-1": "ead95650254f08a379bcb87e17dcfae42ae526cd5a1eb19f6289ec9470c384ae",
+    "https://takeshitaclinic.com/menu/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%AB%E3%83%AB%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88%E5%A4%96%E6%9D%A5": "6bb892f5b0d5212cd7e2bb0cf9d414e024eef5810898b0ae3e5c8c422daeaf4c",
+    "https://tsutsuji-cl.com/diet": "10da9d0be859447a2e577cc5260af7afd1a3bc15b062560d63b16ab0d56ad72b",
+    "https://www.teradaclinic.net/dermatology": "af3a8a96b1db8605e7b1ce40525c8eaa71ff9c9ad6155deb07507142eac9c6d0",
+    "https://n-naika.net/examination/examination06": "20470232cb49f74599d1c163f8969ae27deb1eb88b812abe06e9fd4a32e0ec43",
+    "https://fukurou-ent.com/service/freemedical/%E8%87%AA%E7%94%B1%E8%A8%BA%E7%99%82": "b6a1bad3c7e02da821c58f83cb01ed946d3aaac40de290ceeff8cf1999601053",
+    "https://tokyo-asakusa-hifuka.clinic/price.html": "79b9af8005700eba15085b7dd4ee855c7ac0d62ab316c32ea501ed4a79abe002",
+    "https://yokoiclinic.jp/menu/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%AB%E3%83%AB%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88": "d4422d17e145411d93bd677352f79b497f7bb10036223ea22240e3733d3b9f15",
+    "https://willbe-clinic.com/slimming/price": "088b6035f2365da328f856508ba1dc313a1c575a19533daf32b8279d89316daa",
+    "https://wellnest-clinic.jp/ownexpense": "9521261df512c1528f945347962aea27039b1de97afa30bc8bfa39657eeb9d8a",
+    "https://clear-c.jp/menu": "744792f2e7ead97dd03baf376737dd6da5bd3d11d08e22009edee10b9d305cda",
+    "https://yubt.net/biyo-4": "ad951e015087e0990767b0846cc2a34a122572970fd1fd5c804cfcaa96b8d300",
+    "https://lamu-kagoshima.com/menu/mounjaro": "e0dc1d9bbbac924943c6d267e99446de8b24b849210095b15f84925125b0e100"
   },
   "pending": {
     "https://origami-clinic.com/": {

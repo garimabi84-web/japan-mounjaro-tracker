@@ -1,19 +1,12 @@
 {
-  "at": "2026-11-23T19:56:57+09:00",
-  "checked": 134,
+  "at": "2026-11-23T20:02:40+09:00",
+  "checked": 153,
   "result": {
+    "unavailable": 4,
     "removed": 30,
-    "unavailable": 3,
-    "passed": 101
+    "passed": 119
   },
   "review": [
-    {
-      "name": "すみだブレインハートクリニック",
-      "id": "found-4b057da3a3c6",
-      "status": "removed",
-      "url": "https://s-brainheart.com/%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD",
-      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
-    },
     {
       "name": "ドーズ美容外科長崎院",
       "id": "national-9d1c38ec2bf09d",
@@ -43,31 +36,10 @@
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     },
     {
-      "name": "渋谷駅前おおしま皮膚科",
-      "id": "found-16345a0a3c33",
+      "name": "すみだブレインハートクリニック",
+      "id": "found-4b057da3a3c6",
       "status": "removed",
-      "url": "https://shibuya-hifuka.jp/sidemenu/glp1_price.html",
-      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
-    },
-    {
-      "name": "マルベルクリニック",
-      "id": "found-3d7887e35db2",
-      "status": "removed",
-      "url": "https://mulbell.online/medical-diet/mounjaro/",
-      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
-    },
-    {
-      "name": "レイラクリニック",
-      "id": "national-36c2f40a94c1b5",
-      "status": "removed",
-      "url": "https://reira-clinic.com/price/",
-      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
-    },
-    {
-      "name": "ワンクリニック恵比寿",
-      "id": "national-a170ac45246bc1",
-      "status": "removed",
-      "url": "https://oneclinic.jp/glp-1/mounjaro",
+      "url": "https://s-brainheart.com/%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD",
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     },
     {
@@ -155,10 +127,31 @@
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     },
     {
-      "name": "デジタルクリニック　渋谷院",
-      "id": "national-3ba16144280470",
+      "name": "渋谷駅前おおしま皮膚科",
+      "id": "found-16345a0a3c33",
       "status": "removed",
-      "url": "https://digital-clinic.life/online/diet/",
+      "url": "https://shibuya-hifuka.jp/sidemenu/glp1_price.html",
+      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
+    },
+    {
+      "name": "マルベルクリニック",
+      "id": "found-3d7887e35db2",
+      "status": "removed",
+      "url": "https://mulbell.online/medical-diet/mounjaro/",
+      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
+    },
+    {
+      "name": "レイラクリニック",
+      "id": "national-36c2f40a94c1b5",
+      "status": "removed",
+      "url": "https://reira-clinic.com/price/",
+      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
+    },
+    {
+      "name": "ワンクリニック恵比寿",
+      "id": "national-a170ac45246bc1",
+      "status": "removed",
+      "url": "https://oneclinic.jp/glp-1/mounjaro",
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     },
     {
@@ -173,6 +166,13 @@
       "id": "national-74496af43d6b1b",
       "status": "removed",
       "url": "https://asahina-clinic.jp/index.html",
+      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
+    },
+    {
+      "name": "デジタルクリニック　渋谷院",
+      "id": "national-3ba16144280470",
+      "status": "removed",
+      "url": "https://digital-clinic.life/online/diet/",
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     },
     {
