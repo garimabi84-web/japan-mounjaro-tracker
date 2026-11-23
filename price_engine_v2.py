@@ -111,7 +111,14 @@ def parse_official_v2(source,source_url=''):
         any_branded=any(BRAND.search(' '.join(r)) for r,_ in rows)
         if not (table_branded or any_branded):continue
         if OTHER.search(heading) and not any_branded:continue
-        headers=rows[0][0] if rows[0][1] or re.search(r'用量|規格|本数|容量|価格|料金',top) and not dose_key(top) else []
+        # Many Japanese price tables have no header row at all. Their first
+        # row is often "マンジャロ | 2.5mg/1本 | ¥6,050".
+        # Treating that data row as headers leaks its "1本" unit into all
+        # later 4-pen rows and creates a 4x price overstatement.
+        first_is_offer=bool(DOSE.search(top) and YEN.search(top))
+        headers=(rows[0][0] if not first_is_offer and
+                 (rows[0][1] or bool(re.search(r'用量|規格|本数|容量|価格|料金',top)))
+                 else [])
         start=1 if headers else 0
         current=table_branded
         # A pen-unit statement in this table's heading/header may be applied
@@ -223,6 +230,13 @@ def self_test():
         <tr><td>7.5mg</td><td>4本</td><td>55,000円</td></tr>
         <tr><td>10mg</td><td>4本</td><td>66,000円</td></tr></table>""",
          {'2.5':59400,'5':120000,'7.5':165000,'10':198000}),
+        ('wclinic_no_header',"""<h2>マンジャロの料金のご案内</h2><table>
+         <tr><td>マンジャロ</td><td>2.5mg/1本</td><td>¥6,050</td></tr>
+         <tr><td></td><td>2.5mg/1本(1ヶ月分)(初回価格)</td><td>¥5,720</td></tr>
+         <tr><td></td><td>2.5mg/4本(1ヶ月分)</td><td>¥22,880</td></tr>
+         <tr><td></td><td>5mg/1本</td><td>¥8,580</td></tr>
+         <tr><td></td><td>5mg/4本(1ヶ月分)</td><td>¥33,000</td></tr></table>""",
+         {'2.5':68640,'5':99000}),
         ('wclinic',"""<h2>マンジャロ料金</h2><table><tr><th>規格</th><th>価格</th></tr>
          <tr><td>2.5mg/1本</td><td>6,050円</td></tr>
          <tr><td>2.5mg/1本(初回価格)</td><td>5,720円</td></tr>
