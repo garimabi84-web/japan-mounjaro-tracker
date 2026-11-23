@@ -49,7 +49,7 @@ def inspect(c):
         r=requests.get(url,headers={'User-Agent':UA,'Accept-Language':'ja,ko;q=0.8'},timeout=(4,12))
         if not r.ok or len(r.content)>1_000_000 or official_host(r.url)!=official_host(url):
             return c['id'],{'status':'unavailable','http':r.status_code}
-        prices,evidence=extract_with_evidence(r.content)
+        prices,evidence=extract_with_evidence(r.content,r.url)
         return c['id'],{'status':'checked','prices':prices,'evidence':evidence,
                          'basis':'독립 증거검증: 원문 단위·용량·금액 확인','url':r.url,
                          'anomalies':suspicious(prices)}
