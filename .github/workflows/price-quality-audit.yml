@@ -1,0 +1,72 @@
+name: Full all-dose official price integrity audit V2
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/price-quality-audit.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Test all-unit, all-dose, brand and 3-month-plan parsing
+        run: |
+          python -m py_compile strict_price_parser.py bulk_verify.py enrich_official.py price_audit.py build.py
+          python strict_price_parser.py
+          python bulk_verify.py --self-test
+          python enrich_official.py --self-test
+          python price_audit.py --self-test
+      - name: Independently recheck previously imported official prices and keep only proven 12-pen amounts
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+          python scan_changes.py --before
+          python price_audit.py --limit 500
+          python scan_changes.py --after
+          python build.py
+          python - <<'PY'
+          import csv
+          with open('catalog.csv',encoding='utf-8-sig',newline='') as f:
+              rows=list(csv.DictReader(f))
+          auto=[x for x in rows if x['발견경로'] in ('national','auto')]
+          unknown=[x for x in auto if x.get('원문 단위 검증 상태')=='원문 단위 검증 대기']
+          print('AUTO RECORDS',len(auto),'UNVERIFIED WITHHELD',len(unknown))
+          assert all(not x.get('5mg 12펜 기본가(엔)') for x in unknown)
+          assert all(not x.get('10mg 12펜 기본가(엔)') for x in unknown)
+          PY
+      - name: Publish verified results only
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3; do
+            git add catalog.json catalog.csv scan_changes.json price_audit.json index.html
+            if git diff --staged --quiet; then
+              echo 'No changes'
+              exit 0
+            fi
+            git commit -m 'Re-audit all six Mounjaro doses with explicit original unit evidence'
+            if git push origin HEAD:main; then
+              echo 'V2 price audit data and website saved'
+              exit 0
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              echo 'Concurrent modifications prevented audit commit'
+              exit 1
+            fi
+            git fetch origin main
+            git reset --hard origin/main
+            python scan_changes.py --before
+            python price_audit.py --limit 500
+            python scan_changes.py --after
+            python build.py
+          done
