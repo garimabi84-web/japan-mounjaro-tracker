@@ -1,10 +1,10 @@
 {
-  "at": "2026-11-23T20:16:17+09:00",
-  "checked": 155,
+  "at": "2026-11-23T20:38:59+09:00",
+  "checked": 160,
   "result": {
-    "unavailable": 4,
-    "removed": 29,
-    "passed": 122
+    "unavailable": 74,
+    "removed": 15,
+    "passed": 71
   },
   "review": [
     {
@@ -12,13 +12,6 @@
       "id": "found-4b057da3a3c6",
       "status": "removed",
       "url": "https://s-brainheart.com/%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD",
-      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
-    },
-    {
-      "name": "さなげクリニック",
-      "id": "national-1b939ced57c788",
-      "status": "removed",
-      "url": "https://sanage-clinic.com/medicaldiet_aga/#medicaldiet_aga01",
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     },
     {
@@ -43,24 +36,10 @@
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     },
     {
-      "name": "医療法人わかば会　宮戸クリニック",
-      "id": "national-dda426455b6dc0",
-      "status": "removed",
-      "url": "https://wakabakai-medical.com/medical/#diet",
-      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
-    },
-    {
       "name": "医療法人社団かなめ会　田口クリニック",
       "id": "national-0d2f0ed437d70d",
       "status": "removed",
       "url": "https://taguchi-clinic.jp/medical-diet.html",
-      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
-    },
-    {
-      "name": "向ヶ丘胃腸・肛門クリニック",
-      "id": "national-bfcaee9f13c810",
-      "status": "removed",
-      "url": "https://www.mukougaoka-clinic.com/column/medicaldiet.html",
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     },
     {
@@ -92,27 +71,6 @@
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     },
     {
-      "name": "みどり クリニック 千葉中央",
-      "id": "national-16f3ddca8e8c5b",
-      "status": "removed",
-      "url": "https://midoriclinic.jp/price/",
-      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
-    },
-    {
-      "name": "渋谷駅前おおしま皮膚科",
-      "id": "found-16345a0a3c33",
-      "status": "removed",
-      "url": "https://shibuya-hifuka.jp/sidemenu/glp1_price.html",
-      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
-    },
-    {
-      "name": "マルベルクリニック",
-      "id": "found-3d7887e35db2",
-      "status": "removed",
-      "url": "https://mulbell.online/medical-diet/mounjaro/",
-      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
-    },
-    {
       "name": "レイラクリニック",
       "id": "national-36c2f40a94c1b5",
       "status": "removed",
@@ -120,31 +78,10 @@
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     },
     {
-      "name": "ワンクリニック恵比寿",
-      "id": "national-a170ac45246bc1",
-      "status": "removed",
-      "url": "https://oneclinic.jp/glp-1/mounjaro",
-      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
-    },
-    {
       "name": "久我山駅前メディカルクリニック",
       "id": "national-7cbdccfa47a859",
       "status": "removed",
       "url": "https://kugayama-medical.clinic/private.html",
-      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
-    },
-    {
-      "name": "ネビュラ クリニック 広島院",
-      "id": "national-b7bf18c59fd4b3",
-      "status": "removed",
-      "url": "https://nebula-clinic.jp/menu/diet/",
-      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
-    },
-    {
-      "name": "札幌 美容外科ネビュラ クリニック",
-      "id": "national-a51f3961e02c4b",
-      "status": "removed",
-      "url": "https://nebula-clinic.jp/menu/diet/",
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     },
     {
@@ -169,45 +106,10 @@
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     },
     {
-      "name": "宮﨑胃腸科内科医院",
-      "id": "national-26965c7e8c382c",
-      "status": "removed",
-      "url": "https://miyazaki-ichoclinic.com/other_menu/",
-      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
-    },
-    {
-      "name": "ＭＩＯ　ＳＫＩＮ　ＣＬＩＮＩＣ",
-      "id": "national-72532864223b07",
-      "status": "removed",
-      "url": "https://mioskin-clinic.com/fee/",
-      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
-    },
-    {
-      "name": "しみず クリニック",
-      "id": "national-11aef30667fd69",
-      "status": "removed",
-      "url": "https://shimizu-cl-ohashi.com/obesity",
-      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
-    },
-    {
       "name": "王子金田レディース・ペインクリニック",
       "id": "national-d6d254b350b2f2",
       "status": "removed",
       "url": "https://kanedaclinic.com/price",
-      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
-    },
-    {
-      "name": "ＲＥＪＵ　Ｂｅａｕｔｙ　Ｃｌｉｎｉｃ",
-      "id": "national-db6f97197eb3ab",
-      "status": "removed",
-      "url": "https://rejubeautyclinic.jp/service/mounjaro-medical-diet/",
-      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
-    },
-    {
-      "name": "たきもと内科クリニック",
-      "id": "national-688790a7357adb",
-      "status": "removed",
-      "url": "https://takimoto-cl.com/menu/%E7%BE%8E%E5%AE%B9%E5%86%85%E7%A7%91/",
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     }
   ]
