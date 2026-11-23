@@ -13,76 +13,6 @@ from discover import ROOT,CATALOG,UA,fetch_rss,fetch_bing_html,now,DOSES,potenti
 from strict_price_parser import extract_with_evidence, self_test as official_price_self_test
 
 EXCLUDE=['sushijaro','mounjarojp','kireireport','yahoo','instagram','facebook','x.com','twitter','note.com','reddit','beauty.hotpepper','kuchikomi','a-clinic-column','seikeitimes','jihi-shohou','google.com','news.google','blogspot']
-PATT_DOSE=re.compile(r'(?<![\d.])(?:マンジャロ|mounjaro)?\s*(2[.]5|5(?:[.]0)?|7[.]5|10(?:[.]0)?|12[.]5|15(?:[.]0)?)\s*mg',re.I)
-PATT_YEN=re.compile(r'(?:[¥￥]\s*)?([\d]{1,3}(?:,[\d]{3})+|[\d]{4,6})\s*(?:円|엔|[¥￥])?')
-
-def numeric_price(s):
-    for m in PATT_YEN.finditer(s.replace('，',',')):
-        if not any(x in s for x in ('円','¥','￥','엔')):return None
-        v=int(m.group(1).replace(',',''))
-        if 1800<=v<=350000:return v
-    return None
-
-def dose_key(s):
-    m=PATT_DOSE.search(s)
-    if not m:return None
-    d=str(float(m.group(1))).removesuffix('.0')
-    return d if d in DOSES else None
-
-def extract_prices(source):
-    soup=BeautifulSoup(source,'html.parser')
-    for tag in soup(['script','style','nav','footer','noscript','svg']):tag.decompose()
-    text=' '.join(soup.stripped_strings)
-    if not re.search('マンジャロ|mounjaro|마운자로',text,re.I):return {},'not Mounjaro page'
-    prices={}
-    for table in soup.select('table'):
-        rows=[[c.get_text(' ',strip=True) for c in tr.find_all(['th','td'])] for tr in table.select('tr')]
-        rows=[r for r in rows if len(r)>=2]
-        head=' '.join(' '.join(r) for r in rows[:2])
-        three_col=[];one_col=[];single_col=[]
-        if any(x in head for x in ['3ヶ月','3か月','12本','12キット']):
-            for index,col in enumerate(rows[0]):
-                if re.search('3ヶ月|3か月|12本|12キット',col):three_col.append(index)
-        if any(x in head for x in ['1ヶ月','1か月','4本','4キット']):
-            for index,col in enumerate(rows[0]):
-                if re.search('1ヶ月|1か月|4本|4キット',col):one_col.append(index)
-        if any(x in head for x in ['1本','1キット','1本あたり','1本当たり']):
-            for index,col in enumerate(rows[0]):
-                if re.search(r'1本|1キット',col):single_col.append(index)
-        for row in rows:
-            key=dose_key(row[0])
-            if not key:continue
-            if not ('マンジャロ' in ' '.join(row) or 'マンジャロ' in head or 'マンジャロ' in text[:3500]):continue
-            val=None
-            for index in three_col:
-                if index<len(row):val=numeric_price(row[index])
-            if val is not None:prices[key]=val;continue
-            for index in one_col:
-                if index<len(row) and numeric_price(row[index]):val=numeric_price(row[index])*3
-            if val is not None:prices[key]=val;continue
-            for index in single_col:
-                if index<len(row) and numeric_price(row[index]):val=numeric_price(row[index])*12
-            if val is not None:prices[key]=val;continue
-            # Explicit single row inline 12-pen or 4-pen descriptions
-            inline=' '.join(row)
-            if re.search('12本|3ヶ月分|3か月分',inline):
-                vals=[numeric_price(c) for c in row[1:]]
-                vals=[v for v in vals if v]
-                if vals:prices[key]=vals[-1]
-            elif re.search('4本|4キット|1ヶ月分|1ヵ月分|1か月分',inline):
-                vals=[numeric_price(c) for c in row[1:]]
-                vals=[v for v in vals if v]
-                if vals:prices[key]=vals[-1]*3
-    # Single product page: heading names dosage, explicitly defines 4-pen unit
-    if not prices:
-        h1=soup.find('h1')
-        key=dose_key(h1.get_text(' ',strip=True)) if h1 else None
-        if key and re.search('1ヶ月分.{0,15}4本|1か月分.{0,15}4本',text):
-            local=text[text.find(h1.get_text(' ',strip=True)):][:220]
-            val=numeric_price(local)
-            if val:prices[key]=val*3
-    return prices, '공식 12펜 금액 또는 공식 4펜×3 / 1펜×12 환산(단위별 구매 가능성 별도 확인)'
-
 def official_link(session,name,hint=None):
     # When the official-site search found a probable clinic page, try that
     # exact URL before another name lookup, but never treat its pricing as
@@ -112,15 +42,6 @@ def run():
     ap=argparse.ArgumentParser();ap.add_argument('--self-test',action='store_true');arg=ap.parse_args()
     if arg.self_test:
         official_price_self_test()
-        html='''<html><body><h1>CKK ONLINE CLINIC マンジャロ 料金</h1><table><tr><th>用量</th><th>1ヶ月分（4本）</th><th>2ヶ月分（8本）</th><th>3ヶ月分（12本）</th></tr><tr><td>10mg</td><td>27,500円</td><td>55,000円</td><td>82,500円</td></tr><tr><td>5mg</td><td>16,000円</td><td>32,000円</td><td>48,000円</td></tr></table></body></html>'''
-        prices,_=extract_prices(html)
-        assert prices['10']==82500 and prices['5']==48000,prices
-        product='<h1>マンジャロ 10.0mg</h1> ¥46,000 (税込) 1ヶ月分（4本）のお値段となります。'
-        prices,_=extract_prices(product)
-        assert prices.get('10')==138000,prices
-        perpen='<h1>マンジャロ 料金</h1><table><tr><th>用量</th><th>1本あたり</th></tr><tr><td>10mg</td><td>9,000円</td></tr></table>'
-        prices,_=extract_prices(perpen)
-        assert prices.get('10')==108000,prices
         assert official_host('https://www.miraimedical.com/price')=='miraimedical.com'
         assert official_host('https://mirai-medical.clinic/ko/mounjaro/')=='mirai-medical.clinic'
         assert official_host('https://miraimedical.com/')!=official_host('https://mirai-medical.clinic/')
