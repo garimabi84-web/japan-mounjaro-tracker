@@ -29,6 +29,10 @@ def suspicious(prices):
 
 def automatic(c):
     return (c.get('status')=='active' and c.get('price_verified') is True
+            # Independently reviewed package/plan prices must not be overwritten
+            # by the older generic parser. A source-monitor change is a
+            # re-review signal, NOT authorization to change reviewed prices.
+            and not c.get('price_unit_reviewed_at')
             and c.get('discovery') in ('national','auto')
             and (c.get('official_domain') or c.get('official_url_hint')))
 
@@ -92,6 +96,10 @@ def self_test():
     assert correct_one(valid,{'status':'checked','prices':{'5':99000,'10':135000},
          'basis':'공식 가격', 'url':'https://example.com/prices','anomalies':[]})=='corrected'
     assert valid['prices']['10']==135000 and valid['prices']['7.5'] is None
+    reviewed={'status':'active','price_verified':True,'discovery':'national',
+              'official_domain':'femuse-clinic.jp',
+              'price_unit_reviewed_at':'2026-11-23T18:00:00+09:00'}
+    assert not automatic(reviewed), 'unit-reviewed prices must not be overwritten by generic audit'
     zep='<h3>ゼップバウンド</h3><p>マンジャロと同成分</p><p>10mg（1ヶ月分）33,000円</p>'
     assert extract_official(zep)[0]=={}
     print('Price audit self-tests passed: wrong-medicine revocation and unit checks')
