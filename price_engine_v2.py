@@ -173,7 +173,15 @@ def parse_official_v2(source,source_url=''):
             scoped=False;age=0;continue
         if len(txt)>380:scoped=False;continue
         if BRAND.search(txt):
-            scoped=True;age=0
+            # A product comparison ("Zepbound has the same ingredient as
+            # Mounjaro") must never activate Mounjaro-price scope.
+            is_explicit_price=bool(DOSE.search(txt) and YEN.search(txt))
+            is_product_label=bool(re.fullmatch(
+                r'(?:マンジャロ|mounjaro)(?:\s*(?:料金|価格|注射|費用|処方|診療|薬代|料金表))*',
+                txt,re.I))
+            scoped=is_explicit_price or is_product_label
+            age=0
+            if not scoped:continue
         elif not scoped:continue
         elif not dose_key(txt):
             age+=1
@@ -224,6 +232,10 @@ def self_test():
          {'2.5':68640,'5':99000}),
         ('zenbound',"""<h2>ゼップバウンド</h2><p>マンジャロと同成分</p>
          <table><tr><th>エンパグリフロジン</th><th>1ヶ月</th></tr><tr><td>10mg</td><td>11,000円</td></tr></table>""",{}),
+        ('zepbound_context',"""<h3>ゼップバウンド</h3>
+          <p>糖尿病治療薬「マンジャロ」と同成分。</p>
+          <p>10mg（1ヶ月分）33,000円</p>""",{}),
+
         ('unknownunit',"""<h2>マンジャロ</h2><table><tr><th>用量</th><th>価格</th></tr>
          <tr><td>10mg</td><td>30,000円</td></tr></table>""",{}),
         ('haab',"""<h2>マンジャロ料金</h2><table><tr><th>用量</th><th>1本価格</th></tr>
