@@ -2653,7 +2653,7 @@
       "official_attempts": 1,
       "official_domain": "velvaere-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -2663,7 +2663,7 @@
           "equivalent_12": 29700,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "2.5mg | 9,900円",
+          "quote": "2.5mg | 4本セット | 9,900円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://velvaere-clinic.com/menu/%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD%EF%BC%88%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%A8%BA%E7%99%82%E5%AF%BE%E5%BF%9C%EF%BC%89/",
           "source_type": "명시된 펜·주수/기간",
@@ -2676,7 +2676,7 @@
           "equivalent_12": 59700,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "5mg | 19,900円",
+          "quote": "5mg | 4本セット | 19,900円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://velvaere-clinic.com/menu/%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD%EF%BC%88%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%A8%BA%E7%99%82%E5%AF%BE%E5%BF%9C%EF%BC%89/",
           "source_type": "명시된 펜·주수/기간",
@@ -2689,7 +2689,7 @@
           "equivalent_12": 89700,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "7.5mg | 29,900円",
+          "quote": "7.5mg | 4本セット | 29,900円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://velvaere-clinic.com/menu/%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD%EF%BC%88%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%A8%BA%E7%99%82%E5%AF%BE%E5%BF%9C%EF%BC%89/",
           "source_type": "명시된 펜·주수/기간",
@@ -2702,7 +2702,7 @@
           "equivalent_12": 119700,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "10mg | 39,900円",
+          "quote": "10mg | 4本セット | 39,900円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://velvaere-clinic.com/menu/%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD%EF%BC%88%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%A8%BA%E7%99%82%E5%AF%BE%E5%BF%9C%EF%BC%89/",
           "source_type": "명시된 펜·주수/기간",
@@ -2715,7 +2715,7 @@
           "equivalent_12": 149700,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "12.5mg | 49,900円",
+          "quote": "12.5mg | 4本セット | 49,900円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://velvaere-clinic.com/menu/%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD%EF%BC%88%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%A8%BA%E7%99%82%E5%AF%BE%E5%BF%9C%EF%BC%89/",
           "source_type": "명시된 펜·주수/기간",
@@ -2728,7 +2728,7 @@
           "equivalent_12": 179700,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "15mg | 59,900円",
+          "quote": "15mg | 4本セット | 59,900円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://velvaere-clinic.com/menu/%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD%EF%BC%88%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%A8%BA%E7%99%82%E5%AF%BE%E5%BF%9C%EF%BC%89/",
           "source_type": "명시된 펜·주수/기간",
@@ -4876,7 +4876,7 @@
           "equivalent_12": 99000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ5.0mg | 1ヶ月分(4本)33,000円(税込)",
+          "quote": "マンジャロ5.0mg | あまぎ第一クリニック | 1ヶ月分(4本)33,000円(税込)",
           "tax": "세금 포함",
           "source_url": "https://mame-clinic.net/articles/?p=112951",
           "source_type": "명시된 펜·주수/기간",
@@ -4884,7 +4884,7 @@
         }
       },
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "official_domain": "mame-clinic.net"
     },
     {
@@ -5024,10 +5024,10 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": 25520,
-        "5": 46640,
-        "7.5": 59840,
-        "10": 74800,
+        "2.5": 76560,
+        "5": 139920,
+        "7.5": 179520,
+        "10": 224400,
         "12.5": null,
         "15": null
       },
@@ -5060,57 +5060,57 @@
           "dose": "2.5",
           "raw_yen": 25520,
           "pens": 12,
-          "equivalent_12": 25520,
-          "unit_label": "명시된 펜·주수/기간",
+          "equivalent_12": 76560,
+          "unit_label": "3개월 계약 월액",
           "source_kind": "official_table",
-          "quote": "2.5mg | 27,115円/月 | 25,520円/月 | 31,900円",
+          "quote": "2.5mg | まとめて3ヶ月 | 25,520円/月",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://jinai.net/clinicfor-glp1/",
-          "source_type": "명시된 펜·주수/기간",
-          "method": "12펜 직접금액"
+          "source_type": "3개월 계약 월액",
+          "method": "3개월 계약 월액 × 3"
         },
         "5": {
           "dose": "5",
           "raw_yen": 46640,
           "pens": 12,
-          "equivalent_12": 46640,
-          "unit_label": "명시된 펜·주수/기간",
+          "equivalent_12": 139920,
+          "unit_label": "3개월 계약 월액",
           "source_kind": "official_table",
-          "quote": "5mg | 49,555円/月 | 46,640円/月 | 58,300円",
+          "quote": "5mg | まとめて3ヶ月 | 46,640円/月",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://jinai.net/clinicfor-glp1/",
-          "source_type": "명시된 펜·주수/기간",
-          "method": "12펜 직접금액"
+          "source_type": "3개월 계약 월액",
+          "method": "3개월 계약 월액 × 3"
         },
         "7.5": {
           "dose": "7.5",
           "raw_yen": 59840,
           "pens": 12,
-          "equivalent_12": 59840,
-          "unit_label": "명시된 펜·주수/기간",
+          "equivalent_12": 179520,
+          "unit_label": "3개월 계약 월액",
           "source_kind": "official_table",
-          "quote": "7.5mg | 63,580円/月 | 59,840円/月 | 74,800円",
+          "quote": "7.5mg | まとめて3ヶ月 | 59,840円/月",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://jinai.net/clinicfor-glp1/",
-          "source_type": "명시된 펜·주수/기간",
-          "method": "12펜 직접금액"
+          "source_type": "3개월 계약 월액",
+          "method": "3개월 계약 월액 × 3"
         },
         "10": {
           "dose": "10",
           "raw_yen": 74800,
           "pens": 12,
-          "equivalent_12": 74800,
-          "unit_label": "명시된 펜·주수/기간",
+          "equivalent_12": 224400,
+          "unit_label": "3개월 계약 월액",
           "source_kind": "official_table",
-          "quote": "10mg | 79,475円/月 | 74,800円/月 | 93,500円",
+          "quote": "10mg | まとめて3ヶ月 | 74,800円/月",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://jinai.net/clinicfor-glp1/",
-          "source_type": "명시된 펜·주수/기간",
-          "method": "12펜 직접금액"
+          "source_type": "3개월 계약 월액",
+          "method": "3개월 계약 월액 × 3"
         }
       },
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "official_domain": "jinai.net"
     },
     {
@@ -6850,7 +6850,7 @@
           "equivalent_12": 66000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "2.5mg | 22,000円 | 39,600円 月あたり 19,800円 4,400円お得 | 56,100円 月あたり 18,700円 9,900円お得",
+          "quote": "2.5mg | 1か月 4本 | 22,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://akishima-hinyouki.com/%E6%96%99%E9%87%91%E8%A1%A8",
           "source_type": "명시된 펜·주수/기간",
@@ -6863,7 +6863,7 @@
           "equivalent_12": 99000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "5mg | 33,000円 | 59,400円 月あたり 29,700円 6,600円お得 | 84,150円 月あたり 28,050円 14,850円お得",
+          "quote": "5mg | 1か月 4本 | 33,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://akishima-hinyouki.com/%E6%96%99%E9%87%91%E8%A1%A8",
           "source_type": "명시된 펜·주수/기간",
@@ -6876,7 +6876,7 @@
           "equivalent_12": 132000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "7.5mg | 44,000円 | 79,200円 月あたり 39,600円 8,800円お得 | 112,200円 月あたり 37,400円 19,800円お得",
+          "quote": "7.5mg | 1か月 4本 | 44,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://akishima-hinyouki.com/%E6%96%99%E9%87%91%E8%A1%A8",
           "source_type": "명시된 펜·주수/기간",
@@ -6889,7 +6889,7 @@
           "equivalent_12": 165000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "10mg | 55,000円 | 99,000円 月あたり 49,500円 11,000円お得 | 140,250円 月あたり 46,750円 24,750円お得",
+          "quote": "10mg | 1か月 4本 | 55,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://akishima-hinyouki.com/%E6%96%99%E9%87%91%E8%A1%A8",
           "source_type": "명시된 펜·주수/기간",
@@ -6902,7 +6902,7 @@
           "equivalent_12": 198000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "12.5mg | 66,000円 | 118,800円 月あたり 59,400円 13,200円お得 | 168,300円 月あたり 56,100円 29,700円お得",
+          "quote": "12.5mg | 1か月 4本 | 66,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://akishima-hinyouki.com/%E6%96%99%E9%87%91%E8%A1%A8",
           "source_type": "명시된 펜·주수/기간",
@@ -6915,7 +6915,7 @@
           "equivalent_12": 231000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "15mg | 77,000円 | 138,600円 月あたり 69,300円 15,400円お得 | 196,350円 月あたり 65,450円 34,650円お得",
+          "quote": "15mg | 1か月 4本 | 77,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://akishima-hinyouki.com/%E6%96%99%E9%87%91%E8%A1%A8",
           "source_type": "명시된 펜·주수/기간",
@@ -6923,7 +6923,7 @@
         }
       },
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "official_domain": "akishima-hinyouki.com"
     },
     {
@@ -7437,7 +7437,7 @@
         }
       },
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "official_domain": "usuda-naika.com"
     },
     {
@@ -7491,7 +7491,7 @@
           "equivalent_12": 26400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 2.5mg 導入プラン・週1回注射 | ¥4,400 /本 | 診察代込み ※2本より承ります",
+          "quote": "マンジャロ 2.5mg 導入プラン・週1回注射 | 料金(税込) | ¥4,400 /本 | 診察代込み ※2本より承ります",
           "tax": "세금 포함",
           "source_url": "https://uraoka-clinic.jp/diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -7504,7 +7504,7 @@
           "equivalent_12": 52800,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 5mg 持続プラン・週1回注射 | ¥8,800 /本 | 診察代込み ※2本より承ります",
+          "quote": "マンジャロ 5mg 持続プラン・週1回注射 | 料金(税込) | ¥8,800 /本 | 診察代込み ※2本より承ります",
           "tax": "세금 포함",
           "source_url": "https://uraoka-clinic.jp/diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -7517,7 +7517,7 @@
           "equivalent_12": 72600,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 7.5mg 強化プラン・週1回注射 | ¥12,100 /本 | 診察代込み ※2本より承ります",
+          "quote": "マンジャロ 7.5mg 強化プラン・週1回注射 | 料金(税込) | ¥12,100 /本 | 診察代込み ※2本より承ります",
           "tax": "세금 포함",
           "source_url": "https://uraoka-clinic.jp/diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -7525,7 +7525,7 @@
         }
       },
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "official_domain": "uraoka-clinic.jp"
     },
     {
@@ -7622,7 +7622,7 @@
           "equivalent_12": 50100,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ皮下注2.5mg | 1か月分 | 16,700                    円",
+          "quote": "マンジャロ皮下注2.5mg | 価格 | 16,700                    円 | 1か月分",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://yokuyukai.jp/optical/",
           "source_type": "명시된 펜·주수/기간",
@@ -7635,7 +7635,7 @@
           "equivalent_12": 71850,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ皮下注5mg | 1か月分 | 23,950                    円",
+          "quote": "マンジャロ皮下注5mg | 価格 | 23,950                    円 | 1か月分",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://yokuyukai.jp/optical/",
           "source_type": "명시된 펜·주수/기간",
@@ -7643,7 +7643,7 @@
         }
       },
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "official_domain": "yokuyukai.jp"
     },
     {
@@ -7873,7 +7873,7 @@
         }
       },
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "official_domain": "takae-clinic.com"
     },
     {
@@ -7927,7 +7927,7 @@
           "equivalent_12": 60000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ2.5mg | 5,000円/本",
+          "quote": "マンジャロ2.5mg | 価格 | 5,000円/本",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://takeshitaclinic.com/menu/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%AB%E3%83%AB%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88%E5%A4%96%E6%9D%A5/",
           "source_type": "명시된 펜·주수/기간",
@@ -7940,7 +7940,7 @@
           "equivalent_12": 96000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ5mg | 8,000円/本",
+          "quote": "マンジャロ5mg | 価格 | 8,000円/本",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://takeshitaclinic.com/menu/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%AB%E3%83%AB%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88%E5%A4%96%E6%9D%A5/",
           "source_type": "명시된 펜·주수/기간",
@@ -7953,7 +7953,7 @@
           "equivalent_12": 144000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ7.5mg | 12,000円/本",
+          "quote": "マンジャロ7.5mg | 価格 | 12,000円/本",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://takeshitaclinic.com/menu/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%AB%E3%83%AB%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88%E5%A4%96%E6%9D%A5/",
           "source_type": "명시된 펜·주수/기간",
@@ -7966,7 +7966,7 @@
           "equivalent_12": 192000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ10mg | 16,000円/本",
+          "quote": "マンジャロ10mg | 価格 | 16,000円/本",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://takeshitaclinic.com/menu/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%AB%E3%83%AB%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88%E5%A4%96%E6%9D%A5/",
           "source_type": "명시된 펜·주수/기간",
@@ -7979,7 +7979,7 @@
           "equivalent_12": 240000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ12.5mg | 20,000円/本",
+          "quote": "マンジャロ12.5mg | 価格 | 20,000円/本",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://takeshitaclinic.com/menu/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%AB%E3%83%AB%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88%E5%A4%96%E6%9D%A5/",
           "source_type": "명시된 펜·주수/기간",
@@ -7992,7 +7992,7 @@
           "equivalent_12": 288000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ15mg | 24,000円/本",
+          "quote": "マンジャロ15mg | 価格 | 24,000円/本",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://takeshitaclinic.com/menu/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%AB%E3%83%AB%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88%E5%A4%96%E6%9D%A5/",
           "source_type": "명시된 펜·주수/기간",
@@ -8000,7 +8000,7 @@
         }
       },
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "official_domain": "takeshitaclinic.com"
     },
     {
@@ -8097,7 +8097,7 @@
           "equivalent_12": 47400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ(注射) | 2.5mg | 15,800円 | 4週分",
+          "quote": "2.5mg | 料金(診察料込) | 15,800円 | 4週分",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://tsutsuji-cl.com/diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -8105,7 +8105,7 @@
         }
       },
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "official_domain": "tsutsuji-cl.com"
     },
     {
@@ -8159,7 +8159,7 @@
           "equivalent_12": 60000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ2.5mg (2本、2週間分) | 10,000円",
+          "quote": "マンジャロ2.5mg (2本、2週間分) | 料金(税込) | 10,000円",
           "tax": "세금 포함",
           "source_url": "https://www.teradaclinic.net/dermatology/",
           "source_type": "명시된 펜·주수/기간",
@@ -8172,7 +8172,7 @@
           "equivalent_12": 96000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ5mg (2本、2週間分) | 16,000円",
+          "quote": "マンジャロ5mg (2本、2週間分) | 料金(税込) | 16,000円",
           "tax": "세금 포함",
           "source_url": "https://www.teradaclinic.net/dermatology/",
           "source_type": "명시된 펜·주수/기간",
@@ -8180,7 +8180,7 @@
         }
       },
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "official_domain": "teradaclinic.net"
     },
     {
@@ -8234,7 +8234,7 @@
           "equivalent_12": 52800,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ2.5mg(1本) | 4,400円",
+          "quote": "マンジャロ2.5mg(1本) | 料金 | 4,400円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://n-naika.net/examination/examination06/",
           "source_type": "명시된 펜·주수/기간",
@@ -8247,7 +8247,7 @@
           "equivalent_12": 56700,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ5mg(4本) | 18,900円",
+          "quote": "マンジャロ5mg(4本) | 料金 | 18,900円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://n-naika.net/examination/examination06/",
           "source_type": "명시된 펜·주수/기간",
@@ -8260,7 +8260,7 @@
           "equivalent_12": 86700,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ7.5mg(4本) | 28,900円",
+          "quote": "マンジャロ7.5mg(4本) | 料金 | 28,900円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://n-naika.net/examination/examination06/",
           "source_type": "명시된 펜·주수/기간",
@@ -8273,7 +8273,7 @@
           "equivalent_12": 110700,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ10mg(4本) | 36,900円",
+          "quote": "マンジャロ10mg(4本) | 料金 | 36,900円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://n-naika.net/examination/examination06/",
           "source_type": "명시된 펜·주수/기간",
@@ -8281,7 +8281,7 @@
         }
       },
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "official_domain": "n-naika.net"
     },
     {
@@ -8636,7 +8636,7 @@
           "equivalent_12": 60000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 2.5mg(2本入) | 10,000円",
+          "quote": "マンジャロ 2.5mg(2本入) | 価格 | 10,000円",
           "tax": "세금 포함",
           "source_url": "https://fukurou-ent.com/service/freemedical/%E8%87%AA%E7%94%B1%E8%A8%BA%E7%99%82/",
           "source_type": "명시된 펜·주수/기간",
@@ -8649,7 +8649,7 @@
           "equivalent_12": 120000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 5.0mg(2本入) | 20,000円",
+          "quote": "マンジャロ 5.0mg(2本入) | 価格 | 20,000円",
           "tax": "세금 포함",
           "source_url": "https://fukurou-ent.com/service/freemedical/%E8%87%AA%E7%94%B1%E8%A8%BA%E7%99%82/",
           "source_type": "명시된 펜·주수/기간",
@@ -8662,7 +8662,7 @@
           "equivalent_12": 180000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 7.5mg(2本入) | 30,000円",
+          "quote": "マンジャロ 7.5mg(2本入) | 価格 | 30,000円",
           "tax": "세금 포함",
           "source_url": "https://fukurou-ent.com/service/freemedical/%E8%87%AA%E7%94%B1%E8%A8%BA%E7%99%82/",
           "source_type": "명시된 펜·주수/기간",
@@ -8670,7 +8670,7 @@
         }
       },
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "official_domain": "fukurou-ent.com"
     },
     {
@@ -8874,7 +8874,7 @@
         }
       },
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "official_domain": "tokyo-asakusa-hifuka.clinic"
     },
     {
@@ -9050,7 +9050,7 @@
       "official_attempts": 1,
       "official_domain": "yuki-skin.clinic",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -9060,7 +9060,7 @@
           "equivalent_12": 59400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ(自己注射) | 2.5mg/4本 | ¥19,800",
+          "quote": "2.5mg/4本 | ¥19,800",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://yuki-skin.clinic/menu/treatment/medical-diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -9179,7 +9179,7 @@
         }
       },
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "official_domain": "yokoiclinic.jp"
     },
     {
@@ -9405,7 +9405,7 @@
           "equivalent_12": 79200,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ | 2.5mg/2本 | 標準価格 13,200円",
+          "quote": "2.5mg/2本 | 標準価格 121,000円 | 標準価格 13,200円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://willbe-clinic.com/slimming/price/",
           "source_type": "명시된 펜·주수/기간",
@@ -9418,7 +9418,7 @@
           "equivalent_12": 66000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "5mg/2本 | 標準価格 22,000円",
+          "quote": "5mg/2本 | 1ヶ月 | 標準価格 22,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://willbe-clinic.com/slimming/price/",
           "source_type": "명시된 펜·주수/기간",
@@ -9431,7 +9431,7 @@
           "equivalent_12": 89100,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "7.5mg/2本 | 標準価格 29,700円",
+          "quote": "7.5mg/2本 | 1ヶ月 | 標準価格 29,700円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://willbe-clinic.com/slimming/price/",
           "source_type": "명시된 펜·주수/기간",
@@ -9439,7 +9439,7 @@
         }
       },
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "official_domain": "willbe-clinic.com"
     },
     {
@@ -9493,7 +9493,7 @@
           "equivalent_12": 54000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ2.5mg | 1か月分(4本セット) | 18,000円",
+          "quote": "マンジャロ2.5mg | 18,000円 | 1か月分(4本セット)",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://wellnest-clinic.jp/ownexpense/",
           "source_type": "명시된 펜·주수/기간",
@@ -9506,7 +9506,7 @@
           "equivalent_12": 84000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ5.0mg | 1か月分(4本セット) | 28,000円",
+          "quote": "マンジャロ5.0mg | 28,000円 | 1か月分(4本セット)",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://wellnest-clinic.jp/ownexpense/",
           "source_type": "명시된 펜·주수/기간",
@@ -9519,7 +9519,7 @@
           "equivalent_12": 126000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ7.5mg | 1か月分(4本セット) | 42,000円",
+          "quote": "マンジャロ7.5mg | 42,000円 | 1か月分(4本セット)",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://wellnest-clinic.jp/ownexpense/",
           "source_type": "명시된 펜·주수/기간",
@@ -9532,7 +9532,7 @@
           "equivalent_12": 168000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ10mg | 1か月分(4本セット) | 56,000円",
+          "quote": "マンジャロ10mg | 56,000円 | 1か月分(4本セット)",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://wellnest-clinic.jp/ownexpense/",
           "source_type": "명시된 펜·주수/기간",
@@ -9545,7 +9545,7 @@
           "equivalent_12": 210000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ12.5mg | 1か月分(4本セット) | 70,000円",
+          "quote": "マンジャロ12.5mg | 70,000円 | 1か月分(4本セット)",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://wellnest-clinic.jp/ownexpense/",
           "source_type": "명시된 펜·주수/기간",
@@ -9558,7 +9558,7 @@
           "equivalent_12": 252000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ15mg | 1か月分(4本セット) | 84,000円",
+          "quote": "マンジャロ15mg | 84,000円 | 1か月分(4本セット)",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://wellnest-clinic.jp/ownexpense/",
           "source_type": "명시된 펜·주수/기간",
@@ -9566,7 +9566,7 @@
         }
       },
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "official_domain": "wellnest-clinic.jp"
     },
     {
@@ -9684,7 +9684,7 @@
         }
       },
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "official_domain": "clear-c.jp"
     },
     {
@@ -9959,7 +9959,7 @@
       "official_attempts": 1,
       "official_domain": "personalcareclinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -9969,7 +9969,7 @@
           "equivalent_12": 47700,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ2.5mg 4本 |  | ¥15,900",
+          "quote": "マンジャロ2.5mg 4本 | ¥15,900",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://personalcareclinic.jp/diet/#mounjaro",
           "source_type": "명시된 펜·주수/기간",
@@ -9982,7 +9982,7 @@
           "equivalent_12": 83490,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ5mg 4本 |  | ¥27,830",
+          "quote": "マンジャロ5mg 4本 | ¥27,830",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://personalcareclinic.jp/diet/#mounjaro",
           "source_type": "명시된 펜·주수/기간",
@@ -9995,7 +9995,7 @@
           "equivalent_12": 118500,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ7.5mg 4本 |  | ¥39,500",
+          "quote": "マンジャロ7.5mg 4本 | ¥39,500",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://personalcareclinic.jp/diet/#mounjaro",
           "source_type": "명시된 펜·주수/기간",
@@ -10008,7 +10008,7 @@
           "equivalent_12": 155190,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ10mg 12本 |  | ¥155,190",
+          "quote": "マンジャロ10mg 12本 | ¥155,190",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://personalcareclinic.jp/diet/#mounjaro",
           "source_type": "명시된 펜·주수/기간",
@@ -10069,7 +10069,7 @@
           "equivalent_12": 41100,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "GIP/GLP-1受容体作動薬2.5mg(マンジャロ・注射薬) | 1ヶ月毎お届け(4本) | 13,700円",
+          "quote": "GIP/GLP-1受容体作動薬2.5mg(マンジャロ・注射薬) | 税込価格 | 13,700円 | 1ヶ月毎お届け(4本)",
           "tax": "세금 포함",
           "source_url": "https://befine-clinic.jp/medical_diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -10082,7 +10082,7 @@
           "equivalent_12": 71400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "GIP/GLP-1受容体作動薬5mg(マンジャロ・注射薬) | 1ヶ月毎お届け(4本) | 23,800円",
+          "quote": "GIP/GLP-1受容体作動薬5mg(マンジャロ・注射薬) | 税込価格 | 23,800円 | 1ヶ月毎お届け(4本)",
           "tax": "세금 포함",
           "source_url": "https://befine-clinic.jp/medical_diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -10095,14 +10095,14 @@
           "equivalent_12": 132000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "GIP/GLP-1受容体作動薬7.5mg(マンジャロ・注射薬) | 1ヶ月毎お届け(4本) | 44,000円",
+          "quote": "GIP/GLP-1受容体作動薬7.5mg(マンジャロ・注射薬) | 税込価格 | 44,000円 | 1ヶ月毎お届け(4本)",
           "tax": "세금 포함",
           "source_url": "https://befine-clinic.jp/medical_diet/",
           "source_type": "명시된 펜·주수/기간",
           "method": "4펜 기준 12펜 환산"
         }
       },
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00"
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00"
     },
     {
       "id": "national-0e6f83daeedec4",
@@ -10157,9 +10157,9 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": 17850,
-        "5": 19600,
-        "7.5": 28000,
+        "2.5": 33600,
+        "5": 58800,
+        "7.5": 84000,
         "10": null,
         "12.5": null,
         "15": null
@@ -10191,7 +10191,7 @@
       "official_attempts": 1,
       "official_domain": "femuse-clinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_unit_reviewed_at": "2026-11-23T18:48:31+09:00",
       "price_unit_reviewed_source_url": "https://femuse-clinic.jp/price/",
       "price_unit_reviewed_kind": "3개월 구독 월액 × 3",
@@ -10205,42 +10205,42 @@
       "price_evidence": {
         "2.5": {
           "dose": "2.5",
-          "raw_yen": 11900,
-          "pens": 8,
-          "equivalent_12": 17850,
-          "unit_label": "명시된 펜·주수/기간",
+          "raw_yen": 11200,
+          "pens": 12,
+          "equivalent_12": 33600,
+          "unit_label": "3개월 계약 월액",
           "source_kind": "official_table",
-          "quote": "2.5mg | 12,600円 /月 | 11,900円 /月 | 11,200円 /月 | 10,500円 /月",
+          "quote": "2.5mg | 3ヶ月分 | 11,200円 /月",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://femuse-clinic.jp/price/",
-          "source_type": "명시된 펜·주수/기간",
-          "method": "8펜 기준 12펜 환산"
+          "source_type": "3개월 계약 월액",
+          "method": "3개월 계약 월액 × 3"
         },
         "5": {
           "dose": "5",
           "raw_yen": 19600,
           "pens": 12,
-          "equivalent_12": 19600,
-          "unit_label": "명시된 펜·주수/기간",
+          "equivalent_12": 58800,
+          "unit_label": "3개월 계약 월액",
           "source_kind": "official_table",
-          "quote": "5.0mg | 21,000円 /月 | 20,300円 /月 | 19,600円 /月 | 18,900円 /月",
+          "quote": "5.0mg | 3ヶ月分 | 19,600円 /月",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://femuse-clinic.jp/price/",
-          "source_type": "명시된 펜·주수/기간",
-          "method": "12펜 직접금액"
+          "source_type": "3개월 계약 월액",
+          "method": "3개월 계약 월액 × 3"
         },
         "7.5": {
           "dose": "7.5",
           "raw_yen": 28000,
           "pens": 12,
-          "equivalent_12": 28000,
-          "unit_label": "명시된 펜·주수/기간",
+          "equivalent_12": 84000,
+          "unit_label": "3개월 계약 월액",
           "source_kind": "official_table",
-          "quote": "7.5mg | 29,400円 /月 | 28,700円 /月 | 28,000円 /月 | 27,300円 /月",
+          "quote": "7.5mg | 3ヶ月分 | 28,000円 /月",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://femuse-clinic.jp/price/",
-          "source_type": "명시된 펜·주수/기간",
-          "method": "12펜 직접금액"
+          "source_type": "3개월 계약 월액",
+          "method": "3개월 계약 월액 × 3"
         }
       }
     },
@@ -10859,7 +10859,7 @@
       "official_attempts": 1,
       "official_domain": "takinogawaclinic.life",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -10956,7 +10956,7 @@
           "equivalent_12": 59400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ2.5mg | 1か月分(4本) | 19,800円",
+          "quote": "マンジャロ2.5mg | 19,800円 | 1か月分(4本)",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://march-clinic.com/price-list/",
           "source_type": "명시된 펜·주수/기간",
@@ -10969,7 +10969,7 @@
           "equivalent_12": 83400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ5mg | 1か月分(4本) | 27,800円",
+          "quote": "マンジャロ5mg | 27,800円 | 1か月分(4本)",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://march-clinic.com/price-list/",
           "source_type": "명시된 펜·주수/기간",
@@ -10982,7 +10982,7 @@
           "equivalent_12": 135000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ7.5mg | 1か月分(4本) | 45,000円",
+          "quote": "マンジャロ7.5mg | 45,000円 | 1か月分(4本)",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://march-clinic.com/price-list/",
           "source_type": "명시된 펜·주수/기간",
@@ -10995,14 +10995,14 @@
           "equivalent_12": 149400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ10mg | 1か月分(4本) | 49,800円",
+          "quote": "マンジャロ10mg | 49,800円 | 1か月分(4本)",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://march-clinic.com/price-list/",
           "source_type": "명시된 펜·주수/기간",
           "method": "4펜 기준 12펜 환산"
         }
       },
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00"
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00"
     },
     {
       "id": "national-bdc2a47d397df3",
@@ -11055,7 +11055,7 @@
           "equivalent_12": 72000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "1ヶ月(2箱/4本) | 2.5mg | 24,000円",
+          "quote": "2.5mg | 料金 | 24,000円 | 1ヶ月(2箱/4本)",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://yubt.net/biyo-4",
           "source_type": "명시된 펜·주수/기간",
@@ -11068,7 +11068,7 @@
           "equivalent_12": 125400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "1ヶ月(2箱/4本) | 5.0mg | 41,800円",
+          "quote": "5.0mg | 料金 | 41,800円 | 1ヶ月(2箱/4本)",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://yubt.net/biyo-4",
           "source_type": "명시된 펜·주수/기간",
@@ -11076,7 +11076,7 @@
         }
       },
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "official_domain": "yubt.net"
     },
     {
@@ -11123,7 +11123,7 @@
       "official_attempts": 1,
       "official_domain": "shimokita-do.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -11350,7 +11350,7 @@
           "equivalent_12": 57600,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "GIP/GLP-1 自己注射 プラン (マンジャロ) | 2.5mg | 4キット | 19,200円 (税込)",
+          "quote": "2.5mg | 19,200円 (税込) | 4キット",
           "tax": "세금 포함",
           "source_url": "https://www.eastcl.com/medical-diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -11363,7 +11363,7 @@
           "equivalent_12": 113400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "5mg | 4キット | 37,800円 (税込)",
+          "quote": "5mg | 37,800円 (税込) | 4キット",
           "tax": "세금 포함",
           "source_url": "https://www.eastcl.com/medical-diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -11376,7 +11376,7 @@
           "equivalent_12": 204600,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "7.5mg | 4キット | 68,200円 (税込)",
+          "quote": "7.5mg | 68,200円 (税込) | 4キット",
           "tax": "세금 포함",
           "source_url": "https://www.eastcl.com/medical-diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -11389,14 +11389,14 @@
           "equivalent_12": 292800,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "10mg | 4キット | 97,600円 (税込)",
+          "quote": "10mg | 97,600円 (税込) | 4キット",
           "tax": "세금 포함",
           "source_url": "https://www.eastcl.com/medical-diet/",
           "source_type": "명시된 펜·주수/기간",
           "method": "4펜 기준 12펜 환산"
         }
       },
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00"
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00"
     },
     {
       "id": "national-2d53276aa390c9",
@@ -12005,7 +12005,7 @@
       "official_attempts": 1,
       "official_domain": "kiyama-naishikyou.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "source_pack_pens": 4,
       "source_pack_prices": {
         "2.5": 19800,
@@ -12022,7 +12022,7 @@
           "equivalent_12": 59400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "2.5mg | 4本 | 19,800円(税込)",
+          "quote": "2.5mg | 価格(税込) | 19,800円(税込) | 4本",
           "tax": "세금 포함",
           "source_url": "https://www.kiyama-naishikyou.jp/diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -12035,7 +12035,7 @@
           "equivalent_12": 120000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "5mg | 4本 | 40,000円 (税込)",
+          "quote": "5mg | 価格(税込) | 40,000円 (税込) | 4本",
           "tax": "세금 포함",
           "source_url": "https://www.kiyama-naishikyou.jp/diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -12048,7 +12048,7 @@
           "equivalent_12": 165000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "7.5mg | 4本 | 55,000円 (税込)",
+          "quote": "7.5mg | 価格(税込) | 55,000円 (税込) | 4本",
           "tax": "세금 포함",
           "source_url": "https://www.kiyama-naishikyou.jp/diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -12061,7 +12061,7 @@
           "equivalent_12": 198000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "10mg | 4本 | 66,000円 (税込)",
+          "quote": "10mg | 価格(税込) | 66,000円 (税込) | 4本",
           "tax": "세금 포함",
           "source_url": "https://www.kiyama-naishikyou.jp/diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -12543,7 +12543,7 @@
       "official_attempts": 1,
       "official_domain": "morigeka.net",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -12553,7 +12553,7 @@
           "equivalent_12": 75000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "2.5mg | 約20,000〜25,000円",
+          "quote": "2.5mg | 料金目安 | 約20,000〜25,000円",
           "tax": "세금 포함",
           "source_url": "https://www.morigeka.net/glp-1/",
           "source_type": "명시된 펜·주수/기간",
@@ -12566,7 +12566,7 @@
           "equivalent_12": 105000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "5mg | 約30,000〜35,000円",
+          "quote": "5mg | 料金目安 | 約30,000〜35,000円",
           "tax": "세금 포함",
           "source_url": "https://www.morigeka.net/glp-1/",
           "source_type": "명시된 펜·주수/기간",
@@ -12842,7 +12842,7 @@
           "equivalent_12": 66000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "2.5mg×4本 1か月分 | 22,000円(税込)",
+          "quote": "2.5mg×4本 1か月分 | 費用 | 22,000円(税込)",
           "tax": "세금 포함",
           "source_url": "https://gutliverclinic.com/private-practice/",
           "source_type": "명시된 펜·주수/기간",
@@ -12855,7 +12855,7 @@
           "equivalent_12": 99000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "5mg×4本  1ヶ月分 | 33,000円(税込)",
+          "quote": "5mg×4本  1ヶ月分 | 費用 | 33,000円(税込)",
           "tax": "세금 포함",
           "source_url": "https://gutliverclinic.com/private-practice/",
           "source_type": "명시된 펜·주수/기간",
@@ -12868,14 +12868,14 @@
           "equivalent_12": 132000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "7.5mg×4本 1ヶ月分 | 44,000円(税込)",
+          "quote": "7.5mg×4本 1ヶ月分 | 費用 | 44,000円(税込)",
           "tax": "세금 포함",
           "source_url": "https://gutliverclinic.com/private-practice/",
           "source_type": "명시된 펜·주수/기간",
           "method": "4펜 기준 12펜 환산"
         }
       },
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00"
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00"
     },
     {
       "id": "national-2dbf045de4beef",
@@ -13451,7 +13451,7 @@
       "official_attempts": 1,
       "official_domain": "atsuta-skin-clinic.net",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -13461,7 +13461,7 @@
           "equivalent_12": 50400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "2.5mg | 4,200円",
+          "quote": "2.5mg | 金額 | 4,200円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://atsuta-skin-clinic.net/fee/",
           "source_type": "명시된 펜·주수/기간",
@@ -13474,7 +13474,7 @@
           "equivalent_12": 92400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "5mg | 7,700円",
+          "quote": "5mg | 金額 | 7,700円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://atsuta-skin-clinic.net/fee/",
           "source_type": "명시된 펜·주수/기간",
@@ -13487,7 +13487,7 @@
           "equivalent_12": 132000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "7.5mg | 11,000円",
+          "quote": "7.5mg | 金額 | 11,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://atsuta-skin-clinic.net/fee/",
           "source_type": "명시된 펜·주수/기간",
@@ -13500,7 +13500,7 @@
           "equivalent_12": 205200,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "10mg | 17,100円",
+          "quote": "10mg | 金額 | 17,100円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://atsuta-skin-clinic.net/fee/",
           "source_type": "명시된 펜·주수/기간",
@@ -14263,7 +14263,7 @@
           "equivalent_12": 58500,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 2.5mg(4本・1ヶ月分) | ¥19,500 | 開始用量。まずはここから",
+          "quote": "マンジャロ 2.5mg(4本・1ヶ月分) | 費用(税込) | ¥19,500",
           "tax": "세금 포함",
           "source_url": "https://konandai-kusunoki-clinic.com/diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -14276,7 +14276,7 @@
           "equivalent_12": 78000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 5.0mg(4本・1ヶ月分) | ¥26,000 | 効果・経過をみて増量",
+          "quote": "マンジャロ 5.0mg(4本・1ヶ月分) | 費用(税込) | ¥26,000",
           "tax": "세금 포함",
           "source_url": "https://konandai-kusunoki-clinic.com/diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -14289,14 +14289,14 @@
           "equivalent_12": 98400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 7.5mg(4本・1ヶ月分) | ¥32,800 | 医師と相談のうえ増量",
+          "quote": "マンジャロ 7.5mg(4本・1ヶ月分) | 費用(税込) | ¥32,800",
           "tax": "세금 포함",
           "source_url": "https://konandai-kusunoki-clinic.com/diet/",
           "source_type": "명시된 펜·주수/기간",
           "method": "4펜 기준 12펜 환산"
         }
       },
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00"
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00"
     },
     {
       "id": "national-d13bec99161ca9",
@@ -14690,7 +14690,7 @@
       "official_attempts": 1,
       "official_domain": "shonaika-clinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -14700,7 +14700,7 @@
           "equivalent_12": 42000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ2.5mg 4本(1ヶ月分) | ¥14,000",
+          "quote": "マンジャロ2.5mg 4本(1ヶ月分) | 料金 | ¥14,000",
           "tax": "세금 포함",
           "source_url": "https://shonaika-clinic.jp/price/",
           "source_type": "명시된 펜·주수/기간",
@@ -14713,7 +14713,7 @@
           "equivalent_12": 84000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ5mg 4本(1ヶ月分) | ¥28,000",
+          "quote": "マンジャロ5mg 4本(1ヶ月分) | 料金 | ¥28,000",
           "tax": "세금 포함",
           "source_url": "https://shonaika-clinic.jp/price/",
           "source_type": "명시된 펜·주수/기간",
@@ -14726,7 +14726,7 @@
           "equivalent_12": 105000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ7.5mg 4本(1ヶ月分) | ¥35,000",
+          "quote": "マンジャロ7.5mg 4本(1ヶ月分) | 料金 | ¥35,000",
           "tax": "세금 포함",
           "source_url": "https://shonaika-clinic.jp/price/",
           "source_type": "명시된 펜·주수/기간",
@@ -14739,7 +14739,7 @@
           "equivalent_12": 135000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ10mg 4本(1ヶ月分) | ¥45,000",
+          "quote": "マンジャロ10mg 4本(1ヶ月分) | 料金 | ¥45,000",
           "tax": "세금 포함",
           "source_url": "https://shonaika-clinic.jp/price/",
           "source_type": "명시된 펜·주수/기간",
@@ -14752,7 +14752,7 @@
           "equivalent_12": 165000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ12.5mg 4本(1ヶ月分) | ¥55,000",
+          "quote": "マンジャロ12.5mg 4本(1ヶ月分) | 料金 | ¥55,000",
           "tax": "세금 포함",
           "source_url": "https://shonaika-clinic.jp/price/",
           "source_type": "명시된 펜·주수/기간",
@@ -14765,7 +14765,7 @@
           "equivalent_12": 195000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ15mg 4本(1ヶ月分) | ¥65,000",
+          "quote": "マンジャロ15mg 4本(1ヶ月分) | 料金 | ¥65,000",
           "tax": "세금 포함",
           "source_url": "https://shonaika-clinic.jp/price/",
           "source_type": "명시된 펜·주수/기간",
@@ -15514,7 +15514,7 @@
       "official_attempts": 1,
       "official_domain": "nagao-clinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -15524,7 +15524,7 @@
           "equivalent_12": 57000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ2.5mg 2箱(4本) | 19,000円",
+          "quote": "マンジャロ2.5mg 2箱(4本) | 3,000円 | 19,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://nagao-clinic.jp/online_diet_clinic.html",
           "source_type": "명시된 펜·주수/기간",
@@ -15537,7 +15537,7 @@
           "equivalent_12": 105000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ5mg  2箱(4本) | 35,000円",
+          "quote": "マンジャロ5mg  2箱(4本) | 3,000円 | 35,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://nagao-clinic.jp/online_diet_clinic.html",
           "source_type": "명시된 펜·주수/기간",
@@ -15550,7 +15550,7 @@
           "equivalent_12": 156000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ7.5mg 2箱(4本) | 52,000円",
+          "quote": "マンジャロ7.5mg 2箱(4本) | 3,000円 | 52,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://nagao-clinic.jp/online_diet_clinic.html",
           "source_type": "명시된 펜·주수/기간",
@@ -15563,7 +15563,7 @@
           "equivalent_12": 204000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ10mg 2箱(4本) | 68,000円",
+          "quote": "マンジャロ10mg 2箱(4本) | 3,000円 | 68,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://nagao-clinic.jp/online_diet_clinic.html",
           "source_type": "명시된 펜·주수/기간",
@@ -15658,7 +15658,7 @@
       "official_attempts": 1,
       "official_domain": "natori-kumanodo-clinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -15776,7 +15776,7 @@
       "official_attempts": 1,
       "official_domain": "nishimuranaika-cl.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -16122,7 +16122,7 @@
       "official_attempts": 1,
       "official_domain": "furusato-naika.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -16132,7 +16132,7 @@
           "equivalent_12": 48000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 2.5mg | 1本 3,750円 | 16,000円(税込)",
+          "quote": "マンジャロ 2.5mg | 1月あたりの費用(マンジャロ4本と診察料1000円込) | 16,000円(税込) | 1本 3,750円",
           "tax": "세금 포함",
           "source_url": "https://furusato-naika.com/menu/diet.html",
           "source_type": "명시된 펜·주수/기간",
@@ -16145,7 +16145,7 @@
           "equivalent_12": 72000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 5mg | 1本 5,750円 | 24,000円(税込)",
+          "quote": "マンジャロ 5mg | 1月あたりの費用(マンジャロ4本と診察料1000円込) | 24,000円(税込) | 1本 5,750円",
           "tax": "세금 포함",
           "source_url": "https://furusato-naika.com/menu/diet.html",
           "source_type": "명시된 펜·주수/기간",
@@ -16158,7 +16158,7 @@
           "equivalent_12": 96000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 7.5mg | 1本 7,750円 | 32,000円(税込)",
+          "quote": "マンジャロ 7.5mg | 1月あたりの費用(マンジャロ4本と診察料1000円込) | 32,000円(税込) | 1本 7,750円",
           "tax": "세금 포함",
           "source_url": "https://furusato-naika.com/menu/diet.html",
           "source_type": "명시된 펜·주수/기간",
@@ -16171,7 +16171,7 @@
           "equivalent_12": 120000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 10mg | 1本 9,750円 | 40,000円(税込)",
+          "quote": "マンジャロ 10mg | 1月あたりの費用(マンジャロ4本と診察料1000円込) | 40,000円(税込) | 1本 9,750円",
           "tax": "세금 포함",
           "source_url": "https://furusato-naika.com/menu/diet.html",
           "source_type": "명시된 펜·주수/기간",
@@ -16825,7 +16825,7 @@
       "official_attempts": 1,
       "official_domain": "whc-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -16835,7 +16835,7 @@
           "equivalent_12": 59400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 2.5mg | 19,800円/4週間分(税込)",
+          "quote": "マンジャロ 2.5mg | 9,900円/30日分(税込) | 19,800円/4週間分(税込)",
           "tax": "세금 포함",
           "source_url": "https://whc-clinic.com/medical/medical07.html",
           "source_type": "명시된 펜·주수/기간",
@@ -16848,7 +16848,7 @@
           "equivalent_12": 91500,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 5mg | 30,500円/4週間分(税込)",
+          "quote": "マンジャロ 5mg | 9,900円/30日分(税込) | 30,500円/4週間分(税込)",
           "tax": "세금 포함",
           "source_url": "https://whc-clinic.com/medical/medical07.html",
           "source_type": "명시된 펜·주수/기간",
@@ -16861,7 +16861,7 @@
           "equivalent_12": 138000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 7.5mg | 46,000円/4週間分(税込)",
+          "quote": "マンジャロ 7.5mg | 9,900円/30日分(税込) | 46,000円/4週間分(税込)",
           "tax": "세금 포함",
           "source_url": "https://whc-clinic.com/medical/medical07.html",
           "source_type": "명시된 펜·주수/기간",
@@ -17085,7 +17085,7 @@
       "official_attempts": 1,
       "official_domain": "chouchou-c.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -17095,7 +17095,7 @@
           "equivalent_12": 71400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 2.5mg(1カ月分4本) | ¥23,800",
+          "quote": "マンジャロ 2.5mg(1カ月分4本) | 料金 | ¥23,800",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://chouchou-c.jp/price/",
           "source_type": "명시된 펜·주수/기간",
@@ -17108,7 +17108,7 @@
           "equivalent_12": 131400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 5mg(1カ月分4本) | ¥43,800",
+          "quote": "マンジャロ 5mg(1カ月分4本) | 料金 | ¥43,800",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://chouchou-c.jp/price/",
           "source_type": "명시된 펜·주수/기간",
@@ -17121,7 +17121,7 @@
           "equivalent_12": 164400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 7.5mg(1カ月分4本) | ¥54,800",
+          "quote": "マンジャロ 7.5mg(1カ月分4本) | 料金 | ¥54,800",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://chouchou-c.jp/price/",
           "source_type": "명시된 펜·주수/기간",
@@ -17302,7 +17302,7 @@
       "official_attempts": 1,
       "official_domain": "st-rose.to",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -17312,7 +17312,7 @@
           "equivalent_12": 96000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 2.5mg 1本 | ¥8,000",
+          "quote": "マンジャロ 2.5mg 1本 | 通常価格 | ¥8,000",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://st-rose.to/charge/",
           "source_type": "명시된 펜·주수/기간",
@@ -17325,7 +17325,7 @@
           "equivalent_12": 156000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 5.0mg 1本 | ¥13,000",
+          "quote": "マンジャロ 5.0mg 1本 | 通常価格 | ¥13,000",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://st-rose.to/charge/",
           "source_type": "명시된 펜·주수/기간",
@@ -18280,7 +18280,7 @@
       "official_attempts": 1,
       "official_domain": "keisei.ne.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -18914,7 +18914,7 @@
       "official_attempts": 1,
       "official_domain": "metro-c.or.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -19462,7 +19462,7 @@
       "official_attempts": 1,
       "official_domain": "komuro-biyou.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -19472,7 +19472,7 @@
           "equivalent_12": 59400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "2.5mg(4本) | 19,800円",
+          "quote": "2.5mg(4本) | 1カップ | 19,800円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://www.komuro-biyou.com/prices/",
           "source_type": "명시된 펜·주수/기간",
@@ -19485,7 +19485,7 @@
           "equivalent_12": 105000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "5.0mg(4本) | 35,000円",
+          "quote": "5.0mg(4本) | 1カップ | 35,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://www.komuro-biyou.com/prices/",
           "source_type": "명시된 펜·주수/기간",
@@ -19498,7 +19498,7 @@
           "equivalent_12": 148500,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "7.5mg(4本) | 49,500円",
+          "quote": "7.5mg(4本) | 1カップ | 49,500円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://www.komuro-biyou.com/prices/",
           "source_type": "명시된 펜·주수/기간",
@@ -19813,7 +19813,7 @@
       "official_attempts": 1,
       "official_domain": "nishiyamaladiesclinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -19823,7 +19823,7 @@
           "equivalent_12": 52800,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 2.5mg 1本 | 4,400円",
+          "quote": "マンジャロ 2.5mg 1本 | 3,300円 | 4,400円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://nishiyamaladiesclinic.com/price/",
           "source_type": "명시된 펜·주수/기간",
@@ -19836,7 +19836,7 @@
           "equivalent_12": 99000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 5mg 1本 | 8,250円",
+          "quote": "マンジャロ 5mg 1本 | 3,300円 | 8,250円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://nishiyamaladiesclinic.com/price/",
           "source_type": "명시된 펜·주수/기간",
@@ -19974,7 +19974,7 @@
       "official_attempts": 1,
       "official_domain": "ebisu-naika.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -20312,7 +20312,7 @@
       "official_attempts": 1,
       "official_domain": "shokaki-hinyouki.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -20413,7 +20413,7 @@
       "official_attempts": 1,
       "official_domain": "hinyouki-shokaki.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -20858,7 +20858,7 @@
       "official_attempts": 1,
       "official_domain": "inoueclinic-hp.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -20868,7 +20868,7 @@
           "equivalent_12": 66000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ2.5mg (2週間分) | 11,000円",
+          "quote": "マンジャロ2.5mg (2週間分) | 費用(税込) | 11,000円",
           "tax": "세금 포함",
           "source_url": "https://www.inoueclinic-hp.jp/glp1/",
           "source_type": "명시된 펜·주수/기간",
@@ -20881,7 +20881,7 @@
           "equivalent_12": 132000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ5.0mg (2週間分) | 22,000円",
+          "quote": "マンジャロ5.0mg (2週間分) | 費用(税込) | 22,000円",
           "tax": "세금 포함",
           "source_url": "https://www.inoueclinic-hp.jp/glp1/",
           "source_type": "명시된 펜·주수/기간",
@@ -20894,7 +20894,7 @@
           "equivalent_12": 198000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ7.5mg (2週間分) | 33,000円",
+          "quote": "マンジャロ7.5mg (2週間分) | 費用(税込) | 33,000円",
           "tax": "세금 포함",
           "source_url": "https://www.inoueclinic-hp.jp/glp1/",
           "source_type": "명시된 펜·주수/기간",
@@ -21634,7 +21634,7 @@
       "official_attempts": 1,
       "official_domain": "iwata-clinic.net",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -21735,7 +21735,7 @@
       "official_attempts": 1,
       "official_domain": "hayama-naika.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -21810,7 +21810,7 @@
       "official_attempts": 1,
       "official_domain": "moricli.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -22057,7 +22057,7 @@
       "official_attempts": 1,
       "official_domain": "morimoto-clinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -22067,7 +22067,7 @@
           "equivalent_12": 30000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 2.5mg(1本) | 2,500円(税込)",
+          "quote": "マンジャロ 2.5mg(1本) | 料金 | 2,500円(税込)",
           "tax": "세금 포함",
           "source_url": "https://www.morimoto-clinic.jp/private.html#obesity",
           "source_type": "명시된 펜·주수/기간",
@@ -22080,7 +22080,7 @@
           "equivalent_12": 54000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 5mg(1本) | 4,500円(税込)",
+          "quote": "マンジャロ 5mg(1本) | 料金 | 4,500円(税込)",
           "tax": "세금 포함",
           "source_url": "https://www.morimoto-clinic.jp/private.html#obesity",
           "source_type": "명시된 펜·주수/기간",
@@ -22093,7 +22093,7 @@
           "equivalent_12": 81000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 7.5mg(1本) | 6,750円(税込)",
+          "quote": "マンジャロ 7.5mg(1本) | 料金 | 6,750円(税込)",
           "tax": "세금 포함",
           "source_url": "https://www.morimoto-clinic.jp/private.html#obesity",
           "source_type": "명시된 펜·주수/기간",
@@ -22317,7 +22317,7 @@
       "official_attempts": 1,
       "official_domain": "wclinic-osaka.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -22392,7 +22392,7 @@
       "official_attempts": 1,
       "official_domain": "amagi-daiichi-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -22402,7 +22402,7 @@
           "equivalent_12": 62040,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ (注射) | 2.5mg | 2週間分(2本) 10,340円(税込)",
+          "quote": "2.5mg | 2週間分(2本) 10,340円(税込)",
           "tax": "세금 포함",
           "source_url": "https://amagi-daiichi-clinic.com/diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -22562,7 +22562,7 @@
       "official_attempts": 1,
       "official_domain": "shiozaki-naika.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -22572,7 +22572,7 @@
           "equivalent_12": 52800,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "2.5mg(初期) | 17,600円",
+          "quote": "2.5mg(初期) | 4本(4週分) | 17,600円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://www.shiozaki-naika.jp/glp1diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -22585,7 +22585,7 @@
           "equivalent_12": 81000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "5.0mg | 27,000円",
+          "quote": "5.0mg | 4本(4週分) | 27,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://www.shiozaki-naika.jp/glp1diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -22598,7 +22598,7 @@
           "equivalent_12": 120000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "7.5mg | 40,000円",
+          "quote": "7.5mg | 4本(4週分) | 40,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://www.shiozaki-naika.jp/glp1diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -22611,7 +22611,7 @@
           "equivalent_12": 150000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "10.0mg | 50,000円",
+          "quote": "10.0mg | 4本(4週分) | 50,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://www.shiozaki-naika.jp/glp1diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -23786,7 +23786,7 @@
       "official_attempts": 1,
       "official_domain": "senzoku-seikei.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "5": {
@@ -23986,7 +23986,7 @@
       "official_attempts": 1,
       "official_domain": "akihabara-sincere.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -24285,7 +24285,7 @@
       "official_attempts": 1,
       "official_domain": "midorino.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -24459,7 +24459,7 @@
       "official_attempts": 1,
       "official_domain": "aiseikai-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -24676,7 +24676,7 @@
       "official_attempts": 1,
       "official_domain": "e-clinic.gr.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -24686,7 +24686,7 @@
           "equivalent_12": 53400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ | 2.5mg | 4本 | 17,800円(税込)",
+          "quote": "2.5mg | 料金(月額) | 17,800円(税込) | 4本",
           "tax": "세금 포함",
           "source_url": "https://e-clinic.gr.jp/medical_diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -24699,7 +24699,7 @@
           "equivalent_12": 99000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "5mg | 4本 | 33,000円(税込)",
+          "quote": "5mg | 1ヶ月分の本数/日数 | 33,000円(税込) | 4本",
           "tax": "세금 포함",
           "source_url": "https://e-clinic.gr.jp/medical_diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -24712,7 +24712,7 @@
           "equivalent_12": 132000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "7.5mg | 4本 | 44,000円(税込)",
+          "quote": "7.5mg | 1ヶ月分の本数/日数 | 44,000円(税込) | 4本",
           "tax": "세금 포함",
           "source_url": "https://e-clinic.gr.jp/medical_diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -24725,7 +24725,7 @@
           "equivalent_12": 165000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "10mg | 4本 | 55,000円(税込)",
+          "quote": "10mg | 1ヶ月分の本数/日数 | 55,000円(税込) | 4本",
           "tax": "세금 포함",
           "source_url": "https://e-clinic.gr.jp/medical_diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -24738,7 +24738,7 @@
           "equivalent_12": 198000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "12.5mg | 4本 | 66,000円(税込)",
+          "quote": "12.5mg | 1ヶ月分の本数/日数 | 66,000円(税込) | 4本",
           "tax": "세금 포함",
           "source_url": "https://e-clinic.gr.jp/medical_diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -24751,7 +24751,7 @@
           "equivalent_12": 231000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "15mg | 4本 | 77,000円(税込)",
+          "quote": "15mg | 1ヶ月分の本数/日数 | 77,000円(税込) | 4本",
           "tax": "세금 포함",
           "source_url": "https://e-clinic.gr.jp/medical_diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -25147,7 +25147,7 @@
       "official_attempts": 1,
       "official_domain": "shoyuukai.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -25523,7 +25523,7 @@
       "official_attempts": 1,
       "official_domain": "akala-clinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -25533,7 +25533,7 @@
           "equivalent_12": 47400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "2.5mg(4本セット/1ヶ月分) | 15,800円(税込)",
+          "quote": "2.5mg(4本セット/1ヶ月分) | 3,300円(税込)※再診料はかかりません | 15,800円(税込)",
           "tax": "세금 포함",
           "source_url": "https://akala-clinic.jp/mounjaro/",
           "source_type": "명시된 펜·주수/기간",
@@ -25546,7 +25546,7 @@
           "equivalent_12": 94800,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "5mg(4本セット/1ヶ月分) | 31,600円(税込)",
+          "quote": "5mg(4本セット/1ヶ月分) | 3,300円(税込)※再診料はかかりません | 31,600円(税込)",
           "tax": "세금 포함",
           "source_url": "https://akala-clinic.jp/mounjaro/",
           "source_type": "명시된 펜·주수/기간",
@@ -25684,7 +25684,7 @@
       "official_attempts": 1,
       "official_domain": "kamikuri.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -26379,7 +26379,7 @@
           "equivalent_12": 116400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "7.5mg | 38,800円 | 30,600円 | 21,400円 | 11,200円",
+          "quote": "7.5mg | 4本(4週間) | 38,800円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://yamauchiclinic.com/mounjaro/",
           "source_type": "명시된 펜·주수/기간",
@@ -26392,7 +26392,7 @@
           "equivalent_12": 146400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "10mg | 48,800円 | 38,500円 | 26,900円 | 14,100円",
+          "quote": "10mg | 4本(4週間) | 48,800円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://yamauchiclinic.com/mounjaro/",
           "source_type": "명시된 펜·주수/기간",
@@ -26405,7 +26405,7 @@
           "equivalent_12": 176400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "12.5mg | 58,800円 | 46,400円 | 32,400円 | 17,000円",
+          "quote": "12.5mg | 4本(4週間) | 58,800円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://yamauchiclinic.com/mounjaro/",
           "source_type": "명시된 펜·주수/기간",
@@ -26418,14 +26418,14 @@
           "equivalent_12": 206400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "15mg | 68,800円 | 54,200円 | 37,900円 | 19,800円",
+          "quote": "15mg | 4本(4週間) | 68,800円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://yamauchiclinic.com/mounjaro/",
           "source_type": "명시된 펜·주수/기간",
           "method": "4펜 기준 12펜 환산"
         }
       },
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00"
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00"
     },
     {
       "id": "national-6da051e9d12299",
@@ -26815,7 +26815,7 @@
       "official_attempts": 1,
       "official_domain": "akabaneheart-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -26825,7 +26825,7 @@
           "equivalent_12": 59400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 2.5mg(院内在庫あり) | ¥19,800/月(4本)",
+          "quote": "マンジャロ 2.5mg(院内在庫あり) | 費用 | ¥19,800/月(4本)",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://www.akabaneheart-clinic.com/obesity/",
           "source_type": "명시된 펜·주수/기간",
@@ -26838,7 +26838,7 @@
           "equivalent_12": 118800,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 5mg(院内在庫あり) | ¥39,600/月(4本)",
+          "quote": "マンジャロ 5mg(院内在庫あり) | 費用 | ¥39,600/月(4本)",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://www.akabaneheart-clinic.com/obesity/",
           "source_type": "명시된 펜·주수/기간",
@@ -26851,7 +26851,7 @@
           "equivalent_12": 165000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 7.5mg | ¥55,000/月(4本)",
+          "quote": "マンジャロ 7.5mg | 費用 | ¥55,000/月(4本)",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://www.akabaneheart-clinic.com/obesity/",
           "source_type": "명시된 펜·주수/기간",
@@ -26864,7 +26864,7 @@
           "equivalent_12": 231000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 10mg | ¥77,000/月(4本)",
+          "quote": "マンジャロ 10mg | 費用 | ¥77,000/月(4本)",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://www.akabaneheart-clinic.com/obesity/",
           "source_type": "명시된 펜·주수/기간",
@@ -27303,7 +27303,7 @@
       "official_attempts": 1,
       "official_domain": "aoshin.net",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -27313,7 +27313,7 @@
           "equivalent_12": 66000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ (注射) | 2.5mg | ¥22,000(4本)",
+          "quote": "2.5mg | 料金 | ¥22,000(4本)",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://aoshin.net/diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -27326,7 +27326,7 @@
           "equivalent_12": 104400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "5mg | ¥34,800(4本)",
+          "quote": "5mg | 用量 | ¥34,800(4本)",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://aoshin.net/diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -27339,7 +27339,7 @@
           "equivalent_12": 149400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "7.5mg | ¥49,800(4本)",
+          "quote": "7.5mg | 用量 | ¥49,800(4本)",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://aoshin.net/diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -27352,7 +27352,7 @@
           "equivalent_12": 198000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "10mg | ¥66,000(4本)",
+          "quote": "10mg | 用量 | ¥66,000(4本)",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://aoshin.net/diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -27365,7 +27365,7 @@
           "equivalent_12": 246000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "12.5mg | ¥82,000(4本)",
+          "quote": "12.5mg | 用量 | ¥82,000(4本)",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://aoshin.net/diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -27378,7 +27378,7 @@
           "equivalent_12": 297000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "15mg | ¥99,000(4本)",
+          "quote": "15mg | 用量 | ¥99,000(4本)",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://aoshin.net/diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -27430,7 +27430,7 @@
       "official_attempts": 1,
       "official_domain": "koishikawaiin.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -27604,7 +27604,7 @@
       "official_attempts": 1,
       "official_domain": "veriteclinic.or.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -27950,7 +27950,7 @@
       "official_attempts": 1,
       "official_domain": "mizutani-hifuka-ks.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -27960,7 +27960,7 @@
           "equivalent_12": 71280,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "2.5mg(週1回) | ¥6,600 | ¥23,760",
+          "quote": "2.5mg(週1回) | 4本 | ¥23,760",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://mizutani-hifuka-ks.com/price/",
           "source_type": "명시된 펜·주수/기간",
@@ -27973,7 +27973,7 @@
           "equivalent_12": 118800,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "5.0mg(週1回) | ¥11,000 | ¥39,600",
+          "quote": "5.0mg(週1回) | 4本 | ¥39,600",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://mizutani-hifuka-ks.com/price/",
           "source_type": "명시된 펜·주수/기간",
@@ -28240,7 +28240,7 @@
       "official_attempts": 1,
       "official_domain": "kkclinic-ichihara.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -28315,7 +28315,7 @@
       "official_attempts": 1,
       "official_domain": "kkclinic-nishifuna.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -28476,7 +28476,7 @@
       "official_attempts": 1,
       "official_domain": "yanasegawa-fc.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -28486,7 +28486,7 @@
           "equivalent_12": 52800,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ2.5mg 2本(2週間分) | ¥8,800",
+          "quote": "マンジャロ2.5mg 2本(2週間分) | 通常価格 | ¥8,800",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://yanasegawa-fc.com/price/",
           "source_type": "명시된 펜·주수/기간",
@@ -28499,7 +28499,7 @@
           "equivalent_12": 85800,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ5mg 2本(2週間分) | ¥14,300",
+          "quote": "マンジャロ5mg 2本(2週間分) | 通常価格 | ¥14,300",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://yanasegawa-fc.com/price/",
           "source_type": "명시된 펜·주수/기간",
@@ -28512,7 +28512,7 @@
           "equivalent_12": 112200,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ7.5mg 2本(2週間分) | ¥18,700",
+          "quote": "マンジャロ7.5mg 2本(2週間分) | 通常価格 | ¥18,700",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://yanasegawa-fc.com/price/",
           "source_type": "명시된 펜·주수/기간",
@@ -28525,7 +28525,7 @@
           "equivalent_12": 138600,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ10mg 2本(2週間分) | ¥23,100",
+          "quote": "マンジャロ10mg 2本(2週間分) | 通常価格 | ¥23,100",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://yanasegawa-fc.com/price/",
           "source_type": "명시된 펜·주수/기간",
@@ -28538,7 +28538,7 @@
           "equivalent_12": 165000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ12.5mg 2本(2週間分) | ¥27,500",
+          "quote": "マンジャロ12.5mg 2本(2週間分) | 通常価格 | ¥27,500",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://yanasegawa-fc.com/price/",
           "source_type": "명시된 펜·주수/기간",
@@ -28551,7 +28551,7 @@
           "equivalent_12": 257400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ15mg 2本(2週間分) | ¥42,900",
+          "quote": "マンジャロ15mg 2本(2週間分) | 通常価格 | ¥42,900",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://yanasegawa-fc.com/price/",
           "source_type": "명시된 펜·주수/기간",
@@ -28861,7 +28861,7 @@
       "official_attempts": 1,
       "official_domain": "wendel-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -29078,7 +29078,7 @@
       "official_attempts": 1,
       "official_domain": "medicalkiss.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -29088,7 +29088,7 @@
           "equivalent_12": 79200,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "mounjaro(マンジャロ) | 2.5mg 1本 | ¥6,600",
+          "quote": "2.5mg 1本 | ¥6,600",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://www.medicalkiss.com/mounjaro.php",
           "source_type": "명시된 펜·주수/기간",
@@ -29282,7 +29282,7 @@
       "official_attempts": 1,
       "official_domain": "goroudaifc.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -29973,7 +29973,7 @@
       "official_attempts": 1,
       "official_domain": "tsuwabuki-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -29983,7 +29983,7 @@
           "equivalent_12": 36000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ2.5mg | 12,000円",
+          "quote": "マンジャロ2.5mg | 価格(診察費+薬剤費) | 12,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://www.tsuwabuki-clinic.com/obesity/",
           "source_type": "명시된 펜·주수/기간",
@@ -29996,7 +29996,7 @@
           "equivalent_12": 54000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ5mg | 18,000円",
+          "quote": "マンジャロ5mg | 価格(診察費+薬剤費) | 18,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://www.tsuwabuki-clinic.com/obesity/",
           "source_type": "명시된 펜·주수/기간",
@@ -30009,7 +30009,7 @@
           "equivalent_12": 72000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ7.5mg | 24,000円",
+          "quote": "マンジャロ7.5mg | 価格(診察費+薬剤費) | 24,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://www.tsuwabuki-clinic.com/obesity/",
           "source_type": "명시된 펜·주수/기간",
@@ -30022,7 +30022,7 @@
           "equivalent_12": 90000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ10mg | 30,000円",
+          "quote": "マンジャロ10mg | 価格(診察費+薬剤費) | 30,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://www.tsuwabuki-clinic.com/obesity/",
           "source_type": "명시된 펜·주수/기간",
@@ -30035,7 +30035,7 @@
           "equivalent_12": 105000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ12.5mg | 35,000円",
+          "quote": "マンジャロ12.5mg | 価格(診察費+薬剤費) | 35,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://www.tsuwabuki-clinic.com/obesity/",
           "source_type": "명시된 펜·주수/기간",
@@ -30048,7 +30048,7 @@
           "equivalent_12": 123000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ15mg | 41,000円",
+          "quote": "マンジャロ15mg | 価格(診察費+薬剤費) | 41,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://www.tsuwabuki-clinic.com/obesity/",
           "source_type": "명시된 펜·주수/기간",
@@ -30142,8 +30142,8 @@
       "official_checked_at": "2026-11-21T14:06:26+09:00",
       "official_attempts": 1,
       "official_domain": "shinagawasc.com",
-      "official_price_audit_status": "page_unavailable",
-      "official_price_audited_at": "2026-11-23T19:56:57+09:00",
+      "official_price_audit_status": "passed",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -30291,7 +30291,7 @@
       "official_attempts": 1,
       "official_domain": "obanaika.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -30301,7 +30301,7 @@
           "equivalent_12": 39420,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "2.5mg(導入用量) | 13,140円 | 19,710円 | 26,280円",
+          "quote": "2.5mg(導入用量) | 8本(約2ヶ月分) | 26,280円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://obanaika.com/shinryo/mounjaro_medical_diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -30314,7 +30314,7 @@
           "equivalent_12": 70770,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "5mg | 23,590円 | 35,390円 | 47,180円",
+          "quote": "5mg | 8本(約2ヶ月分) | 47,180円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://obanaika.com/shinryo/mounjaro_medical_diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -30327,7 +30327,7 @@
           "equivalent_12": 93390,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "7.5mg | 31,130円 | 46,710円 | 62,260円",
+          "quote": "7.5mg | 8本(約2ヶ月分) | 62,260円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://obanaika.com/shinryo/mounjaro_medical_diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -30340,7 +30340,7 @@
           "equivalent_12": 116010,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "10mg | 38,670円 | 58,120円 | 77,340円",
+          "quote": "10mg | 8本(約2ヶ月分) | 77,340円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://obanaika.com/shinryo/mounjaro_medical_diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -30353,7 +30353,7 @@
           "equivalent_12": 138630,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "12.5mg | 46,210円 | 69,320円 | 92,420円",
+          "quote": "12.5mg | 8本(約2ヶ月分) | 92,420円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://obanaika.com/shinryo/mounjaro_medical_diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -30366,7 +30366,7 @@
           "equivalent_12": 161280,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "15mg | 53,760円 | 80,640円 | 107,520円",
+          "quote": "15mg | 8本(約2ヶ月分) | 107,520円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://obanaika.com/shinryo/mounjaro_medical_diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -30762,7 +30762,7 @@
       "official_attempts": 1,
       "official_domain": "himejiekimae-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_unit_reviewed_at": "2026-11-23T18:48:31+09:00",
       "price_unit_reviewed_source_url": "https://himejiekimae-clinic.com/diet.html",
       "price_unit_reviewed_kind": "4회분(1개월) 가격 × 3",
@@ -30781,7 +30781,7 @@
           "equivalent_12": 66000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 2.5mg | 22,000円",
+          "quote": "マンジャロ 2.5mg | 4回分(1か月)の 価格 | 22,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://himejiekimae-clinic.com/diet.html",
           "source_type": "명시된 펜·주수/기간",
@@ -30794,7 +30794,7 @@
           "equivalent_12": 132000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ5.0mg | 44,000円",
+          "quote": "マンジャロ5.0mg | 4回分(1か月)の 価格 | 44,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://himejiekimae-clinic.com/diet.html",
           "source_type": "명시된 펜·주수/기간",
@@ -30807,7 +30807,7 @@
           "equivalent_12": 198000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ7.5mg | 66,000円",
+          "quote": "マンジャロ7.5mg | 4回分(1か月)の 価格 | 66,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://himejiekimae-clinic.com/diet.html",
           "source_type": "명시된 펜·주수/기간",
@@ -30902,7 +30902,7 @@
       "official_attempts": 1,
       "official_domain": "mrc-tamaplaza.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -30912,7 +30912,7 @@
           "equivalent_12": 52800,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ | 2.5mg | 17,600円(税込)/ 4本(4週間分)",
+          "quote": "2.5mg | 17,600円(税込)/ 4本(4週間分)",
           "tax": "세금 포함",
           "source_url": "https://mrc-tamaplaza.jp/diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -31580,7 +31580,7 @@
       "official_attempts": 1,
       "official_domain": "hiroo-cl.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "5": {
@@ -31819,7 +31819,7 @@
       "official_attempts": 1,
       "official_domain": "aihoku-hc.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "5": {
@@ -32664,7 +32664,7 @@
       "official_attempts": 1,
       "official_domain": "bunkyo-naika.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -32908,7 +32908,7 @@
       "official_attempts": 1,
       "official_domain": "kida-cl.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -33762,7 +33762,7 @@
       "official_attempts": 1,
       "official_domain": "clinic-for-men.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -34457,7 +34457,7 @@
       "official_attempts": 1,
       "official_domain": "ekimae-hifuka.net",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -34924,7 +34924,7 @@
       "official_attempts": 1,
       "official_domain": "towakaiclinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -34934,7 +34934,7 @@
           "equivalent_12": 105600,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ2.5mg | 1本 8,800円",
+          "quote": "マンジャロ2.5mg | 料金 | 1本 8,800円",
           "tax": "세금 포함",
           "source_url": "https://www.towakaiclinic.jp/medical_diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -34947,7 +34947,7 @@
           "equivalent_12": 144000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ5.0mg | 4本 48,000円",
+          "quote": "マンジャロ5.0mg | 料金 | 4本 48,000円",
           "tax": "세금 포함",
           "source_url": "https://www.towakaiclinic.jp/medical_diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -35042,7 +35042,7 @@
       "official_attempts": 1,
       "official_domain": "kobe-ed-corona.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_unit_reviewed_at": "2026-11-23T18:48:31+09:00",
       "price_unit_reviewed_source_url": "https://kobe-ed-corona.jp/diet.html",
       "price_unit_reviewed_kind": "4회분(1개월) 가격 × 3",
@@ -35061,7 +35061,7 @@
           "equivalent_12": 66000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 2.5mg | 22,000円",
+          "quote": "マンジャロ 2.5mg | 4回分(1か月)の 価格 | 22,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://kobe-ed-corona.jp/diet.html",
           "source_type": "명시된 펜·주수/기간",
@@ -35074,7 +35074,7 @@
           "equivalent_12": 132000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ5.0mg | 44,000円",
+          "quote": "マンジャロ5.0mg | 4回分(1か月)の 価格 | 44,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://kobe-ed-corona.jp/diet.html",
           "source_type": "명시된 펜·주수/기간",
@@ -35087,7 +35087,7 @@
           "equivalent_12": 198000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ7.5mg | 66,000円",
+          "quote": "マンジャロ7.5mg | 4回分(1か月)の 価格 | 66,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://kobe-ed-corona.jp/diet.html",
           "source_type": "명시된 펜·주수/기간",
@@ -35182,7 +35182,7 @@
       "official_attempts": 1,
       "official_domain": "kandacli.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -35485,7 +35485,7 @@
       "official_attempts": 1,
       "official_domain": "takenotsuka-clinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -35495,7 +35495,7 @@
           "equivalent_12": 54000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "2.5mg | 4,500円 (税込) | 18,000円 (税込)",
+          "quote": "2.5mg | 4本セット(約1ヶ月分) | 18,000円 (税込)",
           "tax": "세금 포함",
           "source_url": "https://takenotsuka-clinic.jp/mounjaro_price",
           "source_type": "명시된 펜·주수/기간",
@@ -35508,7 +35508,7 @@
           "equivalent_12": 84000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "5mg | 7,000円 (税込) | 28,000円 (税込)",
+          "quote": "5mg | 4本セット(約1ヶ月分) | 28,000円 (税込)",
           "tax": "세금 포함",
           "source_url": "https://takenotsuka-clinic.jp/mounjaro_price",
           "source_type": "명시된 펜·주수/기간",
@@ -35521,7 +35521,7 @@
           "equivalent_12": 120000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "7.5mg | 10,000円 (税込) | 40,000円 (税込)",
+          "quote": "7.5mg | 4本セット(約1ヶ月分) | 40,000円 (税込)",
           "tax": "세금 포함",
           "source_url": "https://takenotsuka-clinic.jp/mounjaro_price",
           "source_type": "명시된 펜·주수/기간",
@@ -35534,7 +35534,7 @@
           "equivalent_12": 162000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "10mg | 13,500円 (税込) | 54,000円 (税込)",
+          "quote": "10mg | 4本セット(約1ヶ月分) | 54,000円 (税込)",
           "tax": "세금 포함",
           "source_url": "https://takenotsuka-clinic.jp/mounjaro_price",
           "source_type": "명시된 펜·주수/기간",
@@ -35672,7 +35672,7 @@
       "official_attempts": 1,
       "official_domain": "jiyugaoka-family-hifuka.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -35876,7 +35876,7 @@
       "official_attempts": 1,
       "official_domain": "kty-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "5": {
@@ -35899,7 +35899,7 @@
           "equivalent_12": 132000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "7.5mg | 44,000円",
+          "quote": "7.5mg | 4本(1ヶ月) | 44,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://kty-clinic.com/price/",
           "source_type": "명시된 펜·주수/기간",
@@ -35951,7 +35951,7 @@
       "official_attempts": 1,
       "official_domain": "niijukuclinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -36203,7 +36203,7 @@
       "official_attempts": 1,
       "official_domain": "wizclinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -36364,7 +36364,7 @@
       "official_attempts": 1,
       "official_domain": "suga-hifuka.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -36374,7 +36374,7 @@
           "equivalent_12": 60000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "2.5mg(1本) | 5,000円",
+          "quote": "2.5mg(1本) | 料金 | 5,000円",
           "tax": "세금 포함",
           "source_url": "https://suga-hifuka.com/price/",
           "source_type": "명시된 펜·주수/기간",
@@ -36426,7 +36426,7 @@
       "official_attempts": 1,
       "official_domain": "west-umeda-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -36436,7 +36436,7 @@
           "equivalent_12": 59400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 2.5mg 4本(1ヶ月分) | 19,800円",
+          "quote": "マンジャロ 2.5mg 4本(1ヶ月分) | 費用(税込) | 19,800円",
           "tax": "세금 포함",
           "source_url": "https://www.west-umeda-clinic.com/diet-outpatient/",
           "source_type": "명시된 펜·주수/기간",
@@ -36449,7 +36449,7 @@
           "equivalent_12": 82500,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 5mg 4本(1ヶ月分) | 27,500円",
+          "quote": "マンジャロ 5mg 4本(1ヶ月分) | 費用(税込) | 27,500円",
           "tax": "세금 포함",
           "source_url": "https://www.west-umeda-clinic.com/diet-outpatient/",
           "source_type": "명시된 펜·주수/기간",
@@ -36462,7 +36462,7 @@
           "equivalent_12": 132000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 7.5mg 4本(1ヶ月分) | 44,000円",
+          "quote": "マンジャロ 7.5mg 4本(1ヶ月分) | 費用(税込) | 44,000円",
           "tax": "세금 포함",
           "source_url": "https://www.west-umeda-clinic.com/diet-outpatient/",
           "source_type": "명시된 펜·주수/기간",
@@ -36475,7 +36475,7 @@
           "equivalent_12": 165000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 10mg 4本(1ヶ月分) | 55,000円",
+          "quote": "マンジャロ 10mg 4本(1ヶ月分) | 費用(税込) | 55,000円",
           "tax": "세금 포함",
           "source_url": "https://www.west-umeda-clinic.com/diet-outpatient/",
           "source_type": "명시된 펜·주수/기간",
@@ -37129,7 +37129,7 @@
       "official_attempts": 1,
       "official_domain": "k-ishidacl.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -37139,7 +37139,7 @@
           "equivalent_12": 67800,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "2.5mg 4本(4週)分 | 22,600円(税込) | 最初は2.5mgから開始し、4週で5mgに増量可能です。当院では、最大7.5mgまで対応しております。原則4週分の処方になりますが、2週分からでも可能です。症状が安定していれば最長12週分まで処方できます。",
+          "quote": "2.5mg 4本(4週)分 | 料金(税込) | 22,600円(税込)",
           "tax": "세금 포함",
           "source_url": "https://k-ishidacl.com/price/",
           "source_type": "명시된 펜·주수/기간",
@@ -37152,7 +37152,7 @@
           "equivalent_12": 118800,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "5.0mg 4本(4週)分 | 39,600円(税込)",
+          "quote": "5.0mg 4本(4週)分 | 料金(税込) | 39,600円(税込)",
           "tax": "세금 포함",
           "source_url": "https://k-ishidacl.com/price/",
           "source_type": "명시된 펜·주수/기간",
@@ -37165,7 +37165,7 @@
           "equivalent_12": 171600,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "7.5mg 4本(4週)分 | 57,200円(税込)",
+          "quote": "7.5mg 4本(4週)分 | 料金(税込) | 57,200円(税込)",
           "tax": "세금 포함",
           "source_url": "https://k-ishidacl.com/price/",
           "source_type": "명시된 펜·주수/기간",
@@ -37604,7 +37604,7 @@
       "official_attempts": 1,
       "official_domain": "wellness.or.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -37907,7 +37907,7 @@
       "official_attempts": 1,
       "official_domain": "aiclinic8128.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -37917,7 +37917,7 @@
           "equivalent_12": 55200,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "GLP-1 | マンジャロ2.5mg(1本) | ¥4,600",
+          "quote": "マンジャロ2.5mg(1本) | ¥4,600",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://aiclinic8128.com/menu/price.html",
           "source_type": "명시된 펜·주수/기간",
@@ -38253,7 +38253,7 @@
       "official_attempts": 1,
       "official_domain": "brights-beauty.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -38263,7 +38263,7 @@
           "equivalent_12": 58800,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "2.5mg | ¥9,800",
+          "quote": "2.5mg | 1箱(2週間分) | ¥9,800",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://www.brights-beauty.jp/mounjaro/",
           "source_type": "명시된 펜·주수/기간",
@@ -38276,7 +38276,7 @@
           "equivalent_12": 98400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "5.0mg | ¥16,400",
+          "quote": "5.0mg | 1箱(2週間分) | ¥16,400",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://www.brights-beauty.jp/mounjaro/",
           "source_type": "명시된 펜·주수/기간",
@@ -38289,7 +38289,7 @@
           "equivalent_12": 131400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "7.5mg | ¥21,900",
+          "quote": "7.5mg | 1箱(2週間分) | ¥21,900",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://www.brights-beauty.jp/mounjaro/",
           "source_type": "명시된 펜·주수/기간",
@@ -38384,7 +38384,7 @@
       "official_attempts": 1,
       "official_domain": "cl7.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -38394,7 +38394,7 @@
           "equivalent_12": 47520,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ2.5mg 1本 | 3,960円",
+          "quote": "マンジャロ2.5mg 1本 | 費用(税込) | 3,960円",
           "tax": "세금 포함",
           "source_url": "https://cl7.jp/beauty/medical-diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -38407,7 +38407,7 @@
           "equivalent_12": 89760,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ5mg 1本 | 7,480円",
+          "quote": "マンジャロ5mg 1本 | 費用(税込) | 7,480円",
           "tax": "세금 포함",
           "source_url": "https://cl7.jp/beauty/medical-diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -38420,7 +38420,7 @@
           "equivalent_12": 142560,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ7.5mg 1本 | 11,880円",
+          "quote": "マンジャロ7.5mg 1本 | 費用(税込) | 11,880円",
           "tax": "세금 포함",
           "source_url": "https://cl7.jp/beauty/medical-diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -39306,7 +39306,7 @@
       "official_attempts": 1,
       "official_domain": "prism-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -39515,7 +39515,7 @@
       "official_attempts": 1,
       "official_domain": "solclinic.org",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -39525,7 +39525,7 @@
           "equivalent_12": 75000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 2.5mg(4週間) | 25,000円",
+          "quote": "マンジャロ 2.5mg(4週間) | 料金(税込) | 25,000円",
           "tax": "세금 포함",
           "source_url": "https://solclinic.org/beauty/diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -39538,7 +39538,7 @@
           "equivalent_12": 144000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 5mg(4週間) | 48,000円",
+          "quote": "マンジャロ 5mg(4週間) | 料金(税込) | 48,000円",
           "tax": "세금 포함",
           "source_url": "https://solclinic.org/beauty/diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -39719,7 +39719,7 @@
       "official_attempts": 1,
       "official_domain": "unmed-clinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -39729,7 +39729,7 @@
           "equivalent_12": 54000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "2.5mg | 18,000円",
+          "quote": "2.5mg | 1ヶ月分(4回分)の費用(税込) | 18,000円",
           "tax": "세금 포함",
           "source_url": "https://www.unmed-clinic.jp/mounjaro/",
           "source_type": "명시된 펜·주수/기간",
@@ -39742,7 +39742,7 @@
           "equivalent_12": 96000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "5.0mg | 32,000円",
+          "quote": "5.0mg | 1ヶ月分(4回分)の費用(税込) | 32,000円",
           "tax": "세금 포함",
           "source_url": "https://www.unmed-clinic.jp/mounjaro/",
           "source_type": "명시된 펜·주수/기간",
@@ -39755,7 +39755,7 @@
           "equivalent_12": 135000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "7.5mg | 45,000円",
+          "quote": "7.5mg | 1ヶ月分(4回分)の費用(税込) | 45,000円",
           "tax": "세금 포함",
           "source_url": "https://www.unmed-clinic.jp/mounjaro/",
           "source_type": "명시된 펜·주수/기간",
@@ -39768,7 +39768,7 @@
           "equivalent_12": 165000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "10mg | 55,000円",
+          "quote": "10mg | 1ヶ月分(4回分)の費用(税込) | 55,000円",
           "tax": "세금 포함",
           "source_url": "https://www.unmed-clinic.jp/mounjaro/",
           "source_type": "명시된 펜·주수/기간",
@@ -39781,7 +39781,7 @@
           "equivalent_12": 195000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "12.5mg | 65,000円",
+          "quote": "12.5mg | 1ヶ月分(4回分)の費用(税込) | 65,000円",
           "tax": "세금 포함",
           "source_url": "https://www.unmed-clinic.jp/mounjaro/",
           "source_type": "명시된 펜·주수/기간",
@@ -39876,7 +39876,7 @@
       "official_attempts": 1,
       "official_domain": "eclinic-toyama.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "5": {
@@ -39886,7 +39886,7 @@
           "equivalent_12": 165000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "5mg 1ヶ月分(4本) ¥55,000 (税込)",
+          "quote": "5mg 1ヶ月分(4本) ¥55,000 (税込) | 内服薬",
           "tax": "세금 포함",
           "source_url": "https://eclinic-toyama.jp/price/",
           "source_type": "명시된 펜·주수/기간",
@@ -39981,7 +39981,7 @@
       "official_attempts": 1,
       "official_domain": "eatlife-cl.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -40069,7 +40069,7 @@
       "official_attempts": 1,
       "official_domain": "toclinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -40428,7 +40428,7 @@
       "official_attempts": 1,
       "official_domain": "fellez-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -40438,7 +40438,7 @@
           "equivalent_12": 90000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "2.5mg 4本(4週間分) | 30,000円",
+          "quote": "2.5mg 4本(4週間分) | 料金 | 30,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://fellez-clinic.com/menu/731/",
           "source_type": "명시된 펜·주수/기간",
@@ -40451,7 +40451,7 @@
           "equivalent_12": 150000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "5mg 4本(4週間分) | 50,000円",
+          "quote": "5mg 4本(4週間分) | 料金 | 50,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://fellez-clinic.com/menu/731/",
           "source_type": "명시된 펜·주수/기간",
@@ -40464,7 +40464,7 @@
           "equivalent_12": 174000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "7.5mg 4本(4週間分) | 58,000円",
+          "quote": "7.5mg 4本(4週間分) | 料金 | 58,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://fellez-clinic.com/menu/731/",
           "source_type": "명시된 펜·주수/기간",
@@ -40559,7 +40559,7 @@
       "official_attempts": 1,
       "official_domain": "loopclinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -40569,7 +40569,7 @@
           "equivalent_12": 59400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ | 2.5mg 1本 | 4,950円",
+          "quote": "2.5mg 1本 | 料金(税込) | 4,950円",
           "tax": "세금 포함",
           "source_url": "https://loopclinic.jp/price-list/",
           "source_type": "명시된 펜·주수/기간",
@@ -40582,7 +40582,7 @@
           "equivalent_12": 92400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "5mg 1本 | 7,700円",
+          "quote": "5mg 1本 | 回数/オプション | 7,700円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://loopclinic.jp/price-list/",
           "source_type": "명시된 펜·주수/기간",
@@ -40595,7 +40595,7 @@
           "equivalent_12": 132000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "7.5mg 1本 | 11,000円",
+          "quote": "7.5mg 1本 | 回数/オプション | 11,000円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://loopclinic.jp/price-list/",
           "source_type": "명시된 펜·주수/기간",
@@ -40905,7 +40905,7 @@
       "official_attempts": 1,
       "official_domain": "rebirth-clinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -40915,7 +40915,7 @@
           "equivalent_12": 59400,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ | 2.5mg(1ヶ月分) | 19,800円",
+          "quote": "2.5mg(1ヶ月分) | 19,800円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://rebirth-clinic.jp/treatment/mounjaro/",
           "source_type": "명시된 펜·주수/기간",
@@ -42444,7 +42444,7 @@
           "equivalent_12": 52800,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 2.5mg 2週間分 | ¥8,800",
+          "quote": "マンジャロ 2.5mg 2週間分 | 通常価格 | ¥8,800",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://pione-beautyclinic.com/price/",
           "source_type": "명시된 펜·주수/기간",
@@ -42457,7 +42457,7 @@
           "equivalent_12": 76800,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 5mg 2週間分 | ¥12,800",
+          "quote": "マンジャロ 5mg 2週間分 | 通常価格 | ¥12,800",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://pione-beautyclinic.com/price/",
           "source_type": "명시된 펜·주수/기간",
@@ -42470,7 +42470,7 @@
           "equivalent_12": 100800,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 7.5mg 2週間分 | ¥16,800",
+          "quote": "マンジャロ 7.5mg 2週間分 | 通常価格 | ¥16,800",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://pione-beautyclinic.com/price/",
           "source_type": "명시된 펜·주수/기간",
@@ -42478,7 +42478,7 @@
         }
       },
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "official_domain": "pione-beautyclinic.com"
     },
     {
@@ -42596,7 +42596,7 @@
         }
       },
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "official_domain": "femtech-kagoshima.clinic"
     },
     {
@@ -43811,7 +43811,7 @@
           "equivalent_12": 53460,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ2.5mg | ¥19,800 | ¥37,620 | ¥53,460",
+          "quote": "マンジャロ2.5mg | 12本(3か月分) | ¥53,460",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://chibabiyou.com/plan/#mounjaro",
           "source_type": "명시된 펜·주수/기간",
@@ -43824,7 +43824,7 @@
           "equivalent_12": 89100,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ5.0mg | ¥33,000 | ¥62,700 | ¥89,100",
+          "quote": "マンジャロ5.0mg | 12本(3か月分) | ¥89,100",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://chibabiyou.com/plan/#mounjaro",
           "source_type": "명시된 펜·주수/기간",
@@ -43837,7 +43837,7 @@
           "equivalent_12": 118800,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ7.5mg | ¥44,000 | ¥83,600 | ¥118,800",
+          "quote": "マンジャロ7.5mg | 12本(3か月分) | ¥118,800",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://chibabiyou.com/plan/#mounjaro",
           "source_type": "명시된 펜·주수/기간",
@@ -43845,7 +43845,7 @@
         }
       },
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "official_domain": "chibabiyou.com"
     },
     {
@@ -44148,7 +44148,7 @@
         }
       },
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "official_domain": "primemediterrace.jp"
     },
     {
@@ -44666,7 +44666,7 @@
         }
       },
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "official_domain": "matsui-clinic.net"
     },
     {
@@ -44763,7 +44763,7 @@
           "equivalent_12": 53100,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ2.5mg | 4本(1カ月分) | 17,700円(税込)",
+          "quote": "マンジャロ2.5mg | 料金 | 17,700円(税込) | 4本(1カ月分)",
           "tax": "세금 포함",
           "source_url": "https://ueshima-clinic.net/%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD",
           "source_type": "명시된 펜·주수/기간",
@@ -44776,7 +44776,7 @@
           "equivalent_12": 106200,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ5mg | 4本(1カ月分) | 35,400円(税込)",
+          "quote": "マンジャロ5mg | 料金 | 35,400円(税込) | 4本(1カ月分)",
           "tax": "세금 포함",
           "source_url": "https://ueshima-clinic.net/%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD",
           "source_type": "명시된 펜·주수/기간",
@@ -44784,7 +44784,7 @@
         }
       },
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "official_domain": "ueshima-clinic.net"
     },
     {
@@ -45018,7 +45018,7 @@
         }
       },
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "official_domain": "kawai-biyou.net"
     },
     {
@@ -45244,7 +45244,7 @@
           "equivalent_12": 42000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ2.5mg | 14,000円(4本)",
+          "quote": "マンジャロ2.5mg | 費用(税込) | 14,000円(4本)",
           "tax": "세금 포함",
           "source_url": "https://www.kobe-kids-family.com/diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -45257,7 +45257,7 @@
           "equivalent_12": 78000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ5.0mg | 26,000円(4本)",
+          "quote": "マンジャロ5.0mg | 費用(税込) | 26,000円(4本)",
           "tax": "세금 포함",
           "source_url": "https://www.kobe-kids-family.com/diet/",
           "source_type": "명시된 펜·주수/기간",
@@ -45265,7 +45265,7 @@
         }
       },
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "official_domain": "kobe-kids-family.com"
     },
     {
@@ -45448,7 +45448,7 @@
           "equivalent_12": 72000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 2.5mg | 1本 | 6,000円",
+          "quote": "マンジャロ 2.5mg | 6,000円 | 1本",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://shinjuku-biyou-chuoh.com/menu/diet/mounjaro/",
           "source_type": "명시된 펜·주수/기간",
@@ -45461,7 +45461,7 @@
           "equivalent_12": 120000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ 5.0mg | 1本 | 10,000円",
+          "quote": "マンジャロ 5.0mg | 10,000円 | 1本",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://shinjuku-biyou-chuoh.com/menu/diet/mounjaro/",
           "source_type": "명시된 펜·주수/기간",
@@ -45469,7 +45469,7 @@
         }
       },
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "official_domain": "shinjuku-biyou-chuoh.com"
     },
     {
@@ -45652,7 +45652,7 @@
           "equivalent_12": 66000,
           "unit_label": "명시된 펜·주수/기간",
           "source_kind": "official_table",
-          "quote": "マンジャロ | 2.5mg×1本 | 5,500円",
+          "quote": "2.5mg×1本 | 5,500円",
           "tax": "세금 포함 여부는 병원 안내 확인",
           "source_url": "https://lamu-kagoshima.com/menu/mounjaro/",
           "source_type": "명시된 펜·주수/기간",
@@ -45699,7 +45699,7 @@
         }
       },
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T20:02:40+09:00",
+      "official_price_audited_at": "2026-11-23T20:09:27+09:00",
       "official_domain": "lamu-kagoshima.com"
     },
     {
