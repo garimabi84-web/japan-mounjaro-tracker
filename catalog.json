@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "units": "JPY; 12 pens = 12 weeks; monthly set=4 pens",
   "doses": [
     "2.5",
@@ -2607,7 +2607,7 @@
       "official_attempts": 1,
       "official_domain": "shibuya-hifuka.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "found-ee873841d984",
@@ -2651,7 +2651,7 @@
       "official_attempts": 1,
       "official_domain": "velvaere-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "found-f8fa5847205b",
@@ -6633,7 +6633,7 @@
       "official_attempts": 1,
       "official_domain": "mulbell.online",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-8dda4943053060",
@@ -8313,7 +8313,7 @@
       "official_attempts": 1,
       "official_domain": "yuki-skin.clinic",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-bb036c2b332ddd",
@@ -8832,7 +8832,7 @@
       "official_attempts": 1,
       "official_domain": "digital-clinic.life",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-62c29dfd7c0754",
@@ -8964,7 +8964,7 @@
       "official_attempts": 1,
       "official_domain": "personalcareclinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-785881b6fbce17",
@@ -9098,7 +9098,7 @@
       "official_attempts": 1,
       "official_domain": "femuse-clinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-096abc24df2cd7",
@@ -9361,7 +9361,7 @@
       "official_attempts": 1,
       "official_domain": "reira-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-2e1b68e37e8971",
@@ -9493,7 +9493,7 @@
       "official_attempts": 1,
       "official_domain": "oneclinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-fb79a808235932",
@@ -9711,7 +9711,7 @@
       "official_attempts": 1,
       "official_domain": "takinogawaclinic.life",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-d828bda79bad78",
@@ -9845,7 +9845,7 @@
       "official_attempts": 1,
       "official_domain": "shimokita-do.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-a1017d946a32e0",
@@ -9934,7 +9934,7 @@
       "official_attempts": 1,
       "official_domain": "kugayama-medical.clinic",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-4497bc95848c77",
@@ -10586,7 +10586,7 @@
       "official_attempts": 1,
       "official_domain": "kiyama-naishikyou.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00",
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00",
       "source_pack_pens": 4,
       "source_pack_prices": {
         "2.5": 19800,
@@ -11069,7 +11069,7 @@
       "official_attempts": 1,
       "official_domain": "morigeka.net",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-254bd530dd2730",
@@ -11504,7 +11504,7 @@
       "official_attempts": 1,
       "official_domain": "nebula-clinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-f2b264523a9cde",
@@ -11679,7 +11679,7 @@
       "official_attempts": 1,
       "official_domain": "nebula-clinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-98760a47e1c99f",
@@ -11899,7 +11899,7 @@
       "official_attempts": 1,
       "official_domain": "atsuta-skin-clinic.net",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-af1c31d0f63e16",
@@ -11945,7 +11945,7 @@
       "official_attempts": 1,
       "official_domain": "ikegaki-hifuka.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-f52be95c3e93f3",
@@ -13027,7 +13027,7 @@
       "official_attempts": 1,
       "official_domain": "shonaika-clinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-bedf6483bd6f0a",
@@ -13159,7 +13159,7 @@
       "official_attempts": 1,
       "official_domain": "takimoto-cl.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-355e643a6e9f0c",
@@ -13766,7 +13766,7 @@
       "official_attempts": 1,
       "official_domain": "nagao-clinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-56540fee718f71",
@@ -13855,7 +13855,7 @@
       "official_attempts": 1,
       "official_domain": "natori-kumanodo-clinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-f55ff8bfd0c5bb",
@@ -13944,7 +13944,7 @@
       "official_attempts": 1,
       "official_domain": "nishimuranaika-cl.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-b32855a97b5d58",
@@ -14248,7 +14248,7 @@
       "official_attempts": 1,
       "official_domain": "furusato-naika.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-7ba06126b7ec87",
@@ -14896,7 +14896,7 @@
       "official_attempts": 1,
       "official_domain": "whc-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-18227d195d6d05",
@@ -15114,7 +15114,7 @@
       "official_attempts": 1,
       "official_domain": "chouchou-c.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-b4eb29ac751dfb",
@@ -15289,7 +15289,7 @@
       "official_attempts": 1,
       "official_domain": "st-rose.to",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-3c894d6357ec42",
@@ -16238,7 +16238,7 @@
       "official_attempts": 1,
       "official_domain": "keisei.ne.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-a1b89d81a7ae63",
@@ -16843,7 +16843,7 @@
       "official_attempts": 1,
       "official_domain": "metro-c.or.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-f7240dc83444fe",
@@ -17362,7 +17362,7 @@
       "official_attempts": 1,
       "official_domain": "komuro-biyou.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-9db635c40337dd",
@@ -17580,7 +17580,7 @@
       "official_attempts": 1,
       "official_domain": "ysclinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-4fbf80fa4cec3f",
@@ -17669,7 +17669,7 @@
       "official_attempts": 1,
       "official_domain": "nishiyamaladiesclinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-d2215832f48dab",
@@ -17801,7 +17801,7 @@
       "official_attempts": 1,
       "official_domain": "ebisu-naika.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-3be97eaf0a2bf1",
@@ -18062,7 +18062,7 @@
       "official_attempts": 1,
       "official_domain": "wakabakai-medical.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-ca7e644ba7876a",
@@ -18108,7 +18108,7 @@
       "official_attempts": 1,
       "official_domain": "shokaki-hinyouki.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-5008a686a46a1f",
@@ -18154,7 +18154,7 @@
       "official_attempts": 1,
       "official_domain": "hinyouki-shokaki.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-5b543923271ceb",
@@ -18544,7 +18544,7 @@
       "official_attempts": 1,
       "official_domain": "inoueclinic-hp.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-c947012666d730",
@@ -19278,7 +19278,7 @@
       "official_attempts": 1,
       "official_domain": "iwata-clinic.net",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-292415c9729274",
@@ -19324,7 +19324,7 @@
       "official_attempts": 1,
       "official_domain": "hayama-naika.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-b63802867b3f00",
@@ -19370,7 +19370,7 @@
       "official_attempts": 1,
       "official_domain": "moricli.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-338c80da7a3582",
@@ -19588,7 +19588,7 @@
       "official_attempts": 1,
       "official_domain": "morimoto-clinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-f382b0cc9c2a01",
@@ -19806,7 +19806,7 @@
       "official_attempts": 1,
       "official_domain": "wclinic-osaka.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-b41742d863efc1",
@@ -19852,7 +19852,7 @@
       "official_attempts": 1,
       "official_domain": "amagi-daiichi-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-f85e9879a36d73",
@@ -19941,7 +19941,7 @@
       "official_attempts": 1,
       "official_domain": "shiozaki-naika.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-72a8d903ea6ea3",
@@ -20460,7 +20460,7 @@
       "official_attempts": 1,
       "official_domain": "taguchi-clinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-a7bb18563b44e8",
@@ -21108,7 +21108,7 @@
       "official_attempts": 1,
       "official_domain": "senzoku-seikei.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-458124276cf882",
@@ -21240,7 +21240,7 @@
       "official_attempts": 1,
       "official_domain": "akihabara-sincere.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-e50f9af7a96b78",
@@ -21458,7 +21458,7 @@
       "official_attempts": 1,
       "official_domain": "midorino.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-165e1e4aebf6b3",
@@ -21590,7 +21590,7 @@
       "official_attempts": 1,
       "official_domain": "aiseikai-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-d3307562bf3579",
@@ -21765,7 +21765,7 @@
       "official_attempts": 1,
       "official_domain": "e-clinic.gr.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-f8c6fc43d293c8",
@@ -22155,7 +22155,7 @@
       "official_attempts": 1,
       "official_domain": "shoyuukai.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-b5518807dc0959",
@@ -22502,7 +22502,7 @@
       "official_attempts": 1,
       "official_domain": "akala-clinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-298282f7c5a87e",
@@ -22634,7 +22634,7 @@
       "official_attempts": 1,
       "official_domain": "kamikuri.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-75ff0abcc241e1",
@@ -23628,7 +23628,7 @@
       "official_attempts": 1,
       "official_domain": "akabaneheart-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-34f9997f9e3559",
@@ -24061,7 +24061,7 @@
       "official_attempts": 1,
       "official_domain": "aoshin.net",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-27d45f86831bc6",
@@ -24107,7 +24107,7 @@
       "official_attempts": 1,
       "official_domain": "koishikawaiin.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-9f6b38e5536c5c",
@@ -24239,7 +24239,7 @@
       "official_attempts": 1,
       "official_domain": "veriteclinic.or.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-d2efe2c110c4f9",
@@ -24543,7 +24543,7 @@
       "official_attempts": 1,
       "official_domain": "mizutani-hifuka-ks.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-51abe21bc8c646",
@@ -24804,7 +24804,7 @@
       "official_attempts": 1,
       "official_domain": "kkclinic-ichihara.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-9d9f3bce0fc8e7",
@@ -24850,7 +24850,7 @@
       "official_attempts": 1,
       "official_domain": "kkclinic-nishifuna.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-59edfdc2ceeb96",
@@ -24982,7 +24982,7 @@
       "official_attempts": 1,
       "official_domain": "yanasegawa-fc.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-ac803e162ffac0",
@@ -25286,7 +25286,7 @@
       "official_attempts": 1,
       "official_domain": "wendel-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-b13aeb3a71d76a",
@@ -25461,7 +25461,7 @@
       "official_attempts": 1,
       "official_domain": "medicalkiss.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-1ddc3965195671",
@@ -25636,7 +25636,7 @@
       "official_attempts": 1,
       "official_domain": "goroudaifc.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-df51200a64e5bc",
@@ -26198,7 +26198,7 @@
       "official_attempts": 1,
       "official_domain": "mukougaoka-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-ace4f1e6e6e334",
@@ -26244,7 +26244,7 @@
       "official_attempts": 1,
       "official_domain": "tsuwabuki-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-ef684cece10ba3",
@@ -26332,8 +26332,8 @@
       "official_checked_at": "2026-11-21T14:06:26+09:00",
       "official_attempts": 1,
       "official_domain": "shinagawasc.com",
-      "official_price_audit_status": "page_unavailable",
-      "official_price_audited_at": "2026-11-21T14:07:14+09:00"
+      "official_price_audit_status": "passed",
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-8b5de89a9da54e",
@@ -26465,7 +26465,7 @@
       "official_attempts": 1,
       "official_domain": "obanaika.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-f897919159789b",
@@ -26855,7 +26855,7 @@
       "official_attempts": 1,
       "official_domain": "himejiekimae-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-d665509ef6ba4a",
@@ -26944,7 +26944,7 @@
       "official_attempts": 1,
       "official_domain": "mrc-tamaplaza.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-26965c7e8c382c",
@@ -26990,7 +26990,7 @@
       "official_attempts": 1,
       "official_domain": "miyazaki-ichoclinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-cc01d994ce8b9f",
@@ -27552,7 +27552,7 @@
       "official_attempts": 1,
       "official_domain": "hiroo-cl.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-95b2e4a7ebdd3a",
@@ -27598,7 +27598,7 @@
       "official_attempts": 1,
       "official_domain": "hiroodc.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-04af149fcffc37",
@@ -27773,7 +27773,7 @@
       "official_attempts": 1,
       "official_domain": "aihoku-hc.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-5181ac3abb768b",
@@ -28550,7 +28550,7 @@
       "official_attempts": 1,
       "official_domain": "bunkyo-naika.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-e7a0ae3e360e7d",
@@ -28682,7 +28682,7 @@
       "official_attempts": 1,
       "official_domain": "asahina-clinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-8045714cb12a6b",
@@ -28728,7 +28728,7 @@
       "official_attempts": 1,
       "official_domain": "kida-cl.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-e7114085c49782",
@@ -29161,7 +29161,7 @@
       "official_attempts": 1,
       "official_domain": "umeda1010.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-3ea82882877d86",
@@ -29551,7 +29551,7 @@
       "official_attempts": 1,
       "official_domain": "clinic-for-men.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-9c9cc51beac113",
@@ -29597,7 +29597,7 @@
       "official_attempts": 1,
       "official_domain": "metropolitan-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-a34a00fcbcc976",
@@ -30202,7 +30202,7 @@
       "official_attempts": 1,
       "official_domain": "ekimae-hifuka.net",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-8c97232a262d39",
@@ -30291,7 +30291,7 @@
       "official_attempts": 1,
       "official_domain": "kanedaclinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-c9bd6c4a05e0db",
@@ -30638,7 +30638,7 @@
       "official_attempts": 1,
       "official_domain": "towakaiclinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-737b92ef96784f",
@@ -30727,7 +30727,7 @@
       "official_attempts": 1,
       "official_domain": "kobe-ed-corona.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-bf5d703eefa05b",
@@ -30816,7 +30816,7 @@
       "official_attempts": 1,
       "official_domain": "kandacli.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-772769b467be44",
@@ -31077,7 +31077,7 @@
       "official_attempts": 1,
       "official_domain": "takenotsuka-clinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-80d080dc04f187",
@@ -31209,7 +31209,7 @@
       "official_attempts": 1,
       "official_domain": "jiyugaoka-family-hifuka.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-b3f713d63ead1d",
@@ -31384,7 +31384,7 @@
       "official_attempts": 1,
       "official_domain": "kty-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-26d597bcc47de6",
@@ -31430,7 +31430,7 @@
       "official_attempts": 1,
       "official_domain": "niijukuclinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-9b9ab0e9526234",
@@ -31476,7 +31476,7 @@
       "official_attempts": 1,
       "official_domain": "naka-hifuka.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-7a94f90480bd5b",
@@ -31651,7 +31651,7 @@
       "official_attempts": 1,
       "official_domain": "wizclinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-4c9f2329181d31",
@@ -31783,7 +31783,7 @@
       "official_attempts": 1,
       "official_domain": "suga-hifuka.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-385ed87a79c207",
@@ -31795,24 +31795,24 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
-        "5": null,
-        "7.5": null,
-        "10": null,
+        "2.5": 59400,
+        "5": 82500,
+        "7.5": 132000,
+        "10": 165000,
         "12.5": null,
         "15": null
       },
-      "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
-      "url": "https://sayaka-biyou-clinic.com/mounjaro/osaka/",
+      "basis": "공식 병원 가격표 · 용량별 (12펜 기준 단위 환산; 일괄 처방 가능 여부 별도); 마운자로 브랜드/약품 구역 독립 재검증",
+      "url": "https://www.west-umeda-clinic.com/diet-outpatient/",
       "official_url_hint": "https://www.west-umeda-clinic.com/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "공식 페이지의 용량·단위가 명확한 금액만 등록. 외국인 처방·배송·12펜 일괄 구매 여부 별도 확인.",
       "fees": "미확인",
-      "status": "candidate",
+      "status": "active",
       "address": "大阪府大阪市北区梅田３－４－５毎日インテシオ２階",
-      "channel": "후생노동성 공식 DB + 공개 비교 사이트",
-      "updated": "2026-11-21",
+      "channel": "전국 공개 자료 발견 → 공식 홈페이지 가격 검증",
+      "updated": "2026-11-23",
       "discovery": "national",
-      "price_verified": false,
+      "price_verified": true,
       "identity_conflict": false,
       "mhlw_id": "2722270155680",
       "mhlw_identity_matched": true,
@@ -31824,7 +31824,12 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1,
+      "official_domain": "west-umeda-clinic.com",
+      "official_price_audit_status": "passed",
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-6f178f23752dd8",
@@ -31865,7 +31870,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-a81b826631809a",
@@ -31887,7 +31894,7 @@
       "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
       "url": "https://sayaka-biyou-clinic.com/mounjaro/okayama/",
       "official_url_hint": "https://www.varix.jp/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "다른 지역에 동일 명칭 병원이 존재. 주소·공식 도메인 검증 전 가격 자동 등록 보류.",
       "fees": "미확인",
       "status": "candidate",
       "address": "岡山県岡山市北区錦町６番１７号ＯＷＬＳＴＹＬＥ錦町２ビル４階",
@@ -31906,7 +31913,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-06f9d245b91859",
@@ -31947,7 +31956,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-fd494795067f0c",
@@ -31988,7 +31999,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-e2370a4a55b038",
@@ -32029,7 +32042,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-c9d067756afda2",
@@ -32070,7 +32085,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-bc71690c656dfe",
@@ -32092,7 +32109,7 @@
       "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
       "url": "https://sayaka-biyou-clinic.com/mounjaro/fukushima/",
       "official_url_hint": "https://www.keisei.ne.jp/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "다른 등록 병원 공식 도메인에 속하는 가격표. 기관 동일성 확인 전 자동 등록 보류: https://www.keisei.ne.jp/",
       "fees": "미확인",
       "status": "candidate",
       "address": "福島県郡山市駅前二丁目３番１０号セントラルビル６階",
@@ -32111,7 +32128,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-7ac8c26b4c6c43",
@@ -32152,7 +32171,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-adf02da7fb8052",
@@ -32193,7 +32214,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-35b84b8cd8282f",
@@ -32234,7 +32257,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-f586e862c46402",
@@ -32275,7 +32300,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-16886f35649457",
@@ -32316,7 +32343,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-1b50dd07aa991d",
@@ -32357,7 +32386,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-499b5faec753c8",
@@ -32398,7 +32429,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-c40fa3f114b672",
@@ -32411,23 +32444,23 @@
       "ship": "unknown",
       "prices": {
         "2.5": null,
-        "5": null,
-        "7.5": null,
+        "5": 118800,
+        "7.5": 171600,
         "10": null,
         "12.5": null,
         "15": null
       },
-      "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
-      "url": "https://sayaka-biyou-clinic.com/mounjaro/kanagawa/",
+      "basis": "공식 병원 가격표 · 용량별 (12펜 기준 단위 환산; 일괄 처방 가능 여부 별도); 마운자로 브랜드/약품 구역 독립 재검증",
+      "url": "https://k-ishidacl.com/price/",
       "official_url_hint": "https://k-ishidacl.com/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "공식 페이지의 용량·단위가 명확한 금액만 등록. 외국인 처방·배송·12펜 일괄 구매 여부 별도 확인.",
       "fees": "미확인",
-      "status": "candidate",
+      "status": "active",
       "address": "神奈川県横浜市中区尾上町",
-      "channel": "후생노동성 공식 DB + 공개 비교 사이트",
-      "updated": "2026-11-21",
+      "channel": "전국 공개 자료 발견 → 공식 홈페이지 가격 검증",
+      "updated": "2026-11-23",
       "discovery": "national",
-      "price_verified": false,
+      "price_verified": true,
       "identity_conflict": false,
       "mhlw_id": "1421428119800",
       "mhlw_identity_matched": true,
@@ -32439,7 +32472,12 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1,
+      "official_domain": "k-ishidacl.com",
+      "official_price_audit_status": "passed",
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-4047a830e65d79",
@@ -32480,7 +32518,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-07103de40720c3",
@@ -32521,7 +32561,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-6697ca886e2e7d",
@@ -32543,7 +32585,7 @@
       "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
       "url": "https://sayaka-biyou-clinic.com/mounjaro/aomori/",
       "official_url_hint": "https://www.keisei.ne.jp/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "다른 등록 병원 공식 도메인에 속하는 가격표. 기관 동일성 확인 전 자동 등록 보류: https://www.keisei.ne.jp/",
       "fees": "미확인",
       "status": "candidate",
       "address": "青森県青森市新町一丁目８番地８号　アセントビル３Ｆ",
@@ -32562,7 +32604,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-67eb578002bb91",
@@ -32603,7 +32647,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-536631f517417e",
@@ -32644,7 +32690,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-204c12b52c6dab",
@@ -32685,7 +32733,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-e3c1d2cc4be2bc",
@@ -32726,7 +32776,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-8939510f67cc6c",
@@ -32767,7 +32819,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-6cf9ef9a7df8bb",
@@ -32808,7 +32862,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-d8e63c3a1e23e0",
@@ -32821,23 +32877,23 @@
       "ship": "unknown",
       "prices": {
         "2.5": null,
-        "5": null,
-        "7.5": null,
+        "5": 90000,
+        "7.5": 120000,
         "10": null,
         "12.5": null,
         "15": null
       },
-      "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
-      "url": "https://sayaka-biyou-clinic.com/mounjaro/tokyo/",
+      "basis": "공식 병원 가격표 · 용량별 (12펜 기준 단위 환산; 일괄 처방 가능 여부 별도); 마운자로 브랜드/약품 구역 독립 재검증",
+      "url": "https://wellness.or.jp/treatment/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%AB%E3%83%AB%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88%E5%A4%96%E6%9D%A5/",
       "official_url_hint": "https://wellness.or.jp/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "공식 페이지의 용량·단위가 명확한 금액만 등록. 외국인 처방·배송·12펜 일괄 구매 여부 별도 확인.",
       "fees": "미확인",
-      "status": "candidate",
+      "status": "active",
       "address": "東京都千代田区神田神保町２－２－３４千代田三信ビル１０２",
-      "channel": "후생노동성 공식 DB + 공개 비교 사이트",
-      "updated": "2026-11-21",
+      "channel": "전국 공개 자료 발견 → 공식 홈페이지 가격 검증",
+      "updated": "2026-11-23",
       "discovery": "national",
-      "price_verified": false,
+      "price_verified": true,
       "identity_conflict": false,
       "mhlw_id": "1321310137471",
       "mhlw_identity_matched": true,
@@ -32849,7 +32905,12 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1,
+      "official_domain": "wellness.or.jp",
+      "official_price_audit_status": "passed",
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-5233413a93bb4c",
@@ -32890,7 +32951,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-6c3b586db912ab",
@@ -32912,7 +32975,7 @@
       "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
       "url": "https://sayaka-biyou-clinic.com/mounjaro/kagoshima/",
       "official_url_hint": "https://www.chuoh-clinic-kagoshima.com/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "다른 지역에 동일 명칭 병원이 존재. 주소·공식 도메인 검증 전 가격 자동 등록 보류.",
       "fees": "미확인",
       "status": "candidate",
       "address": "鹿児島県鹿児島市山下町９番１号　チャイムズビル６Ｆ",
@@ -32931,7 +32994,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-e2daaf6236a7c0",
@@ -32972,7 +33037,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-bd7c2e5e63d5ec",
@@ -33013,7 +33080,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-3dca2ac7d210d3",
@@ -33054,7 +33123,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-75cd6439e577fb",
@@ -33067,23 +33138,23 @@
       "ship": "unknown",
       "prices": {
         "2.5": null,
-        "5": null,
-        "7.5": null,
+        "5": 105600,
+        "7.5": 160800,
         "10": null,
         "12.5": null,
         "15": null
       },
-      "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
-      "url": "https://sayaka-biyou-clinic.com/mounjaro/tokyo/",
+      "basis": "공식 병원 가격표 · 용량별 (12펜 기준 단위 환산; 일괄 처방 가능 여부 별도); 마운자로 브랜드/약품 구역 독립 재검증",
+      "url": "https://aiclinic8128.com/menu/price.html",
       "official_url_hint": "https://aiclinic8128.com/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "공식 페이지의 용량·단위가 명확한 금액만 등록. 외국인 처방·배송·12펜 일괄 구매 여부 별도 확인.",
       "fees": "미확인",
-      "status": "candidate",
+      "status": "active",
       "address": "東京都豊島区池袋２－１－１　千野時計店本社ビル４Ｆ",
-      "channel": "후생노동성 공식 DB + 공개 비교 사이트",
-      "updated": "2026-11-21",
+      "channel": "전국 공개 자료 발견 → 공식 홈페이지 가격 검증",
+      "updated": "2026-11-23",
       "discovery": "national",
-      "price_verified": false,
+      "price_verified": true,
       "identity_conflict": false,
       "mhlw_id": "1322133700295",
       "mhlw_identity_matched": true,
@@ -33095,7 +33166,12 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1,
+      "official_domain": "aiclinic8128.com",
+      "official_price_audit_status": "passed",
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-93e9aa944692e4",
@@ -33136,7 +33212,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-759879e8e12683",
@@ -33177,7 +33255,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-62f253b1bd01d8",
@@ -33218,7 +33298,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-d985bbafbf4ded",
@@ -33259,7 +33341,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-ac94a9ee49f951",
@@ -33300,7 +33384,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-199d50dae578d1",
@@ -33341,7 +33427,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-cee9b15a5069c9",
@@ -33353,24 +33441,24 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
-        "5": null,
-        "7.5": null,
+        "2.5": 58800,
+        "5": 98400,
+        "7.5": 131400,
         "10": null,
         "12.5": null,
         "15": null
       },
-      "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
-      "url": "https://sayaka-biyou-clinic.com/mounjaro/saitama/",
+      "basis": "공식 병원 가격표 · 용량별 (12펜 기준 단위 환산; 일괄 처방 가능 여부 별도); 마운자로 브랜드/약품 구역 독립 재검증",
+      "url": "https://www.brights-beauty.jp/mounjaro/",
       "official_url_hint": "https://www.brights-beauty.jp/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "공식 페이지의 용량·단위가 명확한 금액만 등록. 외국인 처방·배송·12펜 일괄 구매 여부 별도 확인.",
       "fees": "미확인",
-      "status": "candidate",
+      "status": "active",
       "address": "埼玉県さいたま市浦和区仲町１−４−１２Ｃｒｏｂｓ浦和５Ｆ",
-      "channel": "후생노동성 공식 DB + 공개 비교 사이트",
-      "updated": "2026-11-21",
+      "channel": "전국 공개 자료 발견 → 공식 홈페이지 가격 검증",
+      "updated": "2026-11-23",
       "discovery": "national",
-      "price_verified": false,
+      "price_verified": true,
       "identity_conflict": false,
       "mhlw_id": "1121125863200",
       "mhlw_identity_matched": true,
@@ -33382,7 +33470,12 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1,
+      "official_domain": "brights-beauty.jp",
+      "official_price_audit_status": "passed",
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-19418662f92925",
@@ -33423,7 +33516,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-1ef1205003ede5",
@@ -33435,24 +33530,24 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
-        "5": null,
-        "7.5": null,
+        "2.5": 47520,
+        "5": 89760,
+        "7.5": 142560,
         "10": null,
         "12.5": null,
         "15": null
       },
-      "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
-      "url": "https://sayaka-biyou-clinic.com/mounjaro/aichi/",
+      "basis": "공식 병원 가격표 · 용량별 (12펜 기준 단위 환산; 일괄 처방 가능 여부 별도); 마운자로 브랜드/약품 구역 독립 재검증",
+      "url": "https://cl7.jp/beauty/medical-diet/",
       "official_url_hint": "https://cl7.jp/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "공식 페이지의 용량·단위가 명확한 금액만 등록. 외국인 처방·배송·12펜 일괄 구매 여부 별도 확인.",
       "fees": "미확인",
-      "status": "candidate",
+      "status": "active",
       "address": "愛知県名古屋市中区錦２丁目７－２９ＧＯＴＯ　ＢＬＤ２　２Ｆ",
-      "channel": "후생노동성 공식 DB + 공개 비교 사이트",
-      "updated": "2026-11-21",
+      "channel": "전국 공개 자료 발견 → 공식 홈페이지 가격 검증",
+      "updated": "2026-11-23",
       "discovery": "national",
-      "price_verified": false,
+      "price_verified": true,
       "identity_conflict": false,
       "mhlw_id": "2322232412470",
       "mhlw_identity_matched": true,
@@ -33464,7 +33559,12 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1,
+      "official_domain": "cl7.jp",
+      "official_price_audit_status": "passed",
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-27492619b42906",
@@ -33505,7 +33605,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-bc39c46aff3977",
@@ -33551,7 +33653,7 @@
       "official_attempts": 1,
       "official_domain": "haab.clinic",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-22T12:48:42+09:00"
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-e57fb163c9070e",
@@ -33592,7 +33694,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-ef790698fb3f55",
@@ -33633,7 +33737,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-5b8075afef8c6e",
@@ -33674,7 +33780,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:20+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-c80ee7a18e7ad7",
@@ -33715,7 +33823,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-1b3e87d8de682d",
@@ -33756,7 +33866,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-a70813c1231d68",
@@ -33797,7 +33909,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-ca63cd326d8452",
@@ -33838,7 +33952,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-4b7a5067985c39",
@@ -33879,7 +33995,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-e2abeb3a606c3e",
@@ -33920,7 +34038,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-fd79c80585f4da",
@@ -33961,7 +34081,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-ef7929e4e6bbc3",
@@ -34002,7 +34124,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-72532864223b07",
@@ -34014,24 +34138,24 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
-        "5": null,
-        "7.5": null,
+        "2.5": 66000,
+        "5": 132000,
+        "7.5": 198000,
         "10": null,
         "12.5": null,
         "15": null
       },
-      "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
-      "url": "https://sayaka-biyou-clinic.com/mounjaro/kanagawa/",
+      "basis": "공식 병원 가격표 · 용량별 (12펜 기준 단위 환산; 일괄 처방 가능 여부 별도); 마운자로 브랜드/약품 구역 독립 재검증",
+      "url": "https://mioskin-clinic.com/fee/",
       "official_url_hint": "https://mioskin-clinic.com/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "공식 페이지의 용량·단위가 명확한 금액만 등록. 외국인 처방·배송·12펜 일괄 구매 여부 별도 확인.",
       "fees": "미확인",
-      "status": "candidate",
+      "status": "active",
       "address": "神奈川県小田原市栄町１－５－１６オゾン２ビルＡ棟２階",
-      "channel": "후생노동성 공식 DB + 공개 비교 사이트",
-      "updated": "2026-11-21",
+      "channel": "전국 공개 자료 발견 → 공식 홈페이지 가격 검증",
+      "updated": "2026-11-23",
       "discovery": "national",
-      "price_verified": false,
+      "price_verified": true,
       "identity_conflict": false,
       "mhlw_id": "1421431000285",
       "mhlw_identity_matched": true,
@@ -34043,7 +34167,12 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1,
+      "official_domain": "mioskin-clinic.com",
+      "official_price_audit_status": "passed",
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-28e343798c59fc",
@@ -34084,7 +34213,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-c2cdfa47ac4a27",
@@ -34125,7 +34256,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-11751032059401",
@@ -34147,7 +34280,7 @@
       "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
       "url": "https://sayaka-biyou-clinic.com/mounjaro/tokyo/",
       "official_url_hint": "https://mona-life.jp/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "다른 지역에 동일 명칭 병원이 존재. 주소·공식 도메인 검증 전 가격 자동 등록 보류.",
       "fees": "미확인",
       "status": "candidate",
       "address": "東京都港区南青山１－１０－３　南青山Ⅾビル３階",
@@ -34166,7 +34299,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:22+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-2b9e5f304c97f2",
@@ -34188,7 +34323,7 @@
       "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
       "url": "https://sayaka-biyou-clinic.com/mounjaro/tokyo/",
       "official_url_hint": "https://n2clinic-chinzanso.com/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "다른 지역에 동일 명칭 병원이 존재. 주소·공식 도메인 검증 전 가격 자동 등록 보류.",
       "fees": "미확인",
       "status": "candidate",
       "address": "東京都文京区関口２－１０－８　ホテル椿山荘東京ホテル棟３Ｆ",
@@ -34207,7 +34342,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:22+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-2ff56ffaacaec2",
@@ -34229,7 +34366,7 @@
       "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
       "url": "https://sayaka-biyou-clinic.com/mounjaro/osaka/",
       "official_url_hint": "https://one-clinic-umeda.com/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "다른 지역에 동일 명칭 병원이 존재. 주소·공식 도메인 검증 전 가격 자동 등록 보류.",
       "fees": "미확인",
       "status": "candidate",
       "address": "大阪府大阪市北区堂山町１８－２　若杉東梅田ビル５Ｆ",
@@ -34248,7 +34385,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:22+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-4b4ba668c3fa56",
@@ -34261,23 +34400,23 @@
       "ship": "unknown",
       "prices": {
         "2.5": null,
-        "5": null,
+        "5": 235200,
         "7.5": null,
         "10": null,
         "12.5": null,
         "15": null
       },
-      "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
-      "url": "https://sayaka-biyou-clinic.com/mounjaro/tokyo/",
+      "basis": "공식 병원 가격표 · 용량별 (12펜 기준 단위 환산; 일괄 처방 가능 여부 별도); 마운자로 브랜드/약품 구역 독립 재검증",
+      "url": "https://prism-clinic.com/archives/price/",
       "official_url_hint": "https://prism-clinic.com/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "공식 페이지의 용량·단위가 명확한 금액만 등록. 외국인 처방·배송·12펜 일괄 구매 여부 별도 확인.",
       "fees": "미확인",
-      "status": "candidate",
+      "status": "active",
       "address": "東京都町田市原町田６丁目２１－３２　Ｍａｃｈｉｄａ　ｅｘ４階",
-      "channel": "후생노동성 공식 DB + 공개 비교 사이트",
-      "updated": "2026-11-21",
+      "channel": "전국 공개 자료 발견 → 공식 홈페이지 가격 검증",
+      "updated": "2026-11-23",
       "discovery": "national",
-      "price_verified": false,
+      "price_verified": true,
       "identity_conflict": false,
       "mhlw_id": "1321313229440",
       "mhlw_identity_matched": true,
@@ -34289,7 +34428,12 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1,
+      "official_domain": "prism-clinic.com",
+      "official_price_audit_status": "passed",
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-1fb4b7de6edff2",
@@ -34330,7 +34474,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-db6f97197eb3ab",
@@ -34343,23 +34489,23 @@
       "ship": "unknown",
       "prices": {
         "2.5": null,
-        "5": null,
+        "5": 108000,
         "7.5": null,
         "10": null,
         "12.5": null,
         "15": null
       },
-      "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
-      "url": "https://sayaka-biyou-clinic.com/mounjaro/ibaraki/",
+      "basis": "공식 홈페이지 · 용량별 명시 가격 (12펜 기준 단위 환산; 일괄 처방 가능 여부 별도); 마운자로 브랜드/약품 구역 독립 재검증",
+      "url": "https://rejubeautyclinic.jp/service/mounjaro-medical-diet/",
       "official_url_hint": "https://rejubeautyclinic.jp/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "공식 페이지의 용량·단위가 명확한 금액만 등록. 외국인 처방·배송·12펜 일괄 구매 여부 별도 확인.",
       "fees": "미확인",
-      "status": "candidate",
+      "status": "active",
       "address": "茨城県つくば市研究学園１－２－１５ＡＪ－ＨＩＬＬＳ２階Ｄ",
-      "channel": "후생노동성 공식 DB + 공개 비교 사이트",
-      "updated": "2026-11-21",
+      "channel": "전국 공개 자료 발견 → 공식 홈페이지 가격 검증",
+      "updated": "2026-11-23",
       "discovery": "national",
-      "price_verified": false,
+      "price_verified": true,
       "identity_conflict": false,
       "mhlw_id": "0822080003604",
       "mhlw_identity_matched": true,
@@ -34371,7 +34517,12 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1,
+      "official_domain": "rejubeautyclinic.jp",
+      "official_price_audit_status": "passed",
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-d7374ece197502",
@@ -34412,7 +34563,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-10d5fe404c914a",
@@ -34424,24 +34577,24 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
-        "5": null,
+        "2.5": 78000,
+        "5": 150000,
         "7.5": null,
         "10": null,
         "12.5": null,
         "15": null
       },
-      "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
-      "url": "https://sayaka-biyou-clinic.com/mounjaro/tokyo/",
+      "basis": "공식 병원 가격표 · 용량별 (12펜 기준 단위 환산; 일괄 처방 가능 여부 별도); 마운자로 브랜드/약품 구역 독립 재검증",
+      "url": "https://solclinic.org/beauty/diet/",
       "official_url_hint": "https://solclinic.org/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "공식 페이지의 용량·단위가 명확한 금액만 등록. 외국인 처방·배송·12펜 일괄 구매 여부 별도 확인.",
       "fees": "미확인",
-      "status": "candidate",
+      "status": "active",
       "address": "東京都目黒区上目黒１－７－８　Ａｐｅｒｔｏ中目黒２Ｆ",
-      "channel": "후생노동성 공식 DB + 공개 비교 사이트",
-      "updated": "2026-11-21",
+      "channel": "전국 공개 자료 발견 → 공식 홈페이지 가격 검증",
+      "updated": "2026-11-23",
       "discovery": "national",
-      "price_verified": false,
+      "price_verified": true,
       "identity_conflict": false,
       "mhlw_id": "1322135500142",
       "mhlw_identity_matched": true,
@@ -34453,7 +34606,12 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1,
+      "official_domain": "solclinic.org",
+      "official_price_audit_status": "passed",
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-53ae1cd9c13b0b",
@@ -34494,7 +34652,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-24a076dd6c503e",
@@ -34535,7 +34695,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-dc2bdc03a31823",
@@ -34576,7 +34738,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-df92c86f425272",
@@ -34588,24 +34752,24 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
-        "5": null,
-        "7.5": null,
-        "10": null,
-        "12.5": null,
+        "2.5": 54000,
+        "5": 96000,
+        "7.5": 135000,
+        "10": 165000,
+        "12.5": 195000,
         "15": null
       },
-      "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
-      "url": "https://sayaka-biyou-clinic.com/mounjaro/kanagawa/",
+      "basis": "공식 병원 가격표 · 용량별 (12펜 기준 단위 환산; 일괄 처방 가능 여부 별도); 마운자로 브랜드/약품 구역 독립 재검증",
+      "url": "https://www.unmed-clinic.jp/mounjaro/",
       "official_url_hint": "https://www.unmed-clinic.jp/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "공식 페이지의 용량·단위가 명확한 금액만 등록. 외국인 처방·배송·12펜 일괄 구매 여부 별도 확인.",
       "fees": "미확인",
-      "status": "candidate",
+      "status": "active",
       "address": "神奈川県横浜市中区元町３－１１６高倉ビル１階",
-      "channel": "후생노동성 공식 DB + 공개 비교 사이트",
-      "updated": "2026-11-21",
+      "channel": "전국 공개 자료 발견 → 공식 홈페이지 가격 검증",
+      "updated": "2026-11-23",
       "discovery": "national",
-      "price_verified": false,
+      "price_verified": true,
       "identity_conflict": false,
       "mhlw_id": "1421426949000",
       "mhlw_identity_matched": true,
@@ -34617,7 +34781,12 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1,
+      "official_domain": "unmed-clinic.jp",
+      "official_price_audit_status": "passed",
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-21abb2cdaf6f9e",
@@ -34658,7 +34827,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-6bf8fca00c8e12",
@@ -34670,24 +34841,24 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
+        "2.5": 89100,
         "5": null,
         "7.5": null,
         "10": null,
         "12.5": null,
         "15": null
       },
-      "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
-      "url": "https://sayaka-biyou-clinic.com/mounjaro/toyama/",
+      "basis": "공식 병원 가격표 · 용량별 (12펜 기준 단위 환산; 일괄 처방 가능 여부 별도); 마운자로 브랜드/약품 구역 독립 재검증",
+      "url": "https://eclinic-toyama.jp/price/",
       "official_url_hint": "https://eclinic-toyama.jp/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "공식 페이지의 용량·단위가 명확한 금액만 등록. 외국인 처방·배송·12펜 일괄 구매 여부 별도 확인.",
       "fees": "미확인",
-      "status": "candidate",
+      "status": "active",
       "address": "富山県射水市戸破２１６４−２",
-      "channel": "후생노동성 공식 DB + 공개 비교 사이트",
-      "updated": "2026-11-21",
+      "channel": "전국 공개 자료 발견 → 공식 홈페이지 가격 검증",
+      "updated": "2026-11-23",
       "discovery": "national",
-      "price_verified": false,
+      "price_verified": true,
       "identity_conflict": false,
       "mhlw_id": "1622163000450",
       "mhlw_identity_matched": true,
@@ -34699,7 +34870,12 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1,
+      "official_domain": "eclinic-toyama.jp",
+      "official_price_audit_status": "passed",
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-29375f0d3701da",
@@ -34740,7 +34916,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-33e8c7ae384fd4",
@@ -34752,24 +34930,24 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
-        "5": null,
-        "7.5": null,
+        "2.5": 84000,
+        "5": 120000,
+        "7.5": 165000,
         "10": null,
         "12.5": null,
         "15": null
       },
-      "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
-      "url": "https://sayaka-biyou-clinic.com/mounjaro/kanagawa/",
+      "basis": "공식 홈페이지 · 용량별 명시 가격 (12펜 기준 단위 환산; 일괄 처방 가능 여부 별도); 마운자로 브랜드/약품 구역 독립 재검증",
+      "url": "https://eatlife-cl.com/menu/%E8%87%AA%E7%94%B1%E8%A8%BA%E7%99%82/",
       "official_url_hint": "https://eatlife-cl.com/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "공식 페이지의 용량·단위가 명확한 금액만 등록. 외국인 처방·배송·12펜 일괄 구매 여부 별도 확인.",
       "fees": "미확인",
-      "status": "candidate",
+      "status": "active",
       "address": "神奈川県横浜市旭区鶴ケ峰２－２０－１くいーぷビル３階",
-      "channel": "후생노동성 공식 DB + 공개 비교 사이트",
-      "updated": "2026-11-21",
+      "channel": "전국 공개 자료 발견 → 공식 홈페이지 가격 검증",
+      "updated": "2026-11-23",
       "discovery": "national",
-      "price_verified": false,
+      "price_verified": true,
       "identity_conflict": false,
       "mhlw_id": "1421431000006",
       "mhlw_identity_matched": true,
@@ -34781,7 +34959,12 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1,
+      "official_domain": "eatlife-cl.com",
+      "official_price_audit_status": "passed",
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-61b12ebb9a8c3e",
@@ -34793,24 +34976,24 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
-        "5": null,
-        "7.5": null,
-        "10": null,
+        "2.5": 79200,
+        "5": 118800,
+        "7.5": 158400,
+        "10": 198000,
         "12.5": null,
         "15": null
       },
-      "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
-      "url": "https://sayaka-biyou-clinic.com/mounjaro/tokyo/",
+      "basis": "공식 병원 가격표 · 용량별 (12펜 기준 단위 환산; 일괄 처방 가능 여부 별도); 마운자로 브랜드/약품 구역 독립 재검증",
+      "url": "https://toclinic.jp/price_list/",
       "official_url_hint": "https://toclinic.jp/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "공식 페이지의 용량·단위가 명확한 금액만 등록. 외국인 처방·배송·12펜 일괄 구매 여부 별도 확인.",
       "fees": "미확인",
-      "status": "candidate",
+      "status": "active",
       "address": "東京都渋谷区桜丘町１－４渋谷サクラステージＳＨＩＢＵＹＡタワー７階",
-      "channel": "후생노동성 공식 DB + 공개 비교 사이트",
-      "updated": "2026-11-21",
+      "channel": "전국 공개 자료 발견 → 공식 홈페이지 가격 검증",
+      "updated": "2026-11-23",
       "discovery": "national",
-      "price_verified": false,
+      "price_verified": true,
       "identity_conflict": false,
       "mhlw_id": "1321316021489",
       "mhlw_identity_matched": true,
@@ -34822,7 +35005,12 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1,
+      "official_domain": "toclinic.jp",
+      "official_price_audit_status": "passed",
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-bc272f45d7a772",
@@ -34863,7 +35051,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-3de46e110ee288",
@@ -34885,7 +35075,7 @@
       "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
       "url": "https://sayaka-biyou-clinic.com/mounjaro/okinawa/",
       "official_url_hint": "https://blaze-clinic.com/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "다른 지역에 동일 명칭 병원이 존재. 주소·공식 도메인 검증 전 가격 자동 등록 보류.",
       "fees": "미확인",
       "status": "candidate",
       "address": "",
@@ -34904,7 +35094,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:22+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-677e3f0eec760a",
@@ -34945,7 +35137,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-bf722c2552c3f7",
@@ -34967,7 +35161,7 @@
       "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
       "url": "https://sayaka-biyou-clinic.com/mounjaro/kanagawa/",
       "official_url_hint": "https://bonbonclinic.com/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "공식 사이트 후보 발견, 병원명 교차 검증 실패: https://bonbonclinic.com/menu/mounjaro/",
       "fees": "미확인",
       "status": "candidate",
       "address": "",
@@ -34986,7 +35180,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:22+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-530f9234d60426",
@@ -35027,7 +35223,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:23+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-51a039c54efbaf",
@@ -35068,7 +35266,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:23+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-ad53d3d752cb43",
@@ -35080,24 +35280,24 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
-        "5": null,
-        "7.5": null,
+        "2.5": 96000,
+        "5": 156000,
+        "7.5": 180000,
         "10": null,
         "12.5": null,
         "15": null
       },
-      "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
-      "url": "https://sayaka-biyou-clinic.com/mounjaro/tokyo/",
+      "basis": "공식 병원 가격표 · 용량별 (12펜 기준 단위 환산; 일괄 처방 가능 여부 별도); 마운자로 브랜드/약품 구역 독립 재검증",
+      "url": "https://fellez-clinic.com/menu/731/",
       "official_url_hint": "https://fellez-clinic.com/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "공식 페이지의 용량·단위가 명확한 금액만 등록. 외국인 처방·배송·12펜 일괄 구매 여부 별도 확인.",
       "fees": "미확인",
-      "status": "candidate",
+      "status": "active",
       "address": "",
-      "channel": "공개 비교 사이트 공식 사이트 링크",
-      "updated": "2026-11-21",
+      "channel": "전국 공개 자료 발견 → 공식 홈페이지 가격 검증",
+      "updated": "2026-11-23",
       "discovery": "national",
-      "price_verified": false,
+      "price_verified": true,
       "identity_conflict": false,
       "mhlw_id": "",
       "mhlw_identity_matched": false,
@@ -35109,7 +35309,12 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1,
+      "official_domain": "fellez-clinic.com",
+      "official_price_audit_status": "passed",
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-eaf2a4554ac609",
@@ -35150,7 +35355,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-85c44f749e5461",
@@ -35163,23 +35370,23 @@
       "ship": "unknown",
       "prices": {
         "2.5": null,
-        "5": null,
-        "7.5": null,
+        "5": 92400,
+        "7.5": 132000,
         "10": null,
         "12.5": null,
         "15": null
       },
-      "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
-      "url": "https://sayaka-biyou-clinic.com/mounjaro/hyogo/",
+      "basis": "공식 병원 가격표 · 용량별 (12펜 기준 단위 환산; 일괄 처방 가능 여부 별도); 마운자로 브랜드/약품 구역 독립 재검증",
+      "url": "https://loopclinic.jp/price-list/",
       "official_url_hint": "https://loopclinic.jp/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "공식 페이지의 용량·단위가 명확한 금액만 등록. 외국인 처방·배송·12펜 일괄 구매 여부 별도 확인.",
       "fees": "미확인",
-      "status": "candidate",
+      "status": "active",
       "address": "",
-      "channel": "공개 비교 사이트 공식 사이트 링크",
-      "updated": "2026-11-21",
+      "channel": "전국 공개 자료 발견 → 공식 홈페이지 가격 검증",
+      "updated": "2026-11-23",
       "discovery": "national",
-      "price_verified": false,
+      "price_verified": true,
       "identity_conflict": false,
       "mhlw_id": "",
       "mhlw_identity_matched": false,
@@ -35191,7 +35398,12 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1,
+      "official_domain": "loopclinic.jp",
+      "official_price_audit_status": "passed",
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-f9457365fbd97a",
@@ -35213,7 +35425,7 @@
       "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
       "url": "https://sayaka-biyou-clinic.com/mounjaro/osaka/",
       "official_url_hint": "https://mb-clinic.jp/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "다른 지역에 동일 명칭 병원이 존재. 주소·공식 도메인 검증 전 가격 자동 등록 보류.",
       "fees": "미확인",
       "status": "candidate",
       "address": "",
@@ -35232,7 +35444,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:24+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-91a811ce91f3e6",
@@ -35273,7 +35487,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-04e9c19c2d26cd",
@@ -35314,7 +35530,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-1317ecaeffc763",
@@ -35336,7 +35554,7 @@
       "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
       "url": "https://sayaka-biyou-clinic.com/mounjaro/tokyo/",
       "official_url_hint": "https://pbc-tokyo.jp/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "다른 지역에 동일 명칭 병원이 존재. 주소·공식 도메인 검증 전 가격 자동 등록 보류.",
       "fees": "미확인",
       "status": "candidate",
       "address": "",
@@ -35355,7 +35573,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:24+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-5af428be3dd060",
@@ -35377,7 +35597,7 @@
       "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
       "url": "https://sayaka-biyou-clinic.com/mounjaro/tokyo/",
       "official_url_hint": "https://shinjuku.pgc-clinic.jp/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "다른 지역에 동일 명칭 병원이 존재. 주소·공식 도메인 검증 전 가격 자동 등록 보류.",
       "fees": "미확인",
       "status": "candidate",
       "address": "",
@@ -35396,7 +35616,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:24+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-4158f9ddf3a6c0",
@@ -35437,7 +35659,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-8f2ca97139f7ff",
@@ -35450,23 +35674,23 @@
       "ship": "unknown",
       "prices": {
         "2.5": null,
-        "5": null,
-        "7.5": null,
-        "10": null,
+        "5": 110400,
+        "7.5": 164400,
+        "10": 224400,
         "12.5": null,
         "15": null
       },
-      "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
-      "url": "https://sayaka-biyou-clinic.com/mounjaro/aichi/",
+      "basis": "공식 병원 가격표 · 용량별 (12펜 기준 단위 환산; 일괄 처방 가능 여부 별도); 마운자로 브랜드/약품 구역 독립 재검증",
+      "url": "https://rebirth-clinic.jp/treatment/mounjaro/",
       "official_url_hint": "https://rebirth-clinic.jp/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "공식 페이지의 용량·단위가 명확한 금액만 등록. 외국인 처방·배송·12펜 일괄 구매 여부 별도 확인.",
       "fees": "미확인",
-      "status": "candidate",
+      "status": "active",
       "address": "",
-      "channel": "공개 비교 사이트 공식 사이트 링크",
-      "updated": "2026-11-21",
+      "channel": "전국 공개 자료 발견 → 공식 홈페이지 가격 검증",
+      "updated": "2026-11-23",
       "discovery": "national",
-      "price_verified": false,
+      "price_verified": true,
       "identity_conflict": false,
       "mhlw_id": "",
       "mhlw_identity_matched": false,
@@ -35478,7 +35702,12 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1,
+      "official_domain": "rebirth-clinic.jp",
+      "official_price_audit_status": "passed",
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-7e2c722ce60229",
@@ -35519,7 +35748,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-979dd517479ed4",
@@ -35560,7 +35791,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-8edc708fd7ee72",
@@ -35582,7 +35815,7 @@
       "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
       "url": "https://sayaka-biyou-clinic.com/mounjaro/osaka/",
       "official_url_hint": "https://sherieclinic.jp/osaka/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "공식 사이트 후보 발견, 병원명 교차 검증 실패: https://sherieclinic.jp/price/",
       "fees": "미확인",
       "status": "candidate",
       "address": "",
@@ -35601,7 +35834,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:24+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-93f4357229e4e8",
@@ -35642,7 +35877,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:26+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-37a1877d55d297",
@@ -35683,7 +35920,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:29+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-db7da05398feb3",
@@ -35724,7 +35963,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:29+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-aeb26bc220b0e3",
@@ -35765,7 +36006,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:31+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-1ed4c993d8ab8d",
@@ -35777,24 +36020,24 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
-        "5": null,
+        "2.5": 51000,
+        "5": 102000,
         "7.5": null,
         "10": null,
         "12.5": null,
         "15": null
       },
-      "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
-      "url": "https://sayaka-biyou-clinic.com/mounjaro/okinawa/",
+      "basis": "공식 병원 가격표 · 용량별 (12펜 기준 단위 환산; 일괄 처방 가능 여부 별도); 공개 검색 후보를 공식 페이지로 교차 확인",
+      "url": "https://okibi-clinic.com/price",
       "official_url_hint": "https://okibi-clinic.com/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "가격은 공식 페이지에서 단위를 명시한 금액만 채움. 외국인/배송/온라인 진료는 검증 전이며 자동으로 가능 표시하지 않음.",
       "fees": "미확인",
-      "status": "candidate",
+      "status": "active",
       "address": "",
-      "channel": "공개 비교 사이트 공식 사이트 링크",
-      "updated": "2026-11-21",
+      "channel": "공식 홈페이지 검색 → 공식 가격 검증",
+      "updated": "2026-11-23",
       "discovery": "national",
-      "price_verified": false,
+      "price_verified": true,
       "identity_conflict": false,
       "mhlw_id": "",
       "mhlw_identity_matched": false,
@@ -35806,7 +36049,11 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:34+09:00",
+      "official_attempts": 1,
+      "official_domain": "okibi-clinic.com",
+      "official_price_audit_status": "page_unavailable"
     },
     {
       "id": "national-1175c57a93cf68",
@@ -35847,7 +36094,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:35+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-2407711a4200fd",
@@ -35869,7 +36118,7 @@
       "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
       "url": "https://sayaka-biyou-clinic.com/mounjaro/kyoto/",
       "official_url_hint": "https://kirei-clinic.com/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "다른 지역에 동일 명칭 병원이 존재. 주소·공식 도메인 검증 전 가격 자동 등록 보류.",
       "fees": "미확인",
       "status": "candidate",
       "address": "",
@@ -35888,7 +36137,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:37+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-aafbfdecdeaff5",
@@ -35929,7 +36180,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:37+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-6ee8737bb18088",
@@ -35970,7 +36223,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:38+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-11aef30667fd69",
@@ -35982,24 +36237,24 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
+        "2.5": 51900,
         "5": null,
         "7.5": null,
         "10": null,
         "12.5": null,
         "15": null
       },
-      "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
-      "url": "https://sayaka-biyou-clinic.com/mounjaro/fukuoka/",
+      "basis": "공식 병원 가격표 · 용량별 (12펜 기준 단위 환산; 일괄 처방 가능 여부 별도); 마운자로 브랜드/약품 구역 독립 재검증",
+      "url": "https://shimizu-cl-ohashi.com/obesity",
       "official_url_hint": "https://shimizu-cl-ohashi.com/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "가격은 공식 페이지에서 단위를 명시한 금액만 채움. 외국인/배송/온라인 진료는 검증 전이며 자동으로 가능 표시하지 않음.",
       "fees": "미확인",
-      "status": "candidate",
+      "status": "active",
       "address": "",
-      "channel": "공개 비교 사이트 공식 사이트 링크",
-      "updated": "2026-11-21",
+      "channel": "공식 홈페이지 검색 → 공식 가격 검증",
+      "updated": "2026-11-23",
       "discovery": "national",
-      "price_verified": false,
+      "price_verified": true,
       "identity_conflict": false,
       "mhlw_id": "",
       "mhlw_identity_matched": false,
@@ -36011,7 +36266,12 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:39+09:00",
+      "official_attempts": 1,
+      "official_domain": "shimizu-cl-ohashi.com",
+      "official_price_audit_status": "passed",
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-8f4a2ab3e347b4",
@@ -36052,7 +36312,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:41+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-bb8d31b9a6e87a",
@@ -36093,7 +36355,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:44+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-63b7c41459a0ed",
@@ -36134,7 +36398,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:47+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-b01b9647df2735",
@@ -36175,7 +36441,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:47+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-16f3ddca8e8c5b",
@@ -36187,24 +36455,24 @@
       "online": "unknown",
       "ship": "unknown",
       "prices": {
-        "2.5": null,
-        "5": null,
-        "7.5": null,
-        "10": null,
+        "2.5": 84000,
+        "5": 132000,
+        "7.5": 180000,
+        "10": 240000,
         "12.5": null,
         "15": null
       },
-      "basis": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
-      "url": "https://sayaka-biyou-clinic.com/mounjaro/chiba/",
+      "basis": "공식 병원 가격표 · 용량별 (12펜 기준 단위 환산; 일괄 처방 가능 여부 별도); 마운자로 브랜드/약품 구역 독립 재검증",
+      "url": "https://midoriclinic.jp/price/",
       "official_url_hint": "https://midoriclinic.jp/",
-      "notes": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+      "notes": "가격은 공식 페이지에서 단위를 명시한 금액만 채움. 외국인/배송/온라인 진료는 검증 전이며 자동으로 가능 표시하지 않음.",
       "fees": "미확인",
-      "status": "candidate",
+      "status": "active",
       "address": "",
-      "channel": "공개 비교 사이트 공식 사이트 링크",
-      "updated": "2026-11-21",
+      "channel": "공식 홈페이지 검색 → 공식 가격 검증",
+      "updated": "2026-11-23",
       "discovery": "national",
-      "price_verified": false,
+      "price_verified": true,
       "identity_conflict": false,
       "mhlw_id": "",
       "mhlw_identity_matched": false,
@@ -36216,7 +36484,12 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:48+09:00",
+      "official_attempts": 1,
+      "official_domain": "midoriclinic.jp",
+      "official_price_audit_status": "passed",
+      "official_price_audited_at": "2026-11-23T12:56:12+09:00"
     },
     {
       "id": "national-741968cf2a1954",
@@ -37610,7 +37883,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-d729295eb55669",
@@ -37856,7 +38131,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-3b4f3febae2b7a",
@@ -37938,7 +38215,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-989d3571a20a68",
@@ -38020,7 +38299,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-7549242b149197",
@@ -38430,7 +38711,9 @@
       "booking_type": "none",
       "booking_notes": "외국인/관광객 여부 미확인",
       "booking_checked": "",
-      "first_seen": "2026-11-21"
+      "first_seen": "2026-11-21",
+      "official_checked_at": "2026-11-23T12:55:18+09:00",
+      "official_attempts": 1
     },
     {
       "id": "national-0c7cedc472e0f1",
@@ -39822,7 +40105,9 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-22"
+      "first_seen": "2026-11-22",
+      "official_checked_at": "2026-11-23T12:55:50+09:00",
+      "official_attempts": 1
     },
     {
       "id": "found-1c48b77e039c",
@@ -39861,7 +40146,286 @@
       "booking_type": "none",
       "booking_notes": "공식 예약 경로 확인 전",
       "booking_checked": "",
-      "first_seen": "2026-11-22"
+      "first_seen": "2026-11-22",
+      "official_checked_at": "2026-11-23T12:55:51+09:00",
+      "official_attempts": 1
+    },
+    {
+      "id": "found-0d520b4e0e93",
+      "name": "後藤医院 大阪 来院 旅行者 条件付き +1 公式 処方 未確認 総額 10,000",
+      "region": "미확인",
+      "city": "미확인",
+      "mode": "미확인",
+      "foreign": "unknown",
+      "online": "unknown",
+      "ship": "unknown",
+      "prices": {
+        "2.5": null,
+        "5": null,
+        "7.5": null,
+        "10": null,
+        "12.5": null,
+        "15": null
+      },
+      "basis": "공식 출처·SNS·비교 사이트에서 발견된 후보 (검증 전)",
+      "url": "https://sushijaro.app/ja/clinic/goto-iin?dose=2.5",
+      "official_url_hint": "",
+      "notes": "공개 검색에서 발견된 이름으로 실제 의료기관 여부부터 확인해야 합니다.",
+      "fees": "미확인",
+      "status": "candidate",
+      "address": "",
+      "channel": "비교 사이트·웹 검색 후보",
+      "updated": "2026-11-23",
+      "discovery": "auto",
+      "price_verified": false,
+      "candidate_quality": "name_unverified",
+      "identity_conflict": false,
+      "directory_slug": "goto-iin",
+      "events": [],
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공식 예약 경로 확인 전",
+      "booking_checked": "",
+      "first_seen": "2026-11-23",
+      "official_checked_at": "2026-11-23T12:55:51+09:00",
+      "official_attempts": 1
+    },
+    {
+      "id": "found-dbc5e829202d",
+      "name": "LIGHT CLINIC",
+      "region": "미확인",
+      "city": "미확인",
+      "mode": "미확인",
+      "foreign": "unknown",
+      "online": "unknown",
+      "ship": "unknown",
+      "prices": {
+        "2.5": null,
+        "5": null,
+        "7.5": null,
+        "10": null,
+        "12.5": null,
+        "15": null
+      },
+      "basis": "공식 출처·SNS·비교 사이트에서 발견된 후보 (검증 전)",
+      "url": "https://sushijaro.app/ja/clinic/light-clinic?dose=2.5",
+      "official_url_hint": "",
+      "notes": "다른 지역에 동일 명칭 병원이 존재. 주소·공식 도메인 검증 전 가격 자동 등록 보류.",
+      "fees": "미확인",
+      "status": "candidate",
+      "address": "",
+      "channel": "비교 사이트·웹 검색 후보",
+      "updated": "2026-11-23",
+      "discovery": "auto",
+      "price_verified": false,
+      "candidate_quality": "same_name_needs_identity_verification",
+      "identity_conflict": true,
+      "directory_slug": "light-clinic",
+      "events": [],
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공식 예약 경로 확인 전",
+      "booking_checked": "",
+      "first_seen": "2026-11-23",
+      "official_checked_at": "2026-11-23T12:55:51+09:00",
+      "official_attempts": 1
+    },
+    {
+      "id": "found-bbc2e53bb45b",
+      "name": "札幌TAクリニック 札幌 来院 公式 処方 未確認 カード可",
+      "region": "미확인",
+      "city": "미확인",
+      "mode": "미확인",
+      "foreign": "unknown",
+      "online": "unknown",
+      "ship": "unknown",
+      "prices": {
+        "2.5": null,
+        "5": null,
+        "7.5": null,
+        "10": null,
+        "12.5": null,
+        "15": null
+      },
+      "basis": "공식 출처·SNS·비교 사이트에서 발견된 후보 (검증 전)",
+      "url": "https://sushijaro.app/ja/clinic/taclinic-sapporo?dose=2.5",
+      "official_url_hint": "",
+      "notes": "공개 검색에서 발견된 이름으로 실제 의료기관 여부부터 확인해야 합니다.",
+      "fees": "미확인",
+      "status": "candidate",
+      "address": "",
+      "channel": "비교 사이트·웹 검색 후보",
+      "updated": "2026-11-23",
+      "discovery": "auto",
+      "price_verified": false,
+      "candidate_quality": "name_unverified",
+      "identity_conflict": false,
+      "directory_slug": "taclinic-sapporo",
+      "events": [],
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공식 예약 경로 확인 전",
+      "booking_checked": "",
+      "first_seen": "2026-11-23"
+    },
+    {
+      "id": "found-f296f3917371",
+      "name": "プライベートスキンクリニック 大阪 来院 公式 処方 未確認 カード可",
+      "region": "미확인",
+      "city": "미확인",
+      "mode": "미확인",
+      "foreign": "unknown",
+      "online": "unknown",
+      "ship": "unknown",
+      "prices": {
+        "2.5": null,
+        "5": null,
+        "7.5": null,
+        "10": null,
+        "12.5": null,
+        "15": null
+      },
+      "basis": "공식 출처·SNS·비교 사이트에서 발견된 후보 (검증 전)",
+      "url": "https://sushijaro.app/ja/clinic/private-skin?dose=2.5",
+      "official_url_hint": "",
+      "notes": "공개 검색에서 발견된 이름으로 실제 의료기관 여부부터 확인해야 합니다.",
+      "fees": "미확인",
+      "status": "candidate",
+      "address": "",
+      "channel": "비교 사이트·웹 검색 후보",
+      "updated": "2026-11-23",
+      "discovery": "auto",
+      "price_verified": false,
+      "candidate_quality": "name_unverified",
+      "identity_conflict": false,
+      "directory_slug": "private-skin",
+      "events": [],
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공식 예약 경로 확인 전",
+      "booking_checked": "",
+      "first_seen": "2026-11-23"
+    },
+    {
+      "id": "found-0fbaca394967",
+      "name": "医療法人細川外科クリニック 名古屋 来院・オンライン 公式 処方 未確認 総額 11,000",
+      "region": "미확인",
+      "city": "미확인",
+      "mode": "미확인",
+      "foreign": "unknown",
+      "online": "unknown",
+      "ship": "unknown",
+      "prices": {
+        "2.5": null,
+        "5": null,
+        "7.5": null,
+        "10": null,
+        "12.5": null,
+        "15": null
+      },
+      "basis": "공식 출처·SNS·비교 사이트에서 발견된 후보 (검증 전)",
+      "url": "https://sushijaro.app/ja/clinic/hosoge?dose=2.5",
+      "official_url_hint": "",
+      "notes": "공개 검색에서 발견된 이름으로 실제 의료기관 여부부터 확인해야 합니다.",
+      "fees": "미확인",
+      "status": "candidate",
+      "address": "",
+      "channel": "비교 사이트·웹 검색 후보",
+      "updated": "2026-11-23",
+      "discovery": "auto",
+      "price_verified": false,
+      "candidate_quality": "name_unverified",
+      "identity_conflict": false,
+      "directory_slug": "hosoge",
+      "events": [],
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공식 예약 경로 확인 전",
+      "booking_checked": "",
+      "first_seen": "2026-11-23"
+    },
+    {
+      "id": "found-4e141d085469",
+      "name": "ミセルクリニック大阪梅田院 大阪 来院 公式 処方 未確認 総額 16,280",
+      "region": "미확인",
+      "city": "미확인",
+      "mode": "미확인",
+      "foreign": "unknown",
+      "online": "unknown",
+      "ship": "unknown",
+      "prices": {
+        "2.5": null,
+        "5": null,
+        "7.5": null,
+        "10": null,
+        "12.5": null,
+        "15": null
+      },
+      "basis": "공식 출처·SNS·비교 사이트에서 발견된 후보 (검증 전)",
+      "url": "https://sushijaro.app/ja/clinic/miselclinic?dose=2.5",
+      "official_url_hint": "",
+      "notes": "공개 검색에서 발견된 이름으로 실제 의료기관 여부부터 확인해야 합니다.",
+      "fees": "미확인",
+      "status": "candidate",
+      "address": "",
+      "channel": "비교 사이트·웹 검색 후보",
+      "updated": "2026-11-23",
+      "discovery": "auto",
+      "price_verified": false,
+      "candidate_quality": "name_unverified",
+      "identity_conflict": false,
+      "directory_slug": "miselclinic",
+      "events": [],
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공식 예약 경로 확인 전",
+      "booking_checked": "",
+      "first_seen": "2026-11-23"
+    },
+    {
+      "id": "found-97a85a4f0ec0",
+      "name": "加地医院 高松 来院 現金可 +1 公式 処方 未確認 総額 14,000",
+      "region": "미확인",
+      "city": "미확인",
+      "mode": "미확인",
+      "foreign": "unknown",
+      "online": "unknown",
+      "ship": "unknown",
+      "prices": {
+        "2.5": null,
+        "5": null,
+        "7.5": null,
+        "10": null,
+        "12.5": null,
+        "15": null
+      },
+      "basis": "공식 출처·SNS·비교 사이트에서 발견된 후보 (검증 전)",
+      "url": "https://sushijaro.app/ja/clinic/kajiclinic?dose=2.5",
+      "official_url_hint": "",
+      "notes": "공개 검색에서 발견된 이름으로 실제 의료기관 여부부터 확인해야 합니다.",
+      "fees": "미확인",
+      "status": "candidate",
+      "address": "",
+      "channel": "비교 사이트·웹 검색 후보",
+      "updated": "2026-11-23",
+      "discovery": "auto",
+      "price_verified": false,
+      "candidate_quality": "name_unverified",
+      "identity_conflict": false,
+      "directory_slug": "kajiclinic",
+      "events": [],
+      "booking_method": "예약 방법 미확인",
+      "booking_url": "",
+      "booking_type": "none",
+      "booking_notes": "공식 예약 경로 확인 전",
+      "booking_checked": "",
+      "first_seen": "2026-11-23"
     }
   ],
   "schema": 3,

@@ -2,7 +2,7 @@
   "mhlw_source_url": "https://www.mhlw.go.jp/content/11121000/02-1_clinic_facility_info_20260601.csv.zip",
   "mhlw_source_checked": "2026-11-21",
   "mhlw_cached_url": "https://www.mhlw.go.jp/content/11121000/02-1_clinic_facility_info_20260601.csv.zip",
-  "sayaka_cursor": 32,
-  "mirai_cursor": 2,
-  "mhlw_cursor": 170
+  "sayaka_cursor": 50,
+  "mirai_cursor": 20,
+  "mhlw_cursor": 185
 }
