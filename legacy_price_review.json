@@ -1,0 +1,1173 @@
+{
+  "at": "2026-11-23T19:03:02+09:00",
+  "checked": 30,
+  "status": {
+    "some_doses_confirmed": 5,
+    "source_not_machine_parseable": 23,
+    "different_option_or_price_requires_review": 2
+  },
+  "items": [
+    {
+      "id": "baba",
+      "name": "바바 토털케어 클리닉",
+      "url": "https://baba-totalcareclinic.com/private-practice/",
+      "discovery": "prior_web",
+      "original": {
+        "2.5": 38400,
+        "5": 54000,
+        "7.5": 72000,
+        "10": 90000,
+        "12.5": 108000,
+        "15": 126000
+      },
+      "strict_values": {
+        "5": 54000,
+        "7.5": 72000,
+        "10": 90000,
+        "12.5": 108000,
+        "15": 126000
+      },
+      "strict_evidence": {
+        "5": {
+          "dose": "5",
+          "raw_yen": 9000,
+          "pens": 2,
+          "equivalent_12": 54000,
+          "unit_label": "명시된 펜·주수/기간",
+          "source_kind": "official_table",
+          "quote": "マンジャロ皮下注5mg(1箱2本組) | 9,000円(税込)",
+          "tax": "세금 포함",
+          "source_url": "",
+          "source_type": "명시된 펜·주수/기간",
+          "method": "2펜 기준 12펜 환산"
+        },
+        "7.5": {
+          "dose": "7.5",
+          "raw_yen": 12000,
+          "pens": 2,
+          "equivalent_12": 72000,
+          "unit_label": "명시된 펜·주수/기간",
+          "source_kind": "official_table",
+          "quote": "マンジャロ皮下注7.5mg(1箱2本組) | 12,000円(税込)",
+          "tax": "세금 포함",
+          "source_url": "",
+          "source_type": "명시된 펜·주수/기간",
+          "method": "2펜 기준 12펜 환산"
+        },
+        "10": {
+          "dose": "10",
+          "raw_yen": 15000,
+          "pens": 2,
+          "equivalent_12": 90000,
+          "unit_label": "명시된 펜·주수/기간",
+          "source_kind": "official_table",
+          "quote": "マンジャロ皮下注10mg(1箱2本組) | 15,000円(税込)",
+          "tax": "세금 포함",
+          "source_url": "",
+          "source_type": "명시된 펜·주수/기간",
+          "method": "2펜 기준 12펜 환산"
+        },
+        "12.5": {
+          "dose": "12.5",
+          "raw_yen": 18000,
+          "pens": 2,
+          "equivalent_12": 108000,
+          "unit_label": "명시된 펜·주수/기간",
+          "source_kind": "official_table",
+          "quote": "マンジャロ皮下注12.5mg(1箱2本組) | 18,000円(税込)",
+          "tax": "세금 포함",
+          "source_url": "",
+          "source_type": "명시된 펜·주수/기간",
+          "method": "2펜 기준 12펜 환산"
+        },
+        "15": {
+          "dose": "15",
+          "raw_yen": 21000,
+          "pens": 2,
+          "equivalent_12": 126000,
+          "unit_label": "명시된 펜·주수/기간",
+          "source_kind": "official_table",
+          "quote": "マンジャロ皮下注15mg(1箱2本組) | 21,000円(税込)",
+          "tax": "세금 포함",
+          "source_url": "",
+          "source_type": "명시된 펜·주수/기간",
+          "method": "2펜 기준 12펜 환산"
+        }
+      },
+      "same_doses": [
+        "5",
+        "7.5",
+        "10",
+        "12.5",
+        "15"
+      ],
+      "different_doses": {},
+      "unconfirmed_doses": [
+        "2.5"
+      ],
+      "status": "some_doses_confirmed"
+    },
+    {
+      "id": "silk-visit",
+      "name": "도쿄 실크 클리닉 · 방문",
+      "url": "https://tokyosilkclinic.com/menu/909/",
+      "discovery": "prior_web",
+      "original": {
+        "2.5": 22500,
+        "5": 40500,
+        "7.5": 64500,
+        "10": 81000,
+        "12.5": 99000,
+        "15": 123000
+      },
+      "strict_values": {},
+      "strict_evidence": {},
+      "same_doses": [],
+      "different_doses": {},
+      "unconfirmed_doses": [
+        "2.5",
+        "5",
+        "7.5",
+        "10",
+        "12.5",
+        "15"
+      ],
+      "status": "source_not_machine_parseable"
+    },
+    {
+      "id": "silk-online",
+      "name": "도쿄 실크 클리닉 · 온라인",
+      "url": "https://tokyosilkclinic.com/menu/909/",
+      "discovery": "prior_web",
+      "original": {
+        "2.5": 26940,
+        "5": 44940,
+        "7.5": 68940,
+        "10": 85500,
+        "12.5": 102000,
+        "15": 129000
+      },
+      "strict_values": {},
+      "strict_evidence": {},
+      "same_doses": [],
+      "different_doses": {},
+      "unconfirmed_doses": [
+        "2.5",
+        "5",
+        "7.5",
+        "10",
+        "12.5",
+        "15"
+      ],
+      "status": "source_not_machine_parseable"
+    },
+    {
+      "id": "monline",
+      "name": "M 온라인 클리닉",
+      "url": "https://www.m-onlineclinic.com/pricing",
+      "discovery": "prior_web",
+      "original": {
+        "2.5": 26250,
+        "5": 48510,
+        "7.5": 66960,
+        "10": 88770,
+        "12.5": 110610,
+        "15": 132420
+      },
+      "strict_values": {},
+      "strict_evidence": {},
+      "same_doses": [],
+      "different_doses": {},
+      "unconfirmed_doses": [
+        "2.5",
+        "5",
+        "7.5",
+        "10",
+        "12.5",
+        "15"
+      ],
+      "status": "source_not_machine_parseable"
+    },
+    {
+      "id": "now",
+      "name": "now! 클리닉",
+      "url": "https://now-clinic.com/price/",
+      "discovery": "prior_web",
+      "original": {
+        "2.5": 27500,
+        "5": 48500,
+        "7.5": 75800,
+        "10": 90000,
+        "12.5": 100500,
+        "15": 127500
+      },
+      "strict_values": {
+        "2.5": 31500
+      },
+      "strict_evidence": {
+        "2.5": {
+          "dose": "2.5",
+          "raw_yen": 10500,
+          "pens": 4,
+          "equivalent_12": 31500,
+          "unit_label": "명시된 펜·주수/기간",
+          "source_kind": "official_inline",
+          "quote": "2.5mg(4本 1ヶ月分):10,500円(税込)",
+          "tax": "세금 포함",
+          "source_url": "",
+          "source_type": "명시된 펜·주수/기간",
+          "method": "4펜 기준 12펜 환산"
+        }
+      },
+      "same_doses": [],
+      "different_doses": {
+        "2.5": {
+          "catalog": 27500,
+          "official_structured": 31500
+        }
+      },
+      "unconfirmed_doses": [
+        "5",
+        "7.5",
+        "10",
+        "12.5",
+        "15"
+      ],
+      "status": "different_option_or_price_requires_review"
+    },
+    {
+      "id": "marugoto",
+      "name": "마루고토 뷰티",
+      "url": "https://marugotoclinic.jp/beauty.html",
+      "discovery": "prior_web",
+      "original": {
+        "2.5": 28000,
+        "5": 51500,
+        "7.5": 70500,
+        "10": 92500
+      },
+      "strict_values": {},
+      "strict_evidence": {},
+      "same_doses": [],
+      "different_doses": {},
+      "unconfirmed_doses": [
+        "2.5",
+        "5",
+        "7.5",
+        "10"
+      ],
+      "status": "source_not_machine_parseable"
+    },
+    {
+      "id": "aurelia",
+      "name": "AURELIA ONLINE / Chiaro 클리닉",
+      "url": "https://aurelia-online.jp/price.html",
+      "discovery": "prior_web",
+      "original": {
+        "2.5": 31800,
+        "5": 51800,
+        "7.5": 79800,
+        "10": 97800,
+        "12.5": 124800,
+        "15": 146800
+      },
+      "strict_values": {
+        "2.5": 31800,
+        "5": 51800,
+        "7.5": 79800,
+        "10": 97800,
+        "12.5": 124800,
+        "15": 146800
+      },
+      "strict_evidence": {
+        "2.5": {
+          "dose": "2.5",
+          "raw_yen": 31800,
+          "pens": 12,
+          "equivalent_12": 31800,
+          "unit_label": "명시된 펜·주수/기간",
+          "source_kind": "official_table",
+          "quote": "2.5mg | 11,800円 | 31,800円 | 61,800円",
+          "tax": "세금 포함 여부는 병원 안내 확인",
+          "source_url": "",
+          "source_type": "명시된 펜·주수/기간",
+          "method": "12펜 직접금액"
+        },
+        "5": {
+          "dose": "5",
+          "raw_yen": 51800,
+          "pens": 12,
+          "equivalent_12": 51800,
+          "unit_label": "명시된 펜·주수/기간",
+          "source_kind": "official_table",
+          "quote": "5mg | 18,800円 | 51,800円 | 99,800円",
+          "tax": "세금 포함 여부는 병원 안내 확인",
+          "source_url": "",
+          "source_type": "명시된 펜·주수/기간",
+          "method": "12펜 직접금액"
+        },
+        "7.5": {
+          "dose": "7.5",
+          "raw_yen": 79800,
+          "pens": 12,
+          "equivalent_12": 79800,
+          "unit_label": "명시된 펜·주수/기간",
+          "source_kind": "official_table",
+          "quote": "7.5mg | 29,800円 | 79,800円 | 144,800円",
+          "tax": "세금 포함 여부는 병원 안내 확인",
+          "source_url": "",
+          "source_type": "명시된 펜·주수/기간",
+          "method": "12펜 직접금액"
+        },
+        "10": {
+          "dose": "10",
+          "raw_yen": 97800,
+          "pens": 12,
+          "equivalent_12": 97800,
+          "unit_label": "명시된 펜·주수/기간",
+          "source_kind": "official_table",
+          "quote": "10mg | 37,800円 | 97,800円 | 179,800円",
+          "tax": "세금 포함 여부는 병원 안내 확인",
+          "source_url": "",
+          "source_type": "명시된 펜·주수/기간",
+          "method": "12펜 직접금액"
+        },
+        "12.5": {
+          "dose": "12.5",
+          "raw_yen": 124800,
+          "pens": 12,
+          "equivalent_12": 124800,
+          "unit_label": "명시된 펜·주수/기간",
+          "source_kind": "official_table",
+          "quote": "12.5mg | 46,800円 | 124,800円 | 239,800円",
+          "tax": "세금 포함 여부는 병원 안내 확인",
+          "source_url": "",
+          "source_type": "명시된 펜·주수/기간",
+          "method": "12펜 직접금액"
+        },
+        "15": {
+          "dose": "15",
+          "raw_yen": 146800,
+          "pens": 12,
+          "equivalent_12": 146800,
+          "unit_label": "명시된 펜·주수/기간",
+          "source_kind": "official_table",
+          "quote": "15mg | 54,800円 | 146,800円 | 279,800円",
+          "tax": "세금 포함 여부는 병원 안내 확인",
+          "source_url": "",
+          "source_type": "명시된 펜·주수/기간",
+          "method": "12펜 직접금액"
+        }
+      },
+      "same_doses": [
+        "2.5",
+        "5",
+        "7.5",
+        "10",
+        "12.5",
+        "15"
+      ],
+      "different_doses": {},
+      "unconfirmed_doses": [],
+      "status": "some_doses_confirmed"
+    },
+    {
+      "id": "light-visit",
+      "name": "라이트 멘탈 클리닉 · 방문",
+      "url": "https://light-clinic.com/beautyhealthy/medical-diet/mounjaro/",
+      "discovery": "prior_web",
+      "original": {
+        "2.5": 23900,
+        "5": 46700,
+        "7.5": 69500
+      },
+      "strict_values": {},
+      "strict_evidence": {},
+      "same_doses": [],
+      "different_doses": {},
+      "unconfirmed_doses": [
+        "2.5",
+        "5",
+        "7.5"
+      ],
+      "status": "source_not_machine_parseable"
+    },
+    {
+      "id": "light-online",
+      "name": "라이트 멘탈 클리닉 · 온라인",
+      "url": "https://light-clinic.com/beautyhealthy/medical-diet/mounjaro/",
+      "discovery": "prior_web",
+      "original": {
+        "2.5": 25000,
+        "5": 47800,
+        "7.5": 70600
+      },
+      "strict_values": {},
+      "strict_evidence": {},
+      "same_doses": [],
+      "different_doses": {},
+      "unconfirmed_doses": [
+        "2.5",
+        "5",
+        "7.5"
+      ],
+      "status": "source_not_machine_parseable"
+    },
+    {
+      "id": "nagoya-joy",
+      "name": "나고야 조이 클리닉",
+      "url": "https://nagoya-joy-clinic.com/news/mounjaro-price-revision-0801/",
+      "discovery": "prior_web",
+      "original": {
+        "2.5": 35600,
+        "5": 66000,
+        "7.5": 93600,
+        "10": 118400
+      },
+      "strict_values": {},
+      "strict_evidence": {},
+      "same_doses": [],
+      "different_doses": {},
+      "unconfirmed_doses": [
+        "2.5",
+        "5",
+        "7.5",
+        "10"
+      ],
+      "status": "source_not_machine_parseable"
+    },
+    {
+      "id": "bts-matsuyama",
+      "name": "토털스킨 클리닉 마쓰야마",
+      "url": "https://www.saishin-sp.com/notice/mounjaro-matsuyama-travelers/",
+      "discovery": "prior_web",
+      "original": {
+        "2.5": 36000,
+        "5": 60000,
+        "7.5": 84000
+      },
+      "strict_values": {
+        "2.5": 36000,
+        "5": 60000,
+        "7.5": 84000
+      },
+      "strict_evidence": {
+        "2.5": {
+          "dose": "2.5",
+          "raw_yen": 12000,
+          "pens": 4,
+          "equivalent_12": 36000,
+          "unit_label": "명시된 펜·주수/기간",
+          "source_kind": "official_table",
+          "quote": "2.5mg | 6,000円 | 12,000円",
+          "tax": "세금 포함",
+          "source_url": "",
+          "source_type": "명시된 펜·주수/기간",
+          "method": "4펜 기준 12펜 환산"
+        },
+        "5": {
+          "dose": "5",
+          "raw_yen": 20000,
+          "pens": 4,
+          "equivalent_12": 60000,
+          "unit_label": "명시된 펜·주수/기간",
+          "source_kind": "official_table",
+          "quote": "5.0mg | 10,000円 | 20,000円",
+          "tax": "세금 포함",
+          "source_url": "",
+          "source_type": "명시된 펜·주수/기간",
+          "method": "4펜 기준 12펜 환산"
+        },
+        "7.5": {
+          "dose": "7.5",
+          "raw_yen": 28000,
+          "pens": 4,
+          "equivalent_12": 84000,
+          "unit_label": "명시된 펜·주수/기간",
+          "source_kind": "official_table",
+          "quote": "7.5mg | 14,000円 | 28,000円",
+          "tax": "세금 포함",
+          "source_url": "",
+          "source_type": "명시된 펜·주수/기간",
+          "method": "4펜 기준 12펜 환산"
+        }
+      },
+      "same_doses": [
+        "2.5",
+        "5",
+        "7.5"
+      ],
+      "different_doses": {},
+      "unconfirmed_doses": [],
+      "status": "some_doses_confirmed"
+    },
+    {
+      "id": "mil",
+      "name": "MIL CLINIC OSAKA",
+      "url": "https://milc.info/mnj/inbmnj/inbmnj-ja.html",
+      "discovery": "prior_web",
+      "original": {
+        "2.5": 43000,
+        "5": 64000,
+        "7.5": 88000,
+        "10": 118000,
+        "12.5": 157000,
+        "15": 196000
+      },
+      "strict_values": {},
+      "strict_evidence": {},
+      "same_doses": [],
+      "different_doses": {},
+      "unconfirmed_doses": [
+        "2.5",
+        "5",
+        "7.5",
+        "10",
+        "12.5",
+        "15"
+      ],
+      "status": "source_not_machine_parseable"
+    },
+    {
+      "id": "fontana",
+      "name": "폰타나 클리닉 텐진",
+      "url": "https://fontana-clinic.jp/kr/",
+      "discovery": "prior_web",
+      "original": {
+        "2.5": 46200,
+        "5": 72000,
+        "7.5": 116100,
+        "10": 139500,
+        "12.5": 171000,
+        "15": 193500
+      },
+      "strict_values": {},
+      "strict_evidence": {},
+      "same_doses": [],
+      "different_doses": {},
+      "unconfirmed_doses": [
+        "2.5",
+        "5",
+        "7.5",
+        "10",
+        "12.5",
+        "15"
+      ],
+      "status": "source_not_machine_parseable"
+    },
+    {
+      "id": "mbcf",
+      "name": "메디컬 미용 클리닉 후쿠오카",
+      "url": "https://www.mbcf.jp/pricemenu/",
+      "discovery": "prior_web",
+      "original": {
+        "2.5": 39000,
+        "5": 66000,
+        "7.5": 96000,
+        "10": 120000,
+        "12.5": 150000,
+        "15": 195000
+      },
+      "strict_values": {},
+      "strict_evidence": {},
+      "same_doses": [],
+      "different_doses": {},
+      "unconfirmed_doses": [
+        "2.5",
+        "5",
+        "7.5",
+        "10",
+        "12.5",
+        "15"
+      ],
+      "status": "source_not_machine_parseable"
+    },
+    {
+      "id": "modena",
+      "name": "모데나 클리닉 텐진",
+      "url": "https://modena-clinic.com/price/",
+      "discovery": "prior_web",
+      "original": {
+        "2.5": 37500,
+        "5": 68400,
+        "7.5": 96900,
+        "10": 121500
+      },
+      "strict_values": {},
+      "strict_evidence": {},
+      "same_doses": [],
+      "different_doses": {},
+      "unconfirmed_doses": [
+        "2.5",
+        "5",
+        "7.5",
+        "10"
+      ],
+      "status": "source_not_machine_parseable"
+    },
+    {
+      "id": "kichijoji",
+      "name": "기치조지 마이니치 클리닉",
+      "url": "https://kichijojiclinic.com/medical/medicaldiet_glp-1/",
+      "discovery": "prior_web",
+      "original": {
+        "2.5": 49500,
+        "5": 66000,
+        "7.5": 82500,
+        "10": 99000,
+        "12.5": 118800,
+        "15": 138600
+      },
+      "strict_values": {
+        "2.5": 49500,
+        "5": 66000,
+        "7.5": 82500,
+        "10": 99000,
+        "12.5": 118800,
+        "15": 138600
+      },
+      "strict_evidence": {
+        "2.5": {
+          "dose": "2.5",
+          "raw_yen": 16500,
+          "pens": 4,
+          "equivalent_12": 49500,
+          "unit_label": "명시된 펜·주수/기간",
+          "source_kind": "official_inline",
+          "quote": "2.5mg(4本=4週間分)         16,500円 ・マンジャロ ",
+          "tax": "세금 포함 여부는 병원 안내 확인",
+          "source_url": "",
+          "source_type": "명시된 펜·주수/기간",
+          "method": "4펜 기준 12펜 환산"
+        },
+        "5": {
+          "dose": "5",
+          "raw_yen": 22000,
+          "pens": 4,
+          "equivalent_12": 66000,
+          "unit_label": "명시된 펜·주수/기간",
+          "source_kind": "official_inline",
+          "quote": "5.0mg(4本=4週間分)         22,000円 ・マンジャロ ",
+          "tax": "세금 포함 여부는 병원 안내 확인",
+          "source_url": "",
+          "source_type": "명시된 펜·주수/기간",
+          "method": "4펜 기준 12펜 환산"
+        },
+        "7.5": {
+          "dose": "7.5",
+          "raw_yen": 27500,
+          "pens": 4,
+          "equivalent_12": 82500,
+          "unit_label": "명시된 펜·주수/기간",
+          "source_kind": "official_inline",
+          "quote": "7.5mg(4本=4週間分)         27,500円 ・マンジャロ ",
+          "tax": "세금 포함 여부는 병원 안내 확인",
+          "source_url": "",
+          "source_type": "명시된 펜·주수/기간",
+          "method": "4펜 기준 12펜 환산"
+        },
+        "10": {
+          "dose": "10",
+          "raw_yen": 33000,
+          "pens": 4,
+          "equivalent_12": 99000,
+          "unit_label": "명시된 펜·주수/기간",
+          "source_kind": "official_inline",
+          "quote": "10mg(4本=4週間分)          33,000円 ・マンジャロ ",
+          "tax": "세금 포함 여부는 병원 안내 확인",
+          "source_url": "",
+          "source_type": "명시된 펜·주수/기간",
+          "method": "4펜 기준 12펜 환산"
+        },
+        "12.5": {
+          "dose": "12.5",
+          "raw_yen": 39600,
+          "pens": 4,
+          "equivalent_12": 118800,
+          "unit_label": "명시된 펜·주수/기간",
+          "source_kind": "official_inline",
+          "quote": "12.5mg(4本=4週間分)       39,600円 ・マンジャロ ",
+          "tax": "세금 포함 여부는 병원 안내 확인",
+          "source_url": "",
+          "source_type": "명시된 펜·주수/기간",
+          "method": "4펜 기준 12펜 환산"
+        },
+        "15": {
+          "dose": "15",
+          "raw_yen": 46200,
+          "pens": 4,
+          "equivalent_12": 138600,
+          "unit_label": "명시된 펜·주수/기간",
+          "source_kind": "official_inline",
+          "quote": "15mg(4本=4週間分)          46,200円",
+          "tax": "세금 포함 여부는 병원 안내 확인",
+          "source_url": "",
+          "source_type": "명시된 펜·주수/기간",
+          "method": "4펜 기준 12펜 환산"
+        }
+      },
+      "same_doses": [
+        "2.5",
+        "5",
+        "7.5",
+        "10",
+        "12.5",
+        "15"
+      ],
+      "different_doses": {},
+      "unconfirmed_doses": [],
+      "status": "some_doses_confirmed"
+    },
+    {
+      "id": "sio",
+      "name": "SIO 클리닉",
+      "url": "https://sio.clinic/medicalinformation/mounjaro/",
+      "discovery": "prior_web",
+      "original": {
+        "2.5": 28380,
+        "5": 73260,
+        "7.5": 81840,
+        "10": 104940,
+        "12.5": 128040,
+        "15": 151140
+      },
+      "strict_values": {
+        "2.5": 39600
+      },
+      "strict_evidence": {
+        "2.5": {
+          "dose": "2.5",
+          "raw_yen": 3300,
+          "pens": 1,
+          "equivalent_12": 39600,
+          "unit_label": "명시된 펜·주수/기간",
+          "source_kind": "official_inline",
+          "quote": "2.5mg 1本 3,300円 から(税込)",
+          "tax": "세금 포함",
+          "source_url": "",
+          "source_type": "명시된 펜·주수/기간",
+          "method": "1펜 기준 12펜 환산"
+        }
+      },
+      "same_doses": [],
+      "different_doses": {
+        "2.5": {
+          "catalog": 28380,
+          "official_structured": 39600
+        }
+      },
+      "unconfirmed_doses": [
+        "5",
+        "7.5",
+        "10",
+        "12.5",
+        "15"
+      ],
+      "status": "different_option_or_price_requires_review"
+    },
+    {
+      "id": "shinjuku-eki",
+      "name": "신주쿠역앞 클리닉",
+      "url": "https://www.shinjyuku-ekimae-clinic.info/naika/mounjaro.html",
+      "discovery": "prior_web",
+      "original": {
+        "2.5": 42000,
+        "5": 72000,
+        "7.5": 90000,
+        "10": 108000
+      },
+      "strict_values": {},
+      "strict_evidence": {},
+      "same_doses": [],
+      "different_doses": {},
+      "unconfirmed_doses": [
+        "2.5",
+        "5",
+        "7.5",
+        "10"
+      ],
+      "status": "source_not_machine_parseable"
+    },
+    {
+      "id": "ehealth",
+      "name": "이헬스 클리닉 신주쿠",
+      "url": "https://ehealthclinic.jp/news/2026/08/13/50503/",
+      "discovery": "prior_web",
+      "original": {
+        "2.5": 39000,
+        "5": 69000,
+        "7.5": 102000,
+        "10": 138000
+      },
+      "strict_values": {},
+      "strict_evidence": {},
+      "same_doses": [],
+      "different_doses": {},
+      "unconfirmed_doses": [
+        "2.5",
+        "5",
+        "7.5",
+        "10"
+      ],
+      "status": "source_not_machine_parseable"
+    },
+    {
+      "id": "uchida",
+      "name": "우치다 내시경·내과 클리닉",
+      "url": "https://www.uchida-naishikyo.com/news/2813/",
+      "discovery": "prior_web",
+      "original": {
+        "2.5": 38400,
+        "5": 54000,
+        "7.5": 72000,
+        "10": 90000,
+        "12.5": 108000,
+        "15": 144000
+      },
+      "strict_values": {},
+      "strict_evidence": {},
+      "same_doses": [],
+      "different_doses": {},
+      "unconfirmed_doses": [
+        "2.5",
+        "5",
+        "7.5",
+        "10",
+        "12.5",
+        "15"
+      ],
+      "status": "source_not_machine_parseable"
+    },
+    {
+      "id": "ckk",
+      "name": "CKK 온라인 클리닉",
+      "url": "https://ckk-onlineclinic.tokyo/?page_id=16",
+      "discovery": "sns",
+      "original": {
+        "2.5": 31500,
+        "5": 48000,
+        "7.5": 64500,
+        "10": 82500,
+        "12.5": 99000
+      },
+      "strict_values": {},
+      "strict_evidence": {},
+      "same_doses": [],
+      "different_doses": {},
+      "unconfirmed_doses": [
+        "2.5",
+        "5",
+        "7.5",
+        "10",
+        "12.5"
+      ],
+      "status": "source_not_machine_parseable"
+    },
+    {
+      "id": "yamamoto",
+      "name": "야마모토 클리닉 (요나고)",
+      "url": "https://yamamotoclinic.or.jp/beauty/m-diet/",
+      "discovery": "sns",
+      "original": {
+        "2.5": 24000,
+        "5": 42000,
+        "7.5": 72000,
+        "10": 96000,
+        "12.5": 114000,
+        "15": 129000
+      },
+      "strict_values": {
+        "2.5": 24000,
+        "5": 42000,
+        "7.5": 72000,
+        "10": 96000,
+        "12.5": 114000,
+        "15": 129000
+      },
+      "strict_evidence": {
+        "2.5": {
+          "dose": "2.5",
+          "raw_yen": 8000,
+          "pens": 4,
+          "equivalent_12": 24000,
+          "unit_label": "명시된 펜·주수/기간",
+          "source_kind": "official_table",
+          "quote": "マンジャロ2.5mg |  | 1ヵ月分 4キット | 8,000円",
+          "tax": "세금 포함 여부는 병원 안내 확인",
+          "source_url": "",
+          "source_type": "명시된 펜·주수/기간",
+          "method": "4펜 기준 12펜 환산"
+        },
+        "5": {
+          "dose": "5",
+          "raw_yen": 14000,
+          "pens": 4,
+          "equivalent_12": 42000,
+          "unit_label": "명시된 펜·주수/기간",
+          "source_kind": "official_table",
+          "quote": "マンジャロ5.0mg |  | 1ヵ月分 4キット | 14,000円",
+          "tax": "세금 포함 여부는 병원 안내 확인",
+          "source_url": "",
+          "source_type": "명시된 펜·주수/기간",
+          "method": "4펜 기준 12펜 환산"
+        },
+        "7.5": {
+          "dose": "7.5",
+          "raw_yen": 24000,
+          "pens": 4,
+          "equivalent_12": 72000,
+          "unit_label": "명시된 펜·주수/기간",
+          "source_kind": "official_table",
+          "quote": "マンジャロ7.5mg |  | 1ヵ月分 4キット | 24,000円",
+          "tax": "세금 포함 여부는 병원 안내 확인",
+          "source_url": "",
+          "source_type": "명시된 펜·주수/기간",
+          "method": "4펜 기준 12펜 환산"
+        },
+        "10": {
+          "dose": "10",
+          "raw_yen": 32000,
+          "pens": 4,
+          "equivalent_12": 96000,
+          "unit_label": "명시된 펜·주수/기간",
+          "source_kind": "official_table",
+          "quote": "マンジャロ10.0mg | ※受注発注のため、在庫状況はお問い合わせください。 | 1ヵ月分 4キット | 32,000円",
+          "tax": "세금 포함 여부는 병원 안내 확인",
+          "source_url": "",
+          "source_type": "명시된 펜·주수/기간",
+          "method": "4펜 기준 12펜 환산"
+        },
+        "12.5": {
+          "dose": "12.5",
+          "raw_yen": 38000,
+          "pens": 4,
+          "equivalent_12": 114000,
+          "unit_label": "명시된 펜·주수/기간",
+          "source_kind": "official_table",
+          "quote": "マンジャロ12.5mg | ※受注発注のため、在庫状況はお問い合わせください。 | 1ヵ月分 4キット | 38,000円",
+          "tax": "세금 포함 여부는 병원 안내 확인",
+          "source_url": "",
+          "source_type": "명시된 펜·주수/기간",
+          "method": "4펜 기준 12펜 환산"
+        },
+        "15": {
+          "dose": "15",
+          "raw_yen": 43000,
+          "pens": 4,
+          "equivalent_12": 129000,
+          "unit_label": "명시된 펜·주수/기간",
+          "source_kind": "official_table",
+          "quote": "マンジャロ15.0mg | ※受注発注のため、在庫状況はお問い合わせください。 | 1ヵ月分 4キット | 43,000円",
+          "tax": "세금 포함 여부는 병원 안내 확인",
+          "source_url": "",
+          "source_type": "명시된 펜·주수/기간",
+          "method": "4펜 기준 12펜 환산"
+        }
+      },
+      "same_doses": [
+        "2.5",
+        "5",
+        "7.5",
+        "10",
+        "12.5",
+        "15"
+      ],
+      "different_doses": {},
+      "unconfirmed_doses": [],
+      "status": "some_doses_confirmed"
+    },
+    {
+      "id": "origami",
+      "name": "ORIGAMI CLINIC",
+      "url": "https://origami-clinic.com/",
+      "discovery": "sns",
+      "original": {
+        "2.5": 35970,
+        "5": 69000,
+        "7.5": 102000,
+        "10": 138000,
+        "12.5": 174000,
+        "15": 210000
+      },
+      "strict_values": {},
+      "strict_evidence": {},
+      "same_doses": [],
+      "different_doses": {},
+      "unconfirmed_doses": [
+        "2.5",
+        "5",
+        "7.5",
+        "10",
+        "12.5",
+        "15"
+      ],
+      "status": "source_not_machine_parseable"
+    },
+    {
+      "id": "sdh",
+      "name": "SDH 클리닉",
+      "url": "https://www.sdh-clinic.com/treatment/medical-diet/",
+      "discovery": "sns",
+      "original": {
+        "2.5": 29400,
+        "5": 52500,
+        "7.5": 78000
+      },
+      "strict_values": {},
+      "strict_evidence": {},
+      "same_doses": [],
+      "different_doses": {},
+      "unconfirmed_doses": [
+        "2.5",
+        "5",
+        "7.5"
+      ],
+      "status": "source_not_machine_parseable"
+    },
+    {
+      "id": "japan-web-clinic",
+      "name": "JAPAN WEB CLINIC · 리츠 미용외과 오사카",
+      "url": "https://care.bw-med.clinic/ko/blogs/news/mounjaro-price-in-japan",
+      "discovery": "korean_official",
+      "original": {
+        "2.5": 38700,
+        "5": 74100,
+        "7.5": 90900,
+        "10": 115500,
+        "12.5": 156000,
+        "15": 177000
+      },
+      "strict_values": {},
+      "strict_evidence": {},
+      "same_doses": [],
+      "different_doses": {},
+      "unconfirmed_doses": [
+        "2.5",
+        "5",
+        "7.5",
+        "10",
+        "12.5",
+        "15"
+      ],
+      "status": "source_not_machine_parseable"
+    },
+    {
+      "id": "mirai-medical",
+      "name": "미라이 메디컬 클리닉 (MiRAI)",
+      "url": "https://miraimedical.com/treatment/online/diet/kr/",
+      "discovery": "korean_official",
+      "original": {
+        "2.5": 36000,
+        "5": 66000,
+        "7.5": 90000,
+        "10": 114000,
+        "12.5": 138000
+      },
+      "strict_values": {},
+      "strict_evidence": {},
+      "same_doses": [],
+      "different_doses": {},
+      "unconfirmed_doses": [
+        "2.5",
+        "5",
+        "7.5",
+        "10",
+        "12.5"
+      ],
+      "status": "source_not_machine_parseable"
+    },
+    {
+      "id": "mirai-medical-tokyo",
+      "name": "미라이 메디컬 클리닉 · 도쿄 온라인",
+      "url": "https://mirai-medical.clinic/ko/mounjaro/",
+      "discovery": "korean_official",
+      "original": {
+        "2.5": 27000,
+        "5": 51000,
+        "7.5": 69000,
+        "10": 87000
+      },
+      "strict_values": {},
+      "strict_evidence": {},
+      "same_doses": [],
+      "different_doses": {},
+      "unconfirmed_doses": [
+        "2.5",
+        "5",
+        "7.5",
+        "10"
+      ],
+      "status": "source_not_machine_parseable"
+    },
+    {
+      "id": "sururim-tenjin",
+      "name": "슬림클리닉 · 후쿠오카 텐진 제휴지점",
+      "url": "https://kr.slim-clinic.beauty/",
+      "discovery": "korean_official",
+      "original": {
+        "2.5": 29400,
+        "5": 52200,
+        "7.5": 73200,
+        "10": 103200
+      },
+      "strict_values": {},
+      "strict_evidence": {},
+      "same_doses": [],
+      "different_doses": {},
+      "unconfirmed_doses": [
+        "2.5",
+        "5",
+        "7.5",
+        "10"
+      ],
+      "status": "source_not_machine_parseable"
+    },
+    {
+      "id": "ub-online",
+      "name": "UB 클리닉 온라인",
+      "url": "https://ubclinic-online.netlify.app/ko/",
+      "discovery": "korean_official",
+      "original": {
+        "2.5": 24000,
+        "5": 45000,
+        "10": 87000
+      },
+      "strict_values": {},
+      "strict_evidence": {},
+      "same_doses": [],
+      "different_doses": {},
+      "unconfirmed_doses": [
+        "2.5",
+        "5",
+        "10"
+      ],
+      "status": "source_not_machine_parseable"
+    },
+    {
+      "id": "japan-net-clinic",
+      "name": "JAPAN NET CLINIC (긴자)",
+      "url": "https://japannetclinic.com/",
+      "discovery": "korean_official",
+      "original": {
+        "2.5": 34584,
+        "5": 66891,
+        "7.5": 99924,
+        "10": 133232,
+        "12.5": 166540
+      },
+      "strict_values": {},
+      "strict_evidence": {},
+      "same_doses": [],
+      "different_doses": {},
+      "unconfirmed_doses": [
+        "2.5",
+        "5",
+        "7.5",
+        "10",
+        "12.5"
+      ],
+      "status": "source_not_machine_parseable"
+    }
+  ],
+  "caution": "원문에서 다른 금액이 발견돼도 별도 할인·단기 처방일 수 있어 자동으로 덮어쓰지 않음. 원문 단위와 구매조건을 독립 재검증해야 함."
+}
