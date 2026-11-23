@@ -136,9 +136,20 @@ function promotionalDetails(x){
  }).join('');
 }
 function hasPromotionalPrice(x){return DS.some(d=>promotionalPrices(x,d).length>0)}
-function isTrustedPrice(x){return x.price_integrity==='strict_v2'||Boolean(x.price_unit_reviewed_at)||Boolean(x.source_pack_pens&&x.source_pack_prices)}
-function pendingPriceAudit(x){return (x.discovery==='national'||x.discovery==='auto')&&!isTrustedPrice(x)}
-function priceInfo(x,d){let base=!pendingPriceAudit(x)&&typeof x.prices?.[d]==='number'?x.prices[d]:null;return {amount:base,event:null,expired:false}}
+function isTrustedPrice(x,d){
+  const p=x.prices?.[d];
+  if(typeof p!=='number'||p<=0)return false;
+  if(x.discovery!=='national'&&x.discovery!=='auto')return true;
+  if(x.price_unit_reviewed_at||(x.source_pack_pens&&x.source_pack_prices))return true;
+  if(x.price_integrity!=='strict_v2')return false;
+  if(['page_unavailable','dose_price_anomaly','removed_unconfirmed'].includes(x.official_price_audit_status))return false;
+  const ev=x.price_evidence?.[d];
+  return !!(ev&&ev.dose===d&&ev.equivalent_12===p&&[1,2,4,8,12].includes(ev.pens)&&
+     Number.isInteger(ev.raw_yen)&&ev.raw_yen>0&&ev.quote&&(ev.source_url||x.url));
+}
+function pendingPriceAudit(x){return (x.discovery==='national'||x.discovery==='auto')&&
+   (x.price_review_pending||DS.some(d=>typeof x.prices?.[d]==='number'&&!isTrustedPrice(x,d)))}
+function priceInfo(x,d){let base=isTrustedPrice(x,d)?x.prices[d]:null;return {amount:base,event:null,expired:false}}
 function eventTag(info){return info.event?`<span class="tag ${info.expired?'inactive':'conditional'}">${info.expired?'종료 행사':'이벤트'}</span>`:''}
 function allEvents(x){return (x.events||[]).map(e=>`<div style="margin-bottom:9px;padding:9px;border-radius:8px;background:#fff6e6"><b>${eventState(e)==='active'?'이벤트 진행':'이벤트 '+(eventState(e)==='expired'?'종료':'예정')} · ${escape(e.name)}</b><div class="smalltext">${escape(e.start||'?')} ~ ${escape(e.end||'종료 미정')}</div><div>${DS.filter(d=>typeof e.prices?.[d]==='number').map(d=>`${d}mg: ${fmt(e.prices[d])}`).join(' · ')||'12펜 이벤트가 미확인'}</div><div class="smalltext">${escape(e.basis||'')} · ${escape(e.conditions||'')}</div><a href="${escape(e.url||x.url)}" target="_blank" rel="noopener">이벤트 출처 보기</a></div>`).join('')}
 function save(){try{localStorage.setItem(KEY,JSON.stringify({overrides,log}))}catch(e){alert('저장공간 오류: JSON 내보내기로 백업해주세요.')}}function dataset(){let map=new Map(BASE.map(x=>[x.id,{...x}]));for(const [id,rec] of Object.entries(overrides)){if(rec===null){map.delete(id);continue}map.set(id,{...(map.get(id)||{}),...rec})}return [...map.values()]}const ui=['q','dose','region','sort','active','visitor','remote','shipping','onlyprices','allmg','eventonly','changedonly','snsonly','showcandidates'];ui.forEach(i=>$(i).addEventListener('input',render));function filtered(){const list=dataset(),q=$('q').value.trim().toLowerCase(),d=$('dose').value,r=$('region').value,s=$('sort').value;let out=list.filter(x=> (!q||[x.name,x.region,x.city,x.notes,x.address,x.channel,x.discovery].join(' ').toLowerCase().includes(q))&&(!r||r===x.region)&&($('showcandidates').checked||x.status!=='candidate'||hasPromotionalPrice(x)||($('changedonly').checked&&CURRENT_IDS.has(x.id)))&&(!$('active').checked||x.status!=='paused')&&(!$('visitor').checked||x.foreign==='yes')&&(!$('remote').checked||x.online==='yes')&&(!$('shipping').checked||x.ship==='yes')&&(!$('onlyprices').checked||typeof priceInfo(x,d).amount==='number'||promotionalPrices(x,d).length>0)&&(!$('eventonly').checked||(x.events||[]).length>0||(x.promotions||[]).length>0)&&(!$('changedonly').checked||CURRENT_IDS.has(x.id))&&(!$('snsonly').checked||x.discovery==='sns'||x.discovery==='auto'));out.sort((a,b)=>{let x=priceInfo(a,d).amount,y=priceInfo(b,d).amount;if(s==='name')return a.name.localeCompare(b.name,'ko');if(s==='date')return (b.updated||'').localeCompare(a.updated||'');if(typeof x!=='number')x=Number.POSITIVE_INFINITY;if(typeof y!=='number')y=Number.POSITIVE_INFINITY;return s==='pricehi'?(y-x):(x-y)});return out}function bookingHref(x){return typeof x.booking_url==='string'&&/^https:\/\/[^\s<>"]+$/i.test(x.booking_url)?x.booking_url:''}
