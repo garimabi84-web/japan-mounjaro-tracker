@@ -1,10 +1,11 @@
 {
-  "at": "2026-11-23T19:16:41+09:00",
-  "checked": 126,
+  "at": "2026-11-23T19:51:05+09:00",
+  "checked": 134,
   "result": {
-    "removed": 27,
+    "removed": 30,
     "unavailable": 3,
-    "passed": 96
+    "corrected": 1,
+    "passed": 100
   },
   "review": [
     {
@@ -152,6 +153,34 @@
       "id": "national-16f3ddca8e8c5b",
       "status": "removed",
       "url": "https://midoriclinic.jp/price/",
+      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
+    },
+    {
+      "name": "デジタルクリニック　渋谷院",
+      "id": "national-3ba16144280470",
+      "status": "removed",
+      "url": "https://digital-clinic.life/online/diet/",
+      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
+    },
+    {
+      "name": "フェミューズクリニック",
+      "id": "national-5a0014ff50fb32",
+      "status": "corrected",
+      "url": "https://femuse-clinic.jp/price/",
+      "message": "가격 재확인 후 갱신"
+    },
+    {
+      "name": "いけがき皮膚科",
+      "id": "national-af1c31d0f63e16",
+      "status": "removed",
+      "url": "https://ikegaki-hifuka.com/%E6%96%99%E9%87%91%E8%A1%A8",
+      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
+    },
+    {
+      "name": "朝比奈クリニック",
+      "id": "national-74496af43d6b1b",
+      "status": "removed",
+      "url": "https://asahina-clinic.jp/index.html",
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     },
     {
