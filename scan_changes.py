@@ -215,7 +215,16 @@ def main():
     items=changes(old,new)
     discoveries=read(ROOT/'discoveries.json')
     at=discoveries.get('ran_at') or dt.datetime.now(dt.timezone(dt.timedelta(hours=9))).isoformat(timespec='seconds')
-    result=update_history(read(OUTPUT),at,items)
+    history=read(OUTPUT)
+    if any(run.get('at')==at for run in history.get('runs',[])):
+        # A price-only audit can rerun without an actual discovery crawl.
+        # No-op audits must not erase yellow highlights from the last scan.
+        if not items:
+            print('No additional changes; preserving last real scan history')
+            return
+        # Keep material audit changes separate from the older crawl.
+        at=dt.datetime.now(dt.timezone(dt.timedelta(hours=9))).isoformat(timespec='microseconds')
+    result=update_history(history,at,items)
     OUTPUT.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print('Scan changes:',json.dumps(result['latest']['counts'],ensure_ascii=False))
 
