@@ -18,8 +18,8 @@ TEMPORARY=re.compile('期間限定|初回限定|キャンペーン価格|クー�
 def normalized(s):
     return re.sub(r'[^a-z0-9ぁ-んァ-ヴ一-龥]','',unicodedata.normalize('NFKC',str(s)).lower())
 
-def parse_price(html):
-    prices,evidence=extract_with_evidence(html)
+def parse_price(html,source_url=''):
+    prices,evidence=extract_with_evidence(html,source_url)
     return prices,'검증 V2: 원문 용량·판매 단위·금액 연결',evidence
 
 def validate_page(item,original,response):
@@ -32,7 +32,7 @@ def validate_page(item,original,response):
     if not item.get('mhlw_identity_matched'):
         name=normalized(item['name'])
         if len(name)>=6 and name not in normalized(txt[:4200]):return None
-    prices,basis,evidence=parse_price(response.content)
+    prices,basis,evidence=parse_price(response.content,response.url)
     if not prices:return None
     return {'prices':prices,'basis':basis,'evidence':evidence,'url':response.url}
 
@@ -123,7 +123,7 @@ def run():
         item['official_checked_at']=now()
         item['official_attempts']=item.get('official_attempts',0)+1
         if not data:continue
-        item['prices'].update(data['prices'])
+        item['prices']={d:data['prices'].get(d) for d in ('2.5','5','7.5','10','12.5','15')}
         item['price_integrity']='strict_v2'
         item['price_evidence']=data['evidence']
         item['official_price_audit_status']='passed'
