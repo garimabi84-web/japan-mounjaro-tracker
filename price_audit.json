@@ -1,18 +1,17 @@
 {
-  "at": "2026-11-23T20:09:27+09:00",
-  "checked": 153,
+  "at": "2026-11-23T20:16:17+09:00",
+  "checked": 155,
   "result": {
-    "unavailable": 3,
-    "removed": 30,
-    "passed": 118,
-    "corrected": 2
+    "unavailable": 4,
+    "removed": 29,
+    "passed": 122
   },
   "review": [
     {
-      "name": "ドーズ美容外科長崎院",
-      "id": "national-9d1c38ec2bf09d",
+      "name": "すみだブレインハートクリニック",
+      "id": "found-4b057da3a3c6",
       "status": "removed",
-      "url": "https://www.do-s.net/body/mounjaro/",
+      "url": "https://s-brainheart.com/%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD",
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     },
     {
@@ -34,34 +33,6 @@
       "id": "national-0a5636309260a7",
       "status": "removed",
       "url": "https://tsurumachi.jp/price-guide/",
-      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
-    },
-    {
-      "name": "すみだブレインハートクリニック",
-      "id": "found-4b057da3a3c6",
-      "status": "removed",
-      "url": "https://s-brainheart.com/%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD",
-      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
-    },
-    {
-      "name": "久我山駅前メディカルクリニック",
-      "id": "national-7cbdccfa47a859",
-      "status": "removed",
-      "url": "https://kugayama-medical.clinic/private.html",
-      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
-    },
-    {
-      "name": "ネビュラ クリニック 広島院",
-      "id": "national-b7bf18c59fd4b3",
-      "status": "removed",
-      "url": "https://nebula-clinic.jp/menu/diet/",
-      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
-    },
-    {
-      "name": "札幌 美容外科ネビュラ クリニック",
-      "id": "national-a51f3961e02c4b",
-      "status": "removed",
-      "url": "https://nebula-clinic.jp/menu/diet/",
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     },
     {
@@ -156,10 +127,24 @@
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     },
     {
-      "name": "いけがき皮膚科",
-      "id": "national-af1c31d0f63e16",
+      "name": "久我山駅前メディカルクリニック",
+      "id": "national-7cbdccfa47a859",
       "status": "removed",
-      "url": "https://ikegaki-hifuka.com/%E6%96%99%E9%87%91%E8%A1%A8",
+      "url": "https://kugayama-medical.clinic/private.html",
+      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
+    },
+    {
+      "name": "ネビュラ クリニック 広島院",
+      "id": "national-b7bf18c59fd4b3",
+      "status": "removed",
+      "url": "https://nebula-clinic.jp/menu/diet/",
+      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
+    },
+    {
+      "name": "札幌 美容外科ネビュラ クリニック",
+      "id": "national-a51f3961e02c4b",
+      "status": "removed",
+      "url": "https://nebula-clinic.jp/menu/diet/",
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     },
     {
@@ -174,6 +159,13 @@
       "id": "national-3ba16144280470",
       "status": "removed",
       "url": "https://digital-clinic.life/online/diet/",
+      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
+    },
+    {
+      "name": "いけがき皮膚科",
+      "id": "national-af1c31d0f63e16",
+      "status": "removed",
+      "url": "https://ikegaki-hifuka.com/%E6%96%99%E9%87%91%E8%A1%A8",
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     },
     {
@@ -198,13 +190,6 @@
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     },
     {
-      "name": "たきもと内科クリニック",
-      "id": "national-688790a7357adb",
-      "status": "removed",
-      "url": "https://takimoto-cl.com/menu/%E7%BE%8E%E5%AE%B9%E5%86%85%E7%A7%91/",
-      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
-    },
-    {
       "name": "王子金田レディース・ペインクリニック",
       "id": "national-d6d254b350b2f2",
       "status": "removed",
@@ -219,18 +204,11 @@
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     },
     {
-      "name": "フェミューズクリニック",
-      "id": "national-5a0014ff50fb32",
-      "status": "corrected",
-      "url": "https://femuse-clinic.jp/price/",
-      "message": "가격 재확인 후 갱신"
-    },
-    {
-      "name": "西台仁愛歯科クリニック",
-      "id": "found-5603b6ae84fe",
-      "status": "corrected",
-      "url": "https://jinai.net/clinicfor-glp1/",
-      "message": "가격 재확인 후 갱신"
+      "name": "たきもと内科クリニック",
+      "id": "national-688790a7357adb",
+      "status": "removed",
+      "url": "https://takimoto-cl.com/menu/%E7%BE%8E%E5%AE%B9%E5%86%85%E7%A7%91/",
+      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     }
   ]
 }

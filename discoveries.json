@@ -1,19 +1,11 @@
 {
-  "ran_at": "2026-11-23T20:00:22+09:00",
+  "ran_at": "2026-11-23T20:14:40+09:00",
   "source_status": [
-    {
-      "source": "bing_rss",
-      "query": "韓国人 観光客 マンジャロ クリニック 予約",
-      "ok": true,
-      "items": 10,
-      "qualified": 0,
-      "fallback": false
-    },
     {
       "source": "bing_html",
       "query": "韓国人 観光客 マンジャロ クリニック 予約",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
@@ -24,6 +16,14 @@
       "items": 10,
       "qualified": 0,
       "fallback": true
+    },
+    {
+      "source": "bing_rss",
+      "query": "マウンジャロ 韓国人 旅行者 ホテル 配送 クリニック",
+      "ok": true,
+      "items": 10,
+      "qualified": 0,
+      "fallback": false
     },
     {
       "source": "bing_html",
@@ -37,7 +37,7 @@
       "source": "bing_html",
       "query": "マンジャロ 12本 3ヶ月 外国人 処方",
       "ok": true,
-      "items": 0,
+      "items": 10,
       "qualified": 0,
       "fallback": true
     },
@@ -53,7 +53,7 @@
       "source": "bing_rss",
       "query": "마운자로 일본 병원 예약 할인 3개월",
       "ok": true,
-      "items": 11,
+      "items": 10,
       "qualified": 0,
       "fallback": false
     },
@@ -61,23 +61,39 @@
       "source": "bing_html",
       "query": "마운자로 일본 병원 예약 할인 3개월",
       "ok": true,
-      "items": 11,
+      "items": 0,
       "qualified": 0,
       "fallback": true
+    },
+    {
+      "source": "bing_rss",
+      "query": "일본 마운자로 한국인 처방 클리닉 호텔 배송",
+      "ok": true,
+      "items": 10,
+      "qualified": 0,
+      "fallback": false
     },
     {
       "source": "bing_html",
       "query": "일본 마운자로 한국인 처방 클리닉 호텔 배송",
       "ok": true,
-      "items": 0,
+      "items": 10,
       "qualified": 0,
       "fallback": true
+    },
+    {
+      "source": "bing_rss",
+      "query": "일본 마운자로 병원 SNS 이벤트 10mg",
+      "ok": true,
+      "items": 10,
+      "qualified": 0,
+      "fallback": false
     },
     {
       "source": "bing_html",
       "query": "일본 마운자로 병원 SNS 이벤트 10mg",
       "ok": true,
-      "items": 0,
+      "items": 10,
       "qualified": 0,
       "fallback": true
     },
@@ -90,6 +106,14 @@
       "fallback": true
     },
     {
+      "source": "bing_rss",
+      "query": "マンジャロ 観光客 価格改定 クリニック",
+      "ok": true,
+      "items": 10,
+      "qualified": 0,
+      "fallback": false
+    },
+    {
       "source": "bing_html",
       "query": "マンジャロ 観光客 価格改定 クリニック",
       "ok": true,
@@ -98,18 +122,10 @@
       "fallback": true
     },
     {
-      "source": "bing_rss",
-      "query": "site:instagram.com 마운자로 일본 클리닉 예약",
-      "ok": true,
-      "items": 11,
-      "qualified": 0,
-      "fallback": false
-    },
-    {
       "source": "bing_html",
       "query": "site:instagram.com 마운자로 일본 클리닉 예약",
       "ok": true,
-      "items": 11,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
@@ -125,7 +141,7 @@
       "source": "bing_rss",
       "query": "site:facebook.com 마운자로 일본 병원 할인",
       "ok": true,
-      "items": 11,
+      "items": 1,
       "qualified": 0,
       "fallback": false
     },
@@ -133,7 +149,7 @@
       "source": "bing_html",
       "query": "site:facebook.com 마운자로 일본 병원 할인",
       "ok": true,
-      "items": 11,
+      "items": 10,
       "qualified": 0,
       "fallback": true
     },
@@ -144,14 +160,6 @@
       "items": 0,
       "qualified": 0,
       "fallback": true
-    },
-    {
-      "source": "bing_rss",
-      "query": "マンジャロ 韓国人 旅行者 クリニック 横浜 予約",
-      "ok": true,
-      "items": 10,
-      "qualified": 0,
-      "fallback": false
     },
     {
       "source": "bing_html",
@@ -170,10 +178,18 @@
       "fallback": true
     },
     {
+      "source": "bing_rss",
+      "query": "マンジャロ 韓国人 旅行者 クリニック 米子 予約",
+      "ok": true,
+      "items": 10,
+      "qualified": 0,
+      "fallback": false
+    },
+    {
       "source": "bing_html",
       "query": "マンジャロ 韓国人 旅行者 クリニック 米子 予約",
       "ok": true,
-      "items": 0,
+      "items": 10,
       "qualified": 0,
       "fallback": true
     },
@@ -189,7 +205,7 @@
       "source": "official_site_search",
       "query": "マンジャロ 10mg 料金 4本 クリニック",
       "ok": true,
-      "items": 0,
+      "items": 10,
       "qualified": 0,
       "fallback": true
     },
@@ -213,7 +229,7 @@
       "source": "official_site_search",
       "query": "マンジャロ 自由診療 料金表 クリニック",
       "ok": true,
-      "items": 1,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
@@ -221,17 +237,9 @@
       "source": "official_site_search",
       "query": "マンジャロ 2.5mg 5mg 7.5mg 10mg 料金表",
       "ok": true,
-      "items": 0,
-      "qualified": 0,
-      "fallback": true
-    },
-    {
-      "source": "official_site_search",
-      "query": "マンジャロ 外国人 処方 料金 クリニック",
-      "ok": true,
       "items": 10,
       "qualified": 0,
-      "fallback": false
+      "fallback": true
     },
     {
       "source": "official_site_search",
@@ -245,7 +253,7 @@
       "source": "official_site_search",
       "query": "マンジャロ 韓国語 予約 料金 医院",
       "ok": true,
-      "items": 10,
+      "items": 1,
       "qualified": 0,
       "fallback": false
     },
@@ -261,15 +269,7 @@
       "source": "official_site_search",
       "query": "マンジャロ 10mg 価格 月額 医療ダイエット",
       "ok": true,
-      "items": 10,
-      "qualified": 0,
-      "fallback": false
-    },
-    {
-      "source": "official_site_search",
-      "query": "マンジャロ 10mg 価格 月額 医療ダイエット",
-      "ok": true,
-      "items": 0,
+      "items": 1,
       "qualified": 0,
       "fallback": true
     },
@@ -293,7 +293,7 @@
       "source": "official_site_search",
       "query": "マンジャロ 料金表 札幌 クリニック",
       "ok": true,
-      "items": 1,
+      "items": 10,
       "qualified": 0,
       "fallback": false
     },
@@ -310,7 +310,7 @@
       "query": "マンジャロ 10mg 料金 4本 クリニック",
       "ok": true,
       "items": 11,
-      "qualified": 1,
+      "qualified": 2,
       "fallback": true
     },
     {
@@ -381,7 +381,7 @@
       "source": "google_news",
       "query": "マンジャロ 訪日外国人 クリニック 新規 価格",
       "ok": true,
-      "items": 8,
+      "items": 7,
       "qualified": 0,
       "fallback": false
     },
@@ -454,9 +454,9 @@
       "items": 5
     }
   ],
-  "hits_this_run": 84,
+  "hits_this_run": 85,
   "channel_counts": {
-    "official": 2,
+    "official": 3,
     "sns": 2,
     "web": 80
   },
@@ -2320,7 +2320,7 @@
         "query": "マンジャロ 外国人 処方 料金 クリニック",
         "event": null,
         "first_seen": "2026-11-21T11:52:14+09:00",
-        "last_seen": "2026-11-23T19:14:48+09:00"
+        "last_seen": "2026-11-23T20:14:40+09:00"
       }
     },
     {
@@ -2359,7 +2359,7 @@
           "note": "행사 언급만 감지. 적용 기간과 12펜 가격은 공식 검증 전"
         },
         "first_seen": "2026-11-21T12:01:22+09:00",
-        "last_seen": "2026-11-23T20:00:22+09:00"
+        "last_seen": "2026-11-23T20:14:40+09:00"
       }
     },
     {
@@ -2376,7 +2376,7 @@
         "query": "マンジャロ 外国人 予約",
         "event": null,
         "first_seen": "2026-11-22T12:46:52+09:00",
-        "last_seen": "2026-11-23T20:00:22+09:00"
+        "last_seen": "2026-11-23T20:14:40+09:00"
       }
     },
     {
@@ -2544,10 +2544,10 @@
         "channel": "official",
         "source": "official_site_search",
         "official_url_hint": "https://shibuya-hifuka.jp/chiryou/detail/glp1.html",
-        "query": "マンジャロ 外国人 処方 料金 クリニック",
+        "query": "マンジャロ 10mg 料金 4本 クリニック",
         "event": null,
         "first_seen": "2026-11-23T19:14:48+09:00",
-        "last_seen": "2026-11-23T20:00:22+09:00"
+        "last_seen": "2026-11-23T20:14:40+09:00"
       }
     },
     {
@@ -2564,8 +2564,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:00:22+09:00",
-        "last_seen": "2026-11-23T20:00:22+09:00"
+        "first_seen": "2026-11-23T20:14:40+09:00",
+        "last_seen": "2026-11-23T20:14:40+09:00"
       }
     },
     {
@@ -2582,8 +2582,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:00:22+09:00",
-        "last_seen": "2026-11-23T20:00:22+09:00"
+        "first_seen": "2026-11-23T20:14:40+09:00",
+        "last_seen": "2026-11-23T20:14:40+09:00"
       }
     },
     {
@@ -2600,8 +2600,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:00:22+09:00",
-        "last_seen": "2026-11-23T20:00:22+09:00"
+        "first_seen": "2026-11-23T20:14:40+09:00",
+        "last_seen": "2026-11-23T20:14:40+09:00"
       }
     },
     {
@@ -2618,8 +2618,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:00:22+09:00",
-        "last_seen": "2026-11-23T20:00:22+09:00"
+        "first_seen": "2026-11-23T20:14:40+09:00",
+        "last_seen": "2026-11-23T20:14:40+09:00"
       }
     },
     {
@@ -2636,8 +2636,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:00:22+09:00",
-        "last_seen": "2026-11-23T20:00:22+09:00"
+        "first_seen": "2026-11-23T20:14:40+09:00",
+        "last_seen": "2026-11-23T20:14:40+09:00"
       }
     },
     {
@@ -2654,8 +2654,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:00:22+09:00",
-        "last_seen": "2026-11-23T20:00:22+09:00"
+        "first_seen": "2026-11-23T20:14:40+09:00",
+        "last_seen": "2026-11-23T20:14:40+09:00"
       }
     },
     {
@@ -2672,8 +2672,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:00:22+09:00",
-        "last_seen": "2026-11-23T20:00:22+09:00"
+        "first_seen": "2026-11-23T20:14:40+09:00",
+        "last_seen": "2026-11-23T20:14:40+09:00"
       }
     },
     {
@@ -2690,8 +2690,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:00:22+09:00",
-        "last_seen": "2026-11-23T20:00:22+09:00"
+        "first_seen": "2026-11-23T20:14:40+09:00",
+        "last_seen": "2026-11-23T20:14:40+09:00"
       }
     },
     {
@@ -2708,8 +2708,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/online/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:00:22+09:00",
-        "last_seen": "2026-11-23T20:00:22+09:00"
+        "first_seen": "2026-11-23T20:14:40+09:00",
+        "last_seen": "2026-11-23T20:14:40+09:00"
       }
     },
     {
@@ -2726,8 +2726,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/online/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:00:22+09:00",
-        "last_seen": "2026-11-23T20:00:22+09:00"
+        "first_seen": "2026-11-23T20:14:40+09:00",
+        "last_seen": "2026-11-23T20:14:40+09:00"
       }
     },
     {
@@ -2744,8 +2744,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/online/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:00:22+09:00",
-        "last_seen": "2026-11-23T20:00:22+09:00"
+        "first_seen": "2026-11-23T20:14:40+09:00",
+        "last_seen": "2026-11-23T20:14:40+09:00"
       }
     },
     {
@@ -2762,8 +2762,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/online/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:00:22+09:00",
-        "last_seen": "2026-11-23T20:00:22+09:00"
+        "first_seen": "2026-11-23T20:14:40+09:00",
+        "last_seen": "2026-11-23T20:14:40+09:00"
       }
     },
     {
@@ -2780,8 +2780,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/online/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:00:22+09:00",
-        "last_seen": "2026-11-23T20:00:22+09:00"
+        "first_seen": "2026-11-23T20:14:40+09:00",
+        "last_seen": "2026-11-23T20:14:40+09:00"
       }
     },
     {
@@ -2798,8 +2798,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/online/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:00:22+09:00",
-        "last_seen": "2026-11-23T20:00:22+09:00"
+        "first_seen": "2026-11-23T20:14:40+09:00",
+        "last_seen": "2026-11-23T20:14:40+09:00"
       }
     },
     {
@@ -2816,8 +2816,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/online/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:00:22+09:00",
-        "last_seen": "2026-11-23T20:00:22+09:00"
+        "first_seen": "2026-11-23T20:14:40+09:00",
+        "last_seen": "2026-11-23T20:14:40+09:00"
       }
     },
     {
@@ -2834,8 +2834,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/city/tokyo/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:00:22+09:00",
-        "last_seen": "2026-11-23T20:00:22+09:00"
+        "first_seen": "2026-11-23T20:14:40+09:00",
+        "last_seen": "2026-11-23T20:14:40+09:00"
       }
     },
     {
@@ -2852,8 +2852,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/city/tokyo/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:00:22+09:00",
-        "last_seen": "2026-11-23T20:00:22+09:00"
+        "first_seen": "2026-11-23T20:14:40+09:00",
+        "last_seen": "2026-11-23T20:14:40+09:00"
       }
     },
     {
@@ -2870,8 +2870,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/city/tokyo/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:00:22+09:00",
-        "last_seen": "2026-11-23T20:00:22+09:00"
+        "first_seen": "2026-11-23T20:14:40+09:00",
+        "last_seen": "2026-11-23T20:14:40+09:00"
       }
     },
     {
@@ -2888,8 +2888,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/city/tokyo/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:00:22+09:00",
-        "last_seen": "2026-11-23T20:00:22+09:00"
+        "first_seen": "2026-11-23T20:14:40+09:00",
+        "last_seen": "2026-11-23T20:14:40+09:00"
       }
     },
     {
@@ -2906,8 +2906,8 @@
         "query": "https://kusurigo.vercel.app/mounjaro-ja.html",
         "event": null,
         "official_url_hint": "https://ubikebukuro.com/price",
-        "first_seen": "2026-11-23T20:00:22+09:00",
-        "last_seen": "2026-11-23T20:00:22+09:00"
+        "first_seen": "2026-11-23T20:14:40+09:00",
+        "last_seen": "2026-11-23T20:14:40+09:00"
       }
     },
     {
@@ -2924,8 +2924,8 @@
         "query": "https://kusurigo.vercel.app/mounjaro-ja.html",
         "event": null,
         "official_url_hint": "https://aurelia-online.jp/",
-        "first_seen": "2026-11-23T20:00:22+09:00",
-        "last_seen": "2026-11-23T20:00:22+09:00"
+        "first_seen": "2026-11-23T20:14:40+09:00",
+        "last_seen": "2026-11-23T20:14:40+09:00"
       }
     },
     {
@@ -2942,8 +2942,8 @@
         "query": "https://kusurigo.vercel.app/mounjaro-ja.html",
         "event": null,
         "official_url_hint": "https://kichijojiclinic.com/price/",
-        "first_seen": "2026-11-23T20:00:22+09:00",
-        "last_seen": "2026-11-23T20:00:22+09:00"
+        "first_seen": "2026-11-23T20:14:40+09:00",
+        "last_seen": "2026-11-23T20:14:40+09:00"
       }
     },
     {
@@ -2960,8 +2960,8 @@
         "query": "https://kusurigo.vercel.app/mounjaro-ja.html",
         "event": null,
         "official_url_hint": "https://www.glp1online.jp/index.html",
-        "first_seen": "2026-11-23T20:00:22+09:00",
-        "last_seen": "2026-11-23T20:00:22+09:00"
+        "first_seen": "2026-11-23T20:14:40+09:00",
+        "last_seen": "2026-11-23T20:14:40+09:00"
       }
     }
   ],

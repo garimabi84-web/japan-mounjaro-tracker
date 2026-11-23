@@ -1,177 +1,952 @@
 {
   "schema": 2,
   "latest": {
-    "at": "2026-11-23T20:09:27.390021+09:00",
-    "total": 8,
+    "at": "2026-11-23T20:14:40+09:00",
+    "total": 27,
     "counts": {
       "new": 0,
-      "verified": 0,
-      "price": 7,
+      "verified": 3,
+      "price": 4,
       "evidence": 0,
       "promotion": 0,
-      "info": 1,
+      "info": 19,
       "status": 0,
-      "source": 0
+      "source": 1
     },
     "clinic_ids": [
-      "found-5603b6ae84fe",
-      "national-5a0014ff50fb32",
-      "national-d57d8ae18a058d"
+      "national-9d1c38ec2bf09d",
+      "national-41d451dfa000ec",
+      "national-b8ee41b14362c1",
+      "national-1ef1205003ede5",
+      "mt-diet"
     ],
     "by_clinic": {
-      "found-5603b6ae84fe": [
+      "national-9d1c38ec2bf09d": [
+        {
+          "type": "verified",
+          "clinic_id": "national-9d1c38ec2bf09d",
+          "clinic": "ドーズ美容外科長崎院",
+          "label": "병원 등록/검증 상태 변경",
+          "before": "candidate",
+          "after": "active"
+        },
         {
           "type": "price",
-          "clinic_id": "found-5603b6ae84fe",
-          "clinic": "西台仁愛歯科クリニック",
+          "clinic_id": "national-9d1c38ec2bf09d",
+          "clinic": "ドーズ美容外科長崎院",
           "dose": "2.5",
-          "before": 25520,
-          "after": 76560,
+          "before": null,
+          "after": 132000,
           "label": "2.5mg 12펜 비교가 변경"
         },
-        {
-          "type": "price",
-          "clinic_id": "found-5603b6ae84fe",
-          "clinic": "西台仁愛歯科クリニック",
-          "dose": "5",
-          "before": 46640,
-          "after": 139920,
-          "label": "5mg 12펜 비교가 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "found-5603b6ae84fe",
-          "clinic": "西台仁愛歯科クリニック",
-          "dose": "7.5",
-          "before": 59840,
-          "after": 179520,
-          "label": "7.5mg 12펜 비교가 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "found-5603b6ae84fe",
-          "clinic": "西台仁愛歯科クリニック",
-          "dose": "10",
-          "before": 74800,
-          "after": 224400,
-          "label": "10mg 12펜 비교가 변경"
-        }
-      ],
-      "national-5a0014ff50fb32": [
-        {
-          "type": "price",
-          "clinic_id": "national-5a0014ff50fb32",
-          "clinic": "フェミューズクリニック",
-          "dose": "2.5",
-          "before": 17850,
-          "after": 33600,
-          "label": "2.5mg 12펜 비교가 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-5a0014ff50fb32",
-          "clinic": "フェミューズクリニック",
-          "dose": "5",
-          "before": 19600,
-          "after": 58800,
-          "label": "5mg 12펜 비교가 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-5a0014ff50fb32",
-          "clinic": "フェミューズクリニック",
-          "dose": "7.5",
-          "before": 28000,
-          "after": 84000,
-          "label": "7.5mg 12펜 비교가 변경"
-        }
-      ],
-      "national-d57d8ae18a058d": [
         {
           "type": "info",
-          "clinic_id": "national-d57d8ae18a058d",
-          "clinic": "品川ストリングスクリニック",
+          "clinic_id": "national-9d1c38ec2bf09d",
+          "clinic": "ドーズ美容外科長崎院",
+          "label": "공식/등록 원문 주소 변경",
+          "before": "https://www.do-s.net/body/mounjaro/",
+          "after": "https://www.do-s.net/price/"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-9d1c38ec2bf09d",
+          "clinic": "ドーズ美容外科長崎院",
+          "label": "가격 검증 상태 변경",
+          "before": false,
+          "after": true
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-9d1c38ec2bf09d",
+          "clinic": "ドーズ美容外科長崎院",
+          "label": "가격 검증 방식 변경",
+          "before": "unverified",
+          "after": "strict_v2"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-9d1c38ec2bf09d",
+          "clinic": "ドーズ美容外科長崎院",
           "label": "공식 가격 감사 상태 변경",
-          "before": "page_unavailable",
+          "before": "removed_unconfirmed",
           "after": "passed"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-9d1c38ec2bf09d",
+          "clinic": "ドーズ美容外科長崎院",
+          "label": "가격 산정 근거 변경",
+          "before": "병원 공식 페이지에서 용량별 수량·계약 기간·금액을 안전하게 대응시키지 못함",
+          "after": "독립 증거검증: 원문 단위·용량·금액 확인; 12펜 환산 근거는 price_evidence에 용량별 저장"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-9d1c38ec2bf09d",
+          "clinic": "ドーズ美容外科長崎院",
+          "label": "병원 추가 정보 변경",
+          "before": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요.",
+          "after": "공식 페이지의 용량·단위가 명확한 금액만 등록. 외국인 처방·배송·12펜 일괄 구매 여부 별도 확인."
+        }
+      ],
+      "national-41d451dfa000ec": [
+        {
+          "type": "verified",
+          "clinic_id": "national-41d451dfa000ec",
+          "clinic": "ぎなん皮ふ科クリニック",
+          "label": "병원 등록/검증 상태 변경",
+          "before": "candidate",
+          "after": "active"
+        },
+        {
+          "type": "price",
+          "clinic_id": "national-41d451dfa000ec",
+          "clinic": "ぎなん皮ふ科クリニック",
+          "dose": "5",
+          "before": null,
+          "after": 84000,
+          "label": "5mg 12펜 비교가 변경"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-41d451dfa000ec",
+          "clinic": "ぎなん皮ふ科クリニック",
+          "label": "공식/등록 원문 주소 변경",
+          "before": "https://sayaka-biyou-clinic.com/mounjaro/gifu/",
+          "after": "https://ginan-skin-clinic.jp/price/"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-41d451dfa000ec",
+          "clinic": "ぎなん皮ふ科クリニック",
+          "label": "가격 검증 상태 변경",
+          "before": false,
+          "after": true
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-41d451dfa000ec",
+          "clinic": "ぎなん皮ふ科クリニック",
+          "label": "가격 검증 방식 변경",
+          "before": "",
+          "after": "strict_v2"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-41d451dfa000ec",
+          "clinic": "ぎなん皮ふ科クリニック",
+          "label": "공식 가격 감사 상태 변경",
+          "before": "",
+          "after": "passed"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-41d451dfa000ec",
+          "clinic": "ぎなん皮ふ科クリニック",
+          "label": "가격 산정 근거 변경",
+          "before": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
+          "after": "독립 증거검증: 원문 단위·용량·금액 확인; 12펜 환산 근거는 price_evidence에 용량별 저장"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-41d451dfa000ec",
+          "clinic": "ぎなん皮ふ科クリニック",
+          "label": "병원 추가 정보 변경",
+          "before": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+          "after": "공식 페이지의 용량·단위가 명확한 금액만 등록. 외국인 처방·배송·12펜 일괄 구매 여부 별도 확인."
+        }
+      ],
+      "national-b8ee41b14362c1": [
+        {
+          "type": "verified",
+          "clinic_id": "national-b8ee41b14362c1",
+          "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+          "label": "병원 등록/검증 상태 변경",
+          "before": "candidate",
+          "after": "active"
+        },
+        {
+          "type": "price",
+          "clinic_id": "national-b8ee41b14362c1",
+          "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+          "dose": "2.5",
+          "before": null,
+          "after": 158400,
+          "label": "2.5mg 12펜 비교가 변경"
+        },
+        {
+          "type": "price",
+          "clinic_id": "national-b8ee41b14362c1",
+          "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+          "dose": "5",
+          "before": null,
+          "after": 316800,
+          "label": "5mg 12펜 비교가 변경"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-b8ee41b14362c1",
+          "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+          "label": "공식/등록 원문 주소 변경",
+          "before": "https://sayaka-biyou-clinic.com/mounjaro/kanagawa/",
+          "after": "https://www.kimikoclinic.com/price.php"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-b8ee41b14362c1",
+          "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+          "label": "가격 검증 상태 변경",
+          "before": false,
+          "after": true
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-b8ee41b14362c1",
+          "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+          "label": "가격 검증 방식 변경",
+          "before": "",
+          "after": "strict_v2"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-b8ee41b14362c1",
+          "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+          "label": "공식 가격 감사 상태 변경",
+          "before": "",
+          "after": "passed"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-b8ee41b14362c1",
+          "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+          "label": "가격 산정 근거 변경",
+          "before": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
+          "after": "독립 증거검증: 원문 단위·용량·금액 확인; 12펜 환산 근거는 price_evidence에 용량별 저장"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-b8ee41b14362c1",
+          "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+          "label": "병원 추가 정보 변경",
+          "before": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+          "after": "공식 페이지의 용량·단위가 명확한 금액만 등록. 외국인 처방·배송·12펜 일괄 구매 여부 별도 확인."
+        }
+      ],
+      "national-1ef1205003ede5": [
+        {
+          "type": "info",
+          "clinic_id": "national-1ef1205003ede5",
+          "clinic": "ＣＬＩＮＩＣＮｏ７名古屋伏見",
+          "label": "공식 가격 감사 상태 변경",
+          "before": "passed",
+          "after": "page_unavailable"
+        }
+      ],
+      "mt-diet": [
+        {
+          "type": "source",
+          "clinic_id": "mt-diet",
+          "clinic": "MT 온라인 클리닉",
+          "source_url": "https://x.com/MT_DIET_CLINIC",
+          "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
         }
       ]
     },
     "items": [
       {
+        "type": "verified",
+        "clinic_id": "national-9d1c38ec2bf09d",
+        "clinic": "ドーズ美容外科長崎院",
+        "label": "병원 등록/검증 상태 변경",
+        "before": "candidate",
+        "after": "active"
+      },
+      {
         "type": "price",
-        "clinic_id": "found-5603b6ae84fe",
-        "clinic": "西台仁愛歯科クリニック",
+        "clinic_id": "national-9d1c38ec2bf09d",
+        "clinic": "ドーズ美容外科長崎院",
         "dose": "2.5",
-        "before": 25520,
-        "after": 76560,
+        "before": null,
+        "after": 132000,
         "label": "2.5mg 12펜 비교가 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "found-5603b6ae84fe",
-        "clinic": "西台仁愛歯科クリニック",
-        "dose": "5",
-        "before": 46640,
-        "after": 139920,
-        "label": "5mg 12펜 비교가 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "found-5603b6ae84fe",
-        "clinic": "西台仁愛歯科クリニック",
-        "dose": "7.5",
-        "before": 59840,
-        "after": 179520,
-        "label": "7.5mg 12펜 비교가 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "found-5603b6ae84fe",
-        "clinic": "西台仁愛歯科クリニック",
-        "dose": "10",
-        "before": 74800,
-        "after": 224400,
-        "label": "10mg 12펜 비교가 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-5a0014ff50fb32",
-        "clinic": "フェミューズクリニック",
-        "dose": "2.5",
-        "before": 17850,
-        "after": 33600,
-        "label": "2.5mg 12펜 비교가 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-5a0014ff50fb32",
-        "clinic": "フェミューズクリニック",
-        "dose": "5",
-        "before": 19600,
-        "after": 58800,
-        "label": "5mg 12펜 비교가 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-5a0014ff50fb32",
-        "clinic": "フェミューズクリニック",
-        "dose": "7.5",
-        "before": 28000,
-        "after": 84000,
-        "label": "7.5mg 12펜 비교가 변경"
       },
       {
         "type": "info",
-        "clinic_id": "national-d57d8ae18a058d",
-        "clinic": "品川ストリングスクリニック",
+        "clinic_id": "national-9d1c38ec2bf09d",
+        "clinic": "ドーズ美容外科長崎院",
+        "label": "공식/등록 원문 주소 변경",
+        "before": "https://www.do-s.net/body/mounjaro/",
+        "after": "https://www.do-s.net/price/"
+      },
+      {
+        "type": "info",
+        "clinic_id": "national-9d1c38ec2bf09d",
+        "clinic": "ドーズ美容外科長崎院",
+        "label": "가격 검증 상태 변경",
+        "before": false,
+        "after": true
+      },
+      {
+        "type": "info",
+        "clinic_id": "national-9d1c38ec2bf09d",
+        "clinic": "ドーズ美容外科長崎院",
+        "label": "가격 검증 방식 변경",
+        "before": "unverified",
+        "after": "strict_v2"
+      },
+      {
+        "type": "info",
+        "clinic_id": "national-9d1c38ec2bf09d",
+        "clinic": "ドーズ美容外科長崎院",
         "label": "공식 가격 감사 상태 변경",
-        "before": "page_unavailable",
+        "before": "removed_unconfirmed",
         "after": "passed"
+      },
+      {
+        "type": "info",
+        "clinic_id": "national-9d1c38ec2bf09d",
+        "clinic": "ドーズ美容外科長崎院",
+        "label": "가격 산정 근거 변경",
+        "before": "병원 공식 페이지에서 용량별 수량·계약 기간·금액을 안전하게 대응시키지 못함",
+        "after": "독립 증거검증: 원문 단위·용량·금액 확인; 12펜 환산 근거는 price_evidence에 용량별 저장"
+      },
+      {
+        "type": "info",
+        "clinic_id": "national-9d1c38ec2bf09d",
+        "clinic": "ドーズ美容外科長崎院",
+        "label": "병원 추가 정보 변경",
+        "before": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요.",
+        "after": "공식 페이지의 용량·단위가 명확한 금액만 등록. 외국인 처방·배송·12펜 일괄 구매 여부 별도 확인."
+      },
+      {
+        "type": "verified",
+        "clinic_id": "national-41d451dfa000ec",
+        "clinic": "ぎなん皮ふ科クリニック",
+        "label": "병원 등록/검증 상태 변경",
+        "before": "candidate",
+        "after": "active"
+      },
+      {
+        "type": "price",
+        "clinic_id": "national-41d451dfa000ec",
+        "clinic": "ぎなん皮ふ科クリニック",
+        "dose": "5",
+        "before": null,
+        "after": 84000,
+        "label": "5mg 12펜 비교가 변경"
+      },
+      {
+        "type": "info",
+        "clinic_id": "national-41d451dfa000ec",
+        "clinic": "ぎなん皮ふ科クリニック",
+        "label": "공식/등록 원문 주소 변경",
+        "before": "https://sayaka-biyou-clinic.com/mounjaro/gifu/",
+        "after": "https://ginan-skin-clinic.jp/price/"
+      },
+      {
+        "type": "info",
+        "clinic_id": "national-41d451dfa000ec",
+        "clinic": "ぎなん皮ふ科クリニック",
+        "label": "가격 검증 상태 변경",
+        "before": false,
+        "after": true
+      },
+      {
+        "type": "info",
+        "clinic_id": "national-41d451dfa000ec",
+        "clinic": "ぎなん皮ふ科クリニック",
+        "label": "가격 검증 방식 변경",
+        "before": "",
+        "after": "strict_v2"
+      },
+      {
+        "type": "info",
+        "clinic_id": "national-41d451dfa000ec",
+        "clinic": "ぎなん皮ふ科クリニック",
+        "label": "공식 가격 감사 상태 변경",
+        "before": "",
+        "after": "passed"
+      },
+      {
+        "type": "info",
+        "clinic_id": "national-41d451dfa000ec",
+        "clinic": "ぎなん皮ふ科クリニック",
+        "label": "가격 산정 근거 변경",
+        "before": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
+        "after": "독립 증거검증: 원문 단위·용량·금액 확인; 12펜 환산 근거는 price_evidence에 용량별 저장"
+      },
+      {
+        "type": "info",
+        "clinic_id": "national-41d451dfa000ec",
+        "clinic": "ぎなん皮ふ科クリニック",
+        "label": "병원 추가 정보 변경",
+        "before": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+        "after": "공식 페이지의 용량·단위가 명확한 금액만 등록. 외국인 처방·배송·12펜 일괄 구매 여부 별도 확인."
+      },
+      {
+        "type": "verified",
+        "clinic_id": "national-b8ee41b14362c1",
+        "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+        "label": "병원 등록/검증 상태 변경",
+        "before": "candidate",
+        "after": "active"
+      },
+      {
+        "type": "price",
+        "clinic_id": "national-b8ee41b14362c1",
+        "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+        "dose": "2.5",
+        "before": null,
+        "after": 158400,
+        "label": "2.5mg 12펜 비교가 변경"
+      },
+      {
+        "type": "price",
+        "clinic_id": "national-b8ee41b14362c1",
+        "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+        "dose": "5",
+        "before": null,
+        "after": 316800,
+        "label": "5mg 12펜 비교가 변경"
+      },
+      {
+        "type": "info",
+        "clinic_id": "national-b8ee41b14362c1",
+        "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+        "label": "공식/등록 원문 주소 변경",
+        "before": "https://sayaka-biyou-clinic.com/mounjaro/kanagawa/",
+        "after": "https://www.kimikoclinic.com/price.php"
+      },
+      {
+        "type": "info",
+        "clinic_id": "national-b8ee41b14362c1",
+        "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+        "label": "가격 검증 상태 변경",
+        "before": false,
+        "after": true
+      },
+      {
+        "type": "info",
+        "clinic_id": "national-b8ee41b14362c1",
+        "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+        "label": "가격 검증 방식 변경",
+        "before": "",
+        "after": "strict_v2"
+      },
+      {
+        "type": "info",
+        "clinic_id": "national-b8ee41b14362c1",
+        "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+        "label": "공식 가격 감사 상태 변경",
+        "before": "",
+        "after": "passed"
+      },
+      {
+        "type": "info",
+        "clinic_id": "national-b8ee41b14362c1",
+        "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+        "label": "가격 산정 근거 변경",
+        "before": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
+        "after": "독립 증거검증: 원문 단위·용량·금액 확인; 12펜 환산 근거는 price_evidence에 용량별 저장"
+      },
+      {
+        "type": "info",
+        "clinic_id": "national-b8ee41b14362c1",
+        "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+        "label": "병원 추가 정보 변경",
+        "before": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+        "after": "공식 페이지의 용량·단위가 명확한 금액만 등록. 외국인 처방·배송·12펜 일괄 구매 여부 별도 확인."
+      },
+      {
+        "type": "info",
+        "clinic_id": "national-1ef1205003ede5",
+        "clinic": "ＣＬＩＮＩＣＮｏ７名古屋伏見",
+        "label": "공식 가격 감사 상태 변경",
+        "before": "passed",
+        "after": "page_unavailable"
+      },
+      {
+        "type": "source",
+        "clinic_id": "mt-diet",
+        "clinic": "MT 온라인 클리닉",
+        "source_url": "https://x.com/MT_DIET_CLINIC",
+        "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
       }
     ]
   },
   "runs": [
+    {
+      "at": "2026-11-23T20:14:40+09:00",
+      "total": 27,
+      "counts": {
+        "new": 0,
+        "verified": 3,
+        "price": 4,
+        "evidence": 0,
+        "promotion": 0,
+        "info": 19,
+        "status": 0,
+        "source": 1
+      },
+      "clinic_ids": [
+        "national-9d1c38ec2bf09d",
+        "national-41d451dfa000ec",
+        "national-b8ee41b14362c1",
+        "national-1ef1205003ede5",
+        "mt-diet"
+      ],
+      "by_clinic": {
+        "national-9d1c38ec2bf09d": [
+          {
+            "type": "verified",
+            "clinic_id": "national-9d1c38ec2bf09d",
+            "clinic": "ドーズ美容外科長崎院",
+            "label": "병원 등록/검증 상태 변경",
+            "before": "candidate",
+            "after": "active"
+          },
+          {
+            "type": "price",
+            "clinic_id": "national-9d1c38ec2bf09d",
+            "clinic": "ドーズ美容外科長崎院",
+            "dose": "2.5",
+            "before": null,
+            "after": 132000,
+            "label": "2.5mg 12펜 비교가 변경"
+          },
+          {
+            "type": "info",
+            "clinic_id": "national-9d1c38ec2bf09d",
+            "clinic": "ドーズ美容外科長崎院",
+            "label": "공식/등록 원문 주소 변경",
+            "before": "https://www.do-s.net/body/mounjaro/",
+            "after": "https://www.do-s.net/price/"
+          },
+          {
+            "type": "info",
+            "clinic_id": "national-9d1c38ec2bf09d",
+            "clinic": "ドーズ美容外科長崎院",
+            "label": "가격 검증 상태 변경",
+            "before": false,
+            "after": true
+          },
+          {
+            "type": "info",
+            "clinic_id": "national-9d1c38ec2bf09d",
+            "clinic": "ドーズ美容外科長崎院",
+            "label": "가격 검증 방식 변경",
+            "before": "unverified",
+            "after": "strict_v2"
+          },
+          {
+            "type": "info",
+            "clinic_id": "national-9d1c38ec2bf09d",
+            "clinic": "ドーズ美容外科長崎院",
+            "label": "공식 가격 감사 상태 변경",
+            "before": "removed_unconfirmed",
+            "after": "passed"
+          },
+          {
+            "type": "info",
+            "clinic_id": "national-9d1c38ec2bf09d",
+            "clinic": "ドーズ美容外科長崎院",
+            "label": "가격 산정 근거 변경",
+            "before": "병원 공식 페이지에서 용량별 수량·계약 기간·금액을 안전하게 대응시키지 못함",
+            "after": "독립 증거검증: 원문 단위·용량·금액 확인; 12펜 환산 근거는 price_evidence에 용량별 저장"
+          },
+          {
+            "type": "info",
+            "clinic_id": "national-9d1c38ec2bf09d",
+            "clinic": "ドーズ美容外科長崎院",
+            "label": "병원 추가 정보 변경",
+            "before": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요.",
+            "after": "공식 페이지의 용량·단위가 명확한 금액만 등록. 외국인 처방·배송·12펜 일괄 구매 여부 별도 확인."
+          }
+        ],
+        "national-41d451dfa000ec": [
+          {
+            "type": "verified",
+            "clinic_id": "national-41d451dfa000ec",
+            "clinic": "ぎなん皮ふ科クリニック",
+            "label": "병원 등록/검증 상태 변경",
+            "before": "candidate",
+            "after": "active"
+          },
+          {
+            "type": "price",
+            "clinic_id": "national-41d451dfa000ec",
+            "clinic": "ぎなん皮ふ科クリニック",
+            "dose": "5",
+            "before": null,
+            "after": 84000,
+            "label": "5mg 12펜 비교가 변경"
+          },
+          {
+            "type": "info",
+            "clinic_id": "national-41d451dfa000ec",
+            "clinic": "ぎなん皮ふ科クリニック",
+            "label": "공식/등록 원문 주소 변경",
+            "before": "https://sayaka-biyou-clinic.com/mounjaro/gifu/",
+            "after": "https://ginan-skin-clinic.jp/price/"
+          },
+          {
+            "type": "info",
+            "clinic_id": "national-41d451dfa000ec",
+            "clinic": "ぎなん皮ふ科クリニック",
+            "label": "가격 검증 상태 변경",
+            "before": false,
+            "after": true
+          },
+          {
+            "type": "info",
+            "clinic_id": "national-41d451dfa000ec",
+            "clinic": "ぎなん皮ふ科クリニック",
+            "label": "가격 검증 방식 변경",
+            "before": "",
+            "after": "strict_v2"
+          },
+          {
+            "type": "info",
+            "clinic_id": "national-41d451dfa000ec",
+            "clinic": "ぎなん皮ふ科クリニック",
+            "label": "공식 가격 감사 상태 변경",
+            "before": "",
+            "after": "passed"
+          },
+          {
+            "type": "info",
+            "clinic_id": "national-41d451dfa000ec",
+            "clinic": "ぎなん皮ふ科クリニック",
+            "label": "가격 산정 근거 변경",
+            "before": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
+            "after": "독립 증거검증: 원문 단위·용량·금액 확인; 12펜 환산 근거는 price_evidence에 용량별 저장"
+          },
+          {
+            "type": "info",
+            "clinic_id": "national-41d451dfa000ec",
+            "clinic": "ぎなん皮ふ科クリニック",
+            "label": "병원 추가 정보 변경",
+            "before": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+            "after": "공식 페이지의 용량·단위가 명확한 금액만 등록. 외국인 처방·배송·12펜 일괄 구매 여부 별도 확인."
+          }
+        ],
+        "national-b8ee41b14362c1": [
+          {
+            "type": "verified",
+            "clinic_id": "national-b8ee41b14362c1",
+            "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+            "label": "병원 등록/검증 상태 변경",
+            "before": "candidate",
+            "after": "active"
+          },
+          {
+            "type": "price",
+            "clinic_id": "national-b8ee41b14362c1",
+            "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+            "dose": "2.5",
+            "before": null,
+            "after": 158400,
+            "label": "2.5mg 12펜 비교가 변경"
+          },
+          {
+            "type": "price",
+            "clinic_id": "national-b8ee41b14362c1",
+            "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+            "dose": "5",
+            "before": null,
+            "after": 316800,
+            "label": "5mg 12펜 비교가 변경"
+          },
+          {
+            "type": "info",
+            "clinic_id": "national-b8ee41b14362c1",
+            "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+            "label": "공식/등록 원문 주소 변경",
+            "before": "https://sayaka-biyou-clinic.com/mounjaro/kanagawa/",
+            "after": "https://www.kimikoclinic.com/price.php"
+          },
+          {
+            "type": "info",
+            "clinic_id": "national-b8ee41b14362c1",
+            "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+            "label": "가격 검증 상태 변경",
+            "before": false,
+            "after": true
+          },
+          {
+            "type": "info",
+            "clinic_id": "national-b8ee41b14362c1",
+            "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+            "label": "가격 검증 방식 변경",
+            "before": "",
+            "after": "strict_v2"
+          },
+          {
+            "type": "info",
+            "clinic_id": "national-b8ee41b14362c1",
+            "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+            "label": "공식 가격 감사 상태 변경",
+            "before": "",
+            "after": "passed"
+          },
+          {
+            "type": "info",
+            "clinic_id": "national-b8ee41b14362c1",
+            "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+            "label": "가격 산정 근거 변경",
+            "before": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
+            "after": "독립 증거검증: 원문 단위·용량·금액 확인; 12펜 환산 근거는 price_evidence에 용량별 저장"
+          },
+          {
+            "type": "info",
+            "clinic_id": "national-b8ee41b14362c1",
+            "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+            "label": "병원 추가 정보 변경",
+            "before": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+            "after": "공식 페이지의 용량·단위가 명확한 금액만 등록. 외국인 처방·배송·12펜 일괄 구매 여부 별도 확인."
+          }
+        ],
+        "national-1ef1205003ede5": [
+          {
+            "type": "info",
+            "clinic_id": "national-1ef1205003ede5",
+            "clinic": "ＣＬＩＮＩＣＮｏ７名古屋伏見",
+            "label": "공식 가격 감사 상태 변경",
+            "before": "passed",
+            "after": "page_unavailable"
+          }
+        ],
+        "mt-diet": [
+          {
+            "type": "source",
+            "clinic_id": "mt-diet",
+            "clinic": "MT 온라인 클리닉",
+            "source_url": "https://x.com/MT_DIET_CLINIC",
+            "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+          }
+        ]
+      },
+      "items": [
+        {
+          "type": "verified",
+          "clinic_id": "national-9d1c38ec2bf09d",
+          "clinic": "ドーズ美容外科長崎院",
+          "label": "병원 등록/검증 상태 변경",
+          "before": "candidate",
+          "after": "active"
+        },
+        {
+          "type": "price",
+          "clinic_id": "national-9d1c38ec2bf09d",
+          "clinic": "ドーズ美容外科長崎院",
+          "dose": "2.5",
+          "before": null,
+          "after": 132000,
+          "label": "2.5mg 12펜 비교가 변경"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-9d1c38ec2bf09d",
+          "clinic": "ドーズ美容外科長崎院",
+          "label": "공식/등록 원문 주소 변경",
+          "before": "https://www.do-s.net/body/mounjaro/",
+          "after": "https://www.do-s.net/price/"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-9d1c38ec2bf09d",
+          "clinic": "ドーズ美容外科長崎院",
+          "label": "가격 검증 상태 변경",
+          "before": false,
+          "after": true
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-9d1c38ec2bf09d",
+          "clinic": "ドーズ美容外科長崎院",
+          "label": "가격 검증 방식 변경",
+          "before": "unverified",
+          "after": "strict_v2"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-9d1c38ec2bf09d",
+          "clinic": "ドーズ美容外科長崎院",
+          "label": "공식 가격 감사 상태 변경",
+          "before": "removed_unconfirmed",
+          "after": "passed"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-9d1c38ec2bf09d",
+          "clinic": "ドーズ美容外科長崎院",
+          "label": "가격 산정 근거 변경",
+          "before": "병원 공식 페이지에서 용량별 수량·계약 기간·금액을 안전하게 대응시키지 못함",
+          "after": "독립 증거검증: 원문 단위·용량·금액 확인; 12펜 환산 근거는 price_evidence에 용량별 저장"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-9d1c38ec2bf09d",
+          "clinic": "ドーズ美容外科長崎院",
+          "label": "병원 추가 정보 변경",
+          "before": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요.",
+          "after": "공식 페이지의 용량·단위가 명확한 금액만 등록. 외국인 처방·배송·12펜 일괄 구매 여부 별도 확인."
+        },
+        {
+          "type": "verified",
+          "clinic_id": "national-41d451dfa000ec",
+          "clinic": "ぎなん皮ふ科クリニック",
+          "label": "병원 등록/검증 상태 변경",
+          "before": "candidate",
+          "after": "active"
+        },
+        {
+          "type": "price",
+          "clinic_id": "national-41d451dfa000ec",
+          "clinic": "ぎなん皮ふ科クリニック",
+          "dose": "5",
+          "before": null,
+          "after": 84000,
+          "label": "5mg 12펜 비교가 변경"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-41d451dfa000ec",
+          "clinic": "ぎなん皮ふ科クリニック",
+          "label": "공식/등록 원문 주소 변경",
+          "before": "https://sayaka-biyou-clinic.com/mounjaro/gifu/",
+          "after": "https://ginan-skin-clinic.jp/price/"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-41d451dfa000ec",
+          "clinic": "ぎなん皮ふ科クリニック",
+          "label": "가격 검증 상태 변경",
+          "before": false,
+          "after": true
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-41d451dfa000ec",
+          "clinic": "ぎなん皮ふ科クリニック",
+          "label": "가격 검증 방식 변경",
+          "before": "",
+          "after": "strict_v2"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-41d451dfa000ec",
+          "clinic": "ぎなん皮ふ科クリニック",
+          "label": "공식 가격 감사 상태 변경",
+          "before": "",
+          "after": "passed"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-41d451dfa000ec",
+          "clinic": "ぎなん皮ふ科クリニック",
+          "label": "가격 산정 근거 변경",
+          "before": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
+          "after": "독립 증거검증: 원문 단위·용량·금액 확인; 12펜 환산 근거는 price_evidence에 용량별 저장"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-41d451dfa000ec",
+          "clinic": "ぎなん皮ふ科クリニック",
+          "label": "병원 추가 정보 변경",
+          "before": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+          "after": "공식 페이지의 용량·단위가 명확한 금액만 등록. 외국인 처방·배송·12펜 일괄 구매 여부 별도 확인."
+        },
+        {
+          "type": "verified",
+          "clinic_id": "national-b8ee41b14362c1",
+          "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+          "label": "병원 등록/검증 상태 변경",
+          "before": "candidate",
+          "after": "active"
+        },
+        {
+          "type": "price",
+          "clinic_id": "national-b8ee41b14362c1",
+          "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+          "dose": "2.5",
+          "before": null,
+          "after": 158400,
+          "label": "2.5mg 12펜 비교가 변경"
+        },
+        {
+          "type": "price",
+          "clinic_id": "national-b8ee41b14362c1",
+          "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+          "dose": "5",
+          "before": null,
+          "after": 316800,
+          "label": "5mg 12펜 비교가 변경"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-b8ee41b14362c1",
+          "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+          "label": "공식/등록 원문 주소 변경",
+          "before": "https://sayaka-biyou-clinic.com/mounjaro/kanagawa/",
+          "after": "https://www.kimikoclinic.com/price.php"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-b8ee41b14362c1",
+          "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+          "label": "가격 검증 상태 변경",
+          "before": false,
+          "after": true
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-b8ee41b14362c1",
+          "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+          "label": "가격 검증 방식 변경",
+          "before": "",
+          "after": "strict_v2"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-b8ee41b14362c1",
+          "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+          "label": "공식 가격 감사 상태 변경",
+          "before": "",
+          "after": "passed"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-b8ee41b14362c1",
+          "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+          "label": "가격 산정 근거 변경",
+          "before": "공식 의료기관 DB·비교 사이트에서 발견한 후보, 가격 원문 검증 전",
+          "after": "독립 증거검증: 원문 단위·용량·금액 확인; 12펜 환산 근거는 price_evidence에 용량별 저장"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-b8ee41b14362c1",
+          "clinic": "医療法人麗光会　ヨーダー公子クリニック",
+          "label": "병원 추가 정보 변경",
+          "before": "후생노동성 등록 기관/공개 비교 사이트 공식 URL 단서. 마운자로 취급과 가격·방문 조건은 검증 전.",
+          "after": "공식 페이지의 용량·단위가 명확한 금액만 등록. 외국인 처방·배송·12펜 일괄 구매 여부 별도 확인."
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-1ef1205003ede5",
+          "clinic": "ＣＬＩＮＩＣＮｏ７名古屋伏見",
+          "label": "공식 가격 감사 상태 변경",
+          "before": "passed",
+          "after": "page_unavailable"
+        },
+        {
+          "type": "source",
+          "clinic_id": "mt-diet",
+          "clinic": "MT 온라인 클리닉",
+          "source_url": "https://x.com/MT_DIET_CLINIC",
+          "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+        }
+      ]
+    },
     {
       "at": "2026-11-23T20:09:27.390021+09:00",
       "total": 8,
