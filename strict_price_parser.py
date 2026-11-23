@@ -150,6 +150,11 @@ def table_evidence(table):
         if len(set(quantity))>1:continue
         pens=(quantity[0] if quantity else None)
         pens=pens or unit(row[i]) or unit(price_col_header) or unit(label)
+        # A three-month PLAN monthly installment is the cost of four pens,
+        # NOT the total for twelve pens. Keep the contract length separately.
+        rate_context=" ".join((price_col_header,row[i],label))
+        if pens==12 and MONTHLY_RATE.search(rate_context):
+            pens=4
         if not pens:
             # A SINGLE unambiguous table-wide unit in the header (e.g. 4週分).
             header_unit=unit(first_header)
@@ -188,6 +193,7 @@ def inline_evidence(soup):
             prices=num(tail)
             # Explicit unit must be attached to the same dose's price.
             pens=unit(tail)
+            if pens==12 and MONTHLY_RATE.search(tail):pens=4
             if len(prices)!=1 or not pens or PROMO.search(tail):continue
             ev=record(d,prices[0],pens,"dose_inline",m[0]+" "+tail,tail,tax_mode(line))
             if ev:entries.append(ev)
@@ -234,6 +240,9 @@ def self_test():
        <tr><td>5mg</td><td>44,000円</td><td>36,000円</td></tr></table>""")=={"5":108000}
     assert run("""<h3>マンジャロ</h3><table><tr><th>用量</th><th>1ヶ月分</th><th>3ヶ月分</th><th>6ヶ月分</th></tr>
        <tr><td>5mg</td><td>44,000円</td><td>108,000円</td><td>170,000円</td></tr></table>""")=={}
+    assert run("""<h3>マンジャロ</h3><table><tr><th>用量</th><th>3ヶ月定期/月額</th></tr>
+       <tr><td>5mg</td><td>19,600円</td></tr></table>""")=={"5":58800}
+    assert run("<h3>マンジャロ価格</h3><p>5mg 3ヶ月プラン 月額 19,600円</p>")=={"5":58800}
     assert run("""<h3>マンジャロ</h3><table><tr><th>用量</th><th>1本単価</th></tr>
        <tr><td>5mg</td><td>12,000円</td></tr></table>""")=={"5":144000}
     assert run("""<h2>マンジャロ 5mg</h2><p>2.5mg（4週分）19,000円</p>
