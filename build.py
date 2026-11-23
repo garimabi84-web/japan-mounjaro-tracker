@@ -2,6 +2,7 @@
 """Build offline-friendly HTML & CSV from evolving catalog and SNS finds."""
 from pathlib import Path
 import csv, io, json
+from price_integrity import public_catalog, published_price, DOSES
 ROOT=Path(__file__).resolve().parent
 cat=json.loads((ROOT/'catalog.json').read_text(encoding='utf-8'))
 finds=json.loads((ROOT/'discoveries.json').read_text(encoding='utf-8')) if (ROOT/'discoveries.json').exists() else {}
@@ -9,20 +10,16 @@ changes=json.loads((ROOT/'scan_changes.json').read_text(encoding='utf-8')) if (R
 national=json.loads((ROOT/'national_discovery.json').read_text(encoding='utf-8')) if (ROOT/'national_discovery.json').exists() else {}
 read=lambda x:(ROOT/x).read_text(encoding='utf-8')
 def jsjson(d):return json.dumps(d,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c').replace('>','\\u003e').replace('&','\\u0026')
-html=read('index.template.html').replace('__CATALOG_JSON__',jsjson(cat)).replace('__DISCOVERIES_JSON__',jsjson(finds)).replace('__CHANGES_JSON__',jsjson(changes)).replace('__NATIONAL_JSON__',jsjson(national))
+html=read('index.template.html').replace('__CATALOG_JSON__',jsjson(public_catalog(cat))).replace('__DISCOVERIES_JSON__',jsjson(finds)).replace('__CHANGES_JSON__',jsjson(changes)).replace('__NATIONAL_JSON__',jsjson(national))
 # Avoid file:// import errors from standalone HTML, inline monitor snapshot (no web request)
 monitor=read('monitor.js') if (ROOT/'monitor.js').exists() else ''
 html=html.replace('<script src="monitor.js"></script>','<script>'+monitor+'</script>')
 (ROOT/'index.html').write_text(html,encoding='utf-8')
 DS=cat['doses']
 def trusted(row):
-    if row.get('discovery') not in ('national','auto'):return True
-    return (row.get('price_integrity')=='strict_v2'
-        or bool(row.get('price_unit_reviewed_at'))
-        or bool(row.get('source_pack_pens') and row.get('source_pack_prices')))
+    return any(published_price(row,d) is not None for d in DOSES)
 def safe_price(row,dose):
-    if not trusted(row):return None
-    return row.get('prices',{}).get(dose)
+    return published_price(row,dose)
 cols=['병원 ID','병원명','지역','도시','외국인단기체류처방','비대면진료','일본전국배송','상태','발견경로',
       *[f'{x}mg 12펜 기본가(엔)' for x in DS], *[f'{x}mg 12펜 행사 최저가(엔)' for x in DS],
       '행사명','행사시작','행사종료','행사조건','가격산정','진찰 배송비','예약 방법','예약 링크 종류','예약 페이지','예약 유의사항','예약 확인일','비고','가격공식출처','확인일', *[f'{x}mg 12펜 홍보가(엔)' for x in DS], '홍보물 게시일','홍보물 발견일','홍보물 출처','원문 단위 검증 상태','용량별 원문 증거 JSON','판매 단위 검증일']
