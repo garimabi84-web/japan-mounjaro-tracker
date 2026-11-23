@@ -5,6 +5,10 @@ on:
     paths:
       - '.github/workflows/price-quality-audit.yml'
       - 'strict_price_parser.py'
+      - 'price_engine_v2.py'
+      - 'price_integrity.py'
+      - 'price_audit.py'
+      - 'build.py'
   workflow_dispatch:
 permissions:
   contents: write
@@ -20,7 +24,9 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Test all-unit, all-dose, brand and 3-month-plan parsing
         run: |
-          python -m py_compile strict_price_parser.py bulk_verify.py enrich_official.py price_audit.py build.py
+          python -m py_compile price_engine_v2.py price_integrity.py strict_price_parser.py bulk_verify.py enrich_official.py price_audit.py build.py
+          python price_engine_v2.py
+          python price_integrity.py
           python strict_price_parser.py
           python bulk_verify.py --self-test
           python enrich_official.py --self-test
@@ -40,8 +46,12 @@ jobs:
           auto=[x for x in rows if x['발견경로'] in ('national','auto')]
           unknown=[x for x in auto if x.get('원문 단위 검증 상태')=='원문 단위 검증 대기']
           print('AUTO RECORDS',len(auto),'UNVERIFIED WITHHELD',len(unknown))
-          assert all(not x.get('5mg 12펜 기본가(엔)') for x in unknown)
-          assert all(not x.get('10mg 12펜 기본가(엔)') for x in unknown)
+          for dose in ('2.5','5','7.5','10','12.5','15'):
+              field=f'{dose}mg 12펜 기본가(엔)'
+              assert all(not x.get(field) for x in unknown),(field,'unverified price leaked')
+          verified={dose:sum(bool(x.get(f'{dose}mg 12펜 기본가(엔)')) for x in auto)
+                    for dose in ('2.5','5','7.5','10','12.5','15')}
+          print('PUBLISHED VERIFIED PRICES BY DOSE',verified)
           PY
       - name: Publish verified results only
         shell: bash
