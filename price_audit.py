@@ -10,7 +10,7 @@ import argparse, concurrent.futures, json, re
 from pathlib import Path
 import requests
 from discover import CATALOG, UA, now
-from source_price_parser import extract_official
+from strict_price_parser import extract_with_evidence, self_test as strict_self_test
 from enrich_official import official_host
 
 ROOT=Path(__file__).resolve().parent
@@ -49,14 +49,18 @@ def inspect(c):
         r=requests.get(url,headers={'User-Agent':UA,'Accept-Language':'ja,ko;q=0.8'},timeout=(4,12))
         if not r.ok or len(r.content)>1_000_000 or official_host(r.url)!=official_host(url):
             return c['id'],{'status':'unavailable','http':r.status_code}
-        prices,basis=extract_official(r.content)
-        return c['id'],{'status':'checked','prices':prices,'basis':basis,'url':r.url,'anomalies':suspicious(prices)}
+        prices,evidence=extract_with_evidence(r.content)
+        return c['id'],{'status':'checked','prices':prices,'evidence':evidence,
+                         'basis':'독립 증거검증: 원문 단위·용량·금액 확인','url':r.url,
+                         'anomalies':suspicious(prices)}
     except requests.RequestException as e:
         return c['id'],{'status':'unavailable','error':str(e)[:120]}
 
 def correct_one(c,outcome):
     if outcome.get('status')!='checked':
         c['official_price_audit_status']='page_unavailable'
+        # A network outage is NOT proof of bad pricing. Keep the raw amount
+        # for later verification; the UI/CSV must not rank it without V2 proof.
         return 'unavailable'
     prices=outcome.get('prices',{})
     old={d:v for d,v in c.get('prices',{}).items() if isinstance(v,(int,float))}
@@ -67,6 +71,8 @@ def correct_one(c,outcome):
         c['basis']='공식 페이지 재검토 결과 마운자로 제품별 가격을 확인하지 못함; 기존 자동 가격 폐기'
         c['notes']='과거 자동 추출에서 다른 약품 가격이 혼입됐을 가능성. 공식 마운자로 가격표 재확인 전 비교에서 제외.'
         c['official_price_audit_status']='removed_unconfirmed'
+        c['price_integrity']='unverified'
+        c['price_evidence']={}
         c['updated']=now()[:10]
         return 'removed'
     if outcome.get('anomalies'):
@@ -75,10 +81,14 @@ def correct_one(c,outcome):
         c['basis']='공식 가격 추출에서 용량별 비정상 가격 관계 발견; 수동 검증 전 가격 보류'
         c['notes']=' / '.join(outcome['anomalies'])[:400]
         c['official_price_audit_status']='dose_price_anomaly'
+        c['price_integrity']='unverified'
+        c['price_evidence']={}
         c['updated']=now()[:10]
         return 'anomaly'
     c['prices']={d:prices.get(d) for d in DOSES}
-    c['basis']=outcome['basis']+'; 마운자로 브랜드/약품 구역 독립 재검증'
+    c['basis']=outcome['basis']+'; 12펜 환산 근거는 price_evidence에 용량별 저장'
+    c['price_integrity']='strict_v2'
+    c['price_evidence']=outcome.get('evidence',{})
     c['official_price_audit_status']='passed'
     c['official_price_audited_at']=now()
     c['url']=outcome['url']
@@ -96,23 +106,25 @@ def self_test():
     assert correct_one(valid,{'status':'checked','prices':{'5':99000,'10':135000},
          'basis':'공식 가격', 'url':'https://example.com/prices','anomalies':[]})=='corrected'
     assert valid['prices']['10']==135000 and valid['prices']['7.5'] is None
+    assert valid['price_integrity']=='strict_v2'
     reviewed={'status':'active','price_verified':True,'discovery':'national',
               'official_domain':'femuse-clinic.jp',
               'price_unit_reviewed_at':'2026-11-23T18:00:00+09:00'}
     assert not automatic(reviewed), 'unit-reviewed prices must not be overwritten by generic audit'
     zep='<h3>ゼップバウンド</h3><p>マンジャロと同成分</p><p>10mg（1ヶ月分）33,000円</p>'
-    assert extract_official(zep)[0]=={}
-    print('Price audit self-tests passed: wrong-medicine revocation and unit checks')
+    assert extract_with_evidence(zep)[0]=={}
+    strict_self_test()
+    print('Price audit self-tests passed: strict independent price units and product scope')
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--self-test',action='store_true')
-    p.add_argument('--limit',type=int,default=200)
+    p.add_argument('--limit',type=int,default=300)
     args=p.parse_args()
     if args.self_test:return self_test()
     cat=json.loads(CATALOG.read_text(encoding='utf-8'))
     candidates=[x for x in cat['clinics'] if automatic(x)]
     candidates.sort(key=lambda c:(c.get('official_price_audited_at',''),c.get('official_checked_at','')))
-    chosen=candidates[:max(0,min(args.limit,250))]
+    chosen=candidates[:max(0,min(args.limit,500))]
     results={}
     with concurrent.futures.ThreadPoolExecutor(max_workers=7) as pool:
         for ident,outcome in pool.map(inspect,chosen):results[ident]=outcome
