@@ -1,11 +1,11 @@
 {
-  "at": "2026-11-23T19:06:20+09:00",
+  "at": "2026-11-23T19:07:49+09:00",
   "checked": 117,
   "result": {
-    "removed": 24,
-    "unavailable": 2,
-    "passed": 73,
-    "corrected": 18
+    "removed": 27,
+    "unavailable": 3,
+    "passed": 86,
+    "corrected": 1
   },
   "review": [
     {
@@ -177,130 +177,32 @@
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     },
     {
-      "name": "ゆきスキンクリニック東池袋",
-      "id": "national-9e3d4db9e55a4e",
+      "name": "森外科医院",
+      "id": "national-5f22927fd64d20",
       "status": "corrected",
-      "url": "https://yuki-skin.clinic/menu/treatment/medical-diet/",
+      "url": "https://www.morigeka.net/glp-1/",
       "message": "가격 재확인 후 갱신"
     },
     {
-      "name": "パーソナルケアクリニック",
-      "id": "national-a95a142cf17490",
-      "status": "corrected",
-      "url": "https://personalcareclinic.jp/diet/#mounjaro",
-      "message": "가격 재확인 후 갱신"
+      "name": "たきもと内科クリニック",
+      "id": "national-688790a7357adb",
+      "status": "removed",
+      "url": "https://takimoto-cl.com/menu/%E7%BE%8E%E5%AE%B9%E5%86%85%E7%A7%91/",
+      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     },
     {
-      "name": "一般社団法人ＣＤＭｅｄｉｃａｌ　西すがも滝野川内科・内視鏡クリニック",
-      "id": "national-3e214d29ed83ed",
-      "status": "corrected",
-      "url": "https://www.takinogawaclinic.life/glp-1/",
-      "message": "가격 재확인 후 갱신"
+      "name": "王子金田レディース・ペインクリニック",
+      "id": "national-d6d254b350b2f2",
+      "status": "removed",
+      "url": "https://kanedaclinic.com/price",
+      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     },
     {
-      "name": "下北沢Ｄｏクリニック",
-      "id": "national-e32e451f3cd1ad",
-      "status": "corrected",
-      "url": "https://shimokita-do.jp/cosmetic_dermatology/",
-      "message": "가격 재확인 후 갱신"
-    },
-    {
-      "name": "なとり皮膚科くまのどう内科下肢静脈瘤クリニック",
-      "id": "national-19a2d1f13e253c",
-      "status": "corrected",
-      "url": "https://natori-kumanodo-clinic.jp/treatment/self_care/mounjaro/",
-      "message": "가격 재확인 후 갱신"
-    },
-    {
-      "name": "医療法人涼葵会　Ｗ　ＣＬＩＮＩＣ　梅田院",
-      "id": "national-36809e9ee9093d",
-      "status": "corrected",
-      "url": "https://wclinic-osaka.jp/medicine/mounjaro/",
-      "message": "가격 재확인 후 갱신"
-    },
-    {
-      "name": "医療法人社団幸神会　桜新町駅前神川クリニック",
-      "id": "national-db3898da7df897",
-      "status": "corrected",
-      "url": "https://kamikuri.jp/menu/medical05/",
-      "message": "가격 재확인 후 갱신"
-    },
-    {
-      "name": "医療法人社団ＫＫクリニック　ＫＫクリニック市原",
-      "id": "national-12a5312a53a555",
-      "status": "corrected",
-      "url": "https://kkclinic-ichihara.com/medicaldiet.html",
-      "message": "가격 재확인 후 갱신"
-    },
-    {
-      "name": "医療法人社団ＫＫクリニックＫＫクリニック西船橋",
-      "id": "national-9d9f3bce0fc8e7",
-      "status": "corrected",
-      "url": "https://kkclinic-nishifuna.com/medicaldiet.html",
-      "message": "가격 재확인 후 갱신"
-    },
-    {
-      "name": "医療法人聖美会　ウェンデルクリニック",
-      "id": "national-b7ffcdcbb1594b",
-      "status": "corrected",
-      "url": "https://www.wendel-clinic.com/mounjaro/",
-      "message": "가격 재확인 후 갱신"
-    },
-    {
-      "name": "医療法人雄仁会五郎台ファミリークリニック",
-      "id": "national-5a51eca39dd125",
-      "status": "corrected",
-      "url": "https://www.goroudaifc.com/mounjaro",
-      "message": "가격 재확인 후 갱신"
-    },
-    {
-      "name": "宮澤内科・呼吸器クリニック",
-      "id": "national-08ac00f781c125",
-      "status": "corrected",
-      "url": "https://mrc-tamaplaza.jp/diet/",
-      "message": "가격 재확인 후 갱신"
-    },
-    {
-      "name": "愛北ハートクリニック",
-      "id": "national-4c1a799e06bef5",
-      "status": "corrected",
-      "url": "https://www.aihoku-hc.com/medical-diet/",
-      "message": "가격 재확인 후 갱신"
-    },
-    {
-      "name": "溝の口駅前皮膚科",
-      "id": "national-30b1817be2634d",
-      "status": "corrected",
-      "url": "https://ekimae-hifuka.net/medical2/price-list/",
-      "message": "가격 재확인 후 갱신"
-    },
-    {
-      "name": "自由が丘ファミリー皮膚科",
-      "id": "national-e234941dbe1eed",
-      "status": "corrected",
-      "url": "https://jiyugaoka-family-hifuka.com/medical2/price-list/",
-      "message": "가격 재확인 후 갱신"
-    },
-    {
-      "name": "ＡＩ　Ｂｅａｕｔｙ　Ｃｌｉｎｉｃ",
-      "id": "national-75cd6439e577fb",
-      "status": "corrected",
-      "url": "https://aiclinic8128.com/menu/price.html",
-      "message": "가격 재확인 후 갱신"
-    },
-    {
-      "name": "ＰＲＩＳＭ　Ｂｅａｕｔｙ　Ｃｌｉｎｉｃ　町田院",
-      "id": "national-4b4ba668c3fa56",
-      "status": "corrected",
-      "url": "https://prism-clinic.com/archives/price/",
-      "message": "가격 재확인 후 갱신"
-    },
-    {
-      "name": "Re:Birth Clinic NAGOYA",
-      "id": "national-8f2ca97139f7ff",
-      "status": "corrected",
-      "url": "https://rebirth-clinic.jp/treatment/mounjaro/",
-      "message": "가격 재확인 후 갱신"
+      "name": "ＲＥＪＵ　Ｂｅａｕｔｙ　Ｃｌｉｎｉｃ",
+      "id": "national-db6f97197eb3ab",
+      "status": "removed",
+      "url": "https://rejubeautyclinic.jp/service/mounjaro-medical-diet/",
+      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     }
   ]
 }
