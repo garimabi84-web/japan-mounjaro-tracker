@@ -24,7 +24,7 @@ INTRO=re.compile(r'初回|初月|初診限定|お試し|トライアル|キャ�
 OLD=re.compile(r'旧価格|改定前|変更前|従来価格')
 EXCLUSIVE=re.compile(r'税抜|税別|税抜き|税抜価格')
 INCLUSIVE=re.compile(r'税込|税込み|税こみ')
-PER_MONTH=re.compile(r'月額|毎月|月あたり|1ヶ月あたり|一ヶ月あたり|月々')
+PER_MONTH=re.compile(r'月額|毎月|月あたり|1ヶ月あたり|一ヶ月あたり|月々|[/／]\s*月|月\s*単価')
 MONEY_FORMAT=re.compile(r'^\s*(?:[¥￥]?\s*[\d,]+\s*(?:円|[¥￥])?\s*(?:\([^)]*\))?)\s*$')
 
 def norm(x):
@@ -65,7 +65,13 @@ def plan(text, *, header=False):
     text=norm(text)
     mths={int(m[1]) for m in MONTH.finditer(text)}
     if any(m>3 for m in mths):return None,'장기구독'
+    # A table header such as "3ヶ月分" paired with "19,600円/月"
+    # gives a monthly rate, not the total 12-pen package price.
     if mths=={3} and PER_MONTH.search(text):return 12,'3개월 계약 월액'
+    # A two-month monthly rate cannot be treated as the total price of 8 pens,
+    # nor is it proof that a 3-month purchase is available at that rate.
+    if mths=={2} and PER_MONTH.search(text):return None,'2개월 월액 (비교 제외)'
+    if len(mths)>1 and PER_MONTH.search(text):return None,'기간 혼재 월액'
     return None,''
 
 def collect(candidates,dose,raw,unit,fragment,origin,context,source_url=''):
@@ -77,6 +83,9 @@ def collect(candidates,dose,raw,unit,fragment,origin,context,source_url=''):
     # Monthly subscription for 6/12 month contract is NOT a 12-pen price.
     lower=norm(context+' '+fragment)
     if PER_MONTH.search(lower) and any(int(m[1])>3 for m in MONTH.finditer(lower)):return
+    # A monthly rate must not be interpreted as the total payment for
+    # 8/12 pens even if the column header says 2/3 months.
+    if PER_MONTH.search(lower) and pens>4 and kind!='3개월 계약 월액':return
     amount,tax=tax_price(raw,fragment+' '+context)
     if kind=='3개월 계약 월액':
         comparable=amount*3;rank=5
@@ -86,7 +95,7 @@ def collect(candidates,dose,raw,unit,fragment,origin,context,source_url=''):
     if not 12000<=comparable<=1200000:return
     candidates[dose].append({
         'amount':comparable,'source_amount':raw,'source_pens':pens,
-        'source_type':kind,'method':'12펜 직접금액' if pens==12 and kind!='3개월 계약 월액' else f'{pens}펜 기준 12펜 환산',
+        'source_type':kind,'method':('3개월 계약 월액 × 3' if kind=='3개월 계약 월액' else '12펜 직접금액' if pens==12 else f'{pens}펜 기준 12펜 환산'),
         'tax':tax,'source_fragment':norm(fragment)[:180],
         'source_url':source_url,'rank':rank,'source_kind':origin
     })
@@ -159,7 +168,7 @@ def parse_official_v2(source,source_url=''):
                 if plan_info[0]:
                     unit=plan_info
                 else:
-                    if plan_info[1]=='장기구독':continue
+                    if plan_info[1]:continue
                     unit=quantity(cells[j])
                     if unit[0] is None:unit=quantity(label)
                     if unit[0] is None:unit=unit_column
@@ -171,7 +180,12 @@ def parse_official_v2(source,source_url=''):
                     continue
                 if unit[0] is None:continue
                 # Do not mistake a dosage row with e.g "10mg" for 10 pens.
-                fragment=' | '.join(cells)
+                # Evidence must cite THIS price column, including its header.
+                # The former whole-row quote obscured that 19,600円/月 was
+                # a monthly rate in the "3ヶ月分" column.
+                evidence_parts=[cells[dose_pos],label,cells[j]]
+                evidence_parts.extend(c for i,c in enumerate(cells) if i not in (dose_pos,j) and quantity(c)[0] is not None)
+                fragment=' | '.join(dict.fromkeys(x for x in evidence_parts if x))
                 context=label+' '+heading
                 collect(found,dose,raw,unit,fragment,'official_table',context,source_url)
     # Small explicit Mounjaro paragraphs and inline price rows. Heading scopes
@@ -221,10 +235,9 @@ def parse_official_v2(source,source_url=''):
             seg=txt[m.start():matches[ix+1].start() if ix+1<len(matches) else len(txt)]
             raw=price_value(seg)
             if raw is None:continue
-            unit=quantity(seg)
-            if unit[0] is None:
-                info=plan(seg)
-                if info[0]:unit=info
+            info=plan(seg)
+            if info[1] and info[0] is None:continue
+            unit=info if info[0] else quantity(seg)
             if unit[0] is None:continue
             collect(found,dose,raw,unit,seg,'official_inline',txt[:80],source_url)
     prices={};evidence={}
@@ -279,6 +292,18 @@ def self_test():
         ('no_header_unit_leak',"""<h2>マンジャロ</h2><table>
           <tr><td>マンジャロ</td><td>5mg/1本</td><td>8,000円</td></tr>
           <tr><td></td><td>7.5mg</td><td>12,000円</td></tr></table>""",{'5':96000}),
+        ('femuse_price_table',"""<h3>注射薬（マンジャロ）</h3><table>
+          <tr><th>用量</th><th>1ヶ月分</th><th>2ヶ月分</th><th>3ヶ月分</th><th>6ヶ月分</th></tr>
+          <tr><td>2.5mg</td><td>12,600円/月</td><td>11,900円/月</td><td>11,200円/月</td><td>10,500円/月</td></tr>
+          <tr><td>5.0mg</td><td>21,000円/月</td><td>20,300円/月</td><td>19,600円/月</td><td>18,900円/月</td></tr>
+          <tr><td>7.5mg</td><td>29,400円/月</td><td>28,700円/月</td><td>28,000円/月</td><td>27,300円/月</td></tr></table>""",
+         {'2.5':33600,'5':58800,'7.5':84000}),
+        ('femuse_monthly_headers',"""<h3>マンジャロ</h3><table>
+          <tr><th>用量</th><th>月額(定価)</th><th>2ヶ月セット/月</th><th>3ヶ月セット/月</th><th>6ヶ月セット/月</th></tr>
+          <tr><td>5.0mg</td><td>¥21,000</td><td>¥20,300</td><td>¥19,600</td><td>¥18,900</td></tr></table>""", {'5':58800}),
+        ('two_month_only_monthly_rate',"""<h3>マンジャロ</h3><table>
+          <tr><th>用量</th><th>2ヶ月セット/月</th></tr>
+          <tr><td>5mg</td><td>20,300円</td></tr></table>""",{}),
         ('unknownunit',"""<h2>マンジャロ</h2><table><tr><th>用量</th><th>価格</th></tr>
          <tr><td>10mg</td><td>30,000円</td></tr></table>""",{}),
         ('haab',"""<h2>マンジャロ料金</h2><table><tr><th>用量</th><th>1本価格</th></tr>

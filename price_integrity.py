@@ -45,6 +45,14 @@ def trusted(c,d):
         r'(?:[¥￥]\s*([\d,]+)|([\d,]+)\s*(?:円|[¥￥]))',fragment)
         for value in match if value}
     if raw not in source_amounts:return False
+    # Prevent an inherited "12 pens reviewed" label from masking monthly
+    # column rates (e.g. 19,600円/月 in the 3ヶ月分 column).
+    monthly=bool(re.search(r'月額|毎月|月あたり|月々|[/／]\s*月',fragment))
+    if ev.get('source_type')=='3개월 계약 월액':
+        if not monthly or not re.search(r'3\s*(?:ヶ?月|か月|ヵ月|カ月|ヶ月)',fragment):
+            return False
+    elif monthly and n>4:
+        return False
     if re.search(r'約\s*[¥￥]?\s*[\d,]+\s*円|[¥￥]?[\d,]+\s*円\s*[〜～~]|\d+円\s*から',fragment):
         return False
     # Catch unit disagreement such as "5mg/4本 | ¥33,000" recorded as
@@ -102,6 +110,18 @@ def self_test():
     wrong_yen=copy.deepcopy(checked)
     wrong_yen['price_evidence']['5']['quote']='5mg 4本 8,000円'
     assert published_price(wrong_yen,'5') is None
+    femuse_wrong=copy.deepcopy(checked)
+    femuse_wrong['price_evidence']['5'].update({
+        'raw_yen':19600,'pens':12,'equivalent_12':19600,
+        'quote':'5.0mg | 3ヶ月分 | 19,600円/月',
+        'source_type':'명시된 펜·주수/기간'})
+    femuse_wrong['prices']['5']=19600
+    assert published_price(femuse_wrong,'5') is None, 'Monthly rate must not pass as total'
+    femuse_correct=copy.deepcopy(femuse_wrong)
+    femuse_correct['price_evidence']['5'].update({'equivalent_12':58800,
+                                                 'source_type':'3개월 계약 월액'})
+    femuse_correct['prices']['5']=58800
+    assert published_price(femuse_correct,'5')==58800
     public=public_catalog({'clinics':[base]})['clinics'][0]
     assert public['status']=='candidate' and public['prices']['5'] is None
     print('All-dose public price integrity self-tests passed')

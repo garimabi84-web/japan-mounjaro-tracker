@@ -30,7 +30,11 @@ jobs:
           cases=[
               ('https://wclinic-osaka.jp/medicine/mounjaro/','2.5',68640),
               ('https://wclinic-osaka.jp/medicine/mounjaro/','5',99000),
-              ('https://www.kiyama-naishikyou.jp/diet/','10',198000)]
+              ('https://www.kiyama-naishikyou.jp/diet/','10',198000),
+              # Official monthly-rate columns, including 3ヶ月分 ¥19,600/月.
+              ('https://femuse-clinic.jp/price/','2.5',33600),
+              ('https://femuse-clinic.jp/price/','5',58800),
+              ('https://femuse-clinic.jp/price/','7.5',84000)]
           cache={}
           for url,dose,expected in cases:
               if url not in cache:
