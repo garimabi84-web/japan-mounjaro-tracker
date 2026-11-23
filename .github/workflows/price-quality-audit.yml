@@ -9,6 +9,8 @@ on:
       - 'price_integrity.py'
       - 'price_audit.py'
       - 'build.py'
+      - 'scan_changes.py'
+      - 'index.template.html'
   workflow_dispatch:
 permissions:
   contents: write
@@ -31,6 +33,7 @@ jobs:
           python bulk_verify.py --self-test
           python enrich_official.py --self-test
           python price_audit.py --self-test
+          python scan_changes.py --self-test
       - name: Independently recheck previously imported official prices and keep only proven 12-pen amounts
         run: |
           git fetch origin main
