@@ -170,7 +170,7 @@ def run():
             soup=BeautifulSoup(resp.content,'html.parser');text=soup.get_text(' ',strip=True)
             # Strict medicine-scoped parsing only: do not use the permissive
             # legacy extractor, which can mix Mounjaro with other medicines.
-            prices,evidence=extract_with_evidence(resp.content)
+            prices,evidence=extract_with_evidence(resp.content,resp.url)
             basis='검증 V2: 공식 용량·가격·판매 수량 확인'
             # A clinic homepage may link to a dedicated Mounjaro price page.
             if not prices:
@@ -187,7 +187,7 @@ def run():
                 for href in links[:3]:
                     try:
                         follow=session.get(href,timeout=(5,9));follow.raise_for_status()
-                        found,found_evidence=extract_with_evidence(follow.content)
+                        found,found_evidence=extract_with_evidence(follow.content,follow.url)
                         if found and official_host(follow.url)==official_host(official):
                             prices=found;evidence=found_evidence;official=follow.url
                             soup=BeautifulSoup(follow.content,'html.parser');text=soup.get_text(' ',strip=True)
@@ -207,7 +207,7 @@ def run():
             if re.search(r'期間限定|初回限定|キャンペーン価格|クーポン適用',text[:5000]):
                 item['notes']='공식 가격 페이지 후보 발견, 기간 한정/쿠폰 조건 때문에 자동 비교가 보류: '+official
                 continue
-            item['prices'].update(prices)
+            item['prices']={d:prices.get(d) for d in DOSES}
             item['price_integrity']='strict_v2'
             item['price_evidence']=evidence
             item['official_price_audit_status']='passed'
