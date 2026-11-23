@@ -2653,7 +2653,7 @@
       "official_attempts": 1,
       "official_domain": "velvaere-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -8400,7 +8400,7 @@
       "official_attempts": 1,
       "official_domain": "yuki-skin.clinic",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -9088,7 +9088,7 @@
       "official_attempts": 1,
       "official_domain": "personalcareclinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -9231,7 +9231,7 @@
           "method": "4펜 기준 12펜 환산"
         }
       },
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00"
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00"
     },
     {
       "id": "national-0e6f83daeedec4",
@@ -9946,7 +9946,7 @@
       "official_attempts": 1,
       "official_domain": "takinogawaclinic.life",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -10089,7 +10089,7 @@
           "method": "4펜 기준 12펜 환산"
         }
       },
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00"
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00"
     },
     {
       "id": "national-bdc2a47d397df3",
@@ -10178,7 +10178,7 @@
       "official_attempts": 1,
       "official_domain": "shimokita-do.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -10451,7 +10451,7 @@
           "method": "4펜 기준 12펜 환산"
         }
       },
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00"
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00"
     },
     {
       "id": "national-2d53276aa390c9",
@@ -11586,7 +11586,7 @@
       "official_attempts": 1,
       "official_domain": "morigeka.net",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -11918,7 +11918,7 @@
           "method": "4펜 기준 12펜 환산"
         }
       },
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00"
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00"
     },
     {
       "id": "national-2dbf045de4beef",
@@ -12494,7 +12494,7 @@
       "official_attempts": 1,
       "official_domain": "atsuta-skin-clinic.net",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -13337,7 +13337,7 @@
           "method": "4펜 기준 12펜 환산"
         }
       },
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00"
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00"
     },
     {
       "id": "national-d13bec99161ca9",
@@ -13731,7 +13731,7 @@
       "official_attempts": 1,
       "official_domain": "shonaika-clinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -14555,7 +14555,7 @@
       "official_attempts": 1,
       "official_domain": "nagao-clinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -14699,7 +14699,7 @@
       "official_attempts": 1,
       "official_domain": "natori-kumanodo-clinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -14817,7 +14817,7 @@
       "official_attempts": 1,
       "official_domain": "nishimuranaika-cl.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -15163,7 +15163,7 @@
       "official_attempts": 1,
       "official_domain": "furusato-naika.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -15866,7 +15866,7 @@
       "official_attempts": 1,
       "official_domain": "whc-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -16126,7 +16126,7 @@
       "official_attempts": 1,
       "official_domain": "chouchou-c.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -16343,7 +16343,7 @@
       "official_attempts": 1,
       "official_domain": "st-rose.to",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -17321,7 +17321,7 @@
       "official_attempts": 1,
       "official_domain": "keisei.ne.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -17955,7 +17955,7 @@
       "official_attempts": 1,
       "official_domain": "metro-c.or.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -18503,7 +18503,7 @@
       "official_attempts": 1,
       "official_domain": "komuro-biyou.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -18854,7 +18854,7 @@
       "official_attempts": 1,
       "official_domain": "nishiyamaladiesclinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -19015,7 +19015,7 @@
       "official_attempts": 1,
       "official_domain": "ebisu-naika.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -19353,7 +19353,7 @@
       "official_attempts": 1,
       "official_domain": "shokaki-hinyouki.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -19454,7 +19454,7 @@
       "official_attempts": 1,
       "official_domain": "hinyouki-shokaki.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -19899,7 +19899,7 @@
       "official_attempts": 1,
       "official_domain": "inoueclinic-hp.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -20675,7 +20675,7 @@
       "official_attempts": 1,
       "official_domain": "iwata-clinic.net",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -20776,7 +20776,7 @@
       "official_attempts": 1,
       "official_domain": "hayama-naika.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -20851,7 +20851,7 @@
       "official_attempts": 1,
       "official_domain": "moricli.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -21098,7 +21098,7 @@
       "official_attempts": 1,
       "official_domain": "morimoto-clinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -21358,7 +21358,7 @@
       "official_attempts": 1,
       "official_domain": "wclinic-osaka.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -21433,7 +21433,7 @@
       "official_attempts": 1,
       "official_domain": "amagi-daiichi-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -21603,7 +21603,7 @@
       "official_attempts": 1,
       "official_domain": "shiozaki-naika.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -22827,7 +22827,7 @@
       "official_attempts": 1,
       "official_domain": "senzoku-seikei.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "5": {
@@ -23027,7 +23027,7 @@
       "official_attempts": 1,
       "official_domain": "akihabara-sincere.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -23326,7 +23326,7 @@
       "official_attempts": 1,
       "official_domain": "midorino.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -23500,7 +23500,7 @@
       "official_attempts": 1,
       "official_domain": "aiseikai-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -23717,7 +23717,7 @@
       "official_attempts": 1,
       "official_domain": "e-clinic.gr.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -24188,7 +24188,7 @@
       "official_attempts": 1,
       "official_domain": "shoyuukai.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -24564,7 +24564,7 @@
       "official_attempts": 1,
       "official_domain": "akala-clinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -24725,7 +24725,7 @@
       "official_attempts": 1,
       "official_domain": "kamikuri.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -25466,7 +25466,7 @@
           "method": "4펜 기준 12펜 환산"
         }
       },
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00"
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00"
     },
     {
       "id": "national-6da051e9d12299",
@@ -25856,7 +25856,7 @@
       "official_attempts": 1,
       "official_domain": "akabaneheart-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -26344,7 +26344,7 @@
       "official_attempts": 1,
       "official_domain": "aoshin.net",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -26471,7 +26471,7 @@
       "official_attempts": 1,
       "official_domain": "koishikawaiin.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -26645,7 +26645,7 @@
       "official_attempts": 1,
       "official_domain": "veriteclinic.or.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -26991,7 +26991,7 @@
       "official_attempts": 1,
       "official_domain": "mizutani-hifuka-ks.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -27281,7 +27281,7 @@
       "official_attempts": 1,
       "official_domain": "kkclinic-ichihara.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -27356,7 +27356,7 @@
       "official_attempts": 1,
       "official_domain": "kkclinic-nishifuna.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -27517,7 +27517,7 @@
       "official_attempts": 1,
       "official_domain": "yanasegawa-fc.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -27902,7 +27902,7 @@
       "official_attempts": 1,
       "official_domain": "wendel-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -28119,7 +28119,7 @@
       "official_attempts": 1,
       "official_domain": "medicalkiss.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -28323,7 +28323,7 @@
       "official_attempts": 1,
       "official_domain": "goroudaifc.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -29014,7 +29014,7 @@
       "official_attempts": 1,
       "official_domain": "tsuwabuki-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -29183,8 +29183,8 @@
       "official_checked_at": "2026-11-21T14:06:26+09:00",
       "official_attempts": 1,
       "official_domain": "shinagawasc.com",
-      "official_price_audit_status": "page_unavailable",
-      "official_price_audited_at": "2026-11-23T19:06:20+09:00",
+      "official_price_audit_status": "passed",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -29332,7 +29332,7 @@
       "official_attempts": 1,
       "official_domain": "obanaika.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -29901,7 +29901,7 @@
       "official_attempts": 1,
       "official_domain": "mrc-tamaplaza.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -30579,7 +30579,7 @@
       "official_attempts": 1,
       "official_domain": "hiroo-cl.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "5": {
@@ -30818,7 +30818,7 @@
       "official_attempts": 1,
       "official_domain": "aihoku-hc.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "5": {
@@ -31663,7 +31663,7 @@
       "official_attempts": 1,
       "official_domain": "bunkyo-naika.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -31905,7 +31905,7 @@
       "official_attempts": 1,
       "official_domain": "kida-cl.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -32759,7 +32759,7 @@
       "official_attempts": 1,
       "official_domain": "clinic-for-men.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -33454,7 +33454,7 @@
       "official_attempts": 1,
       "official_domain": "ekimae-hifuka.net",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -33921,7 +33921,7 @@
       "official_attempts": 1,
       "official_domain": "towakaiclinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -34137,7 +34137,7 @@
       "official_attempts": 1,
       "official_domain": "kandacli.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -34440,7 +34440,7 @@
       "official_attempts": 1,
       "official_domain": "takenotsuka-clinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -34627,7 +34627,7 @@
       "official_attempts": 1,
       "official_domain": "jiyugaoka-family-hifuka.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -34831,7 +34831,7 @@
       "official_attempts": 1,
       "official_domain": "kty-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "5": {
@@ -34906,7 +34906,7 @@
       "official_attempts": 1,
       "official_domain": "niijukuclinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -35158,7 +35158,7 @@
       "official_attempts": 1,
       "official_domain": "wizclinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -35319,7 +35319,7 @@
       "official_attempts": 1,
       "official_domain": "suga-hifuka.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -35381,7 +35381,7 @@
       "official_attempts": 1,
       "official_domain": "west-umeda-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -36084,7 +36084,7 @@
       "official_attempts": 1,
       "official_domain": "k-ishidacl.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -36559,7 +36559,7 @@
       "official_attempts": 1,
       "official_domain": "wellness.or.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -36862,7 +36862,7 @@
       "official_attempts": 1,
       "official_domain": "aiclinic8128.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -37208,7 +37208,7 @@
       "official_attempts": 1,
       "official_domain": "brights-beauty.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -37339,7 +37339,7 @@
       "official_attempts": 1,
       "official_domain": "cl7.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -38261,7 +38261,7 @@
       "official_attempts": 1,
       "official_domain": "prism-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -38470,7 +38470,7 @@
       "official_attempts": 1,
       "official_domain": "solclinic.org",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -38674,7 +38674,7 @@
       "official_attempts": 1,
       "official_domain": "unmed-clinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -38831,7 +38831,7 @@
       "official_attempts": 1,
       "official_domain": "eclinic-toyama.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "5": {
@@ -38936,7 +38936,7 @@
       "official_attempts": 1,
       "official_domain": "eatlife-cl.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -39024,7 +39024,7 @@
       "official_attempts": 1,
       "official_domain": "toclinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -39383,7 +39383,7 @@
       "official_attempts": 1,
       "official_domain": "fellez-clinic.com",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -39514,7 +39514,7 @@
       "official_attempts": 1,
       "official_domain": "loopclinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
@@ -39860,7 +39860,7 @@
       "official_attempts": 1,
       "official_domain": "rebirth-clinic.jp",
       "official_price_audit_status": "passed",
-      "official_price_audited_at": "2026-11-23T19:07:49+09:00",
+      "official_price_audited_at": "2026-11-23T19:08:51+09:00",
       "price_integrity": "strict_v2",
       "price_evidence": {
         "2.5": {
