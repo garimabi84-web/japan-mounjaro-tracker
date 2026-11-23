@@ -15,6 +15,11 @@ on:
     paths:
       - ".github/workflows/publish-pages.yml"
       - "index.html"
+      - "index.template.html"
+      - "scan_changes.py"
+      - "scan_changes.json"
+      - "price_integrity.py"
+      - "catalog.json"
 
 permissions:
   contents: read
