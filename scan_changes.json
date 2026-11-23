@@ -2,205 +2,41 @@
   "schema": 1,
   "latest": {
     "at": "2026-11-23T12:54:49+09:00",
-    "total": 228,
+    "total": 19,
     "counts": {
       "new": 0,
-      "verified": 21,
-      "price": 110,
+      "verified": 0,
+      "price": 19,
       "promotion": 0,
-      "info": 94,
-      "status": 3,
+      "info": 0,
+      "status": 0,
       "source": 0
     },
     "clinic_ids": [
-      "found-16345a0a3c33",
-      "found-4b057da3a3c6",
-      "found-3d7887e35db2",
+      "national-9e3d4db9e55a4e",
       "national-a95a142cf17490",
-      "national-785881b6fbce17",
-      "national-36c2f40a94c1b5",
-      "national-a170ac45246bc1",
-      "national-d828bda79bad78",
-      "national-7cbdccfa47a859",
-      "national-4497bc95848c77",
-      "national-9d1c38ec2bf09d",
-      "national-5f22927fd64d20",
-      "national-53303da513b170",
-      "national-b7bf18c59fd4b3",
-      "national-a51f3961e02c4b",
-      "national-98760a47e1c99f",
-      "national-9863c942b1aa3b",
-      "national-1b939ced57c788",
-      "national-0a5636309260a7",
+      "national-3e214d29ed83ed",
+      "national-e32e451f3cd1ad",
       "national-19a2d1f13e253c",
-      "national-802b7e457b42e5",
-      "national-5ed48d9db51ec5",
-      "national-c42ded090a3d64",
-      "national-dda426455b6dc0",
-      "national-ca7e644ba7876a",
-      "national-5008a686a46a1f",
-      "national-665f95bfb19edf",
-      "national-b4462df2868a81",
-      "national-b63802867b3f00",
-      "national-b41742d863efc1",
-      "national-0d2f0ed437d70d",
-      "national-937b1764306e9b",
-      "national-aa41b2c4ab8182",
-      "national-3b454e7b60d5ab",
-      "national-a3d7e4d6ce80be",
-      "national-27d45f86831bc6",
-      "national-0e2a7a156453a7",
-      "national-e07eac48802c3a",
-      "national-e3842946ba786c",
-      "national-bfcaee9f13c810",
-      "national-d57d8ae18a058d",
-      "national-7ba04bcac7fb00",
-      "national-26965c7e8c382c",
-      "national-95b2e4a7ebdd3a",
-      "national-8045714cb12a6b",
-      "national-d1a629b7ff2653",
-      "national-9c64ef7bccb275",
-      "national-9c9cc51beac113",
-      "national-54e185fcd99fec",
-      "national-6e7bb19eb643bf",
-      "national-9b9ab0e9526234",
-      "national-8f744e0ac87a1a",
-      "national-1624deab9532bc",
-      "national-d8e63c3a1e23e0",
-      "national-cee9b15a5069c9",
-      "national-72532864223b07",
-      "national-db6f97197eb3ab",
-      "national-df92c86f425272",
-      "national-6bf8fca00c8e12",
-      "national-85c44f749e5461",
-      "national-11aef30667fd69",
-      "national-16f3ddca8e8c5b"
+      "national-36809e9ee9093d",
+      "national-db3898da7df897",
+      "national-12a5312a53a555",
+      "national-9d9f3bce0fc8e7",
+      "national-b7ffcdcbb1594b",
+      "national-5a51eca39dd125",
+      "national-08ac00f781c125",
+      "national-4c1a799e06bef5",
+      "national-30b1817be2634d",
+      "national-e234941dbe1eed",
+      "national-75cd6439e577fb",
+      "national-4b4ba668c3fa56",
+      "national-8f2ca97139f7ff"
     ],
     "items": [
       {
-        "type": "info",
-        "clinic_id": "found-16345a0a3c33",
-        "clinic": "渋谷駅前おおしま皮膚科",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "found-16345a0a3c33",
-        "clinic": "渋谷駅前おおしま皮膚科",
-        "label": "병원 추가 정보 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "found-4b057da3a3c6",
-        "clinic": "すみだブレインハートクリニック",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "found-4b057da3a3c6",
-        "clinic": "すみだブレインハートクリニック",
-        "label": "병원 추가 정보 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "found-3d7887e35db2",
-        "clinic": "マルベルクリニック",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "found-3d7887e35db2",
-        "clinic": "マルベルクリニック",
-        "label": "병원 추가 정보 변경"
-      },
-      {
         "type": "price",
-        "clinic_id": "national-a95a142cf17490",
-        "clinic": "パーソナルケアクリニック",
-        "dose": "10",
-        "before": null,
-        "after": 155190,
-        "label": "10mg 공식 가격 변경"
-      },
-      {
-        "type": "verified",
-        "clinic_id": "national-785881b6fbce17",
-        "clinic": "ビー・ファイン　クリニック",
-        "label": "처방 상태 변경: candidate → active"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-785881b6fbce17",
-        "clinic": "ビー・ファイン　クリニック",
-        "dose": "2.5",
-        "before": null,
-        "after": 41100,
-        "label": "2.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-785881b6fbce17",
-        "clinic": "ビー・ファイン　クリニック",
-        "dose": "5",
-        "before": null,
-        "after": 71400,
-        "label": "5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-785881b6fbce17",
-        "clinic": "ビー・ファイン　クリニック",
-        "dose": "7.5",
-        "before": null,
-        "after": 132000,
-        "label": "7.5mg 공식 가격 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-785881b6fbce17",
-        "clinic": "ビー・ファイン　クリニック",
-        "label": "가격 검증 상태 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-785881b6fbce17",
-        "clinic": "ビー・ファイン　クリニック",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-36c2f40a94c1b5",
-        "clinic": "レイラクリニック",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-36c2f40a94c1b5",
-        "clinic": "レイラクリニック",
-        "label": "병원 추가 정보 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-a170ac45246bc1",
-        "clinic": "ワンクリニック恵比寿",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-a170ac45246bc1",
-        "clinic": "ワンクリニック恵比寿",
-        "label": "병원 추가 정보 변경"
-      },
-      {
-        "type": "verified",
-        "clinic_id": "national-d828bda79bad78",
-        "clinic": "一般社団法人ＭＡＲＣＨ　マーチクリニック",
-        "label": "처방 상태 변경: candidate → active"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-d828bda79bad78",
-        "clinic": "一般社団法人ＭＡＲＣＨ　マーチクリニック",
+        "clinic_id": "national-9e3d4db9e55a4e",
+        "clinic": "ゆきスキンクリニック東池袋",
         "dose": "2.5",
         "before": null,
         "after": 59400,
@@ -208,203 +44,17 @@
       },
       {
         "type": "price",
-        "clinic_id": "national-d828bda79bad78",
-        "clinic": "一般社団法人ＭＡＲＣＨ　マーチクリニック",
-        "dose": "5",
-        "before": null,
-        "after": 83400,
-        "label": "5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-d828bda79bad78",
-        "clinic": "一般社団法人ＭＡＲＣＨ　マーチクリニック",
-        "dose": "7.5",
-        "before": null,
-        "after": 135000,
-        "label": "7.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-d828bda79bad78",
-        "clinic": "一般社団法人ＭＡＲＣＨ　マーチクリニック",
-        "dose": "10",
-        "before": null,
-        "after": 149400,
-        "label": "10mg 공식 가격 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-d828bda79bad78",
-        "clinic": "一般社団法人ＭＡＲＣＨ　マーチクリニック",
-        "label": "가격 검증 상태 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-d828bda79bad78",
-        "clinic": "一般社団法人ＭＡＲＣＨ　マーチクリニック",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-7cbdccfa47a859",
-        "clinic": "久我山駅前メディカルクリニック",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-7cbdccfa47a859",
-        "clinic": "久我山駅前メディカルクリニック",
-        "label": "병원 추가 정보 변경"
-      },
-      {
-        "type": "verified",
-        "clinic_id": "national-4497bc95848c77",
-        "clinic": "五反田イースト駅前クリニック",
-        "label": "처방 상태 변경: candidate → active"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-4497bc95848c77",
-        "clinic": "五反田イースト駅前クリニック",
+        "clinic_id": "national-a95a142cf17490",
+        "clinic": "パーソナルケアクリニック",
         "dose": "2.5",
         "before": null,
-        "after": 57600,
+        "after": 47700,
         "label": "2.5mg 공식 가격 변경"
       },
       {
         "type": "price",
-        "clinic_id": "national-4497bc95848c77",
-        "clinic": "五反田イースト駅前クリニック",
-        "dose": "5",
-        "before": null,
-        "after": 113400,
-        "label": "5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-4497bc95848c77",
-        "clinic": "五反田イースト駅前クリニック",
-        "dose": "7.5",
-        "before": null,
-        "after": 204600,
-        "label": "7.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-4497bc95848c77",
-        "clinic": "五反田イースト駅前クリニック",
-        "dose": "10",
-        "before": null,
-        "after": 292800,
-        "label": "10mg 공식 가격 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-4497bc95848c77",
-        "clinic": "五反田イースト駅前クリニック",
-        "label": "가격 검증 상태 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-4497bc95848c77",
-        "clinic": "五反田イースト駅前クリニック",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-9d1c38ec2bf09d",
-        "clinic": "ドーズ美容外科長崎院",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-9d1c38ec2bf09d",
-        "clinic": "ドーズ美容外科長崎院",
-        "label": "병원 추가 정보 변경"
-      },
-      {
-        "type": "verified",
-        "clinic_id": "national-5f22927fd64d20",
-        "clinic": "森外科医院",
-        "label": "처방 상태 변경: candidate → active"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-5f22927fd64d20",
-        "clinic": "森外科医院",
-        "dose": "2.5",
-        "before": null,
-        "after": 75000,
-        "label": "2.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-5f22927fd64d20",
-        "clinic": "森外科医院",
-        "dose": "5",
-        "before": null,
-        "after": 105000,
-        "label": "5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-5f22927fd64d20",
-        "clinic": "森外科医院",
-        "dose": "7.5",
-        "before": null,
-        "after": 120000,
-        "label": "7.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-5f22927fd64d20",
-        "clinic": "森外科医院",
-        "dose": "10",
-        "before": null,
-        "after": 150000,
-        "label": "10mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-5f22927fd64d20",
-        "clinic": "森外科医院",
-        "dose": "12.5",
-        "before": null,
-        "after": 180000,
-        "label": "12.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-5f22927fd64d20",
-        "clinic": "森外科医院",
-        "dose": "15",
-        "before": null,
-        "after": 210000,
-        "label": "15mg 공식 가격 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-5f22927fd64d20",
-        "clinic": "森外科医院",
-        "label": "가격 검증 상태 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-5f22927fd64d20",
-        "clinic": "森外科医院",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "verified",
-        "clinic_id": "national-53303da513b170",
-        "clinic": "たくま ファミリー クリニック",
-        "label": "처방 상태 변경: candidate → active"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-53303da513b170",
-        "clinic": "たくま ファミリー クリニック",
+        "clinic_id": "national-3e214d29ed83ed",
+        "clinic": "一般社団法人ＣＤＭｅｄｉｃａｌ　西すがも滝野川内科・内視鏡クリニック",
         "dose": "2.5",
         "before": null,
         "after": 66000,
@@ -412,8 +62,35 @@
       },
       {
         "type": "price",
-        "clinic_id": "national-53303da513b170",
-        "clinic": "たくま ファミリー クリニック",
+        "clinic_id": "national-e32e451f3cd1ad",
+        "clinic": "下北沢Ｄｏクリニック",
+        "dose": "2.5",
+        "before": null,
+        "after": 63000,
+        "label": "2.5mg 공식 가격 변경"
+      },
+      {
+        "type": "price",
+        "clinic_id": "national-19a2d1f13e253c",
+        "clinic": "なとり皮膚科くまのどう内科下肢静脈瘤クリニック",
+        "dose": "2.5",
+        "before": null,
+        "after": 165000,
+        "label": "2.5mg 공식 가격 변경"
+      },
+      {
+        "type": "price",
+        "clinic_id": "national-36809e9ee9093d",
+        "clinic": "医療法人涼葵会　Ｗ　ＣＬＩＮＩＣ　梅田院",
+        "dose": "2.5",
+        "before": 274560,
+        "after": 68640,
+        "label": "2.5mg 공식 가격 변경"
+      },
+      {
+        "type": "price",
+        "clinic_id": "national-36809e9ee9093d",
+        "clinic": "医療法人涼葵会　Ｗ　ＣＬＩＮＩＣ　梅田院",
         "dose": "5",
         "before": null,
         "after": 99000,
@@ -421,308 +98,17 @@
       },
       {
         "type": "price",
-        "clinic_id": "national-53303da513b170",
-        "clinic": "たくま ファミリー クリニック",
-        "dose": "7.5",
-        "before": null,
-        "after": 132000,
-        "label": "7.5mg 공식 가격 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-53303da513b170",
-        "clinic": "たくま ファミリー クリニック",
-        "label": "가격 검증 상태 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-53303da513b170",
-        "clinic": "たくま ファミリー クリニック",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-b7bf18c59fd4b3",
-        "clinic": "ネビュラ クリニック 広島院",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-b7bf18c59fd4b3",
-        "clinic": "ネビュラ クリニック 広島院",
-        "label": "병원 추가 정보 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-a51f3961e02c4b",
-        "clinic": "札幌 美容外科ネビュラ クリニック",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-a51f3961e02c4b",
-        "clinic": "札幌 美容外科ネビュラ クリニック",
-        "label": "병원 추가 정보 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-98760a47e1c99f",
-        "clinic": "男たちの 美容外科 広島院",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-98760a47e1c99f",
-        "clinic": "男たちの 美容外科 広島院",
-        "label": "병원 추가 정보 변경"
-      },
-      {
-        "type": "verified",
-        "clinic_id": "national-9863c942b1aa3b",
-        "clinic": "くすのきクリニック",
-        "label": "처방 상태 변경: candidate → active"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-9863c942b1aa3b",
-        "clinic": "くすのきクリニック",
+        "clinic_id": "national-db3898da7df897",
+        "clinic": "医療法人社団幸神会　桜新町駅前神川クリニック",
         "dose": "2.5",
         "before": null,
-        "after": 58500,
+        "after": 72600,
         "label": "2.5mg 공식 가격 변경"
       },
       {
         "type": "price",
-        "clinic_id": "national-9863c942b1aa3b",
-        "clinic": "くすのきクリニック",
-        "dose": "5",
-        "before": null,
-        "after": 78000,
-        "label": "5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-9863c942b1aa3b",
-        "clinic": "くすのきクリニック",
-        "dose": "7.5",
-        "before": null,
-        "after": 98400,
-        "label": "7.5mg 공식 가격 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-9863c942b1aa3b",
-        "clinic": "くすのきクリニック",
-        "label": "가격 검증 상태 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-9863c942b1aa3b",
-        "clinic": "くすのきクリニック",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-1b939ced57c788",
-        "clinic": "さなげクリニック",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-1b939ced57c788",
-        "clinic": "さなげクリニック",
-        "label": "병원 추가 정보 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-0a5636309260a7",
-        "clinic": "つくば・土浦鶴町皮膚科クリニック",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-0a5636309260a7",
-        "clinic": "つくば・土浦鶴町皮膚科クリニック",
-        "label": "병원 추가 정보 변경"
-      },
-      {
-        "type": "verified",
-        "clinic_id": "national-19a2d1f13e253c",
-        "clinic": "なとり皮膚科くまのどう内科下肢静脈瘤クリニック",
-        "label": "처방 상태 변경: candidate → active"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-19a2d1f13e253c",
-        "clinic": "なとり皮膚科くまのどう内科下肢静脈瘤クリニック",
-        "dose": "5",
-        "before": null,
-        "after": 231000,
-        "label": "5mg 공식 가격 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-19a2d1f13e253c",
-        "clinic": "なとり皮膚科くまのどう内科下肢静脈瘤クリニック",
-        "label": "가격 검증 상태 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-19a2d1f13e253c",
-        "clinic": "なとり皮膚科くまのどう内科下肢静脈瘤クリニック",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "verified",
-        "clinic_id": "national-802b7e457b42e5",
-        "clinic": "ふるさと内科クリニック",
-        "label": "처방 상태 변경: candidate → active"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-802b7e457b42e5",
-        "clinic": "ふるさと内科クリニック",
-        "dose": "2.5",
-        "before": null,
-        "after": 48000,
-        "label": "2.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-802b7e457b42e5",
-        "clinic": "ふるさと内科クリニック",
-        "dose": "5",
-        "before": null,
-        "after": 72000,
-        "label": "5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-802b7e457b42e5",
-        "clinic": "ふるさと内科クリニック",
-        "dose": "7.5",
-        "before": null,
-        "after": 96000,
-        "label": "7.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-802b7e457b42e5",
-        "clinic": "ふるさと内科クリニック",
-        "dose": "10",
-        "before": null,
-        "after": 120000,
-        "label": "10mg 공식 가격 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-802b7e457b42e5",
-        "clinic": "ふるさと内科クリニック",
-        "label": "가격 검증 상태 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-802b7e457b42e5",
-        "clinic": "ふるさと内科クリニック",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "verified",
-        "clinic_id": "national-5ed48d9db51ec5",
-        "clinic": "ウィメンズヘルスクリニック　刈谷銀座",
-        "label": "처방 상태 변경: candidate → active"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-5ed48d9db51ec5",
-        "clinic": "ウィメンズヘルスクリニック　刈谷銀座",
-        "dose": "2.5",
-        "before": null,
-        "after": 59400,
-        "label": "2.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-5ed48d9db51ec5",
-        "clinic": "ウィメンズヘルスクリニック　刈谷銀座",
-        "dose": "5",
-        "before": null,
-        "after": 91500,
-        "label": "5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-5ed48d9db51ec5",
-        "clinic": "ウィメンズヘルスクリニック　刈谷銀座",
-        "dose": "7.5",
-        "before": null,
-        "after": 138000,
-        "label": "7.5mg 공식 가격 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-5ed48d9db51ec5",
-        "clinic": "ウィメンズヘルスクリニック　刈谷銀座",
-        "label": "가격 검증 상태 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-5ed48d9db51ec5",
-        "clinic": "ウィメンズヘルスクリニック　刈谷銀座",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-c42ded090a3d64",
-        "clinic": "医療法人　英愛会　ｙ’ｓ　ｃｌｉｎｉｃ",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-c42ded090a3d64",
-        "clinic": "医療法人　英愛会　ｙ’ｓ　ｃｌｉｎｉｃ",
-        "label": "병원 추가 정보 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-dda426455b6dc0",
-        "clinic": "医療法人わかば会　宮戸クリニック",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-dda426455b6dc0",
-        "clinic": "医療法人わかば会　宮戸クリニック",
-        "label": "병원 추가 정보 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-ca7e644ba7876a",
-        "clinic": "医療法人インテグレス　新橋消化器内科・泌尿器科クリニック",
-        "dose": "2.5",
-        "before": null,
-        "after": 60000,
-        "label": "2.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-5008a686a46a1f",
-        "clinic": "医療法人インテグレス　池袋消化器内科・泌尿器科クリニック",
-        "dose": "2.5",
-        "before": null,
-        "after": 60000,
-        "label": "2.5mg 공식 가격 변경"
-      },
-      {
-        "type": "verified",
-        "clinic_id": "national-665f95bfb19edf",
-        "clinic": "医療法人千わたの花　井上クリニック",
-        "label": "처방 상태 변경: candidate → active"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-665f95bfb19edf",
-        "clinic": "医療法人千わたの花　井上クリニック",
+        "clinic_id": "national-12a5312a53a555",
+        "clinic": "医療法人社団ＫＫクリニック　ＫＫクリニック市原",
         "dose": "2.5",
         "before": null,
         "after": 66000,
@@ -730,293 +116,8 @@
       },
       {
         "type": "price",
-        "clinic_id": "national-665f95bfb19edf",
-        "clinic": "医療法人千わたの花　井上クリニック",
-        "dose": "5",
-        "before": null,
-        "after": 132000,
-        "label": "5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-665f95bfb19edf",
-        "clinic": "医療法人千わたの花　井上クリニック",
-        "dose": "7.5",
-        "before": null,
-        "after": 198000,
-        "label": "7.5mg 공식 가격 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-665f95bfb19edf",
-        "clinic": "医療法人千わたの花　井上クリニック",
-        "label": "가격 검증 상태 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-665f95bfb19edf",
-        "clinic": "医療法人千わたの花　井上クリニック",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "verified",
-        "clinic_id": "national-b4462df2868a81",
-        "clinic": "医療法人康榮会岩田クリニック",
-        "label": "처방 상태 변경: candidate → active"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-b4462df2868a81",
-        "clinic": "医療法人康榮会岩田クリニック",
-        "dose": "2.5",
-        "before": null,
-        "after": 50160,
-        "label": "2.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-b4462df2868a81",
-        "clinic": "医療法人康榮会岩田クリニック",
-        "dose": "5",
-        "before": null,
-        "after": 85800,
-        "label": "5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-b4462df2868a81",
-        "clinic": "医療法人康榮会岩田クリニック",
-        "dose": "7.5",
-        "before": null,
-        "after": 118800,
-        "label": "7.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-b4462df2868a81",
-        "clinic": "医療法人康榮会岩田クリニック",
-        "dose": "10",
-        "before": null,
-        "after": 158400,
-        "label": "10mg 공식 가격 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-b4462df2868a81",
-        "clinic": "医療法人康榮会岩田クリニック",
-        "label": "가격 검증 상태 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-b4462df2868a81",
-        "clinic": "医療法人康榮会岩田クリニック",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-b63802867b3f00",
-        "clinic": "医療法人恵喜会　森クリニック",
-        "dose": "2.5",
-        "before": null,
-        "after": 49200,
-        "label": "2.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-b41742d863efc1",
-        "clinic": "医療法人甘木第一クリニック",
-        "dose": "2.5",
-        "before": null,
-        "after": 62040,
-        "label": "2.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-b41742d863efc1",
-        "clinic": "医療法人甘木第一クリニック",
-        "dose": "5",
-        "before": 99000,
-        "after": 123750,
-        "label": "5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-b41742d863efc1",
-        "clinic": "医療法人甘木第一クリニック",
-        "dose": "7.5",
-        "before": null,
-        "after": 151800,
-        "label": "7.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-b41742d863efc1",
-        "clinic": "医療法人甘木第一クリニック",
-        "dose": "10",
-        "before": null,
-        "after": 191400,
-        "label": "10mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-b41742d863efc1",
-        "clinic": "医療法人甘木第一クリニック",
-        "dose": "12.5",
-        "before": null,
-        "after": 237600,
-        "label": "12.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-b41742d863efc1",
-        "clinic": "医療法人甘木第一クリニック",
-        "dose": "15",
-        "before": null,
-        "after": 270600,
-        "label": "15mg 공식 가격 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-0d2f0ed437d70d",
-        "clinic": "医療法人社団かなめ会　田口クリニック",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-0d2f0ed437d70d",
-        "clinic": "医療法人社団かなめ会　田口クリニック",
-        "label": "병원 추가 정보 변경"
-      },
-      {
-        "type": "verified",
-        "clinic_id": "national-937b1764306e9b",
-        "clinic": "医療法人社団イートス会　洗足整形形成外科",
-        "label": "처방 상태 변경: candidate → active"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-937b1764306e9b",
-        "clinic": "医療法人社団イートス会　洗足整形形成外科",
-        "dose": "5",
-        "before": null,
-        "after": 112200,
-        "label": "5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-937b1764306e9b",
-        "clinic": "医療法人社団イートス会　洗足整形形成外科",
-        "dose": "7.5",
-        "before": null,
-        "after": 168000,
-        "label": "7.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-937b1764306e9b",
-        "clinic": "医療法人社団イートス会　洗足整形形成外科",
-        "dose": "10",
-        "before": null,
-        "after": 223800,
-        "label": "10mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-937b1764306e9b",
-        "clinic": "医療法人社団イートス会　洗足整形形成外科",
-        "dose": "12.5",
-        "before": null,
-        "after": 280140,
-        "label": "12.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-937b1764306e9b",
-        "clinic": "医療法人社団イートス会　洗足整形形成外科",
-        "dose": "15",
-        "before": null,
-        "after": 336240,
-        "label": "15mg 공식 가격 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-937b1764306e9b",
-        "clinic": "医療法人社団イートス会　洗足整形形成外科",
-        "label": "가격 검증 상태 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-937b1764306e9b",
-        "clinic": "医療法人社団イートス会　洗足整形形成外科",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-aa41b2c4ab8182",
-        "clinic": "医療法人社団佳有会　品川イーストクリニック",
-        "dose": "2.5",
-        "before": null,
-        "after": 53400,
-        "label": "2.5mg 공식 가격 변경"
-      },
-      {
-        "type": "verified",
-        "clinic_id": "national-3b454e7b60d5ab",
-        "clinic": "医療法人社団梢愛会　やまうちクリニック",
-        "label": "처방 상태 변경: candidate → active"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-3b454e7b60d5ab",
-        "clinic": "医療法人社団梢愛会　やまうちクリニック",
-        "dose": "7.5",
-        "before": null,
-        "after": 116400,
-        "label": "7.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-3b454e7b60d5ab",
-        "clinic": "医療法人社団梢愛会　やまうちクリニック",
-        "dose": "10",
-        "before": null,
-        "after": 146400,
-        "label": "10mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-3b454e7b60d5ab",
-        "clinic": "医療法人社団梢愛会　やまうちクリニック",
-        "dose": "12.5",
-        "before": null,
-        "after": 176400,
-        "label": "12.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-3b454e7b60d5ab",
-        "clinic": "医療法人社団梢愛会　やまうちクリニック",
-        "dose": "15",
-        "before": null,
-        "after": 206400,
-        "label": "15mg 공식 가격 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-3b454e7b60d5ab",
-        "clinic": "医療法人社団梢愛会　やまうちクリニック",
-        "label": "가격 검증 상태 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-3b454e7b60d5ab",
-        "clinic": "医療法人社団梢愛会　やまうちクリニック",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-a3d7e4d6ce80be",
-        "clinic": "医療法人社団翠青会あおぞら新横浜クリニック",
+        "clinic_id": "national-9d9f3bce0fc8e7",
+        "clinic": "医療法人社団ＫＫクリニックＫＫクリニック西船橋",
         "dose": "2.5",
         "before": null,
         "after": 66000,
@@ -1024,68 +125,26 @@
       },
       {
         "type": "price",
-        "clinic_id": "national-27d45f86831bc6",
-        "clinic": "医療法人社団芳明会　小石川医院",
-        "dose": "5",
-        "before": null,
-        "after": 105600,
-        "label": "5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-27d45f86831bc6",
-        "clinic": "医療法人社団芳明会　小石川医院",
-        "dose": "7.5",
-        "before": null,
-        "after": 158400,
-        "label": "7.5mg 공식 가격 변경"
-      },
-      {
-        "type": "verified",
-        "clinic_id": "national-0e2a7a156453a7",
-        "clinic": "医療法人社団駿圭美会　水谷皮フ科クリニック清澄白河院",
-        "label": "처방 상태 변경: candidate → active"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-0e2a7a156453a7",
-        "clinic": "医療法人社団駿圭美会　水谷皮フ科クリニック清澄白河院",
+        "clinic_id": "national-b7ffcdcbb1594b",
+        "clinic": "医療法人聖美会　ウェンデルクリニック",
         "dose": "2.5",
         "before": null,
-        "after": 71280,
+        "after": 79200,
         "label": "2.5mg 공식 가격 변경"
       },
       {
         "type": "price",
-        "clinic_id": "national-0e2a7a156453a7",
-        "clinic": "医療法人社団駿圭美会　水谷皮フ科クリニック清澄白河院",
-        "dose": "5",
+        "clinic_id": "national-5a51eca39dd125",
+        "clinic": "医療法人雄仁会五郎台ファミリークリニック",
+        "dose": "2.5",
         "before": null,
-        "after": 118800,
-        "label": "5mg 공식 가격 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-0e2a7a156453a7",
-        "clinic": "医療法人社団駿圭美会　水谷皮フ科クリニック清澄白河院",
-        "label": "가격 검증 상태 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-0e2a7a156453a7",
-        "clinic": "医療法人社団駿圭美会　水谷皮フ科クリニック清澄白河院",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "verified",
-        "clinic_id": "national-e07eac48802c3a",
-        "clinic": "医療法人社団Ｍｅｄｓｕｒｆ柳瀬川ファミリークリニック",
-        "label": "처방 상태 변경: candidate → active"
+        "after": 51000,
+        "label": "2.5mg 공식 가격 변경"
       },
       {
         "type": "price",
-        "clinic_id": "national-e07eac48802c3a",
-        "clinic": "医療法人社団Ｍｅｄｓｕｒｆ柳瀬川ファミリークリニック",
+        "clinic_id": "national-08ac00f781c125",
+        "clinic": "宮澤内科・呼吸器クリニック",
         "dose": "2.5",
         "before": null,
         "after": 52800,
@@ -1093,892 +152,98 @@
       },
       {
         "type": "price",
-        "clinic_id": "national-e07eac48802c3a",
-        "clinic": "医療法人社団Ｍｅｄｓｕｒｆ柳瀬川ファミリークリニック",
+        "clinic_id": "national-4c1a799e06bef5",
+        "clinic": "愛北ハートクリニック",
         "dose": "5",
-        "before": null,
-        "after": 85800,
-        "label": "5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-e07eac48802c3a",
-        "clinic": "医療法人社団Ｍｅｄｓｕｒｆ柳瀬川ファミリークリニック",
-        "dose": "7.5",
-        "before": null,
-        "after": 112200,
-        "label": "7.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-e07eac48802c3a",
-        "clinic": "医療法人社団Ｍｅｄｓｕｒｆ柳瀬川ファミリークリニック",
-        "dose": "10",
-        "before": null,
-        "after": 138600,
-        "label": "10mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-e07eac48802c3a",
-        "clinic": "医療法人社団Ｍｅｄｓｕｒｆ柳瀬川ファミリークリニック",
-        "dose": "12.5",
-        "before": null,
-        "after": 165000,
-        "label": "12.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-e07eac48802c3a",
-        "clinic": "医療法人社団Ｍｅｄｓｕｒｆ柳瀬川ファミリークリニック",
-        "dose": "15",
-        "before": null,
-        "after": 257400,
-        "label": "15mg 공식 가격 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-e07eac48802c3a",
-        "clinic": "医療法人社団Ｍｅｄｓｕｒｆ柳瀬川ファミリークリニック",
-        "label": "가격 검증 상태 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-e07eac48802c3a",
-        "clinic": "医療法人社団Ｍｅｄｓｕｒｆ柳瀬川ファミリークリニック",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-e3842946ba786c",
-        "clinic": "医療法人邦寿会　いけだクリニック",
-        "dose": "2.5",
-        "before": null,
-        "after": 79200,
-        "label": "2.5mg 공식 가격 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-bfcaee9f13c810",
-        "clinic": "向ヶ丘胃腸・肛門クリニック",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-bfcaee9f13c810",
-        "clinic": "向ヶ丘胃腸・肛門クリニック",
-        "label": "병원 추가 정보 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-d57d8ae18a058d",
-        "clinic": "品川ストリングスクリニック",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "verified",
-        "clinic_id": "national-7ba04bcac7fb00",
-        "clinic": "大場内科クリニック",
-        "label": "처방 상태 변경: candidate → active"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-7ba04bcac7fb00",
-        "clinic": "大場内科クリニック",
-        "dose": "2.5",
-        "before": null,
-        "after": 39420,
-        "label": "2.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-7ba04bcac7fb00",
-        "clinic": "大場内科クリニック",
-        "dose": "5",
-        "before": null,
-        "after": 70770,
-        "label": "5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-7ba04bcac7fb00",
-        "clinic": "大場内科クリニック",
-        "dose": "7.5",
-        "before": null,
-        "after": 93390,
-        "label": "7.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-7ba04bcac7fb00",
-        "clinic": "大場内科クリニック",
-        "dose": "10",
-        "before": null,
-        "after": 116010,
-        "label": "10mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-7ba04bcac7fb00",
-        "clinic": "大場内科クリニック",
-        "dose": "12.5",
-        "before": null,
-        "after": 138630,
-        "label": "12.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-7ba04bcac7fb00",
-        "clinic": "大場内科クリニック",
-        "dose": "15",
-        "before": null,
-        "after": 161280,
-        "label": "15mg 공식 가격 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-7ba04bcac7fb00",
-        "clinic": "大場内科クリニック",
-        "label": "가격 검증 상태 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-7ba04bcac7fb00",
-        "clinic": "大場内科クリニック",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "status",
-        "clinic_id": "national-26965c7e8c382c",
-        "clinic": "宮﨑胃腸科内科医院",
-        "label": "처방 상태 변경: active → candidate"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-26965c7e8c382c",
-        "clinic": "宮﨑胃腸科内科医院",
-        "dose": "2.5",
-        "before": 45000,
-        "after": null,
-        "label": "2.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-26965c7e8c382c",
-        "clinic": "宮﨑胃腸科内科医院",
-        "dose": "5",
-        "before": 90000,
-        "after": null,
-        "label": "5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-26965c7e8c382c",
-        "clinic": "宮﨑胃腸科内科医院",
-        "dose": "7.5",
-        "before": 135000,
-        "after": null,
-        "label": "7.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-26965c7e8c382c",
-        "clinic": "宮﨑胃腸科内科医院",
-        "dose": "10",
-        "before": 180000,
-        "after": null,
-        "label": "10mg 공식 가격 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-26965c7e8c382c",
-        "clinic": "宮﨑胃腸科内科医院",
-        "label": "가격 검증 상태 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-26965c7e8c382c",
-        "clinic": "宮﨑胃腸科内科医院",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-26965c7e8c382c",
-        "clinic": "宮﨑胃腸科内科医院",
-        "label": "병원 추가 정보 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-95b2e4a7ebdd3a",
-        "clinic": "広尾皮フ科クリニック",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-95b2e4a7ebdd3a",
-        "clinic": "広尾皮フ科クリニック",
-        "label": "병원 추가 정보 변경"
-      },
-      {
-        "type": "verified",
-        "clinic_id": "national-8045714cb12a6b",
-        "clinic": "木田内科医院",
-        "label": "처방 상태 변경: candidate → active"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-8045714cb12a6b",
-        "clinic": "木田内科医院",
-        "dose": "2.5",
-        "before": null,
-        "after": 57000,
-        "label": "2.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-8045714cb12a6b",
-        "clinic": "木田内科医院",
-        "dose": "5",
-        "before": null,
-        "after": 114000,
-        "label": "5mg 공식 가격 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-8045714cb12a6b",
-        "clinic": "木田内科医院",
-        "label": "가격 검증 상태 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-8045714cb12a6b",
-        "clinic": "木田内科医院",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-d1a629b7ff2653",
-        "clinic": "梅田クリニック",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-d1a629b7ff2653",
-        "clinic": "梅田クリニック",
-        "label": "병원 추가 정보 변경"
-      },
-      {
-        "type": "verified",
-        "clinic_id": "national-9c64ef7bccb275",
-        "clinic": "池袋スカイクリニック",
-        "label": "처방 상태 변경: candidate → active"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-9c64ef7bccb275",
-        "clinic": "池袋スカイクリニック",
-        "dose": "2.5",
-        "before": null,
-        "after": 54000,
-        "label": "2.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-9c64ef7bccb275",
-        "clinic": "池袋スカイクリニック",
-        "dose": "5",
-        "before": null,
-        "after": 90000,
-        "label": "5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-9c64ef7bccb275",
-        "clinic": "池袋スカイクリニック",
-        "dose": "7.5",
-        "before": null,
-        "after": 120000,
-        "label": "7.5mg 공식 가격 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-9c64ef7bccb275",
-        "clinic": "池袋スカイクリニック",
-        "label": "가격 검증 상태 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-9c64ef7bccb275",
-        "clinic": "池袋スカイクリニック",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-9c9cc51beac113",
-        "clinic": "池袋メトロポリタンクリニック",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-9c9cc51beac113",
-        "clinic": "池袋メトロポリタンクリニック",
-        "label": "병원 추가 정보 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-54e185fcd99fec",
-        "clinic": "竹ノ塚駅前クリニック内科小児科皮膚科",
-        "dose": "10",
-        "before": null,
-        "after": 162000,
-        "label": "10mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-6e7bb19eb643bf",
-        "clinic": "萩崎クリニック",
-        "dose": "5",
-        "before": 99000,
-        "after": 134250,
-        "label": "5mg 공식 가격 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-9b9ab0e9526234",
-        "clinic": "葛飾・金町駅前なか皮膚科",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-9b9ab0e9526234",
-        "clinic": "葛飾・金町駅前なか皮膚科",
-        "label": "병원 추가 정보 변경"
-      },
-      {
-        "type": "verified",
-        "clinic_id": "national-8f744e0ac87a1a",
-        "clinic": "表参道ウィズ・クリニック",
-        "label": "처방 상태 변경: candidate → active"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-8f744e0ac87a1a",
-        "clinic": "表参道ウィズ・クリニック",
-        "dose": "2.5",
         "before": null,
         "after": 66000,
-        "label": "2.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-8f744e0ac87a1a",
-        "clinic": "表参道ウィズ・クリニック",
-        "dose": "5",
-        "before": null,
-        "after": 132000,
         "label": "5mg 공식 가격 변경"
       },
       {
-        "type": "info",
-        "clinic_id": "national-8f744e0ac87a1a",
-        "clinic": "表参道ウィズ・クリニック",
-        "label": "가격 검증 상태 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-8f744e0ac87a1a",
-        "clinic": "表参道ウィズ・クリニック",
-        "label": "가격 산정 근거 변경"
-      },
-      {
         "type": "price",
-        "clinic_id": "national-1624deab9532bc",
-        "clinic": "西日暮里駅前すが皮膚科",
+        "clinic_id": "national-30b1817be2634d",
+        "clinic": "溝の口駅前皮膚科",
         "dose": "2.5",
         "before": null,
-        "after": 60000,
+        "after": 81600,
         "label": "2.5mg 공식 가격 변경"
       },
       {
         "type": "price",
-        "clinic_id": "national-1624deab9532bc",
-        "clinic": "西日暮里駅前すが皮膚科",
-        "dose": "5",
-        "before": 78000,
-        "after": null,
-        "label": "5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-1624deab9532bc",
-        "clinic": "西日暮里駅前すが皮膚科",
-        "dose": "7.5",
-        "before": 108000,
-        "after": null,
-        "label": "7.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-1624deab9532bc",
-        "clinic": "西日暮里駅前すが皮膚科",
-        "dose": "10",
-        "before": 144000,
-        "after": null,
-        "label": "10mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-d8e63c3a1e23e0",
-        "clinic": "高血圧といびきの内科　神保町駅前",
+        "clinic_id": "national-e234941dbe1eed",
+        "clinic": "自由が丘ファミリー皮膚科",
         "dose": "2.5",
         "before": null,
-        "after": 60000,
+        "after": 81600,
         "label": "2.5mg 공식 가격 변경"
       },
       {
-        "type": "verified",
-        "clinic_id": "national-cee9b15a5069c9",
-        "clinic": "ＢＲＩＧＨＴＳ　ｂｅａｕｔｙ　ｃｌｉｎｉｃ",
-        "label": "처방 상태 변경: candidate → active"
-      },
-      {
         "type": "price",
-        "clinic_id": "national-cee9b15a5069c9",
-        "clinic": "ＢＲＩＧＨＴＳ　ｂｅａｕｔｙ　ｃｌｉｎｉｃ",
+        "clinic_id": "national-75cd6439e577fb",
+        "clinic": "ＡＩ　Ｂｅａｕｔｙ　Ｃｌｉｎｉｃ",
         "dose": "2.5",
         "before": null,
-        "after": 58800,
+        "after": 55200,
         "label": "2.5mg 공식 가격 변경"
       },
       {
         "type": "price",
-        "clinic_id": "national-cee9b15a5069c9",
-        "clinic": "ＢＲＩＧＨＴＳ　ｂｅａｕｔｙ　ｃｌｉｎｉｃ",
-        "dose": "5",
-        "before": null,
-        "after": 98400,
-        "label": "5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-cee9b15a5069c9",
-        "clinic": "ＢＲＩＧＨＴＳ　ｂｅａｕｔｙ　ｃｌｉｎｉｃ",
-        "dose": "7.5",
-        "before": null,
-        "after": 131400,
-        "label": "7.5mg 공식 가격 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-cee9b15a5069c9",
-        "clinic": "ＢＲＩＧＨＴＳ　ｂｅａｕｔｙ　ｃｌｉｎｉｃ",
-        "label": "가격 검증 상태 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-cee9b15a5069c9",
-        "clinic": "ＢＲＩＧＨＴＳ　ｂｅａｕｔｙ　ｃｌｉｎｉｃ",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "status",
-        "clinic_id": "national-72532864223b07",
-        "clinic": "ＭＩＯ　ＳＫＩＮ　ＣＬＩＮＩＣ",
-        "label": "처방 상태 변경: active → candidate"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-72532864223b07",
-        "clinic": "ＭＩＯ　ＳＫＩＮ　ＣＬＩＮＩＣ",
+        "clinic_id": "national-4b4ba668c3fa56",
+        "clinic": "ＰＲＩＳＭ　Ｂｅａｕｔｙ　Ｃｌｉｎｉｃ　町田院",
         "dose": "2.5",
-        "before": 66000,
-        "after": null,
+        "before": null,
+        "after": 117600,
         "label": "2.5mg 공식 가격 변경"
       },
       {
         "type": "price",
-        "clinic_id": "national-72532864223b07",
-        "clinic": "ＭＩＯ　ＳＫＩＮ　ＣＬＩＮＩＣ",
-        "dose": "5",
-        "before": 132000,
-        "after": null,
-        "label": "5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-72532864223b07",
-        "clinic": "ＭＩＯ　ＳＫＩＮ　ＣＬＩＮＩＣ",
-        "dose": "7.5",
-        "before": 198000,
-        "after": null,
-        "label": "7.5mg 공식 가격 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-72532864223b07",
-        "clinic": "ＭＩＯ　ＳＫＩＮ　ＣＬＩＮＩＣ",
-        "label": "가격 검증 상태 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-72532864223b07",
-        "clinic": "ＭＩＯ　ＳＫＩＮ　ＣＬＩＮＩＣ",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-72532864223b07",
-        "clinic": "ＭＩＯ　ＳＫＩＮ　ＣＬＩＮＩＣ",
-        "label": "병원 추가 정보 변경"
-      },
-      {
-        "type": "verified",
-        "clinic_id": "national-db6f97197eb3ab",
-        "clinic": "ＲＥＪＵ　Ｂｅａｕｔｙ　Ｃｌｉｎｉｃ",
-        "label": "처방 상태 변경: candidate → active"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-db6f97197eb3ab",
-        "clinic": "ＲＥＪＵ　Ｂｅａｕｔｙ　Ｃｌｉｎｉｃ",
-        "dose": "5",
-        "before": null,
-        "after": 108000,
-        "label": "5mg 공식 가격 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-db6f97197eb3ab",
-        "clinic": "ＲＥＪＵ　Ｂｅａｕｔｙ　Ｃｌｉｎｉｃ",
-        "label": "가격 검증 상태 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-db6f97197eb3ab",
-        "clinic": "ＲＥＪＵ　Ｂｅａｕｔｙ　Ｃｌｉｎｉｃ",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-df92c86f425272",
-        "clinic": "ＵｎＭｅｄ　Ｃｌｉｎｉｃ　Ｍｏｔｏｍａｃｈｉ",
-        "dose": "15",
-        "before": 225000,
-        "after": null,
-        "label": "15mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-6bf8fca00c8e12",
-        "clinic": "ｅクリニック富山院",
-        "dose": "2.5",
-        "before": 89100,
-        "after": null,
-        "label": "2.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-6bf8fca00c8e12",
-        "clinic": "ｅクリニック富山院",
-        "dose": "5",
-        "before": null,
-        "after": 165000,
-        "label": "5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-85c44f749e5461",
-        "clinic": "LOOPCLINIC",
+        "clinic_id": "national-8f2ca97139f7ff",
+        "clinic": "Re:Birth Clinic NAGOYA",
         "dose": "2.5",
         "before": null,
         "after": 59400,
         "label": "2.5mg 공식 가격 변경"
-      },
-      {
-        "type": "status",
-        "clinic_id": "national-11aef30667fd69",
-        "clinic": "しみず クリニック",
-        "label": "처방 상태 변경: active → candidate"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-11aef30667fd69",
-        "clinic": "しみず クリニック",
-        "dose": "5",
-        "before": 43050,
-        "after": null,
-        "label": "5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-11aef30667fd69",
-        "clinic": "しみず クリニック",
-        "dose": "7.5",
-        "before": 64370,
-        "after": null,
-        "label": "7.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-11aef30667fd69",
-        "clinic": "しみず クリニック",
-        "dose": "10",
-        "before": 86110,
-        "after": null,
-        "label": "10mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-11aef30667fd69",
-        "clinic": "しみず クリニック",
-        "dose": "12.5",
-        "before": 107430,
-        "after": null,
-        "label": "12.5mg 공식 가격 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-11aef30667fd69",
-        "clinic": "しみず クリニック",
-        "dose": "15",
-        "before": 128740,
-        "after": null,
-        "label": "15mg 공식 가격 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-11aef30667fd69",
-        "clinic": "しみず クリニック",
-        "label": "가격 검증 상태 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-11aef30667fd69",
-        "clinic": "しみず クリニック",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-11aef30667fd69",
-        "clinic": "しみず クリニック",
-        "label": "병원 추가 정보 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-16f3ddca8e8c5b",
-        "clinic": "みどり クリニック 千葉中央",
-        "label": "가격 산정 근거 변경"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-16f3ddca8e8c5b",
-        "clinic": "みどり クリニック 千葉中央",
-        "label": "병원 추가 정보 변경"
       }
     ]
   },
   "runs": [
     {
       "at": "2026-11-23T12:54:49+09:00",
-      "total": 228,
+      "total": 19,
       "counts": {
         "new": 0,
-        "verified": 21,
-        "price": 110,
+        "verified": 0,
+        "price": 19,
         "promotion": 0,
-        "info": 94,
-        "status": 3,
+        "info": 0,
+        "status": 0,
         "source": 0
       },
       "clinic_ids": [
-        "found-16345a0a3c33",
-        "found-4b057da3a3c6",
-        "found-3d7887e35db2",
+        "national-9e3d4db9e55a4e",
         "national-a95a142cf17490",
-        "national-785881b6fbce17",
-        "national-36c2f40a94c1b5",
-        "national-a170ac45246bc1",
-        "national-d828bda79bad78",
-        "national-7cbdccfa47a859",
-        "national-4497bc95848c77",
-        "national-9d1c38ec2bf09d",
-        "national-5f22927fd64d20",
-        "national-53303da513b170",
-        "national-b7bf18c59fd4b3",
-        "national-a51f3961e02c4b",
-        "national-98760a47e1c99f",
-        "national-9863c942b1aa3b",
-        "national-1b939ced57c788",
-        "national-0a5636309260a7",
+        "national-3e214d29ed83ed",
+        "national-e32e451f3cd1ad",
         "national-19a2d1f13e253c",
-        "national-802b7e457b42e5",
-        "national-5ed48d9db51ec5",
-        "national-c42ded090a3d64",
-        "national-dda426455b6dc0",
-        "national-ca7e644ba7876a",
-        "national-5008a686a46a1f",
-        "national-665f95bfb19edf",
-        "national-b4462df2868a81",
-        "national-b63802867b3f00",
-        "national-b41742d863efc1",
-        "national-0d2f0ed437d70d",
-        "national-937b1764306e9b",
-        "national-aa41b2c4ab8182",
-        "national-3b454e7b60d5ab",
-        "national-a3d7e4d6ce80be",
-        "national-27d45f86831bc6",
-        "national-0e2a7a156453a7",
-        "national-e07eac48802c3a",
-        "national-e3842946ba786c",
-        "national-bfcaee9f13c810",
-        "national-d57d8ae18a058d",
-        "national-7ba04bcac7fb00",
-        "national-26965c7e8c382c",
-        "national-95b2e4a7ebdd3a",
-        "national-8045714cb12a6b",
-        "national-d1a629b7ff2653",
-        "national-9c64ef7bccb275",
-        "national-9c9cc51beac113",
-        "national-54e185fcd99fec",
-        "national-6e7bb19eb643bf",
-        "national-9b9ab0e9526234",
-        "national-8f744e0ac87a1a",
-        "national-1624deab9532bc",
-        "national-d8e63c3a1e23e0",
-        "national-cee9b15a5069c9",
-        "national-72532864223b07",
-        "national-db6f97197eb3ab",
-        "national-df92c86f425272",
-        "national-6bf8fca00c8e12",
-        "national-85c44f749e5461",
-        "national-11aef30667fd69",
-        "national-16f3ddca8e8c5b"
+        "national-36809e9ee9093d",
+        "national-db3898da7df897",
+        "national-12a5312a53a555",
+        "national-9d9f3bce0fc8e7",
+        "national-b7ffcdcbb1594b",
+        "national-5a51eca39dd125",
+        "national-08ac00f781c125",
+        "national-4c1a799e06bef5",
+        "national-30b1817be2634d",
+        "national-e234941dbe1eed",
+        "national-75cd6439e577fb",
+        "national-4b4ba668c3fa56",
+        "national-8f2ca97139f7ff"
       ],
       "items": [
         {
-          "type": "info",
-          "clinic_id": "found-16345a0a3c33",
-          "clinic": "渋谷駅前おおしま皮膚科",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "found-16345a0a3c33",
-          "clinic": "渋谷駅前おおしま皮膚科",
-          "label": "병원 추가 정보 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "found-4b057da3a3c6",
-          "clinic": "すみだブレインハートクリニック",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "found-4b057da3a3c6",
-          "clinic": "すみだブレインハートクリニック",
-          "label": "병원 추가 정보 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "found-3d7887e35db2",
-          "clinic": "マルベルクリニック",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "found-3d7887e35db2",
-          "clinic": "マルベルクリニック",
-          "label": "병원 추가 정보 변경"
-        },
-        {
           "type": "price",
-          "clinic_id": "national-a95a142cf17490",
-          "clinic": "パーソナルケアクリニック",
-          "dose": "10",
-          "before": null,
-          "after": 155190,
-          "label": "10mg 공식 가격 변경"
-        },
-        {
-          "type": "verified",
-          "clinic_id": "national-785881b6fbce17",
-          "clinic": "ビー・ファイン　クリニック",
-          "label": "처방 상태 변경: candidate → active"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-785881b6fbce17",
-          "clinic": "ビー・ファイン　クリニック",
-          "dose": "2.5",
-          "before": null,
-          "after": 41100,
-          "label": "2.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-785881b6fbce17",
-          "clinic": "ビー・ファイン　クリニック",
-          "dose": "5",
-          "before": null,
-          "after": 71400,
-          "label": "5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-785881b6fbce17",
-          "clinic": "ビー・ファイン　クリニック",
-          "dose": "7.5",
-          "before": null,
-          "after": 132000,
-          "label": "7.5mg 공식 가격 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-785881b6fbce17",
-          "clinic": "ビー・ファイン　クリニック",
-          "label": "가격 검증 상태 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-785881b6fbce17",
-          "clinic": "ビー・ファイン　クリニック",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-36c2f40a94c1b5",
-          "clinic": "レイラクリニック",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-36c2f40a94c1b5",
-          "clinic": "レイラクリニック",
-          "label": "병원 추가 정보 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-a170ac45246bc1",
-          "clinic": "ワンクリニック恵比寿",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-a170ac45246bc1",
-          "clinic": "ワンクリニック恵比寿",
-          "label": "병원 추가 정보 변경"
-        },
-        {
-          "type": "verified",
-          "clinic_id": "national-d828bda79bad78",
-          "clinic": "一般社団法人ＭＡＲＣＨ　マーチクリニック",
-          "label": "처방 상태 변경: candidate → active"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-d828bda79bad78",
-          "clinic": "一般社団法人ＭＡＲＣＨ　マーチクリニック",
+          "clinic_id": "national-9e3d4db9e55a4e",
+          "clinic": "ゆきスキンクリニック東池袋",
           "dose": "2.5",
           "before": null,
           "after": 59400,
@@ -1986,203 +251,17 @@
         },
         {
           "type": "price",
-          "clinic_id": "national-d828bda79bad78",
-          "clinic": "一般社団法人ＭＡＲＣＨ　マーチクリニック",
-          "dose": "5",
-          "before": null,
-          "after": 83400,
-          "label": "5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-d828bda79bad78",
-          "clinic": "一般社団法人ＭＡＲＣＨ　マーチクリニック",
-          "dose": "7.5",
-          "before": null,
-          "after": 135000,
-          "label": "7.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-d828bda79bad78",
-          "clinic": "一般社団法人ＭＡＲＣＨ　マーチクリニック",
-          "dose": "10",
-          "before": null,
-          "after": 149400,
-          "label": "10mg 공식 가격 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-d828bda79bad78",
-          "clinic": "一般社団法人ＭＡＲＣＨ　マーチクリニック",
-          "label": "가격 검증 상태 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-d828bda79bad78",
-          "clinic": "一般社団法人ＭＡＲＣＨ　マーチクリニック",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-7cbdccfa47a859",
-          "clinic": "久我山駅前メディカルクリニック",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-7cbdccfa47a859",
-          "clinic": "久我山駅前メディカルクリニック",
-          "label": "병원 추가 정보 변경"
-        },
-        {
-          "type": "verified",
-          "clinic_id": "national-4497bc95848c77",
-          "clinic": "五反田イースト駅前クリニック",
-          "label": "처방 상태 변경: candidate → active"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-4497bc95848c77",
-          "clinic": "五反田イースト駅前クリニック",
+          "clinic_id": "national-a95a142cf17490",
+          "clinic": "パーソナルケアクリニック",
           "dose": "2.5",
           "before": null,
-          "after": 57600,
+          "after": 47700,
           "label": "2.5mg 공식 가격 변경"
         },
         {
           "type": "price",
-          "clinic_id": "national-4497bc95848c77",
-          "clinic": "五反田イースト駅前クリニック",
-          "dose": "5",
-          "before": null,
-          "after": 113400,
-          "label": "5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-4497bc95848c77",
-          "clinic": "五反田イースト駅前クリニック",
-          "dose": "7.5",
-          "before": null,
-          "after": 204600,
-          "label": "7.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-4497bc95848c77",
-          "clinic": "五反田イースト駅前クリニック",
-          "dose": "10",
-          "before": null,
-          "after": 292800,
-          "label": "10mg 공식 가격 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-4497bc95848c77",
-          "clinic": "五反田イースト駅前クリニック",
-          "label": "가격 검증 상태 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-4497bc95848c77",
-          "clinic": "五反田イースト駅前クリニック",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-9d1c38ec2bf09d",
-          "clinic": "ドーズ美容外科長崎院",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-9d1c38ec2bf09d",
-          "clinic": "ドーズ美容外科長崎院",
-          "label": "병원 추가 정보 변경"
-        },
-        {
-          "type": "verified",
-          "clinic_id": "national-5f22927fd64d20",
-          "clinic": "森外科医院",
-          "label": "처방 상태 변경: candidate → active"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-5f22927fd64d20",
-          "clinic": "森外科医院",
-          "dose": "2.5",
-          "before": null,
-          "after": 75000,
-          "label": "2.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-5f22927fd64d20",
-          "clinic": "森外科医院",
-          "dose": "5",
-          "before": null,
-          "after": 105000,
-          "label": "5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-5f22927fd64d20",
-          "clinic": "森外科医院",
-          "dose": "7.5",
-          "before": null,
-          "after": 120000,
-          "label": "7.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-5f22927fd64d20",
-          "clinic": "森外科医院",
-          "dose": "10",
-          "before": null,
-          "after": 150000,
-          "label": "10mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-5f22927fd64d20",
-          "clinic": "森外科医院",
-          "dose": "12.5",
-          "before": null,
-          "after": 180000,
-          "label": "12.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-5f22927fd64d20",
-          "clinic": "森外科医院",
-          "dose": "15",
-          "before": null,
-          "after": 210000,
-          "label": "15mg 공식 가격 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-5f22927fd64d20",
-          "clinic": "森外科医院",
-          "label": "가격 검증 상태 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-5f22927fd64d20",
-          "clinic": "森外科医院",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "verified",
-          "clinic_id": "national-53303da513b170",
-          "clinic": "たくま ファミリー クリニック",
-          "label": "처방 상태 변경: candidate → active"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-53303da513b170",
-          "clinic": "たくま ファミリー クリニック",
+          "clinic_id": "national-3e214d29ed83ed",
+          "clinic": "一般社団法人ＣＤＭｅｄｉｃａｌ　西すがも滝野川内科・内視鏡クリニック",
           "dose": "2.5",
           "before": null,
           "after": 66000,
@@ -2190,8 +269,35 @@
         },
         {
           "type": "price",
-          "clinic_id": "national-53303da513b170",
-          "clinic": "たくま ファミリー クリニック",
+          "clinic_id": "national-e32e451f3cd1ad",
+          "clinic": "下北沢Ｄｏクリニック",
+          "dose": "2.5",
+          "before": null,
+          "after": 63000,
+          "label": "2.5mg 공식 가격 변경"
+        },
+        {
+          "type": "price",
+          "clinic_id": "national-19a2d1f13e253c",
+          "clinic": "なとり皮膚科くまのどう内科下肢静脈瘤クリニック",
+          "dose": "2.5",
+          "before": null,
+          "after": 165000,
+          "label": "2.5mg 공식 가격 변경"
+        },
+        {
+          "type": "price",
+          "clinic_id": "national-36809e9ee9093d",
+          "clinic": "医療法人涼葵会　Ｗ　ＣＬＩＮＩＣ　梅田院",
+          "dose": "2.5",
+          "before": 274560,
+          "after": 68640,
+          "label": "2.5mg 공식 가격 변경"
+        },
+        {
+          "type": "price",
+          "clinic_id": "national-36809e9ee9093d",
+          "clinic": "医療法人涼葵会　Ｗ　ＣＬＩＮＩＣ　梅田院",
           "dose": "5",
           "before": null,
           "after": 99000,
@@ -2199,308 +305,17 @@
         },
         {
           "type": "price",
-          "clinic_id": "national-53303da513b170",
-          "clinic": "たくま ファミリー クリニック",
-          "dose": "7.5",
-          "before": null,
-          "after": 132000,
-          "label": "7.5mg 공식 가격 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-53303da513b170",
-          "clinic": "たくま ファミリー クリニック",
-          "label": "가격 검증 상태 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-53303da513b170",
-          "clinic": "たくま ファミリー クリニック",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-b7bf18c59fd4b3",
-          "clinic": "ネビュラ クリニック 広島院",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-b7bf18c59fd4b3",
-          "clinic": "ネビュラ クリニック 広島院",
-          "label": "병원 추가 정보 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-a51f3961e02c4b",
-          "clinic": "札幌 美容外科ネビュラ クリニック",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-a51f3961e02c4b",
-          "clinic": "札幌 美容外科ネビュラ クリニック",
-          "label": "병원 추가 정보 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-98760a47e1c99f",
-          "clinic": "男たちの 美容外科 広島院",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-98760a47e1c99f",
-          "clinic": "男たちの 美容外科 広島院",
-          "label": "병원 추가 정보 변경"
-        },
-        {
-          "type": "verified",
-          "clinic_id": "national-9863c942b1aa3b",
-          "clinic": "くすのきクリニック",
-          "label": "처방 상태 변경: candidate → active"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-9863c942b1aa3b",
-          "clinic": "くすのきクリニック",
+          "clinic_id": "national-db3898da7df897",
+          "clinic": "医療法人社団幸神会　桜新町駅前神川クリニック",
           "dose": "2.5",
           "before": null,
-          "after": 58500,
+          "after": 72600,
           "label": "2.5mg 공식 가격 변경"
         },
         {
           "type": "price",
-          "clinic_id": "national-9863c942b1aa3b",
-          "clinic": "くすのきクリニック",
-          "dose": "5",
-          "before": null,
-          "after": 78000,
-          "label": "5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-9863c942b1aa3b",
-          "clinic": "くすのきクリニック",
-          "dose": "7.5",
-          "before": null,
-          "after": 98400,
-          "label": "7.5mg 공식 가격 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-9863c942b1aa3b",
-          "clinic": "くすのきクリニック",
-          "label": "가격 검증 상태 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-9863c942b1aa3b",
-          "clinic": "くすのきクリニック",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-1b939ced57c788",
-          "clinic": "さなげクリニック",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-1b939ced57c788",
-          "clinic": "さなげクリニック",
-          "label": "병원 추가 정보 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-0a5636309260a7",
-          "clinic": "つくば・土浦鶴町皮膚科クリニック",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-0a5636309260a7",
-          "clinic": "つくば・土浦鶴町皮膚科クリニック",
-          "label": "병원 추가 정보 변경"
-        },
-        {
-          "type": "verified",
-          "clinic_id": "national-19a2d1f13e253c",
-          "clinic": "なとり皮膚科くまのどう内科下肢静脈瘤クリニック",
-          "label": "처방 상태 변경: candidate → active"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-19a2d1f13e253c",
-          "clinic": "なとり皮膚科くまのどう内科下肢静脈瘤クリニック",
-          "dose": "5",
-          "before": null,
-          "after": 231000,
-          "label": "5mg 공식 가격 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-19a2d1f13e253c",
-          "clinic": "なとり皮膚科くまのどう内科下肢静脈瘤クリニック",
-          "label": "가격 검증 상태 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-19a2d1f13e253c",
-          "clinic": "なとり皮膚科くまのどう内科下肢静脈瘤クリニック",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "verified",
-          "clinic_id": "national-802b7e457b42e5",
-          "clinic": "ふるさと内科クリニック",
-          "label": "처방 상태 변경: candidate → active"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-802b7e457b42e5",
-          "clinic": "ふるさと内科クリニック",
-          "dose": "2.5",
-          "before": null,
-          "after": 48000,
-          "label": "2.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-802b7e457b42e5",
-          "clinic": "ふるさと内科クリニック",
-          "dose": "5",
-          "before": null,
-          "after": 72000,
-          "label": "5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-802b7e457b42e5",
-          "clinic": "ふるさと内科クリニック",
-          "dose": "7.5",
-          "before": null,
-          "after": 96000,
-          "label": "7.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-802b7e457b42e5",
-          "clinic": "ふるさと内科クリニック",
-          "dose": "10",
-          "before": null,
-          "after": 120000,
-          "label": "10mg 공식 가격 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-802b7e457b42e5",
-          "clinic": "ふるさと内科クリニック",
-          "label": "가격 검증 상태 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-802b7e457b42e5",
-          "clinic": "ふるさと内科クリニック",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "verified",
-          "clinic_id": "national-5ed48d9db51ec5",
-          "clinic": "ウィメンズヘルスクリニック　刈谷銀座",
-          "label": "처방 상태 변경: candidate → active"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-5ed48d9db51ec5",
-          "clinic": "ウィメンズヘルスクリニック　刈谷銀座",
-          "dose": "2.5",
-          "before": null,
-          "after": 59400,
-          "label": "2.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-5ed48d9db51ec5",
-          "clinic": "ウィメンズヘルスクリニック　刈谷銀座",
-          "dose": "5",
-          "before": null,
-          "after": 91500,
-          "label": "5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-5ed48d9db51ec5",
-          "clinic": "ウィメンズヘルスクリニック　刈谷銀座",
-          "dose": "7.5",
-          "before": null,
-          "after": 138000,
-          "label": "7.5mg 공식 가격 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-5ed48d9db51ec5",
-          "clinic": "ウィメンズヘルスクリニック　刈谷銀座",
-          "label": "가격 검증 상태 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-5ed48d9db51ec5",
-          "clinic": "ウィメンズヘルスクリニック　刈谷銀座",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-c42ded090a3d64",
-          "clinic": "医療法人　英愛会　ｙ’ｓ　ｃｌｉｎｉｃ",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-c42ded090a3d64",
-          "clinic": "医療法人　英愛会　ｙ’ｓ　ｃｌｉｎｉｃ",
-          "label": "병원 추가 정보 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-dda426455b6dc0",
-          "clinic": "医療法人わかば会　宮戸クリニック",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-dda426455b6dc0",
-          "clinic": "医療法人わかば会　宮戸クリニック",
-          "label": "병원 추가 정보 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-ca7e644ba7876a",
-          "clinic": "医療法人インテグレス　新橋消化器内科・泌尿器科クリニック",
-          "dose": "2.5",
-          "before": null,
-          "after": 60000,
-          "label": "2.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-5008a686a46a1f",
-          "clinic": "医療法人インテグレス　池袋消化器内科・泌尿器科クリニック",
-          "dose": "2.5",
-          "before": null,
-          "after": 60000,
-          "label": "2.5mg 공식 가격 변경"
-        },
-        {
-          "type": "verified",
-          "clinic_id": "national-665f95bfb19edf",
-          "clinic": "医療法人千わたの花　井上クリニック",
-          "label": "처방 상태 변경: candidate → active"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-665f95bfb19edf",
-          "clinic": "医療法人千わたの花　井上クリニック",
+          "clinic_id": "national-12a5312a53a555",
+          "clinic": "医療法人社団ＫＫクリニック　ＫＫクリニック市原",
           "dose": "2.5",
           "before": null,
           "after": 66000,
@@ -2508,293 +323,8 @@
         },
         {
           "type": "price",
-          "clinic_id": "national-665f95bfb19edf",
-          "clinic": "医療法人千わたの花　井上クリニック",
-          "dose": "5",
-          "before": null,
-          "after": 132000,
-          "label": "5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-665f95bfb19edf",
-          "clinic": "医療法人千わたの花　井上クリニック",
-          "dose": "7.5",
-          "before": null,
-          "after": 198000,
-          "label": "7.5mg 공식 가격 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-665f95bfb19edf",
-          "clinic": "医療法人千わたの花　井上クリニック",
-          "label": "가격 검증 상태 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-665f95bfb19edf",
-          "clinic": "医療法人千わたの花　井上クリニック",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "verified",
-          "clinic_id": "national-b4462df2868a81",
-          "clinic": "医療法人康榮会岩田クリニック",
-          "label": "처방 상태 변경: candidate → active"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-b4462df2868a81",
-          "clinic": "医療法人康榮会岩田クリニック",
-          "dose": "2.5",
-          "before": null,
-          "after": 50160,
-          "label": "2.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-b4462df2868a81",
-          "clinic": "医療法人康榮会岩田クリニック",
-          "dose": "5",
-          "before": null,
-          "after": 85800,
-          "label": "5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-b4462df2868a81",
-          "clinic": "医療法人康榮会岩田クリニック",
-          "dose": "7.5",
-          "before": null,
-          "after": 118800,
-          "label": "7.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-b4462df2868a81",
-          "clinic": "医療法人康榮会岩田クリニック",
-          "dose": "10",
-          "before": null,
-          "after": 158400,
-          "label": "10mg 공식 가격 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-b4462df2868a81",
-          "clinic": "医療法人康榮会岩田クリニック",
-          "label": "가격 검증 상태 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-b4462df2868a81",
-          "clinic": "医療法人康榮会岩田クリニック",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-b63802867b3f00",
-          "clinic": "医療法人恵喜会　森クリニック",
-          "dose": "2.5",
-          "before": null,
-          "after": 49200,
-          "label": "2.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-b41742d863efc1",
-          "clinic": "医療法人甘木第一クリニック",
-          "dose": "2.5",
-          "before": null,
-          "after": 62040,
-          "label": "2.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-b41742d863efc1",
-          "clinic": "医療法人甘木第一クリニック",
-          "dose": "5",
-          "before": 99000,
-          "after": 123750,
-          "label": "5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-b41742d863efc1",
-          "clinic": "医療法人甘木第一クリニック",
-          "dose": "7.5",
-          "before": null,
-          "after": 151800,
-          "label": "7.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-b41742d863efc1",
-          "clinic": "医療法人甘木第一クリニック",
-          "dose": "10",
-          "before": null,
-          "after": 191400,
-          "label": "10mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-b41742d863efc1",
-          "clinic": "医療法人甘木第一クリニック",
-          "dose": "12.5",
-          "before": null,
-          "after": 237600,
-          "label": "12.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-b41742d863efc1",
-          "clinic": "医療法人甘木第一クリニック",
-          "dose": "15",
-          "before": null,
-          "after": 270600,
-          "label": "15mg 공식 가격 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-0d2f0ed437d70d",
-          "clinic": "医療法人社団かなめ会　田口クリニック",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-0d2f0ed437d70d",
-          "clinic": "医療法人社団かなめ会　田口クリニック",
-          "label": "병원 추가 정보 변경"
-        },
-        {
-          "type": "verified",
-          "clinic_id": "national-937b1764306e9b",
-          "clinic": "医療法人社団イートス会　洗足整形形成外科",
-          "label": "처방 상태 변경: candidate → active"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-937b1764306e9b",
-          "clinic": "医療法人社団イートス会　洗足整形形成外科",
-          "dose": "5",
-          "before": null,
-          "after": 112200,
-          "label": "5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-937b1764306e9b",
-          "clinic": "医療法人社団イートス会　洗足整形形成外科",
-          "dose": "7.5",
-          "before": null,
-          "after": 168000,
-          "label": "7.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-937b1764306e9b",
-          "clinic": "医療法人社団イートス会　洗足整形形成外科",
-          "dose": "10",
-          "before": null,
-          "after": 223800,
-          "label": "10mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-937b1764306e9b",
-          "clinic": "医療法人社団イートス会　洗足整形形成外科",
-          "dose": "12.5",
-          "before": null,
-          "after": 280140,
-          "label": "12.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-937b1764306e9b",
-          "clinic": "医療法人社団イートス会　洗足整形形成外科",
-          "dose": "15",
-          "before": null,
-          "after": 336240,
-          "label": "15mg 공식 가격 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-937b1764306e9b",
-          "clinic": "医療法人社団イートス会　洗足整形形成外科",
-          "label": "가격 검증 상태 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-937b1764306e9b",
-          "clinic": "医療法人社団イートス会　洗足整形形成外科",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-aa41b2c4ab8182",
-          "clinic": "医療法人社団佳有会　品川イーストクリニック",
-          "dose": "2.5",
-          "before": null,
-          "after": 53400,
-          "label": "2.5mg 공식 가격 변경"
-        },
-        {
-          "type": "verified",
-          "clinic_id": "national-3b454e7b60d5ab",
-          "clinic": "医療法人社団梢愛会　やまうちクリニック",
-          "label": "처방 상태 변경: candidate → active"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-3b454e7b60d5ab",
-          "clinic": "医療法人社団梢愛会　やまうちクリニック",
-          "dose": "7.5",
-          "before": null,
-          "after": 116400,
-          "label": "7.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-3b454e7b60d5ab",
-          "clinic": "医療法人社団梢愛会　やまうちクリニック",
-          "dose": "10",
-          "before": null,
-          "after": 146400,
-          "label": "10mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-3b454e7b60d5ab",
-          "clinic": "医療法人社団梢愛会　やまうちクリニック",
-          "dose": "12.5",
-          "before": null,
-          "after": 176400,
-          "label": "12.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-3b454e7b60d5ab",
-          "clinic": "医療法人社団梢愛会　やまうちクリニック",
-          "dose": "15",
-          "before": null,
-          "after": 206400,
-          "label": "15mg 공식 가격 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-3b454e7b60d5ab",
-          "clinic": "医療法人社団梢愛会　やまうちクリニック",
-          "label": "가격 검증 상태 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-3b454e7b60d5ab",
-          "clinic": "医療法人社団梢愛会　やまうちクリニック",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-a3d7e4d6ce80be",
-          "clinic": "医療法人社団翠青会あおぞら新横浜クリニック",
+          "clinic_id": "national-9d9f3bce0fc8e7",
+          "clinic": "医療法人社団ＫＫクリニックＫＫクリニック西船橋",
           "dose": "2.5",
           "before": null,
           "after": 66000,
@@ -2802,68 +332,26 @@
         },
         {
           "type": "price",
-          "clinic_id": "national-27d45f86831bc6",
-          "clinic": "医療法人社団芳明会　小石川医院",
-          "dose": "5",
-          "before": null,
-          "after": 105600,
-          "label": "5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-27d45f86831bc6",
-          "clinic": "医療法人社団芳明会　小石川医院",
-          "dose": "7.5",
-          "before": null,
-          "after": 158400,
-          "label": "7.5mg 공식 가격 변경"
-        },
-        {
-          "type": "verified",
-          "clinic_id": "national-0e2a7a156453a7",
-          "clinic": "医療法人社団駿圭美会　水谷皮フ科クリニック清澄白河院",
-          "label": "처방 상태 변경: candidate → active"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-0e2a7a156453a7",
-          "clinic": "医療法人社団駿圭美会　水谷皮フ科クリニック清澄白河院",
+          "clinic_id": "national-b7ffcdcbb1594b",
+          "clinic": "医療法人聖美会　ウェンデルクリニック",
           "dose": "2.5",
           "before": null,
-          "after": 71280,
+          "after": 79200,
           "label": "2.5mg 공식 가격 변경"
         },
         {
           "type": "price",
-          "clinic_id": "national-0e2a7a156453a7",
-          "clinic": "医療法人社団駿圭美会　水谷皮フ科クリニック清澄白河院",
-          "dose": "5",
+          "clinic_id": "national-5a51eca39dd125",
+          "clinic": "医療法人雄仁会五郎台ファミリークリニック",
+          "dose": "2.5",
           "before": null,
-          "after": 118800,
-          "label": "5mg 공식 가격 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-0e2a7a156453a7",
-          "clinic": "医療法人社団駿圭美会　水谷皮フ科クリニック清澄白河院",
-          "label": "가격 검증 상태 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-0e2a7a156453a7",
-          "clinic": "医療法人社団駿圭美会　水谷皮フ科クリニック清澄白河院",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "verified",
-          "clinic_id": "national-e07eac48802c3a",
-          "clinic": "医療法人社団Ｍｅｄｓｕｒｆ柳瀬川ファミリークリニック",
-          "label": "처방 상태 변경: candidate → active"
+          "after": 51000,
+          "label": "2.5mg 공식 가격 변경"
         },
         {
           "type": "price",
-          "clinic_id": "national-e07eac48802c3a",
-          "clinic": "医療法人社団Ｍｅｄｓｕｒｆ柳瀬川ファミリークリニック",
+          "clinic_id": "national-08ac00f781c125",
+          "clinic": "宮澤内科・呼吸器クリニック",
           "dose": "2.5",
           "before": null,
           "after": 52800,
@@ -2871,687 +359,57 @@
         },
         {
           "type": "price",
-          "clinic_id": "national-e07eac48802c3a",
-          "clinic": "医療法人社団Ｍｅｄｓｕｒｆ柳瀬川ファミリークリニック",
+          "clinic_id": "national-4c1a799e06bef5",
+          "clinic": "愛北ハートクリニック",
           "dose": "5",
-          "before": null,
-          "after": 85800,
-          "label": "5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-e07eac48802c3a",
-          "clinic": "医療法人社団Ｍｅｄｓｕｒｆ柳瀬川ファミリークリニック",
-          "dose": "7.5",
-          "before": null,
-          "after": 112200,
-          "label": "7.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-e07eac48802c3a",
-          "clinic": "医療法人社団Ｍｅｄｓｕｒｆ柳瀬川ファミリークリニック",
-          "dose": "10",
-          "before": null,
-          "after": 138600,
-          "label": "10mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-e07eac48802c3a",
-          "clinic": "医療法人社団Ｍｅｄｓｕｒｆ柳瀬川ファミリークリニック",
-          "dose": "12.5",
-          "before": null,
-          "after": 165000,
-          "label": "12.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-e07eac48802c3a",
-          "clinic": "医療法人社団Ｍｅｄｓｕｒｆ柳瀬川ファミリークリニック",
-          "dose": "15",
-          "before": null,
-          "after": 257400,
-          "label": "15mg 공식 가격 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-e07eac48802c3a",
-          "clinic": "医療法人社団Ｍｅｄｓｕｒｆ柳瀬川ファミリークリニック",
-          "label": "가격 검증 상태 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-e07eac48802c3a",
-          "clinic": "医療法人社団Ｍｅｄｓｕｒｆ柳瀬川ファミリークリニック",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-e3842946ba786c",
-          "clinic": "医療法人邦寿会　いけだクリニック",
-          "dose": "2.5",
-          "before": null,
-          "after": 79200,
-          "label": "2.5mg 공식 가격 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-bfcaee9f13c810",
-          "clinic": "向ヶ丘胃腸・肛門クリニック",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-bfcaee9f13c810",
-          "clinic": "向ヶ丘胃腸・肛門クリニック",
-          "label": "병원 추가 정보 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-d57d8ae18a058d",
-          "clinic": "品川ストリングスクリニック",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "verified",
-          "clinic_id": "national-7ba04bcac7fb00",
-          "clinic": "大場内科クリニック",
-          "label": "처방 상태 변경: candidate → active"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-7ba04bcac7fb00",
-          "clinic": "大場内科クリニック",
-          "dose": "2.5",
-          "before": null,
-          "after": 39420,
-          "label": "2.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-7ba04bcac7fb00",
-          "clinic": "大場内科クリニック",
-          "dose": "5",
-          "before": null,
-          "after": 70770,
-          "label": "5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-7ba04bcac7fb00",
-          "clinic": "大場内科クリニック",
-          "dose": "7.5",
-          "before": null,
-          "after": 93390,
-          "label": "7.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-7ba04bcac7fb00",
-          "clinic": "大場内科クリニック",
-          "dose": "10",
-          "before": null,
-          "after": 116010,
-          "label": "10mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-7ba04bcac7fb00",
-          "clinic": "大場内科クリニック",
-          "dose": "12.5",
-          "before": null,
-          "after": 138630,
-          "label": "12.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-7ba04bcac7fb00",
-          "clinic": "大場内科クリニック",
-          "dose": "15",
-          "before": null,
-          "after": 161280,
-          "label": "15mg 공식 가격 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-7ba04bcac7fb00",
-          "clinic": "大場内科クリニック",
-          "label": "가격 검증 상태 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-7ba04bcac7fb00",
-          "clinic": "大場内科クリニック",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "status",
-          "clinic_id": "national-26965c7e8c382c",
-          "clinic": "宮﨑胃腸科内科医院",
-          "label": "처방 상태 변경: active → candidate"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-26965c7e8c382c",
-          "clinic": "宮﨑胃腸科内科医院",
-          "dose": "2.5",
-          "before": 45000,
-          "after": null,
-          "label": "2.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-26965c7e8c382c",
-          "clinic": "宮﨑胃腸科内科医院",
-          "dose": "5",
-          "before": 90000,
-          "after": null,
-          "label": "5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-26965c7e8c382c",
-          "clinic": "宮﨑胃腸科内科医院",
-          "dose": "7.5",
-          "before": 135000,
-          "after": null,
-          "label": "7.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-26965c7e8c382c",
-          "clinic": "宮﨑胃腸科内科医院",
-          "dose": "10",
-          "before": 180000,
-          "after": null,
-          "label": "10mg 공식 가격 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-26965c7e8c382c",
-          "clinic": "宮﨑胃腸科内科医院",
-          "label": "가격 검증 상태 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-26965c7e8c382c",
-          "clinic": "宮﨑胃腸科内科医院",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-26965c7e8c382c",
-          "clinic": "宮﨑胃腸科内科医院",
-          "label": "병원 추가 정보 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-95b2e4a7ebdd3a",
-          "clinic": "広尾皮フ科クリニック",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-95b2e4a7ebdd3a",
-          "clinic": "広尾皮フ科クリニック",
-          "label": "병원 추가 정보 변경"
-        },
-        {
-          "type": "verified",
-          "clinic_id": "national-8045714cb12a6b",
-          "clinic": "木田内科医院",
-          "label": "처방 상태 변경: candidate → active"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-8045714cb12a6b",
-          "clinic": "木田内科医院",
-          "dose": "2.5",
-          "before": null,
-          "after": 57000,
-          "label": "2.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-8045714cb12a6b",
-          "clinic": "木田内科医院",
-          "dose": "5",
-          "before": null,
-          "after": 114000,
-          "label": "5mg 공식 가격 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-8045714cb12a6b",
-          "clinic": "木田内科医院",
-          "label": "가격 검증 상태 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-8045714cb12a6b",
-          "clinic": "木田内科医院",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-d1a629b7ff2653",
-          "clinic": "梅田クリニック",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-d1a629b7ff2653",
-          "clinic": "梅田クリニック",
-          "label": "병원 추가 정보 변경"
-        },
-        {
-          "type": "verified",
-          "clinic_id": "national-9c64ef7bccb275",
-          "clinic": "池袋スカイクリニック",
-          "label": "처방 상태 변경: candidate → active"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-9c64ef7bccb275",
-          "clinic": "池袋スカイクリニック",
-          "dose": "2.5",
-          "before": null,
-          "after": 54000,
-          "label": "2.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-9c64ef7bccb275",
-          "clinic": "池袋スカイクリニック",
-          "dose": "5",
-          "before": null,
-          "after": 90000,
-          "label": "5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-9c64ef7bccb275",
-          "clinic": "池袋スカイクリニック",
-          "dose": "7.5",
-          "before": null,
-          "after": 120000,
-          "label": "7.5mg 공식 가격 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-9c64ef7bccb275",
-          "clinic": "池袋スカイクリニック",
-          "label": "가격 검증 상태 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-9c64ef7bccb275",
-          "clinic": "池袋スカイクリニック",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-9c9cc51beac113",
-          "clinic": "池袋メトロポリタンクリニック",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-9c9cc51beac113",
-          "clinic": "池袋メトロポリタンクリニック",
-          "label": "병원 추가 정보 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-54e185fcd99fec",
-          "clinic": "竹ノ塚駅前クリニック内科小児科皮膚科",
-          "dose": "10",
-          "before": null,
-          "after": 162000,
-          "label": "10mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-6e7bb19eb643bf",
-          "clinic": "萩崎クリニック",
-          "dose": "5",
-          "before": 99000,
-          "after": 134250,
-          "label": "5mg 공식 가격 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-9b9ab0e9526234",
-          "clinic": "葛飾・金町駅前なか皮膚科",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-9b9ab0e9526234",
-          "clinic": "葛飾・金町駅前なか皮膚科",
-          "label": "병원 추가 정보 변경"
-        },
-        {
-          "type": "verified",
-          "clinic_id": "national-8f744e0ac87a1a",
-          "clinic": "表参道ウィズ・クリニック",
-          "label": "처방 상태 변경: candidate → active"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-8f744e0ac87a1a",
-          "clinic": "表参道ウィズ・クリニック",
-          "dose": "2.5",
           "before": null,
           "after": 66000,
-          "label": "2.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-8f744e0ac87a1a",
-          "clinic": "表参道ウィズ・クリニック",
-          "dose": "5",
-          "before": null,
-          "after": 132000,
           "label": "5mg 공식 가격 변경"
         },
         {
-          "type": "info",
-          "clinic_id": "national-8f744e0ac87a1a",
-          "clinic": "表参道ウィズ・クリニック",
-          "label": "가격 검증 상태 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-8f744e0ac87a1a",
-          "clinic": "表参道ウィズ・クリニック",
-          "label": "가격 산정 근거 변경"
-        },
-        {
           "type": "price",
-          "clinic_id": "national-1624deab9532bc",
-          "clinic": "西日暮里駅前すが皮膚科",
+          "clinic_id": "national-30b1817be2634d",
+          "clinic": "溝の口駅前皮膚科",
           "dose": "2.5",
           "before": null,
-          "after": 60000,
+          "after": 81600,
           "label": "2.5mg 공식 가격 변경"
         },
         {
           "type": "price",
-          "clinic_id": "national-1624deab9532bc",
-          "clinic": "西日暮里駅前すが皮膚科",
-          "dose": "5",
-          "before": 78000,
-          "after": null,
-          "label": "5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-1624deab9532bc",
-          "clinic": "西日暮里駅前すが皮膚科",
-          "dose": "7.5",
-          "before": 108000,
-          "after": null,
-          "label": "7.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-1624deab9532bc",
-          "clinic": "西日暮里駅前すが皮膚科",
-          "dose": "10",
-          "before": 144000,
-          "after": null,
-          "label": "10mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-d8e63c3a1e23e0",
-          "clinic": "高血圧といびきの内科　神保町駅前",
+          "clinic_id": "national-e234941dbe1eed",
+          "clinic": "自由が丘ファミリー皮膚科",
           "dose": "2.5",
           "before": null,
-          "after": 60000,
+          "after": 81600,
           "label": "2.5mg 공식 가격 변경"
         },
         {
-          "type": "verified",
-          "clinic_id": "national-cee9b15a5069c9",
-          "clinic": "ＢＲＩＧＨＴＳ　ｂｅａｕｔｙ　ｃｌｉｎｉｃ",
-          "label": "처방 상태 변경: candidate → active"
-        },
-        {
           "type": "price",
-          "clinic_id": "national-cee9b15a5069c9",
-          "clinic": "ＢＲＩＧＨＴＳ　ｂｅａｕｔｙ　ｃｌｉｎｉｃ",
+          "clinic_id": "national-75cd6439e577fb",
+          "clinic": "ＡＩ　Ｂｅａｕｔｙ　Ｃｌｉｎｉｃ",
           "dose": "2.5",
           "before": null,
-          "after": 58800,
+          "after": 55200,
           "label": "2.5mg 공식 가격 변경"
         },
         {
           "type": "price",
-          "clinic_id": "national-cee9b15a5069c9",
-          "clinic": "ＢＲＩＧＨＴＳ　ｂｅａｕｔｙ　ｃｌｉｎｉｃ",
-          "dose": "5",
-          "before": null,
-          "after": 98400,
-          "label": "5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-cee9b15a5069c9",
-          "clinic": "ＢＲＩＧＨＴＳ　ｂｅａｕｔｙ　ｃｌｉｎｉｃ",
-          "dose": "7.5",
-          "before": null,
-          "after": 131400,
-          "label": "7.5mg 공식 가격 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-cee9b15a5069c9",
-          "clinic": "ＢＲＩＧＨＴＳ　ｂｅａｕｔｙ　ｃｌｉｎｉｃ",
-          "label": "가격 검증 상태 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-cee9b15a5069c9",
-          "clinic": "ＢＲＩＧＨＴＳ　ｂｅａｕｔｙ　ｃｌｉｎｉｃ",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "status",
-          "clinic_id": "national-72532864223b07",
-          "clinic": "ＭＩＯ　ＳＫＩＮ　ＣＬＩＮＩＣ",
-          "label": "처방 상태 변경: active → candidate"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-72532864223b07",
-          "clinic": "ＭＩＯ　ＳＫＩＮ　ＣＬＩＮＩＣ",
+          "clinic_id": "national-4b4ba668c3fa56",
+          "clinic": "ＰＲＩＳＭ　Ｂｅａｕｔｙ　Ｃｌｉｎｉｃ　町田院",
           "dose": "2.5",
-          "before": 66000,
-          "after": null,
+          "before": null,
+          "after": 117600,
           "label": "2.5mg 공식 가격 변경"
         },
         {
           "type": "price",
-          "clinic_id": "national-72532864223b07",
-          "clinic": "ＭＩＯ　ＳＫＩＮ　ＣＬＩＮＩＣ",
-          "dose": "5",
-          "before": 132000,
-          "after": null,
-          "label": "5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-72532864223b07",
-          "clinic": "ＭＩＯ　ＳＫＩＮ　ＣＬＩＮＩＣ",
-          "dose": "7.5",
-          "before": 198000,
-          "after": null,
-          "label": "7.5mg 공식 가격 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-72532864223b07",
-          "clinic": "ＭＩＯ　ＳＫＩＮ　ＣＬＩＮＩＣ",
-          "label": "가격 검증 상태 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-72532864223b07",
-          "clinic": "ＭＩＯ　ＳＫＩＮ　ＣＬＩＮＩＣ",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-72532864223b07",
-          "clinic": "ＭＩＯ　ＳＫＩＮ　ＣＬＩＮＩＣ",
-          "label": "병원 추가 정보 변경"
-        },
-        {
-          "type": "verified",
-          "clinic_id": "national-db6f97197eb3ab",
-          "clinic": "ＲＥＪＵ　Ｂｅａｕｔｙ　Ｃｌｉｎｉｃ",
-          "label": "처방 상태 변경: candidate → active"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-db6f97197eb3ab",
-          "clinic": "ＲＥＪＵ　Ｂｅａｕｔｙ　Ｃｌｉｎｉｃ",
-          "dose": "5",
-          "before": null,
-          "after": 108000,
-          "label": "5mg 공식 가격 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-db6f97197eb3ab",
-          "clinic": "ＲＥＪＵ　Ｂｅａｕｔｙ　Ｃｌｉｎｉｃ",
-          "label": "가격 검증 상태 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-db6f97197eb3ab",
-          "clinic": "ＲＥＪＵ　Ｂｅａｕｔｙ　Ｃｌｉｎｉｃ",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-df92c86f425272",
-          "clinic": "ＵｎＭｅｄ　Ｃｌｉｎｉｃ　Ｍｏｔｏｍａｃｈｉ",
-          "dose": "15",
-          "before": 225000,
-          "after": null,
-          "label": "15mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-6bf8fca00c8e12",
-          "clinic": "ｅクリニック富山院",
-          "dose": "2.5",
-          "before": 89100,
-          "after": null,
-          "label": "2.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-6bf8fca00c8e12",
-          "clinic": "ｅクリニック富山院",
-          "dose": "5",
-          "before": null,
-          "after": 165000,
-          "label": "5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-85c44f749e5461",
-          "clinic": "LOOPCLINIC",
+          "clinic_id": "national-8f2ca97139f7ff",
+          "clinic": "Re:Birth Clinic NAGOYA",
           "dose": "2.5",
           "before": null,
           "after": 59400,
           "label": "2.5mg 공식 가격 변경"
-        },
-        {
-          "type": "status",
-          "clinic_id": "national-11aef30667fd69",
-          "clinic": "しみず クリニック",
-          "label": "처방 상태 변경: active → candidate"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-11aef30667fd69",
-          "clinic": "しみず クリニック",
-          "dose": "5",
-          "before": 43050,
-          "after": null,
-          "label": "5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-11aef30667fd69",
-          "clinic": "しみず クリニック",
-          "dose": "7.5",
-          "before": 64370,
-          "after": null,
-          "label": "7.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-11aef30667fd69",
-          "clinic": "しみず クリニック",
-          "dose": "10",
-          "before": 86110,
-          "after": null,
-          "label": "10mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-11aef30667fd69",
-          "clinic": "しみず クリニック",
-          "dose": "12.5",
-          "before": 107430,
-          "after": null,
-          "label": "12.5mg 공식 가격 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-11aef30667fd69",
-          "clinic": "しみず クリニック",
-          "dose": "15",
-          "before": 128740,
-          "after": null,
-          "label": "15mg 공식 가격 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-11aef30667fd69",
-          "clinic": "しみず クリニック",
-          "label": "가격 검증 상태 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-11aef30667fd69",
-          "clinic": "しみず クリニック",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-11aef30667fd69",
-          "clinic": "しみず クリニック",
-          "label": "병원 추가 정보 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-16f3ddca8e8c5b",
-          "clinic": "みどり クリニック 千葉中央",
-          "label": "가격 산정 근거 변경"
-        },
-        {
-          "type": "info",
-          "clinic_id": "national-16f3ddca8e8c5b",
-          "clinic": "みどり クリニック 千葉中央",
-          "label": "병원 추가 정보 변경"
         }
       ]
     },
