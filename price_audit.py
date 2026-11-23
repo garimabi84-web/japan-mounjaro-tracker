@@ -28,11 +28,13 @@ def suspicious(prices):
     return problems
 
 def automatic(c):
-    return (c.get('status')=='active' and c.get('price_verified') is True
-            # Independently reviewed package/plan prices must not be overwritten
-            # by the older generic parser. A source-monitor change is a
-            # re-review signal, NOT authorization to change reviewed prices.
+    previously_verified=(c.get('status')=='active' and c.get('price_verified') is True)
+    previously_rejected=(c.get('status')=='candidate' and c.get('official_price_audit_status')
+                         in ('removed_unconfirmed','dose_price_anomaly'))
+    return ((previously_verified or previously_rejected)
+            # Independently checked pack-price cases are already source-reviewed.
             and not c.get('price_unit_reviewed_at')
+            and not (c.get('source_pack_pens') and c.get('source_pack_prices'))
             and c.get('discovery') in ('national','auto')
             and (c.get('official_domain') or c.get('official_url_hint')))
 
@@ -65,11 +67,12 @@ def correct_one(c,outcome):
     prices=outcome.get('prices',{})
     old={d:v for d,v in c.get('prices',{}).items() if isinstance(v,(int,float))}
     if not prices:
-        # The old parser could mislabel Zepbound/empagliflozin as Mounjaro.
+        # No *machine-verifiable* unit evidence does not mean the clinic
+        # does not sell Mounjaro; retain it as a discovery lead.
         c['prices']={d:None for d in DOSES}
         c['status']='candidate';c['price_verified']=False
-        c['basis']='공식 페이지 재검토 결과 마운자로 제품별 가격을 확인하지 못함; 기존 자동 가격 폐기'
-        c['notes']='과거 자동 추출에서 다른 약품 가격이 혼입됐을 가능성. 공식 마운자로 가격표 재확인 전 비교에서 제외.'
+        c['basis']='병원 공식 페이지에서 용량별 수량·계약 기간·금액을 안전하게 대응시키지 못함'
+        c['notes']='처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요.'
         c['official_price_audit_status']='removed_unconfirmed'
         c['price_integrity']='unverified'
         c['price_evidence']={}
@@ -86,6 +89,7 @@ def correct_one(c,outcome):
         c['updated']=now()[:10]
         return 'anomaly'
     c['prices']={d:prices.get(d) for d in DOSES}
+    c['status']='active';c['price_verified']=True
     c['basis']=outcome['basis']+'; 12펜 환산 근거는 price_evidence에 용량별 저장'
     c['price_integrity']='strict_v2'
     c['price_evidence']=outcome.get('evidence',{})
