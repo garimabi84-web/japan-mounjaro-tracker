@@ -1,10 +1,10 @@
 {
-  "at": "2026-11-23T19:08:51+09:00",
-  "checked": 117,
+  "at": "2026-11-23T19:16:41+09:00",
+  "checked": 126,
   "result": {
     "removed": 27,
-    "unavailable": 2,
-    "passed": 88
+    "unavailable": 3,
+    "passed": 96
   },
   "review": [
     {
