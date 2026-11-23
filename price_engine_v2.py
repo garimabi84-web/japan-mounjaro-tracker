@@ -131,6 +131,12 @@ def parse_official_v2(source,source_url=''):
                 continue
             if BRAND.search(cells[0]):current=True
             if not current:continue
+            # A list of strengths followed by one "from ¥..." price is
+            # NOT a dose-specific price. This caused Oji Kaneda's "2.5,
+            # 5 and 7.5mg, from ¥12,300/month" to be misassigned to 7.5mg.
+            if len(list(DOSE.finditer(full)))>1:continue
+            if re.search(r'約\s*[¥￥]?\s*[\d,]+\s*円|[¥￥]?[\d,]+\s*円\s*[〜～~]|\d+円\s*から|\d+円\s*より',full):
+                continue
             dose=dose_key(full)
             if dose is None:continue
             price_cols=[(i,price_value(cell)) for i,cell in enumerate(cells) if price_value(cell)]
@@ -198,6 +204,16 @@ def parse_official_v2(source,source_url=''):
         # Limit each price to its dose segment, so prices on an adjacent dose
         # cannot be accidentally assigned across columns.
         matches=list(DOSE.finditer(txt))
+        if not matches:continue
+        # "2.5, 5, 7.5mg: from ¥12,300" denotes a starting price for
+        # the group, NOT the last listed dosage. Reject approximation/ranges.
+        if re.search(r'約\s*[¥￥]?\s*[\d,]+\s*円|[¥￥]?[\d,]+\s*円\s*[〜～~]|\d+円\s*から|\d+円\s*より',txt):
+            continue
+        if len(matches)>1:
+            all_segments=[txt[m.start():matches[ix+1].start() if ix+1<len(matches) else len(txt)]
+                          for ix,m in enumerate(matches)]
+            if any(price_value(seg) is None or quantity(seg)[0] is None for seg in all_segments):
+                continue
         for ix,m in enumerate(matches):
             dose=str(float(m[1])).removesuffix('.0')
             seg=txt[m.start():matches[ix+1].start() if ix+1<len(matches) else len(txt)]
@@ -244,6 +260,14 @@ def self_test():
          <tr><td>5mg/1本</td><td>8,580円</td></tr>
          <tr><td>5mg/4本(1ヶ月分)</td><td>33,000円</td></tr></table>""",
          {'2.5':68640,'5':99000}),
+        ('oji_starting_price',"""<h3>痩身・ダイエット</h3>
+          <p>マンジャロ皮下注(取扱い:2.5mg、5.0mg、7.5mg)1ヶ月分</p>
+          <p>約12,300円〜</p>""",{}),
+        ('oji_one_paragraph',"""<h2>マンジャロ</h2>
+          <p>マンジャロ皮下注(取扱い:2.5mg、5.0mg、7.5mg)1ヶ月分 約12,300円〜</p>""",{}),
+        ('explicit_multi_dose',"""<h2>マンジャロ</h2>
+          <p>2.5mg(4本)10,000円 5mg(4本)20,000円</p>""",
+          {'2.5':30000,'5':60000}),
         ('zenbound',"""<h2>ゼップバウンド</h2><p>マンジャロと同成分</p>
          <table><tr><th>エンパグリフロジン</th><th>1ヶ月</th></tr><tr><td>10mg</td><td>11,000円</td></tr></table>""",{}),
         ('zepbound_context',"""<h3>ゼップバウンド</h3>
