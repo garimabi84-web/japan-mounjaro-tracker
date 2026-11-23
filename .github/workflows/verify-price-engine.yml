@@ -1,0 +1,24 @@
+name: Verify strict price engine
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'price_engine_v2.py'
+      - '.github/workflows/verify-price-engine.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install beautifulsoup4
+      - name: Validate package, plan and cross-drug evidence extraction
+        run: |
+          python -m py_compile price_engine_v2.py
+          python price_engine_v2.py
