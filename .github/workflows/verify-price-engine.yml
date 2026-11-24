@@ -34,7 +34,13 @@ jobs:
               # Official monthly-rate columns, including 3ヶ月分 ¥19,600/月.
               ('https://femuse-clinic.jp/price/','2.5',33600),
               ('https://femuse-clinic.jp/price/','5',58800),
-              ('https://femuse-clinic.jp/price/','7.5',84000)]
+              ('https://femuse-clinic.jp/price/','7.5',84000),
+              ('https://yokoiclinic.jp/price/','5',96000),
+              ('https://yokoiclinic.jp/price/','10',192000),
+              ('https://yokoiclinic.jp/menu/メディカルダイエット/','2.5',54000),
+              ('https://yokoiclinic.jp/menu/メディカルダイエット/','5',96000),
+              ('https://yokoiclinic.jp/menu/メディカルダイエット/','7.5',144000),
+              ('https://yokoiclinic.jp/menu/メディカルダイエット/','10',192000)]
           cache={}
           for url,dose,expected in cases:
               if url not in cache:

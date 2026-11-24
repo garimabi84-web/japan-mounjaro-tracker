@@ -25,6 +25,12 @@ OLD=re.compile(r'旧価格|改定前|変更前|従来価格')
 EXCLUSIVE=re.compile(r'税抜|税別|税抜き|税抜価格')
 INCLUSIVE=re.compile(r'税込|税込み|税こみ')
 PER_MONTH=re.compile(r'月額|毎月|月あたり|1ヶ月あたり|一ヶ月あたり|月々|[/／]\s*月|月\s*単価')
+PRICE_PER_PEN=re.compile(r'(?:円|[¥￥])\s*[/／]\s*(?:本|ペン|キット)|(?:1本|一本)\s*(?:あたり|当たり|単価|価格)')
+# Minimum order quantity (2本ずつ販売) must never be treated as
+# quantity included in a nearby per-pen price (8,000円/本).
+ORDER_ONLY=re.compile(r'^\s*(?:ずつ|単位(?:で|から)?|ごと|以上|から(?:販売|処方)|より(?:販売|処方))')
+UNPRICED_BOX=re.compile(r'(?:円|[¥￥])\s*[/／]\s*(?:箱|セット)')
+
 MONEY_FORMAT=re.compile(r'^\s*(?:[¥￥]?\s*[\d,]+\s*(?:円|[¥￥])?\s*(?:\([^)]*\))?)\s*$')
 
 def norm(x):
@@ -45,7 +51,11 @@ def quantity(text, *, allow_month=True):
     text=norm(text)
     # A plan lasting 6 or 12 months is not a valid 3-month purchase offer,
     # even when a per-month payment happens to be low.
-    units={int(m[1]) for m in QTY.finditer(text)}
+    units={int(m[1]) for m in QTY.finditer(text)
+           if not ORDER_ONLY.match(text[m.end():])}
+    # "8,000円/本" is explicitly one pen, regardless of minimum
+    # purchase sizes such as "2本ずつ販売" in adjacent cells.
+    if PRICE_PER_PEN.search(text):units.add(1)
     units.update(int(m[1]) for m in WEEKS.finditer(text))
     if allow_month:
         units.update(int(m[1])*4 for m in MONTH.finditer(text))
@@ -164,6 +174,10 @@ def parse_official_v2(source,source_url=''):
                 # footer or plan duration appearing somewhere else on page.
                 if INTRO.search(label+' '+cells[j]) or OLD.search(label):continue
                 if OTHER.search(label):continue
+                # Per-box prices have no usable pen count without an
+                # explicit pack size (unrelated minimum order does not count).
+                if UNPRICED_BOX.search(cells[j]) and not quantity(label)[0] and not quantity(cells[j])[0]:
+                    continue
                 plan_info=plan(label+' '+cells[j],header=True)
                 if plan_info[0]:
                     unit=plan_info
@@ -304,6 +318,21 @@ def self_test():
         ('two_month_only_monthly_rate',"""<h3>マンジャロ</h3><table>
           <tr><th>用量</th><th>2ヶ月セット/月</th></tr>
           <tr><td>5mg</td><td>20,300円</td></tr></table>""",{}),
+        ('yokoi_min_order_is_not_pack_price',"""<h2>マンジャロ</h2>
+          <table><tr><th>用量</th><th>料金(税込)</th><th>備考</th></tr>
+          <tr><td>2.5mg</td><td>4,500円/本(税込)</td><td>2本ずつの販売となります。</td></tr>
+          <tr><td>5mg</td><td>8,000円/本(税込)</td><td>2本ずつの販売となります。</td></tr>
+          <tr><td>7.5mg</td><td>12,000円/本(税込)</td><td>2本ずつの販売となります。</td></tr>
+          <tr><td>10mg</td><td>16,000円/本(税込)</td><td>2本ずつの販売となります。</td></tr></table>""",
+          {'2.5':54000,'5':96000,'7.5':144000,'10':192000}),
+        ('yokoi_per_box_requires_explicit_pack_size',"""<h2>マンジャロ</h2>
+          <table><tr><th>項目</th><th>料金</th><th>料金</th></tr>
+          <tr><td>5mg</td><td>8,000円/本</td><td>16,000円/箱</td></tr>
+          <tr><td>10mg</td><td>16,000円/本</td><td>32,000円/箱</td></tr></table>""",
+          {'5':96000,'10':192000}),
+        ('reject_minimum_order_without_price_unit',"""<h2>マンジャロ</h2>
+          <table><tr><th>用量</th><th>価格</th><th>備考</th></tr>
+          <tr><td>5mg</td><td>8,000円</td><td>2本ずつの販売</td></tr></table>""",{}),
         ('unknownunit',"""<h2>マンジャロ</h2><table><tr><th>用量</th><th>価格</th></tr>
          <tr><td>10mg</td><td>30,000円</td></tr></table>""",{}),
         ('haab',"""<h2>マンジャロ料金</h2><table><tr><th>用量</th><th>1本価格</th></tr>

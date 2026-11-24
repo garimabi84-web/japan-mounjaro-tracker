@@ -57,7 +57,14 @@ def trusted(c,d):
         return False
     # Catch unit disagreement such as "5mg/4本 | ¥33,000" recorded as
     # 1 pen. This failed even the previous "verified" run.
-    source_units={int(v) for v in re.findall(r'(?<!\d)(1|2|4|8|12)\s*(?:本|ペン|キット)',fragment)}
+    # An explicit "円/本" means one pen; the phrase
+    # "2本ずつの販売" describes minimum purchase, NOT a 2-pen price.
+    if re.search(r'円\s*[/／]\s*(?:本|ペン|キット)',fragment):
+        if n!=1:return False
+    source_units={int(m[1]) for m in re.finditer(
+        r'(?<!\d)(1|2|4|8|12)\s*(?:本|ペン|キット)',fragment)
+        if not re.match(r'\s*(?:ずつ|単位(?:で|から)?|ごと|以上|から(?:販売|処方))',
+                        fragment[m.end():])}
     source_units.update(int(v)*4 for v in re.findall(
         r'(?<!\d)(1|2|3)\s*(?:ヶ月|か月|ヵ月|カ月)\s*分?',fragment))
     if source_units and (len(source_units)!=1 or n not in source_units):
@@ -110,6 +117,17 @@ def self_test():
     wrong_yen=copy.deepcopy(checked)
     wrong_yen['price_evidence']['5']['quote']='5mg 4本 8,000円'
     assert published_price(wrong_yen,'5') is None
+    yokoi_wrong=copy.deepcopy(checked)
+    yokoi_wrong['price_evidence']['5'].update({
+        'raw_yen':8000,'pens':2,'equivalent_12':48000,
+        'quote':'5mg | 8,000円/本(税込) | 2本ずつの販売となります。'})
+    yokoi_wrong['prices']['5']=48000
+    assert published_price(yokoi_wrong,'5') is None, 'Minimum purchase != amount priced'
+    yokoi_right=copy.deepcopy(yokoi_wrong)
+    yokoi_right['price_evidence']['5'].update({
+        'pens':1,'equivalent_12':96000})
+    yokoi_right['prices']['5']=96000
+    assert published_price(yokoi_right,'5')==96000
     femuse_wrong=copy.deepcopy(checked)
     femuse_wrong['price_evidence']['5'].update({
         'raw_yen':19600,'pens':12,'equivalent_12':19600,
