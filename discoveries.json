@@ -1,5 +1,5 @@
 {
-  "ran_at": "2026-11-23T20:35:44+09:00",
+  "ran_at": "2026-11-24T12:52:52+09:00",
   "source_status": [
     {
       "source": "bing_rss",
@@ -29,17 +29,9 @@
       "source": "bing_html",
       "query": "マウンジャロ 韓国人 旅行者 ホテル 配送 クリニック",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
       "fallback": true
-    },
-    {
-      "source": "bing_rss",
-      "query": "マンジャロ 12本 3ヶ月 外国人 処方",
-      "ok": true,
-      "items": 1,
-      "qualified": 0,
-      "fallback": false
     },
     {
       "source": "bing_html",
@@ -48,14 +40,6 @@
       "items": 0,
       "qualified": 0,
       "fallback": true
-    },
-    {
-      "source": "bing_rss",
-      "query": "マンジャロ 韓国語 予約 クリニック",
-      "ok": true,
-      "items": 10,
-      "qualified": 0,
-      "fallback": false
     },
     {
       "source": "bing_html",
@@ -69,7 +53,7 @@
       "source": "bing_rss",
       "query": "마운자로 일본 병원 예약 할인 3개월",
       "ok": true,
-      "items": 11,
+      "items": 7,
       "qualified": 0,
       "fallback": false
     },
@@ -77,7 +61,7 @@
       "source": "bing_html",
       "query": "마운자로 일본 병원 예약 할인 3개월",
       "ok": true,
-      "items": 11,
+      "items": 7,
       "qualified": 0,
       "fallback": true
     },
@@ -85,7 +69,7 @@
       "source": "bing_html",
       "query": "일본 마운자로 한국인 처방 클리닉 호텔 배송",
       "ok": true,
-      "items": 0,
+      "items": 10,
       "qualified": 0,
       "fallback": true
     },
@@ -98,10 +82,18 @@
       "fallback": true
     },
     {
-      "source": "bing_html",
+      "source": "bing_rss",
       "query": "マンジャロ 10mg 12本 クリニック キャンペーン",
       "ok": true,
       "items": 10,
+      "qualified": 0,
+      "fallback": false
+    },
+    {
+      "source": "bing_html",
+      "query": "マンジャロ 10mg 12本 クリニック キャンペーン",
+      "ok": true,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
@@ -114,64 +106,32 @@
       "fallback": true
     },
     {
-      "source": "bing_rss",
-      "query": "site:instagram.com 마운자로 일본 클리닉 예약",
-      "ok": true,
-      "items": 11,
-      "qualified": 0,
-      "fallback": false
-    },
-    {
       "source": "bing_html",
-      "query": "site:instagram.com 마운자로 일본 클리닉 예약",
+      "query": "site:x.com マンジャロ 韓国人 クリニック",
       "ok": true,
-      "items": 11,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
     {
       "source": "bing_html",
-      "query": "site:facebook.com マンジャロ 韓国人 クリニック",
+      "query": "site:x.com マンジャロ 期間限定 クリニック 価格",
+      "ok": true,
+      "items": 0,
+      "qualified": 0,
+      "fallback": true
+    },
+    {
+      "source": "bing_rss",
+      "query": "site:x.com マンジャロ 外国人 観光客 処方",
       "ok": true,
       "items": 10,
       "qualified": 0,
-      "fallback": true
-    },
-    {
-      "source": "bing_rss",
-      "query": "site:facebook.com 마운자로 일본 병원 할인",
-      "ok": true,
-      "items": 11,
-      "qualified": 0,
       "fallback": false
     },
     {
       "source": "bing_html",
-      "query": "site:facebook.com 마운자로 일본 병원 할인",
-      "ok": true,
-      "items": 11,
-      "qualified": 0,
-      "fallback": true
-    },
-    {
-      "source": "bing_rss",
-      "query": "site:threads.net マンジャロ クリニック 価格",
-      "ok": true,
-      "items": 1,
-      "qualified": 0,
-      "fallback": false
-    },
-    {
-      "source": "bing_html",
-      "query": "site:threads.net マンジャロ クリニック 価格",
-      "ok": true,
-      "items": 0,
-      "qualified": 0,
-      "fallback": true
-    },
-    {
-      "source": "bing_html",
-      "query": "マンジャロ 韓国人 旅行者 クリニック 横浜 予約",
+      "query": "site:x.com マンジャロ 外国人 観光客 処方",
       "ok": true,
       "items": 0,
       "qualified": 0,
@@ -179,15 +139,15 @@
     },
     {
       "source": "bing_rss",
-      "query": "マンジャロ 韓国人 旅行者 クリニック 金沢 予約",
+      "query": "site:instagram.com マンジャロ クリニック 韓国人",
       "ok": true,
-      "items": 1,
+      "items": 10,
       "qualified": 0,
       "fallback": false
     },
     {
       "source": "bing_html",
-      "query": "マンジャロ 韓国人 旅行者 クリニック 金沢 予約",
+      "query": "site:instagram.com マンジャロ クリニック 韓国人",
       "ok": true,
       "items": 0,
       "qualified": 0,
@@ -195,7 +155,7 @@
     },
     {
       "source": "bing_html",
-      "query": "マンジャロ 韓国人 旅行者 クリニック 米子 予約",
+      "query": "マンジャロ 韓国人 旅行者 クリニック 福岡 予約",
       "ok": true,
       "items": 0,
       "qualified": 0,
@@ -203,7 +163,23 @@
     },
     {
       "source": "bing_html",
-      "query": "マンジャロ 韓国人 旅行者 クリニック 高松 予約",
+      "query": "マンジャロ 韓国人 旅行者 クリニック 大阪 予約",
+      "ok": true,
+      "items": 0,
+      "qualified": 0,
+      "fallback": true
+    },
+    {
+      "source": "bing_html",
+      "query": "マンジャロ 韓国人 旅行者 クリニック 東京 予約",
+      "ok": true,
+      "items": 0,
+      "qualified": 0,
+      "fallback": true
+    },
+    {
+      "source": "bing_html",
+      "query": "マンジャロ 韓国人 旅行者 クリニック 対馬 予約",
       "ok": true,
       "items": 0,
       "qualified": 0,
@@ -221,7 +197,7 @@
       "source": "official_site_search",
       "query": "マンジャロ 12本 3ヶ月 料金 クリニック",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
@@ -237,15 +213,7 @@
       "source": "official_site_search",
       "query": "マンジャロ 2.5mg 5mg 7.5mg 10mg 料金表",
       "ok": true,
-      "items": 1,
-      "qualified": 0,
-      "fallback": false
-    },
-    {
-      "source": "official_site_search",
-      "query": "マンジャロ 2.5mg 5mg 7.5mg 10mg 料金表",
-      "ok": true,
-      "items": 0,
+      "items": 10,
       "qualified": 0,
       "fallback": true
     },
@@ -253,7 +221,7 @@
       "source": "official_site_search",
       "query": "マンジャロ 外国人 処方 料金 クリニック",
       "ok": true,
-      "items": 1,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
@@ -261,7 +229,15 @@
       "source": "official_site_search",
       "query": "マンジャロ 韓国語 予約 料金 医院",
       "ok": true,
-      "items": 0,
+      "items": 1,
+      "qualified": 0,
+      "fallback": false
+    },
+    {
+      "source": "official_site_search",
+      "query": "マンジャロ 韓国語 予約 料金 医院",
+      "ok": true,
+      "items": 1,
       "qualified": 0,
       "fallback": true
     },
@@ -275,7 +251,7 @@
     },
     {
       "source": "official_site_search",
-      "query": "マンジャロ 料金表 鳥取 クリニック",
+      "query": "マンジャロ 料金表 京都 クリニック",
       "ok": true,
       "items": 0,
       "qualified": 0,
@@ -283,25 +259,25 @@
     },
     {
       "source": "official_site_search",
-      "query": "マンジャロ 10mg 価格 広島 医院",
+      "query": "マンジャロ 10mg 価格 神戸 医院",
       "ok": true,
-      "items": 1,
+      "items": 0,
+      "qualified": 0,
+      "fallback": true
+    },
+    {
+      "source": "official_site_search",
+      "query": "マンジャロ 料金表 那覇 クリニック",
+      "ok": true,
+      "items": 13,
       "qualified": 0,
       "fallback": false
     },
     {
       "source": "official_site_search",
-      "query": "マンジャロ 10mg 価格 広島 医院",
+      "query": "マンジャロ 料金表 那覇 クリニック",
       "ok": true,
       "items": 0,
-      "qualified": 0,
-      "fallback": true
-    },
-    {
-      "source": "official_site_search",
-      "query": "マンジャロ 料金表 札幌 クリニック",
-      "ok": true,
-      "items": 1,
       "qualified": 0,
       "fallback": true
     },
@@ -310,7 +286,7 @@
       "query": "マンジャロ 10mg 料金 4本 クリニック",
       "ok": true,
       "items": 11,
-      "qualified": 1,
+      "qualified": 2,
       "fallback": true
     },
     {
@@ -333,7 +309,7 @@
       "source": "yahoo_x",
       "query": "マンジャロ 韓国人 クリニック",
       "ok": true,
-      "items": 17,
+      "items": 18,
       "qualified": 0,
       "fallback": false
     },
@@ -373,7 +349,7 @@
       "source": "google_news",
       "query": "マンジャロ 韓国人 クリニック 値段 予約",
       "ok": true,
-      "items": 7,
+      "items": 6,
       "qualified": 0,
       "fallback": false
     },
@@ -381,7 +357,7 @@
       "source": "google_news",
       "query": "マンジャロ 訪日外国人 クリニック 新規 価格",
       "ok": true,
-      "items": 7,
+      "items": 8,
       "qualified": 0,
       "fallback": false
     },
@@ -409,7 +385,7 @@
       "source": "public_directory_lead",
       "query": "https://sushijaro.app/ja/city/online",
       "ok": true,
-      "items": 6
+      "items": 7
     },
     {
       "source": "public_directory_lead",
@@ -426,8 +402,8 @@
     {
       "source": "public_directory_lead",
       "query": "https://manjaro-info.jp/clinic-search/",
-      "ok": false,
-      "reason": "HTTPSConnectionPool(host='manjaro-info.jp', port=443): Max retries exceeded with url: /clinic-search/ (Caused "
+      "ok": true,
+      "items": 0
     },
     {
       "source": "public_directory_lead",
@@ -454,9 +430,9 @@
       "items": 5
     }
   ],
-  "hits_this_run": 83,
+  "hits_this_run": 84,
   "channel_counts": {
-    "official": 1,
+    "official": 2,
     "sns": 2,
     "web": 80
   },
@@ -2359,7 +2335,7 @@
           "note": "행사 언급만 감지. 적용 기간과 12펜 가격은 공식 검증 전"
         },
         "first_seen": "2026-11-21T12:01:22+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -2367,7 +2343,7 @@
       "hit": {
         "url": "https://x.com/cocoronoco_e?utm_source=yjrealtime&utm_medium=search",
         "title": "X public post",
-        "snippet": "X public post 安いから買ってたシルククリニック。 マンジャロ外国人 に売りまくって在庫切れ起こしてる？そして発送も対応も遅れまくってるみたいでとりあえずやめておいた。ただイソトレチノイン1番安くてよかったのにそれも 予約 できない😿困ったねえ 雪 @ cocoronoco_e 昨日 10:28",
+        "snippet": "X public post 安いから買ってたシルククリニック。 マンジャロ外国人 に売りまくって在庫切れ起こしてる？そして発送も対応も遅れまくってるみたいでとりあえずやめておいた。ただイソトレチノイン1番安くてよかったのにそれも 予約 できない😿困ったねえ 雪 @ cocoronoco_e 11月22日(日) 10:28",
         "clinic_names": [
           "安いから買ってたシルククリニック"
         ],
@@ -2376,7 +2352,7 @@
         "query": "マンジャロ 外国人 予約",
         "event": null,
         "first_seen": "2026-11-22T12:46:52+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -2536,197 +2512,18 @@
       "key": "91044ca8cbc9481f8282",
       "hit": {
         "url": "https://shibuya-hifuka.jp/chiryou/detail/glp1.html",
-        "title": "渋谷駅前おおしま皮膚科",
-        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "title": "マンジャロ2.5mg 1か月分4本6,930円～｜GLP-1オンライン診療で処方可 - 渋谷駅前おおしま皮膚科",
+        "snippet": "Official-site page branding: ",
         "clinic_names": [
           "渋谷駅前おおしま皮膚科"
         ],
-        "channel": "web",
-        "source": "public_directory_lead",
-        "query": "https://kusurigo.vercel.app/mounjaro-ja.html",
-        "event": null,
+        "channel": "official",
+        "source": "official_site_search",
         "official_url_hint": "https://shibuya-hifuka.jp/chiryou/detail/glp1.html",
-        "first_seen": "2026-11-23T19:14:48+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
-      }
-    },
-    {
-      "key": "47a64d1aa886782c1766",
-      "hit": {
-        "url": "https://sushijaro.app/ja/clinic/nagamatsu-clinic",
-        "title": "永松医院",
-        "snippet": "Mounjaro clinic listing (name lead only)",
-        "clinic_names": [
-          "永松医院"
-        ],
-        "channel": "web",
-        "source": "public_directory_lead",
-        "query": "foreign-traveler clinic directory",
+        "query": "マンジャロ 10mg 料金 4本 クリニック",
         "event": null,
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
-      }
-    },
-    {
-      "key": "c2c9e4be383a90af6d6f",
-      "hit": {
-        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/megami-clinic/",
-        "title": "メガミクリニック",
-        "snippet": "Comparison directory clinic name lead only; no price copied.",
-        "clinic_names": [
-          "メガミクリニック"
-        ],
-        "channel": "web",
-        "source": "public_directory_lead",
-        "query": "https://mounjaro-map.jobby-time.com/ja/",
-        "event": null,
-        "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
-      }
-    },
-    {
-      "key": "3f879e8f31c479897006",
-      "hit": {
-        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/tokyo-silk-clinic/",
-        "title": "東京シルククリニック",
-        "snippet": "Comparison directory clinic name lead only; no price copied.",
-        "clinic_names": [
-          "東京シルククリニック"
-        ],
-        "channel": "web",
-        "source": "public_directory_lead",
-        "query": "https://mounjaro-map.jobby-time.com/ja/",
-        "event": null,
-        "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
-      }
-    },
-    {
-      "key": "b883fa2cee1a4d517a41",
-      "hit": {
-        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/matsuura-clinic-kanazawa/",
-        "title": "まつうらクリニック",
-        "snippet": "Comparison directory clinic name lead only; no price copied.",
-        "clinic_names": [
-          "まつうらクリニック"
-        ],
-        "channel": "web",
-        "source": "public_directory_lead",
-        "query": "https://mounjaro-map.jobby-time.com/ja/",
-        "event": null,
-        "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
-      }
-    },
-    {
-      "key": "f4e3b2834fcea63aa597",
-      "hit": {
-        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/hiroshima-circulation-clinic-nishi/",
-        "title": "広島循環器クリニック",
-        "snippet": "Comparison directory clinic name lead only; no price copied.",
-        "clinic_names": [
-          "広島循環器クリニック"
-        ],
-        "channel": "web",
-        "source": "public_directory_lead",
-        "query": "https://mounjaro-map.jobby-time.com/ja/",
-        "event": null,
-        "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
-      }
-    },
-    {
-      "key": "c412a19fdb01f0335c05",
-      "hit": {
-        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/chiaro-clinic-aurelia/",
-        "title": "Chiaroクリニック",
-        "snippet": "Comparison directory clinic name lead only; no price copied.",
-        "clinic_names": [
-          "Chiaroクリニック"
-        ],
-        "channel": "web",
-        "source": "public_directory_lead",
-        "query": "https://mounjaro-map.jobby-time.com/ja/",
-        "event": null,
-        "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
-      }
-    },
-    {
-      "key": "99fe5e78728a271f0c68",
-      "hit": {
-        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/nagoya-joy-clinic/",
-        "title": "名古屋ジョイクリニック",
-        "snippet": "Comparison directory clinic name lead only; no price copied.",
-        "clinic_names": [
-          "名古屋ジョイクリニック"
-        ],
-        "channel": "web",
-        "source": "public_directory_lead",
-        "query": "https://mounjaro-map.jobby-time.com/ja/",
-        "event": null,
-        "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
-      }
-    },
-    {
-      "key": "961743c6208f274a6006",
-      "hit": {
-        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/total-skin-clinic-fukuoka-tenjin/",
-        "title": "トータルスキンクリニック",
-        "snippet": "Comparison directory clinic name lead only; no price copied.",
-        "clinic_names": [
-          "トータルスキンクリニック"
-        ],
-        "channel": "web",
-        "source": "public_directory_lead",
-        "query": "https://mounjaro-map.jobby-time.com/ja/",
-        "event": null,
-        "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
-      }
-    },
-    {
-      "key": "494e74be1a4f23e7246a",
-      "hit": {
-        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/ushita-higashi-naika-hiroshima/",
-        "title": "うした東内科クリニック",
-        "snippet": "Comparison directory clinic name lead only; no price copied.",
-        "clinic_names": [
-          "うした東内科クリニック"
-        ],
-        "channel": "web",
-        "source": "public_directory_lead",
-        "query": "https://mounjaro-map.jobby-time.com/ja/",
-        "event": null,
-        "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
-      }
-    },
-    {
-      "key": "21404d0d02e321142e41",
-      "hit": {
-        "url": "https://mounjaro-map.jobby-time.com/ja/clinic/modena-clinic-tenjin/",
-        "title": "モデナクリニック",
-        "snippet": "Comparison directory clinic name lead only; no price copied.",
-        "clinic_names": [
-          "モデナクリニック"
-        ],
-        "channel": "web",
-        "source": "public_directory_lead",
-        "query": "https://mounjaro-map.jobby-time.com/ja/",
-        "event": null,
-        "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -2743,8 +2540,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -2761,8 +2558,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -2779,8 +2576,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -2797,8 +2594,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -2815,8 +2612,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -2833,8 +2630,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -2851,8 +2648,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -2869,8 +2666,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -2887,8 +2684,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -2905,8 +2702,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -2923,8 +2720,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -2941,8 +2738,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -2959,8 +2756,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -2977,8 +2774,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -2995,8 +2792,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -3013,8 +2810,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -3031,8 +2828,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -3049,8 +2846,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -3067,8 +2864,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -3085,8 +2882,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -3103,8 +2900,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -3121,8 +2918,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/online/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -3139,8 +2936,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/online/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -3157,8 +2954,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/online/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -3175,8 +2972,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/online/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -3193,8 +2990,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/online/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -3211,8 +3008,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/online/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -3229,8 +3026,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/online/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -3247,8 +3044,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/city/tokyo/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -3265,8 +3062,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/city/tokyo/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -3283,8 +3080,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/city/tokyo/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -3301,8 +3098,8 @@
         "query": "https://mounjaro-map.jobby-time.com/ja/city/tokyo/",
         "event": null,
         "official_url_hint": "",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -3319,8 +3116,8 @@
         "query": "https://kusurigo.vercel.app/mounjaro-ja.html",
         "event": null,
         "official_url_hint": "https://ubikebukuro.com/price",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     },
     {
@@ -3337,8 +3134,44 @@
         "query": "https://kusurigo.vercel.app/mounjaro-ja.html",
         "event": null,
         "official_url_hint": "https://aurelia-online.jp/",
-        "first_seen": "2026-11-23T20:35:44+09:00",
-        "last_seen": "2026-11-23T20:35:44+09:00"
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
+      }
+    },
+    {
+      "key": "fbff28d836b24a9948fa",
+      "hit": {
+        "url": "https://kichijojiclinic.com/price/",
+        "title": "吉祥寺まいにちクリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "吉祥寺まいにちクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://kusurigo.vercel.app/mounjaro-ja.html",
+        "event": null,
+        "official_url_hint": "https://kichijojiclinic.com/price/",
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
+      }
+    },
+    {
+      "key": "67037efa3ea90d10b153",
+      "hit": {
+        "url": "https://www.glp1online.jp/index.html",
+        "title": "GLP-1オンラインクリニック",
+        "snippet": "Comparison directory clinic name lead only; no price copied.",
+        "clinic_names": [
+          "GLP-1オンラインクリニック"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "https://kusurigo.vercel.app/mounjaro-ja.html",
+        "event": null,
+        "official_url_hint": "https://www.glp1online.jp/index.html",
+        "first_seen": "2026-11-24T12:52:52+09:00",
+        "last_seen": "2026-11-24T12:52:52+09:00"
       }
     }
   ],

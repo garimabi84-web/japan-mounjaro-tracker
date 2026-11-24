@@ -1,10 +1,11 @@
 {
-  "at": "2026-11-23T20:38:59+09:00",
-  "checked": 160,
+  "at": "2026-11-24T12:54:47+09:00",
+  "checked": 152,
   "result": {
-    "unavailable": 74,
+    "unavailable": 4,
     "removed": 15,
-    "passed": 71
+    "passed": 130,
+    "corrected": 3
   },
   "review": [
     {
@@ -26,20 +27,6 @@
       "id": "national-0a5636309260a7",
       "status": "removed",
       "url": "https://tsurumachi.jp/price-guide/",
-      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
-    },
-    {
-      "name": "医療法人　英愛会　ｙ’ｓ　ｃｌｉｎｉｃ",
-      "id": "national-c42ded090a3d64",
-      "status": "removed",
-      "url": "https://ysclinic.jp/price/",
-      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
-    },
-    {
-      "name": "医療法人社団かなめ会　田口クリニック",
-      "id": "national-0d2f0ed437d70d",
-      "status": "removed",
-      "url": "https://taguchi-clinic.jp/medical-diet.html",
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     },
     {
@@ -85,6 +72,20 @@
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     },
     {
+      "name": "医療法人　英愛会　ｙ’ｓ　ｃｌｉｎｉｃ",
+      "id": "national-c42ded090a3d64",
+      "status": "removed",
+      "url": "https://ysclinic.jp/price/",
+      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
+    },
+    {
+      "name": "医療法人社団かなめ会　田口クリニック",
+      "id": "national-0d2f0ed437d70d",
+      "status": "removed",
+      "url": "https://taguchi-clinic.jp/medical-diet.html",
+      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
+    },
+    {
       "name": "朝比奈クリニック",
       "id": "national-74496af43d6b1b",
       "status": "removed",
@@ -111,6 +112,27 @@
       "status": "removed",
       "url": "https://kanedaclinic.com/price",
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
+    },
+    {
+      "name": "パーソナルケアクリニック",
+      "id": "national-a95a142cf17490",
+      "status": "corrected",
+      "url": "https://personalcareclinic.jp/diet/#mounjaro",
+      "message": "가격 재확인 후 갱신"
+    },
+    {
+      "name": "医療法人社団　しおざき内科",
+      "id": "national-8b4b6a28efdf53",
+      "status": "corrected",
+      "url": "https://www.shiozaki-naika.jp/glp1diet/",
+      "message": "가격 재확인 후 갱신"
+    },
+    {
+      "name": "ピオーネ ビューティー クリニック",
+      "id": "national-eb9ce7a53b11a3",
+      "status": "corrected",
+      "url": "https://pione-beautyclinic.com/price/",
+      "message": "가격 재확인 후 갱신"
     }
   ]
 }
