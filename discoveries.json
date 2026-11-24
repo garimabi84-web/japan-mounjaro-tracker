@@ -1,13 +1,21 @@
 {
-  "ran_at": "2026-11-24T17:33:21+09:00",
+  "ran_at": "2026-11-24T17:49:49+09:00",
   "source_status": [
     {
       "source": "bing_html",
       "query": "韓国人 観光客 マンジャロ クリニック 予約",
       "ok": true,
-      "items": 0,
+      "items": 1,
       "qualified": 0,
       "fallback": true
+    },
+    {
+      "source": "bing_rss",
+      "query": "訪日韓国人 マンジャロ 処方 価格 LINE",
+      "ok": true,
+      "items": 10,
+      "qualified": 0,
+      "fallback": false
     },
     {
       "source": "bing_html",
@@ -21,7 +29,7 @@
       "source": "bing_html",
       "query": "マウンジャロ 韓国人 旅行者 ホテル 配送 クリニック",
       "ok": true,
-      "items": 1,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
@@ -42,18 +50,10 @@
       "fallback": true
     },
     {
-      "source": "bing_rss",
-      "query": "마운자로 일본 병원 예약 할인 3개월",
-      "ok": true,
-      "items": 7,
-      "qualified": 0,
-      "fallback": false
-    },
-    {
       "source": "bing_html",
       "query": "마운자로 일본 병원 예약 할인 3개월",
       "ok": true,
-      "items": 7,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
@@ -69,23 +69,15 @@
       "source": "bing_html",
       "query": "일본 마운자로 한국인 처방 클리닉 호텔 배송",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
       "fallback": true
-    },
-    {
-      "source": "bing_rss",
-      "query": "일본 마운자로 병원 SNS 이벤트 10mg",
-      "ok": true,
-      "items": 10,
-      "qualified": 0,
-      "fallback": false
     },
     {
       "source": "bing_html",
       "query": "일본 마운자로 병원 SNS 이벤트 10mg",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
@@ -93,7 +85,7 @@
       "source": "bing_html",
       "query": "マンジャロ 10mg 12本 クリニック キャンペーン",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
@@ -109,7 +101,7 @@
       "source": "bing_html",
       "query": "site:x.com マンジャロ 韓国人 クリニック",
       "ok": true,
-      "items": 0,
+      "items": 10,
       "qualified": 0,
       "fallback": true
     },
@@ -117,7 +109,7 @@
       "source": "bing_html",
       "query": "site:x.com マンジャロ 期間限定 クリニック 価格",
       "ok": true,
-      "items": 0,
+      "items": 10,
       "qualified": 0,
       "fallback": true
     },
@@ -125,9 +117,17 @@
       "source": "bing_html",
       "query": "site:x.com マンジャロ 外国人 観光客 処方",
       "ok": true,
-      "items": 0,
+      "items": 10,
       "qualified": 0,
       "fallback": true
+    },
+    {
+      "source": "bing_rss",
+      "query": "site:instagram.com マンジャロ クリニック 韓国人",
+      "ok": true,
+      "items": 10,
+      "qualified": 0,
+      "fallback": false
     },
     {
       "source": "bing_html",
@@ -138,20 +138,20 @@
       "fallback": true
     },
     {
-      "source": "bing_rss",
-      "query": "マンジャロ 韓国人 旅行者 クリニック 福岡 予約",
-      "ok": true,
-      "items": 10,
-      "qualified": 0,
-      "fallback": false
-    },
-    {
       "source": "bing_html",
       "query": "マンジャロ 韓国人 旅行者 クリニック 福岡 予約",
       "ok": true,
       "items": 0,
       "qualified": 0,
       "fallback": true
+    },
+    {
+      "source": "bing_rss",
+      "query": "マンジャロ 韓国人 旅行者 クリニック 大阪 予約",
+      "ok": true,
+      "items": 10,
+      "qualified": 0,
+      "fallback": false
     },
     {
       "source": "bing_html",
@@ -162,10 +162,18 @@
       "fallback": true
     },
     {
+      "source": "bing_rss",
+      "query": "マンジャロ 韓国人 旅行者 クリニック 東京 予約",
+      "ok": true,
+      "items": 1,
+      "qualified": 0,
+      "fallback": false
+    },
+    {
       "source": "bing_html",
       "query": "マンジャロ 韓国人 旅行者 クリニック 東京 予約",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
@@ -189,7 +197,7 @@
       "source": "official_site_search",
       "query": "マンジャロ 12本 3ヶ月 料金 クリニック",
       "ok": true,
-      "items": 10,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
@@ -208,14 +216,6 @@
       "items": 0,
       "qualified": 0,
       "fallback": true
-    },
-    {
-      "source": "official_site_search",
-      "query": "マンジャロ 外国人 処方 料金 クリニック",
-      "ok": true,
-      "items": 10,
-      "qualified": 0,
-      "fallback": false
     },
     {
       "source": "official_site_search",
@@ -262,14 +262,6 @@
       "query": "マンジャロ 料金表 那覇 クリニック",
       "ok": true,
       "items": 10,
-      "qualified": 0,
-      "fallback": false
-    },
-    {
-      "source": "official_site_search",
-      "query": "マンジャロ 料金表 那覇 クリニック",
-      "ok": true,
-      "items": 0,
       "qualified": 0,
       "fallback": true
     },
@@ -341,8 +333,8 @@
       "source": "google_news",
       "query": "マンジャロ 韓国人 クリニック 値段 予約",
       "ok": true,
-      "items": 8,
-      "qualified": 1,
+      "items": 6,
+      "qualified": 0,
       "fallback": false
     },
     {
@@ -422,63 +414,13 @@
       "items": 5
     }
   ],
-  "hits_this_run": 86,
+  "hits_this_run": 85,
   "channel_counts": {
     "official": 3,
     "sns": 2,
-    "web": 81
+    "web": 80
   },
-  "new_candidates": [
-    {
-      "id": "found-07b8937f2bcc",
-      "name": "永松医院 静岡 来院 現金可 +1 公式 処方 未確認 総額 20,000",
-      "source_url": "https://sushijaro.app/ja/clinic/nagamatsu-clinic?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-f2b110f9119c",
-      "name": "静岡美容外科橋本クリニック 静岡院 静岡 来院 公式 処方 未確認 カード可",
-      "source_url": "https://sushijaro.app/ja/clinic/hashimotoclinic?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-20199065f7d7",
-      "name": "eクリニック",
-      "source_url": "https://sushijaro.app/ja/clinic/eclinic-kanazawa?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-b386bc6d9588",
-      "name": "SNOW CLINIC",
-      "source_url": "https://sushijaro.app/ja/clinic/snow-clinic?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-76be2b8130a8",
-      "name": "シェリークリニック 徳島院 徳島 来院 現金可 +1 公式 処方 未確認 総額 66,660",
-      "source_url": "https://sushijaro.app/ja/clinic/sherieclinic-tokushima?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-5ec21c825013",
-      "name": "溝口ファミリークリニック 静岡 来院 現金可 +1 公式 処方 未確認 総額 29,700",
-      "source_url": "https://sushijaro.app/ja/clinic/mizo-cl?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    },
-    {
-      "id": "found-2fa1f7189863",
-      "name": "浜松中央クリニック 静岡 来院 現金可 +1 公式 処方 未確認 総額 36,300",
-      "source_url": "https://sushijaro.app/ja/clinic/0120077623?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
-    }
-  ],
+  "new_candidates": [],
   "archive": [
     {
       "key": "aa5890a7b9fcbdfd349f",
@@ -2338,7 +2280,7 @@
         "query": "マンジャロ 外国人 処方 料金 クリニック",
         "event": null,
         "first_seen": "2026-11-21T11:52:14+09:00",
-        "last_seen": "2026-11-24T17:33:21+09:00"
+        "last_seen": "2026-11-24T17:49:49+09:00"
       }
     },
     {
@@ -2377,7 +2319,7 @@
           "note": "행사 언급만 감지. 적용 기간과 12펜 가격은 공식 검증 전"
         },
         "first_seen": "2026-11-21T12:01:22+09:00",
-        "last_seen": "2026-11-24T17:33:21+09:00"
+        "last_seen": "2026-11-24T17:49:49+09:00"
       }
     },
     {
@@ -2394,7 +2336,7 @@
         "query": "マンジャロ 外国人 予約",
         "event": null,
         "first_seen": "2026-11-22T12:46:52+09:00",
-        "last_seen": "2026-11-24T17:33:21+09:00"
+        "last_seen": "2026-11-24T17:49:49+09:00"
       }
     },
     {
@@ -2565,24 +2507,7 @@
         "query": "マンジャロ 10mg 料金 4本 クリニック",
         "event": null,
         "first_seen": "2026-11-24T12:52:52+09:00",
-        "last_seen": "2026-11-24T17:33:21+09:00"
-      }
-    },
-    {
-      "key": "00d710e54d3ea371d7a9",
-      "hit": {
-        "url": "https://sushijaro.app/ja/clinic/nagamatsu-clinic?dose=2.5",
-        "title": "永松医院 静岡 来院 現金可 +1 公式 処方 未確認 総額 20,000",
-        "snippet": "Mounjaro clinic listing (name lead only)",
-        "clinic_names": [
-          "永松医院 静岡 来院 現金可 +1 公式 処方 未確認 総額 20,000"
-        ],
-        "channel": "web",
-        "source": "public_directory_lead",
-        "query": "foreign-traveler clinic directory",
-        "event": null,
-        "first_seen": "2026-11-24T17:33:21+09:00",
-        "last_seen": "2026-11-24T17:33:21+09:00"
+        "last_seen": "2026-11-24T17:49:49+09:00"
       }
     },
     {
@@ -2593,40 +2518,6 @@
         "snippet": "Mounjaro clinic listing (name lead only)",
         "clinic_names": [
           "静岡美容外科橋本クリニック 静岡院 静岡 来院 公式 処方 未確認 カード可"
-        ],
-        "channel": "web",
-        "source": "public_directory_lead",
-        "query": "foreign-traveler clinic directory",
-        "event": null,
-        "first_seen": "2026-11-24T17:33:21+09:00",
-        "last_seen": "2026-11-24T17:33:21+09:00"
-      }
-    },
-    {
-      "key": "d20cbaea24cb932ece14",
-      "hit": {
-        "url": "https://sushijaro.app/ja/clinic/eclinic-kanazawa?dose=2.5",
-        "title": "eクリニック",
-        "snippet": "Mounjaro clinic listing (name lead only)",
-        "clinic_names": [
-          "eクリニック"
-        ],
-        "channel": "web",
-        "source": "public_directory_lead",
-        "query": "foreign-traveler clinic directory",
-        "event": null,
-        "first_seen": "2026-11-24T17:33:21+09:00",
-        "last_seen": "2026-11-24T17:33:21+09:00"
-      }
-    },
-    {
-      "key": "631a3b601ddcb8b6bddb",
-      "hit": {
-        "url": "https://sushijaro.app/ja/clinic/snow-clinic?dose=2.5",
-        "title": "SNOW CLINIC",
-        "snippet": "Mounjaro clinic listing (name lead only)",
-        "clinic_names": [
-          "SNOW CLINIC"
         ],
         "channel": "web",
         "source": "public_directory_lead",

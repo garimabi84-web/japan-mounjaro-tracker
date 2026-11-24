@@ -1,5 +1,5 @@
 {
-  "ran_at": "2026-11-24T17:35:17+09:00",
+  "ran_at": "2026-11-24T17:51:45+09:00",
   "hashes": {
     "https://baba-totalcareclinic.com/private-practice": "a3b141b4cbfca1ad3b54e74deadf22cb8a07c87f600b944481c176fb5cd22646",
     "https://tokyosilkclinic.com/menu/909": "c0190473d9a440191263d00607834cf85f2f48c7314ecb749794c6f61a36f785",
@@ -204,7 +204,11 @@
     "https://natucli.com/price-list": "7b9e1bfdfa861126d539db19b0498b1260b46d3dca6ed3aa70236762bf4d8bdd",
     "https://asano-clinic.info/glp-1%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88": "757e1a7db21922604bbb8d3066a3077b5c079ca60cb5bedb76053ff69af33cca",
     "https://rikkyo-dps.com/medical/beauty/price_list": "c760d961c24e9f9d5560f0db408778e669ba19177264df87fd3da6cd8bc28ad3",
-    "https://m-skincare.com/treatment/mounjaro": "38f684e7e747922531bf5b44aefc52dd2bdd9f98b270b8494ebd18148a4ffb76"
+    "https://m-skincare.com/treatment/mounjaro": "38f684e7e747922531bf5b44aefc52dd2bdd9f98b270b8494ebd18148a4ffb76",
+    "https://iwhwc.com/menu/cosmetic-dermatology/mounjaro": "1a7ae908535ec61d9e77d97d36c5ef6e057b681ff81a4012721c6143d436c88a",
+    "https://mito-biyou.com/fee": "04d39455e270e7dc97e49b2ccf4e0aeb353e7020b543bf5b5bb0afa122909f51",
+    "https://www.kobe-beauty.jp/subject/mounjaro": "0ad89d64c22eee0a460fd4ca912b16059c1dcc6db44980ffe35ca15dafdbc09a",
+    "https://k-k-c.com/pricelist": "d0cf2497b96780d2a3af34ac6e8df6851ee79b13dc4c353aac627278cbd097ac"
   },
   "pending": {
     "https://origami-clinic.com/": {
