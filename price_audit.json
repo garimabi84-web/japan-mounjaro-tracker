@@ -1,11 +1,10 @@
 {
-  "at": "2026-11-24T17:22:56+09:00",
+  "at": "2026-11-24T17:24:45+09:00",
   "checked": 152,
   "result": {
-    "unavailable": 4,
+    "unavailable": 3,
     "removed": 15,
-    "passed": 132,
-    "corrected": 1
+    "passed": 134
   },
   "review": [
     {
@@ -112,13 +111,6 @@
       "status": "removed",
       "url": "https://kanedaclinic.com/price",
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
-    },
-    {
-      "name": "よこいクリニック",
-      "id": "national-bb036c2b332ddd",
-      "status": "corrected",
-      "url": "https://yokoiclinic.jp/menu/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%AB%E3%83%AB%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88/",
-      "message": "가격 재확인 후 갱신"
     }
   ]
 }

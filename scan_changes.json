@@ -1,77 +1,27 @@
 {
   "schema": 2,
   "latest": {
-    "at": "2026-11-24T17:22:57.160515+09:00",
-    "total": 6,
+    "at": "2026-11-24T17:24:45.835387+09:00",
+    "total": 1,
     "counts": {
       "new": 0,
       "verified": 0,
-      "price": 4,
+      "price": 0,
       "evidence": 0,
       "promotion": 0,
-      "info": 2,
+      "info": 1,
       "status": 0,
       "source": 0
     },
     "clinic_ids": [
-      "national-bb036c2b332ddd",
-      "national-c171cb28c36862",
-      "national-1ef1205003ede5"
+      "national-c171cb28c36862"
     ],
     "by_clinic": {
-      "national-bb036c2b332ddd": [
-        {
-          "type": "price",
-          "clinic_id": "national-bb036c2b332ddd",
-          "clinic": "よこいクリニック",
-          "dose": "2.5",
-          "before": 27000,
-          "after": 54000,
-          "label": "2.5mg 12펜 비교가 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-bb036c2b332ddd",
-          "clinic": "よこいクリニック",
-          "dose": "5",
-          "before": 48000,
-          "after": 96000,
-          "label": "5mg 12펜 비교가 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-bb036c2b332ddd",
-          "clinic": "よこいクリニック",
-          "dose": "7.5",
-          "before": 72000,
-          "after": 144000,
-          "label": "7.5mg 12펜 비교가 변경"
-        },
-        {
-          "type": "price",
-          "clinic_id": "national-bb036c2b332ddd",
-          "clinic": "よこいクリニック",
-          "dose": "10",
-          "before": 96000,
-          "after": 192000,
-          "label": "10mg 12펜 비교가 변경"
-        }
-      ],
       "national-c171cb28c36862": [
         {
           "type": "info",
           "clinic_id": "national-c171cb28c36862",
           "clinic": "しょう内科クリニック",
-          "label": "공식 가격 감사 상태 변경",
-          "before": "passed",
-          "after": "page_unavailable"
-        }
-      ],
-      "national-1ef1205003ede5": [
-        {
-          "type": "info",
-          "clinic_id": "national-1ef1205003ede5",
-          "clinic": "ＣＬＩＮＩＣＮｏ７名古屋伏見",
           "label": "공식 가격 감사 상태 변경",
           "before": "page_unavailable",
           "after": "passed"
@@ -80,53 +30,9 @@
     },
     "items": [
       {
-        "type": "price",
-        "clinic_id": "national-bb036c2b332ddd",
-        "clinic": "よこいクリニック",
-        "dose": "2.5",
-        "before": 27000,
-        "after": 54000,
-        "label": "2.5mg 12펜 비교가 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-bb036c2b332ddd",
-        "clinic": "よこいクリニック",
-        "dose": "5",
-        "before": 48000,
-        "after": 96000,
-        "label": "5mg 12펜 비교가 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-bb036c2b332ddd",
-        "clinic": "よこいクリニック",
-        "dose": "7.5",
-        "before": 72000,
-        "after": 144000,
-        "label": "7.5mg 12펜 비교가 변경"
-      },
-      {
-        "type": "price",
-        "clinic_id": "national-bb036c2b332ddd",
-        "clinic": "よこいクリニック",
-        "dose": "10",
-        "before": 96000,
-        "after": 192000,
-        "label": "10mg 12펜 비교가 변경"
-      },
-      {
         "type": "info",
         "clinic_id": "national-c171cb28c36862",
         "clinic": "しょう内科クリニック",
-        "label": "공식 가격 감사 상태 변경",
-        "before": "passed",
-        "after": "page_unavailable"
-      },
-      {
-        "type": "info",
-        "clinic_id": "national-1ef1205003ede5",
-        "clinic": "ＣＬＩＮＩＣＮｏ７名古屋伏見",
         "label": "공식 가격 감사 상태 변경",
         "before": "page_unavailable",
         "after": "passed"
@@ -134,6 +40,45 @@
     ]
   },
   "runs": [
+    {
+      "at": "2026-11-24T17:24:45.835387+09:00",
+      "total": 1,
+      "counts": {
+        "new": 0,
+        "verified": 0,
+        "price": 0,
+        "evidence": 0,
+        "promotion": 0,
+        "info": 1,
+        "status": 0,
+        "source": 0
+      },
+      "clinic_ids": [
+        "national-c171cb28c36862"
+      ],
+      "by_clinic": {
+        "national-c171cb28c36862": [
+          {
+            "type": "info",
+            "clinic_id": "national-c171cb28c36862",
+            "clinic": "しょう内科クリニック",
+            "label": "공식 가격 감사 상태 변경",
+            "before": "page_unavailable",
+            "after": "passed"
+          }
+        ]
+      },
+      "items": [
+        {
+          "type": "info",
+          "clinic_id": "national-c171cb28c36862",
+          "clinic": "しょう内科クリニック",
+          "label": "공식 가격 감사 상태 변경",
+          "before": "page_unavailable",
+          "after": "passed"
+        }
+      ]
+    },
     {
       "at": "2026-11-24T17:22:57.160515+09:00",
       "total": 6,
