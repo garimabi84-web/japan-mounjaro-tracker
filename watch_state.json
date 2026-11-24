@@ -1,5 +1,5 @@
 {
-  "ran_at": "2026-11-24T12:54:48+09:00",
+  "ran_at": "2026-11-24T17:35:17+09:00",
   "hashes": {
     "https://baba-totalcareclinic.com/private-practice": "a3b141b4cbfca1ad3b54e74deadf22cb8a07c87f600b944481c176fb5cd22646",
     "https://tokyosilkclinic.com/menu/909": "c0190473d9a440191263d00607834cf85f2f48c7314ecb749794c6f61a36f785",
@@ -13,7 +13,7 @@
     "https://milc.info/mnj/inbmnj/inbmnj-ja.html": "4ba4b89f737032293703418bc979d765c6545b7b3b2b25222090769c25b94c4e",
     "https://fontana-clinic.jp/kr": "ac9eefec3d1182d1912c8fb4519b50afdaa7683b35899d0d214501d659573816",
     "https://www.mbcf.jp/pricemenu": "c8925a627cbc81a295d519ac243dea615cb202b8f5229ee09416ea0002d63de9",
-    "https://modena-clinic.com/price": "ee7250e540477fc139cfc1e5b883659d581d072076fd5a3aa3d4ccdadf797b67",
+    "https://modena-clinic.com/price": "e0ba3d27cf1b7e329d3d162638e145d3ded67e62197f18f9aabb889087fc9c60",
     "https://kichijojiclinic.com/medical/medicaldiet_glp-1": "e57e73ce32cd601730381f28cf1c64fd8ec01a4b95bf948c47a1978ece52def2",
     "https://sio.clinic/medicalinformation/mounjaro": "0dd5030815fa644f748f07fb54224106d7b68011c5601776ea3d75a6816cfe0b",
     "https://www.shinjyuku-ekimae-clinic.info/naika/mounjaro.html": "c9cd8591f102a229f765ae7e9ed713f18df988b93c55399b9854be19402f5c09",
@@ -31,7 +31,7 @@
     "https://ubclinic-online.netlify.app/ko": "8647cdfcd5702d3380992e4c3463e0b8e258b7c4b128748da21051de153e4dfd",
     "https://tenjin.lapis-clinic.com/news/3665": "e80b0ed4ad5e4fc9c585eedf68aff1593ee310015eafb1a52866f04420e39ef7",
     "https://okachi-clinic.jp/price": "97dcb2169d4f8ea3a0205735f8a5d0cb2eb5c968051451dcc47b9c591fa756a2",
-    "https://japannetclinic.com/": "7ff94c9646be716f1868d38070a89702a17e865a1d2e046aabba690bb7f5f9b4",
+    "https://japannetclinic.com/": "0fed28f5bb21a16309809eaebaa425613fc7cde17e178e3e413a5a66d6be42f4",
     "https://mirai-medical.clinic/ko/mounjaro": "212e8d698be05f0913366df1440280ca80d16fa58a1d6c1c4f723e1f43ca1324",
     "https://x.com/MT_DIET_CLINIC": "31b9774a298c9efed558ce815ef252c75587b601e18a1f83fa1f4b662f6fbcf6",
     "https://shibuya-hifuka.jp/sidemenu/glp1_price.html": "8ee74fc46dcd174f483504640fb3a0acc81d981cd207704112c48cc9521d65b8",
@@ -160,7 +160,7 @@
     "https://midoriclinic.jp/price": "45a0faf56c3983710e045beb8fadf513b64d9395d416353c563ff887cb84bef3",
     "https://yamauchiclinic.com/mounjaro": "c6c9ba7b85dd270f46045f2a48186c952db2ce385fcc5db4c31357981e9a9a30",
     "https://kobe-ed-corona.jp/diet.html": "bbb87755d03bc373b7a16d07a0952191fa768325bcfd2b14d36ad6194753b30d",
-    "https://pione-beautyclinic.com/price": "7badf0c017997d68d55b19d0ea6adc880d0d1625756a96903a5c0a255124403e",
+    "https://pione-beautyclinic.com/price": "99fb822ab5c758839a4acb961f2ed4b79fd014ba556206a6e831211d6156d3af",
     "https://femtech-kagoshima.clinic/": "8719a07cae1e15f1add550e080bbd5922d4ac0044cf937a6d570202709d57a15",
     "https://chibabiyou.com/plan": "4719c1da8cef008de8547e631123f2f23a89d9f0dd39eba9dff44d727de32e3f",
     "https://primemediterrace.jp/medical.html": "5c15931be2be500e03bc8afb8297982b67c10112a90dabf61f63f54ed6c0f9be",
@@ -201,7 +201,10 @@
     "https://saclinic.net/price": "29143de1bcb6d49ec84b572df867d43760ed5d93a2d51b7e4a9d03a0c88824e1",
     "https://kyo-wa.tokyo.jp/cn/medical/diet": "0ea044c934f14f31e61a247d69b93f2d6b7b372f67ee0537d90eac60a8ea2797",
     "https://higasiguti.jp/page/diet.html": "5e31821443899f2b072039bbb7be688e40e42c76ceb6ca45836a4e34acac2c0a",
-    "https://natucli.com/price-list": "7b9e1bfdfa861126d539db19b0498b1260b46d3dca6ed3aa70236762bf4d8bdd"
+    "https://natucli.com/price-list": "7b9e1bfdfa861126d539db19b0498b1260b46d3dca6ed3aa70236762bf4d8bdd",
+    "https://asano-clinic.info/glp-1%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88": "757e1a7db21922604bbb8d3066a3077b5c079ca60cb5bedb76053ff69af33cca",
+    "https://rikkyo-dps.com/medical/beauty/price_list": "c760d961c24e9f9d5560f0db408778e669ba19177264df87fd3da6cd8bc28ad3",
+    "https://m-skincare.com/treatment/mounjaro": "38f684e7e747922531bf5b44aefc52dd2bdd9f98b270b8494ebd18148a4ffb76"
   },
   "pending": {
     "https://origami-clinic.com/": {
