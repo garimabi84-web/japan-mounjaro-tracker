@@ -1,19 +1,12 @@
 {
-  "at": "2026-11-25T12:57:11+09:00",
+  "at": "2026-11-26T12:53:49+09:00",
   "checked": 169,
   "result": {
-    "unavailable": 4,
+    "unavailable": 3,
     "removed": 15,
-    "passed": 150
+    "passed": 151
   },
   "review": [
-    {
-      "name": "すみだブレインハートクリニック",
-      "id": "found-4b057da3a3c6",
-      "status": "removed",
-      "url": "https://s-brainheart.com/%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD",
-      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
-    },
     {
       "name": "男たちの 美容外科 広島院",
       "id": "national-98760a47e1c99f",
@@ -26,6 +19,13 @@
       "id": "national-0a5636309260a7",
       "status": "removed",
       "url": "https://tsurumachi.jp/price-guide/",
+      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
+    },
+    {
+      "name": "すみだブレインハートクリニック",
+      "id": "found-4b057da3a3c6",
+      "status": "removed",
+      "url": "https://s-brainheart.com/%E3%83%9E%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%AD",
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     },
     {
@@ -85,13 +85,6 @@
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     },
     {
-      "name": "デジタルクリニック　渋谷院",
-      "id": "national-3ba16144280470",
-      "status": "removed",
-      "url": "https://digital-clinic.life/online/diet/",
-      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
-    },
-    {
       "name": "いけがき皮膚科",
       "id": "national-af1c31d0f63e16",
       "status": "removed",
@@ -103,6 +96,13 @@
       "id": "national-74496af43d6b1b",
       "status": "removed",
       "url": "https://asahina-clinic.jp/index.html",
+      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
+    },
+    {
+      "name": "デジタルクリニック　渋谷院",
+      "id": "national-3ba16144280470",
+      "status": "removed",
+      "url": "https://digital-clinic.life/online/diet/",
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     },
     {

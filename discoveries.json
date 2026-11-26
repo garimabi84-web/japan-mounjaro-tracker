@@ -1,5 +1,5 @@
 {
-  "ran_at": "2026-11-25T12:55:19+09:00",
+  "ran_at": "2026-11-26T12:51:58+09:00",
   "source_status": [
     {
       "source": "bing_html",
@@ -8,14 +8,6 @@
       "items": 0,
       "qualified": 0,
       "fallback": true
-    },
-    {
-      "source": "bing_rss",
-      "query": "訪日韓国人 マンジャロ 処方 価格 LINE",
-      "ok": true,
-      "items": 10,
-      "qualified": 0,
-      "fallback": false
     },
     {
       "source": "bing_html",
@@ -34,12 +26,28 @@
       "fallback": true
     },
     {
+      "source": "bing_rss",
+      "query": "マンジャロ 12本 3ヶ月 外国人 処方",
+      "ok": true,
+      "items": 1,
+      "qualified": 0,
+      "fallback": false
+    },
+    {
       "source": "bing_html",
       "query": "マンジャロ 12本 3ヶ月 外国人 処方",
       "ok": true,
-      "items": 0,
+      "items": 1,
       "qualified": 0,
       "fallback": true
+    },
+    {
+      "source": "bing_rss",
+      "query": "マンジャロ 韓国語 予約 クリニック",
+      "ok": true,
+      "items": 10,
+      "qualified": 0,
+      "fallback": false
     },
     {
       "source": "bing_html",
@@ -58,20 +66,44 @@
       "fallback": true
     },
     {
+      "source": "bing_rss",
+      "query": "일본 마운자로 한국인 처방 클리닉 호텔 배송",
+      "ok": true,
+      "items": 10,
+      "qualified": 0,
+      "fallback": false
+    },
+    {
       "source": "bing_html",
       "query": "일본 마운자로 한국인 처방 클리닉 호텔 배송",
       "ok": true,
-      "items": 0,
+      "items": 10,
       "qualified": 0,
       "fallback": true
+    },
+    {
+      "source": "bing_rss",
+      "query": "일본 마운자로 병원 SNS 이벤트 10mg",
+      "ok": true,
+      "items": 10,
+      "qualified": 0,
+      "fallback": false
     },
     {
       "source": "bing_html",
       "query": "일본 마운자로 병원 SNS 이벤트 10mg",
       "ok": true,
-      "items": 0,
+      "items": 10,
       "qualified": 0,
       "fallback": true
+    },
+    {
+      "source": "bing_rss",
+      "query": "マンジャロ 10mg 12本 クリニック キャンペーン",
+      "ok": true,
+      "items": 1,
+      "qualified": 0,
+      "fallback": false
     },
     {
       "source": "bing_html",
@@ -91,7 +123,7 @@
     },
     {
       "source": "bing_html",
-      "query": "site:instagram.com マンジャロ 3ヶ月 予約",
+      "query": "site:threads.net マンジャロ クリニック 価格",
       "ok": true,
       "items": 10,
       "qualified": 0,
@@ -99,23 +131,15 @@
     },
     {
       "source": "bing_html",
-      "query": "site:instagram.com 마운자로 일본 클리닉 예약",
+      "query": "site:x.com マンジャロ 韓国人 クリニック",
       "ok": true,
-      "items": 0,
-      "qualified": 0,
-      "fallback": true
-    },
-    {
-      "source": "bing_html",
-      "query": "site:facebook.com マンジャロ 韓国人 クリニック",
-      "ok": true,
-      "items": 0,
+      "items": 10,
       "qualified": 0,
       "fallback": true
     },
     {
       "source": "bing_rss",
-      "query": "site:facebook.com 마운자로 일본 병원 할인",
+      "query": "site:x.com マンジャロ 期間限定 クリニック 価格",
       "ok": true,
       "items": 10,
       "qualified": 0,
@@ -123,57 +147,49 @@
     },
     {
       "source": "bing_html",
-      "query": "site:facebook.com 마운자로 일본 병원 할인",
-      "ok": true,
-      "items": 0,
-      "qualified": 0,
-      "fallback": true
-    },
-    {
-      "source": "bing_html",
-      "query": "マンジャロ 韓国人 旅行者 クリニック 名古屋 予約",
-      "ok": true,
-      "items": 0,
-      "qualified": 0,
-      "fallback": true
-    },
-    {
-      "source": "bing_rss",
-      "query": "マンジャロ 韓国人 旅行者 クリニック 鳥取 予約",
-      "ok": true,
-      "items": 10,
-      "qualified": 0,
-      "fallback": false
-    },
-    {
-      "source": "bing_html",
-      "query": "マンジャロ 韓国人 旅行者 クリニック 鳥取 予約",
-      "ok": true,
-      "items": 0,
-      "qualified": 0,
-      "fallback": true
-    },
-    {
-      "source": "bing_rss",
-      "query": "マンジャロ 韓国人 旅行者 クリニック 広島 予約",
-      "ok": true,
-      "items": 10,
-      "qualified": 0,
-      "fallback": false
-    },
-    {
-      "source": "bing_html",
-      "query": "マンジャロ 韓国人 旅行者 クリニック 広島 予約",
-      "ok": true,
-      "items": 0,
-      "qualified": 0,
-      "fallback": true
-    },
-    {
-      "source": "bing_html",
-      "query": "マンジャロ 韓国人 旅行者 クリニック 札幌 予約",
+      "query": "site:x.com マンジャロ 期間限定 クリニック 価格",
       "ok": true,
       "items": 1,
+      "qualified": 0,
+      "fallback": true
+    },
+    {
+      "source": "bing_html",
+      "query": "site:x.com マンジャロ 外国人 観光客 処方",
+      "ok": true,
+      "items": 10,
+      "qualified": 0,
+      "fallback": true
+    },
+    {
+      "source": "bing_html",
+      "query": "マンジャロ 韓国人 旅行者 クリニック 京都 予約",
+      "ok": true,
+      "items": 0,
+      "qualified": 0,
+      "fallback": true
+    },
+    {
+      "source": "bing_html",
+      "query": "マンジャロ 韓国人 旅行者 クリニック 神戸 予約",
+      "ok": true,
+      "items": 0,
+      "qualified": 0,
+      "fallback": true
+    },
+    {
+      "source": "bing_html",
+      "query": "マンジャロ 韓国人 旅行者 クリニック 那覇 予約",
+      "ok": true,
+      "items": 10,
+      "qualified": 0,
+      "fallback": true
+    },
+    {
+      "source": "bing_html",
+      "query": "マンジャロ 韓国人 旅行者 クリニック 長崎 予約",
+      "ok": true,
+      "items": 0,
       "qualified": 0,
       "fallback": true
     },
@@ -189,9 +205,25 @@
       "source": "official_site_search",
       "query": "マンジャロ 12本 3ヶ月 料金 クリニック",
       "ok": true,
+      "items": 1,
+      "qualified": 0,
+      "fallback": false
+    },
+    {
+      "source": "official_site_search",
+      "query": "マンジャロ 12本 3ヶ月 料金 クリニック",
+      "ok": true,
       "items": 0,
       "qualified": 0,
       "fallback": true
+    },
+    {
+      "source": "official_site_search",
+      "query": "マンジャロ 自由診療 料金表 クリニック",
+      "ok": true,
+      "items": 10,
+      "qualified": 0,
+      "fallback": false
     },
     {
       "source": "official_site_search",
@@ -205,7 +237,7 @@
       "source": "official_site_search",
       "query": "マンジャロ 2.5mg 5mg 7.5mg 10mg 料金表",
       "ok": true,
-      "items": 0,
+      "items": 1,
       "qualified": 0,
       "fallback": true
     },
@@ -215,7 +247,23 @@
       "ok": true,
       "items": 10,
       "qualified": 0,
+      "fallback": false
+    },
+    {
+      "source": "official_site_search",
+      "query": "マンジャロ 外国人 処方 料金 クリニック",
+      "ok": true,
+      "items": 0,
+      "qualified": 0,
       "fallback": true
+    },
+    {
+      "source": "official_site_search",
+      "query": "マンジャロ 韓国語 予約 料金 医院",
+      "ok": true,
+      "items": 10,
+      "qualified": 0,
+      "fallback": false
     },
     {
       "source": "official_site_search",
@@ -235,7 +283,7 @@
     },
     {
       "source": "official_site_search",
-      "query": "マンジャロ 料金表 長崎 クリニック",
+      "query": "マンジャロ 料金表 米子 クリニック",
       "ok": true,
       "items": 0,
       "qualified": 0,
@@ -243,7 +291,7 @@
     },
     {
       "source": "official_site_search",
-      "query": "マンジャロ 10mg 価格 横浜 医院",
+      "query": "マンジャロ 10mg 価格 高松 医院",
       "ok": true,
       "items": 0,
       "qualified": 0,
@@ -251,7 +299,7 @@
     },
     {
       "source": "official_site_search",
-      "query": "マンジャロ 料金表 金沢 クリニック",
+      "query": "マンジャロ 料金表 福岡 クリニック",
       "ok": true,
       "items": 0,
       "qualified": 0,
@@ -278,14 +326,14 @@
       "query": "マンジャロ 外国人 処方 料金 クリニック",
       "ok": true,
       "items": 11,
-      "qualified": 0,
+      "qualified": 1,
       "fallback": true
     },
     {
       "source": "yahoo_x",
       "query": "マンジャロ 韓国人 クリニック",
       "ok": true,
-      "items": 22,
+      "items": 23,
       "qualified": 0,
       "fallback": false
     },
@@ -293,8 +341,8 @@
       "source": "yahoo_x",
       "query": "マンジャロ 外国人 予約",
       "ok": true,
-      "items": 2,
-      "qualified": 1,
+      "items": 5,
+      "qualified": 2,
       "fallback": false
     },
     {
@@ -325,15 +373,15 @@
       "source": "google_news",
       "query": "マンジャロ 韓国人 クリニック 値段 予約",
       "ok": true,
-      "items": 8,
-      "qualified": 1,
+      "items": 7,
+      "qualified": 0,
       "fallback": false
     },
     {
       "source": "google_news",
       "query": "マンジャロ 訪日外国人 クリニック 新規 価格",
       "ok": true,
-      "items": 7,
+      "items": 6,
       "qualified": 0,
       "fallback": false
     },
@@ -367,7 +415,7 @@
       "source": "public_directory_lead",
       "query": "https://sushijaro.app/ja/?f=korean",
       "ok": true,
-      "items": 15
+      "items": 16
     },
     {
       "source": "public_directory_lead",
@@ -406,24 +454,24 @@
       "items": 5
     }
   ],
-  "hits_this_run": 85,
+  "hits_this_run": 86,
   "channel_counts": {
-    "official": 2,
-    "sns": 2,
-    "web": 81
+    "official": 3,
+    "sns": 3,
+    "web": 80
   },
   "new_candidates": [
     {
-      "id": "found-a63c336e43e8",
-      "name": "モイストクリニック 東京 来院 ✓ 医療機関が直接確認 +3 韓国語 一部対応 カード可",
-      "source_url": "https://sushijaro.app/ja/clinic/clinic-3t?dose=2.5",
-      "source": "public_directory_lead",
-      "channel": "web"
+      "id": "found-22a0b4fb3bb0",
+      "name": "シルククリニック",
+      "source_url": "https://x.com/miu_uni_?utm_source=yjrealtime&utm_medium=search",
+      "source": "yahoo_x",
+      "channel": "sns"
     },
     {
-      "id": "found-c43f1de65438",
-      "name": "いわた脳神経外科クリニック",
-      "source_url": "https://sushijaro.app/ja/clinic/iwata-plus",
+      "id": "found-440c372f7bc3",
+      "name": "東京エブリークリニック 東京 来院・オンライン 韓国語対応 +1 公式 予約可",
+      "source_url": "https://sushijaro.app/ja/clinic/tokyoevery?dose=2.5",
       "source": "public_directory_lead",
       "channel": "web"
     }
@@ -2287,7 +2335,7 @@
         "query": "マンジャロ 外国人 処方 料金 クリニック",
         "event": null,
         "first_seen": "2026-11-21T11:52:14+09:00",
-        "last_seen": "2026-11-24T17:49:49+09:00"
+        "last_seen": "2026-11-26T12:51:58+09:00"
       }
     },
     {
@@ -2326,7 +2374,7 @@
           "note": "행사 언급만 감지. 적용 기간과 12펜 가격은 공식 검증 전"
         },
         "first_seen": "2026-11-21T12:01:22+09:00",
-        "last_seen": "2026-11-25T12:55:19+09:00"
+        "last_seen": "2026-11-26T12:51:58+09:00"
       }
     },
     {
@@ -2343,7 +2391,7 @@
         "query": "マンジャロ 外国人 予約",
         "event": null,
         "first_seen": "2026-11-22T12:46:52+09:00",
-        "last_seen": "2026-11-25T12:55:19+09:00"
+        "last_seen": "2026-11-26T12:51:58+09:00"
       }
     },
     {
@@ -2514,7 +2562,7 @@
         "query": "マンジャロ 10mg 料金 4本 クリニック",
         "event": null,
         "first_seen": "2026-11-24T12:52:52+09:00",
-        "last_seen": "2026-11-25T12:55:19+09:00"
+        "last_seen": "2026-11-26T12:51:58+09:00"
       }
     },
     {
@@ -2617,6 +2665,40 @@
         "event": null,
         "first_seen": "2026-11-25T12:55:19+09:00",
         "last_seen": "2026-11-25T12:55:19+09:00"
+      }
+    },
+    {
+      "key": "8a212367d1f9f9965e2c",
+      "hit": {
+        "url": "https://x.com/miu_uni_?utm_source=yjrealtime&utm_medium=search",
+        "title": "X public post",
+        "snippet": "X public post シルククリニックの マンジャロ のオンライン診察、 予約 取れないと思ったら 外国人 が マンジャロ 買いまくってるから？ miu @ miu_uni_ 昨日 20:05",
+        "clinic_names": [
+          "シルククリニック"
+        ],
+        "channel": "sns",
+        "source": "yahoo_x",
+        "query": "マンジャロ 外国人 予約",
+        "event": null,
+        "first_seen": "2026-11-26T12:51:58+09:00",
+        "last_seen": "2026-11-26T12:51:58+09:00"
+      }
+    },
+    {
+      "key": "aa7144a57909eb0149db",
+      "hit": {
+        "url": "https://sushijaro.app/ja/clinic/tokyoevery?dose=2.5",
+        "title": "東京エブリークリニック 東京 来院・オンライン 韓国語対応 +1 公式 予約可",
+        "snippet": "Mounjaro clinic listing (name lead only)",
+        "clinic_names": [
+          "東京エブリークリニック 東京 来院・オンライン 韓国語対応 +1 公式 予約可"
+        ],
+        "channel": "web",
+        "source": "public_directory_lead",
+        "query": "foreign-traveler clinic directory",
+        "event": null,
+        "first_seen": "2026-11-26T12:51:58+09:00",
+        "last_seen": "2026-11-26T12:51:58+09:00"
       }
     }
   ],
