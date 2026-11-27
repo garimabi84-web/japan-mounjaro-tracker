@@ -1,58 +1,84 @@
 {
   "schema": 2,
   "latest": {
-    "at": "2026-11-26T12:51:58+09:00",
-    "total": 12,
+    "at": "2026-11-27T12:53:25+09:00",
+    "total": 18,
     "counts": {
-      "new": 2,
+      "new": 3,
       "verified": 0,
       "price": 0,
       "evidence": 0,
       "promotion": 0,
-      "info": 1,
+      "info": 2,
       "status": 0,
-      "source": 9
+      "source": 13
     },
     "clinic_ids": [
-      "national-1ef1205003ede5",
-      "found-22a0b4fb3bb0",
-      "found-440c372f7bc3",
+      "national-fad218355176e4",
+      "national-d57d8ae18a058d",
+      "found-5c0e699a7a4b",
+      "found-3dd47e0dfa08",
+      "found-48847c4c5773",
       "monline",
-      "light-visit",
+      "aurelia",
+      "ehealth",
       "koyomi",
-      "sururim-tenjin",
+      "ub-online",
       "japan-net-clinic",
-      "national-8b4b6a28efdf53",
-      "national-eb9ce7a53b11a3",
+      "national-942d65bf1d8163",
+      "national-e705c0713c76fa",
+      "national-4b4ba668c3fa56",
+      "national-85c44f749e5461",
       "found-5603b6ae84fe",
-      "national-04267dadb4a4c2"
+      "national-42159345433b0a",
+      "national-bf5d703eefa05b"
     ],
     "by_clinic": {
-      "national-1ef1205003ede5": [
+      "national-fad218355176e4": [
         {
           "type": "info",
-          "clinic_id": "national-1ef1205003ede5",
-          "clinic": "ＣＬＩＮＩＣＮｏ７名古屋伏見",
+          "clinic_id": "national-fad218355176e4",
+          "clinic": "セントローズクリニック",
           "label": "공식 가격 감사 상태 변경",
-          "before": "page_unavailable",
-          "after": "passed"
+          "before": "passed",
+          "after": "page_unavailable"
         }
       ],
-      "found-22a0b4fb3bb0": [
+      "national-d57d8ae18a058d": [
+        {
+          "type": "info",
+          "clinic_id": "national-d57d8ae18a058d",
+          "clinic": "品川ストリングスクリニック",
+          "label": "공식 가격 감사 상태 변경",
+          "before": "passed",
+          "after": "page_unavailable"
+        }
+      ],
+      "found-5c0e699a7a4b": [
         {
           "type": "new",
-          "clinic_id": "found-22a0b4fb3bb0",
-          "clinic": "シルククリニック",
+          "clinic_id": "found-5c0e699a7a4b",
+          "clinic": "IANA CLINIC",
           "label": "신규 병원 후보",
           "before": "미등록",
           "after": "candidate"
         }
       ],
-      "found-440c372f7bc3": [
+      "found-3dd47e0dfa08": [
         {
           "type": "new",
-          "clinic_id": "found-440c372f7bc3",
-          "clinic": "東京エブリークリニック 東京 来院・オンライン 韓国語対応 +1 公式 予約可",
+          "clinic_id": "found-3dd47e0dfa08",
+          "clinic": "プライベートクリニック恵比寿 東京 来院・オンライン 公式 旅行者への処方 停止",
+          "label": "신규 병원 후보",
+          "before": "미등록",
+          "after": "candidate"
+        }
+      ],
+      "found-48847c4c5773": [
+        {
+          "type": "new",
+          "clinic_id": "found-48847c4c5773",
+          "clinic": "みんな幸せクリニック 大阪 来院 公式 旅行者への処方 停止",
           "label": "신규 병원 후보",
           "before": "미등록",
           "after": "candidate"
@@ -67,12 +93,21 @@
           "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
         }
       ],
-      "light-visit": [
+      "aurelia": [
         {
           "type": "source",
-          "clinic_id": "light-visit",
-          "clinic": "라이트 멘탈 클리닉 · 방문",
-          "source_url": "https://light-clinic.com/beautyhealthy/medical-diet/mounjaro",
+          "clinic_id": "aurelia",
+          "clinic": "AURELIA ONLINE / Chiaro 클리닉",
+          "source_url": "https://aurelia-online.jp/price.html",
+          "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+        }
+      ],
+      "ehealth": [
+        {
+          "type": "source",
+          "clinic_id": "ehealth",
+          "clinic": "이헬스 클리닉 신주쿠",
+          "source_url": "https://ehealthclinic.jp/news/2026/08/13/50503",
           "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
         }
       ],
@@ -85,12 +120,12 @@
           "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
         }
       ],
-      "sururim-tenjin": [
+      "ub-online": [
         {
           "type": "source",
-          "clinic_id": "sururim-tenjin",
-          "clinic": "슬림클리닉 · 후쿠오카 텐진 제휴지점",
-          "source_url": "https://kr.slim-clinic.beauty/",
+          "clinic_id": "ub-online",
+          "clinic": "UB 클리닉 온라인",
+          "source_url": "https://ubclinic-online.netlify.app/ko",
           "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
         }
       ],
@@ -103,21 +138,39 @@
           "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
         }
       ],
-      "national-8b4b6a28efdf53": [
+      "national-942d65bf1d8163": [
         {
           "type": "source",
-          "clinic_id": "national-8b4b6a28efdf53",
-          "clinic": "医療法人社団　しおざき内科",
-          "source_url": "https://www.shiozaki-naika.jp/glp1diet",
+          "clinic_id": "national-942d65bf1d8163",
+          "clinic": "シュシュレディースクリニック　戸田公園",
+          "source_url": "https://chouchou-c.jp/price",
           "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
         }
       ],
-      "national-eb9ce7a53b11a3": [
+      "national-e705c0713c76fa": [
         {
           "type": "source",
-          "clinic_id": "national-eb9ce7a53b11a3",
-          "clinic": "ピオーネ ビューティー クリニック",
-          "source_url": "https://pione-beautyclinic.com/price",
+          "clinic_id": "national-e705c0713c76fa",
+          "clinic": "医療法人　秀晄会　コムロ美容外科",
+          "source_url": "https://www.komuro-biyou.com/prices",
+          "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+        }
+      ],
+      "national-4b4ba668c3fa56": [
+        {
+          "type": "source",
+          "clinic_id": "national-4b4ba668c3fa56",
+          "clinic": "ＰＲＩＳＭ　Ｂｅａｕｔｙ　Ｃｌｉｎｉｃ　町田院",
+          "source_url": "https://prism-clinic.com/archives/price",
+          "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+        }
+      ],
+      "national-85c44f749e5461": [
+        {
+          "type": "source",
+          "clinic_id": "national-85c44f749e5461",
+          "clinic": "LOOPCLINIC",
+          "source_url": "https://loopclinic.jp/price-list",
           "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
         }
       ],
@@ -130,12 +183,21 @@
           "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
         }
       ],
-      "national-04267dadb4a4c2": [
+      "national-42159345433b0a": [
         {
           "type": "source",
-          "clinic_id": "national-04267dadb4a4c2",
-          "clinic": "鹿児島ラミュー 美容形成外科 クリニック",
-          "source_url": "https://lamu-kagoshima.com/menu/mounjaro",
+          "clinic_id": "national-42159345433b0a",
+          "clinic": "水戸中央美容形成クリニック",
+          "source_url": "https://mito-biyou.com/fee",
+          "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+        }
+      ],
+      "national-bf5d703eefa05b": [
+        {
+          "type": "source",
+          "clinic_id": "national-bf5d703eefa05b",
+          "clinic": "神戸北野クリニック",
+          "source_url": "https://k-k-c.com/pricelist",
           "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
         }
       ]
@@ -143,24 +205,40 @@
     "items": [
       {
         "type": "info",
-        "clinic_id": "national-1ef1205003ede5",
-        "clinic": "ＣＬＩＮＩＣＮｏ７名古屋伏見",
+        "clinic_id": "national-fad218355176e4",
+        "clinic": "セントローズクリニック",
         "label": "공식 가격 감사 상태 변경",
-        "before": "page_unavailable",
-        "after": "passed"
+        "before": "passed",
+        "after": "page_unavailable"
+      },
+      {
+        "type": "info",
+        "clinic_id": "national-d57d8ae18a058d",
+        "clinic": "品川ストリングスクリニック",
+        "label": "공식 가격 감사 상태 변경",
+        "before": "passed",
+        "after": "page_unavailable"
       },
       {
         "type": "new",
-        "clinic_id": "found-22a0b4fb3bb0",
-        "clinic": "シルククリニック",
+        "clinic_id": "found-5c0e699a7a4b",
+        "clinic": "IANA CLINIC",
         "label": "신규 병원 후보",
         "before": "미등록",
         "after": "candidate"
       },
       {
         "type": "new",
-        "clinic_id": "found-440c372f7bc3",
-        "clinic": "東京エブリークリニック 東京 来院・オンライン 韓国語対応 +1 公式 予約可",
+        "clinic_id": "found-3dd47e0dfa08",
+        "clinic": "プライベートクリニック恵比寿 東京 来院・オンライン 公式 旅行者への処方 停止",
+        "label": "신규 병원 후보",
+        "before": "미등록",
+        "after": "candidate"
+      },
+      {
+        "type": "new",
+        "clinic_id": "found-48847c4c5773",
+        "clinic": "みんな幸せクリニック 大阪 来院 公式 旅行者への処方 停止",
         "label": "신규 병원 후보",
         "before": "미등록",
         "after": "candidate"
@@ -174,9 +252,16 @@
       },
       {
         "type": "source",
-        "clinic_id": "light-visit",
-        "clinic": "라이트 멘탈 클리닉 · 방문",
-        "source_url": "https://light-clinic.com/beautyhealthy/medical-diet/mounjaro",
+        "clinic_id": "aurelia",
+        "clinic": "AURELIA ONLINE / Chiaro 클리닉",
+        "source_url": "https://aurelia-online.jp/price.html",
+        "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+      },
+      {
+        "type": "source",
+        "clinic_id": "ehealth",
+        "clinic": "이헬스 클리닉 신주쿠",
+        "source_url": "https://ehealthclinic.jp/news/2026/08/13/50503",
         "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
       },
       {
@@ -188,9 +273,9 @@
       },
       {
         "type": "source",
-        "clinic_id": "sururim-tenjin",
-        "clinic": "슬림클리닉 · 후쿠오카 텐진 제휴지점",
-        "source_url": "https://kr.slim-clinic.beauty/",
+        "clinic_id": "ub-online",
+        "clinic": "UB 클리닉 온라인",
+        "source_url": "https://ubclinic-online.netlify.app/ko",
         "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
       },
       {
@@ -202,16 +287,30 @@
       },
       {
         "type": "source",
-        "clinic_id": "national-8b4b6a28efdf53",
-        "clinic": "医療法人社団　しおざき内科",
-        "source_url": "https://www.shiozaki-naika.jp/glp1diet",
+        "clinic_id": "national-942d65bf1d8163",
+        "clinic": "シュシュレディースクリニック　戸田公園",
+        "source_url": "https://chouchou-c.jp/price",
         "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
       },
       {
         "type": "source",
-        "clinic_id": "national-eb9ce7a53b11a3",
-        "clinic": "ピオーネ ビューティー クリニック",
-        "source_url": "https://pione-beautyclinic.com/price",
+        "clinic_id": "national-e705c0713c76fa",
+        "clinic": "医療法人　秀晄会　コムロ美容外科",
+        "source_url": "https://www.komuro-biyou.com/prices",
+        "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+      },
+      {
+        "type": "source",
+        "clinic_id": "national-4b4ba668c3fa56",
+        "clinic": "ＰＲＩＳＭ　Ｂｅａｕｔｙ　Ｃｌｉｎｉｃ　町田院",
+        "source_url": "https://prism-clinic.com/archives/price",
+        "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+      },
+      {
+        "type": "source",
+        "clinic_id": "national-85c44f749e5461",
+        "clinic": "LOOPCLINIC",
+        "source_url": "https://loopclinic.jp/price-list",
         "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
       },
       {
@@ -223,14 +322,357 @@
       },
       {
         "type": "source",
-        "clinic_id": "national-04267dadb4a4c2",
-        "clinic": "鹿児島ラミュー 美容形成外科 クリニック",
-        "source_url": "https://lamu-kagoshima.com/menu/mounjaro",
+        "clinic_id": "national-42159345433b0a",
+        "clinic": "水戸中央美容形成クリニック",
+        "source_url": "https://mito-biyou.com/fee",
+        "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+      },
+      {
+        "type": "source",
+        "clinic_id": "national-bf5d703eefa05b",
+        "clinic": "神戸北野クリニック",
+        "source_url": "https://k-k-c.com/pricelist",
         "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
       }
     ]
   },
   "runs": [
+    {
+      "at": "2026-11-27T12:53:25+09:00",
+      "total": 18,
+      "counts": {
+        "new": 3,
+        "verified": 0,
+        "price": 0,
+        "evidence": 0,
+        "promotion": 0,
+        "info": 2,
+        "status": 0,
+        "source": 13
+      },
+      "clinic_ids": [
+        "national-fad218355176e4",
+        "national-d57d8ae18a058d",
+        "found-5c0e699a7a4b",
+        "found-3dd47e0dfa08",
+        "found-48847c4c5773",
+        "monline",
+        "aurelia",
+        "ehealth",
+        "koyomi",
+        "ub-online",
+        "japan-net-clinic",
+        "national-942d65bf1d8163",
+        "national-e705c0713c76fa",
+        "national-4b4ba668c3fa56",
+        "national-85c44f749e5461",
+        "found-5603b6ae84fe",
+        "national-42159345433b0a",
+        "national-bf5d703eefa05b"
+      ],
+      "by_clinic": {
+        "national-fad218355176e4": [
+          {
+            "type": "info",
+            "clinic_id": "national-fad218355176e4",
+            "clinic": "セントローズクリニック",
+            "label": "공식 가격 감사 상태 변경",
+            "before": "passed",
+            "after": "page_unavailable"
+          }
+        ],
+        "national-d57d8ae18a058d": [
+          {
+            "type": "info",
+            "clinic_id": "national-d57d8ae18a058d",
+            "clinic": "品川ストリングスクリニック",
+            "label": "공식 가격 감사 상태 변경",
+            "before": "passed",
+            "after": "page_unavailable"
+          }
+        ],
+        "found-5c0e699a7a4b": [
+          {
+            "type": "new",
+            "clinic_id": "found-5c0e699a7a4b",
+            "clinic": "IANA CLINIC",
+            "label": "신규 병원 후보",
+            "before": "미등록",
+            "after": "candidate"
+          }
+        ],
+        "found-3dd47e0dfa08": [
+          {
+            "type": "new",
+            "clinic_id": "found-3dd47e0dfa08",
+            "clinic": "プライベートクリニック恵比寿 東京 来院・オンライン 公式 旅行者への処方 停止",
+            "label": "신규 병원 후보",
+            "before": "미등록",
+            "after": "candidate"
+          }
+        ],
+        "found-48847c4c5773": [
+          {
+            "type": "new",
+            "clinic_id": "found-48847c4c5773",
+            "clinic": "みんな幸せクリニック 大阪 来院 公式 旅行者への処方 停止",
+            "label": "신규 병원 후보",
+            "before": "미등록",
+            "after": "candidate"
+          }
+        ],
+        "monline": [
+          {
+            "type": "source",
+            "clinic_id": "monline",
+            "clinic": "M 온라인 클리닉",
+            "source_url": "https://www.m-onlineclinic.com/pricing",
+            "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+          }
+        ],
+        "aurelia": [
+          {
+            "type": "source",
+            "clinic_id": "aurelia",
+            "clinic": "AURELIA ONLINE / Chiaro 클리닉",
+            "source_url": "https://aurelia-online.jp/price.html",
+            "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+          }
+        ],
+        "ehealth": [
+          {
+            "type": "source",
+            "clinic_id": "ehealth",
+            "clinic": "이헬스 클리닉 신주쿠",
+            "source_url": "https://ehealthclinic.jp/news/2026/08/13/50503",
+            "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+          }
+        ],
+        "koyomi": [
+          {
+            "type": "source",
+            "clinic_id": "koyomi",
+            "clinic": "코요미 클리닉",
+            "source_url": "https://koyomi-clinic.com/",
+            "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+          }
+        ],
+        "ub-online": [
+          {
+            "type": "source",
+            "clinic_id": "ub-online",
+            "clinic": "UB 클리닉 온라인",
+            "source_url": "https://ubclinic-online.netlify.app/ko",
+            "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+          }
+        ],
+        "japan-net-clinic": [
+          {
+            "type": "source",
+            "clinic_id": "japan-net-clinic",
+            "clinic": "JAPAN NET CLINIC (긴자)",
+            "source_url": "https://japannetclinic.com/",
+            "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+          }
+        ],
+        "national-942d65bf1d8163": [
+          {
+            "type": "source",
+            "clinic_id": "national-942d65bf1d8163",
+            "clinic": "シュシュレディースクリニック　戸田公園",
+            "source_url": "https://chouchou-c.jp/price",
+            "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+          }
+        ],
+        "national-e705c0713c76fa": [
+          {
+            "type": "source",
+            "clinic_id": "national-e705c0713c76fa",
+            "clinic": "医療法人　秀晄会　コムロ美容外科",
+            "source_url": "https://www.komuro-biyou.com/prices",
+            "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+          }
+        ],
+        "national-4b4ba668c3fa56": [
+          {
+            "type": "source",
+            "clinic_id": "national-4b4ba668c3fa56",
+            "clinic": "ＰＲＩＳＭ　Ｂｅａｕｔｙ　Ｃｌｉｎｉｃ　町田院",
+            "source_url": "https://prism-clinic.com/archives/price",
+            "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+          }
+        ],
+        "national-85c44f749e5461": [
+          {
+            "type": "source",
+            "clinic_id": "national-85c44f749e5461",
+            "clinic": "LOOPCLINIC",
+            "source_url": "https://loopclinic.jp/price-list",
+            "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+          }
+        ],
+        "found-5603b6ae84fe": [
+          {
+            "type": "source",
+            "clinic_id": "found-5603b6ae84fe",
+            "clinic": "西台仁愛歯科クリニック",
+            "source_url": "https://jinai.net/clinicfor-glp1",
+            "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+          }
+        ],
+        "national-42159345433b0a": [
+          {
+            "type": "source",
+            "clinic_id": "national-42159345433b0a",
+            "clinic": "水戸中央美容形成クリニック",
+            "source_url": "https://mito-biyou.com/fee",
+            "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+          }
+        ],
+        "national-bf5d703eefa05b": [
+          {
+            "type": "source",
+            "clinic_id": "national-bf5d703eefa05b",
+            "clinic": "神戸北野クリニック",
+            "source_url": "https://k-k-c.com/pricelist",
+            "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+          }
+        ]
+      },
+      "items": [
+        {
+          "type": "info",
+          "clinic_id": "national-fad218355176e4",
+          "clinic": "セントローズクリニック",
+          "label": "공식 가격 감사 상태 변경",
+          "before": "passed",
+          "after": "page_unavailable"
+        },
+        {
+          "type": "info",
+          "clinic_id": "national-d57d8ae18a058d",
+          "clinic": "品川ストリングスクリニック",
+          "label": "공식 가격 감사 상태 변경",
+          "before": "passed",
+          "after": "page_unavailable"
+        },
+        {
+          "type": "new",
+          "clinic_id": "found-5c0e699a7a4b",
+          "clinic": "IANA CLINIC",
+          "label": "신규 병원 후보",
+          "before": "미등록",
+          "after": "candidate"
+        },
+        {
+          "type": "new",
+          "clinic_id": "found-3dd47e0dfa08",
+          "clinic": "プライベートクリニック恵比寿 東京 来院・オンライン 公式 旅行者への処方 停止",
+          "label": "신규 병원 후보",
+          "before": "미등록",
+          "after": "candidate"
+        },
+        {
+          "type": "new",
+          "clinic_id": "found-48847c4c5773",
+          "clinic": "みんな幸せクリニック 大阪 来院 公式 旅行者への処方 停止",
+          "label": "신규 병원 후보",
+          "before": "미등록",
+          "after": "candidate"
+        },
+        {
+          "type": "source",
+          "clinic_id": "monline",
+          "clinic": "M 온라인 클리닉",
+          "source_url": "https://www.m-onlineclinic.com/pricing",
+          "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+        },
+        {
+          "type": "source",
+          "clinic_id": "aurelia",
+          "clinic": "AURELIA ONLINE / Chiaro 클리닉",
+          "source_url": "https://aurelia-online.jp/price.html",
+          "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+        },
+        {
+          "type": "source",
+          "clinic_id": "ehealth",
+          "clinic": "이헬스 클리닉 신주쿠",
+          "source_url": "https://ehealthclinic.jp/news/2026/08/13/50503",
+          "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+        },
+        {
+          "type": "source",
+          "clinic_id": "koyomi",
+          "clinic": "코요미 클리닉",
+          "source_url": "https://koyomi-clinic.com/",
+          "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+        },
+        {
+          "type": "source",
+          "clinic_id": "ub-online",
+          "clinic": "UB 클리닉 온라인",
+          "source_url": "https://ubclinic-online.netlify.app/ko",
+          "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+        },
+        {
+          "type": "source",
+          "clinic_id": "japan-net-clinic",
+          "clinic": "JAPAN NET CLINIC (긴자)",
+          "source_url": "https://japannetclinic.com/",
+          "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+        },
+        {
+          "type": "source",
+          "clinic_id": "national-942d65bf1d8163",
+          "clinic": "シュシュレディースクリニック　戸田公園",
+          "source_url": "https://chouchou-c.jp/price",
+          "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+        },
+        {
+          "type": "source",
+          "clinic_id": "national-e705c0713c76fa",
+          "clinic": "医療法人　秀晄会　コムロ美容外科",
+          "source_url": "https://www.komuro-biyou.com/prices",
+          "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+        },
+        {
+          "type": "source",
+          "clinic_id": "national-4b4ba668c3fa56",
+          "clinic": "ＰＲＩＳＭ　Ｂｅａｕｔｙ　Ｃｌｉｎｉｃ　町田院",
+          "source_url": "https://prism-clinic.com/archives/price",
+          "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+        },
+        {
+          "type": "source",
+          "clinic_id": "national-85c44f749e5461",
+          "clinic": "LOOPCLINIC",
+          "source_url": "https://loopclinic.jp/price-list",
+          "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+        },
+        {
+          "type": "source",
+          "clinic_id": "found-5603b6ae84fe",
+          "clinic": "西台仁愛歯科クリニック",
+          "source_url": "https://jinai.net/clinicfor-glp1",
+          "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+        },
+        {
+          "type": "source",
+          "clinic_id": "national-42159345433b0a",
+          "clinic": "水戸中央美容形成クリニック",
+          "source_url": "https://mito-biyou.com/fee",
+          "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+        },
+        {
+          "type": "source",
+          "clinic_id": "national-bf5d703eefa05b",
+          "clinic": "神戸北野クリニック",
+          "source_url": "https://k-k-c.com/pricelist",
+          "label": "공식 출처 내용 변경 감지 · 가격 재확인 필요"
+        }
+      ]
+    },
     {
       "at": "2026-11-26T12:51:58+09:00",
       "total": 12,
