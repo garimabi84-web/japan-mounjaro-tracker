@@ -1,10 +1,11 @@
 {
-  "at": "2026-11-27T12:55:05+09:00",
-  "checked": 169,
+  "at": "2026-11-28T12:52:10+09:00",
+  "checked": 170,
   "result": {
-    "unavailable": 5,
-    "removed": 15,
-    "passed": 149
+    "unavailable": 3,
+    "removed": 18,
+    "passed": 148,
+    "corrected": 1
   },
   "review": [
     {
@@ -26,20 +27,6 @@
       "id": "national-0a5636309260a7",
       "status": "removed",
       "url": "https://tsurumachi.jp/price-guide/",
-      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
-    },
-    {
-      "name": "医療法人　英愛会　ｙ’ｓ　ｃｌｉｎｉｃ",
-      "id": "national-c42ded090a3d64",
-      "status": "removed",
-      "url": "https://ysclinic.jp/price/",
-      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
-    },
-    {
-      "name": "医療法人社団かなめ会　田口クリニック",
-      "id": "national-0d2f0ed437d70d",
-      "status": "removed",
-      "url": "https://taguchi-clinic.jp/medical-diet.html",
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     },
     {
@@ -85,6 +72,20 @@
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     },
     {
+      "name": "医療法人　英愛会　ｙ’ｓ　ｃｌｉｎｉｃ",
+      "id": "national-c42ded090a3d64",
+      "status": "removed",
+      "url": "https://ysclinic.jp/price/",
+      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
+    },
+    {
+      "name": "医療法人社団かなめ会　田口クリニック",
+      "id": "national-0d2f0ed437d70d",
+      "status": "removed",
+      "url": "https://taguchi-clinic.jp/medical-diet.html",
+      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
+    },
+    {
       "name": "朝比奈クリニック",
       "id": "national-74496af43d6b1b",
       "status": "removed",
@@ -110,6 +111,34 @@
       "id": "national-d6d254b350b2f2",
       "status": "removed",
       "url": "https://kanedaclinic.com/price",
+      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
+    },
+    {
+      "name": "医療法人えびす会　えびすクリニック",
+      "id": "national-70dc9b312f70cc",
+      "status": "corrected",
+      "url": "https://ebisu-naika.com/glp-1%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88/",
+      "message": "가격 재확인 후 갱신"
+    },
+    {
+      "name": "ＣＬＩＮＩＣＮｏ７名古屋伏見",
+      "id": "national-1ef1205003ede5",
+      "status": "removed",
+      "url": "https://cl7.jp/beauty/medical-diet/",
+      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
+    },
+    {
+      "name": "あきしま駅前泌尿器科内科",
+      "id": "national-8dda4943053060",
+      "status": "removed",
+      "url": "https://akishima-hinyouki.com/%E6%96%99%E9%87%91%E8%A1%A8",
+      "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
+    },
+    {
+      "name": "鹿児島ラミュー 美容形成外科 クリニック",
+      "id": "national-04267dadb4a4c2",
+      "status": "removed",
+      "url": "https://lamu-kagoshima.com/menu/mounjaro/",
       "message": "처방 중단 판단이 아니라 가격 자동검증 보류. 실제 공식 판매표는 개별 확인 필요."
     }
   ]
